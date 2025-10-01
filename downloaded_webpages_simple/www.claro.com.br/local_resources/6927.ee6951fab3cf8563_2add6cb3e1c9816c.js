@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[6927],{56927:function(e,n,r){r.r(n);var a=r(85893);r(67294);n.default=function(e){var n=e.children;return(0,a.jsx)("div",{className:"cms-Skeleton-container","aria-busy":"true",children:n})}}}]);

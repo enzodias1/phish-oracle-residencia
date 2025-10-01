@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python.org Jobs Feed</title><link>https://www.python.org/jobs/</link><description>Python jobs from Python.org</description><atom:link href="https://www.python.org/jobs/feed/rss/" rel="self"/><language>en-us</language><lastBuildDate>Wed, 01 Oct 2025 05:37:44 +0000</lastBuildDate><item><title>Senior Python Software Engineer, Podproza</title><link>https://www.python.org/jobs/7972/</link><description>Remote / EU time zone / EU / UK / Dubai, Czech Republic
+&lt;p&gt;Prague / Berlin based or Remote within EU time zone +/- 2 hrs&lt;/p&gt;
+&lt;p&gt;About Podproza:&lt;/p&gt;
+&lt;p&gt;Join our innovative team at Podproza, where we are committed to making blockchain and
+next-generation payments safe and transparent for forward-thinking businesses. We provide
+strategic insights, data-driven analysis, and unmatched expertise in on-chain security
+solutions, offering valuable peace of mind to leading blockchain innovators.&lt;/p&gt;
+&lt;p&gt;Role Overview:&lt;/p&gt;
+&lt;p&gt;As a Senior Python Software Engineer at Podproza, you’ll take a lead role in the development
+of our backend systems, working on cutting-edge blockchain projects and data-driven tools
+to combat cryptocurrency fraud and financial crime. You’ll work in a collaborative,
+international team to build scalable, high-performance Python applications that integrate
+seamlessly with our analytics pipelines and distributed systems.&lt;/p&gt;
+&lt;p&gt;Key Responsibilities:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Design and develop backend systems using Python (3.11+) and modern frameworks such as FastAPI.&lt;/li&gt;
+&lt;li&gt;Architect and implement scalable, secure, and reliable software systems for blockchain analytics and monitoring.&lt;/li&gt;
+&lt;li&gt;Collaborate with data scientists and DevOps engineers to build and deploy machine learning models and data pipelines.&lt;/li&gt;
+&lt;li&gt;Build and maintain RESTful APIs, microservices, and automated workflows.&lt;/li&gt;
+&lt;li&gt;Develop tools for process automation, data ingestion, and system optimization.&lt;/li&gt;
+&lt;li&gt;Perform code reviews, implement unit/integration tests, and follow deployment best practices (GitLab CI, Continuous Delivery, etc.).&lt;/li&gt;
+&lt;li&gt;Mentor team members, share knowledge, and contribute to engineering standards and best practices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Your Qualifications:&lt;/p&gt;
+&lt;p&gt;Required:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;8+ years in software development, with a focus on Python in production environments.&lt;/li&gt;
+&lt;li&gt;Strong knowledge of Python core concepts, including asynchronous programming, typing, and memory management.&lt;/li&gt;
+&lt;li&gt;Solid knowledge of standard algorithms and data structures.&lt;/li&gt;
+&lt;li&gt;Experience with at least one Python framework (FastAPI, Flask, or Django).&lt;/li&gt;
+&lt;li&gt;Solid understanding of software architecture, system design, and backend engineering.&lt;/li&gt;
+&lt;li&gt;Familiarity with CI/CD pipelines, Docker, and DevOps workflows.&lt;/li&gt;
+&lt;li&gt;Experience working with relational and/or NoSQL databases (PostgreSQL, MongoDB, etc.).&lt;/li&gt;
+&lt;li&gt;Excellent problem-solving skills and the ability to work independently.&lt;/li&gt;
+&lt;li&gt;Fluency in English (written and spoken); Czech is not required.&lt;/li&gt;
+&lt;li&gt;Bachelor’s or Master’s degree in Computer Science, Engineering, or a related field.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bonus Points (Preferred Skills):&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Exposure to blockchain technology, Web3, or on-chain analytics.&lt;/li&gt;
+&lt;li&gt;Experience with graph algorithms.&lt;/li&gt;
+&lt;li&gt;Experience with cloud platforms like AWS, GCP, or Azure.&lt;/li&gt;
+&lt;li&gt;Familiarity with Spark, Redis, or Kafka.&lt;/li&gt;
+&lt;li&gt;Knowledge of data science pipelines, ETL processes, or machine learning model&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;deployment.&lt;/p&gt;
+&lt;p&gt;Technologies We Use:&lt;/p&gt;
+&lt;p&gt;Python, FastAPI, Spark, Redis, PostgreSQL, Docker, Kubernetes, GitLab CI, AWS, GCP.&lt;/p&gt;
+</description><guid>https://www.python.org/jobs/7972/</guid></item><item><title>Backend Python Developer, Client of eSearchPro</title><link>https://www.python.org/jobs/7969/</link><description>Remote, United States, United States
+&lt;p&gt;TECH | Backend Python Developer
+3-5 years of experience
+Location: United States - Remote
+NOTE: Must be authorized to work in the United States as secret clearance may be needed in the future
+Hours: East coast hours&lt;/p&gt;
+&lt;p&gt;Why This Role Matters:
+Are you passionate about building robust, high-performance backend systems? As a Backend Python Developer, you’ll play a key role in shaping the company’s technology initiatives, collaborating closely with front-end developers, product owners, and QA engineers to deliver cutting-edge software solutions. You’ll work with modern tools like FastAPI, NATS, and Jira, contributing to projects that have real-world impact across Defense, Transportation, Utilities, Public Safety, and Telecoms.&lt;/p&gt;
+&lt;p&gt;What You’ll Do:
+Design, implement, and maintain clean, efficient, and reusable Python code for backend services.
+Collaborate with cross-functional teams to deliver high-quality, scalable software solutions.
+Leverage modern version control practices with Git to streamline development.
+Contribute to innovative solutions that solve complex, mission-critical challenges.&lt;/p&gt;
+
+&lt;p&gt;Skills &amp;amp; Experience We’re Excited About:
+Backend Python Development – Proven experience building and maintaining backend systems.
+FastAPI – Experience building APIs and services using the FastAPI framework.
+Git – Strong version control skills to manage code efficiently.
+Jira – Comfortable tracking tasks and collaborating using Jira.
+Bonus Expertise: SDR (Software Defined Radio), NATS.io, NumPy/SciPy for scientific computing, and RF (Radio Frequency) knowledge.&lt;/p&gt;
+</description><guid>https://www.python.org/jobs/7969/</guid></item><item><title>Open-Source Developer (Data Science Libraries), Fourier Client</title><link>https://www.python.org/jobs/7968/</link><description>London or New York, USA or UK
+&lt;p&gt;My Client is hiring a Senior Software Engineer for a team that builds internal tools to empower their developers, ensuring they have everything needed to succeed. Their code is critical to their business and as they are moving towards a more open source way of working as opposed to building everything internally, you will collaborate with Engineers and Data Scientists to create impactful software using Python.&lt;/p&gt;
+&lt;p&gt;This is a very high impact role and will offer very high renumeration in relation to this.&lt;/p&gt;
+
+&lt;ul class="simple"&gt;
+&lt;li&gt;Python expert.&lt;/li&gt;
+&lt;li&gt;Have worked on open source Data Science libraries.&lt;/li&gt;
+&lt;li&gt;Passion for improving technology and building things.&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7968/</guid></item><item><title>Backend Engineer, Search Atlas</title><link>https://www.python.org/jobs/7967/</link><description>Abuja, Nigeria
+&lt;p&gt;Fully Remote – Work From Anywhere
+Timezone: GMT+1 or EST timezones&lt;/p&gt;
+&lt;p&gt;Hi, we’re Search Atlas Group! We’re a rapidly growing SEO software company focused on engineering products and services that help websites improve their performance on Google. From Fortune 500 companies to leading Silicon Valley startups, our clients trust us to drive results.&lt;/p&gt;
+&lt;p&gt;We’re looking for a Backend Engineer to help us continue to build and scale our innovative products.&lt;/p&gt;
+
+&lt;p&gt;Company Tech Stack&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Backend: Django, Python 3, Docker Compose&lt;/li&gt;
+&lt;li&gt;Frontend: Typescript, ReactJS + NextJS Framework&lt;/li&gt;
+&lt;li&gt;DevOps: GCP, Kubernetes, ArgoCD, GitLab&lt;/li&gt;
+&lt;li&gt;DBs: Postgres, ClickHouse, Redis&lt;/li&gt;
+&lt;li&gt;Tasks Queue: Celery&lt;/li&gt;
+&lt;li&gt;Scrum: GitLab Boards&lt;/li&gt;
+&lt;li&gt;Local Development Environments: Mac OS or Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Requirements&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;5+ years of experience with Python/Node&lt;/li&gt;
+&lt;li&gt;5+ years of experience with Django Rest Framework&lt;/li&gt;
+&lt;li&gt;Strong experience writing test cases and TDD&lt;/li&gt;
+&lt;li&gt;3+ years of experience with MySQL or Postgres&lt;/li&gt;
+&lt;li&gt;LLM experience with Langchain/LangGraph (bonus)&lt;/li&gt;
+&lt;li&gt;Use of Cursor in day to day work&lt;/li&gt;
+&lt;li&gt;Knowledge of Scrum methodologies&lt;/li&gt;
+&lt;li&gt;Basic understanding of Flake8 code quality&lt;/li&gt;
+&lt;li&gt;Frontend experience with ReactJS &amp;amp;amp; Typescript is a nice bonus!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Responsibilities&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Develop and maintain scalable backend applications with Python and Django&lt;/li&gt;
+&lt;li&gt;Implement APIs and work with databases like MySQL and Postgres&lt;/li&gt;
+&lt;li&gt;Collaborate with cross-functional teams to design and implement new product features&lt;/li&gt;
+&lt;li&gt;Write and maintain clean, testable, and efficient code&lt;/li&gt;
+&lt;li&gt;Participate in code reviews and ensure best practices are followed&lt;/li&gt;
+&lt;li&gt;Contribute to the overall architecture and design of our systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salary and Benefits&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Salary: $4,000 – $4,500 USD per month (depending on experience and location)&lt;/li&gt;
+&lt;li&gt;Benefits: 15 Days Paid Time Off + Christmas Day + New Year's Day Paid Off&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7967/</guid></item><item><title>Backend Python Developer, Client of eSearchPro</title><link>https://www.python.org/jobs/7966/</link><description>Remote, United States
+&lt;p&gt;Backend Python Developer w/ 3-5 years of experience&lt;/p&gt;
+&lt;p&gt;Remote: Client company based in Tysons Corner, Virginia&lt;/p&gt;
+&lt;p&gt;Location: Continental USA (Due to the nature of the business US Citizenship is required)&lt;/p&gt;
+&lt;p&gt;You may possibly travel to the corporate office in the Washington, DC Metro area 1-3 times per quarter.&lt;/p&gt;
+&lt;p&gt;Hours: East coast hours&lt;/p&gt;
+&lt;p&gt;Why This Role Matters&lt;/p&gt;
+&lt;p&gt;Are you passionate about building robust, high-performance backend systems? As a Backend Python Developer, you’ll play a key role in shaping the company’s technology initiatives, collaborating closely with front-end developers, product owners, and QA engineers to deliver cutting-edge software solutions. You’ll work with modern tools like FastAPI, NATS, and Jira, contributing to projects that have real-world impact across Defense, Transportation, Utilities, Public Safety, and Telecoms.&lt;/p&gt;
+&lt;p&gt;What You’ll Do&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Design, implement, and maintain clean, efficient, and reusable Python code for backend services.&lt;/li&gt;
+&lt;li&gt;Collaborate with cross-functional teams to deliver high-quality, scalable software solutions.&lt;/li&gt;
+&lt;li&gt;Leverage modern version control practices with Git to streamline development.&lt;/li&gt;
+&lt;li&gt;Contribute to innovative solutions that solve complex, mission-critical challenges.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Skills &amp;amp; Experience We’re Excited About&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Backend Python Development – Proven experience building and maintaining backend systems.&lt;/li&gt;
+&lt;li&gt;FastAPI – Experience building APIs and services using the FastAPI framework.&lt;/li&gt;
+&lt;li&gt;Git – Strong version control skills to manage code efficiently.&lt;/li&gt;
+&lt;li&gt;Jira – Comfortable tracking tasks and collaborating using Jira.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bonus Expertise&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;SDR (Software Defined Radio)&lt;/li&gt;
+&lt;li&gt;NATS.io, NumPy/SciPy for scientific computing&lt;/li&gt;
+&lt;li&gt;RF (Radio Frequency) knowledge.&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7966/</guid></item><item><title>Computer Vision &amp; Machine Learning Engineer (Consultant), Syria Justice and Accountability Centre</title><link>https://www.python.org/jobs/7965/</link><description>Worldwide (Remote), Worldwide (Remote)
+&lt;p&gt;Location: Worldwide (Remote)
+Duration: 6 months (with possible extension)
+Hours: Flexible (see below)
+Rate: Competitive (see below)&lt;/p&gt;
+&lt;p&gt;Introduction&lt;/p&gt;
+&lt;p&gt;The Syria Justice and Accountability Centre (SJAC) is Computer Vision &amp;amp; Machine Learning Engineer (Consultant) for a 6-month remote engagement, with potential extension. The role supports mission-driven projects using open-source tools, emphasizing scalability and reliability.&lt;/p&gt;
+&lt;p&gt;The ideal candidate will bring deep expertise in visual computing and natural language processing (preferably Multilingual NLP and RTL languages such as Arabic), with a strong track record of applying these skills to real-world problems. You should be comfortable working across the full ML lifecycle, from model design and training to deployment and monitoring, and be motivated by work that combines technical innovation with social impact.&lt;/p&gt;
+&lt;p&gt;Scope of Work&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Design and optimize computer vision and machine learning algorithms.&lt;/li&gt;
+&lt;li&gt;Build scalable CV systems for large image datasets.&lt;/li&gt;
+&lt;li&gt;Develop preprocessing pipelines (e.g., detection, deskewing) to enhance OCR.&lt;/li&gt;
+&lt;li&gt;Evaluate OCR technologies/models optimized for Arabic documents.&lt;/li&gt;
+&lt;li&gt;Build end-to-end pipelines from image input to feature extraction, classification, and clustering.&lt;/li&gt;
+&lt;li&gt;Solve technical challenges in CV and integrate models into SJAC products.&lt;/li&gt;
+&lt;li&gt;Write clean, production-grade code following best practices.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Required Qualifications&lt;/p&gt;
+&lt;p&gt;Education &amp;amp; Core Expertise&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;MSc in Computer Vision or Machine Learning, or BSc in Computer Science with AI or CV specialization. Equivalent relevant working experience may be accepted.&lt;/li&gt;
+&lt;li&gt;Proven experience in the fields of Computer Vision and Machine Learning (specifically Deep Learning).&lt;/li&gt;
+&lt;li&gt;Track record of leading CV/ML projects from concept to production.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Technical Skills&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Proficiency in Python and deep learning frameworks such as PyTorch or TensorFlow.&lt;/li&gt;
+&lt;li&gt;Experience with both ML-based and traditional CV techniques, including OpenCV.&lt;/li&gt;
+&lt;li&gt;Strong understanding of modern deep learning architectures, including transformer-based.&lt;/li&gt;
+&lt;li&gt;Hands-on experience with open-source libraries and model hubs, such as Hugging Face.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Deployment &amp;amp; Infrastructure&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Experience deploying ML models on cloud platforms (e.g., AWS) with resource constraints.&lt;/li&gt;
+&lt;li&gt;Skilled in designing production ML pipelines using MLOps tools (versioning, workflows, monitoring, optimization)&lt;/li&gt;
+&lt;li&gt;Ability to evaluate and optimize ML systems for metrics such as speed, scalability, and power consumption.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bonus Skills&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ability to read and understand Arabic is a strong plus.&lt;/li&gt;
+&lt;li&gt;Familiarity with ML-based OCR technologies.&lt;/li&gt;
+&lt;li&gt;Hands-on experience with open-source libraries and model hubs, such as Hugging Face.&lt;/li&gt;
+&lt;li&gt;Familiarity with large vision models and multimodal architectures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;How to Apply&lt;/p&gt;
+&lt;p&gt;The contract may be extended beyond the initial six-month period based on performance and funding availability. Candidates are asked to propose an hourly rate for their services. The final rate and working hours will be agreed with the successful candidate&lt;/p&gt;
+</description><guid>https://www.python.org/jobs/7965/</guid></item><item><title>Data Engineer, Six Feet Up</title><link>https://www.python.org/jobs/7963/</link><description>Remote, United States
+&lt;p&gt;Six Feet Up is seeking a Data Engineer with 12+ years of experience designing, building, and maintaining robust and scalable data pipelines. In this role, you will have the opportunity to work on a variety of challenging projects across different industries, delivering high-quality solutions that drive business value.&lt;/p&gt;
+&lt;p&gt;If you are a motivated Data Engineer seeking a challenging and rewarding role, we encourage you to apply.&lt;/p&gt;
+&lt;p&gt;Your Technical Expertise&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Hands-on experience with ETL processes and Airflow&lt;/li&gt;
+&lt;li&gt;Strong understanding of DevOps and data engineering best practices (containers, CI/CD, automated testing)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A Plus:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Familiarity with the various cloud platforms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Your Essential Skills and Qualities&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;You understand our clients’ problems and aspirations.&lt;/li&gt;
+&lt;li&gt;You proactively seek and provide actionable feedback from/to peers.&lt;/li&gt;
+&lt;li&gt;You are reliable in delivering work, and you escalate issues quickly when needed.&lt;/li&gt;
+&lt;li&gt;You promote good practices while following company methodologies to ensure deliverable quality and stability.&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7963/</guid></item><item><title>Senior Python Developer/DevOps Engineer, Six Feet Up</title><link>https://www.python.org/jobs/7962/</link><description>Remote, United States
+&lt;p&gt;Six Feet Up is looking for a full-time Senior Python Developer/DevOps Engineer to create beautiful back-end code powering sophisticated Python-based web projects and to deploy, manage, and maintain our infrastructure and applications.&lt;/p&gt;
+&lt;p&gt;Your Technical Expertise&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;15+ years of professional Python web development experience&lt;/li&gt;
+&lt;li&gt;Proficient in Django, Flask, or similar frameworks&lt;/li&gt;
+&lt;li&gt;Unix/Linux System Administration and deployment experience&lt;/li&gt;
+&lt;li&gt;Experience working with Terraform, Docker and Kubernetes&lt;/li&gt;
+&lt;li&gt;Ability to maintain, improve, and document AWS, Azure and GCP infrastructures&lt;/li&gt;
+&lt;li&gt;DevOps and Automation experience (CI/CD, Grafana, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A Plus:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;AI/ML/Big Data Experience&lt;/li&gt;
+&lt;li&gt;Understanding of AWS and/or Azure APIs&lt;/li&gt;
+&lt;li&gt;Innovative understanding of cloud processes and improvements&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Your Essential Skills and Qualities&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;You understand our clients’ problems and aspirations.&lt;/li&gt;
+&lt;li&gt;You proactively seek and provide actionable feedback from/to peers.&lt;/li&gt;
+&lt;li&gt;You are reliable in delivering work, and you escalate issues quickly when needed.&lt;/li&gt;
+&lt;li&gt;You promote good practices while following company methodologies to ensure deliverable quality and stability.&lt;/li&gt;
+&lt;/ol&gt;
+</description><guid>https://www.python.org/jobs/7962/</guid></item><item><title>Senior  Software Data  Engineer - Python, MPS GROUP LLC</title><link>https://www.python.org/jobs/7960/</link><description>Bogota, Medellin or Cartagena, Cundinamarca, Antioquia, Bolivar, Colombia
+&lt;p&gt;JOB OVERVIEW
+We are seeking an experienced Data Engineer with strong skills in software development using Python language, SQL, AWS, and CI/CD practices, particularly Infrastructure as Code using AWS CDK. This role focuses on designing and implementing serverless data pipelines and cloud infrastructure to build end-to-end data solutions that extract, transform, and catalog data from various sources. You will collaborate closely with data science teams to ensure data accessibility and quality for their analytics and modeling initiatives.&lt;/p&gt;
+&lt;p&gt;ROLE WILL INVOLVE, BUT NOT BE LIMITED TO:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Design and implement serverless data pipelines using AWS services&lt;/li&gt;
+&lt;li&gt;Build and maintain data lakes and ETL processes&lt;/li&gt;
+&lt;li&gt;Create automated deployment pipelines&lt;/li&gt;
+&lt;li&gt;Collaborate with data science teams&lt;/li&gt;
+&lt;li&gt;Implement data governance and security best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MINIMUM QUALIFICATIONS&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Python (5+ years) - Strong development background&lt;/li&gt;
+&lt;li&gt;AWS Cloud &amp;amp; Services expertise (especially Lambda, S3, Athena, Glue)&lt;/li&gt;
+&lt;li&gt;Infrastructure as Code (AWS CDK/CloudFormation)&lt;/li&gt;
+&lt;li&gt;Data Engineering fundamentals (ETL/ELT, data modeling, pipeline design).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PREFERRED QUALIFICATIONS&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Experience with AWS Lake Formation&lt;/li&gt;
+&lt;li&gt;AWS Datazone&lt;/li&gt;
+&lt;li&gt;EventBridge &amp;amp; Step Functions knowledge&lt;/li&gt;
+&lt;li&gt;CI/CD pipeline implementation&lt;/li&gt;
+&lt;li&gt;API integration experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SOFT SKILLS&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Strong analytical thinking and problem-solving abilities.&lt;/li&gt;
+&lt;li&gt;Excellent communication and collaboration skills across technical and non-technical teams.&lt;/li&gt;
+&lt;li&gt;Ability to self-manage and thrive in dynamic environments.&lt;/li&gt;
+&lt;li&gt;Curiosity and a mindset of continuous learning.&lt;/li&gt;
+&lt;li&gt;Must be able to communicate professionally in English, listening, writing and speaking.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;BENEFITS&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Compensatory days off to maintain a healthy work–life balance.&lt;/li&gt;
+&lt;li&gt;Certification support to boost your professional development and continuous growth.&lt;/li&gt;
+&lt;li&gt;Birthday bonuses, because we celebrate your personal milestones as much as your professional ones.&lt;/li&gt;
+&lt;li&gt;Opportunity to work on projects with Fortune 100 clients, gaining exposure to world-class environments.&lt;/li&gt;
+&lt;li&gt;Competitive salaries, aligned with the market and your talent.&lt;/li&gt;
+&lt;li&gt;Comprehensive social security coverage, ensuring your peace of mind and well-being.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5+ years of experience in software development / data engineering with cloud technologies (Phyton and AWS) Location Hybrid: 2-3 days a week work from office in Colombia (preferably in Bogotá, Medellín, or Cartagena) Requirement Fluent in English - preferably has work with large U.S. Clients&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="mailto:human.resources&amp;#64;mps-group.us"&gt;human.resources&amp;#64;mps-group.us&lt;/a&gt;&lt;/p&gt;
+</description><guid>https://www.python.org/jobs/7960/</guid></item><item><title>Senior  Software Data  Engineer - Python, EA STRATEGY SAS</title><link>https://www.python.org/jobs/7959/</link><description>Bogotá, Medellin, or Cartagena, Cundinamarca, Antioquia, Bolivar, Colombia
+&lt;p&gt;We are seeking an experienced Data Engineer with strong skills in software development using Python language, SQL, AWS, and CI/CD practices, particularly Infrastructure as Code using AWS CDK. This role focuses on designing and implementing serverless data pipelines and cloud infrastructure to build end-to-end data solutions that extract, transform, and catalog data from various sources. You will collaborate closely with data science teams to ensure data accessibility and quality for their analytics and modeling initiatives.&lt;/p&gt;
+
+&lt;p&gt;ROLE WILL INVOLVE, BUT NOT BE LIMITED TO:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Design and implement serverless data pipelines using AWS services&lt;/li&gt;
+&lt;li&gt;Build and maintain data lakes and ETL processes&lt;/li&gt;
+&lt;li&gt;Create automated deployment pipelines&lt;/li&gt;
+&lt;li&gt;Collaborate with data science teams&lt;/li&gt;
+&lt;li&gt;Implement data governance and security best practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MINIMUM QUALIFICATIONS&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Python (5+ years) - Strong development background&lt;/li&gt;
+&lt;li&gt;AWS Cloud &amp;amp; Services expertise (especially Lambda, S3, Athena, Glue)&lt;/li&gt;
+&lt;li&gt;Infrastructure as Code (AWS CDK/CloudFormation)&lt;/li&gt;
+&lt;li&gt;Data Engineering fundamentals (ETL/ELT, data modeling, pipeline design).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PREFERRED QUALIFICATIONS&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Experience with AWS Lake Formation&lt;/li&gt;
+&lt;li&gt;AWS Datazone&lt;/li&gt;
+&lt;li&gt;EventBridge &amp;amp; Step Functions knowledge&lt;/li&gt;
+&lt;li&gt;CI/CD pipeline implementation&lt;/li&gt;
+&lt;li&gt;API integration experience&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;SOFT SKILLS&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Strong analytical thinking and problem-solving abilities.&lt;/li&gt;
+&lt;li&gt;Excellent communication and collaboration skills across technical and non-technical teams.&lt;/li&gt;
+&lt;li&gt;Ability to self-manage and thrive in dynamic environments.&lt;/li&gt;
+&lt;li&gt;Curiosity and a mindset of continuous learning.&lt;/li&gt;
+&lt;li&gt;Must be able to communicate professionally in English, listening, writing and speaking.&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7959/</guid></item><item><title>Computer Vision &amp; Machine Learning Engineer (Consultant), Syria Justice and Accountability Centre (SJAC)</title><link>https://www.python.org/jobs/7958/</link><description>Worldwide (Remote), Worldwide (Remote), Worldwide (Remote)
+&lt;div class="section" id="introduction"&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;The Syria Justice and Accountability Centre (SJAC) is Computer Vision &amp;amp; Machine Learning Engineer (Consultant) for a 6-month remote engagement, with potential extension. The role supports mission-driven projects using open-source tools, emphasizing scalability and reliability.&lt;/p&gt;
+&lt;p&gt;The ideal candidate will bring deep expertise in visual computing and natural language processing (preferably Multilingual NLP and RTL languages such as Arabic), with a strong track record of applying these skills to real-world problems. You should be comfortable working across the full ML lifecycle, from model design and training to deployment and monitoring, and be motivated by work that combines technical innovation with social impact.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="scope-of-work"&gt;
+&lt;h1&gt;Scope of Work&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Design and optimize computer vision and machine learning algorithms.&lt;/li&gt;
+&lt;li&gt;Build scalable CV systems for large image datasets.&lt;/li&gt;
+&lt;li&gt;Develop preprocessing pipelines (e.g., detection, deskewing) to enhance OCR.&lt;/li&gt;
+&lt;li&gt;Evaluate OCR technologies/models optimized for Arabic documents.&lt;/li&gt;
+&lt;li&gt;Build end-to-end pipelines from image input to feature extraction, classification, and clustering.&lt;/li&gt;
+&lt;li&gt;Solve technical challenges in CV and integrate models into SJAC products.&lt;/li&gt;
+&lt;li&gt;Write clean, production-grade code following best practices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="section" id="education-core-expertise"&gt;
+&lt;h1&gt;Education &amp;amp; Core Expertise&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;MSc in Computer Vision or Machine Learning, or BSc in Computer Science with AI or CV specialization. Equivalent relevant working experience may be accepted.&lt;/li&gt;
+&lt;li&gt;Proven experience in the fields of Computer Vision and Machine Learning (specifically Deep Learning).&lt;/li&gt;
+&lt;li&gt;Track record of leading CV/ML projects from concept to production.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="technical-skills"&gt;
+&lt;h1&gt;Technical Skills&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Proficiency in Python and deep learning frameworks such as PyTorch or TensorFlow.&lt;/li&gt;
+&lt;li&gt;Experience with both ML-based and traditional CV techniques, including OpenCV.&lt;/li&gt;
+&lt;li&gt;Strong understanding of modern deep learning architectures, including transformer-based.&lt;/li&gt;
+&lt;li&gt;Hands-on experience with open-source libraries and model hubs, such as Hugging Face.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="deployment-infrastructure"&gt;
+&lt;h1&gt;Deployment &amp;amp; Infrastructure&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Experience deploying ML models on cloud platforms (e.g., AWS) with resource constraints.&lt;/li&gt;
+&lt;li&gt;Skilled in designing production ML pipelines using MLOps tools (versioning, workflows, monitoring, optimization)&lt;/li&gt;
+&lt;li&gt;Ability to evaluate and optimize ML systems for metrics such as speed, scalability, and power consumption.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="bonus-skills"&gt;
+&lt;h1&gt;Bonus Skills&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ability to read and understand Arabic is a strong plus.&lt;/li&gt;
+&lt;li&gt;Familiarity with ML-based OCR technologies.&lt;/li&gt;
+&lt;li&gt;Hands-on experience with open-source libraries and model hubs, such as Hugging Face.&lt;/li&gt;
+&lt;li&gt;Familiarity with large vision models and multimodal architectures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description><guid>https://www.python.org/jobs/7958/</guid></item><item><title>Senior Software Engineer, Machine Learning, Meedan</title><link>https://www.python.org/jobs/7957/</link><description>Remote, Remote
+&lt;p&gt;Remote Full-Time | Candidates who can work within UTC-8 to UTC+2 to align with our team.&lt;/p&gt;
+&lt;p&gt;We’re looking for a Senior Software Engineer with focus on AI/ML to lead development of our knowledge ingestion and question answering service. If you’ve built scalable AI-driven systems, productionized ML pipelines, or delivered high-quality backend services, we’d love to hear from you.&lt;/p&gt;
+&lt;p&gt;In this role, you’ll be responsible for the engineering backbone of our Python-based microservice. You’ll implement ingestion pipelines, optimize graph storage, and integrate retrieval and answering workflows into a reliable, cost-effective service. You’ll work closely with researchers, product managers, and engineers to translate experimental insights into production-grade code.&lt;/p&gt;
+&lt;p&gt;What You’ll Do:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Architect and implement ingestion pipelines that transform raw documents into structured Neo4j knowledge graphs.&lt;/li&gt;
+&lt;li&gt;Build and refine the Python/FastAPI service exposing ingestion and Q&amp;amp;A endpoints.&lt;/li&gt;
+&lt;li&gt;Optimize retrieval and answering workflows for performance, cost, and maintainability.&lt;/li&gt;
+&lt;li&gt;Investigate and implement strategies for handling conflicting, incomplete, or time-sensitive information.&lt;/li&gt;
+&lt;li&gt;Collaborate with researchers to integrate experimental retrieval/answering strategies into production.&lt;/li&gt;
+&lt;li&gt;Ensure code quality through testing, documentation, and observability.&lt;/li&gt;
+&lt;li&gt;Support scaling from pilot-ready prototypes to production-ready services.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What We’re Looking For:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;8+ years of professional software engineering experience, including leadership roles.&lt;/li&gt;
+&lt;li&gt;Deep expertise in Python, backend development, and ML-powered systems.&lt;/li&gt;
+&lt;li&gt;Strong systems design, performance and architecture skills, with experience building data-intensive APIs.&lt;/li&gt;
+&lt;li&gt;Demonstrated success productionizing ML prototypes into robust services.&lt;/li&gt;
+&lt;li&gt;Familiar with CI/CD, cloud infrastructure, observability, and monitoring.&lt;/li&gt;
+&lt;li&gt;Strong collaborator and communicator.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nice to Have:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;MLOps experience (pipelines, deployment, monitoring of ML models).&lt;/li&gt;
+&lt;li&gt;Prior work with knowledge graphs (e.g., Neo4j).&lt;/li&gt;
+&lt;li&gt;Experience balancing cost-performance tradeoffs in ML systems.&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7957/</guid></item><item><title>Senior Software Engineer, Applied Research, Meedan</title><link>https://www.python.org/jobs/7956/</link><description>Remote, Remote
+&lt;p&gt;Remote Full-Time | Candidates who can work within UTC-8 to UTC+2 to align with our team.&lt;/p&gt;
+&lt;p&gt;We’re looking for an experienced Senior Software Engineer with focus on AI/ML and a research mindset to guide the most challenging aspects of our knowledge ingestion and question answering system. If you’ve tackled complex information retrieval problems, designed evaluation frameworks, and know how to navigate trade-offs between accuracy, cost, and timelines, we’d love to hear from you.&lt;/p&gt;
+&lt;p&gt;In this role, you’ll focus on experimentation and implementation for our Python-based knowledge service. You’ll design, test and implement retrieval strategies, evaluate system trustworthiness, and help define how the service handles conflicting or outdated information, among other challenges. You’ll work closely with product and engineering teams to ensure our AI/ML foundations are technically strong, reliable, and aligned with product goals.&lt;/p&gt;
+&lt;p&gt;What You’ll Do:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Lead experimentation on retrieval-augmented generation (RAG) approaches for question answering over a Neo4j knowledge graph.&lt;/li&gt;
+&lt;li&gt;Develop and refine evaluation frameworks (test sets, LLM-as-a-judge rubrics, failure mode analyses, etc.).&lt;/li&gt;
+&lt;li&gt;Investigate and implement strategies for handling conflicting, incomplete, or time-sensitive information.&lt;/li&gt;
+&lt;li&gt;Translate product requirements into ML constraints and possibilities.&lt;/li&gt;
+&lt;li&gt;Collaborate with engineers to validate feasibility and de-risk system architecture.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What We’re Looking For:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;8+ years of professional or research experience, with deep expertise in AI/ML research or applied machine learning.&lt;/li&gt;
+&lt;li&gt;Strong background in Python and experience with retrieval-augmented generation, LLMs, or knowledge graphs.&lt;/li&gt;
+&lt;li&gt;Demonstrated ability to design experiments, evaluate systems rigorously, and communicate findings.&lt;/li&gt;
+&lt;li&gt;Strong collaborator and communicator, able to bridge research and engineering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nice to Have:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Experience with Neo4j or other graph databases.&lt;/li&gt;
+&lt;li&gt;Background in verification workflows.&lt;/li&gt;
+&lt;li&gt;Prior work in product-driven environments.&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7956/</guid></item><item><title>Backend Engineer (Python) (Consultant), Syria Justice and Accountability Centre (SJAC)</title><link>https://www.python.org/jobs/7951/</link><description>Worldwide (Remote), Worldwide (Remote), Worldwide (Remote)
+&lt;p&gt;Backend Engineer (Python) (Consultant)
+Location: Worldwide (Remote)
+Duration: 6 months (with possible extension)
+Hours: 40
+hours/week
+Rate: To be proposed by the candidate; competitive based on experience&lt;/p&gt;
+&lt;div class="section" id="position-summary"&gt;
+&lt;h1&gt;Position Summary&lt;/h1&gt;
+&lt;p&gt;We use open-source technologies (Linux, PostgreSQL, Python, Nginx). We use modern
+technologies with an emphasis on reliability, scaling, maintainability, and seamless web
+experiences. Our team operates with agility and a mission-driven approach, closely
+collaborating with users.
+We are seeking a highly skilled and experienced Backend Engineer with expertise in Python
+and PostgreSQL to join our mission-driven team. In this role, you will be responsible for
+designing, developing, and maintaining backend services that power Bayanat and other
+internal tools. You will collaborate closely with other developers to ensure scalable,
+reliable, and maintainable systems.
+The ideal candidate will have deep experience with Python (Flask or Django), strong
+database skills, and a passion for building robust backend infrastructure. You will
+contribute to architectural decisions and help shape the technical direction of our
+platform, with a focus on performance, security, and long-term sustainability.
+Applicants should be available for 40 hours/week to fulfill SJAC’s web development needs.
+The position is remote with flexible hours.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="scope-of-work"&gt;
+&lt;h1&gt;Scope of Work&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Design, build, and maintain backend services using Python with Flask&lt;/li&gt;
+&lt;li&gt;Work with PostgreSQL: schema design, migrations, query optimization, reliability at scale&lt;/li&gt;
+&lt;li&gt;Write clean, testable, maintainable code; contribute to code reviews and CI&lt;/li&gt;
+&lt;li&gt;Troubleshoot and improve deployments; performance, scalability, and stability&lt;/li&gt;
+&lt;li&gt;Integrate with internal and external APIs; collaborate closely with the Bayanat team&lt;/li&gt;
+&lt;li&gt;Write and maintain unit and integration tests to ensure code quality and reliability&lt;/li&gt;
+&lt;li&gt;Participate in agile processes and weekly team calls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="section" id="required-qualifications"&gt;
+&lt;h1&gt;Required Qualifications&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;BSc in Computer Science or related field. Significant work experience in web development&lt;/li&gt;
+&lt;li&gt;may be acceptable in lieu of a formal degree&lt;/li&gt;
+&lt;li&gt;3+ years professional backend development experience, ideally with Flask or Django&lt;/li&gt;
+&lt;li&gt;Strong hands‑on experience with PostgreSQL, Linux, and Git&lt;/li&gt;
+&lt;li&gt;Solid understanding of web architecture, APIs, OOP, and REST principles&lt;/li&gt;
+&lt;li&gt;Comfortable in remote, agile teams; can take ownership and deliver independently&lt;/li&gt;
+&lt;li&gt;Professional proficiency in English&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="preferred-qualifications"&gt;
+&lt;h1&gt;Preferred Qualifications&lt;/h1&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Database optimization and scaling experience; indexing, EXPLAIN, connection pooling&lt;/li&gt;
+&lt;li&gt;Familiarity with Nginx, containerization, and testing frameworks (especially pytest)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description><guid>https://www.python.org/jobs/7951/</guid></item><item><title>Senior Full Stack Engineer, Lyst</title><link>https://www.python.org/jobs/7950/</link><description>London, United Kingdom
+&lt;p&gt;We’re looking for a Senior Full Stack Engineer to join our Member Experience squad — a collaborative, cross-functional team dedicated to improving the experience for Lyst members (users who create an account). You’ll get to work across user personalisation, our stock and price alerts, as well as the optimisation and creation of member-exclusive features. Member Experience work spans across the website, the mobile app, our CRM database and our e-mail/push-notification service with dedicated team members for each area. Together, we focus on creating seamless, engaging experiences that make it easier for people to join, stay, and get the most out of Lyst.&lt;/p&gt;
+&lt;p&gt;What will you be working on?&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Building new and maintaining existing features (frontend and backend) and functionality for our e-commerce platform.&lt;/li&gt;
+&lt;li&gt;Developing primarily in Python (Django) for the backend and JavaScript/TypeScript (React) for the frontend.&lt;/li&gt;
+&lt;li&gt;Integrating with internal/external APIs and services.&lt;/li&gt;
+&lt;li&gt;Owning features from initial planning through to deployment, ensuring they deliver real value.&lt;/li&gt;
+&lt;li&gt;Writing reliable, well-tested code, using tools such as pytest, Jest with React Testing Library, Storybook, and Cypress for end-to-end coverage.&lt;/li&gt;
+&lt;li&gt;Monitoring performance and stability through observability tools, keeping our platform running smoothly.&lt;/li&gt;
+&lt;li&gt;Champion knowledge-sharing by crafting documentation that’s as delightful to read as it is useful.&lt;/li&gt;
+&lt;li&gt;We are fully AWS hosted. You’ll get to use a range of tools and services, such as Kubernetes, Docker, Postgresql, Redis, SQS, SNS, S3, etc.&lt;/li&gt;
+&lt;li&gt;Collaborating with product managers, designers, QA engineers and web/app engineers to help execute on product vision and drive value for our business.&lt;/li&gt;
+&lt;li&gt;Deploying features as experiments (e.g. A/B testing) and measuring the impact.&lt;/li&gt;
+&lt;li&gt;Scaling, improving and maintaining our system for sending push notifications and emails to our customers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please note this is a hybrid position in London Bridge - if you are comfortable coming into the office twice per week (Tuesdays and Thursdays primarily), then please continue to apply.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Solid experience with Python and web frameworks (we use Django).&lt;/li&gt;
+&lt;li&gt;Strong understanding of React, modern JavaScript/TypeScript, HTML, and CSS.&lt;/li&gt;
+&lt;li&gt;A firm grasp of web fundamentals and how everything fits together.&lt;/li&gt;
+&lt;li&gt;You write robust, maintainable code that others can read with ease.&lt;/li&gt;
+&lt;li&gt;Deep knowledge of automated testing, especially unit testing, to ensure quality at every stage.&lt;/li&gt;
+&lt;li&gt;An eagerness to improve existing codebases through thoughtful refactoring rather than patching over issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Things that matter to us:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;You are curious at heart and like to take ownership of something to make it better.&lt;/li&gt;
+&lt;li&gt;You are detail oriented.&lt;/li&gt;
+&lt;li&gt;You are a team player and communicate with your peers and other stakeholders in the company on a day to day basis.&lt;/li&gt;
+&lt;li&gt;You are able to communicate clearly and be humble when sharing ideas with everyone on the team. You are able to explain your ideas clearly and transform them into plans. You are able to design the solution to a complex problem.&lt;/li&gt;
+&lt;li&gt;Sense of ownership over products, features and services the team looks after.&lt;/li&gt;
+&lt;li&gt;You have experience iterating &amp;amp; refactoring existing code as well as writing new code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here’s what to achieve after your first 3 months:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gain deep familiarity of our tech stack, including the architecture, codebases, workflows and tooling.  You should be comfortable under the hood!&lt;/li&gt;
+&lt;li&gt;Deliver work at a suitable cadence, demonstrating efficiency and consistent progress.  Ship your feature!&lt;/li&gt;
+&lt;li&gt;Use best practises and encourage others to do the same.  Lead with quality!&lt;/li&gt;
+&lt;li&gt;Review pull requests in a timely manner including actionable, impactful and constructive feedback.  Raise the bar with every PR!&lt;/li&gt;
+&lt;li&gt;Help junior developers thrive through pairing, troubleshooting, sharing architectural insight, and clear feedback.  Guide and grow together!&lt;/li&gt;
+&lt;li&gt;Build relationships across the organisation and collaborate effectively across product, design and other engineers.  You won’t be working alone!&lt;/li&gt;
+&lt;li&gt;Take responsibility for tasks end-to-end showing reliability in agreeing on commitments and meeting them.  Be the teammate everyone can count on!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We want to build a world where fashion works for everyone, and we want teams that are just as inclusive. Diversity and inclusion is an integral part of our culture at Lyst. We recognise and celebrate the value and impact diversity brings to our company and are committed to ensuring this is a consistent focus, for which we are held to account. We are committed to treating all applicants fairly and equally, and encourage candidates from all backgrounds to apply for this role. We are happy to talk about flexible working arrangements.&lt;/p&gt;
+&lt;p&gt;Don’t meet every single requirement? Studies have shown that women and people of color are less likely to apply to jobs unless they meet every single qualification. At Lyst we are dedicated to building a diverse, inclusive and authentic workplace, so if you’re excited about this role but your past experience doesn’t align perfectly with every qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.&lt;/p&gt;
+</description><guid>https://www.python.org/jobs/7950/</guid></item><item><title>Backend Python Software Engineer (Hybrid), NVIDIA</title><link>https://www.python.org/jobs/7946/</link><description>Raleigh-Durham, North Carolina, USA
+&lt;p&gt;As a Python Developer, you will be responsible for designing, developing, and maintaining our web applications. This position offers the opportunity to have a real impact in an influential, technology-focused company impacting product lines that power the most advanced data centers in the world. We have crafted a team of outstanding people, whose mission is to push the frontiers of what is possible today and define the platform for the future of data center simulation and design.&lt;/p&gt;
+&lt;p&gt;What You'll Be Doing&lt;/p&gt;
+&lt;p&gt;Collaborate with the development team to design and develop web applications using Python and Django framework.
+Write clean, efficient, and maintainable code that adheres to industry standards.
+Participate in code reviews and provide constructive feedback to ensure code quality.
+Perform unit testing and debugging to identify and fix issues.
+Work closely with product manager and architect teams to gather requirements, translate them into technical solutions, and deliver high-quality and scalable solutions.&lt;/p&gt;
+
+&lt;p&gt;What We Need To See&lt;/p&gt;
+&lt;p&gt;BS degree in Computer Science, Software Engineering, or a related field (or equivalent experience).
+Proficiency in Python with strong programming and software development skills.
+3+ years of experience as a Python developer with hands-on experience in the Django framework.
+Experience developing RESTful APIs and asynchronous programming concepts with security and performance in mind.
+Background in developing virtualization solutions using technologies like QEMU and Docker.
+Experience with relational databases and SQL.
+Knowledge of version control systems (e.g., Git) and experience with agile development methodologies.
+Comfortable working in a fast-paced, highly collaborative environment.
+Strong verbal and written communication skills.&lt;/p&gt;
+&lt;p&gt;Ways To Stand Out From The Crowd&lt;/p&gt;
+&lt;p&gt;Familiarity with containerization technologies such as Kubernetes.
+Knowledge of Linux networking and understanding of networking concepts and protocols.
+Ability to debug network issues at host and SDN level.
+Familiarity with other web development languages such as JavaScript, HTML, and CSS.
+Experience working with front-end frameworks like Angular.&lt;/p&gt;
+</description><guid>https://www.python.org/jobs/7946/</guid></item><item><title>Sr. Software Engineer - Remote, Internet2.edu</title><link>https://www.python.org/jobs/7945/</link><description>remote, Florida, United States
+&lt;p&gt;About Internet2&lt;/p&gt;
+&lt;p&gt;Internet2 is a non-profit, member-driven advanced research and higher education technology organization. Founded in 1996, Internet2 provides and delivers mission-critical technology services and programs. Internet2's core infrastructure components include the nation's largest and fastest network, and cloud and security services that are influenced, customized, and designed to address the unique needs of technology leaders in research and education (R&amp;amp;E). Internet2 serves and supports U.S. higher education institutions, federal government agencies, regional and state education networks, leading industry providers, and international R&amp;amp;E network partners across more than 100 countries. Internet2 programs advance opportunities to convene, collaborate, and innovate.&lt;/p&gt;
+&lt;p&gt;This is a unique opportunity to build a cloud console for the Internet2 network. As a non-profit, Internet2 helps move scholars, scientists, and researchers into the future with solutions tailored for research and education.&lt;/p&gt;
+&lt;p&gt;This position will build and maintain a Vue single-page application front-end and a FastAPI (Python) plus Nautobot (Python, Django) back-end. As part of a cross-functional team, this position will collaborate with a Quality Assurance Engineer, other Senior Software Engineers, and several Senior NetDevOps Engineers.&lt;/p&gt;
+&lt;p&gt;This position works as part of the Infrastructure Systems &amp;amp; Software (&amp;quot;ISS&amp;quot;) team within the Network Services (&amp;quot;NS&amp;quot;) division of Internet2. In partnership with Internet2 colleagues and Internet2’s member community, this position works to plan, design, develop, deploy, and maintain systems and services for Internet2 and the greater research and education networking community, within the domain of network automation and orchestration.&lt;/p&gt;
+&lt;p&gt;This is a fully remote position, requiring some travel and frequent community interaction, and reports to the User Experience &amp;amp; Design Architect.&lt;/p&gt;
+&lt;p&gt;Specific responsibilities include:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Analyze, design, code, test, and maintain systems and software in support of Network Services core functionality and community-facing services, in the primary domain of network modeling, automation, and orchestration.&lt;/li&gt;
+&lt;li&gt;Collaborate with colleagues, community members, and divisional leadership to determine and refine business needs, assess project scope, and research and prototype potential solutions.&lt;/li&gt;
+&lt;li&gt;Collaborate with colleagues and divisional leadership to participate in estimation, task breakdown, and planning and prioritization of project milestones, deliverables, and functional and technical requirements.&lt;/li&gt;
+&lt;li&gt;Collaborate with other senior staff on the team to develop, promote, and document coding standards and best practices, including participation in code and system reviews.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ability to travel 2-3 weeks annually.&lt;/p&gt;
+&lt;p&gt;What We Offer:&lt;/p&gt;
+&lt;p&gt;Internet2 provides a comprehensive benefits package designed to foster work-life balance and promote the overall well-being of its employees. Our benefits encompass robust health, dental, and vision insurance options, life and disability insurance, and generous paid time off for vacation and sick days. In addition, your Internet2 benefits package includes:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;A retirement plan featuring a significant employer match on your contributions&lt;/li&gt;
+&lt;li&gt;Paid holidays and a period of paid time off between December 26th and 31st&lt;/li&gt;
+&lt;li&gt;Tuition reimbursement&lt;/li&gt;
+&lt;li&gt;Opportunities for professional development, and more&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Salary Range / Pay Grade:&lt;/p&gt;
+&lt;p&gt;$115, 200 (Minimum) - $144,000 (Mid-point) / IT-5&lt;/p&gt;
+&lt;p&gt;Starting pay is typically from the minimum up to the midpoint of the pay range and varies based on experience.&lt;/p&gt;
+&lt;p&gt;Internet2 is a 501(c)(3) not-for-profit organization and equal opportunity employer (EOE).  All qualified applicants will receive consideration for employment without regard to any characteristic protected by local, state, or federal laws, rules, or regulations&lt;/p&gt;
+
+&lt;p&gt;Required Qualifications&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Bachelor of Science in Computer Science or related degree, or equivalent education and experience.&lt;/li&gt;
+&lt;li&gt;10+ years experience with backend software development.&lt;/li&gt;
+&lt;li&gt;5+ years of Python development within the last 10 years.&lt;/li&gt;
+&lt;li&gt;General experience developing front-end and back-end software components in complex architectures and/or problem domains.&lt;/li&gt;
+&lt;li&gt;Broad understanding of the software development lifecycle, with knowledge of software development practice and technology, including source code control, automated testing, continuous integration, and issue tracking tools.&lt;/li&gt;
+&lt;li&gt;Strong customer service skills, including the ability to effectively communicate and work with a diverse set of technical and non-technical colleagues and community members.&lt;/li&gt;
+&lt;li&gt;Ability to work in a team-based environment, and continuously develop knowledge and skills related to the position.&lt;/li&gt;
+&lt;li&gt;Ability to clearly define problems and use appropriate methods to determine and implement solutions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Preferred Qualifications&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;5+ years designing, developing, and deploying front-end web applications with reactive frameworks like Vue or React.&lt;/li&gt;
+&lt;li&gt;15+ years of professional experience in a software development capacity.&lt;/li&gt;
+&lt;li&gt;Extensive experience with VueJS and JavaScript.&lt;/li&gt;
+&lt;li&gt;Specific work experience in the context of academic or research-focused projects, organizations, or institutions.&lt;/li&gt;
+&lt;li&gt;Experience with network engineering concepts and practices.&lt;/li&gt;
+&lt;li&gt;Timezone - This position requires availability during the time zones of the continental United States.&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7945/</guid></item><item><title>Senior Python Developer, Oxidian</title><link>https://www.python.org/jobs/7944/</link><description>Any, European Union
+&lt;p&gt;&lt;strong&gt;The Role&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We’re looking for a fully remote (EU only) senior Python Developer to build a modular, extensible Python library that automates common data transformation tasks and streamlines data preparation workflows, to reduce the time and effort data scientists spend on preprocessing activities for AI/ML applications within the Earth Observation space.&lt;/p&gt;
+&lt;p&gt;You’ll work on high-performance scientific software and complex data processing systems used to transform large scale satellite and meteorological datasets into high quality outputs which can be used is inputs for AI/ML models.&lt;/p&gt;
+&lt;p&gt;We move quickly, trust each other to deliver, and give you space to own your work from day one.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In this role, you will:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Build Python-based workflows to access, transform, and analyse large-scale geospatial and meteorological datasets for AI/ML applications&lt;/li&gt;
+&lt;li&gt;Work directly with cloud-native formats like Zarr and COG, and parallel computing tools like Dask&lt;/li&gt;
+&lt;li&gt;Develop workflows that integrate multiple satellite and model datasets, handling varying spatial and temporal resolutions and performing spatial &amp;amp; temporal harmonisation&lt;/li&gt;
+&lt;li&gt;Implement automated CI/CD pipelines using GitLab to manage quality checks, tests, and deployment&lt;/li&gt;
+&lt;li&gt;Carry out performance benchmarking, scalability testing, and code optimisation to ensure efficient processing of multi-terabyte datasets&lt;/li&gt;
+&lt;li&gt;Write clear documentation with ReadTheDocs and create user-facing usage examples as Jupyter Notebooks&lt;/li&gt;
+&lt;li&gt;Collaborate closely with other developers and domain experts to make sure outputs are scientifically robust&lt;/li&gt;
+&lt;li&gt;Contribute to internal LLM tooling and automation to improve efficiency&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Essential:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Strong Python development skills, particularly for data processing and scientific analysis&lt;/li&gt;
+&lt;li&gt;Experience with cloud-native data formats (Zarr, COG) and parallel processing (Dask)&lt;/li&gt;
+&lt;li&gt;Confidence working with large earth observation datasets from satellites and models&lt;/li&gt;
+&lt;li&gt;Familiarity with containerisation (Docker) and deployment in Linux environments&lt;/li&gt;
+&lt;li&gt;Fluency with Git, GitLab, and GitLab Pipelines.&lt;/li&gt;
+&lt;li&gt;A sense of urgency: you’re a responsive communicator who works quickly and to the highest standards&lt;/li&gt;
+&lt;li&gt;The ability to thrive in ambiguity, tackling problems that might not be well defined and that may not have obvious solutions&lt;/li&gt;
+&lt;li&gt;A burning desire to improve the current state of government software contracting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Nice to have:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Experience building software for government and public sector organisations&lt;/li&gt;
+&lt;li&gt;An understanding of how to get the most out of LLM powered coding tools like Cursor and Claude Code&lt;/li&gt;
+&lt;li&gt;Experience designing internal tools that automate tasks or integrate LLMs to improve developer or analyst workflows&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7944/</guid></item><item><title>Senior Back-end Software Engineer, Pio</title><link>https://www.python.org/jobs/7943/</link><description>Stavanger, Norway
+&lt;p&gt;As a Senior Software Engineer, you can work with modern API implementations at the intersection of ecommerce and physical hardware. You will be involved in feature development from start to finish, as well as support operations in a small, focused, and cross-functional team. You will have flexibility to explore and experiment, and engage with all aspects of product and feature development, while focusing on performance, reliability, and scaling of a modern API-based SaaS.&lt;/p&gt;
+&lt;p&gt;You will:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Help build a positive, inclusive, and forward-thinking culture from the ground up in a young and growing company&lt;/li&gt;
+&lt;li&gt;Develop the Pio Platform and APIs, including new features, system performance enhancements, monitoring, insight, and reports.&lt;/li&gt;
+&lt;li&gt;Write high-quality, well-tested code that is deployed frequently to production&lt;/li&gt;
+&lt;li&gt;Create end-customer value by working closely with the users to solve their needs together with a highly-skilled and motivated team&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our Tech Stack:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;FastAPI&lt;/li&gt;
+&lt;li&gt;Pydantic&lt;/li&gt;
+&lt;li&gt;PyTest&lt;/li&gt;
+&lt;li&gt;Redis&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;li&gt;Kubernetes&lt;/li&gt;
+&lt;li&gt;Azure DevOps&lt;/li&gt;
+&lt;li&gt;Terraform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We offer:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Join an early-stage, high-caliber in-house team where you’ll work with the agility and energy of a startup, but without the same level of risk.&lt;/li&gt;
+&lt;li&gt;Help shape both the company culture and business as we grow, with real influence on how we evolve.&lt;/li&gt;
+&lt;li&gt;Thrive in a collaborative, inclusive environment that values diverse perspectives and supports each other’s success.&lt;/li&gt;
+&lt;li&gt;Build innovative technology poised to disrupt the global e-commerce market, while enjoying high autonomy and meaningful challenges.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul class="simple"&gt;
+&lt;li&gt;10+ years of experience as a backend developer coding in Python, Rust, or other modern programming languages and PostgreSQL&lt;/li&gt;
+&lt;li&gt;Proven track record in building web applications with an ability to make informed and smart tradeoffs&lt;/li&gt;
+&lt;li&gt;Experience with Kubernetes based DevOps services, preferably within an Azure or other equivalent environment&lt;/li&gt;
+&lt;li&gt;A motivated and adaptable individual with a passion for building scalable products, shaping company culture, and thriving in a fast-paced, evolving scale-up environment&lt;/li&gt;
+&lt;li&gt;Nice to have: experience with FastAPI and e-commerce platforms such as Shopify or WooCommerce&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7943/</guid></item><item><title>Senior Python Developer, Brightwater</title><link>https://www.python.org/jobs/7942/</link><description>Dublin, Dublin, Ireland
+&lt;p&gt;Python Developer&lt;/p&gt;
+&lt;p&gt;6 Month Contract - Dublin&lt;/p&gt;
+&lt;p&gt;Hybrid (3 days onsite)&lt;/p&gt;
+&lt;p&gt;There is an immediate requirement for a talented senior Python developer to work in the Risk &amp;amp; Finance Technology team. You will be responsible for designing and developing web-based Python solutions to help solve complex business problems within one of the most interesting parts of one of the world’s largest banks. You will work closely with business users, business analysts and development colleagues to build best in class risk management solutions. The team build enterprise scale solutions supporting the bank’s Risk and Finance divisions. Working as part of a global team, leveraging a wide range of technologies, working on some of the most important projects in the bank. The team works in an agile fashion and are always striving to improve our processes, putting a big emphasis on researching new technologies.&lt;/p&gt;
+
+&lt;p&gt;Experience/Requirements:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Comprehensive knowledge of Python&lt;/li&gt;
+&lt;li&gt;Strong relational database / SQL experience&lt;/li&gt;
+&lt;li&gt;Have worked with CI/CD tools such as Git, Jenkins, Artifactory, Ansible&lt;/li&gt;
+&lt;li&gt;Excellent communication, collaboration, and problem-solving skills&lt;/li&gt;
+&lt;li&gt;Experience working in an Agile development environment&lt;/li&gt;
+&lt;li&gt;Ideally strong Linux/UNIX experience&lt;/li&gt;
+&lt;li&gt;Experience building RESTful web APIs using Python frameworks such as Flask, Django&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>https://www.python.org/jobs/7942/</guid></item></channel></rss>

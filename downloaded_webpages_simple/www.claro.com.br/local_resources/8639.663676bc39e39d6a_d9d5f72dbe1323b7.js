@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[8639],{88639:function(n,t,e){"use strict";e.r(t);var o=e(85893),s=(e(67294),e(36350)),c=e.n(s);t.default=function(){return(0,o.jsx)("div",{className:"".concat(c()["cms-Skeleton-button"])})}},36350:function(n){n.exports={"cms-Skeleton-button":"cms-Skeleton-button","skeleton-loading":"skeleton-loading"}}}]);

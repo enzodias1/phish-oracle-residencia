@@ -1,0 +1,37 @@
+{
+  "name": "iFood",
+  "short_name": "iFood",
+  "background_color": "#ea1d2c",
+  "theme_color": "#ffffff",
+  "description": "O jeito mais fácil de pedir delivery de comida. A maior lista de restaurantes e mercados online em sua cidade. Faça seu pedido pela internet e receba em casa.",
+  "lang": "pt-BR",
+  "start_url": "/restaurantes?utm_source=PWA",
+  "display": "standalone",
+  "orientation": "portrait",
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "br.com.brainweb.ifood",
+      "url": "https://play.google.com/store/apps/details?id=br.com.brainweb.ifood&hl=pt_BR"
+    },
+    {
+      "platform": "app",
+      "id": "id483017239",
+      "url": "https://itunes.apple.com/br/app/ifood-delivery-de-comida/id483017239?mt=8"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://static.ifood-static.com.br/webapp/logo-smile-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://static.ifood-static.com.br/webapp/logo-smile-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

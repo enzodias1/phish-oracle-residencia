@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="zh">
+  <head>
+      <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="比特幣,大都會,發生了什麼,班農,香港,制裁,絲綢之路,塞爾維亞,電動汽車,周小川,氫彈,原子彈,十九大,共享單車,素質,真子公主,訂婚,戴安娜,上海灘,強生爽身粉,卵巢癌,蔣介石,軍事演習,文革,海難,巡洋艦,日食,戰狼2,知識產權,九寨溝,高通,象牙,數學,萬達,J·K·羅琳,星巴克,人權律師,貝佐斯,南海旅遊,廣深港高鐵,中印邊境,反華,比特幣,孫政才,雄安,白洋淀,星座,占星術,善心匯,博爾特,辛普森,盜墓,台北101,G20,迪士尼,樂視,太陽能,香港回歸,20週年,劉曉波,佛光山,星雲大師,馬布里,哈利王子,戴安娜王妃,萬科,癥狀,切爾西·曼寧,跨性別者,列寧,十月革命,馬爾地夫,察哈爾,走私,黃金,安邦,吳小暉,倫敦大火,倫敦恐襲,債務,廈門,印度,人口,007,龐德,羅傑·摩爾,馬里蘭大學,爆炸,恐襲,賣房,千禧一代,緬甸,石油,馬克思,雕像,德國,彈劾,FBI,科米,海航,長沙,新教,教堂,納米比亞,白金漢宮,菲利普親王,西非,漁業,尼泊爾,登山,徒步,知識產權,華為,郭文貴,阿爾泰,滑雪,鞋帶,巴馬,樂視,太陽能,美聯航,間諜,普立茲,項俊波,保監會,摩根大通,達賴喇嘛,敘利亞,洪水,水災,氣候變化,新加坡,伊拉克,摩蘇爾,基督教,地下教會,南航,人工智慧,AI,大堡礁,麥當勞,印度洋,福島,伊萬卡,多倫多,房價,大都會藝術博物館,維基解密,緬甸,薩德,人民幣,貶值,紐約,旅遊,移民,銀監會,瑞典,帶薪假,性,優步,金正男,歐威爾,女權,共產黨,禽流感,馬拉阿歌,煤炭,天然氣,加拿大,快遞,人工智慧,釣魚島,習近平,一九八四,1984,涪陵,機器人,遊行,眾籌,金立群,緬甸,台灣海峽,剖腹產,馬雲,足球,鄱陽湖,iPhone,富士康,鄭州,台灣,同性戀,俄羅斯,星際大戰,網路安全,五七幹校,香港保衛戰,台灣,外交關係,張藝謀,長城,自動駕駛,中國人,柏林,中國遊客,劉曉波,記者,監禁,瑪丹娜,朴槿惠,空軍一號,菲律賓,人權,雙規,川普,《紐約時報》">
+<meta name="description" content="紐約時報中文網 國際縱覽(cn.NYTimes.com)是紐約時報公司旗下的首個中文媒介產品，旨在向中國讀者提供有關全球時事、商業及文化的高水準報導。它將時報公司屢獲大獎之新聞內容中最精華部分帶給全球中文讀者，這些內容產自《紐約時報》1550名記者和31個全球分社，其中也包括北京、上海及香港記者站。網站內容特為中文讀者量身打造，既包括《紐約時報》英文報導的中譯版本，也包括本土中文作者及專欄作家專為中文網所撰寫的原創稿件。">
+<meta name="lang" property="lang" content="zh-hant">
+<meta name="apple-itunes-app" content="app-id=807498298, app-argument=nytimescn://homepage">
+
+<link rel="apple-touch-icon-precomposed" sizes="144×144" href="//static01.nyt.com/images/icons/ios-ipad-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114×114" href="//static01.nyt.com/images/icons/ios-iphone-114x144.png" />
+<link rel="apple-touch-icon-precomposed" href="//static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
+
+<meta id="WT.cg_n" name="WT.cg_n" content="homepage">
+<meta id="WT.z_gpt" name="WT.z_gpt" content="Homepage">
+<meta id="WT.LANG" name="WT.LANG" content="zh-hant">
+<meta id="WT.z_rmid" name="WT.z_rmid" content="">
+<script type="text/javascript">
+ var js_static_path = "//d3q1qj9jzsu8nw.cloudfront.net/js";
+ var imgs_static_path = "//d1f1eryiqyjs0r.cloudfront.net/style/imgs";
+ var style_static_path = "//d1f1eryiqyjs0r.cloudfront.net/style";
+ var jsonp_path = "//d3lar09xbwlsge.cloudfront.net";
+ var hot_stories_path = "/async/mostviewed/all/?lang=zh-hant";
+
+
+ var cookieString = {"title":"\u60a8\u7684\u8ffd\u8e64\u5668\u8a2d\u7f6e","headline":"\u6211\u5011\u4f7f\u7528 cookie \u505a\u4ec0\u9ebc\uff1f","summary":"<p>\u6211\u5011\u5229\u7528cookies\u548c\u985e\u4f3c\u7684\u6280\u8853\u8b58\u5225\u60a8\u7684\u91cd\u8907\u8a2a\u554f\u548c\u504f\u597d\u3002\u6211\u5011\u9084\u4f7f\u7528\u5b83\u5011\u4f86\u8861\u91cf\u5ee3\u544a\u7cfb\u5217\u7684\u6548\u679c\uff0c\u5b9a\u4f4d\u5ee3\u544a\u4e26\u5206\u6790\u548c\u7db2\u7ad9\u6d41\u91cf\u3002\u66f4\u591a\u95dc\u65bccookies\u7684\u8cc7\u8a0a\uff08\u5305\u62ec\u5982\u4f55\u505c\u7528\uff09\uff0c<a id=\"JSCookiePolicyLink\" href=\"https:\/\/www.nytimes.com\/zh-hans\/privacy\/cookie-policy\" rel=\"noreferrer noopener\" target=\"_blank\" data-testid=\"GDPR-policy\">\u8acb\u67e5\u770b\u6211\u5011\u7684\u300cCookie\u653f\u7b56\u300d<\/a>\u3002<\/p><p>\u81ea2020\u5e747\u670820\u65e5\u8d77\uff0c\u6211\u5011\u5c07\u6839\u64da\u60a8\u5728\u6211\u5011\u670d\u52d9\u4e2d\u6240\u8a2a\u554f\u7684\u5167\u5bb9\u985e\u578b\u5411\u60a8\u986f\u793a\u6211\u5011\u8a8d\u70ba\u8207\u60a8\u7684\u8208\u8da3\u76f8\u95dc\u7684\u5ee3\u544a\u3002\u60a8\u53ef\u4ee5<a href=\"https:\/\/www.nytimes.com\/zh-hans\/privacy\/cookie-policy#how-do-i-manage-trackers\" rel=\"noreferrer noopener\" target=\"_blank\" data-testid=\"GDPR-objection\">\u63d0\u51fa\u53cd\u5c0d<\/a>\u3002\u5e0c\u671b\u4e86\u89e3\u66f4\u591a\u4fe1\u606f\uff0c\u8acb\u53c3\u898b\u6211\u5011\u7684<a href=\"https:\/\/nytimes.com\/zh-hans\/privacy\/privacy-policy#we-allow-for-personalized-advertising-on-times-services\" rel=\"noreferrer noopener\" target=\"_blank\" data-testid=\"GDPR-privacy\">\u96b1\u79c1\u653f\u7b56<\/a>\u3002<\/p><p>\u900f\u904e\u5728\u6b64\u8655\u9ede\u64ca\u300c\u6211\u63a5\u53d7\u300d\u6216\u8005\u300cX\u300d\uff0c \u60a8\u5c07\u88ab\u8996\u70ba\u540c\u610f\u4f7f\u7528cookies\u3002\u60a8\u96a8\u6642\u53ef\u4ee5\u901a\u904e\u6211\u5011\u7684Cookie\u653f\u7b56\u4f86\u66f4\u6539\u60a8\u7684\u8ddf\u8e2a\u5668\u504f\u597d\u3002<\/p>","button":"\u63a5\u53d7","trackerButton":"\u7ba1\u7406 Tracker","rejectButton":"\u62d2\u7d55\u6240\u6709","lang":"zh-hant","trackerLink":"https:\/\/www.nytimes.com\/zh-hans\/privacy\/cookie-policy"};
+ var purrString = {"button":"\u8acb\u52ff\u51fa\u552e\/\u5206\u4eab\u6211\u7684\u500b\u4eba\u8cc7","snackbar":"\u4f60\u7684\u8a2d\u5b9a\u5df2\u7d93\u4fdd\u5b58\u5728\u6b64\u700f\u89bd\u5668\u548c\u8a2d\u5099\u4e0a\u3002\u5982\u679c\u4f60\u6e05\u9664\u4e86 cookie\uff0c\u9019\u4e9b\u8a2d\u5b9a\u4e5f\u6703\u88ab\u6e05\u9664\u3002","snackbarError":"Something went wrong","optedOutText":"\u6211\u4eec\u4e0d\u518d\u51fa\u552e\/\u5206\u4eab\u60a8\u7684\u500b\u4eba\u8cc7\u8a0a","CFALinkText":"California Notices","purrOptOutTitle":"Your preference has been stored in this browser and device.","purrOptOutSummary":"We will not sell or share your information, and you will be opted out of targeted advertising. If you clear your cookies, your preference will be forgotten.","purrSnackbarOptedOut":"Based on your preference, we will not sell or share your information, and you have been opted out of targeted advertising. If you clear your cookies, your preference will be forgotten.","limitSensitiveLink":"\u9650\u88fd\u4f7f\u7528\u6211\u7684\u654f\u611f\u4fe1\u606f","lang":"zh-hant"};
+</script>
+
+
+    <meta property="og:title" content="紐約時報中文網 國際縱覽" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cn.nytimes.com/" />
+    <meta property="og:image" content="//static01.nyt.com/images/icons/t_logo_291_black.png" />
+    <meta property="og:description" content="紐約時報中文網 國際縱覽(cn.NYTimes.com)是紐約時報公司旗下的首個中文媒介產品，旨在向中國讀者提供有關全球時事、商業及文化的高水準報導。它將時報公司屢獲大獎之新聞內容中最精華部分帶給全球中文讀者，這些內容產自《紐約時報》1550名記者和31個全球分社，其中也包括北京、上海及香港記者站。網站內容特為中文讀者量身打造，既包括《紐約時報》英文報導的中譯版本，也包括本土中文作者及專欄作家專為中文網所撰寫的原創稿件。">
+    <meta property="og:site_name" content="紐約時報中文網 國際縱覽">
+
+<meta property="fb:pages" content="1504603339831430">
+
+
+    <meta name="PT" content="Homepage">
+    <meta name="PST" content="News">
+    <meta name="CG" content="Homepage">
+    <meta name="SCG" content="">
+    <meta name="sourceApp" content="nyt-china-web">
+
+<link rel="alternate" href="https://cn.nytimes.com/" hreflang="zh-Hans" />
+<link rel="alternate" href="https://cn.nytimes.com/zh-hant/" hreflang="zh-Hant" />
+<link rel="alternate" href="https://www.nytimes.com" hreflang="en-us" />   
+<link rel="alternate" href="https://www.nytimes.com/international/" hreflang="en" />
+<link rel="alternate" href="https://www.nytimes.com/international/" hreflang="en-gb"/>
+<link rel="alternate" href="https://www.nytimes.com/international/" hreflang="en-au"/>
+<link rel="alternate" href="https://www.nytimes.com/ca/" hreflang="en-ca" />
+<link rel="alternate" href="https://www.nytimes.com/es/" hreflang="es" />
+<link rel="canonical" href="https://cn.nytimes.com/zh-hant/" />
+
+
+<title>紐約時報中文網 國際縱覽</title>
+    <link href="/css/homepage.css?v=785b2e5" rel="stylesheet"/>
+    <link href="//d1f1eryiqyjs0r.cloudfront.net/style/css/slideshow/slideshow.min.css?v=785b2e5" rel="stylesheet"/>
+    <link href="//d1f1eryiqyjs0r.cloudfront.net/style/css/cookie-banner/style.min.css?v=785b2e5" rel="stylesheet"/>
+<script type="text/javascript">
+ var adConfList = [], target = {"edn": "cn","typ": "","plat": "web","lan": "chi","sub": "anon","prop": "cnnyt"};
+ adConfList.push( { "index": 0,"size": [[184,90]],"namespace": "29390238/cnnyt/homepage","id": "nytcn-gpt-ad-Left-0","pos": "left" } );
+ adConfList.push( { "index": 1,"size": [[184,91]],"namespace": "29390238/cnnyt/homepage","id": "nytcn-gpt-ad-Right-1","pos": "right" } );
+ adConfList.push( { "index": 2,"size": [["fluid"],[728,90],[970,250],[970,90]],"namespace": "29390238/cnnyt/homepage","id": "nytcn-gpt-ad-Top-2","pos": "top" } );
+ adConfList.push( { "index": 3,"size": [[300,250],[300,600]],"namespace": "29390238/cnnyt/homepage","id": "nytcn-gpt-ad-MiddleRight-3","pos": "" } );
+ adConfList.push( { "index": 4,"size": [[300,250]],"namespace": "29390238/cnnyt/homepage","id": "nytcn-gpt-ad-Box1-4","pos": "mktg" } );
+</script>
+
+<script>
+ var dfpNameSpace = "29390238/cnnyt";
+</script>
+
+
+<script data-main="/js/homepage"> window.js_version="785b2e5"; var require = { urlArgs : "v="+'785b2e5' }; </script>
+<script data-main="/js/homepage" src="/js/vendor/require-jquery.js?v=785b2e5"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="https://static01.nyt.com/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="紐約時報中文網 國際縱覽" href="/rss/zh-hant/"/>
+
+<script src="//d3q1qj9jzsu8nw.cloudfront.net/js/libs/jstz.min.js" ></script>
+<script>
+ var cbSectionName = 'homepage';
+ var cbByline = '';
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-KTDZV8V'); </script>
+<!-- End Google Tag Manager -->
+
+<!-- chartbeat -->
+<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+<!-- /chartbeat -->
+
+  </head>
+
+  <body class="homepage" >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTDZV8V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="page">
+      <ul class="top_sites_cont" style="">
+    <li class="first"><a href="https://www.nytimes.com/" target="_blank">ENGLISH (英文) </a></li>
+    <li class="middle not_link">中文</li>
+    <li class="last"><a href="https://www.nytimes.com/es/" target="_blank">ESPAÑOL (西班牙语) </a></li>
+</ul>
+
+      <div id="user_info" class="user-info" >
+    <a href="/apps" target="_blank">移动应用 • Apps</a>
+</div>
+
+      <div id="homepageHeader">
+        
+        <a href="/" title="纽约时报中文网 国际纵览" class="nyt-logo">
+<svg width="373" height="90" role="img" aria-label="The New York Times">
+<image width="373" height="90" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/nameplate_zh-hant.svg" src="/img/nameplate_zh-hant@2x.png" alt="The New York Times" border="0"></image>
+</svg>
+</a>
+
+        <div class="headerAd headerAdLeft">
+          <div id='nytcn-gpt-ad-Left-0' class="ad ad-dfp ad-Left dfp_ad_container">
+</div>
+
+        </div>
+        <div class="headerAd headerAdRight">
+          <div id='nytcn-gpt-ad-Right-1' class="ad ad-dfp ad-Right dfp_ad_container">
+</div>
+
+        </div>
+      </div>
+      <div class="cf" id="tool">
+        <div class="searchBox"> 
+<form class="searchForm" name="searchBox" action="/search" method="GET">
+<input type="text" name="query" class="searchQuery" placeholder="搜索纽约时报"/>
+<input type="submit" class="searchSubmit" value="搜索"/>
+</form>
+</div>
+
+        <div class="dateTool">
+    <span class="date">2025年9月30日星期二    北京時間</span><span class="time">15:41</span>
+    <span class="updated">更新</span>
+</div>
+
+        <div class="localeTool">
+  <a rel="nofollow" class="" href="https://cn.nytimes.com/tools/r.html?url=/&langkey=zh-hans">简体</a> |
+  <a rel="nofollow" class="on" href="https://cn.nytimes.com/tools/r.html?url=/zh-hant/&langkey=zh-hant">繁體</a> 
+</div>
+
+      </div>
+      <div class="cf no-content" id="nav">
+  <ul class="navList">
+      <li class="mainSection on">
+        <a  href="/zh-hant/">首頁</a>
+		<div class="noLine"></div>
+      </li>
+      <li class="mainSection  drop">
+        <a  href="/world/zh-hant/">國際</a>
+		<div class="noLine"></div>
+        <ul>
+          <li class=""> <a href="/asia-pacific/zh-hant/">亞太</a> </li>
+          <li class=""> <a href="/south-asia/zh-hant/">南亞</a> </li>
+          <li class=""> <a href="/usa/zh-hant/">美國</a> </li>
+          <li class=""> <a href="/americas/zh-hant/">美洲</a> </li>
+          <li class=""> <a href="/europe/zh-hant/">歐洲</a> </li>
+          <li class=""> <a href="/mideast/zh-hant/">中東</a> </li>
+          <li class=""> <a href="/africa/zh-hant/">非洲</a> </li>
+        </ul>
+      </li>
+      <li class="mainSection  drop">
+        <a  href="/china/zh-hant/">中國</a>
+		<div class="noLine"></div>
+        <ul>
+          <li class=""> <a href="/policy/zh-hant/">時政</a> </li>
+          <li class=""> <a href="/china-ec/zh-hant/">經濟</a> </li>
+          <li class=""> <a href="/society/zh-hant/">社會</a> </li>
+          <li class=""> <a href="/foreign-relations/zh-hant/">中外關係</a> </li>
+          <li class=""> <a href="/hk-taiwan/zh-hant/">港澳台</a> </li>
+        </ul>
+      </li>
+      <li class="mainSection  drop">
+        <a  href="/business/zh-hant/">商業與經濟</a>
+		<div class="noLine"></div>
+        <ul>
+          <li class=""> <a href="/global-ec/zh-hant/">全球經濟</a> </li>
+          <li class=""> <a href="/china-ec/zh-hant/">中國經濟</a> </li>
+          <li class=""> <a href="/dealbook/zh-hant/">交易錄</a> </li>
+        </ul>
+      </li>
+      <li class="mainSection ">
+        <a  href="/lens/zh-hant/">鏡頭</a>
+		<div class="noLine"></div>
+      </li>
+      <li class="mainSection  drop">
+        <a  href="/technology/zh-hant/">科技</a>
+		<div class="noLine"></div>
+        <ul>
+          <li class=""> <a href="/bits/zh-hant/">科技公司</a> </li>
+          <li class=""> <a href="/personal-tech/zh-hant/">科技與你</a> </li>
+        </ul>
+      </li>
+      <li class="mainSection ">
+        <a  href="/science/zh-hant/">科學</a>
+		<div class="noLine"></div>
+      </li>
+      <li class="mainSection ">
+        <a  href="/health/zh-hant/">健康</a>
+		<div class="noLine"></div>
+      </li>
+      <li class="mainSection ">
+        <a  href="/education/zh-hant/">教育</a>
+		<div class="noLine"></div>
+      </li>
+      <li class="mainSection  drop">
+        <a  href="/culture/zh-hant/">文化</a>
+		<div class="noLine"></div>
+        <ul>
+          <li class=""> <a href="/books/zh-hant/">閱讀</a> </li>
+          <li class=""> <a href="/art/zh-hant/">藝術</a> </li>
+          <li class=""> <a href="/film-tv/zh-hant/">電影與電視</a> </li>
+          <li class=""> <a href="/sports/zh-hant/">體育</a> </li>
+        </ul>
+      </li>
+      <li class="mainSection  drop">
+        <a  href="/style/zh-hant/">風尚</a>
+		<div class="noLine"></div>
+        <ul>
+          <li class=""> <a href="/fashion/zh-hant/">時尚</a> </li>
+          <li class=""> <a href="/food-wine/zh-hant/">美食與美酒</a> </li>
+          <li class=""> <a href="/lifestyle/zh-hant/">生活方式</a> </li>
+        </ul>
+      </li>
+      <li class="mainSection ">
+        <a  href="/travel/zh-hant/">旅遊</a>
+		<div class="noLine"></div>
+      </li>
+      <li class="mainSection ">
+        <a  href="/real-estate/zh-hant/">房地產</a>
+		<div class="noLine"></div>
+      </li>
+      <li class="mainSection  drop">
+        <a  href="/opinion/zh-hant/">觀點與評論</a>
+		<div class="noLine"></div>
+        <ul>
+          <li class=""> <a href="/op-column/zh-hant/">專欄作者</a> </li>
+          <li class=""> <a href="/op-ed/zh-hant/">觀點</a> </li>
+          <li class=""> <a href="/cartoon/zh-hant/">漫畫</a> </li>
+        </ul>
+      </li>
+      <li class="mainSection topicnav">
+        <a  href="//cn.nytimes.com/topic/20160427/pulitzers-topic/?utm_source=news&utm_medium=nav&utm_campaign=nav-topic-nyt-pulitzer-prizezh-hant/">時報普利策獲獎作品</a>
+		<div class="noLine"></div>
+      </li>
+  </ul>
+</div>
+
+      <div id='nytcn-gpt-ad-Top-2' class="ad ad-dfp ad-Top dfp_ad_container">
+</div>
+
+      <div class="cf" id="regularHomepage">
+        <div class="infoBox">
+          <div class="layoutA cf">
+            <div id="leadNews"><div class=" first last " data-tb-region="lead-news-lead-news-0">
+
+<div class="leadNewsContainer" data-tb-region-item>
+<h2 class="leadHeadline"><a target="_blank" href="/china/20250930/china-missiles/zh-hant/" title="中國在東海岸部署先進導彈威懾台灣">中國東海岸部署先進導彈</a></h2>
+<h3 class="subHeadline"><a target="_blank" href="/china/20250930/china-missiles/zh-hant/" title="中國東海岸部署先進導彈">威懾台灣，對抗美國在亞洲影響力</a></h3>
+<h6 class="byline">儲百亮, <span class="en_byline">PABLO ROBLES</span> <span class="time">11:44</span></h6>
+<p class="summary">據美國國防部估計，中國火箭軍已在四年裡增加了近50%的武器儲備。與此同時，中國正在把東海岸部分地區改造成對台灣附近水域進行潛在導彈打擊的平台。</p>
+<ul class="referList">
+    <li class="article_refer first last "><h3 class="referListHeadline">
+	<a href="/china/20250904/china-military-parade-weapons/zh-hant/" title="「九三」閱兵展示了哪些新式武器" >「九三」閱兵展示了哪些新式武器</a>
+</h3>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+            <div class="columnA"><div class="cf regularSummary  first ">
+    
+    <ul class="regularSummaryList" data-tb-region="column-a-regular-summary-a-0">
+        <li class=" first " data-tb-region-item><h4 class="kicker">新聞分析</h4>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/china/20250929/china-un-trump-leader/zh-hant/" title="中國借聯合國舞台塑造負責任大國形象">中國借聯合國舞台塑造負責任大國形象</a></h3>
+<h6 class="byline"> <span class="en_byline">DAVID PIERSON</span> <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/china/20250929/china-un-trump-leader/zh-hant/" title="中國借聯合國舞台塑造負責任大國形象">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/27/multimedia/27int-china-diplo-chlm/27int-china-diplo-chlm-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="上週三在聯合國總部召開的氣候峰會上，中國最高領導人習近平遠程參會並發表影片講話。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">中國試圖在聯合國大會上將自己塑造為願意承擔全球責任的負責任大國，與美國形成對比。但其做法能否真正帶來改變仍懸而未決。</p>
+
+</li>
+        <li class=" " data-tb-region-item>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/china/20250929/china-un-trump/zh-hant/" title="李強將中國塑造為和平與安全的維護者">李強將中國塑造為和平與安全的維護者</a></h3>
+<h6 class="byline"> <span class="en_byline">DAVID PIERSON</span>, <span class="en_byline">MEAGHAN TOBIN</span> <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/china/20250929/china-un-trump/zh-hant/" title="李強在聯大講話，將中國塑造為和平與安全的維護者">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/26/multimedia/26unga-blog-china-topart-vgct/26unga-blog-china-topart-vgct-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="上週五，中國國務院總理李強在聯合國大會上發表講話。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">李強在聯合國大會上稱「中國始終是世界和平安全的堅定維護者」。北京試圖利用川普的破壞性政策將自己塑造為全球機構領導者。</p>
+
+</li>
+        <li class=" " data-tb-region-item>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/china/20250929/china-tech-workers-visas-us-h1b/zh-hant/" title="中國推出「K字簽證」和美國爭搶人才">中國推出「K字簽證」和美國爭搶人才</a></h3>
+<h6 class="byline"> 王月眉 <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/china/20250929/china-tech-workers-visas-us-h1b/zh-hant/" title="H-1B簽證費暴漲，中國推出K字簽證和美國搶人才">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/26/multimedia/26china-stem-visa-jhqz/26china-stem-visa-jhqz-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="2024年4月，杭州西湖大學主教學樓內展示著一組世界級科學家的肖像——這些科學家均是從海外引進的。中國正努力吸引頂尖科學人才，力圖取代美國，成為全球科技和科學進步的領跑者。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">在川普對H-1B簽證徵收高達10萬美元新費用後不久，中國宣布推出K字簽證，旨在吸引全球頂尖科技人才來華髮展。</p>
+
+</li>
+        <li class=" " data-tb-region-item>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/business/20250926/china-factory-robots/zh-hant/" title="中國工業機器人安裝量全球第一">中國工業機器人安裝量全球第一</a></h3>
+<h6 class="byline"> <span class="en_byline">MEAGHAN TOBIN</span>, <span class="en_byline">KEITH BRADSHER</span> <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/business/20250926/china-factory-robots/zh-hant/" title="中國工業機器人年安裝量超過世界其他地區總和">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/25/multimedia/25Biz-China-Robots-01-bpcl/25Biz-China-Robots-01-bpcl-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="合肥一條汽車裝配線上工作的機器人。中國的機器人公司與電動汽車和人工智慧行業的企業一樣，都已從國家層面的推動中受益。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">數據顯示，中國工廠去年安裝了近30萬台新機器人，超過世界其他地區的總和。這使中國在全球製造業的主導地位進一步得到鞏固。</p>
+
+</li>
+        <li class=" last " data-tb-region-item>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/technology/20250926/trump-tiktok-ban-deal/zh-hant/" title="川普就TikTok交易簽署行政命令">川普就TikTok交易簽署行政命令</a></h3>
+<h6 class="byline"> <span class="en_byline">LAUREN HIRSCH</span>, <span class="en_byline">TRIPP MICKLE</span>, <span class="en_byline">EMMETT LINDNER</span> <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/technology/20250926/trump-tiktok-ban-deal/zh-hant/" title="川普簽署行政命令，為TikTok交易掃清障礙">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/25/multimedia/25biz-trump-tiktok-cmvk/25biz-trump-tiktok-cmvk-thumbLarge-v3.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="川普總統於週四簽署了行政命令，為TikTok交易掃清了障礙。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">美國副總統萬斯表示，美國TikTok公司估值將達到140億美元。據知情人士透露，一家阿聯酋投資公司預計也將參與投資。</p>
+
+</li>
+    </ul>
+</div>
+
+<div class="headlineOnly  last " >
+    
+    <ul class="headlineOnlyList" data-tb-region="column-a-headline-only-a-1">
+        <li class=" first " data-tb-region-item><h3 class="headline"> <a target="_blank" href="/world/20250925/bangkok-museum-censorship-china/zh-hant/" title="緬甸策展人遭中國施壓後逃離泰國">緬甸策展人遭中國施壓後逃離泰國</a> </h3>
+</li>
+        <li class=" " data-tb-region-item><h3 class="headline"> <a target="_blank" href="/science/20250925/china-emissions-targets-paris/zh-hant/" title="中國首次承諾減少溫室氣體排放">中國首次承諾減少溫室氣體排放</a> </h3>
+</li>
+        <li class=" last " data-tb-region-item><h3 class="headline"> <a target="_blank" href="/usa/20250924/trump-un-aid-israel-gaza/zh-hant/" title="川普聯合國大會講話「罵遍」全球">川普聯合國大會講話「罵遍」全球</a> </h3>
+</li>
+    </ul>
+</div>
+</div>
+
+          </div>
+          <div class="layoutB cf">
+            <div id="photoSpot"><div class=" first last " data-tb-region="photospot-photospot-0">
+
+<div class=" first last " data-tb-region-item><div class="photoWrapper photo337 ">
+	  <a href="/china/20250930/china-delivery-shenzhen/zh-hant/" title="零工中的零工：深圳70層大樓裡代送外賣的跑腿員">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-url="https://static01.nyt.com/images/2025/09/24/multimedia/24int-china-lastmile-dispatch-promo-lhbg/24int-china-lastmile-dispatch-promo-lhbg-largeHorizontal375.jpg" class="img-lazyload" alt="" width="337" style="min-height: 225px" onlazyloaded="removePhotoSoptHeight(this);"/>
+	</a>
+    <p class="photoCredit">Gilles Sabrié for The New York Times</p>
+    <p class="photoCaption"></p>
+</div>
+
+<h4 class="kicker">深圳通訊</h4>
+<h3 class="sfheadline"><a target="_blank" href="/china/20250930/china-delivery-shenzhen/zh-hant/" title="零工中的零工：深圳70層大樓裡代送外賣的跑腿員">零工中的零工：深圳70層大樓裡代送外賣的跑腿員</a></h3>
+<h6 class="byline">王月眉 <span class="time">11:59</span></h6>
+<p class="summary">深圳賽格廣場有約70層，為了在送餐高峰期更高效地完成訂單，一些外賣騎手將樓內送餐任務「分包」給代跑腿配送員。這也催生了一個競爭激烈的新零工行業。</p>
+
+</div>
+</div>
+</div>
+
+            <div class="columnB"><div class="cf regularSummary  first last ">
+    
+    <ul class="regularSummaryList" data-tb-region="column-b-regular-summary-0">
+        <li class=" first " data-tb-region-item>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/china/20250928/how-chinas-secretive-spy-agency-became-a-cyber-powerhouse/zh-hant/" title="中國國安部如何崛起為強大的網路間諜機構">中國國安部如何崛起為強大的網路間諜機構</a></h3>
+<h6 class="byline"> 儲百亮, <span class="en_byline">ADAM GOLDMAN</span> <span class="time">16:20</span> </h6>
+<div class="thumbnail">
+	  <a href="/china/20250928/how-chinas-secretive-spy-agency-became-a-cyber-powerhouse/zh-hant/" title="中國國安部如何崛起為強大的網路間諜機構">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/27/multimedia/28china-hacking-01-qzcb/-28china-hacking-01-qzcb-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="北京天安門廣場的監控攝像頭，攝於去年。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">出於對美國監控威脅國家安全的不安，習近平掌權後迅速重塑國安部，將其提升為主要網路間諜機構。「鹽颱風」這樣的駭客行動凸顯出中國國安部日益增強的技術和能力。</p>
+
+</li>
+        <li class=" " data-tb-region-item><h4 class="kicker">訃告</h4>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/obits/20250929/jerome-cohen-dead/zh-hant/" title="孔傑榮逝世：深耕中國法律界的美國律師">孔傑榮逝世：深耕中國法律界的美國律師</a></h3>
+<h6 class="byline"> 儲百亮 <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/obits/20250929/jerome-cohen-dead/zh-hant/" title="孔傑榮逝世：深耕中國法律界的美國律師">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/27/multimedia/27Cohen--02-qtcz/27Cohen--02-qtcz-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="孔傑榮在他創辦的紐約大學美亞法律研究中心的辦公室，攝於2012年。一位同事說，他「在美國開創了中國法律研究領域」。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">孔傑榮是中國法律體系研究的開創者、首批在中國執業的外國律師之一，他長期倡導人權、深切關注中國維權律師的處境，近年來公開批評中國日益嚴厲的政治壓制。</p>
+
+</li>
+        <li class=" " data-tb-region-item>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/asia-pacific/20250926/china-green-tech-laos/zh-hant/" title="中國的綠色能源雄心將給世界帶來什麼代價？">中國的綠色能源雄心將給世界帶來什麼代價？</a></h3>
+<h6 class="byline"> <span class="en_byline">BROOK LARMER</span> <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/asia-pacific/20250926/china-green-tech-laos/zh-hant/" title="中國的綠色能源雄心將給世界帶來什麼代價？">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/21/magazine/21mag-Laos/21mag-Laos-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="位於寮國多征地區的季風風力發電項目，風力渦輪機向越南輸送電力。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">中國正主導全球可再生能源貿易，這可能對氣候和地緣政治產生持久影響。寮國這樣的貧困國家如何能從中國提供的清潔能源中獲益、但又不至於過度依賴中國？</p>
+
+</li>
+        <li class=" " data-tb-region-item><h4 class="kicker">訃告</h4>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/obits/20250930/tess-johnston-dead/zh-hant/" title="記錄和保護「老上海」的美國外交官江似虹">記錄和保護「老上海」的美國外交官江似虹</a></h3>
+<h6 class="byline"> <span class="en_byline">SAM ROBERTS</span> <span class="time">15:39</span> </h6>
+<div class="thumbnail">
+	  <a href="/obits/20250930/tess-johnston-dead/zh-hant/" title="記錄和保護「老上海」的美國外交官江似虹">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/26/multimedia/26Johnston-print1/23Johnston--01-gwcz-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="「我們從歷史中吸取的教訓是，我們沒有從歷史中吸取到教訓，」江似虹在2018年說。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">江似虹曾在美國駐上海總領事館任職，在上海生活了35年，致力於記錄和保護這座城市裡正在消失的租界建築，成為研究老上海的重要聲音。她於9月14日逝世，享年93歲。</p>
+
+</li>
+        <li class=" last " data-tb-region-item>
+<h3 class="regularSummaryHeadline"><a target="_blank" href="/asia-pacific/20250925/typhoon-ragasa-hong-kong-china/zh-hant/" title="超強颱風「樺加薩」席捲香港、台灣等多地">超強颱風「樺加薩」席捲香港、台灣等多地</a></h3>
+<h6 class="byline"> <span class="en_byline">TIFFANY MAY</span>, <span class="en_byline">DAVID PIERSON</span>, <span class="en_byline">XINYUN WU</span>, <span class="en_byline">BERRY WANG</span> <span class="time"></span> </h6>
+<div class="thumbnail">
+	  <a href="/asia-pacific/20250925/typhoon-ragasa-hong-kong-china/zh-hant/" title="超強颱風「樺加薩」席捲香港、台灣等多地">
+        <img class="img-lazyload" data-url="https://static01.nyt.com/images/2025/09/24/multimedia/24int-typhoon-ragasa-01-gvhc/24int-typhoon-ragasa-01-gvhc-thumbLarge.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" alt="週三，颱風「樺加薩」吹襲了香港。圖為杏花邨地區的一個公車站遭到強風的連續吹擊。" width="75" height="75"/>
+	</a>
+</div>
+
+<p class="summary">「樺加薩」一度成為今年以來全球最強的颱風，以高風速席捲菲律賓、香港、台灣和中國廣東等地，帶來強風暴雨，淹沒沿海地區，造成十餘人死亡，數十人受傷。</p>
+
+</li>
+    </ul>
+</div>
+
+</div>
+
+          </div>
+        </div>
+        <div class="layoutC cf">
+          <div id="commentPiece"><div class="commentSummary"><div class="commentBigByline  first ">
+  <h4 class="collectionName">
+    <a href="/opinion/zh-hant" target="_blank">
+      觀點與評論 • <span>OPINION</span>
+    </a>
+  </h4>
+	<ul class="commentSummaryList" data-tb-region="comment-piece-comment-big-byline-0">
+		<li class="commentSummaryItem  first " data-tb-region-item> <h3 class="commentSummaryHeadline"><a target="_blank" href="/opinion/20250926/asia-protest-youth-nepal-bangladesh/zh-hant/" title="青年的吶喊：抗議之聲點燃「亞洲之春」">青年的吶喊：抗議之聲點燃「亞洲之春」</a></h3>
+<h6 class="byline"> <span class="en_byline">MEENA KANDASAMY</span> </h6>
+<div class="thumbnail">
+	<a href="/opinion/20250926/asia-protest-youth-nepal-bangladesh/zh-hant/" title="青年的吶喊：抗議之聲點燃「亞洲之春」">
+		<img src="https://static01.nyt.com/images/2025/09/21/multimedia/19kandasamy-gqtv/19kandasamy-gqtv-thumbLarge-v4.jpg" alt="" width="50" height="50"/>
+	</a>
+</div>
+
+<p class="summary">十多年前，Twitter推動了阿拉伯之春；如今，同樣由年輕人發起的反抗運動在亞洲重現。掌權者若視而不見，將為此付出代價。</p>
+ </li>
+		<li class="commentSummaryItem  " data-tb-region-item> <h3 class="commentSummaryHeadline"><a target="_blank" href="/opinion/20250925/china-tech-climate/zh-hant/" title="中國告別綠色「內卷」是福是禍？">中國告別綠色「內卷」是福是禍？</a></h3>
+<h6 class="byline"> <span class="en_byline">DAVID WALLACE-WELLS</span> </h6>
+<div class="thumbnail">
+	<a href="/opinion/20250925/china-tech-climate/zh-hant/" title="中國告別綠色「內卷」是福是禍？">
+		<img src="https://static01.nyt.com/images/2025/09/25/opinion/25wallace-wells-newsletter-image/25wallace-wells-newsletter-image-thumbLarge.jpg" alt="" width="50" height="50"/>
+	</a>
+</div>
+
+<p class="summary">北京也許不會突然關閉綠色製造和可再生能源出口的閥門，但習近平已經宣稱他希望結束內卷，開啟一個不以低價競爭為核心的新產業戰略。</p>
+ </li>
+		<li class="commentSummaryItem  last " data-tb-region-item> <h3 class="commentSummaryHeadline"><a target="_blank" href="/opinion/20250924/china-economy-deflation-neijuan/zh-hant/" title="令中國感到恐懼的一個新聞熱詞">令中國感到恐懼的一個新聞熱詞</a></h3>
+<h6 class="byline"> <span class="en_byline">BOB DAVIS</span> </h6>
+<div class="thumbnail">
+	<a href="/opinion/20250924/china-economy-deflation-neijuan/zh-hant/" title="令中國感到恐懼的一個新聞熱詞">
+		<img src="https://static01.nyt.com/images/2025/09/23/opinion/23Davis/23Davis-thumbLarge.jpg" alt="" width="50" height="50"/>
+	</a>
+</div>
+
+<p class="summary">中國正在走向通貨緊縮，領導人將這一問題歸咎於「內卷」，並試圖通過行政手段來遏制這一現象。但這些措施難以從根本上解決問題。</p>
+ </li>
+	</ul>
+</div>
+<div class="commentHeadlineOnly  last ">
+	 
+	<ul class="commentSummaryHeadlineOnlyList" data-tb-region="comment-piece-comment-headline-only-1">
+        <li class=" first " data-tb-region-item> <h3 class="commentSummaryHeadline"><a target="_blank" href="/opinion/20250916/taiwan-china-war-trump/zh-hant/" title="川普扭轉臺海局勢的最佳策略">川普扭轉臺海局勢的最佳策略</a></h3>
+ </li>
+        <li class=" last " data-tb-region-item> <h3 class="commentSummaryHeadline"><a target="_blank" href="/opinion/20250915/trump-capitalism-china-intel/zh-hant/" title="川普正在模仿中國模式，這糟透了">川普正在模仿中國模式，這糟透了</a></h3>
+ </li>
+	</ul>
+</div>
+</div></div>
+
+          
+          <div id='nytcn-gpt-ad-MiddleRight-3' class="ad ad-dfp ad-MiddleRight dfp_ad_container">
+</div>
+
+          
+          <div class=""></div>
+        </div>
+      </div>
+      <div class="cf moth" id="moth">
+    <h4 class="collectionName">編輯推薦</h4>
+	<div class="mothButton">
+        <div class="pointPrev">
+            <i class="nyt-icon icon-chevron-thin-left"></i>
+        </div>
+		<div class="pointNext">
+            <i class="nyt-icon icon-chevron-thin-right"></i>
+        </div>
+	</div>
+	<div class="mothBox">
+		<div class="storyWindow">
+			<table class="cf mothList">
+				<tr>
+				 <td class="cf"><div class=" first  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/china/zh-hant/" >中國</a></h4>
+<a href="/china/20250923/china-censorship-jimmy-kimmel/zh-hant/" class="mothThumbnail" title="言論自由是如何一點一點被侵蝕的">
+    <img data-url="https://static01.nyt.com/images/2025/09/23/business/00newworld-censorship/00newworld-censorship-moth.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/china/20250923/china-censorship-jimmy-kimmel/zh-hant/" title="言論自由是如何一點一點被侵蝕的">言論自由是如何一點一點被侵蝕的</a> </h3>
+<!--<p class="summary">「雞毛秀」停播讓很多人感到擔憂。也許中國人的經歷能為美國人提供教訓：言論自由很少一下子消失，而是逐漸削弱，直到恐懼佔據上風，直到人們覺得沉默是正常的。</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/business/zh-hant/" >商業與經濟</a></h4>
+<a href="/business/20250922/china-rare-earths-magnets/zh-hant/" class="mothThumbnail" title="尋找中國稀土替代品：一場全球追逐戰">
+    <img data-url="https://static01.nyt.com/images/2025/09/19/multimedia/Biz-Rare-Earths-video-still-twzm/Biz-Rare-Earths-video-still-twzm-moth.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/business/20250922/china-rare-earths-magnets/zh-hant/" title="尋找中國稀土替代品：一場全球追逐戰">尋找中國稀土替代品：一場全球追逐戰</a> </h3>
+<!--<p class="summary">中國控制強力稀土磁鐵出口的舉動讓各國開發替代品的努力變得更加緊迫。但中國在經過三十年的巨額投資後已取得顯著領先，世界其他國家要迅速趕上並不容易。</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/usa/zh-hant/" >美國</a></h4>
+<a href="/usa/20250922/trump-jimmy-kimmel-fcc-comedy-autocracy/zh-hant/" class="mothThumbnail" title="向威權國家看齊，美國言論自由惡化">
+    <img data-url="https://static01.nyt.com/images/2025/09/19/multimedia/19int-trump-world-fclq/19int-trump-world-fclq-moth.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/usa/20250922/trump-jimmy-kimmel-fcc-comedy-autocracy/zh-hant/" title="向威權國家看齊，美國言論自由惡化">向威權國家看齊，美國言論自由惡化</a> </h3>
+<!--<p class="summary">美國歷史上一直是言論自由的捍衛者，但川普政府試圖控制媒體機構、打擊關於總統的負面言論，其策略符合威權國家的行為模式，這讓美國陷入尷尬境地。</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/china/zh-hant/" >中國</a></h4>
+<a href="/china/20250919/hong-kong-dim-sum-cart/zh-hant/" class="mothThumbnail" title="香港茶樓「點心車阿姨」逐漸謝幕">
+    <img data-url="https://static01.nyt.com/images/2025/09/15/multimedia/00int-hongkong-dispatch-photo-11-cfvb/00int-hongkong-dispatch-photo-11-cfvb-moth.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/china/20250919/hong-kong-dim-sum-cart/zh-hant/" title="香港茶樓「點心車阿姨」逐漸謝幕">香港茶樓「點心車阿姨」逐漸謝幕</a> </h3>
+<!--<p class="summary">香港為數不多仍在使用點心車的餐廳之一名都將於9月27日正式關門，港式飲食文化中備受食客喜愛的「點心車阿姨」所剩無幾。這折射出香港近些年來的興衰變遷。</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/technology/zh-hant/" >科技</a></h4>
+<a href="/technology/20250917/what-exactly-are-ai-companies-trying-to-build-heres-a-guide/zh-hant/" class="mothThumbnail" title="人工智慧公司到底在打造什麼？">
+    <img data-url="https://static01.nyt.com/images/2025/09/15/business/ai-why00biz-ai-why-2x3-still-SUB/ai-why00biz-ai-why-2x3-still-SUB-moth.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/technology/20250917/what-exactly-are-ai-companies-trying-to-build-heres-a-guide/zh-hant/" title="人工智慧公司到底在打造什麼？">人工智慧公司到底在打造什麼？</a> </h3>
+<!--<p class="summary">科技行業將農田變成數據中心，把AI研究員變成收入最高的人，卻難以向外界闡明自己到底在打造什麼。本文梳理了人工智慧公司的願景，以及他們試圖實現這些想法的原因。</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/business/zh-hant/" >商業與經濟</a></h4>
+<a href="/business/20250916/china-young-people-boom/zh-hant/" class="mothThumbnail" title="中國年輕人為何懷念「經濟上行期的美」">
+    <img data-url="https://static01.nyt.com/images/2025/09/11/business/00nw-nostalgia/00nw-nostalgia-moth.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/business/20250916/china-young-people-boom/zh-hant/" title="中國年輕人為何懷念「經濟上行期的美」">中國年輕人為何懷念「經濟上行期的美」</a> </h3>
+<!--<p class="summary">這個流行語折射出人們對中國經濟高速增長時代的懷念。它也是中國Z世代最新的反文化表達，年輕一代對經濟前景和社會環境感到幻滅，懷念過去本身就暗含對當下的批評。</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/china/zh-hant/" >中國</a></h4>
+<a href="/china/20250910/china-deportation-us-asylum/zh-hant/" class="mothThumbnail" title="「走線潤美」失敗被遣返的普通中國人">
+    <img data-url="https://static01.nyt.com/images/2025/08/20/multimedia/00int-china-deportations-qjzk/00int-china-deportations-qjzk-moth.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/china/20250910/china-deportation-us-asylum/zh-hant/" title="「走線潤美」失敗被遣返的普通中國人">「走線潤美」失敗被遣返的普通中國人</a> </h3>
+<!--<p class="summary">他是創紀錄數量的無證中國移民中的一員，因為社會控制收緊和經濟前景黯淡選擇冒險，但庇護申請遭到拒絕。被遣返回中國後，他面臨選擇：留下來，還是再次嘗試離開？</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/usa/zh-hant/" >美國</a></h4>
+<a href="/usa/20250908/navy-seal-north-korea-trump-2019/zh-hant/" class="mothThumbnail" title="揭秘海豹突擊隊潛入朝鮮的絕密任務">
+    <img data-url="https://static01.nyt.com/images/2025/07/30/multimedia/00nat-seal-raid-body-promo/00nat-seal-raid-body-promo-moth.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/usa/20250908/navy-seal-north-korea-trump-2019/zh-hant/" title="揭秘海豹突擊隊潛入朝鮮的絕密任務">揭秘海豹突擊隊潛入朝鮮的絕密任務</a> </h3>
+<!--<p class="summary">2019年，川普批准了一項絕密任務，派遣海豹突擊隊登陸朝鮮，安裝可以截獲金正恩通訊的電子裝置。然而，這項任務中途失敗，導致數名朝鮮平民死亡。</p>-->
+</div> </td>  <td class="cf"><div class="  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/china/zh-hant/" >中國</a></h4>
+<a href="/china/20250904/china-military-parade-weapons/zh-hant/" class="mothThumbnail" title="「九三」閱兵展示了哪些新式武器">
+    <img data-url="https://static01.nyt.com/images/2025/09/03/multimedia/c04china-parade-weapons-01/c04china-parade-weapons-moth.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/china/20250904/china-military-parade-weapons/zh-hant/" title="「九三」閱兵展示了哪些新式武器">「九三」閱兵展示了哪些新式武器</a> </h3>
+<!--<p class="summary">習近平主持的閱兵式是對中國潛在敵人發出的警告，其中最受關注的武器包括「東風-31」洲際核導彈、「鷹擊-19」高超音速導彈，以及新型無人潛航器等。</p>-->
+</div> </td>  <td class="cf"><div class=" last  story" > <h4 class="sectionName"><a target="_blank" class="hintLink more" href="/china/zh-hant/" >中國</a></h4>
+<a href="/china/20250903/china-chongqing-protest/zh-hant/" class="mothThumbnail" title="重慶反共標語事件：監控「天網」下的抗議">
+    <img data-url="https://static01.nyt.com/images/2025/09/02/video/02vid-China-protest-cover/02vid-China-protest-cover-moth.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="165" width="165">
+</a>
+
+<h3 class=""> <a target="_blank" href="/china/20250903/china-chongqing-protest/zh-hant/" title="重慶反共標語事件：監控「天網」下的抗議">重慶反共標語事件：監控「天網」下的抗議</a> </h3>
+<!--<p class="summary">北京舉辦閱兵之前，一名重慶活動人士策划了一場精心設計的反共產黨示威活動。這也證明，即使在世界上監控最嚴密的國家之一，抵抗依然可以出現並得以存續。</p>-->
+</div> </td> 
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+      <div class="cf video">
+    <header>
+        <h4 class="collectionName">時報影片 • <span>TIMES</span><span class="gray-text">VIDEO</span></h4>
+	    <a class="viewmore-video-btn" href="//www.nytimes.com/video/china">
+            观看全部视频
+            <i class="nyt-icon icon-chevron-thin-right"></i>
+	    </a>
+    </header>
+    <div class="videoBox" id="videoCont" data-url="https://www.nytimes.com/svc/video/api/v2/playlist/100000001637619">
+        <i class="lazyload-loading"></i>
+    </div>
+</div>
+<script type="text/html" id="videoBoxTpl">
+    <div class="videoPlayerCont">
+        <figure>
+            <div class="video-container" id="videoContainer">
+            </div>
+            <div class="poster-cont">
+                <img alt="" src="/img/download.gif" class="poster"/>
+            </div>
+            <figcaption class="credit" id="videoCreditBox"></figcaption>
+        </figure>
+    </div>
+    <div class="videoListCont">
+        <ul id="videoList">
+        </ul>
+    </div>
+</script>
+
+<script type="text/html" id="videoListTpl">
+{#each videos as video#}
+<li>
+    <a href="javascript:void(0);" data-vid="{#video.id#}">
+        <div class="wide-thumb">
+            <img alt="" src="{#video.thumb.url#}" />
+            <span class="duration">{#video.duration#}</span>
+            <div class="media-action-overlay">
+                <div class="play-icon-cont"><i class="play-icon"></i></div>
+                <p class="media-meta">正在播放</p>
+            </div>
+        </div>
+        <h5>{#video.headline#}</h5>
+    </a>
+</li>
+{#/each#}
+</script>
+
+
+      <div class="cf lens" id="lens_slideshow">
+    <h4 class="collectionName">鏡頭 • <span>LENS</span></h4>
+	<div class="mothButton lensButton">
+		<div class="pointPrev">
+            <i class="nyt-icon icon-chevron-thin-left"></i>
+        </div>
+		<div class="pointNext">
+            <i class="nyt-icon icon-chevron-thin-right"></i>
+        </div>
+	</div>
+	<div class="lensBox">
+		<div class="storyWindow">
+			<table class="cf lensList">
+				<tr>
+				 <td class="cf"><div class=" first  story" > <a href="/slideshow/20250903/china-parade-photos-ss/zh-hant/" class="lensThumbnail" title="圖集：中國「九三」閱兵現場">
+    <img data-url="https://static01.nyt.com/images/2025/09/03/multimedia/03int-china-parade-top-mvzc-copy/03int-china-hp-mvzc-mediumThreeByTwo440.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="227" width="340">
+</a>
+
+<h3 class="">
+    <i class="nyt-icon icon-images"></i>
+    <a href="/slideshow/20250903/china-parade-photos-ss/zh-hant/" title="圖集：中國「九三」閱兵現場">圖集：中國「九三」閱兵現場</a>
+</h3>
+</div> </td>  <td class="cf"><div class="  story" > <a href="/slideshow/20241226/2024-yip-1h/zh-hant/" class="lensThumbnail" title="圖片中的2024年（上）">
+    <img data-url="https://static01.nyt.com/images/2024/12/22/multimedia/2024-yip-april-pqvt/2024-yip-april-pqvt-mediumThreeByTwo440.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="227" width="340">
+</a>
+
+<h3 class="">
+    <i class="nyt-icon icon-images"></i>
+    <a href="/slideshow/20241226/2024-yip-1h/zh-hant/" title="圖片中的2024年（上）">圖片中的2024年（上）</a>
+</h3>
+</div> </td>  <td class="cf"><div class="  story" > <a href="/slideshow/20241227/2024-yip-2h/zh-hant/" class="lensThumbnail" title="圖片中的2024年（下）">
+    <img data-url="https://static01.nyt.com/images/2024/12/22/multimedia/2024-yip-july-04-ftvm/2024-yip-july-04-ftvm-mediumThreeByTwo440-v2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="227" width="340">
+</a>
+
+<h3 class="">
+    <i class="nyt-icon icon-images"></i>
+    <a href="/slideshow/20241227/2024-yip-2h/zh-hant/" title="圖片中的2024年（下）">圖片中的2024年（下）</a>
+</h3>
+</div> </td>  <td class="cf"><div class="  story" > <a href="/slideshow/20231224/2023-yip-1h/zh-hant/" class="lensThumbnail" title="圖片中的2023年（上）">
+    <img data-url="https://static01.nyt.com/images/2023/12/24/world/2023-yip-june-slide-THOA/2023-yip-june-slide-THOA-mediumThreeByTwo440.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="227" width="340">
+</a>
+
+<h3 class="">
+    <i class="nyt-icon icon-images"></i>
+    <a href="/slideshow/20231224/2023-yip-1h/zh-hant/" title="圖片中的2023年（上）">圖片中的2023年（上）</a>
+</h3>
+</div> </td>  <td class="cf"><div class=" last  story" > <a href="/slideshow/20231226/2023-yip-2h/zh-hant/" class="lensThumbnail" title="圖片中的2023年（下）">
+    <img data-url="https://static01.nyt.com/images/2023/12/24/multimedia/2023-yip-july-05-bhzc/2023-yip-july-05-bhzc-mediumThreeByTwo440-v2.jpg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" class="img-lazyload" height="227" width="340">
+</a>
+
+<h3 class="">
+    <i class="nyt-icon icon-images"></i>
+    <a href="/slideshow/20231226/2023-yip-2h/zh-hant/" title="圖片中的2023年（下）">圖片中的2023年（下）</a>
+</h3>
+</div> </td> 
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+
+      <div class="cf" id="well">
+    <i class="lazyload-loading"></i>
+    <div class="news_well_automated_hidden">
+        <div class="verticalLine VL1"></div>
+        <div class="verticalLine VL2"></div>
+        <div>
+            <div class="cf  partarea  news_well column_left" data-url="/async/partarea/?page_id=6d62e01948759684d79d4c9eeedc6b34&position=news_well%3Acolumn_left&lang=zh-hk" data-style="news_well column_left" data-type="partarea">
+    <i class="lazyload-loading"></i>
+</div>
+
+
+            <div class="cf  partarea  news_well column_center" data-url="/async/partarea/?page_id=6d62e01948759684d79d4c9eeedc6b34&position=news_well%3Acolumn_center&lang=zh-hk" data-style="news_well column_center" data-type="partarea">
+    <i class="lazyload-loading"></i>
+</div>
+
+
+            <div class="cf column_right">
+    <ul><li class="news_well_story  first last "><div class="opinion_well" data-url="/async/automatedcollection/?slug=opinion-well&style=opinion_well&dimensionality_id=007df27ad7e2aa5bf642b2913b393f7d&dimensionality_type=section&type=automatedcollection&sorting=the_latest&num=4&dtype=all&zone=news_well&zone_index=0" data-style="opinion_well">
+    <i class="lazyload-loading"></i>
+</div>
+</li></ul>
+    <div id='nytcn-gpt-ad-Box1-4' class="ad ad-dfp ad-Box1 dfp_ad_container">
+</div>
+
+</div>
+
+        </div>
+    </div>
+</div>
+
+      <div class="cf no-content" id="footer">
+    <div class="copyright">
+        © 2025 The New York Times Company.
+    </div>
+    <ul class="footerLinkList">
+        <li class="footerLink"><a rel="nofollow" href="/help/ad/zh-hant/">廣告</a></li>
+        <li class="footerLink"><a rel="nofollow" href="/help/about-us/zh-hant/">關於我們</a></li>
+        <li class="footerLink"><a rel="nofollow" href="/help/contact/zh-hant/">聯繫我們</a></li>
+        <li class="footerLink"><a rel="nofollow" href=""></a></li>
+        <li class="footerLink"><a rel="nofollow" href="https://help.nytimes.com/13537672149396-terms-of-service-simplified-chinese">服務條款</a></li>
+        <li class="footerLink"><a rel="nofollow" href="/help/copyright-statement/zh-hant/">版權聲明</a></li>
+        <li class="footerLink"><a rel="nofollow" href="https://help.nytimes.com/13537661065748-terms-of-sale-simplified-chinese">销售条款</a></li>
+        <li class="footerLink"><a rel="nofollow" href="mailto:cn.help@nytimes.com?subject=FEEDBACK">意见反馈</a></li>
+        <li class="last footerLink"><a rel="nofollow" id="rssIcon" href="/rss/zh-hant/">RSS</a></li>
+    </ul>
+</div>
+<div class="purr-content"></div>
+<div class="download_app">
+    <a href="https://itunes.apple.com/app/apple-store/id807498298?pt=13036&ct=news-hp&mt=8" target="_blank" class="apple_store_icon" title="點擊下載iOS APP">
+        <span class="visually_hidden">點擊下載iOS APP</span>
+    </a>
+    <span class="app_store qr_code" title="掃描二維碼下載">
+        <span class="visually_hidden">
+            掃描二維碼下載iOS APP
+        </span>
+    </span>
+    <a href="https://play.google.com/store/apps/details?id=com.nytimes.cn" class="google_play_icon" target="_blank" title="點擊下載Android APP">
+        <span class="visually_hidden">點擊下載Android APP</span>
+    </a>
+    <span class="google_play qr_code" title="掃描二維碼下載">
+        <span class="visually_hidden">
+            掃描二維碼下載Android APP
+        </span>
+    </span>
+</div>
+
+
+
+    </div>
+    </body>
+  </html>

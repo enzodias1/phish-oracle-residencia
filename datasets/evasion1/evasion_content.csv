@@ -1,0 +1,16 @@
+filepath,n_forms,n_inputs,n_buttons,n_links,n_http_links,n_mailto_links,n_scripts,n_iframes,n_input_password,n_input_email,n_input_tel,text_len,kw_total,kw_login,kw_log_in,kw_entrar,kw_acessar,kw_senha,kw_password,kw_pix,kw_boleto,kw_cpf,kw_cartão,kw_atualizar,kw_update,kw_confirm,kw_confirmar,kw_verify,kw_verificar,kw_segurança,kw_security,kw_urgente,kw_urgency,kw_click,kw_clique,kw_conta,kw_account,kw_bank,kw_banco
+datasets/evasion1/EvasionSet1/html/www.b3.com.br_adv.html,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+datasets/evasion1/EvasionSet1/html/www.claro.com.br_adv.html,1,1,46,303,0,0,56,1,0,0,0,9024,10,0,0,0,0,2,0,1,0,1,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0
+datasets/evasion1/EvasionSet1/html/www.globo.com_adv.html,1,0,4,378,0,0,37,1,0,0,0,8329,5,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0
+datasets/evasion1/EvasionSet1/html/www.gov.br_adv.html,0,1,5,257,0,0,46,3,0,0,0,9259,8,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,0,0,0,2,0,0,0
+datasets/evasion1/EvasionSet1/html/www.ifood.com.br_adv.html,1,1,6,33,0,0,26,1,0,0,0,1303,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,3,0,0,0
+datasets/evasion1/EvasionSet1/html/www.inter.co_adv.html,0,0,4,42,0,0,36,1,0,0,0,2224,13,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,2
+datasets/evasion1/EvasionSet1/html/www.kabum.com.br_adv.html,2,2,76,50,0,0,18,1,0,0,0,2912,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0
+datasets/evasion1/EvasionSet1/html/www.magazineluiza.com.br_adv.html,1,1,9,200,0,0,87,1,0,0,0,5231,6,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+datasets/evasion1/EvasionSet1/html/www.mercadolivre.com.br_adv.html,1,1,30,268,0,0,14,0,0,0,0,11302,23,0,0,1,0,0,0,1,1,0,2,0,0,0,0,0,0,3,0,0,0,0,0,15,0,0,0
+datasets/evasion1/EvasionSet1/html/www.nubank.com.br_adv.html,2,2,14,58,0,0,82,0,0,0,2,2489,38,1,0,0,0,0,0,0,1,2,16,0,0,0,0,0,0,3,0,0,0,0,0,2,0,13,0
+datasets/evasion1/EvasionSet1/html/www.pagseguro.com.br_adv.html,0,4,25,204,0,0,22,1,0,0,0,10888,68,0,0,0,0,0,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,37,5
+datasets/evasion1/EvasionSet1/html/www.picpay.com_adv.html,1,1,2,75,0,0,22,1,0,0,1,3886,18,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,12,0,0,3
+datasets/evasion1/EvasionSet1/html/www.python.org_adv.html,1,1,1,208,0,0,14,0,0,0,0,6454,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+datasets/evasion1/EvasionSet1/html/www.santander.com.br_adv.html,0,255,0,119,0,0,38,1,0,0,0,4204,22,0,0,0,0,0,0,0,1,0,4,0,0,0,0,0,1,4,0,0,0,0,1,8,0,1,2
+datasets/evasion1/EvasionSet1/html/www.uol.com.br_adv.html,1,2,6,571,0,0,41,0,0,0,0,17108,15,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,5,0,0,0,0,2,1,0,4,1

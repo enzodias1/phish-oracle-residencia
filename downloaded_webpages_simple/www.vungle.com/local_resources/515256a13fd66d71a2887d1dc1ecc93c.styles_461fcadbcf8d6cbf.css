@@ -1,0 +1,2295 @@
+
+.post-type-archive-hero a.lf-card-transparent .card-body_text:not(:first-child), .post-type-archive-hero div.lf-card-transparent .card-body_text:not(:first-child) {
+	margin-top: 10px !important;
+}
+
+.single-hero .lf--resource, .single-blog .lf--resource {
+	margin: 0 auto;
+	padding: 48px 0;
+}
+
+.post-type-archive-blog .is-style-title-2xl, .post-type-archive-hero .is-style-title-2xl, .page-template-template-mobileheroes .is-style-title-2xl, .single-blog .is-style-title-2xl, .single-reports .is-style-title-2xl, .single-hero .is-style-title-2xl, .single-case-studies .is-style-title-2xl, .single-in-depth .is-style-title-2xl, .single-jobs .is-style-title-2xl, .single-podcasts .is-style-title-2xl, .single-videos .is-style-title-2xl, .single-comics .is-style-title-2xl, .single-events .is-style-title-2xl {
+	margin-bottom: 15px;
+	line-height: 72px;
+	font-size: 62px;
+	letter-spacing: -5%;
+}
+
+.post-type-archive-blog .is-style-title-xl, .post-type-archive-hero .is-style-title-xl, .page-template-template-mobileheroes .is-style-title-xl, .single-blog .is-style-title-xl, .single-reports .is-style-title-xl, .single-hero .is-style-title-xl, .single-case-studies .is-style-title-xl, .single-in-depth .is-style-title-xl, .single-jobs .is-style-title-xl, .single-podcasts .is-style-title-xl, .single-videos .is-style-title-xl, .single-comics .is-style-title-xl, .single-events .is-style-title-xl {
+	font-size: 56px;
+	line-height: 62px;
+	letter-spacing: -5%;
+}
+
+.post-type-archive-blog .is-style-title-lg, .post-type-archive-hero .is-style-title-lg, .page-template-template-mobileheroes .is-style-title-lg, .single-blog .is-style-title-lg, .single-reports .is-style-title-lg, .single-hero .is-style-title-lg, .single-case-studies .is-style-title-lg, .single-in-depth .is-style-title-lg, .single-jobs .is-style-title-lg, .single-podcasts .is-style-title-lg, .single-videos .is-style-title-lg, .single-comics .is-style-title-lg, .single-events .is-style-title-lg {
+	font-size: 46px;
+	line-height: 52px;
+	letter-spacing: -2%;
+}
+
+.post-type-archive-blog .is-style-title-md, .post-type-archive-hero .is-style-title-md, .page-template-template-mobileheroes .is-style-title-md, .single-blog .is-style-title-md, .single-reports .is-style-title-md, .single-hero .is-style-title-md, .single-case-studies .is-style-title-md, .single-in-depth .is-style-title-md, .single-jobs .is-style-title-md, .single-podcasts .is-style-title-md, .single-videos .is-style-title-md, .single-comics .is-style-title-md, .single-events .is-style-title-md {
+	font-size: 38px;
+	line-height: 44px;
+	letter-spacing: -2%;
+}
+
+.post-type-archive-blog .is-style-title-sm, .post-type-archive-hero .is-style-title-sm, .page-template-template-mobileheroes .is-style-title-sm, .single-blog .is-style-title-sm, .single-reports .is-style-title-sm, .single-hero .is-style-title-sm, .single-case-studies .is-style-title-sm, .single-in-depth .is-style-title-sm, .single-jobs .is-style-title-sm, .single-podcasts .is-style-title-sm, .single-videos .is-style-title-sm, .single-comics .is-style-title-sm, .single-events .is-style-title-sm {
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -2%;
+}
+
+.post-type-archive-blog .is-style-title-xs, .post-type-archive-hero .is-style-title-xs, .page-template-template-mobileheroes .is-style-title-xs, .single-blog .is-style-title-xs, .single-reports .is-style-title-xs, .single-hero .is-style-title-xs, .single-case-studies .is-style-title-xs, .single-in-depth .is-style-title-xs, .single-jobs .is-style-title-xs, .single-podcasts .is-style-title-xs, .single-videos .is-style-title-xs, .single-comics .is-style-title-xs, .single-events .is-style-title-xs {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 2%;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.post-type-archive-blog .is-style-body-lg, .post-type-archive-hero .is-style-body-lg, .page-template-template-mobileheroes .is-style-body-lg, .single-blog .is-style-body-lg, .single-reports .is-style-body-lg, .single-hero .is-style-body-lg, .single-case-studies .is-style-body-lg, .single-in-depth .is-style-body-lg, .single-jobs .is-style-body-lg, .single-podcasts .is-style-body-lg, .single-videos .is-style-body-lg, .single-comics .is-style-body-lg, .single-events .is-style-body-lg {
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -2%;
+}
+
+.post-type-archive-blog .is-style-body-md, .post-type-archive-hero .is-style-body-md, .page-template-template-mobileheroes .is-style-body-md, .single-blog .is-style-body-md, .single-reports .is-style-body-md, .single-hero .is-style-body-md, .single-case-studies .is-style-body-md, .single-in-depth .is-style-body-md, .single-jobs .is-style-body-md, .single-podcasts .is-style-body-md, .single-videos .is-style-body-md, .single-comics .is-style-body-md, .single-events .is-style-body-md {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -2%;
+}
+
+.post-type-archive-blog .is-style-body-sm, .post-type-archive-hero .is-style-body-sm, .page-template-template-mobileheroes .is-style-body-sm, .single-blog .is-style-body-sm, .single-reports .is-style-body-sm, .single-hero .is-style-body-sm, .single-case-studies .is-style-body-sm, .single-in-depth .is-style-body-sm, .single-jobs .is-style-body-sm, .single-podcasts .is-style-body-sm, .single-videos .is-style-body-sm, .single-comics .is-style-body-sm, .single-events .is-style-body-sm {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -2%;
+}
+
+.post-type-archive-blog .is-style-body-xs, .post-type-archive-hero .is-style-body-xs, .page-template-template-mobileheroes .is-style-body-xs, .single-blog .is-style-body-xs, .single-reports .is-style-body-xs, .single-hero .is-style-body-xs, .single-case-studies .is-style-body-xs, .single-in-depth .is-style-body-xs, .single-jobs .is-style-body-xs, .single-podcasts .is-style-body-xs, .single-videos .is-style-body-xs, .single-comics .is-style-body-xs, .single-events .is-style-body-xs {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: -2.5%;
+}
+
+.post-type-archive-blog .is-style-body-xxs, .post-type-archive-hero .is-style-body-xxs, .page-template-template-mobileheroes .is-style-body-xxs, .single-blog .is-style-body-xxs, .single-reports .is-style-body-xxs, .single-hero .is-style-body-xxs, .single-case-studies .is-style-body-xxs, .single-in-depth .is-style-body-xxs, .single-jobs .is-style-body-xxs, .single-podcasts .is-style-body-xxs, .single-videos .is-style-body-xxs, .single-comics .is-style-body-xxs, .single-events .is-style-body-xxs {
+	font-size: 10px;
+	line-height: 14px;
+	letter-spacing: -2%;
+}
+
+@media screen and (max-width: 999px) {
+	.post-type-archive-blog .is-style-title-lg, .post-type-archive-hero .is-style-title-lg, .page-template-template-mobileheroes .is-style-title-lg, .single-blog .is-style-title-lg, .single-reports .is-style-title-lg, .single-hero .is-style-title-lg, .single-case-studies .is-style-title-lg, .single-in-depth .is-style-title-lg, .single-jobs .is-style-title-lg, .single-podcasts .is-style-title-lg, .single-videos .is-style-title-lg, .single-comics .is-style-title-lg, .single-events .is-style-title-lg {
+		font-size: 34px;
+		line-height: 40px;
+		letter-spacing: -2%;
+	}
+	
+	.post-type-archive-blog .is-style-title-md, .post-type-archive-hero .is-style-title-md, .page-template-template-mobileheroes .is-style-title-md, .single-blog .is-style-title-md, .single-reports .is-style-title-md, .single-hero .is-style-title-md, .single-case-studies .is-style-title-md, .single-in-depth .is-style-title-md, .single-jobs .is-style-title-md, .single-podcasts .is-style-title-md, .single-videos .is-style-title-md, .single-comics .is-style-title-md, .single-events .is-style-title-md {
+		font-size: 32px;
+		line-height: 38px;
+		letter-spacing: -2%;
+	}
+}
+
+@media screen and (max-width: 639px) {
+	.post-type-archive-blog .is-style-title-2xl, .post-type-archive-hero .is-style-title-2xl, .page-template-template-mobileheroes .is-style-title-2xl, .single-blog .is-style-title-2xl, .single-reports .is-style-title-2xl, .single-hero .is-style-title-2xl, .single-case-studies .is-style-title-2xl, .single-in-depth .is-style-title-2xl, .single-jobs .is-style-title-2xl, .single-podcasts .is-style-title-2xl, .single-videos .is-style-title-2xl, .single-comics .is-style-title-2xl, .single-events .is-style-title-2xl {
+		margin-bottom: 15px;
+		line-height: 42px;
+		font-size: 36px;
+		letter-spacing: -5%;
+	}
+	
+	.post-type-archive-blog .is-style-title-xl, .post-type-archive-hero .is-style-title-xl, .page-template-template-mobileheroes .is-style-title-xl, .single-blog .is-style-title-xl, .single-reports .is-style-title-xl, .single-hero .is-style-title-xl, .single-case-studies .is-style-title-xl, .single-in-depth .is-style-title-xl, .single-jobs .is-style-title-xl, .single-podcasts .is-style-title-xl, .single-videos .is-style-title-xl, .single-comics .is-style-title-xl, .single-events .is-style-title-xl {
+		font-size: 36px;
+		line-height: 42px;
+		letter-spacing: -5%;
+	}
+}
+
+footer .top-container {
+	padding-bottom: 100px !important;
+	display: flex;
+	align-items: flex-end;
+	gap: 200px;
+}
+
+footer .top-container .eyebrow {
+	font-size: 38px;
+	letter-spacing: -.84px;
+	line-height: 44px;
+	max-width: 580px;
+}
+
+footer .top-container .hubspot-email-input {
+	width: 100%;
+	max-width: 350px;
+}
+
+.post-type-archive-blog .hubspot-email-input .hs_email input[type="email"], .post-type-archive-hero .hubspot-email-input .hs_email input[type="email"], .page-template-template-mobileheroes .hubspot-email-input .hs_email input[type="email"], .single-blog .hubspot-email-input .hs_email input[type="email"], .single-reports .hubspot-email-input .hs_email input[type="email"], .single-hero .hubspot-email-input .hs_email input[type="email"], .single-case-studies .hubspot-email-input .hs_email input[type="email"], .single-in-depth .hubspot-email-input .hs_email input[type="email"], .single-jobs .hubspot-email-input .hs_email input[type="email"], .single-podcasts .hubspot-email-input .hs_email input[type="email"], .single-videos .hubspot-email-input .hs_email input[type="email"], .single-comics .hubspot-email-input .hs_email input[type="email"], .single-events .hubspot-email-input .hs_email input[type="email"] {
+	color: #fff;
+}
+
+.hbspt-form .hs-form-field input.error, .hbspt-form .hs-form-field textarea.error {
+	color: #ed0303 !important;
+}
+
+footer .top-container .hubspot-email-input .hbspt-form .hs-submit {
+	margin-top: 0;
+}
+
+footer .middle-container {
+	display: block !important;
+}
+
+footer .middle-container .lf-footer-desktop__link-container {
+	grid-template-columns: repeat(6, 1fr);
+}
+
+footer .middle-container .social-icons-container {
+	display: block !important;
+}
+
+footer .middle-container .social-icons-container a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 500;
+	width: unset !important;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 639px) {
+	footer .footer-container .top-container {
+		display: block !important;
+		padding-bottom: 36px !important;
+	}
+	
+	footer .top-container .eyebrow {
+		font-size: 24px;
+		letter-spacing: -.6px;
+		line-height: 26px;
+		max-width: 230px;
+	}
+	
+	footer .hubspot-email-input {
+		margin-top: 55px !important;
+	}
+	
+	footer .middle-container .social-icons-container {
+		display: flex !important;
+		gap: 20px;
+		margin: 0 0 100px !important;
+	}
+	
+	footer .middle-container .social-icons-container a {
+		width: 18px !important;
+		margin: 0 !important;
+	}
+}
+
+.post-type-archive-blog footer, .post-type-archive-hero footer, .page-template-template-mobileheroes footer, .single-blog footer, .single-reports footer, .single-hero footer, .single-case-studies footer, .single-in-depth footer, .single-jobs footer, .single-podcasts footer, .single-videos footer, .single-comics footer, .single-events footer {
+	background: #00081c;
+	color: #f8f8fa;
+}
+
+.post-type-archive-blog footer .brand-logo-container svg path, .post-type-archive-hero footer .brand-logo-container svg path, .page-template-template-mobileheroes footer .brand-logo-container svg path, .single-blog footer .brand-logo-container svg path, .single-reports footer .brand-logo-container svg path, .single-hero footer .brand-logo-container svg path, .single-case-studies footer .brand-logo-container svg path, .single-in-depth footer .brand-logo-container svg path, .single-jobs footer .brand-logo-container svg path, .single-podcasts footer .brand-logo-container svg path, .single-videos footer .brand-logo-container svg path, .single-comics footer .brand-logo-container svg path, .single-events footer .brand-logo-container svg path {
+	fill: #f8f8fa;
+}
+
+.post-type-archive-blog footer a, .post-type-archive-blog footer .hbspt-form .hs-form-field > label, .post-type-archive-blog footer .footer-container .bottom-container .company, .post-type-archive-blog footer .lf-accordion-container .lf-accordion-header > button, .post-type-archive-hero footer a, .post-type-archive-hero footer .hbspt-form .hs-form-field > label, .post-type-archive-hero footer .footer-container .bottom-container .company, .post-type-archive-hero footer .lf-accordion-container .lf-accordion-header > button, .page-template-template-mobileheroes footer a, .page-template-template-mobileheroes footer .hbspt-form .hs-form-field > label, .page-template-template-mobileheroes footer .footer-container .bottom-container .company, .page-template-template-mobileheroes footer .lf-accordion-container .lf-accordion-header > button, .single-blog footer a, .single-blog footer .hbspt-form .hs-form-field > label, .single-blog footer .footer-container .bottom-container .company, .single-blog footer .lf-accordion-container .lf-accordion-header > button, .single-reports footer a, .single-reports footer .hbspt-form .hs-form-field > label, .single-reports footer .footer-container .bottom-container .company, .single-reports footer .lf-accordion-container .lf-accordion-header > button, .single-hero footer a, .single-hero footer .hbspt-form .hs-form-field > label, .single-hero footer .footer-container .bottom-container .company, .single-hero footer .lf-accordion-container .lf-accordion-header > button, .single-case-studies footer a, .single-case-studies footer .hbspt-form .hs-form-field > label, .single-case-studies footer .footer-container .bottom-container .company, .single-case-studies footer .lf-accordion-container .lf-accordion-header > button, .single-in-depth footer a, .single-in-depth footer .hbspt-form .hs-form-field > label, .single-in-depth footer .footer-container .bottom-container .company, .single-in-depth footer .lf-accordion-container .lf-accordion-header > button, .single-jobs footer a, .single-jobs footer .hbspt-form .hs-form-field > label, .single-jobs footer .footer-container .bottom-container .company, .single-jobs footer .lf-accordion-container .lf-accordion-header > button, .single-podcasts footer a, .single-podcasts footer .hbspt-form .hs-form-field > label, .single-podcasts footer .footer-container .bottom-container .company, .single-podcasts footer .lf-accordion-container .lf-accordion-header > button, .single-videos footer a, .single-videos footer .hbspt-form .hs-form-field > label, .single-videos footer .footer-container .bottom-container .company, .single-videos footer .lf-accordion-container .lf-accordion-header > button, .single-comics footer a, .single-comics footer .hbspt-form .hs-form-field > label, .single-comics footer .footer-container .bottom-container .company, .single-comics footer .lf-accordion-container .lf-accordion-header > button, .single-events footer a, .single-events footer .hbspt-form .hs-form-field > label, .single-events footer .footer-container .bottom-container .company, .single-events footer .lf-accordion-container .lf-accordion-header > button {
+	color: #f8f8fa !important;
+}
+
+.post-type-archive-blog footer input[type=text], .post-type-archive-blog footer input[type=email], .post-type-archive-blog footer input[type=tel], .post-type-archive-blog footer textarea, .post-type-archive-hero footer input[type=text], .post-type-archive-hero footer input[type=email], .post-type-archive-hero footer input[type=tel], .post-type-archive-hero footer textarea, .page-template-template-mobileheroes footer input[type=text], .page-template-template-mobileheroes footer input[type=email], .page-template-template-mobileheroes footer input[type=tel], .page-template-template-mobileheroes footer textarea, .single-blog footer input[type=text], .single-blog footer input[type=email], .single-blog footer input[type=tel], .single-blog footer textarea, .single-reports footer input[type=text], .single-reports footer input[type=email], .single-reports footer input[type=tel], .single-reports footer textarea, .single-hero footer input[type=text], .single-hero footer input[type=email], .single-hero footer input[type=tel], .single-hero footer textarea, .single-case-studies footer input[type=text], .single-case-studies footer input[type=email], .single-case-studies footer input[type=tel], .single-case-studies footer textarea, .single-in-depth footer input[type=text], .single-in-depth footer input[type=email], .single-in-depth footer input[type=tel], .single-in-depth footer textarea, .single-jobs footer input[type=text], .single-jobs footer input[type=email], .single-jobs footer input[type=tel], .single-jobs footer textarea, .single-podcasts footer input[type=text], .single-podcasts footer input[type=email], .single-podcasts footer input[type=tel], .single-podcasts footer textarea, .single-videos footer input[type=text], .single-videos footer input[type=email], .single-videos footer input[type=tel], .single-videos footer textarea, .single-comics footer input[type=text], .single-comics footer input[type=email], .single-comics footer input[type=tel], .single-comics footer textarea, .single-events footer input[type=text], .single-events footer input[type=email], .single-events footer input[type=tel], .single-events footer textarea {
+	border-bottom: 1.5px solid #f8f8fa !important;
+}
+
+.post-type-archive-blog footer .hubspot-email-input:not(.error) .actions:before, .post-type-archive-blog footer .middle-container .social-icons-container a::before, .post-type-archive-blog footer .middle-container .social-icons-container a:hover::before, .post-type-archive-blog footer .lf-accordion-container .lf-accordion-header:after, .post-type-archive-hero footer .hubspot-email-input:not(.error) .actions:before, .post-type-archive-hero footer .middle-container .social-icons-container a::before, .post-type-archive-hero footer .middle-container .social-icons-container a:hover::before, .post-type-archive-hero footer .lf-accordion-container .lf-accordion-header:after, .page-template-template-mobileheroes footer .hubspot-email-input:not(.error) .actions:before, .page-template-template-mobileheroes footer .middle-container .social-icons-container a::before, .page-template-template-mobileheroes footer .middle-container .social-icons-container a:hover::before, .page-template-template-mobileheroes footer .lf-accordion-container .lf-accordion-header:after, .single-blog footer .hubspot-email-input:not(.error) .actions:before, .single-blog footer .middle-container .social-icons-container a::before, .single-blog footer .middle-container .social-icons-container a:hover::before, .single-blog footer .lf-accordion-container .lf-accordion-header:after, .single-reports footer .hubspot-email-input:not(.error) .actions:before, .single-reports footer .middle-container .social-icons-container a::before, .single-reports footer .middle-container .social-icons-container a:hover::before, .single-reports footer .lf-accordion-container .lf-accordion-header:after, .single-hero footer .hubspot-email-input:not(.error) .actions:before, .single-hero footer .middle-container .social-icons-container a::before, .single-hero footer .middle-container .social-icons-container a:hover::before, .single-hero footer .lf-accordion-container .lf-accordion-header:after, .single-case-studies footer .hubspot-email-input:not(.error) .actions:before, .single-case-studies footer .middle-container .social-icons-container a::before, .single-case-studies footer .middle-container .social-icons-container a:hover::before, .single-case-studies footer .lf-accordion-container .lf-accordion-header:after, .single-in-depth footer .hubspot-email-input:not(.error) .actions:before, .single-in-depth footer .middle-container .social-icons-container a::before, .single-in-depth footer .middle-container .social-icons-container a:hover::before, .single-in-depth footer .lf-accordion-container .lf-accordion-header:after, .single-jobs footer .hubspot-email-input:not(.error) .actions:before, .single-jobs footer .middle-container .social-icons-container a::before, .single-jobs footer .middle-container .social-icons-container a:hover::before, .single-jobs footer .lf-accordion-container .lf-accordion-header:after, .single-podcasts footer .hubspot-email-input:not(.error) .actions:before, .single-podcasts footer .middle-container .social-icons-container a::before, .single-podcasts footer .middle-container .social-icons-container a:hover::before, .single-podcasts footer .lf-accordion-container .lf-accordion-header:after, .single-videos footer .hubspot-email-input:not(.error) .actions:before, .single-videos footer .middle-container .social-icons-container a::before, .single-videos footer .middle-container .social-icons-container a:hover::before, .single-videos footer .lf-accordion-container .lf-accordion-header:after, .single-comics footer .hubspot-email-input:not(.error) .actions:before, .single-comics footer .middle-container .social-icons-container a::before, .single-comics footer .middle-container .social-icons-container a:hover::before, .single-comics footer .lf-accordion-container .lf-accordion-header:after, .single-events footer .hubspot-email-input:not(.error) .actions:before, .single-events footer .middle-container .social-icons-container a::before, .single-events footer .middle-container .social-icons-container a:hover::before, .single-events footer .lf-accordion-container .lf-accordion-header:after {
+	background-color: #f8f8fa !important;
+}
+
+.hubspot-email-input.error .actions:before {
+	background-color: #ed0303 !important;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav, .post-type-archive-hero header.lf-nav .desktop-nav, .page-template-template-mobileheroes header.lf-nav .desktop-nav, .single-blog header.lf-nav .desktop-nav, .single-reports header.lf-nav .desktop-nav, .single-hero header.lf-nav .desktop-nav, .single-case-studies header.lf-nav .desktop-nav, .single-in-depth header.lf-nav .desktop-nav, .single-jobs header.lf-nav .desktop-nav, .single-podcasts header.lf-nav .desktop-nav, .single-videos header.lf-nav .desktop-nav, .single-comics header.lf-nav .desktop-nav, .single-events header.lf-nav .desktop-nav {
+	margin-left: auto;
+	align-items: center;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .post-type-archive-blog header.lf-nav .desktop-nav .lf-nav-dropdown a, .post-type-archive-hero header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .post-type-archive-hero header.lf-nav .desktop-nav .lf-nav-dropdown a, .page-template-template-mobileheroes header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .page-template-template-mobileheroes header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-blog header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-blog header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-reports header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-reports header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-hero header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-hero header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-case-studies header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-case-studies header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-in-depth header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-in-depth header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-jobs header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-jobs header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-podcasts header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-podcasts header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-videos header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-videos header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-comics header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-comics header.lf-nav .desktop-nav .lf-nav-dropdown a, .single-events header.lf-nav .desktop-nav .lf-nav-dropdown .dropdown-toggle, .single-events header.lf-nav .desktop-nav .lf-nav-dropdown a {
+	display: flex;
+	align-items: center;
+	border: none;
+	background: none;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -.02em;
+	font-family: "Poppins", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: 500;
+	color: #273143;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .post-type-archive-blog header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .post-type-archive-hero header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .post-type-archive-hero header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .page-template-template-mobileheroes header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .page-template-template-mobileheroes header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-blog header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-blog header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-reports header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-reports header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-hero header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-hero header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-case-studies header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-case-studies header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-in-depth header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-in-depth header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-jobs header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-jobs header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-podcasts header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-podcasts header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-videos header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-videos header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-comics header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-comics header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after, .single-events header.lf-nav .desktop-nav .lf-nav-dropdown:hover .dropdown-toggle::after, .single-events header.lf-nav .desktop-nav .lf-nav-dropdown:hover a::after {
+	border-bottom: 1px solid #273143;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	content: "";
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav #header-get-started, .post-type-archive-hero header.lf-nav .desktop-nav #header-get-started, .page-template-template-mobileheroes header.lf-nav .desktop-nav #header-get-started, .single-blog header.lf-nav .desktop-nav #header-get-started, .single-reports header.lf-nav .desktop-nav #header-get-started, .single-hero header.lf-nav .desktop-nav #header-get-started, .single-case-studies header.lf-nav .desktop-nav #header-get-started, .single-in-depth header.lf-nav .desktop-nav #header-get-started, .single-jobs header.lf-nav .desktop-nav #header-get-started, .single-podcasts header.lf-nav .desktop-nav #header-get-started, .single-videos header.lf-nav .desktop-nav #header-get-started, .single-comics header.lf-nav .desktop-nav #header-get-started, .single-events header.lf-nav .desktop-nav #header-get-started {
+	background-color: #00081c !important;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav #header-get-started:hover, .post-type-archive-hero header.lf-nav .desktop-nav #header-get-started:hover, .page-template-template-mobileheroes header.lf-nav .desktop-nav #header-get-started:hover, .single-blog header.lf-nav .desktop-nav #header-get-started:hover, .single-reports header.lf-nav .desktop-nav #header-get-started:hover, .single-hero header.lf-nav .desktop-nav #header-get-started:hover, .single-case-studies header.lf-nav .desktop-nav #header-get-started:hover, .single-in-depth header.lf-nav .desktop-nav #header-get-started:hover, .single-jobs header.lf-nav .desktop-nav #header-get-started:hover, .single-podcasts header.lf-nav .desktop-nav #header-get-started:hover, .single-videos header.lf-nav .desktop-nav #header-get-started:hover, .single-comics header.lf-nav .desktop-nav #header-get-started:hover, .single-events header.lf-nav .desktop-nav #header-get-started:hover {
+	background-color: #273143 !important;
+	opacity: 1 !important;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav #header-get-started:active, .post-type-archive-hero header.lf-nav .desktop-nav #header-get-started:active, .page-template-template-mobileheroes header.lf-nav .desktop-nav #header-get-started:active, .single-blog header.lf-nav .desktop-nav #header-get-started:active, .single-reports header.lf-nav .desktop-nav #header-get-started:active, .single-hero header.lf-nav .desktop-nav #header-get-started:active, .single-case-studies header.lf-nav .desktop-nav #header-get-started:active, .single-in-depth header.lf-nav .desktop-nav #header-get-started:active, .single-jobs header.lf-nav .desktop-nav #header-get-started:active, .single-podcasts header.lf-nav .desktop-nav #header-get-started:active, .single-videos header.lf-nav .desktop-nav #header-get-started:active, .single-comics header.lf-nav .desktop-nav #header-get-started:active, .single-events header.lf-nav .desktop-nav #header-get-started:active {
+	background-color: #4a5871 !important;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav .wp-block-button, .post-type-archive-hero header.lf-nav .desktop-nav .wp-block-button, .page-template-template-mobileheroes header.lf-nav .desktop-nav .wp-block-button, .single-blog header.lf-nav .desktop-nav .wp-block-button, .single-reports header.lf-nav .desktop-nav .wp-block-button, .single-hero header.lf-nav .desktop-nav .wp-block-button, .single-case-studies header.lf-nav .desktop-nav .wp-block-button, .single-in-depth header.lf-nav .desktop-nav .wp-block-button, .single-jobs header.lf-nav .desktop-nav .wp-block-button, .single-podcasts header.lf-nav .desktop-nav .wp-block-button, .single-videos header.lf-nav .desktop-nav .wp-block-button, .single-comics header.lf-nav .desktop-nav .wp-block-button, .single-events header.lf-nav .desktop-nav .wp-block-button {
+	margin-left: 68px;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav .liftoff-tab, .post-type-archive-hero header.lf-nav .desktop-nav .liftoff-tab, .page-template-template-mobileheroes header.lf-nav .desktop-nav .liftoff-tab, .single-blog header.lf-nav .desktop-nav .liftoff-tab, .single-reports header.lf-nav .desktop-nav .liftoff-tab, .single-hero header.lf-nav .desktop-nav .liftoff-tab, .single-case-studies header.lf-nav .desktop-nav .liftoff-tab, .single-in-depth header.lf-nav .desktop-nav .liftoff-tab, .single-jobs header.lf-nav .desktop-nav .liftoff-tab, .single-podcasts header.lf-nav .desktop-nav .liftoff-tab, .single-videos header.lf-nav .desktop-nav .liftoff-tab, .single-comics header.lf-nav .desktop-nav .liftoff-tab, .single-events header.lf-nav .desktop-nav .liftoff-tab {
+	align-self: flex-start;
+	margin-left: 36px;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav .liftoff-tab a, .post-type-archive-hero header.lf-nav .desktop-nav .liftoff-tab a, .page-template-template-mobileheroes header.lf-nav .desktop-nav .liftoff-tab a, .single-blog header.lf-nav .desktop-nav .liftoff-tab a, .single-reports header.lf-nav .desktop-nav .liftoff-tab a, .single-hero header.lf-nav .desktop-nav .liftoff-tab a, .single-case-studies header.lf-nav .desktop-nav .liftoff-tab a, .single-in-depth header.lf-nav .desktop-nav .liftoff-tab a, .single-jobs header.lf-nav .desktop-nav .liftoff-tab a, .single-podcasts header.lf-nav .desktop-nav .liftoff-tab a, .single-videos header.lf-nav .desktop-nav .liftoff-tab a, .single-comics header.lf-nav .desktop-nav .liftoff-tab a, .single-events header.lf-nav .desktop-nav .liftoff-tab a {
+	background: #fff url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/liftoff-icon.svg") no-repeat center bottom/contain;
+	width: 34px;
+	height: 40px;
+	border-radius: 0 0 20px 20px;
+	font-size: 0;
+	display: block;
+	transition: .3s ease-out;
+}
+
+.post-type-archive-blog header.lf-nav .desktop-nav .liftoff-tab a:hover, .post-type-archive-hero header.lf-nav .desktop-nav .liftoff-tab a:hover, .page-template-template-mobileheroes header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-blog header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-reports header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-hero header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-case-studies header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-in-depth header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-jobs header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-podcasts header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-videos header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-comics header.lf-nav .desktop-nav .liftoff-tab a:hover, .single-events header.lf-nav .desktop-nav .liftoff-tab a:hover {
+	height: 60px;
+}
+
+.post-type-archive-blog header.lf-nav .mobile-nav .lf-nav-container .left, .post-type-archive-hero header.lf-nav .mobile-nav .lf-nav-container .left, .page-template-template-mobileheroes header.lf-nav .mobile-nav .lf-nav-container .left, .single-blog header.lf-nav .mobile-nav .lf-nav-container .left, .single-reports header.lf-nav .mobile-nav .lf-nav-container .left, .single-hero header.lf-nav .mobile-nav .lf-nav-container .left, .single-case-studies header.lf-nav .mobile-nav .lf-nav-container .left, .single-in-depth header.lf-nav .mobile-nav .lf-nav-container .left, .single-jobs header.lf-nav .mobile-nav .lf-nav-container .left, .single-podcasts header.lf-nav .mobile-nav .lf-nav-container .left, .single-videos header.lf-nav .mobile-nav .lf-nav-container .left, .single-comics header.lf-nav .mobile-nav .lf-nav-container .left, .single-events header.lf-nav .mobile-nav .lf-nav-container .left {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+.post-type-archive-blog header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .post-type-archive-hero header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .page-template-template-mobileheroes header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-blog header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-reports header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-hero header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-case-studies header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-in-depth header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-jobs header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-podcasts header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-videos header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-comics header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab, .single-events header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab {
+	align-self: flex-start;
+}
+
+.post-type-archive-blog header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .post-type-archive-hero header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .page-template-template-mobileheroes header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-blog header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-reports header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-hero header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-case-studies header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-in-depth header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-jobs header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-podcasts header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-videos header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-comics header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-events header.lf-nav .mobile-nav .lf-nav-container .left .liftoff-tab a {
+	background: #00081c url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/liftoff-icon-white.svg") no-repeat center/contain;
+	width: 35px;
+	height: 35px;
+	border-radius: 8px;
+	font-size: 0;
+	display: block;
+	transition: .3s ease-out;
+}
+
+.post-type-archive-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button, .post-type-archive-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button, .page-template-template-mobileheroes header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-reports header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-case-studies header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-in-depth header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-jobs header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-podcasts header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-videos header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-comics header.lf-nav .mobile-nav .lf-nav-container .menu-button, .single-events header.lf-nav .mobile-nav .lf-nav-container .menu-button {
+	mask-image: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Menu.svg");
+	-webkit-mask-image: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Menu.svg");
+	mask-repeat: no-repeat;
+	-webkit-mask-repeat: no-repeat;
+	mask-position: center;
+	-webkit-mask-position: center;
+	background: #00081c;
+}
+
+.post-type-archive-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .post-type-archive-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .page-template-template-mobileheroes header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-reports header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-case-studies header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-in-depth header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-jobs header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-podcasts header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-videos header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-comics header.lf-nav .mobile-nav .lf-nav-container .menu-button.open, .single-events header.lf-nav .mobile-nav .lf-nav-container .menu-button.open {
+	mask-image: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Close.svg");
+	-webkit-mask-image: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Close.svg");
+}
+
+.post-type-archive-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .post-type-archive-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .page-template-template-mobileheroes header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-reports header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-case-studies header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-in-depth header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-jobs header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-podcasts header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-videos header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-comics header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy, .single-events header.lf-nav .mobile-nav .lf-nav-container .menu-button.open.nitro-lazy {
+	mask-image: none !important;
+}
+
+.post-type-archive-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .post-type-archive-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .page-template-template-mobileheroes header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-blog header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-reports header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-hero header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-case-studies header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-in-depth header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-jobs header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-podcasts header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-videos header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-comics header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy, .single-events header.lf-nav .mobile-nav .lf-nav-container .menu-button.nitro-lazy {
+	mask-image: none !important;
+}
+
+.post-type-archive-blog header.lf-nav .sitelogo a, .post-type-archive-hero header.lf-nav .sitelogo a, .page-template-template-mobileheroes header.lf-nav .sitelogo a, .single-blog header.lf-nav .sitelogo a, .single-reports header.lf-nav .sitelogo a, .single-hero header.lf-nav .sitelogo a, .single-case-studies header.lf-nav .sitelogo a, .single-in-depth header.lf-nav .sitelogo a, .single-jobs header.lf-nav .sitelogo a, .single-podcasts header.lf-nav .sitelogo a, .single-videos header.lf-nav .sitelogo a, .single-comics header.lf-nav .sitelogo a, .single-events header.lf-nav .sitelogo a {
+	background: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/mobile-heroes-logo-dark.svg") no-repeat center left/contain;
+	width: 214px;
+	height: 23px;
+}
+
+.post-type-archive-blog header.lf-nav.light, .post-type-archive-hero header.lf-nav.light, .page-template-template-mobileheroes header.lf-nav.light, .single-blog header.lf-nav.light, .single-reports header.lf-nav.light, .single-hero header.lf-nav.light, .single-case-studies header.lf-nav.light, .single-in-depth header.lf-nav.light, .single-jobs header.lf-nav.light, .single-podcasts header.lf-nav.light, .single-videos header.lf-nav.light, .single-comics header.lf-nav.light, .single-events header.lf-nav.light {
+	color: #fff;
+}
+
+.post-type-archive-blog header.lf-nav.light .sitelogo a, .post-type-archive-hero header.lf-nav.light .sitelogo a, .page-template-template-mobileheroes header.lf-nav.light .sitelogo a, .single-blog header.lf-nav.light .sitelogo a, .single-reports header.lf-nav.light .sitelogo a, .single-hero header.lf-nav.light .sitelogo a, .single-case-studies header.lf-nav.light .sitelogo a, .single-in-depth header.lf-nav.light .sitelogo a, .single-jobs header.lf-nav.light .sitelogo a, .single-podcasts header.lf-nav.light .sitelogo a, .single-videos header.lf-nav.light .sitelogo a, .single-comics header.lf-nav.light .sitelogo a, .single-events header.lf-nav.light .sitelogo a {
+	background: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/mobile-heroes-logo-light.svg") no-repeat center left/contain;
+}
+
+.post-type-archive-blog header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .post-type-archive-blog header.lf-nav.light .lf-nav-dropdown a, .post-type-archive-hero header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .post-type-archive-hero header.lf-nav.light .lf-nav-dropdown a, .page-template-template-mobileheroes header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .page-template-template-mobileheroes header.lf-nav.light .lf-nav-dropdown a, .single-blog header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-blog header.lf-nav.light .lf-nav-dropdown a, .single-reports header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-reports header.lf-nav.light .lf-nav-dropdown a, .single-hero header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-hero header.lf-nav.light .lf-nav-dropdown a, .single-case-studies header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-case-studies header.lf-nav.light .lf-nav-dropdown a, .single-in-depth header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-in-depth header.lf-nav.light .lf-nav-dropdown a, .single-jobs header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-jobs header.lf-nav.light .lf-nav-dropdown a, .single-podcasts header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-podcasts header.lf-nav.light .lf-nav-dropdown a, .single-videos header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-videos header.lf-nav.light .lf-nav-dropdown a, .single-comics header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-comics header.lf-nav.light .lf-nav-dropdown a, .single-events header.lf-nav.light .lf-nav-dropdown .dropdown-toggle, .single-events header.lf-nav.light .lf-nav-dropdown a {
+	color: #fff !important;
+}
+
+.post-type-archive-blog header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .post-type-archive-blog header.lf-nav.light .lf-nav-dropdown:hover a::after, .post-type-archive-hero header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .post-type-archive-hero header.lf-nav.light .lf-nav-dropdown:hover a::after, .page-template-template-mobileheroes header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .page-template-template-mobileheroes header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-blog header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-blog header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-reports header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-reports header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-hero header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-hero header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-case-studies header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-case-studies header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-in-depth header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-in-depth header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-jobs header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-jobs header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-podcasts header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-podcasts header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-videos header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-videos header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-comics header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-comics header.lf-nav.light .lf-nav-dropdown:hover a::after, .single-events header.lf-nav.light .lf-nav-dropdown:hover .dropdown-toggle::after, .single-events header.lf-nav.light .lf-nav-dropdown:hover a::after {
+	border-bottom: 1px solid #fff;
+}
+
+.post-type-archive-blog header.lf-nav.light #header-get-started, .post-type-archive-hero header.lf-nav.light #header-get-started, .page-template-template-mobileheroes header.lf-nav.light #header-get-started, .single-blog header.lf-nav.light #header-get-started, .single-reports header.lf-nav.light #header-get-started, .single-hero header.lf-nav.light #header-get-started, .single-case-studies header.lf-nav.light #header-get-started, .single-in-depth header.lf-nav.light #header-get-started, .single-jobs header.lf-nav.light #header-get-started, .single-podcasts header.lf-nav.light #header-get-started, .single-videos header.lf-nav.light #header-get-started, .single-comics header.lf-nav.light #header-get-started, .single-events header.lf-nav.light #header-get-started {
+	background-color: #fee27d !important;
+	color: #00081c !important;
+}
+
+.post-type-archive-blog header.lf-nav.light #header-get-started:hover, .post-type-archive-hero header.lf-nav.light #header-get-started:hover, .page-template-template-mobileheroes header.lf-nav.light #header-get-started:hover, .single-blog header.lf-nav.light #header-get-started:hover, .single-reports header.lf-nav.light #header-get-started:hover, .single-hero header.lf-nav.light #header-get-started:hover, .single-case-studies header.lf-nav.light #header-get-started:hover, .single-in-depth header.lf-nav.light #header-get-started:hover, .single-jobs header.lf-nav.light #header-get-started:hover, .single-podcasts header.lf-nav.light #header-get-started:hover, .single-videos header.lf-nav.light #header-get-started:hover, .single-comics header.lf-nav.light #header-get-started:hover, .single-events header.lf-nav.light #header-get-started:hover {
+	background-color: #ffedb0 !important;
+	opacity: 1 !important;
+}
+
+.post-type-archive-blog header.lf-nav.light #header-get-started:active, .post-type-archive-hero header.lf-nav.light #header-get-started:active, .page-template-template-mobileheroes header.lf-nav.light #header-get-started:active, .single-blog header.lf-nav.light #header-get-started:active, .single-reports header.lf-nav.light #header-get-started:active, .single-hero header.lf-nav.light #header-get-started:active, .single-case-studies header.lf-nav.light #header-get-started:active, .single-in-depth header.lf-nav.light #header-get-started:active, .single-jobs header.lf-nav.light #header-get-started:active, .single-podcasts header.lf-nav.light #header-get-started:active, .single-videos header.lf-nav.light #header-get-started:active, .single-comics header.lf-nav.light #header-get-started:active, .single-events header.lf-nav.light #header-get-started:active {
+	background-color: #fff9e0 !important;
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open, .single-blog header.lf-nav.light .mobile-nav .sidebar.open, .single-reports header.lf-nav.light .mobile-nav .sidebar.open, .single-hero header.lf-nav.light .mobile-nav .sidebar.open, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open, .single-videos header.lf-nav.light .mobile-nav .sidebar.open, .single-comics header.lf-nav.light .mobile-nav .sidebar.open, .single-events header.lf-nav.light .mobile-nav .sidebar.open {
+	background: #00081c;
+	color: #fff;
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open a, .post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open button, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open a, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open button, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open a, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open button, .single-blog header.lf-nav.light .mobile-nav .sidebar.open a, .single-blog header.lf-nav.light .mobile-nav .sidebar.open button, .single-reports header.lf-nav.light .mobile-nav .sidebar.open a, .single-reports header.lf-nav.light .mobile-nav .sidebar.open button, .single-hero header.lf-nav.light .mobile-nav .sidebar.open a, .single-hero header.lf-nav.light .mobile-nav .sidebar.open button, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open a, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open button, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open a, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open button, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open a, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open button, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open a, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open button, .single-videos header.lf-nav.light .mobile-nav .sidebar.open a, .single-videos header.lf-nav.light .mobile-nav .sidebar.open button, .single-comics header.lf-nav.light .mobile-nav .sidebar.open a, .single-comics header.lf-nav.light .mobile-nav .sidebar.open button, .single-events header.lf-nav.light .mobile-nav .sidebar.open a, .single-events header.lf-nav.light .mobile-nav .sidebar.open button {
+	color: #fff;
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-reports header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-videos header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-comics header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon, .single-events header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon {
+	background-image: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Search-white.svg");
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-reports header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-videos header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-comics header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy, .single-events header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.search-icon.nitro-lazy {
+	background-image: none !important;
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-reports header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-videos header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-comics header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon, .single-events header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon {
+	background-image: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Language-white.svg");
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-blog header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-reports header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-hero header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-videos header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-comics header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy, .single-events header.lf-nav.light .mobile-nav .sidebar.open .mobile-icon-links .icon.language-icon.nitro-lazy {
+	background-image: none !important;
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .post-type-archive-hero header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-blog header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-reports header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-hero header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-case-studies header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-in-depth header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-jobs header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-podcasts header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-videos header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-comics header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after, .single-events header.lf-nav.light .mobile-nav .sidebar.open .lf-accordion-container .lf-accordion-header:after {
+	background: #fff;
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .post-type-archive-hero header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-blog header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-reports header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-hero header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-case-studies header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-in-depth header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-jobs header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-podcasts header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-videos header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-comics header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a, .single-events header.lf-nav.light .mobile-nav .lf-nav-container .left .liftoff-tab a {
+	background: #fff url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/liftoff-icon.svg") no-repeat center/contain !important;
+}
+
+.post-type-archive-blog header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .post-type-archive-hero header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .page-template-template-mobileheroes header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-blog header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-reports header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-hero header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-case-studies header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-in-depth header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-jobs header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-podcasts header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-videos header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-comics header.lf-nav.light .mobile-nav .lf-nav-container .menu-button, .single-events header.lf-nav.light .mobile-nav .lf-nav-container .menu-button {
+	background: #fff !important;
+}
+
+@media screen and (min-width: 960px) {
+	.post-type-archive-blog header .desktop-nav, .post-type-archive-hero header .desktop-nav, .page-template-template-mobileheroes header .desktop-nav {
+		display: flex;
+	}
+}
+
+.post-type-archive-blog .wp-block-button__link.is-style-fill, .post-type-archive-blog .wp-block-button.is-style-fill button, .post-type-archive-blog :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .post-type-archive-hero .wp-block-button__link.is-style-fill, .post-type-archive-hero .wp-block-button.is-style-fill button, .post-type-archive-hero :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .page-template-template-mobileheroes .wp-block-button__link.is-style-fill, .page-template-template-mobileheroes .wp-block-button.is-style-fill button, .page-template-template-mobileheroes :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-blog .wp-block-button__link.is-style-fill, .single-blog .wp-block-button.is-style-fill button, .single-blog :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-reports .wp-block-button__link.is-style-fill, .single-reports .wp-block-button.is-style-fill button, .single-reports :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-hero .wp-block-button__link.is-style-fill, .single-hero .wp-block-button.is-style-fill button, .single-hero :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-case-studies .wp-block-button__link.is-style-fill, .single-case-studies .wp-block-button.is-style-fill button, .single-case-studies :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-in-depth .wp-block-button__link.is-style-fill, .single-in-depth .wp-block-button.is-style-fill button, .single-in-depth :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-jobs .wp-block-button__link.is-style-fill, .single-jobs .wp-block-button.is-style-fill button, .single-jobs :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-podcasts .wp-block-button__link.is-style-fill, .single-podcasts .wp-block-button.is-style-fill button, .single-podcasts :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-videos .wp-block-button__link.is-style-fill, .single-videos .wp-block-button.is-style-fill button, .single-videos :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-comics .wp-block-button__link.is-style-fill, .single-comics .wp-block-button.is-style-fill button, .single-comics :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link, .single-events .wp-block-button__link.is-style-fill, .single-events .wp-block-button.is-style-fill button, .single-events :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link {
+	background-color: #00081c !important;
+}
+
+.post-type-archive-blog .wp-block-button__link.is-style-fill:hover, .post-type-archive-blog .wp-block-button.is-style-fill button:hover, .post-type-archive-blog :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .post-type-archive-hero .wp-block-button__link.is-style-fill:hover, .post-type-archive-hero .wp-block-button.is-style-fill button:hover, .post-type-archive-hero :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .page-template-template-mobileheroes .wp-block-button__link.is-style-fill:hover, .page-template-template-mobileheroes .wp-block-button.is-style-fill button:hover, .page-template-template-mobileheroes :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-blog .wp-block-button__link.is-style-fill:hover, .single-blog .wp-block-button.is-style-fill button:hover, .single-blog :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-reports .wp-block-button__link.is-style-fill:hover, .single-reports .wp-block-button.is-style-fill button:hover, .single-reports :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-hero .wp-block-button__link.is-style-fill:hover, .single-hero .wp-block-button.is-style-fill button:hover, .single-hero :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-case-studies .wp-block-button__link.is-style-fill:hover, .single-case-studies .wp-block-button.is-style-fill button:hover, .single-case-studies :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-in-depth .wp-block-button__link.is-style-fill:hover, .single-in-depth .wp-block-button.is-style-fill button:hover, .single-in-depth :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-jobs .wp-block-button__link.is-style-fill:hover, .single-jobs .wp-block-button.is-style-fill button:hover, .single-jobs :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-podcasts .wp-block-button__link.is-style-fill:hover, .single-podcasts .wp-block-button.is-style-fill button:hover, .single-podcasts :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-videos .wp-block-button__link.is-style-fill:hover, .single-videos .wp-block-button.is-style-fill button:hover, .single-videos :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-comics .wp-block-button__link.is-style-fill:hover, .single-comics .wp-block-button.is-style-fill button:hover, .single-comics :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover, .single-events .wp-block-button__link.is-style-fill:hover, .single-events .wp-block-button.is-style-fill button:hover, .single-events :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:hover {
+	background-color: #273143 !important;
+	opacity: 1 !important;
+}
+
+.post-type-archive-blog .wp-block-button__link.is-style-fill:active, .post-type-archive-blog .wp-block-button.is-style-fill button:active, .post-type-archive-blog :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .post-type-archive-hero .wp-block-button__link.is-style-fill:active, .post-type-archive-hero .wp-block-button.is-style-fill button:active, .post-type-archive-hero :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .page-template-template-mobileheroes .wp-block-button__link.is-style-fill:active, .page-template-template-mobileheroes .wp-block-button.is-style-fill button:active, .page-template-template-mobileheroes :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-blog .wp-block-button__link.is-style-fill:active, .single-blog .wp-block-button.is-style-fill button:active, .single-blog :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-reports .wp-block-button__link.is-style-fill:active, .single-reports .wp-block-button.is-style-fill button:active, .single-reports :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-hero .wp-block-button__link.is-style-fill:active, .single-hero .wp-block-button.is-style-fill button:active, .single-hero :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-case-studies .wp-block-button__link.is-style-fill:active, .single-case-studies .wp-block-button.is-style-fill button:active, .single-case-studies :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-in-depth .wp-block-button__link.is-style-fill:active, .single-in-depth .wp-block-button.is-style-fill button:active, .single-in-depth :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-jobs .wp-block-button__link.is-style-fill:active, .single-jobs .wp-block-button.is-style-fill button:active, .single-jobs :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-podcasts .wp-block-button__link.is-style-fill:active, .single-podcasts .wp-block-button.is-style-fill button:active, .single-podcasts :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-videos .wp-block-button__link.is-style-fill:active, .single-videos .wp-block-button.is-style-fill button:active, .single-videos :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-comics .wp-block-button__link.is-style-fill:active, .single-comics .wp-block-button.is-style-fill button:active, .single-comics :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active, .single-events .wp-block-button__link.is-style-fill:active, .single-events .wp-block-button.is-style-fill button:active, .single-events :not(.is-style-outline):not(.is-style-inverted):not(.is-style-inverted-outline):not(.is-style-arrow-link):not(.is-style-underline-link) > .wp-block-button__link:active {
+	background-color: #4a5871 !important;
+}
+
+.post-type-archive-blog .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .post-type-archive-blog .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .post-type-archive-hero .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .post-type-archive-hero .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .page-template-template-mobileheroes .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .page-template-template-mobileheroes .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-blog .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-blog .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-reports .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-reports .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-hero .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-hero .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-case-studies .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-case-studies .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-in-depth .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-in-depth .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-jobs .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-jobs .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-podcasts .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-podcasts .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-videos .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-videos .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-comics .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-comics .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background), .single-events .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background), .single-events .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background) {
+	background-color: transparent;
+	background-image: none;
+}
+
+.post-type-archive-blog .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .post-type-archive-blog .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .post-type-archive-hero .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .post-type-archive-hero .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .page-template-template-mobileheroes .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .page-template-template-mobileheroes .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-blog .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-blog .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-reports .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-reports .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-hero .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-hero .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-case-studies .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-case-studies .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-in-depth .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-in-depth .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-jobs .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-jobs .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-podcasts .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-podcasts .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-videos .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-videos .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-comics .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-comics .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy, .single-events .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background).nitro-lazy, .single-events .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background).nitro-lazy {
+	background-image: none !important;
+}
+
+.post-type-archive-blog .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .post-type-archive-blog .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .post-type-archive-hero .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .post-type-archive-hero .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .page-template-template-mobileheroes .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .page-template-template-mobileheroes .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-blog .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-blog .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-reports .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-reports .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-hero .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-hero .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-case-studies .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-case-studies .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-in-depth .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-in-depth .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-jobs .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-jobs .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-podcasts .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-podcasts .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-videos .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-videos .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-comics .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-comics .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover, .single-events .wp-block-button .wp-block-button__link.is-style-outline:not(.has-background):hover, .single-events .wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover {
+	background-color: #fff;
+}
+
+main.mh-functions {
+	padding: 90px 0 120px;
+}
+
+main.mh-functions h1 {
+	max-width: 460px;
+	margin-bottom: 75px !important;
+}
+
+main.mh-functions #lf-resources_topic-header {
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	border-bottom: #d9dff0 1px solid;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+main.mh-functions #lf-resources_topic-header button[data-value] {
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+
+main.mh-functions #lf-resources_topic-header button[data-value]::before {
+	top: calc(50% - 6px);
+	left: 18px;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	content: "\A";
+	mask: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Close.svg") no-repeat center;
+	-webkit-mask: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Close.svg") no-repeat center;
+	background-color: #273143;
+}
+
+main.mh-functions #lf-resources_topic-panel {
+	padding-top: 0 !important;
+	margin-bottom: 40px !important;
+	border-bottom: #d9dff0 1px solid;
+}
+
+main.mh-functions #lf-resources_topic-panel > div:not(:last-child) {
+	margin-bottom: 40px;
+}
+
+main.mh-functions #lf-resources_topic-panel .lf-resources--button-list-header {
+	margin-bottom: 16px !important;
+}
+
+main.mh-functions #lf-resources_topic-panel .lf-resources--button-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+main.mh-functions #lf-resources_results-count {
+	font-family: "Poppins", Helvetica, Roboto, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+	color: #273143;
+	margin-top: 64px;
+}
+
+main.mh-functions #lf-resources_results-count span {
+	color: #6d7588;
+}
+
+main.mh-functions #lf-resources_no-results {
+	font-family: "Poppins", Helvetica, Roboto, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 44px;
+	letter-spacing: -.02em;
+	color: #4a5871;
+	text-align: center;
+	margin: 128px 0 64px;
+}
+
+main.mh-functions .lf-row.lf--resource-grid {
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 12px;
+	grid-row-gap: var(--grid-gutter);
+	padding: 32px 0;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+	main.mh-functions .lf-row.lf--resource-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 639px) {
+	main.mh-functions .lf-row.lf--resource-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (min-width: 640px) {
+	main.mh-functions #lf-resources_featured-resource {
+		padding-top: 48px;
+		padding-bottom: 36px;
+	}
+}
+
+main.mh-functions #lf-resources_featured-resource {
+	padding-top: 24px;
+	padding-bottom: 12px;
+}
+
+main.mh-functions #lf-resources_featured-resource a {
+	display: block;
+	color: #273143;
+	text-decoration: none;
+}
+
+main.mh-functions #lf-resources_featured-resource a img {
+	border-radius: 40px;
+	margin-bottom: 40px;
+	width: 100%;
+	box-shadow: 5px 5px 0 #00081c;
+}
+
+main.mh-functions #lf-resources_featured-resource a .is-style-title-md {
+	margin-bottom: 16px;
+}
+
+main.mh-functions .lf-indicators {
+	display: flex;
+	justify-content: flex-start;
+	gap: 48px;
+	color: #6d7588;
+}
+
+main.mh-functions .lf-indicators > div {
+	display: flex;
+	justify-content: flex-start;
+	gap: 48px;
+}
+
+main.mh-functions .lf-indicators .lf-arrow-left:before, main.mh-functions .lf-indicators .lf-arrow-right:before {
+	background-color: #00081c;
+}
+
+main.mh-functions .lf-indicators a[aria-current=true] {
+	color: #00081c;
+}
+
+@media screen and (min-width: 1000px) {
+	.single-blog main, .single-reports main, .single-hero main, .single-case-studies main, .single-in-depth main, .single-jobs main, .single-podcasts main, .single-videos main, .single-comics main, .single-events main {
+		padding: 48px 0;
+	}
+}
+
+.single-blog main .hero, .single-reports main .hero, .single-hero main .hero, .single-case-studies main .hero, .single-in-depth main .hero, .single-jobs main .hero, .single-podcasts main .hero, .single-videos main .hero, .single-comics main .hero, .single-events main .hero {
+	text-align: center;
+}
+
+.single-hero main {
+	padding-bottom: 0;
+}
+
+.single-hero main .is-content-justification-space-between {
+	justify-content: space-between;
+}
+
+.single-hero main .slick-slider {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.single-hero main .slick-list {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.single-hero main .slick-list:focus {
+	outline: none;
+}
+
+.single-hero main .slick-list.dragging {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.single-hero main .slick-slider .slick-track, .single-hero main .slick-slider .slick-list {
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.single-hero main .slick-track {
+	position: relative;
+	left: 0;
+	top: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.single-hero main .slick-track:before, .single-hero main .slick-track:after {
+	content: "";
+	display: table;
+}
+
+.single-hero main .slick-track:after {
+	clear: both;
+}
+
+.slick-loading .single-hero main .slick-track {
+	visibility: hidden;
+}
+
+.single-hero main .slick-slide {
+	float: left;
+	height: 100%;
+	min-height: 1px;
+}
+
+[dir="rtl"] .single-hero main .slick-slide {
+	float: right;
+}
+
+.single-hero main .slick-slide img {
+	display: block;
+}
+
+.single-hero main .slick-slide.slick-loading img {
+	display: none;
+}
+
+.single-hero main .slick-slide.dragging img {
+	pointer-events: none;
+}
+
+.slick-initialized .single-hero main .slick-slide {
+	display: block;
+}
+
+.slick-loading .single-hero main .slick-slide {
+	visibility: hidden;
+}
+
+.slick-vertical .single-hero main .slick-slide {
+	display: block;
+	height: auto;
+	border: 1px solid transparent;
+}
+
+.single-hero main .slick-arrow.slick-hidden {
+	display: none;
+}
+
+.single-hero main .lf-container {
+	max-width: 900px;
+}
+
+.single-hero main .lf-container *:first-child {
+	margin-top: 0 !important;
+}
+
+.single-hero main .lf-container .lf-row {
+	max-width: 900px;
+	display: block;
+}
+
+.single-hero main .lf-container .lf-row > * {
+	max-width: 750px;
+}
+
+.single-hero main .lf-container .meta {
+	display: flex;
+	width: 900px;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.single-hero main .lf-container .meta .slack, .single-hero main .lf-container .meta .linkedin {
+	display: inline-flex;
+	gap: 12px;
+	align-items: center;
+	width: auto;
+}
+
+.single-hero main .lf-container .meta .slack::before, .single-hero main .lf-container .meta .linkedin::before {
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+}
+
+.single-hero main .lf-container .meta .slack::before {
+	background: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/mobile-heroes/slack.svg") no-repeat center/contain;
+}
+
+.single-hero main .lf-container .meta .linkedin::before {
+	background: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/mobile-heroes/linkedin.svg") no-repeat center/contain;
+}
+
+.single-hero main .intro {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 60px;
+	gap: 15px;
+}
+
+.single-hero main .intro h1 {
+	margin-bottom: 16px;
+}
+
+.single-hero main .intro img {
+	max-height: 120px;
+	width: auto;
+	border-radius: 24px;
+	border: #00081c 1px solid;
+}
+
+.single-hero main .hero {
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.single-hero main .hero .comic {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	max-width: 50%;
+	height: auto;
+	max-height: 75%;
+	width: auto;
+}
+
+.single-hero main .callout {
+	max-width: 716px;
+	border-top: #00081c 1.5px solid;
+	margin-left: 34px;
+}
+
+.single-hero main .callout div {
+	padding: 24px 0px;
+	border-bottom: #00081c 1.5px solid;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.single-hero main .callout div a {
+	font-weight: 500;
+}
+
+.single-hero main .callout div::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/mobile-heroes/arrow.svg") no-repeat center/contain;
+	margin-left: -34px;
+	position: absolute;
+}
+
+.single-hero main .hero-slideshow {
+	margin: 100px 0 122px;
+}
+
+.single-hero main .hero-slideshow .slick-arrow {
+	position: absolute;
+	bottom: 0;
+	background: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Arrow.svg") no-repeat center/cover;
+	width: 38px;
+	height: 20px;
+	border: none;
+	color: transparent;
+	font-size: 0;
+}
+
+.single-hero main .hero-slideshow .slick-arrow.slick-prev {
+	transform: rotate(180deg);
+}
+
+.single-hero main .hero-slideshow .slick-arrow.slick-next {
+	right: 0;
+}
+
+.single-hero main .hero-slideshow .custom_paging {
+	text-align: center;
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.single-hero main .hero-slideshow .custom_paging > :not(.slick-active) {
+	display: none;
+}
+
+.single-hero main .hero-slideshow img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.single-hero .hero img, .single .hero img {
+	max-width: 100%;
+	height: auto;
+}
+
+.single-hero main #related-posts .posts {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	width: 100%;
+	padding: 0 16px;
+	max-width: 1204px !important;
+}
+
+.single-hero main #related-posts > div {
+	width: 100%;
+}
+
+.single-hero main #related-posts .posts > a {
+	max-width: 356px;
+}
+
+@media screen and (min-width: 1200px) {
+	.single-hero main .hero-slideshow {
+		width: 1128px;
+		margin-left: -12.65%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.single-hero main .lf-container .meta {
+		width: 100%;
+	}
+	
+	.single-hero main #related-posts .posts > a {
+		max-width: 100%;
+	}
+	
+	.single-hero main #related-posts a.lf-card-transparent, .single-hero main #related-posts div.lf-card-transparent {
+		padding-bottom: 0;
+	}
+	
+	.single-hero main #related-posts a.lf-card-transparent .lf--card-transparent_content, .single-hero main #related-posts div.lf-card-transparent .lf--card-transparent_content {
+		padding: 0 15px 15px;
+	}
+	
+	.single-hero main .meta, .single-hero main .intro {
+		flex-direction: column;
+	}
+	
+	.single-hero main .intro {
+		align-items: flex-start;
+	}
+	
+	.single-hero main .intro > div {
+		order: 2;
+	}
+	
+	.single-hero main .intro img {
+		max-width: 100%;
+		max-height: 48px;
+		width: auto;
+		height: auto;
+		border-radius: 10px;
+	}
+	
+	.single-hero main .meta .wp-block-button {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	
+	.single-hero main .callout {
+		max-width: calc(100% - 34px);
+	}
+}
+
+.lf-block--mh-hero {
+	padding: 105px 16px 120px;
+}
+
+.lf-block--mh-hero .lf-mh-hero-container {
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-hero .lf-mh-hero-container .lf-mh-hero-text-container {
+	max-width: 978px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-hero .lf-mh-hero-container .wistia_responsive_padding {
+	margin-top: 55px;
+}
+
+.lf-block--mh-hero .lf-mh-hero-container iframe {
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 999px) {
+	.lf-block--mh-hero .lf-mh-hero-container iframe {
+		max-height: 50vh;
+	}
+}
+
+.lf-block--mh-hero2 {
+	padding: 105px 16px 120px;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	min-height: 75vh;
+}
+
+.lf-block--mh-hero2 .lf-mh-hero2-container {
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-hero2 .lf-mh-hero2-container img {
+	width: 550px;
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 900px) {
+	.lf-block--mh-hero2 {
+		min-height: 315px;
+	}
+	
+	.lf-block--mh-hero2 .lf-mh-hero2-container img {
+		max-width: 242px;
+	}
+}
+
+.lf-block--mh-home-hero {
+	padding: 14px 16px 120px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container {
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .mainimage a {
+	border-radius: 24px;
+	border: 1.5px #00081c solid;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .mainimage a:hover {
+	box-shadow: 8px 8px 0 #fee27d;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .mainimage a img {
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles {
+	display: grid;
+	grid-template-columns: 2.5fr repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 24px;
+	grid-row-gap: 24px;
+	margin-top: 28px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main {
+	min-width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main h1 {
+	font-size: 38px;
+	line-height: 52px;
+	letter-spacing: -.92px;
+	font-weight: normal;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main p {
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -.34px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons {
+	display: flex;
+	align-items: center;
+	gap: 36px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons .button {
+	text-decoration: none;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons .button.primary, .lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons .button.secondary {
+	padding: 10px 24px;
+	border: #4a5871 1px solid;
+	border-radius: 21px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons .button.primary:hover, .lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons .button.secondary:hover {
+	background: #fff;
+	border-color: #fff;
+	color: #00081c;
+}
+
+/*             .lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons .button.secondary {
+              padding: 10px 0;
+				border-bottom: transparent 1px solid;}
+              .lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main .buttons .button.secondary:hover {
+                border-bottom: #4A5871 1px solid;
+                color: #ffffff; } */
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub {
+	max-width: 25%;
+	min-width: 282px;
+	height: 100%;
+	border: transparent 1px solid;
+	padding: 8px 8px 30px;
+	border-radius: 20px;
+	align-self: flex-start;
+	text-decoration: none;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub article {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub article img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub article h3 {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #6d7588;
+	padding: 0 16px;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub article h2 {
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -.48px;
+	font-weight: normal;
+	padding: 0 16px;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub article .readmore {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -.28px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	opacity: 0;
+	padding: 0 16px;
+	margin-top: auto;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub article .readmore::before {
+	mask: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Arrow.svg") no-repeat center;
+	-webkit-mask: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Arrow.svg") no-repeat center;
+	content: "";
+	width: 38px;
+	height: 20px;
+	pointer-events: none;
+	background-color: #fff;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub:hover {
+	border: #fff 1px solid;
+	color: #fff;
+}
+
+.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub:hover article .readmore {
+	opacity: 1;
+}
+
+@media screen and (max-width: 999px) {
+	.lf-block--mh-home-hero .lf-mh-home-hero-container .articles {
+		grid-template-columns: 1fr;
+	}
+	
+	.lf-block--mh-home-hero .lf-mh-home-hero-container .articles .main, .lf-block--mh-home-hero .lf-mh-home-hero-container .articles .sub {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+.lf-block--mh-timeline {
+	padding: 0 16px 120px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container {
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-text-container {
+	text-align: center;
+	max-width: 978px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 999px) {
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-text-container {
+		text-align: left;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container {
+		padding-left: 16px;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd) .date-container, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd) .date-container .text {
+		margin-left: 0 !important;
+	}
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-text-container .lf-mh-timeline-title {
+	margin-bottom: 50px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 120px;
+	position: relative;
+	align-items: center;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date {
+	width: calc(50% - 75px);
+	min-height: 100px;
+	display: flex;
+	align-items: flex-start;
+	align-self: flex-start;
+	position: relative;
+	transition: background-color .3s ease-out .3s, border .5s ease-out .3s, box-shadow .3s ease-out .3s;
+	border-radius: 0;
+	border-radius: 31.5px;
+	background: transparent;
+	border: transparent 1.25px solid;
+	margin-left: 0;
+	box-shadow: 0;
+	margin-top: -10px;
+	margin-bottom: -10px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd) .date-container, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd) .date-container .text {
+	margin-left: auto;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container {
+	width: 100%;
+	padding: 10px;
+	max-width: 210px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container .text {
+	transition: margin-left .3s ease-out, padding .3s ease-out .3s;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container .text .lf-mh-timeline-date-year {
+	color: #6d7588;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container .text .lf-mh-timeline-date-description {
+	margin-top: 5px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container .text .lf-mh-timeline-date-link {
+	margin: 50px 0 10px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .lf-mh-timeline-date-image, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .lf-mh-timeline-date-description, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .is-style-arrow-link {
+	visibility: hidden;
+	max-height: 0;
+	overflow: hidden;
+	opacity: 0;
+	transition: max-height .3s ease-out .3s, opacity .3s ease-out .6s;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date::before {
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: #00081c;
+	border-radius: 100%;
+	position: absolute;
+	margin-top: 8px;
+	transition: .3s ease-out;
+	z-index: 2;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd)::before {
+	right: -84px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd)::after {
+	right: -77px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd) .date-container .text {
+	margin-left: calc(100% - 210px);
+	text-align: right;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(even) {
+	align-self: flex-end;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(even)::before {
+	left: -84px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(even)::after {
+	left: -77px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container:hover, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date::before {
+	cursor: pointer;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:hover::before {
+	box-shadow: 0 0 0 12px #49b66c;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: calc(100% - 100px);
+	height: calc(100% - 16px);
+	margin-top: 8px;
+	width: 2px;
+	background: #00081c;
+	top: 0;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active {
+	cursor: pointer;
+	width: calc(50% - 75px);
+	background: #fff;
+	border: #00081c 1.25px solid;
+	margin-left: 0;
+	text-align: left;
+	box-shadow: 5px 5px 0 #00081c;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .date-container {
+	max-width: 500px;
+	margin-left: 0;
+	text-align: left;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .date-container .text {
+	max-width: 500px;
+	margin-left: 0;
+	text-align: left;
+	padding: 32px 10px;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:nth-child(odd).active .date-container .text {
+	text-align: right;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .lf-mh-timeline-date-image, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .lf-mh-timeline-date-description, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .is-style-arrow-link {
+	visibility: visible;
+	max-height: 300px;
+	opacity: 1;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .lf-mh-timeline-date-image {
+	max-width: 100%;
+	border-radius: 31.5px;
+	height: auto;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active::before {
+	box-shadow: 0 0 0 12px #49b66c, 0 0 0 2px #00081c inset;
+	background: #e5f4e9;
+}
+
+.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date:last-child::after {
+	display: none;
+}
+
+@media screen and (max-width: 959px) {
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container {
+		align-items: flex-start;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container::before {
+		height: calc(100% - 150px);
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date {
+		width: calc(100% - 24px);
+		margin-left: 24px;
+		align-self: flex-start !important;
+		padding-bottom: 60px;
+		border: none;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container .text {
+		text-align: left !important;
+		max-width: 100% !important;
+		width: 100% !important;
+		margin-left: unset !important;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date .date-container .text .lf-mh-timeline-date-description {
+		transition: max-height .3s ease-out, opacity .3s ease-out, max-width .3s ease-out;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date::after {
+		left: -25px !important;
+		right: unset !important;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date::before {
+		content: "";
+		display: block;
+		width: 16px;
+		height: 16px;
+		background: #00081c;
+		border-radius: 100%;
+		position: absolute;
+		margin-top: 8px;
+		transition: .3s ease-out;
+		left: -31.5px !important;
+		z-index: 2;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active {
+		width: calc(100% - 24px);
+		margin-left: 24px;
+		align-self: flex-start !important;
+		background: transparent;
+		border: none;
+		box-shadow: none;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .text {
+		padding: 0 !important;
+	}
+	
+	.lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .lf-mh-timeline-date-image, .lf-block--mh-timeline .lf-mh-timeline-container .lf-mh-timeline-date-container .date.active .is-style-arrow-link {
+		display: none;
+	}
+}
+
+.post-type-archive-blog main .wp-block-group, .post-type-archive-hero main .wp-block-group, .page-template-template-mobileheroes main .wp-block-group, .single-blog main .wp-block-group, .single-reports main .wp-block-group, .single-hero main .wp-block-group, .single-case-studies main .wp-block-group, .single-in-depth main .wp-block-group, .single-jobs main .wp-block-group, .single-podcasts main .wp-block-group, .single-videos main .wp-block-group, .single-comics main .wp-block-group, .single-events main .wp-block-group {
+	padding: 120px 0;
+}
+
+.post-type-archive-blog main p a:hover, .post-type-archive-hero main p a:hover, .page-template-template-mobileheroes main p a:hover, .single-blog main p a:hover, .single-reports main p a:hover, .single-hero main p a:hover, .single-case-studies main p a:hover, .single-in-depth main p a:hover, .single-jobs main p a:hover, .single-podcasts main p a:hover, .single-videos main p a:hover, .single-comics main p a:hover, .single-events main p a:hover, .post-type-archive-blog .lf--social-links a:hover, .post-type-archive-hero .lf--social-links a:hover, .page-template-template-mobileheroes .lf--social-links a:hover, .single-blog .lf--social-links a:hover, .single-reports .lf--social-links a:hover, .single-hero .lf--social-links a:hover, .single-case-studies .lf--social-links a:hover, .single-in-depth .lf--social-links a:hover, .single-jobs .lf--social-links a:hover, .single-podcasts .lf--social-links a:hover, .single-videos .lf--social-links a:hover, .single-comics .lf--social-links a:hover, .single-events .lf--social-links a:hover, .post-type-archive-blog main .lf--resource_meta a:hover, .post-type-archive-hero main .lf--resource_meta a:hover, .page-template-template-mobileheroes main .lf--resource_meta a:hover, .single-blog main .lf--resource_meta a:hover, .single-reports main .lf--resource_meta a:hover, .single-hero main .lf--resource_meta a:hover, .single-case-studies main .lf--resource_meta a:hover, .single-in-depth main .lf--resource_meta a:hover, .single-jobs main .lf--resource_meta a:hover, .single-podcasts main .lf--resource_meta a:hover, .single-videos main .lf--resource_meta a:hover, .single-comics main .lf--resource_meta a:hover, .single-events main .lf--resource_meta a:hover, .post-type-archive-blog main .lf--resource_content a:hover, .post-type-archive-hero main .lf--resource_content a:hover, .page-template-template-mobileheroes main .lf--resource_content a:hover, .single-blog main .lf--resource_content a:hover, .single-reports main .lf--resource_content a:hover, .single-hero main .lf--resource_content a:hover, .single-case-studies main .lf--resource_content a:hover, .single-in-depth main .lf--resource_content a:hover, .single-jobs main .lf--resource_content a:hover, .single-podcasts main .lf--resource_content a:hover, .single-videos main .lf--resource_content a:hover, .single-comics main .lf--resource_content a:hover, .single-events main .lf--resource_content a:hover {
+	color: #38a5fc !important;
+}
+
+.post-type-archive-blog .lf--social-links .tw, .post-type-archive-hero .lf--social-links .tw, .page-template-template-mobileheroes .lf--social-links .tw, .single-blog .lf--social-links .tw, .single-reports .lf--social-links .tw, .single-hero .lf--social-links .tw, .single-case-studies .lf--social-links .tw, .single-in-depth .lf--social-links .tw, .single-jobs .lf--social-links .tw, .single-podcasts .lf--social-links .tw, .single-videos .lf--social-links .tw, .single-comics .lf--social-links .tw, .single-events .lf--social-links .tw {
+	background: #6d7588 !important;
+}
+
+.post-type-archive-blog .lf--social-links .tw:hover, .post-type-archive-hero .lf--social-links .tw:hover, .page-template-template-mobileheroes .lf--social-links .tw:hover, .single-blog .lf--social-links .tw:hover, .single-reports .lf--social-links .tw:hover, .single-hero .lf--social-links .tw:hover, .single-case-studies .lf--social-links .tw:hover, .single-in-depth .lf--social-links .tw:hover, .single-jobs .lf--social-links .tw:hover, .single-podcasts .lf--social-links .tw:hover, .single-videos .lf--social-links .tw:hover, .single-comics .lf--social-links .tw:hover, .single-events .lf--social-links .tw:hover {
+	background-color: #38a5fc !important;
+}
+
+.post-type-archive-blog main .wp-block-group .wp-block-group, .post-type-archive-hero main .wp-block-group .wp-block-group, .page-template-template-mobileheroes main .wp-block-group .wp-block-group, .single-blog main .wp-block-group .wp-block-group, .single-reports main .wp-block-group .wp-block-group, .single-hero main .wp-block-group .wp-block-group, .single-case-studies main .wp-block-group .wp-block-group, .single-in-depth main .wp-block-group .wp-block-group, .single-jobs main .wp-block-group .wp-block-group, .single-podcasts main .wp-block-group .wp-block-group, .single-videos main .wp-block-group .wp-block-group, .single-comics main .wp-block-group .wp-block-group, .single-events main .wp-block-group .wp-block-group {
+	padding: 0 16px 0;
+	max-width: 1204px !important;
+	margin: 0 auto 66px !important;
+}
+
+.post-type-archive-blog main .wp-block-group.is-vertical, .post-type-archive-hero main .wp-block-group.is-vertical, .page-template-template-mobileheroes main .wp-block-group.is-vertical, .single-blog main .wp-block-group.is-vertical, .single-reports main .wp-block-group.is-vertical, .single-hero main .wp-block-group.is-vertical, .single-case-studies main .wp-block-group.is-vertical, .single-in-depth main .wp-block-group.is-vertical, .single-jobs main .wp-block-group.is-vertical, .single-podcasts main .wp-block-group.is-vertical, .single-videos main .wp-block-group.is-vertical, .single-comics main .wp-block-group.is-vertical, .single-events main .wp-block-group.is-vertical {
+	gap: 30px;
+}
+
+@media screen and (max-width: 639px) {
+	.post-type-archive-blog main .wp-block-group.mobilewrap, .post-type-archive-hero main .wp-block-group.mobilewrap, .page-template-template-mobileheroes main .wp-block-group.mobilewrap, .single-blog main .wp-block-group.mobilewrap, .single-reports main .wp-block-group.mobilewrap, .single-hero main .wp-block-group.mobilewrap, .single-case-studies main .wp-block-group.mobilewrap, .single-in-depth main .wp-block-group.mobilewrap, .single-jobs main .wp-block-group.mobilewrap, .single-podcasts main .wp-block-group.mobilewrap, .single-videos main .wp-block-group.mobilewrap, .single-comics main .wp-block-group.mobilewrap, .single-events main .wp-block-group.mobilewrap {
+		flex-direction: column;
+	}
+	
+	.wp-block-button__link.wp-element-button {
+		white-space: nowrap;
+	}
+	
+	.post-type-archive-blog main .wp-block-group.image, .post-type-archive-hero main .wp-block-group.image, .page-template-template-mobileheroes main .wp-block-group.image, .single-blog main .wp-block-group.image, .single-reports main .wp-block-group.image, .single-hero main .wp-block-group.image, .single-case-studies main .wp-block-group.image, .single-in-depth main .wp-block-group.image, .single-jobs main .wp-block-group.image, .single-podcasts main .wp-block-group.image, .single-videos main .wp-block-group.image, .single-comics main .wp-block-group.image, .single-events main .wp-block-group.image {
+		order: 1;
+	}
+	
+	.post-type-archive-blog main .wp-block-group:not(.image), .post-type-archive-hero main .wp-block-group:not(.image), .page-template-template-mobileheroes main .wp-block-group:not(.image), .single-blog main .wp-block-group:not(.image), .single-reports main .wp-block-group:not(.image), .single-hero main .wp-block-group:not(.image), .single-case-studies main .wp-block-group:not(.image), .single-in-depth main .wp-block-group:not(.image), .single-jobs main .wp-block-group:not(.image), .single-podcasts main .wp-block-group:not(.image), .single-videos main .wp-block-group:not(.image), .single-comics main .wp-block-group:not(.image), .single-events main .wp-block-group:not(.image) {
+		order: 2;
+	}
+}
+
+.post-type-archive-blog main .wp-block-group.is-style-white-box, .post-type-archive-hero main .wp-block-group.is-style-white-box, .page-template-template-mobileheroes main .wp-block-group.is-style-white-box, .single-blog main .wp-block-group.is-style-white-box, .single-reports main .wp-block-group.is-style-white-box, .single-hero main .wp-block-group.is-style-white-box, .single-case-studies main .wp-block-group.is-style-white-box, .single-in-depth main .wp-block-group.is-style-white-box, .single-jobs main .wp-block-group.is-style-white-box, .single-podcasts main .wp-block-group.is-style-white-box, .single-videos main .wp-block-group.is-style-white-box, .single-comics main .wp-block-group.is-style-white-box, .single-events main .wp-block-group.is-style-white-box {
+	padding: 42px 36px;
+	background: transparent;
+	border-color: transparent;
+}
+
+.post-type-archive-blog main .wp-block-group.is-style-white-box .wp-block-buttons, .post-type-archive-hero main .wp-block-group.is-style-white-box .wp-block-buttons, .page-template-template-mobileheroes main .wp-block-group.is-style-white-box .wp-block-buttons, .single-blog main .wp-block-group.is-style-white-box .wp-block-buttons, .single-reports main .wp-block-group.is-style-white-box .wp-block-buttons, .single-hero main .wp-block-group.is-style-white-box .wp-block-buttons, .single-case-studies main .wp-block-group.is-style-white-box .wp-block-buttons, .single-in-depth main .wp-block-group.is-style-white-box .wp-block-buttons, .single-jobs main .wp-block-group.is-style-white-box .wp-block-buttons, .single-podcasts main .wp-block-group.is-style-white-box .wp-block-buttons, .single-videos main .wp-block-group.is-style-white-box .wp-block-buttons, .single-comics main .wp-block-group.is-style-white-box .wp-block-buttons, .single-events main .wp-block-group.is-style-white-box .wp-block-buttons {
+	visibility: hidden;
+}
+
+.post-type-archive-blog main .wp-block-group.is-style-white-box *:not(:last-child), .post-type-archive-hero main .wp-block-group.is-style-white-box *:not(:last-child), .page-template-template-mobileheroes main .wp-block-group.is-style-white-box *:not(:last-child), .single-blog main .wp-block-group.is-style-white-box *:not(:last-child), .single-reports main .wp-block-group.is-style-white-box *:not(:last-child), .single-hero main .wp-block-group.is-style-white-box *:not(:last-child), .single-case-studies main .wp-block-group.is-style-white-box *:not(:last-child), .single-in-depth main .wp-block-group.is-style-white-box *:not(:last-child), .single-jobs main .wp-block-group.is-style-white-box *:not(:last-child), .single-podcasts main .wp-block-group.is-style-white-box *:not(:last-child), .single-videos main .wp-block-group.is-style-white-box *:not(:last-child), .single-comics main .wp-block-group.is-style-white-box *:not(:last-child), .single-events main .wp-block-group.is-style-white-box *:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.post-type-archive-blog main .wp-block-group.is-style-white-box:hover, .post-type-archive-hero main .wp-block-group.is-style-white-box:hover, .page-template-template-mobileheroes main .wp-block-group.is-style-white-box:hover, .single-blog main .wp-block-group.is-style-white-box:hover, .single-reports main .wp-block-group.is-style-white-box:hover, .single-hero main .wp-block-group.is-style-white-box:hover, .single-case-studies main .wp-block-group.is-style-white-box:hover, .single-in-depth main .wp-block-group.is-style-white-box:hover, .single-jobs main .wp-block-group.is-style-white-box:hover, .single-podcasts main .wp-block-group.is-style-white-box:hover, .single-videos main .wp-block-group.is-style-white-box:hover, .single-comics main .wp-block-group.is-style-white-box:hover, .single-events main .wp-block-group.is-style-white-box:hover {
+	position: relative;
+	z-index: 1;
+}
+
+.post-type-archive-blog main .wp-block-group.is-style-white-box:hover::before, .post-type-archive-hero main .wp-block-group.is-style-white-box:hover::before, .page-template-template-mobileheroes main .wp-block-group.is-style-white-box:hover::before, .single-blog main .wp-block-group.is-style-white-box:hover::before, .single-reports main .wp-block-group.is-style-white-box:hover::before, .single-hero main .wp-block-group.is-style-white-box:hover::before, .single-case-studies main .wp-block-group.is-style-white-box:hover::before, .single-in-depth main .wp-block-group.is-style-white-box:hover::before, .single-jobs main .wp-block-group.is-style-white-box:hover::before, .single-podcasts main .wp-block-group.is-style-white-box:hover::before, .single-videos main .wp-block-group.is-style-white-box:hover::before, .single-comics main .wp-block-group.is-style-white-box:hover::before, .single-events main .wp-block-group.is-style-white-box:hover::before {
+	content: "";
+	border: #00081c 1.5px solid;
+	box-shadow: 5px 5px 0 #00081c;
+	background: #fff;
+	z-index: 0;
+	border-radius: 36px;
+	display: block;
+	position: absolute;
+	pointer-events: none;
+	height: calc(100% + var(--grid-gutter));
+	width: calc(100% + var(--grid-gutter));
+	top: calc(var(--grid-gutter) * -.5);
+	left: calc(var(--grid-gutter) * -.5);
+}
+
+.post-type-archive-blog main .wp-block-group.is-style-white-box:hover > *, .post-type-archive-hero main .wp-block-group.is-style-white-box:hover > *, .page-template-template-mobileheroes main .wp-block-group.is-style-white-box:hover > *, .single-blog main .wp-block-group.is-style-white-box:hover > *, .single-reports main .wp-block-group.is-style-white-box:hover > *, .single-hero main .wp-block-group.is-style-white-box:hover > *, .single-case-studies main .wp-block-group.is-style-white-box:hover > *, .single-in-depth main .wp-block-group.is-style-white-box:hover > *, .single-jobs main .wp-block-group.is-style-white-box:hover > *, .single-podcasts main .wp-block-group.is-style-white-box:hover > *, .single-videos main .wp-block-group.is-style-white-box:hover > *, .single-comics main .wp-block-group.is-style-white-box:hover > *, .single-events main .wp-block-group.is-style-white-box:hover > * {
+	position: relative;
+	z-index: 2;
+}
+
+.post-type-archive-blog main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .post-type-archive-hero main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .page-template-template-mobileheroes main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-blog main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-reports main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-hero main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-case-studies main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-in-depth main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-jobs main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-podcasts main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-videos main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-comics main .wp-block-group.is-style-white-box:hover .wp-block-buttons, .single-events main .wp-block-group.is-style-white-box:hover .wp-block-buttons {
+	visibility: visible;
+}
+
+.post-type-archive-blog a.lf-card-transparent:hover .lf--card-transparent_content, .post-type-archive-hero a.lf-card-transparent:hover .lf--card-transparent_content, .page-template-template-mobileheroes a.lf-card-transparent:hover .lf--card-transparent_content, .single-blog a.lf-card-transparent:hover .lf--card-transparent_content, .single-reports a.lf-card-transparent:hover .lf--card-transparent_content, .single-hero a.lf-card-transparent:hover .lf--card-transparent_content, .single-case-studies a.lf-card-transparent:hover .lf--card-transparent_content, .single-in-depth a.lf-card-transparent:hover .lf--card-transparent_content, .single-jobs a.lf-card-transparent:hover .lf--card-transparent_content, .single-podcasts a.lf-card-transparent:hover .lf--card-transparent_content, .single-videos a.lf-card-transparent:hover .lf--card-transparent_content, .single-comics a.lf-card-transparent:hover .lf--card-transparent_content, .single-events a.lf-card-transparent:hover .lf--card-transparent_content {
+	z-index: 1;
+	position: relative;
+}
+
+.post-type-archive-blog a.lf-card-transparent:hover::before, .post-type-archive-hero a.lf-card-transparent:hover::before, .page-template-template-mobileheroes a.lf-card-transparent:hover::before, .single-blog a.lf-card-transparent:hover::before, .single-reports a.lf-card-transparent:hover::before, .single-hero a.lf-card-transparent:hover::before, .single-case-studies a.lf-card-transparent:hover::before, .single-in-depth a.lf-card-transparent:hover::before, .single-jobs a.lf-card-transparent:hover::before, .single-podcasts a.lf-card-transparent:hover::before, .single-videos a.lf-card-transparent:hover::before, .single-comics a.lf-card-transparent:hover::before, .single-events a.lf-card-transparent:hover::before, .post-type-archive-blog a.lf-card-transparent:active::before, .post-type-archive-hero a.lf-card-transparent:active::before, .page-template-template-mobileheroes a.lf-card-transparent:active::before, .single-blog a.lf-card-transparent:active::before, .single-reports a.lf-card-transparent:active::before, .single-hero a.lf-card-transparent:active::before, .single-case-studies a.lf-card-transparent:active::before, .single-in-depth a.lf-card-transparent:active::before, .single-jobs a.lf-card-transparent:active::before, .single-podcasts a.lf-card-transparent:active::before, .single-videos a.lf-card-transparent:active::before, .single-comics a.lf-card-transparent:active::before, .single-events a.lf-card-transparent:active::before {
+	border: #00081c 1.5px solid;
+	box-shadow: 5px 5px 0 #00081c;
+	background: #fff;
+	z-index: 0;
+}
+
+.post-type-archive-blog .lf-component--card-carousel__controls .lf-indicators, .post-type-archive-hero .lf-component--card-carousel__controls .lf-indicators, .page-template-template-mobileheroes .lf-component--card-carousel__controls .lf-indicators, .single-blog .lf-component--card-carousel__controls .lf-indicators, .single-reports .lf-component--card-carousel__controls .lf-indicators, .single-hero .lf-component--card-carousel__controls .lf-indicators, .single-case-studies .lf-component--card-carousel__controls .lf-indicators, .single-in-depth .lf-component--card-carousel__controls .lf-indicators, .single-jobs .lf-component--card-carousel__controls .lf-indicators, .single-podcasts .lf-component--card-carousel__controls .lf-indicators, .single-videos .lf-component--card-carousel__controls .lf-indicators, .single-comics .lf-component--card-carousel__controls .lf-indicators, .single-events .lf-component--card-carousel__controls .lf-indicators {
+	justify-content: center !important;
+}
+
+.post-type-archive-blog .lf-block--split.has-white-background-color, .post-type-archive-hero .lf-block--split.has-white-background-color, .page-template-template-mobileheroes .lf-block--split.has-white-background-color, .single-blog .lf-block--split.has-white-background-color, .single-reports .lf-block--split.has-white-background-color, .single-hero .lf-block--split.has-white-background-color, .single-case-studies .lf-block--split.has-white-background-color, .single-in-depth .lf-block--split.has-white-background-color, .single-jobs .lf-block--split.has-white-background-color, .single-podcasts .lf-block--split.has-white-background-color, .single-videos .lf-block--split.has-white-background-color, .single-comics .lf-block--split.has-white-background-color, .single-events .lf-block--split.has-white-background-color {
+	border-radius: 24px;
+	overflow: hidden;
+	border: 1.5px solid #00081c;
+}
+
+.post-type-archive-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .post-type-archive-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .page-template-template-mobileheroes .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-reports .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-case-studies .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-in-depth .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-jobs .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-podcasts .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-videos .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-comics .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-events .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure {
+	min-height: 25vh;
+}
+
+@media (max-width: 639px) {
+	.post-type-archive-blog .lf-block--split.has-white-background-color .lf-block__split--text-area, .post-type-archive-hero .lf-block--split.has-white-background-color .lf-block__split--text-area, .page-template-template-mobileheroes .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-blog .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-reports .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-hero .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-case-studies .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-in-depth .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-jobs .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-podcasts .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-videos .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-comics .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-events .lf-block--split.has-white-background-color .lf-block__split--text-area {
+		padding: 42px 36px;
+	}
+}
+
+@media (min-width: 640px) and (min-width: 960px) {
+	.post-type-archive-blog .lf-block--split.has-white-background-color .acf-innerblocks-container, .post-type-archive-hero .lf-block--split.has-white-background-color .acf-innerblocks-container, .page-template-template-mobileheroes .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-blog .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-reports .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-hero .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-case-studies .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-in-depth .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-jobs .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-podcasts .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-videos .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-comics .lf-block--split.has-white-background-color .acf-innerblocks-container, .single-events .lf-block--split.has-white-background-color .acf-innerblocks-container {
+		grid-gap: 60px !important;
+	}
+	
+	.post-type-archive-blog .lf-block--split.has-white-background-color .lf-block__split--text-area, .post-type-archive-hero .lf-block--split.has-white-background-color .lf-block__split--text-area, .page-template-template-mobileheroes .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-blog .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-reports .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-hero .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-case-studies .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-in-depth .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-jobs .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-podcasts .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-videos .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-comics .lf-block--split.has-white-background-color .lf-block__split--text-area, .single-events .lf-block--split.has-white-background-color .lf-block__split--text-area {
+		grid-column: 9/13 !important;
+		padding: 110px 60px 110px 0;
+	}
+	
+	.post-type-archive-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .post-type-archive-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .page-template-template-mobileheroes .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-reports .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-case-studies .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-in-depth .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-jobs .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-podcasts .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-videos .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-comics .lf-block--split.has-white-background-color .lf-block__split--graphic-area, .single-events .lf-block--split.has-white-background-color .lf-block__split--graphic-area {
+		grid-column: 1/9 !important;
+	}
+	
+	.post-type-archive-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .post-type-archive-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .page-template-template-mobileheroes .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-reports .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-case-studies .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-in-depth .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-jobs .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-podcasts .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-videos .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-comics .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure, .single-events .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure {
+		height: 100%;
+	}
+	
+	.post-type-archive-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .post-type-archive-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .page-template-template-mobileheroes .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-blog .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-reports .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-hero .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-case-studies .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-in-depth .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-jobs .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-podcasts .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-videos .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-comics .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img, .single-events .lf-block--split.has-white-background-color .lf-block__split--graphic-area figure img {
+		min-height: 100%;
+		min-width: 100%;
+	}
+}
+
+.lf-block--mh-comics {
+	padding: 80px 16px 120px;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container {
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-text-container {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+@media screen and (max-width: 999px) {
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-text-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-text-container h2 {
+	max-width: 500px;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-text-container .lf-mh-comics-description {
+	max-width: 400px;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character {
+	height: 286px;
+	max-height: 286px;
+	perspective: 1000px;
+	background: transparent;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner {
+	border-color: #00081c;
+	border-style: solid;
+	border-left-width: 1.5px;
+	border-top-width: 1.5px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform .6s, box-shadow .6s, border-width .6s;
+	transform-style: preserve-3d;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner .side1 {
+	background-size: auto 133%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner .side1 .button {
+	font-size: 16px;
+	font-family: "Comic";
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 25px;
+	border: #00081c 1.5px solid;
+	padding: 8px 24px;
+	text-align: center;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner .side2 {
+	padding: 20px;
+	overflow: auto;
+	transform: rotateY(180deg);
+	border-left: #00081c 1.5px solid;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner .side2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	white-space: break-spaces;
+}
+
+.lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner .side2 {
+	text-align: left;
+}
+
+.lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner .side2 h4 {
+	font-family: "Comic";
+	text-transform: uppercase;
+	margin-bottom: 18px;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-child(4n) .character-inner, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:last-child .character-inner {
+	border-right-width: 1.5px;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-last-child(-n+4) > .character-inner {
+	border-bottom-width: 1.5px;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover {
+	z-index: 10;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover:nth-child(4n) .character-inner, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover:last-child .character-inner {
+	border-right-width: 0;
+	border-left-width: 1.5px;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover .character-inner {
+	border-left-width: 0px;
+	border-right-width: 0px;
+	transform: rotateY(180deg);
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover .side2 {
+	width: 100%;
+	max-width: 100%;
+	visibility: visible;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.periwinkle .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.periwinkle .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.periwinkle .side2 {
+	background-color: #a2a4ff;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.sky .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.sky .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.sky .side2 {
+	background-color: #38a5fc;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.clover .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.clover .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.clover .side2 {
+	background-color: #49b66c;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.gold .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.gold .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.gold .side2 {
+	background-color: #fee27d;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.pumpkin .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.pumpkin .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.pumpkin .side2 {
+	background-color: #fda101;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.milkshake .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.milkshake .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.milkshake .side2 {
+	background-color: #f28db0;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.chili .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.chili .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.chili .side2 {
+	background-color: #fc7b5e;
+}
+
+.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.violet .side1, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.violet .side1 .button, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character.violet .side2 {
+	background-color: #bd65cf;
+}
+
+@media screen and (max-width: 1000px) {
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-child(4n) .character-inner {
+		border-right-width: 0px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-last-child(-n+4) > .character-inner {
+		border-bottom-width: 0px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-child(3n) .character-inner, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:last-child .character-inner {
+		border-right-width: 1.5px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-last-child(-n+3) > .character-inner {
+		border-bottom-width: 1.5px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover:nth-child(4n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 0px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover:nth-child(3n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 1.5px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-child(3n) .character-inner {
+		border-right-width: 0px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-last-child(-n+3) > .character-inner {
+		border-bottom-width: 0px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-child(2n) .character-inner, .lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:last-child .character-inner {
+		border-right-width: 1.5px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:nth-last-child(-n+2) > .character-inner {
+		border-bottom-width: 1.5px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover:nth-child(3n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 0px;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover:nth-child(2n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 1.5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character .character-inner {
+		border-right-width: 1.5px !important;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:last-child > .character-inner {
+		border-top-width: 0px !important;
+		border-bottom-width: 1.5px !important;
+		border-right-width: 1.5px !important;
+	}
+	
+	.lf-block--mh-comics .lf-mh-comics-container .lf-mh-comics-tile-container .character:hover .character-inner {
+		border-right-width: 0px !important;
+		border-left-width: 1.5px !important;
+	}
+}
+
+.lf-block--mh-hero-grid {
+	padding: 80px 16px 120px;
+}
+
+.lf-block--mh-hero-grid .is-content-justification-center {
+	margin-top: 80px;
+	justify-content: center !important;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container {
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-text-container {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-text-container h2 {
+	max-width: 800px;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-text-container .lf-mh-hero-grid-description {
+	max-width: 400px;
+}
+
+@media screen and (max-width: 999px) {
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-text-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character {
+	height: 286px;
+	max-height: 286px;
+	perspective: 1000px;
+	background: transparent;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner {
+	border-color: #00081c;
+	border-style: solid;
+	border-left-width: 1.5px;
+	border-top-width: 1.5px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform .6s, box-shadow .6s, border-width .6s;
+	transform-style: preserve-3d;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner .side1 {
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner .side2 {
+	background-size: auto 133%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 20px;
+	overflow: auto;
+	transform: rotateY(180deg);
+	border-left: #00081c 1.5px solid;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner .side2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner .side1 .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner .side2 .button {
+	font-size: 16px;
+	font-weight: normal;
+	border-radius: 25px;
+	border: #00081c 1.5px solid;
+	padding: 8px 24px;
+	text-align: center;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner .side2 .button {
+	background: #fff !important;
+	font-family: "Comic";
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-child(4n) .character-inner, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:last-child .character-inner {
+	border-right-width: 1.5px;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-last-child(-n+4) > .character-inner {
+	border-bottom-width: 1.5px;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover {
+	z-index: 10;
+	color: #00081c;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover:nth-child(4n) .character-inner, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover:last-child .character-inner {
+	border-right-width: 0;
+	border-left-width: 1.5px;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover .character-inner {
+	border-left-width: 0px;
+	border-right-width: 0px;
+	transform: rotateY(180deg);
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover .side2 {
+	width: 100%;
+	max-width: 100%;
+	visibility: visible;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.periwinkle .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.periwinkle .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.periwinkle .side2 {
+	background-color: #a2a4ff;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.sky .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.sky .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.sky .side2 {
+	background-color: #38a5fc;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.clover .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.clover .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.clover .side2 {
+	background-color: #49b66c;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.gold .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.gold .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.gold .side2 {
+	background-color: #fee27d;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.pumpkin .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.pumpkin .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.pumpkin .side2 {
+	background-color: #fda101;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.milkshake .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.milkshake .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.milkshake .side2 {
+	background-color: #f28db0;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.chili .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.chili .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.chili .side2 {
+	background-color: #fc7b5e;
+}
+
+.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.violet .side1, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.violet .button, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character.violet .side2 {
+	background-color: #bd65cf;
+}
+
+@media screen and (max-width: 1000px) {
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-child(4n) .character-inner {
+		border-right-width: 0px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-last-child(-n+4) > .character-inner {
+		border-bottom-width: 0px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-child(3n) .character-inner, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:last-child .character-inner {
+		border-right-width: 1.5px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-last-child(-n+3) > .character-inner {
+		border-bottom-width: 1.5px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover:nth-child(4n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 0px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover:nth-child(3n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 1.5px;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-child(3n) .character-inner {
+		border-right-width: 0px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-last-child(-n+3) > .character-inner {
+		border-bottom-width: 0px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-child(2n) .character-inner, .lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:last-child .character-inner {
+		border-right-width: 1.5px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:nth-last-child(-n+2) > .character-inner {
+		border-bottom-width: 1.5px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover:nth-child(3n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 0px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover:nth-child(2n) .character-inner {
+		border-right-width: 0;
+		border-left-width: 1.5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character {
+		margin: 0 auto;
+		width: 286px;
+		max-width: 286px;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character .character-inner {
+		border-right-width: 1.5px !important;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:last-child > .character-inner {
+		border-top-width: 0px !important;
+		border-bottom-width: 1.5px !important;
+		border-right-width: 1.5px !important;
+	}
+	
+	.lf-block--mh-hero-grid .lf-mh-hero-grid-container .lf-mh-hero-grid-tile-container .character:hover .character-inner {
+		border-right-width: 0px !important;
+		border-left-width: 1.5px !important;
+	}
+}
+
+.lf-block--mh-issues {
+	padding: 80px 16px 120px;
+}
+
+.lf-block--mh-issues .lf-mh-issues-container {
+	width: 100%;
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+.lf-block--mh-issues .lf-mh-issues-container .issue {
+	display: flex;
+	align-items: center;
+	gap: 20px 100px;
+}
+
+.lf-block--mh-issues .lf-mh-issues-container .issue .is-style-title-sm {
+	font-family: "Comic";
+	text-transform: uppercase;
+}
+
+.lf-block--mh-issues .lf-mh-issues-container .issue h5 {
+	color: #6d7588 !important;
+}
+
+.lf-block--mh-issues .lf-mh-issues-container .issue .description {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.lf-block--mh-issues .lf-mh-issues-container .issue .description .desc *:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.lf-block--mh-issues .lf-mh-issues-container .issue .description a {
+	align-self: flex-start;
+}
+
+@media screen and (min-width: 950px) {
+	.lf-block--mh-issues .lf-mh-issues-container .issue:nth-child(even) .description {
+		order: 2;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.lf-block--mh-issues .lf-mh-issues-container .issue {
+		flex-direction: column;
+	}
+	
+	.lf-block--mh-issues .lf-mh-issues-container .issue:not(:last-child) {
+		margin-bottom: 100px;
+	}
+	
+	.lf-block--mh-issues .lf-mh-issues-container .issue .image img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.lf-block--mh-issues .lf-mh-issues-container .issue .description {
+		order: 2;
+	}
+}
+
+.lf-no-indented-level {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.lf-no-indented-level a {
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: -.02em;
+	font-family: "Poppins", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: 400;
+	padding: 32px 0 31px;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 0;
+	border: none;
+	border-bottom: solid 1px #e7e7df;
+	color: #273143;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-right: 48px;
+}
+
+.wp-container-core-buttons-layout-1.wp-container-core-buttons-layout-1 {
+	min-width: 25%;
+}
+
+.is-content-justification-right {
+	justify-content: flex-end !important;
+}
+
+.post-type-archive-blog .lf-component--card-carousel__controls, .post-type-archive-hero .lf-component--card-carousel__controls, .page-template-template-mobileheroes .lf-component--card-carousel__controls, .single-blog .lf-component--card-carousel__controls, .single-reports .lf-component--card-carousel__controls, .single-hero .lf-component--card-carousel__controls, .single-case-studies .lf-component--card-carousel__controls, .single-in-depth .lf-component--card-carousel__controls, .single-jobs .lf-component--card-carousel__controls, .single-podcasts .lf-component--card-carousel__controls, .single-videos .lf-component--card-carousel__controls, .single-comics .lf-component--card-carousel__controls, .single-events .lf-component--card-carousel__controls {
+	padding-top: 137px !important;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+/*ALERT BAR*/
+#alert {
+	display: none;
+	padding: 12px 16px;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: -.28px;
+}
+
+#alert.visible {
+	display: block;
+	z-index: 1;
+}
+
+#alert.light {
+	background: #fee27d;
+	color: #00081c;
+}
+
+#alert.dark {
+	background: #00081c;
+	color: #fff;
+}
+
+#alert .container {
+	max-width: 1125px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+#alert .container .copy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 15px;
+	flex-wrap: wrap;
+}
+
+#alert .container .copy p {
+	margin: 0;
+	line-height: 22px;
+	display: inline;
+}
+
+#alert .container a.arrow-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	padding: 0 16px;
+}
+
+#alert .container a.arrow-link::before {
+	mask: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Arrow.svg") no-repeat center;
+	-webkit-mask: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/images/optimized/rev-fd30e41/liftoff.io/wp-content/themes/liftoff/assets/icons/outlined/Arrow.svg") no-repeat center;
+	content: "";
+	width: 38px;
+	height: 20px;
+	pointer-events: none;
+}
+
+#alert.light .container a.arrow-link::before {
+	background: #00081c;
+}
+
+#alert.dark .container a.arrow-link::before {
+	background: #fff;
+}
+
+#alert .container #noticeClose {
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+
+/* Mobile hero heros CSS updates Aug 7 - JF */
+@media screen and (max-width: 1225px) {
+	header.lf-nav .desktop-nav .main-nav {
+		gap: 10px;
+	}
+}
+
+@media screen and (max-width: 959px) {
+	header.lf-nav .desktop-nav .main-nav {
+		gap: 34px;
+	}
+}

@@ -1,0 +1,16 @@
+filepath,n_img,n_svg,n_video,n_audio,n_canvas,n_css_links,n_icon_links,n_inline_styles,unique_classes
+datasets/evasion1/EvasionSet1/html/www.b3.com.br_adv.html,0,0,0,0,0,0,0,0,0
+datasets/evasion1/EvasionSet1/html/www.claro.com.br_adv.html,66,0,0,0,0,2,1,109,397
+datasets/evasion1/EvasionSet1/html/www.globo.com_adv.html,54,6,0,0,0,2,7,36,338
+datasets/evasion1/EvasionSet1/html/www.gov.br_adv.html,28,1,0,0,0,12,4,11,221
+datasets/evasion1/EvasionSet1/html/www.ifood.com.br_adv.html,13,0,0,0,0,5,13,1,146
+datasets/evasion1/EvasionSet1/html/www.inter.co_adv.html,3,18,2,0,0,5,0,7,205
+datasets/evasion1/EvasionSet1/html/www.kabum.com.br_adv.html,58,113,0,0,0,2,1,192,486
+datasets/evasion1/EvasionSet1/html/www.magazineluiza.com.br_adv.html,33,5,0,0,0,3,5,15,363
+datasets/evasion1/EvasionSet1/html/www.mercadolivre.com.br_adv.html,80,11,0,0,0,2,2,50,276
+datasets/evasion1/EvasionSet1/html/www.nubank.com.br_adv.html,4,3,5,0,0,3,5,54,193
+datasets/evasion1/EvasionSet1/html/www.pagseguro.com.br_adv.html,49,71,0,0,0,2,2,35,255
+datasets/evasion1/EvasionSet1/html/www.picpay.com_adv.html,26,27,0,0,0,1,1,60,273
+datasets/evasion1/EvasionSet1/html/www.python.org_adv.html,1,0,0,0,0,4,6,0,120
+datasets/evasion1/EvasionSet1/html/www.santander.com.br_adv.html,67,1,0,0,0,4,1,244,100
+datasets/evasion1/EvasionSet1/html/www.uol.com.br_adv.html,188,2,0,0,0,0,2,112,471

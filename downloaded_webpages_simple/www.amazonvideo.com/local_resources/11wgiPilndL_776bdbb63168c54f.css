@@ -1,0 +1,72 @@
+/* CSS taken from PV web nav code - Use with caution */
+div#a-page {
+  position: relative;
+  padding-bottom: 136px;
+  /* Magic number */
+  min-height: 100vh;
+  min-height: 100svh; }
+  @media only screen and (max-width: 54.99em) {
+    div#a-page {
+      padding-bottom: 160px !important;
+      /* Magic number */ } }
+  div#a-page .dv-page-bottom #Footer {
+    /* Forces footer to always be bootom of page 
+             - used global padding on page to ensure content does not collide
+          */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+
+.DVPAWebWidgetsFooter_Footer__footer {
+  --_font-size: 15px;
+  --_line-height: 19px;
+  --_background-color: transparent;
+  --_color: #949494;
+  --_link-color: #0f79af;
+  --_link-color-hover: var(--_link-color);
+  background-color: var(--_background-color);
+  color: var(--_color);
+  font-family: 'Amazon Ember', 'Amazon Arabic Ember', Arial, sans-serif;
+  padding: 24px;
+  text-align: center;
+  font-size: var(--_font-size, 15px);
+  line-height: var(--_line-height, 19px); }
+
+.dv-signup-theme-av .DVPAWebWidgetsFooter_Footer__footer,
+.dv-signup-theme-classic.dv-signup-view-mlp .DVPAWebWidgetsFooter_Footer__footer,
+.DVPAWebWidgetsFooter_Footer__footer.DVPAWebWidgetsFooter_Footer__dark {
+  --_background-color: #222222;
+  --_color: #8197a4;
+  --_link-color: #79b8f3;
+  --_link-color-hover: #90dffe; }
+
+@media only screen and (max-width: 880px) {
+  .DVPAWebWidgetsFooter_Footer__footer {
+    --_font-size: 13px;
+    --_line-height: 1.6em; } }
+
+.DVPAWebWidgetsFooter_Footer__logo {
+  margin: 0 auto;
+  max-height: 32px; }
+
+.DVPAWebWidgetsFooter_Footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 4px 0 14px;
+  padding: 0; }
+
+.DVPAWebWidgetsFooter_Footer__listItem {
+  margin: 0 10px;
+  list-style: none; }
+
+.DVPAWebWidgetsFooter_Footer__link a {
+  color: var(--_link-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out; }
+  .DVPAWebWidgetsFooter_Footer__link a:active, .DVPAWebWidgetsFooter_Footer__link a:hover {
+    color: var(--_link-color-hover);
+    text-decoration-color: initial; }
+

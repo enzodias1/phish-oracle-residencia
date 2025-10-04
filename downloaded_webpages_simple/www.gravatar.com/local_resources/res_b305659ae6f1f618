@@ -1,0 +1,452 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en">
+
+<head>
+	<title>Gravatar - Globally Recognized Avatars</title>
+	<link rel="canonical" href="https://gravatar.com/site/translations" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192x192.png">
+	<link rel="shortcut icon" href="/images/favicon-32x32.png" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en" />
+	<meta name="description" content="Your email address becomes your passport to the digital world, empowering you with complete control over your personal data.">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<style type="text/css" nonce="3615512ed0ac">
+		@font-face {
+			font-family: "Roboto Mono";
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(/fonts/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0me8iUI0.woff2),
+				format("woff2") url(/fonts/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vqPQw.ttf) format("truetype");
+		}
+
+		@font-face {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 900;
+			font-display: swap;
+			src: url(/fonts/Inter.ttf) format("truetype");
+		}
+
+		@font-face {
+			font-family: "Varela Round";
+			font-style: normal;
+			font-weight: 400;
+			font-display: swap;
+			src: url(/fonts/w8gdH283Tvk__Lua32TysjIfp8uPLdshZg.woff2) format("woff2"),
+				url(/fonts/w8gdH283Tvk__Lua32TysjIvoA.ttf) format("truetype");
+		}
+	</style>
+
+	
+<link rel="alternate" hreflang="en" href="https://gravatar.com/site/translations" /><link rel="alternate" hreflang="ar" href="https://ar.gravatar.com/site/translations" /><link rel="alternate" hreflang="az" href="https://az.gravatar.com/site/translations" /><link rel="alternate" hreflang="bg" href="https://bg.gravatar.com/site/translations" /><link rel="alternate" hreflang="bn" href="https://bn.gravatar.com/site/translations" /><link rel="alternate" hreflang="br" href="https://br.gravatar.com/site/translations" /><link rel="alternate" hreflang="bs" href="https://bs.gravatar.com/site/translations" /><link rel="alternate" hreflang="ca" href="https://ca.gravatar.com/site/translations" /><link rel="alternate" hreflang="cs" href="https://cs.gravatar.com/site/translations" /><link rel="alternate" hreflang="cy" href="https://cy.gravatar.com/site/translations" /><link rel="alternate" hreflang="da" href="https://da.gravatar.com/site/translations" /><link rel="alternate" hreflang="de" href="https://de.gravatar.com/site/translations" /><link rel="alternate" hreflang="el" href="https://po.gravatar.com/site/translations" /><link rel="alternate" hreflang="es" href="https://es.gravatar.com/site/translations" /><link rel="alternate" hreflang="fa" href="https://fa.gravatar.com/site/translations" /><link rel="alternate" hreflang="fi" href="https://fi.gravatar.com/site/translations" /><link rel="alternate" hreflang="fr" href="https://fr.gravatar.com/site/translations" /><link rel="alternate" hreflang="ga" href="https://ga.gravatar.com/site/translations" /><link rel="alternate" hreflang="gl" href="https://gl.gravatar.com/site/translations" /><link rel="alternate" hreflang="he" href="https://he.gravatar.com/site/translations" /><link rel="alternate" hreflang="hu" href="https://hu.gravatar.com/site/translations" /><link rel="alternate" hreflang="id" href="https://id.gravatar.com/site/translations" /><link rel="alternate" hreflang="it" href="https://it.gravatar.com/site/translations" /><link rel="alternate" hreflang="ja" href="https://ja.gravatar.com/site/translations" /><link rel="alternate" hreflang="ka" href="https://ka.gravatar.com/site/translations" /><link rel="alternate" hreflang="km" href="https://km.gravatar.com/site/translations" /><link rel="alternate" hreflang="kn" href="https://kn.gravatar.com/site/translations" /><link rel="alternate" hreflang="ko" href="https://ko.gravatar.com/site/translations" /><link rel="alternate" hreflang="lt" href="https://lt.gravatar.com/site/translations" /><link rel="alternate" hreflang="ms" href="https://ms.gravatar.com/site/translations" /><link rel="alternate" hreflang="nb" href="https://nb.gravatar.com/site/translations" /><link rel="alternate" hreflang="nl" href="https://nl.gravatar.com/site/translations" /><link rel="alternate" hreflang="oc" href="https://oc.gravatar.com/site/translations" /><link rel="alternate" hreflang="pl" href="https://pl.gravatar.com/site/translations" /><link rel="alternate" hreflang="pt" href="https://pt.gravatar.com/site/translations" /><link rel="alternate" hreflang="ro" href="https://ro.gravatar.com/site/translations" /><link rel="alternate" hreflang="ru" href="https://ru.gravatar.com/site/translations" /><link rel="alternate" hreflang="sk" href="https://sk.gravatar.com/site/translations" /><link rel="alternate" hreflang="sl" href="https://sl.gravatar.com/site/translations" /><link rel="alternate" hreflang="sq" href="https://sq.gravatar.com/site/translations" /><link rel="alternate" hreflang="sr" href="https://sr.gravatar.com/site/translations" /><link rel="alternate" hreflang="sv" href="https://sv.gravatar.com/site/translations" /><link rel="alternate" hreflang="skr" href="https://skr.gravatar.com/site/translations" /><link rel="alternate" hreflang="th" href="https://th.gravatar.com/site/translations" /><link rel="alternate" hreflang="tr" href="https://tr.gravatar.com/site/translations" /><link rel="alternate" hreflang="uk" href="https://uk.gravatar.com/site/translations" /><link rel="alternate" hreflang="ur" href="https://ur.gravatar.com/site/translations" /><link rel="alternate" hreflang="vi" href="https://vi.gravatar.com/site/translations" /><link rel="alternate" hreflang="zh" href="https://cn.gravatar.com/site/translations" /><link rel="alternate" hreflang="x-default" href="https://gravatar.com/site/translations/" /><link rel='stylesheet' id='core-css' href='https://s.gravatar.com/css/core/core.css?ver=7d32d683cb5de55e29e7' media='all' />
+<script id='gravatar-error-handler-js-after' nonce='69455487050f'>
+			let debounceTimer;
+
+			window._errorHandler = function (message, source, lineno, colno, error) {
+				const errorData = {
+					message: message,
+					source: source,
+					lineno: lineno,
+					type: error?.name,
+					colno: colno,
+					errorStack: error ? error.stack.split("\n").map(line => line.trim()) : [],
+					userAgent: navigator.userAgent,
+					url: window?.location?.href,
+					platform: navigator?.platform,
+					language: navigator?.language,
+				};
+
+				// Clear the existing debounce timer
+				clearTimeout(debounceTimer);
+
+				// Set a new debounce timer
+				debounceTimer = setTimeout(() => {
+			        // Send the error data to an endpoint
+			        fetch('https://api.gravatar.com/v2/errors/log', {
+			            method: 'POST',
+			            headers: {
+			                'Content-Type': 'application/json',
+			            },
+			            body: JSON.stringify(errorData),
+			            credentials: 'include',
+			        });
+				}, 300);
+			}
+
+			window.onerror = window._errorHandler;
+</script>
+<script src='https://s.gravatar.com/js/core/core.js?ver=87401207ad9ad7110c3a' id='core-js' crossorigin='anonymous'></script>
+<script id='gravatar-view-profile-tracks-js-after' nonce='69455487050f'>
+document.addEventListener( 'DOMContentLoaded', () => {
+	if ( ! window.gravatar || ! window.gravatar.recordTrackEvent ) {
+		return;
+	}
+
+	const cookies = document.cookie.split( ';' );
+
+	for ( let i = 0; i < cookies.length; i++ ) {
+		const cookie = cookies[i].trim();
+
+		if ( cookie.indexOf( 'tracks-email-verify' ) === 0 ) {
+			document.cookie = 'tracks-email-verify=; Path=/; Domain=.gravatar.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT';
+
+			window.gravatar.recordTrackEvent( 'gravatar_email_verified' );
+		}
+	}
+} );
+</script>
+</head>
+<body id="pagesite-translations" class="is-full-page feature-account-settings is-unauthenticated">
+
+	<div id="unified-header">
+			<nav class="site-nav">
+			<ul class="g-main-nav">
+				<li class="g-main-nav__logo">
+					<a href="https://gravatar.com/" class="g-home" aria-label="Homepage">
+						<svg class="g-logo g-logo--name-gravatar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146 27" role="presentation" aria-hidden="true">
+							<path class="g-fill-brand" d="M10.8 2.699v9.45a2.699 2.699 0 005.398 0V5.862a8.101 8.101 0 11-8.423 1.913 2.702 2.702 0 00-3.821-3.821A13.5 13.5 0 1013.499 0 2.699 2.699 0 0010.8 2.699z"></path>
+							<path class="gravatar-logo-text" d="M46.109 24.138c2.246 0 4.445-.537 6.595-1.612.326-.154.59-.39.792-.706.202-.317.302-.677.302-1.08v-6.538c0-.384-.134-.71-.403-.979a1.333 1.333 0 00-.979-.403h-5.674c-.326 0-.604.115-.835.346-.23.23-.345.508-.345.835 0 .326.115.605.345.835.23.23.509.346.835.346h4.752v5.212a10.393 10.393 0 01-5.04 1.268c-1.612 0-3.01-.341-4.19-1.023a6.89 6.89 0 01-2.707-2.793c-.624-1.181-.936-2.52-.936-4.018 0-1.632.331-3.038.993-4.22a6.635 6.635 0 012.75-2.692c1.172-.614 2.487-.922 3.946-.922 1.056 0 2.036.135 2.938.404.902.268 1.805.672 2.707 1.21.192.095.394.143.605.143.365 0 .658-.115.878-.345.221-.23.332-.51.332-.836 0-.23-.058-.441-.173-.633a1.013 1.013 0 00-.403-.403 14.434 14.434 0 00-3.24-1.527c-1.124-.365-2.434-.547-3.932-.547-1.862 0-3.556.432-5.083 1.296-1.526.864-2.731 2.083-3.614 3.658C36.442 9.988 36 11.793 36 13.828c0 1.997.422 3.778 1.267 5.342a9.095 9.095 0 003.571 3.658c1.536.874 3.293 1.31 5.27 1.31zm12.33-.144c.365 0 .677-.124.936-.374s.389-.557.389-.922v-8.755a5.837 5.837 0 011.93-1.857 4.912 4.912 0 012.534-.677h.144c.384 0 .7-.115.95-.346.25-.23.374-.528.374-.893 0-.364-.12-.672-.36-.921a1.205 1.205 0 00-.907-.375h-.144c-1.67 0-3.177.903-4.521 2.708v-1.239c0-.365-.13-.677-.39-.936a1.276 1.276 0 00-.935-.389c-.365 0-.672.13-.922.39-.25.258-.374.57-.374.935v12.355c0 .365.125.672.374.922.25.25.557.374.922.374zm12.578.144c2.189 0 3.994-.73 5.415-2.188v.748c0 .365.124.672.374.922s.557.374.922.374c.364 0 .676-.124.936-.374.259-.25.388-.557.388-.922v-8.15c0-.998-.216-1.925-.648-2.78-.432-.854-1.104-1.55-2.016-2.087-.912-.538-2.03-.807-3.355-.807-1.69 0-3.35.346-4.982 1.037-.5.211-.749.576-.749 1.095 0 .307.106.566.317.777.211.211.46.317.749.317.096 0 .22-.02.374-.058.691-.23 1.32-.403 1.886-.518a9.818 9.818 0 011.944-.173c1.325 0 2.3.279 2.924.835.624.557.936 1.47.936 2.736v.23h-3.485c-2.17 0-3.816.423-4.94 1.268-1.123.845-1.684 1.978-1.684 3.398 0 .864.211 1.628.633 2.29a4.088 4.088 0 001.714 1.512c.72.346 1.502.518 2.347.518zm.98-2.304c-1.095 0-1.877-.21-2.348-.633-.47-.423-.705-.98-.705-1.67 0-1.517 1.45-2.276 4.348-2.276h3.14v2.42a6.805 6.805 0 01-1.988 1.54 5.207 5.207 0 01-2.448.62zm15.803 2.16c.346 0 .663-.1.95-.302.289-.202.5-.456.634-.763l5.012-11.981a1.61 1.61 0 00.144-.605c0-.365-.125-.677-.375-.936a1.23 1.23 0 00-.921-.389c-.25 0-.485.072-.706.216-.22.144-.38.322-.475.533l-4.407 11.175L83.25 9.767a1.257 1.257 0 00-.475-.533 1.27 1.27 0 00-.706-.216c-.365 0-.672.13-.921.39-.25.258-.375.57-.375.935 0 .173.048.375.144.605l5.011 11.98c.135.308.346.562.634.764.288.202.605.302.95.302h.288zm12.435.144c2.189 0 3.993-.73 5.414-2.188v.748c0 .365.125.672.375.922s.556.374.921.374.677-.124.936-.374c.26-.25.389-.557.389-.922v-8.15c0-.998-.216-1.925-.648-2.78-.432-.854-1.104-1.55-2.016-2.087-.912-.538-2.03-.807-3.355-.807-1.69 0-3.35.346-4.983 1.037-.499.211-.748.576-.748 1.095 0 .307.105.566.316.777.212.211.461.317.75.317.095 0 .22-.02.374-.058.69-.23 1.32-.403 1.886-.518a9.818 9.818 0 011.944-.173c1.325 0 2.3.279 2.923.835.624.557.936 1.47.936 2.736v.23h-3.485c-2.17 0-3.816.423-4.939 1.268-1.123.845-1.685 1.978-1.685 3.398 0 .864.212 1.628.634 2.29a4.088 4.088 0 001.714 1.512c.72.346 1.502.518 2.347.518zm.979-2.304c-1.094 0-1.877-.21-2.347-.633-.47-.423-.706-.98-.706-1.67 0-1.517 1.45-2.276 4.349-2.276h3.14v2.42a6.805 6.805 0 01-1.988 1.54 5.207 5.207 0 01-2.448.62zm15.286 2.304c.844 0 1.641-.172 2.39-.518.442-.23.662-.566.662-1.008a.977.977 0 00-.316-.734 1.015 1.015 0 00-.72-.303c-.135 0-.245.01-.332.029a9.58 9.58 0 00-.244.058 3.991 3.991 0 01-1.152.172c-.538 0-.984-.1-1.34-.302-.355-.202-.532-.677-.532-1.426V11.41h3.254c.326 0 .595-.11.806-.331.212-.221.317-.485.317-.792 0-.327-.105-.596-.317-.807a1.092 1.092 0 00-.806-.317h-3.254V6.858a.578.578 0 00-.159-.403.507.507 0 00-.389-.173c-.153 0-.316.087-.49.26l-3.916 3.83c-.173.134-.26.298-.26.49 0 .153.054.283.16.388a.529.529 0 00.388.159h2.045v8.928c0 2.534 1.401 3.801 4.205 3.801zm8.776 0c2.19 0 3.994-.73 5.415-2.188v.748c0 .365.125.672.374.922.25.25.557.374.922.374s.677-.124.936-.374.389-.557.389-.922v-8.15c0-.998-.216-1.925-.648-2.78-.432-.854-1.104-1.55-2.016-2.087-.912-.538-2.03-.807-3.356-.807-1.69 0-3.35.346-4.982 1.037-.5.211-.749.576-.749 1.095 0 .307.106.566.317.777.211.211.46.317.749.317.096 0 .22-.02.374-.058.691-.23 1.32-.403 1.887-.518a9.818 9.818 0 011.944-.173c1.324 0 2.299.279 2.923.835.624.557.936 1.47.936 2.736v.23h-3.485c-2.17 0-3.816.423-4.94 1.268-1.122.845-1.684 1.978-1.684 3.398 0 .864.211 1.628.634 2.29a4.088 4.088 0 001.713 1.512c.72.346 1.503.518 2.347.518zm.98-2.304c-1.095 0-1.877-.21-2.348-.633-.47-.423-.705-.98-.705-1.67 0-1.517 1.45-2.276 4.349-2.276h3.139v2.42a6.805 6.805 0 01-1.987 1.54 5.207 5.207 0 01-2.448.62zm11.858 2.16c.365 0 .677-.124.936-.374.26-.25.389-.557.389-.922v-8.755a5.837 5.837 0 011.93-1.857 4.912 4.912 0 012.534-.677h.144c.384 0 .7-.115.95-.346.25-.23.375-.528.375-.893 0-.364-.12-.672-.36-.921a1.205 1.205 0 00-.908-.375h-.144c-1.67 0-3.177.903-4.521 2.708v-1.239c0-.365-.13-.677-.389-.936a1.276 1.276 0 00-.936-.389c-.365 0-.672.13-.922.39-.25.258-.374.57-.374.935v12.355c0 .365.125.672.374.922.25.25.557.374.922.374z"></path>
+						</svg>
+					</a>
+									</li>
+				<li class="g-main-nav__link">
+					<a href="/link-in-bio">Link in Bio</a>
+				</li>
+				<li class="g-main-nav__link">
+					<a href="https://docs.gravatar.com/">Developers</a>
+				</li>
+				<li class="g-main-nav__link">
+					<a href="https://support.gravatar.com/">Support</a>
+				</li>
+			</ul>
+
+			<ul class="user-nav">
+									<li>
+						<a href="https://gravatar.com/connect" id="g-login-cta" class="g-button g-button--is-outline g-button--login">
+							Log in						</a>
+					</li>
+													<li >
+						<a href="https://gravatar.com/connect?gravatar_from=signup" id="g-signup-cta" class="g-button g-button--signup">
+							Get Started Now						</a>
+					</li>
+							</ul>
+
+			<div class="g-header-menu" data-role="dropdown">
+				<button class="g-header-menu__trigger" data-role="dropdown-trigger">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M13.0001 12L11.0001 12M19.0001 12L17.0001 12M7.00012 12L5.00012 12" stroke="#1E1E1E" stroke-width="2" />
+					</svg>
+				</button>
+				<button class="g-header-menu__trigger" data-drawer-open="header-menu">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M13.0001 12L11.0001 12M19.0001 12L17.0001 12M7.00012 12L5.00012 12" stroke="#1E1E1E" stroke-width="2" />
+					</svg>
+				</button>
+				<div class="g-header-menu__popover" data-role="dropdown-menu">
+						<ul class="g-header-menu__content">
+					<li class="g-header-menu__group">
+				<a
+					class="g-header-menu__item"
+					href="https://gravatar.com/"
+					data-track-source="gravatar-homepage"
+				>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.2727 6.90002H13.8182V8.26366H15.2727C17.0909 8.26366 18.6364 9.80912 18.6364 11.6273C18.6364 13.4455 17.0909 14.9909 15.2727 14.9909H13.8182V16.3546H15.2727C17.8182 16.3546 20 14.2637 20 11.6273C20 8.99093 17.9091 6.90002 15.2727 6.90002ZM5.36364 11.6273C5.36364 9.80912 6.90909 8.26366 8.72727 8.26366H10.1818V6.90002H8.72727C6.09091 6.90002 4 8.99093 4 11.6273C4 14.2637 6.09091 16.3546 8.72727 16.3546H10.1818V14.9909H8.72727C6.90909 14.9909 5.36364 13.4455 5.36364 11.6273ZM9.54546 12.4455H14.3636V11.0818H9.54546V12.4455Z" fill="black"/>
+</svg>
+					Gravatar.com				</a>
+			</li>
+					<li class="g-header-menu__group">
+				<a
+					class="g-header-menu__item"
+					href="https://gravatar.com/developers"
+					data-track-source="developer-api"
+				>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M4.25008 11.95L4.24988 19V19.75H4.99988H8.26453V18.25H5.7499L5.75008 11.95L5.75026 5.75L8.26453 5.75V4.25H5.00028H4.25028L4.25028 5L4.25008 11.95ZM20.0144 12.0503L20.0146 5.00024V4.25024L19.2646 4.25024L16 4.25024V5.75024L18.5146 5.75024L18.5144 12.0502L18.5143 18.2502H16V19.7502H19.2642H20.0142L20.0142 19.0002L20.0144 12.0503ZM10.6962 17.2785L12.7105 12.2428L14.6962 7.27854L13.3035 6.72146L11.3178 11.6857L9.30352 16.7215L10.6962 17.2785Z"
+          fill="#101517"/>
+</svg>
+					Developer API				</a>
+			</li>
+					<li class="g-header-menu__group">
+				<a
+					class="g-header-menu__item"
+					href="https://support.gravatar.com/"
+					data-track-source="support"
+				>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M17.375 15.656C18.1099 14.5786 18.5021 13.3042 18.5 12C18.5019 10.81 18.1756 9.64255 17.557 8.626L16.295 9.439C16.743 10.188 17 11.064 17 12C17.0016 13.0163 16.6921 14.0088 16.113 14.844L17.375 15.656ZM15.424 17.526L14.611 16.265C13.8255 16.7471 12.9216 17.0015 12 17C11.042 17 10.148 16.73 9.387 16.264L8.575 17.525C9.60299 18.164 10.7896 18.5018 12 18.5C13.21 18.5019 14.3962 18.1644 15.424 17.526ZM6.624 15.656C5.88944 14.5785 5.49765 13.3041 5.5 12C5.5 10.765 5.844 9.61 6.443 8.627L7.704 9.439C7.24168 10.2131 6.99835 11.0983 7 12C7 13.056 7.328 14.036 7.887 14.843L6.624 15.656ZM9.205 7.853C10.0303 7.29539 11.004 6.99825 12 7C13.035 7 13.996 7.314 14.794 7.853L15.606 6.591C14.5388 5.87768 13.2836 5.49791 12 5.5C10.7159 5.49801 9.46033 5.87814 8.393 6.592L9.205 7.853ZM12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20ZM12 15.5C12.4596 15.5 12.9148 15.4095 13.3394 15.2336C13.764 15.0577 14.1499 14.7999 14.4749 14.4749C14.7999 14.1499 15.0577 13.764 15.2336 13.3394C15.4095 12.9148 15.5 12.4596 15.5 12C15.5 11.5404 15.4095 11.0852 15.2336 10.6606C15.0577 10.236 14.7999 9.85013 14.4749 9.52513C14.1499 9.20012 13.764 8.94231 13.3394 8.76642C12.9148 8.59053 12.4596 8.5 12 8.5C11.0717 8.5 10.1815 8.86875 9.52513 9.52513C8.86875 10.1815 8.5 11.0717 8.5 12C8.5 12.9283 8.86875 13.8185 9.52513 14.4749C10.1815 15.1313 11.0717 15.5 12 15.5Z"
+          fill="#101517"/>
+</svg>
+					Support				</a>
+			</li>
+							<li class="g-header-menu__group g-header-menu__group--connect">
+									<p>Create a new Gravatar profile and make it your go to place on the web.</p>
+					<a
+						id="g-profile-signup-cta"
+						class="components-button is-primary"
+						href="https://gravatar.com/site/signup"
+					>
+						Claim your free profile					</a>
+													<a
+						id="g-profile-login-cta"
+						class="components-button is-secondary"
+						href="https://gravatar.com/connect"
+					>
+						Log in					</a>
+							</li>
+			</ul>
+					</div>
+			</div>
+		</nav>
+		<div class="g-drawer header-menu-drawer" data-drawer-id="header-menu" role="dialog" aria-hidden="true">
+	<div class="g-drawer__overlay"></div>
+	<div class="g-drawer__card" tabindex="-1">
+		<div class="g-drawer__card-header">
+			<h3>Menu</h3>
+			<button class="g-drawer__close-button components-button is-small has-icon">
+				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M4.34676 4.5L19.5 19.5M4.5 19.5L19.1532 4.5" stroke="currentColor" stroke-width="1.5"/>
+				</svg>
+			</button>
+		</div>
+		<div class="g-drawer__content-wrapper">
+				<ul class="g-header-menu__content">
+					<li class="g-header-menu__group">
+				<a
+					class="g-header-menu__item"
+					href="https://gravatar.com/"
+					data-track-source="gravatar-homepage"
+				>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.2727 6.90002H13.8182V8.26366H15.2727C17.0909 8.26366 18.6364 9.80912 18.6364 11.6273C18.6364 13.4455 17.0909 14.9909 15.2727 14.9909H13.8182V16.3546H15.2727C17.8182 16.3546 20 14.2637 20 11.6273C20 8.99093 17.9091 6.90002 15.2727 6.90002ZM5.36364 11.6273C5.36364 9.80912 6.90909 8.26366 8.72727 8.26366H10.1818V6.90002H8.72727C6.09091 6.90002 4 8.99093 4 11.6273C4 14.2637 6.09091 16.3546 8.72727 16.3546H10.1818V14.9909H8.72727C6.90909 14.9909 5.36364 13.4455 5.36364 11.6273ZM9.54546 12.4455H14.3636V11.0818H9.54546V12.4455Z" fill="black"/>
+</svg>
+					Gravatar.com				</a>
+			</li>
+					<li class="g-header-menu__group">
+				<a
+					class="g-header-menu__item"
+					href="https://gravatar.com/developers"
+					data-track-source="developer-api"
+				>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M4.25008 11.95L4.24988 19V19.75H4.99988H8.26453V18.25H5.7499L5.75008 11.95L5.75026 5.75L8.26453 5.75V4.25H5.00028H4.25028L4.25028 5L4.25008 11.95ZM20.0144 12.0503L20.0146 5.00024V4.25024L19.2646 4.25024L16 4.25024V5.75024L18.5146 5.75024L18.5144 12.0502L18.5143 18.2502H16V19.7502H19.2642H20.0142L20.0142 19.0002L20.0144 12.0503ZM10.6962 17.2785L12.7105 12.2428L14.6962 7.27854L13.3035 6.72146L11.3178 11.6857L9.30352 16.7215L10.6962 17.2785Z"
+          fill="#101517"/>
+</svg>
+					Developer API				</a>
+			</li>
+					<li class="g-header-menu__group">
+				<a
+					class="g-header-menu__item"
+					href="https://support.gravatar.com/"
+					data-track-source="support"
+				>
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M17.375 15.656C18.1099 14.5786 18.5021 13.3042 18.5 12C18.5019 10.81 18.1756 9.64255 17.557 8.626L16.295 9.439C16.743 10.188 17 11.064 17 12C17.0016 13.0163 16.6921 14.0088 16.113 14.844L17.375 15.656ZM15.424 17.526L14.611 16.265C13.8255 16.7471 12.9216 17.0015 12 17C11.042 17 10.148 16.73 9.387 16.264L8.575 17.525C9.60299 18.164 10.7896 18.5018 12 18.5C13.21 18.5019 14.3962 18.1644 15.424 17.526ZM6.624 15.656C5.88944 14.5785 5.49765 13.3041 5.5 12C5.5 10.765 5.844 9.61 6.443 8.627L7.704 9.439C7.24168 10.2131 6.99835 11.0983 7 12C7 13.056 7.328 14.036 7.887 14.843L6.624 15.656ZM9.205 7.853C10.0303 7.29539 11.004 6.99825 12 7C13.035 7 13.996 7.314 14.794 7.853L15.606 6.591C14.5388 5.87768 13.2836 5.49791 12 5.5C10.7159 5.49801 9.46033 5.87814 8.393 6.592L9.205 7.853ZM12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20ZM12 15.5C12.4596 15.5 12.9148 15.4095 13.3394 15.2336C13.764 15.0577 14.1499 14.7999 14.4749 14.4749C14.7999 14.1499 15.0577 13.764 15.2336 13.3394C15.4095 12.9148 15.5 12.4596 15.5 12C15.5 11.5404 15.4095 11.0852 15.2336 10.6606C15.0577 10.236 14.7999 9.85013 14.4749 9.52513C14.1499 9.20012 13.764 8.94231 13.3394 8.76642C12.9148 8.59053 12.4596 8.5 12 8.5C11.0717 8.5 10.1815 8.86875 9.52513 9.52513C8.86875 10.1815 8.5 11.0717 8.5 12C8.5 12.9283 8.86875 13.8185 9.52513 14.4749C10.1815 15.1313 11.0717 15.5 12 15.5Z"
+          fill="#101517"/>
+</svg>
+					Support				</a>
+			</li>
+							<li class="g-header-menu__group g-header-menu__group--connect">
+									<p>Create a new Gravatar profile and make it your go to place on the web.</p>
+					<a
+						id="g-profile-signup-cta"
+						class="components-button is-primary"
+						href="https://gravatar.com/site/signup"
+					>
+						Claim your free profile					</a>
+													<a
+						id="g-profile-login-cta"
+						class="components-button is-secondary"
+						href="https://gravatar.com/connect"
+					>
+						Log in					</a>
+							</li>
+			</ul>
+	
+		</div>
+	</div>
+</div>	</div>
+
+	
+	<main>
+	<h1>Gravatar Translations</h1>
+	<p>The Gravatar website is available in the following languages. If your browser is configured to accept one of these languages, you should be redirected to the appropriate site automatically when you access Gravatar.</p>
+	<p>If you'd like to contribute to these translations, please head on over to <a href="https://translate.wordpress.com/projects/gravatar/">the translation project here</a>, or click one of the 'translate' links below.</p>
+
+	<ul class="translations">
+<li><strong><a href="https://sq.gravatar.com/">Albanian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/sq/default">translate</a></li></li><li><strong><a href="https://ar.gravatar.com/">Arabic</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ar/default">translate</a></li></li><li><strong><a href="https://az.gravatar.com/">Azerbaijani</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/az/default">translate</a></li></li><li><strong><a href="https://bn.gravatar.com/">Bengali</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/bn/default">translate</a></li></li><li><strong><a href="https://bs.gravatar.com/">Bosnian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/bs/default">translate</a></li></li><li><strong><a href="https://bg.gravatar.com/">Bulgarian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/bg/default">translate</a></li></li><li><strong><a href="https://ca.gravatar.com/">Catalan</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ca/default">translate</a></li></li><li><strong><a href="https://cn.gravatar.com/">Chinese</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/zh-cn/default">translate</a></li></li><li><strong><a href="https://zh-tw.gravatar.com/">Chinese (Taiwan)</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/zh-tw/default">translate</a></li></li><li><strong><a href="https://cs.gravatar.com/">Czech</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/cs/default">translate</a></li></li><li><strong><a href="https://da.gravatar.com/">Danish</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/da/default">translate</a></li></li><li><strong><a href="https://nl.gravatar.com/">Dutch</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/nl/default">translate</a></li></li><li><strong><a href="https://gravatar.com">English</a></strong></li><li><strong><a href="https://fi.gravatar.com/">Finnish</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/fi/default">translate</a></li></li><li><strong><a href="https://fr.gravatar.com/">French</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/fr/default">translate</a></li></li><li><strong><a href="https://fr-ca.gravatar.com/">French Canadian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/fr-ca/default">translate</a></li></li><li><strong><a href="https://gl.gravatar.com/">Galacian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/gl/default">translate</a></li></li><li><strong><a href="https://ka.gravatar.com/">Georgian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ka/default">translate</a></li></li><li><strong><a href="https://de.gravatar.com/">German</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/de/default">translate</a></li></li><li><strong><a href="https://el.gravatar.com/">Greek</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/el/default">translate</a></li></li><li><strong><a href="https://po.gravatar.com/">Greek</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/el-po/default">translate</a></li></li><li><strong><a href="https://he.gravatar.com/">Hebrew</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/he/default">translate</a></li></li><li><strong><a href="https://hu.gravatar.com/">Hungarian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/hu/default">translate</a></li></li><li><strong><a href="https://id.gravatar.com/">Indonesian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/id/default">translate</a></li></li><li><strong><a href="https://ga.gravatar.com/">Irish</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ga/default">translate</a></li></li><li><strong><a href="https://it.gravatar.com/">Italian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/it/default">translate</a></li></li><li><strong><a href="https://ja.gravatar.com/">Japanese</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ja/default">translate</a></li></li><li><strong><a href="https://kn.gravatar.com/">Kannada</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/kn/default">translate</a></li></li><li><strong><a href="https://km.gravatar.com/">Khmer</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/km/default">translate</a></li></li><li><strong><a href="https://ko.gravatar.com/">Korean</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ko/default">translate</a></li></li><li><strong><a href="https://lt.gravatar.com/">Lithuanian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/lt/default">translate</a></li></li><li><strong><a href="https://ms.gravatar.com/">Malay</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ms/default">translate</a></li></li><li><strong><a href="https://nb.gravatar.com/">Norwegian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/nb/default">translate</a></li></li><li><strong><a href="https://oc.gravatar.com/">Occitan</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/oc/default">translate</a></li></li><li><strong><a href="https://fa.gravatar.com/">Persian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/fa/default">translate</a></li></li><li><strong><a href="https://pl.gravatar.com/">Polish</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/pl/default">translate</a></li></li><li><strong><a href="https://br.gravatar.com/">Portuguese (Brazil)</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/pt-br/default">translate</a></li></li><li><strong><a href="https://pt.gravatar.com/">Portuguese (Portugal)</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/pt/default">translate</a></li></li><li><strong><a href="https://ro.gravatar.com/">Romanian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ro/default">translate</a></li></li><li><strong><a href="https://ru.gravatar.com/">Russian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ru/default">translate</a></li></li><li><strong><a href="https://skr.gravatar.com/">Saraiki</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/skr/default">translate</a></li></li><li><strong><a href="https://sr.gravatar.com/">Serbian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/sr/default">translate</a></li></li><li><strong><a href="https://sk.gravatar.com/">Slovak</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/sk/default">translate</a></li></li><li><strong><a href="https://sl.gravatar.com/">Slovenian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/sl/default">translate</a></li></li><li><strong><a href="https://es.gravatar.com/">Spanish</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/es/default">translate</a></li></li><li><strong><a href="https://sv.gravatar.com/">Swedish</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/sv/default">translate</a></li></li><li><strong><a href="https://th.gravatar.com/">Thai</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/th/default">translate</a></li></li><li><strong><a href="https://tr.gravatar.com/">Turkish</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/tr/default">translate</a></li></li><li><strong><a href="https://uk.gravatar.com/">Ukrainian</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/uk/default">translate</a></li></li><li><strong><a href="https://ur.gravatar.com/">Urdu</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/ur/default">translate</a></li></li><li><strong><a href="https://vi.gravatar.com/">Vietnamese</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/vi/default">translate</a></li></li><li><strong><a href="https://cy.gravatar.com/">Welsh</a></strong> - <a href="https://translate.wordpress.com/projects/gravatar/cy/default">translate</a></li></li>	</ul>
+</main>
+
+
+<footer class="g-footer">
+	<div class="g-footer__links">
+		<div class="g-footer__content">
+			<div class="g-footer__branding">
+				<svg xmlns="http://www.w3.org/2000/svg" width="146" height="27" viewbox="0 0 146 27" role="presentation" aria-hidden="true">
+					<path d="M10.8 2.699v9.45a2.699 2.699 0 005.398 0V5.862a8.101 8.101 0 11-8.423 1.913 2.702 2.702 0 00-3.821-3.821A13.5 13.5 0 1013.499 0 2.699 2.699 0 0010.8 2.699z" />
+					<path d="M46.109 24.138c2.246 0 4.445-.537 6.595-1.612.326-.154.59-.39.792-.706.202-.317.302-.677.302-1.08v-6.538c0-.384-.134-.71-.403-.979a1.333 1.333 0 00-.979-.403h-5.674c-.326 0-.604.115-.835.346-.23.23-.345.508-.345.835 0 .326.115.605.345.835.23.23.509.346.835.346h4.752v5.212a10.393 10.393 0 01-5.04 1.268c-1.612 0-3.01-.341-4.19-1.023a6.89 6.89 0 01-2.707-2.793c-.624-1.181-.936-2.52-.936-4.018 0-1.632.331-3.038.993-4.22a6.635 6.635 0 012.75-2.692c1.172-.614 2.487-.922 3.946-.922 1.056 0 2.036.135 2.938.404.902.268 1.805.672 2.707 1.21.192.095.394.143.605.143.365 0 .658-.115.878-.345.221-.23.332-.51.332-.836 0-.23-.058-.441-.173-.633a1.013 1.013 0 00-.403-.403 14.434 14.434 0 00-3.24-1.527c-1.124-.365-2.434-.547-3.932-.547-1.862 0-3.556.432-5.083 1.296-1.526.864-2.731 2.083-3.614 3.658C36.442 9.988 36 11.793 36 13.828c0 1.997.422 3.778 1.267 5.342a9.095 9.095 0 003.571 3.658c1.536.874 3.293 1.31 5.27 1.31zm12.33-.144c.365 0 .677-.124.936-.374s.389-.557.389-.922v-8.755a5.837 5.837 0 011.93-1.857 4.912 4.912 0 012.534-.677h.144c.384 0 .7-.115.95-.346.25-.23.374-.528.374-.893 0-.364-.12-.672-.36-.921a1.205 1.205 0 00-.907-.375h-.144c-1.67 0-3.177.903-4.521 2.708v-1.239c0-.365-.13-.677-.39-.936a1.276 1.276 0 00-.935-.389c-.365 0-.672.13-.922.39-.25.258-.374.57-.374.935v12.355c0 .365.125.672.374.922.25.25.557.374.922.374zm12.578.144c2.189 0 3.994-.73 5.415-2.188v.748c0 .365.124.672.374.922s.557.374.922.374c.364 0 .676-.124.936-.374.259-.25.388-.557.388-.922v-8.15c0-.998-.216-1.925-.648-2.78-.432-.854-1.104-1.55-2.016-2.087-.912-.538-2.03-.807-3.355-.807-1.69 0-3.35.346-4.982 1.037-.5.211-.749.576-.749 1.095 0 .307.106.566.317.777.211.211.46.317.749.317.096 0 .22-.02.374-.058.691-.23 1.32-.403 1.886-.518a9.818 9.818 0 011.944-.173c1.325 0 2.3.279 2.924.835.624.557.936 1.47.936 2.736v.23h-3.485c-2.17 0-3.816.423-4.94 1.268-1.123.845-1.684 1.978-1.684 3.398 0 .864.211 1.628.633 2.29a4.088 4.088 0 001.714 1.512c.72.346 1.502.518 2.347.518zm.98-2.304c-1.095 0-1.877-.21-2.348-.633-.47-.423-.705-.98-.705-1.67 0-1.517 1.45-2.276 4.348-2.276h3.14v2.42a6.805 6.805 0 01-1.988 1.54 5.207 5.207 0 01-2.448.62zm15.803 2.16c.346 0 .663-.1.95-.302.289-.202.5-.456.634-.763l5.012-11.981a1.61 1.61 0 00.144-.605c0-.365-.125-.677-.375-.936a1.23 1.23 0 00-.921-.389c-.25 0-.485.072-.706.216-.22.144-.38.322-.475.533l-4.407 11.175L83.25 9.767a1.257 1.257 0 00-.475-.533 1.27 1.27 0 00-.706-.216c-.365 0-.672.13-.921.39-.25.258-.375.57-.375.935 0 .173.048.375.144.605l5.011 11.98c.135.308.346.562.634.764.288.202.605.302.95.302h.288zm12.435.144c2.189 0 3.993-.73 5.414-2.188v.748c0 .365.125.672.375.922s.556.374.921.374.677-.124.936-.374c.26-.25.389-.557.389-.922v-8.15c0-.998-.216-1.925-.648-2.78-.432-.854-1.104-1.55-2.016-2.087-.912-.538-2.03-.807-3.355-.807-1.69 0-3.35.346-4.983 1.037-.499.211-.748.576-.748 1.095 0 .307.105.566.316.777.212.211.461.317.75.317.095 0 .22-.02.374-.058.69-.23 1.32-.403 1.886-.518a9.818 9.818 0 011.944-.173c1.325 0 2.3.279 2.923.835.624.557.936 1.47.936 2.736v.23h-3.485c-2.17 0-3.816.423-4.939 1.268-1.123.845-1.685 1.978-1.685 3.398 0 .864.212 1.628.634 2.29a4.088 4.088 0 001.714 1.512c.72.346 1.502.518 2.347.518zm.979-2.304c-1.094 0-1.877-.21-2.347-.633-.47-.423-.706-.98-.706-1.67 0-1.517 1.45-2.276 4.349-2.276h3.14v2.42a6.805 6.805 0 01-1.988 1.54 5.207 5.207 0 01-2.448.62zm15.286 2.304c.844 0 1.641-.172 2.39-.518.442-.23.662-.566.662-1.008a.977.977 0 00-.316-.734 1.015 1.015 0 00-.72-.303c-.135 0-.245.01-.332.029a9.58 9.58 0 00-.244.058 3.991 3.991 0 01-1.152.172c-.538 0-.984-.1-1.34-.302-.355-.202-.532-.677-.532-1.426V11.41h3.254c.326 0 .595-.11.806-.331.212-.221.317-.485.317-.792 0-.327-.105-.596-.317-.807a1.092 1.092 0 00-.806-.317h-3.254V6.858a.578.578 0 00-.159-.403.507.507 0 00-.389-.173c-.153 0-.316.087-.49.26l-3.916 3.83c-.173.134-.26.298-.26.49 0 .153.054.283.16.388a.529.529 0 00.388.159h2.045v8.928c0 2.534 1.401 3.801 4.205 3.801zm8.776 0c2.19 0 3.994-.73 5.415-2.188v.748c0 .365.125.672.374.922.25.25.557.374.922.374s.677-.124.936-.374.389-.557.389-.922v-8.15c0-.998-.216-1.925-.648-2.78-.432-.854-1.104-1.55-2.016-2.087-.912-.538-2.03-.807-3.356-.807-1.69 0-3.35.346-4.982 1.037-.5.211-.749.576-.749 1.095 0 .307.106.566.317.777.211.211.46.317.749.317.096 0 .22-.02.374-.058.691-.23 1.32-.403 1.887-.518a9.818 9.818 0 011.944-.173c1.324 0 2.299.279 2.923.835.624.557.936 1.47.936 2.736v.23h-3.485c-2.17 0-3.816.423-4.94 1.268-1.122.845-1.684 1.978-1.684 3.398 0 .864.211 1.628.634 2.29a4.088 4.088 0 001.713 1.512c.72.346 1.503.518 2.347.518zm.98-2.304c-1.095 0-1.877-.21-2.348-.633-.47-.423-.705-.98-.705-1.67 0-1.517 1.45-2.276 4.349-2.276h3.139v2.42a6.805 6.805 0 01-1.987 1.54 5.207 5.207 0 01-2.448.62zm11.858 2.16c.365 0 .677-.124.936-.374.26-.25.389-.557.389-.922v-8.755a5.837 5.837 0 011.93-1.857 4.912 4.912 0 012.534-.677h.144c.384 0 .7-.115.95-.346.25-.23.375-.528.375-.893 0-.364-.12-.672-.36-.921a1.205 1.205 0 00-.908-.375h-.144c-1.67 0-3.177.903-4.521 2.708v-1.239c0-.365-.13-.677-.389-.936a1.276 1.276 0 00-.936-.389c-.365 0-.672.13-.922.39-.25.258-.374.57-.374.935v12.355c0 .365.125.672.374.922.25.25.557.374.922.374z" />
+				</svg>
+				<a href="https://gravatar.com/site/translations" class="g-footer__language-link">
+					<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+						<path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm6.918 6h-3.215a49.088 49.088 0 00-.565-3.357A8.048 8.048 0 0118.918 8zm-5.904-3.928c.068.352.387 2.038.645 3.928h-3.318c.258-1.89.577-3.576.645-3.928C11.319 4.029 11.656 4 12 4s.681.029 1.014.072zM14 12c0 .598-.043 1.286-.109 2h-3.782c-.066-.714-.109-1.402-.109-2s.043-1.286.109-2h3.782c.066.714.109 1.402.109 2zM8.862 4.643A49.088 49.088 0 008.297 8H5.082a8.048 8.048 0 013.78-3.357zM4.263 10h3.821C8.033 10.668 8 11.344 8 12s.033 1.332.085 2H4.263C4.097 13.359 4 12.692 4 12s.098-1.359.263-2zm.819 6h3.215c.188 1.424.42 2.65.565 3.357A8.048 8.048 0 015.082 16zm5.904 3.928A77.282 77.282 0 0110.341 16h3.318a78.303 78.303 0 01-.645 3.928c-.333.043-.67.072-1.014.072s-.681-.029-1.014-.072zm4.152-.571c.145-.707.377-1.933.565-3.357h3.215a8.048 8.048 0 01-3.78 3.357zM19.737 14h-3.821c.051-.668.084-1.344.084-2s-.033-1.332-.085-2h3.821c.166.641.264 1.308.264 2s-.097 1.359-.263 2z" />
+					</svg>
+					Languages				</a>
+			</div>
+			<div class="g-footer__links-container">
+				<div class="g-footer__link-section">
+					<h3>Features</h3>
+					<ul>
+						<li><a href="https://gravatar.com/link-in-bio">Link-in-bio</a></li>
+						<li><a href="https://gravatar.com/custom-domains">Custom Domains</a></li>
+						<li><a href="https://gravatar.com/plugin">WordPress Plugin</a></li>
+					</ul>
+				</div>
+				<div class="g-footer__link-section">
+					<h3>Developers</h3>
+					<ul>
+						<li><a href="https://gravatar.com/developers">Developer Dashboard</a></li>
+						<li><a href="https://docs.gravatar.com/">Developer Docs</a></li>
+					</ul>
+					<a href="https://github.com/automattic/gravatar/" class="g-footer__github-link">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C7.58011 4 4 7.67017 4 12.2013C4 15.8261 6.29343 18.8972 9.47084 19.9846C9.86863 20.0602 10.016 19.8084 10.016 19.5869C10.016 19.3906 10.011 18.877 10.0061 18.1923C7.78146 18.6857 7.31001 17.0948 7.31001 17.0948C6.94659 16.1483 6.42112 15.8916 6.42112 15.8916C5.69429 15.3831 6.47514 15.3931 6.47514 15.3931C7.27563 15.4536 7.70288 16.2389 7.70288 16.2389C8.41498 17.4925 9.57397 17.1301 10.0307 16.9186C10.1044 16.39 10.3106 16.0275 10.5365 15.8211C8.76366 15.6197 6.89748 14.9149 6.89748 11.7733C6.89748 10.8772 7.20688 10.1472 7.72253 9.57323C7.63904 9.36177 7.36403 8.53108 7.79619 7.40334C7.79619 7.40334 8.469 7.18182 9.99632 8.24411C10.6347 8.06287 11.3174 7.97224 12 7.96721C12.6777 7.97224 13.3653 8.06287 14.0037 8.24411C15.531 7.18182 16.2038 7.40334 16.2038 7.40334C16.6409 8.53108 16.3659 9.36681 16.2824 9.57323C16.7931 10.1472 17.1025 10.8772 17.1025 11.7733C17.1025 14.9249 15.2314 15.6147 13.4487 15.8211C13.7336 16.0728 13.9939 16.5763 13.9939 17.3415C13.9939 18.439 13.984 19.3201 13.984 19.5919C13.984 19.8135 14.1265 20.0652 14.5341 19.9846C17.7115 18.8972 20 15.8261 20 12.2063C20 7.67017 16.4199 4 12 4Z" fill="white"/>
+						</svg>
+						<span>GitHub</span>
+					</a>
+				</div>
+				<div class="g-footer__link-section">
+					<h3>Support</h3>
+					<ul>
+						<li><a href="https://support.gravatar.com/">Docs</a></li>
+						<li><a href="https://support.gravatar.com/report-abuse/">Report Abuse</a></li>
+					</ul>
+				</div>
+				<div class="g-footer__link-section g-footer__link-section--company">
+					<h3>Company</h3>
+					<ul>
+						<li><a class="g-footer__link--external" href="https://automattic.com/about/" target="_blank">About</a></li>
+						<li><a class="g-footer__link--external" href="https://automattic.com/press" target="_blank">Press</a></li>
+						<li><a class="g-footer__link--external" href="https://wordpress.com/tos/" target="_blank">Terms of Service</a></li>
+						<li><a class="g-footer__link--external" href="https://automattic.com/privacy/" target="_blank">Privacy Policy</a></li>
+						<li id="ca-privacy-notice">
+							<a class="g-footer__link--external" href="https://automattic.com/privacy/#us-privacy-laws" target="_blank">Privacy Notice for CA</a>
+						</li>
+						<li id="ccpa-donotsell">
+							<a href="#">
+								Your Privacy Choices								<img src="/icons/privacy-options.svg" alt="Privacy options icon" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="g-footer__wordpress">
+		<div class="g-footer__content">
+			<a class="g-footer__link--wordpress" href="https://wordpress.com/?ref=gravatar">
+				<span>Powered by</span>
+				<svg width="150" height="24" viewBox="0 0 150 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M108.404 12.4464C108.404 11.801 109.118 11.5508 109.886 11.5508C111.124 11.5508 112.299 11.9269 112.299 11.9269V10.1708C111.494 9.93811 110.671 9.84885 109.72 9.84885C107.635 9.84885 106.171 10.8162 106.171 12.3937C106.171 15.4581 110.488 14.6708 110.488 16.1576C110.488 16.8923 109.811 17.0898 108.824 17.0898C108.129 17.0898 107.013 16.8235 106.208 16.5498V18.2884C106.879 18.5474 107.819 18.7918 108.75 18.7918C110.78 18.7918 112.719 18.2006 112.719 16.0684C112.719 13.1108 108.402 13.882 108.402 12.4479M119.784 14.2406C119.784 12.2518 120.899 11.5698 122.217 11.5698C123.095 11.5698 124.018 11.8215 124.639 12.0542V10.2615C123.907 10.0288 123.259 9.84885 122.179 9.84885C119.307 9.84885 117.533 11.5698 117.533 14.3474C117.533 16.9815 118.813 18.7918 122.051 18.7918C123.075 18.7918 123.87 18.5942 124.748 18.3074V16.5513C123.761 16.9274 123.002 17.0708 122.326 17.0708C120.899 17.0708 119.784 16.4254 119.784 14.2391M57.7 11.4615H57.6268V10.064H55.615V18.5767H57.7732V13.5045C58.4498 12.2503 59.2727 11.8376 60.6453 11.8376H60.8649V9.99226C60.8649 9.99226 60.5542 9.95567 60.2794 9.95567C59.1085 9.95567 58.3034 10.4035 57.7 11.4615ZM84.7771 11.4615H84.7039V10.064H82.6921V18.5767H84.8503V13.5045C85.5269 12.2503 86.3498 11.8376 87.7224 11.8376H87.942V9.99226C87.942 9.99226 87.6313 9.95567 87.3565 9.95567C86.187 9.95567 85.382 10.4035 84.7786 11.4615M147.237 9.84885C146.305 9.84885 145.243 10.3508 144.274 10.9786L144.018 11.1396C143.561 10.1898 142.646 9.84885 141.641 9.84885C140.709 9.84885 139.647 10.3157 138.677 10.942V10.064H136.628V18.5767H138.804V12.4654C139.609 11.9459 140.468 11.6225 141.091 11.6225C141.805 11.6225 142.244 11.9986 142.244 13.2001V18.5767H144.402V12.483C145.207 11.9635 146.066 11.6225 146.689 11.6225C147.403 11.6225 147.842 11.9986 147.842 13.2001V18.5767H150V12.6981C150 11.0488 148.993 9.84885 147.238 9.84885M130.5 17.0898C129.092 17.0898 128.342 16.1942 128.342 14.3298C128.342 12.4654 129.092 11.5698 130.5 11.5698C131.908 11.5698 132.64 12.4669 132.64 14.3298C132.64 16.1927 131.908 17.0898 130.5 17.0898ZM130.5 9.84885C127.519 9.84885 126.11 11.7308 126.11 14.3298C126.11 16.9288 127.519 18.7918 130.5 18.7918C133.481 18.7918 134.89 16.9274 134.89 14.3298C134.89 11.7323 133.463 9.84885 130.5 9.84885ZM100.548 12.4479C100.548 11.8025 101.262 11.5523 102.029 11.5523C103.268 11.5523 104.443 11.9284 104.443 11.9284V10.1723C103.638 9.93958 102.815 9.85031 101.865 9.85031C99.7801 9.85031 98.3164 10.8176 98.3164 12.3952C98.3164 15.4596 102.633 14.6723 102.633 16.1591C102.633 16.8937 101.956 17.0913 100.969 17.0913C100.274 17.0913 99.1587 16.8249 98.3537 16.5513V18.2898C99.0243 18.5488 99.9623 18.7932 100.896 18.7932C102.926 18.7932 104.864 18.202 104.864 16.0698C104.864 13.1123 100.548 13.8835 100.548 12.4493M91.183 13.3815C91.3115 12.1991 91.9701 11.4454 93.0485 11.4454C94.2016 11.4454 94.5481 12.3425 94.5481 13.3815H91.183ZM93.0664 9.85031C90.2869 9.85031 88.8411 11.9649 88.8411 14.2771C88.8411 17.4498 90.5408 18.7932 93.3009 18.7932C94.4166 18.7932 95.38 18.6484 96.5047 18.3088V16.5498C95.5981 16.8747 94.7811 17.0708 93.9043 17.0708C92.2957 17.0708 91.2189 16.6406 91.1636 14.7776H96.7242C96.7615 14.4367 96.7974 14.1147 96.7974 13.5235C96.7974 11.7308 95.8281 9.84885 93.0664 9.84885M76.8462 12.644H75.1345V8.34299H76.8462C78.2367 8.34299 78.9312 9.09519 78.9312 10.4401C78.9312 11.7849 78.2905 12.644 76.8462 12.644ZM76.8283 6.56933H72.8314V18.5752H75.136V14.4001H76.8283C79.4435 14.4001 81.3463 13.0201 81.3463 10.4401C81.3463 7.86006 79.4435 6.56933 76.8283 6.56933ZM68.0012 16.121C67.3067 16.7474 66.648 17.0884 65.9535 17.0884C64.7646 17.0884 63.9954 16.3171 63.9954 14.5084C63.9954 12.5547 64.9468 11.5332 66.5928 11.5332C67.1051 11.5332 67.6353 11.6591 68.0012 11.8025V16.121ZM68.0012 10.0449C67.3605 9.92055 66.9034 9.84738 66.3732 9.84738C63.392 9.84738 61.764 11.801 61.764 14.6503C61.764 17.4996 63.392 18.7903 65.3128 18.7903C66.2642 18.7903 67.4157 18.3601 68.1117 17.7864V18.5752H70.1594V6.56787H68.0012V10.0449ZM49.4868 17.0884C48.0784 17.0884 47.3286 16.1927 47.3286 14.3284C47.3286 12.464 48.0784 11.5684 49.4868 11.5684C50.8953 11.5684 51.6271 12.4654 51.6271 14.3284C51.6271 16.1913 50.8953 17.0884 49.4868 17.0884ZM49.4868 9.84738C46.5056 9.84738 45.0972 11.7293 45.0972 14.3284C45.0972 16.9274 46.5056 18.7903 49.4868 18.7903C52.468 18.7903 53.8765 16.9259 53.8765 14.3284C53.8765 11.7308 52.4501 9.84738 49.4868 9.84738ZM114.147 18.5752H116.312V16.3888H114.147V18.5752ZM43.1436 6.56787L40.7016 15.761L38.2596 6.56787H35.7952L36.3687 8.53763L34.2195 16.0713L31.882 6.56641H29.5117L32.8439 18.5737H35.4263L37.4217 12.1537L39.2917 18.5737H41.8741L45.372 6.56641H43.1421L43.1436 6.56787Z" fill="white"/>
+					<path d="M12.2473 0C5.49338 0 0 5.38244 0 12C0 18.6176 5.49338 24 12.2473 24C19.0013 24 24.4947 18.6161 24.4947 12C24.4947 5.3839 18.9998 0 12.2473 0ZM1.23668 12C1.23668 10.4356 1.57871 8.95024 2.18958 7.60976L7.4425 21.7098C3.76979 19.961 1.23668 16.2702 1.23668 12ZM12.2473 22.7898C11.166 22.7898 10.1235 22.6346 9.13621 22.3507L12.44 12.9439L15.8245 22.0288C15.8469 22.0815 15.8737 22.1312 15.9036 22.178C14.7595 22.5732 13.5288 22.7898 12.2473 22.7898ZM13.7648 6.94244C14.428 6.90878 15.0254 6.84 15.0254 6.84C15.6183 6.77122 15.5481 5.91658 14.9552 5.95024C14.9552 5.95024 13.1719 6.0878 12.0203 6.0878C10.939 6.0878 9.11979 5.95024 9.11979 5.95024C8.52534 5.91658 8.45664 6.80488 9.04959 6.84C9.04959 6.84 9.61117 6.90878 10.2041 6.94244L11.9202 11.5478L9.50961 18.6293L5.50085 6.94098C6.164 6.90732 6.76143 6.83854 6.76143 6.83854C7.35438 6.76976 7.28418 5.91512 6.69123 5.94878C6.69123 5.94878 4.9079 6.08634 3.75635 6.08634C3.55023 6.08634 3.30678 6.08195 3.04839 6.07317C5.01543 3.14488 8.39988 1.21024 12.2473 1.21024C15.1135 1.21024 17.7243 2.28439 19.6824 4.04341C19.6346 4.04049 19.5883 4.03463 19.539 4.03463C18.4576 4.03463 17.6899 4.95805 17.6899 5.94878C17.6899 6.83854 18.2142 7.59073 18.7713 8.47902C19.1895 9.19756 19.6794 10.121 19.6794 11.4541C19.6794 12.3776 19.3164 13.4488 18.8415 14.9415L17.7422 18.5371L13.7633 6.93951L13.7648 6.94244ZM21.9093 6.82537C22.7681 8.36195 23.258 10.1254 23.258 12.0015C23.258 15.982 21.0565 19.4561 17.7825 21.3263L21.1461 11.798C21.7749 10.2585 21.984 9.0278 21.984 7.93317C21.984 7.53658 21.9571 7.1678 21.9093 6.8239V6.82537Z" fill="white"/>
+				</svg>
+			</a>
+			<a class="g-footer__link--external" href="https://wordpress.com/?ref=gravatar">Create a Site</a>
+		</div>
+	</div>
+	<div class="g-footer__automattic">
+		<div class="g-footer__content">
+			<a class="g-footer__link--automattic" href="https://www.automattic.com/?ref=gravatar">
+				<span>An</span>
+				<svg width="155" height="13" viewBox="0 0 155 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M147.642 0.490234C149.972 0.490234 152.088 1.46523 153.229 2.68923L151.939 3.99423C150.948 3.08523 149.493 2.22623 147.526 2.22623C144.584 2.22623 142.931 4.24223 142.931 6.34223V6.55723C142.931 8.63923 144.601 10.5892 147.675 10.5892C149.51 10.5892 151.03 9.71323 151.989 8.82123L153.229 10.1272C152.022 11.3172 149.972 12.3252 147.543 12.3252C143.377 12.3252 140.848 9.61523 140.848 6.63923V6.27523C140.848 3.30023 143.608 0.490234 147.642 0.490234ZM19.3915 0.887234V7.35023C19.3915 9.38323 20.7305 10.5902 23.2755 10.5902C25.8875 10.5902 26.9615 9.38323 26.9615 7.35023V0.887234H29.0275V7.31723C29.0275 10.0442 27.2755 12.3252 23.1275 12.3252C19.1775 12.3252 17.3415 10.1762 17.3415 7.31723V0.887234H19.3915ZM55.5735 0.490234C59.4915 0.490234 62.0205 3.25023 62.0205 6.22623V6.58923C62.0205 9.51523 59.4915 12.3252 55.5735 12.3252C51.6735 12.3252 49.1435 9.51523 49.1435 6.58923V6.22623C49.1435 3.25023 51.6735 0.490234 55.5735 0.490234ZM45.3425 0.887234V2.60623H40.5325V11.8962H38.4665V2.60623H33.6565V0.886234H45.3425V0.887234ZM70.0035 0.887234L74.3505 8.44123L74.8635 9.36623L75.3765 8.44123L79.6735 0.887234H82.5005V11.8952H80.4335V3.18523L79.8885 4.14323L75.2765 11.8952H74.2695L69.7075 4.14323L69.1615 3.18423V11.8952H67.1455V0.887234H70.0055H70.0035ZM113.476 0.887234V2.60623H108.666V11.8962H106.6V2.60623H101.79V0.886234H113.476V0.887234ZM128.634 0.887234V2.60623H123.824V11.8962H121.757V2.60623H116.947V0.886234H128.634V0.887234ZM135.758 0.887234V11.8952H133.724V1.92823C134.551 1.92823 134.881 1.48223 134.881 0.887234H135.758ZM7.68953 0.887234L13.7395 11.8952H11.5245L10.0695 9.16823H3.60653L2.20153 11.8952H0.0195312L5.96953 0.887234H7.68953ZM94.2855 0.887234L100.336 11.8952H98.1195L96.6645 9.16823H90.2015L88.7965 11.8952H86.6155L92.5665 0.887234H94.2855ZM55.5735 2.22523C52.7635 2.22523 51.2265 4.12723 51.2265 6.25923V6.52323C51.2265 8.65623 52.7645 10.5902 55.5735 10.5902C58.3835 10.5902 59.9375 8.65623 59.9375 6.52323V6.26023C59.9375 4.12823 58.3835 2.22623 55.5735 2.22623V2.22523ZM56.9345 4.32023C57.3075 4.56023 57.4115 5.06023 57.1695 5.43423L55.2855 8.35423C55.1701 8.53372 54.9881 8.66004 54.7796 8.70542C54.5711 8.7508 54.3531 8.71152 54.1735 8.59623C53.9949 8.47969 53.8698 8.29703 53.8258 8.08835C53.7817 7.87967 53.8223 7.66204 53.9385 7.48323L55.8225 4.56323C55.9378 4.38358 56.1197 4.25706 56.3282 4.21149C56.5367 4.16592 56.7548 4.20504 56.9345 4.32023ZM6.78053 3.03623L4.38353 7.66423H9.25953L6.78053 3.03623ZM93.3765 3.03623L90.9795 7.66423H95.8555L93.3765 3.03623Z" fill="#101517"/>
+				</svg>
+				<span>venture</span>
+			</a>
+			<a class="g-footer__link--external" href="https://automattic.com/work-with-us/?ref=gravatar">Work With Us</a>
+		</div>
+	</div>
+</footer>
+<script defer id="bilmur" data-customproperties="{&quot;sandboxed&quot;:&quot;no&quot;,&quot;gravdev&quot;:&quot;no&quot;,&quot;proxied&quot;:&quot;no&quot;,&quot;language&quot;:&quot;en&quot;,&quot;duration&quot;:1.29,&quot;module&quot;:&quot;site&quot;,&quot;section&quot;:&quot;translations&quot;,&quot;subsection&quot;:&quot;-&quot;,&quot;url_segments&quot;:&quot;-&quot;,&quot;user_group&quot;:&quot;loggedout&quot;}" data-provider="gravatar.com" data-service="application" src="https://s0.wp.com/wp-content/js/bilmur.min.js?i=7&m=202540" crossorigin="anonymous"></script><script defer src="//stats.wp.com/w.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" nonce="69455487050f">
+		window._deferredTracksEvents = window._deferredTracksEvents || [];
+
+		window.gravatar = window.gravatar || {};
+		
+		window._deferredTracksEvents.push(
+			[
+				'storeContext',
+				{
+					'blog_id': '0',
+					'blog_tz': '0',
+					'user_lang': navigator?.language,
+					'blog_lang': 'en',
+					'user_id': '0',
+					'is_new_user': String( document.querySelector( 'body' ).classList.contains( 'gravatar-is-new-user' ) ),
+				}
+			]
+		);
+
+		window.gravatar.recordTrackEvent = function ( name, properties = {} ) {
+			window._deferredTracksEvents.push( [ 'recordEvent', name, properties ] );
+		};
+	</script>		<style nonce="3615512ed0ac">
+		#ccpa-donotsell {
+			display: none;
+		}
+		</style>
+
+		<script type="text/javascript" nonce="69455487050f">
+			if ( window.ccpaSetup ) {
+				if ( window.defQueue && defQueue.isLOHP && defQueue.isLOHP === 2020 ) {
+					defQueue.items.push( window.ccpaSetup );
+				} else {
+					window.ccpaSetup();
+				}
+			}
+		</script>
+		
+<script type="text/javascript" nonce="69455487050f">
+	window.a8cAnalyticsConfig = {"cookieBanner":{"skipBanner":false,"version":"2","cookieDomain":"gravatar.com","v2CookieName":"cb_eu","v2Text":"As an open source company, we take your privacy seriously and want to be as transparent as possible. So: We use cookies to collect some personal data from you (like your browsing data, IP addresses, and other unique identifiers). Some of these cookies we absolutely need in order to make things work, and others you can choose in order to optimize your experience while using our site and services.","v2OptionsText":"Your privacy is critically important to us. We and our partners use, store, and process your personal data to optimize: our <strong>website<\/strong> such as by improving security or conducting analytics, <strong>marketing activities<\/strong> to help deliver relevant marketing or content, and your <strong>user experience<\/strong> such as by remembering your account name, language settings, or cart information, where applicable. You can customize your cookie settings below. Learn more in our <a href=\"https:\/\/automattic.com\/privacy\/\" target=\"_blank\">Privacy Policy<\/a> and <a href=\"https:\/\/automattic.com\/cookies\/\" target=\"_blank\">Cookie Policy<\/a>.","v2EssentialOptionHeading":"Required","v2EssentialOptionText":"These cookies are essential for our websites and services to perform basic functions and are necessary for us to operate certain features. These include those required to allow registered users to authenticate and perform account-related functions, store preferences set by users such as account name, language, and location, and ensure our services are operating properly.","v2AnalyticsOptionHeading":"Analytics","v2AnalyticsOptionText":"These cookies allow us to optimize performance by collecting information on how users interact with our websites, including which pages are visited most, as well as other analytical data. We use these details to improve how our websites function and to understand how users interact with them. You can opt-out by logging into your account and changing your privacy settings at <a target=\"_blank\" href=\"https:\/\/wordpress.com\/me\/privacy\">https:\/\/wordpress.com\/me\/privacy<\/a>.","v2AdvertisingOptionHeading":"Advertising","v2AdvertisingOptionText":"These cookies are set by us and our advertising partners to provide you with relevant content and to understand that content\u2019s effectiveness. They may be used to collect information about your online activities over time and across different websites to predict your preferences and to display more relevant advertisements to you. These cookies also allow a profile to be built about you and your interests, and enable personalized ads to be shown to you based on your profile.","v2CustomizeButtonText":"Customize","v2AcceptAllButtonText":"Accept All","v2AcceptSelectionButtonText":"Accept Selection","v2EssentialsOnlyButtonText":"Decline Non-Essential Cookies"}};
+
+	document.addEventListener( 'a8c-analytics:loaded', function() {
+		var cb = window.a8cAnalytics.cb;
+		var kit = window.a8cAnalytics.kit;
+
+		if ( kit.doNotTrack() ) {
+			return;
+		}
+
+		cb.addTracker(
+			'analytics',
+			true,
+			function () {
+				kit.loadGtag(
+					'G-ZK2E2B4FHH',
+					Object.assign(
+						{
+							anonymize_ip: true,
+							transport_type: typeof navigator.sendBeacon === 'function' ? 'beacon' : 'xhr',
+							optimize_id: '',
+						},
+						{}					)
+				);
+			}
+		);
+	} );
+</script>
+<script type="text/javascript" src="//s1.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=20250829" charset="utf-8" async crossorigin="anonymous"></script>
+
+<div id="a11y-speak-intro-text"></div>
+<div id="a11y-speak-assertive"></div>
+<div id="a11y-speak-polite"></div>
+</body>
+</html>

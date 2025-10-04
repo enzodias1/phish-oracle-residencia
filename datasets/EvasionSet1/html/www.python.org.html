@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>   <html class="no-js ie6 lt-ie7 lt-ie8 lt-ie9">   <![endif]-->
+<!--[if IE 7]>      <html class="no-js ie7 lt-ie8 lt-ie9">          <![endif]-->
+<!--[if IE 8]>      <html class="no-js ie8 lt-ie9">                 <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" dir="ltr" lang="en">
+ <!--<![endif]-->
+ <head>
+  <script data-domain="python.org" defer="" src="local_resources\script.outbound-links_7ab39bd9957cb5a1.js">
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <link href="local_resources\jquery.min_3ad54c725771ab73.js" rel="prefetch"/>
+  <link href="local_resources\jquery-ui.min_8ef0c2d75ef27313.js" rel="prefetch"/>
+  <meta content="Python.org" name="application-name"/>
+  <meta content="The official home of the Python Programming Language" name="msapplication-tooltip"/>
+  <meta content="Python.org" name="apple-mobile-web-app-title"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="True" name="HandheldFriendly"/>
+  <meta content="telephone=no" name="format-detection"/>
+  <meta content="on" http-equiv="cleartype"/>
+  <meta content="false" http-equiv="imagetoolbar"/>
+  <script async="" crossorigin="anonymous" integrity="sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0= sha384-UcmsCqcNRSLW/dV3Lo1oCi2/VaurXbib6p4HyUEOeIa/4OpsrnucrugAefzVZJfI sha512-q4t1L4xEjGV2R4hzqCa41P8jrgFUS8xTb8rdNv4FGvw7FpydVj/kkxBJHOiaoxHa8olCcx1Slk9K+3sNbsM4ug==" src="local_resources\ethicalads.min_6deabdf1e01efe84.js">
+  </script>
+  <script src="local_resources\modernizr_af58f10163951498.js">
+  </script>
+  <link href="local_resources\style.08a078d0aa02_e062bdd1c2c75f04.css" media="all" rel="stylesheet" title="default" type="text/css"/>
+  <link href="local_resources\mq.98d6092b2ada_067efe3b4fef9e2b.css" media="not print, braille, embossed, speech, tty" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\no-mq.bf0c425cdb73_c6cc8262d1b67c1f.css" media="screen" rel="stylesheet" type="text/css"/>
+  <!--[if (lte IE 8)&(!IEMobile)]>
+    <link href="/static/stylesheets/no-mq.bf0c425cdb73.css" rel="stylesheet" type="text/css" media="screen" />
+    
+    
+    <![endif]-->
+  <link href="local_resources\jquery-ui_b0112a89d4a10777.css" rel="stylesheet"/>
+  <link href="local_resources\favicon_69920ece1418a7f2.ico" rel="icon" type="image/x-icon"/>
+  <link href="local_resources\apple-touch-icon-144x144-precomposed_be2acfb44df286fc.png" rel="apple-touch-icon-precomposed" sizes="144x144"/>
+  <link href="local_resources\apple-touch-icon-114x114-precomposed_4db4654f67b687fa.png" rel="apple-touch-icon-precomposed" sizes="114x114"/>
+  <link href="local_resources\apple-touch-icon-72x72-precomposed_183dcba240963715.png" rel="apple-touch-icon-precomposed" sizes="72x72"/>
+  <link href="local_resources\apple-touch-icon-precomposed_22fbed3e3c2f2645.png" rel="apple-touch-icon-precomposed"/>
+  <link href="local_resources\apple-touch-icon-precomposed_22fbed3e3c2f2645.png" rel="apple-touch-icon"/>
+  <meta content="/static/metro-icon-144x144.png" name="msapplication-TileImage"/>
+  <!-- white shape -->
+  <meta content="#3673a5" name="msapplication-TileColor"/>
+  <!-- python blue -->
+  <meta content="#3673a5" name="msapplication-navbutton-color"/>
+  <title>
+   Welcome to Python.org
+  </title>
+  <meta content="The official home of the Python Programming Language" name="description"/>
+  <meta content="Python programming language object oriented web free open source software license documentation download community" name="keywords"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Python.org" property="og:site_name"/>
+  <meta content="Welcome to Python.org" property="og:title"/>
+  <meta content="The official home of the Python Programming Language" property="og:description"/>
+  <meta content="https://www.python.org/static/opengraph-icon-200x200.png" property="og:image"/>
+  <meta content="https://www.python.org/static/opengraph-icon-200x200.png" property="og:image:secure_url"/>
+  <meta content="https://www.python.org/" property="og:url"/>
+  <link href="local_resources\humans_239902d4893b713d.txt" rel="author"/>
+  <link href="local_resources\peps_a6623a775ec93ae0.rss" rel="alternate" title="Python Enhancement Proposals" type="application/rss+xml"/>
+  <link href="local_resources\res_82edfe41edf35825" rel="alternate" title="Python Job Opportunities" type="application/rss+xml"/>
+  <link href="local_resources\PythonSoftwareFoundationNews_02c86fbf4f7861b8" rel="alternate" title="Python Software Foundation News" type="application/rss+xml"/>
+  <link href="local_resources\PythonInsider_a221f2c32e2cceb7" rel="alternate" title="Python Insider" type="application/rss+xml"/>
+  <link href="local_resources\feed_88e9d061ca8383ff.rss" rel="alternate" title="Python Releases" type="application/rss+xml"/>
+  <script type="application/ld+json">
+   {
+       "@context": "https://schema.org",
+       "@type": "WebSite",
+       "url": "https://www.python.org/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.python.org/search/?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       }
+     }
+  </script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39055973-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body class="python home" id="homepage">
+  <div id="touchnav-wrapper">
+   <div class="do-not-print" id="nojs">
+    <p>
+     <strong>
+      Notice:
+     </strong>
+     While JavaScript is not essential for this website, your interaction with the content will be limited. Please turn JavaScript on for the full experience.
+    </p>
+   </div>
+   <!--[if lte IE 8]>
+        <div id="oldie-warning" class="do-not-print">
+            <p>
+                <strong>Notice:</strong> Your browser is <em>ancient</em>. Please
+                <a href="http://browsehappy.com/">upgrade to a different browser</a> to experience a better web.
+            </p>
+        </div>
+        <![endif]-->
+   <!-- Sister Site Links -->
+   <div class="top-bar do-not-print" id="top">
+    <nav class="meta-navigation container" role="navigation">
+     <div class="skip-link screen-reader-text">
+      <a onclick="window.open('#content'); return false;" title="Skip to content">
+       Skip to content
+      </a>
+     </div>
+     <a aria-hidden="true" class="jump-link" id="close-python-network" onclick="window.open('#python-network'); return false;">
+      <span aria-hidden="true" class="icon-arrow-down">
+       <span>
+        ▼
+       </span>
+      </span>
+      Close
+     </a>
+     <ul class="menu" role="tree">
+      <li class="python-meta current_item selectedcurrent_branch selected">
+       <a class="current_item selectedcurrent_branch selected" onclick="window.open('/'); return false;" title="The Python Programming Language">
+        Python
+       </a>
+      </li>
+      <li class="psf-meta">
+       <a onclick="window.open('https://www.python.org/psf/'); return false;" title="The Python Software Foundation">
+        PSF
+       </a>
+      </li>
+      <li class="docs-meta">
+       <a onclick="window.open('https://docs.python.org'); return false;" title="Python Documentation">
+        Docs
+       </a>
+      </li>
+      <li class="pypi-meta">
+       <a onclick="window.open('https://pypi.org/'); return false;" title="Python Package Index">
+        PyPI
+       </a>
+      </li>
+      <li class="jobs-meta">
+       <a onclick="window.open('/jobs/'); return false;" title="Python Job Board">
+        Jobs
+       </a>
+      </li>
+      <li class="shop-meta">
+       <a onclick="window.open('/community/'); return false;">
+        Community
+       </a>
+      </li>
+     </ul>
+     <a aria-hidden="true" class="jump-link" id="python-network" onclick="window.open('#top'); return false;">
+      <span aria-hidden="true" class="icon-arrow-up">
+       <span>
+        ▲
+       </span>
+      </span>
+      The Python Network
+     </a>
+    </nav>
+   </div>
+   <!-- Header elements -->
+   <header class="main-header" role="banner">
+    <div class="container">
+     <h1 class="site-headline">
+      <a onclick="window.open('/'); return false;">
+       <img alt="python™" class="python-logo" src="local_resources\python-logo_ae79195affa146e5_modified.png"/>
+      </a>
+     </h1>
+     <div class="options-bar-container do-not-print">
+      <a class="donate-button" onclick="window.open('https://psfmember.org/civicrm/contribute/transact?reset=1&amp;id=2'); return false;">
+       Donate
+      </a>
+      <div class="options-bar">
+       <a class="jump-to-menu" id="site-map-link" onclick="window.open('#site-map'); return false;">
+        <span class="menu-icon">
+         ≡
+        </span>
+        Menu
+       </a>
+       <form action="" class="search-the-site" method="get">
+        <fieldset title="Search Python.org">
+         <span aria-hidden="true" class="icon-search">
+         </span>
+         <label class="screen-reader-text" for="id-search-field">
+          Search This Site
+         </label>
+         <input class="search-field" id="id-search-field" name="q" placeholder="Search" role="textbox" tabindex="1" type="search" value=""/>
+         <button class="search-button" id="submit" name="submit" tabindex="3" title="Submit this Search" type="submit">
+          GO
+         </button>
+         <!--[if IE]><input type="text" style="display: none;" disabled="disabled" size="1" tabindex="4"><![endif]-->
+        </fieldset>
+       </form>
+       <span class="breaker">
+       </span>
+       <div aria-hidden="true" class="adjust-font-size">
+        <ul aria-label="Adjust Text Size on Page" class="navigation menu">
+         <li aria-haspopup="true" class="tier-1 last">
+          <a class="action-trigger" onclick="window.open('#'); return false;">
+           <strong>
+            <small>
+             A
+            </small>
+            A
+           </strong>
+          </a>
+          <ul class="subnav menu">
+           <li class="tier-2 element-1" role="treeitem">
+            <a class="text-shrink" onclick="window.open('javascript:;'); return false;" title="Make Text Smaller">
+             Smaller
+            </a>
+           </li>
+           <li class="tier-2 element-2" role="treeitem">
+            <a class="text-grow" onclick="window.open('javascript:;'); return false;" title="Make Text Larger">
+             Larger
+            </a>
+           </li>
+           <li class="tier-2 element-3" role="treeitem">
+            <a class="text-reset" onclick="window.open('javascript:;'); return false;" title="Reset any font size changes I have made">
+             Reset
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <div class="winkwink-nudgenudge">
+        <ul aria-label="Social Media Navigation" class="navigation menu">
+         <li aria-haspopup="true" class="tier-1 last">
+          <a class="action-trigger" onclick="window.open('#'); return false;">
+           Socialize
+          </a>
+          <ul class="subnav menu">
+           <li class="tier-2 element-1" role="treeitem">
+            <a onclick="window.open('https://www.linkedin.com/company/python-software-foundation/'); return false;" style="pointer-events: none; cursor: default;">
+             <i aria-hidden="true" class="fa fa-linkedin-square">
+             </i>
+             LinkedIn
+            </a>
+           </li>
+           <li class="tier-2 element-2" role="treeitem">
+            <a onclick="window.open('https://fosstodon.org/@ThePSF'); return false;">
+             <span aria-hidden="true" class="icon-mastodon">
+             </span>
+             Mastodon
+            </a>
+           </li>
+           <li class="tier-2 element-3" role="treeitem">
+            <a onclick="window.open('/community/irc/'); return false;">
+             <span aria-hidden="true" class="icon-freenode">
+             </span>
+             Chat on IRC
+            </a>
+           </li>
+           <li class="tier-2 element-4" role="treeitem">
+            <a onclick="window.open('https://twitter.com/ThePSF'); return false;" style="pointer-events: none; cursor: default;">
+             <span aria-hidden="true" class="icon-twitter">
+             </span>
+             Twitter
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <span data-html-include="/authenticated">
+       </span>
+      </div>
+      <!-- end options-bar -->
+     </div>
+     <nav class="python-navigation main-navigation do-not-print" id="mainnav" role="navigation">
+      <ul aria-label="Main Navigation" class="navigation menu" role="menubar">
+       <li aria-haspopup="true" class="tier-1 element-1" id="about">
+        <a class="" onclick="window.open('/about/'); return false;" title="">
+         About
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/about/apps/'); return false;" title="">
+           Applications
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/about/quotes/'); return false;" title="">
+           Quotes
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/about/gettingstarted/'); return false;" title="">
+           Getting Started
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/about/help/'); return false;" title="">
+           Help
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('http://brochure.getpython.info/'); return false;" title="">
+           Python Brochure
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-2" id="downloads">
+        <a class="" onclick="window.open('/downloads/'); return false;" title="">
+         Downloads
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/downloads/'); return false;" title="">
+           All releases
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/downloads/source/'); return false;" title="">
+           Source code
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/downloads/windows/'); return false;" title="">
+           Windows
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/downloads/macos/'); return false;" title="">
+           macOS
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('/downloads/android/'); return false;" title="">
+           Android
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('/download/other/'); return false;" title="">
+           Other Platforms
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('https://docs.python.org/3/license.html'); return false;" title="">
+           License
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a onclick="window.open('/download/alternatives'); return false;" title="">
+           Alternative Implementations
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-3" id="documentation">
+        <a class="" onclick="window.open('/doc/'); return false;" title="">
+         Documentation
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/doc/'); return false;" title="">
+           Docs
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/doc/av'); return false;" title="">
+           Audio/Visual Talks
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/BeginnersGuide'); return false;" title="">
+           Beginner's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('https://devguide.python.org/'); return false;" title="">
+           Developer's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('https://docs.python.org/faq/'); return false;" title="">
+           FAQ
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('http://wiki.python.org/moin/Languages'); return false;" title="">
+           Non-English Docs
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('https://peps.python.org'); return false;" title="">
+           PEP Index
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/PythonBooks'); return false;" title="">
+           Python Books
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a onclick="window.open('/doc/essays/'); return false;" title="">
+           Python Essays
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-4" id="community">
+        <a class="" onclick="window.open('/community/'); return false;" title="">
+         Community
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/community/diversity/'); return false;" title="">
+           Diversity
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/community/lists/'); return false;" title="">
+           Mailing Lists
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/community/irc/'); return false;" title="">
+           IRC
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/community/forums/'); return false;" title="">
+           Forums
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('/psf/annual-report/2024/'); return false;" title="">
+           PSF Annual Impact Report
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('/community/workshops/'); return false;" title="">
+           Python Conferences
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('/community/sigs/'); return false;" title="">
+           Special Interest Groups
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a onclick="window.open('/community/logos/'); return false;" title="">
+           Python Logo
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/'); return false;" title="">
+           Python Wiki
+          </a>
+         </li>
+         <li class="tier-2 element-10" role="treeitem">
+          <a onclick="window.open('/psf/conduct/'); return false;" title="">
+           Code of Conduct
+          </a>
+         </li>
+         <li class="tier-2 element-11" role="treeitem">
+          <a onclick="window.open('/community/awards'); return false;" title="">
+           Community Awards
+          </a>
+         </li>
+         <li class="tier-2 element-12" role="treeitem">
+          <a onclick="window.open('/psf/get-involved/'); return false;" title="">
+           Get Involved
+          </a>
+         </li>
+         <li class="tier-2 element-13" role="treeitem">
+          <a onclick="window.open('/psf/community-stories/'); return false;" title="">
+           Shared Stories
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-5" id="success-stories">
+        <a class="" onclick="window.open('/success-stories/'); return false;" title="success-stories">
+         Success Stories
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/success-stories/category/arts/'); return false;" title="">
+           Arts
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/success-stories/category/business/'); return false;" title="">
+           Business
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/success-stories/category/education/'); return false;" title="">
+           Education
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/success-stories/category/engineering/'); return false;" title="">
+           Engineering
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('/success-stories/category/government/'); return false;" title="">
+           Government
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('/success-stories/category/scientific/'); return false;" title="">
+           Scientific
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('/success-stories/category/software-development/'); return false;" title="">
+           Software Development
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-6" id="news">
+        <a class="" onclick="window.open('/blogs/'); return false;" title="News from around the Python world">
+         News
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/blogs/'); return false;" title="Python Insider Blog Posts">
+           Python News
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/psf/newsletter/'); return false;" title="Python Software Foundation Newsletter">
+           PSF Newsletter
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('http://pyfound.blogspot.com/'); return false;" title="PSF Blog">
+           PSF News
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('http://pycon.blogspot.com/'); return false;" title="PyCon Blog">
+           PyCon US News
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('http://planetpython.org/'); return false;" title="Planet Python">
+           News from the Community
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-7" id="events">
+        <a class="" onclick="window.open('/events/'); return false;" title="">
+         Events
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/events/python-events/'); return false;" title="">
+           Python Events
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/events/python-user-group/'); return false;" title="">
+           User Group Events
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/events/python-events/past/'); return false;" title="">
+           Python Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/events/python-user-group/past/'); return false;" title="">
+           User Group Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event'); return false;" title="">
+           Submit an Event
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+     <div class="header-banner">
+      <!-- for optional "do-not-print" class -->
+      <div class="flex-slideshow slideshow" id="dive-into-python">
+       <ul class="launch-shell menu" id="launch-shell">
+        <li>
+         <a class="button prompt" data-shell-container="#dive-into-python" id="start-shell" onclick="window.open('/shell/'); return false;">
+          &gt;_
+          <span class="message">
+           Launch Interactive Shell
+          </span>
+         </a>
+        </li>
+       </ul>
+       <ul class="slides menu">
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Python 3: Fibonacci series up to n</span>
+
+&gt;&gt;&gt; def fib(n):
+
+&gt;&gt;&gt;     a, b = 0, 1
+
+&gt;&gt;&gt;     while a &lt; n:
+
+&gt;&gt;&gt;         print(a, end=' ')
+
+&gt;&gt;&gt;         a, b = b, a+b
+
+&gt;&gt;&gt;     print()
+
+&gt;&gt;&gt; fib(1000)
+
+<span class="output">0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Functions Defined
+          </h1>
+          <p>
+           The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists.
+           <a onclick="window.open('//docs.python.org/3/tutorial/controlflow.html#defining-functions'); return false;">
+            More about defining functions in Python 3
+           </a>
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Python 3: List comprehensions</span>
+
+&gt;&gt;&gt; fruits = ['Banana', 'Apple', 'Lime']
+
+&gt;&gt;&gt; loud_fruits = [fruit.upper() for fruit in fruits]
+
+&gt;&gt;&gt; print(loud_fruits)
+
+<span class="output">['BANANA', 'APPLE', 'LIME']</span>
+
+
+
+<span class="comment"># List and the enumerate function</span>
+
+&gt;&gt;&gt; list(enumerate(fruits))
+
+<span class="output">[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Compound Data Types
+          </h1>
+          <p>
+           Lists (known as arrays in other languages) are one of the compound data types that Python understands. Lists can be indexed, sliced and manipulated with other built-in functions.
+           <a onclick="window.open('//docs.python.org/3/tutorial/introduction.html#lists'); return false;">
+            More about lists in Python 3
+           </a>
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Python 3: Simple arithmetic</span>
+
+&gt;&gt;&gt; 1 / 2
+
+<span class="output">0.5</span>
+
+&gt;&gt;&gt; 2 ** 3
+
+<span class="output">8</span>
+
+&gt;&gt;&gt; 17 / 3  <span class="comment"># classic division returns a float</span>
+
+<span class="output">5.666666666666667</span>
+
+&gt;&gt;&gt; 17 // 3  <span class="comment"># floor division</span>
+
+<span class="output">5</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Intuitive Interpretation
+          </h1>
+          <p>
+           Calculations are simple with Python, and expression syntax is straightforward: the operators
+           <code>
+            +
+           </code>
+           ,
+           <code>
+            -
+           </code>
+           ,
+           <code>
+            *
+           </code>
+           and
+           <code>
+            /
+           </code>
+           work as expected; parentheses
+           <code>
+            ()
+           </code>
+           can be used for grouping.
+           <a onclick="window.open('http://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator'); return false;">
+            More about simple math functions in Python 3
+           </a>
+           .
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># For loop on a list</span>
+
+&gt;&gt;&gt; numbers = [2, 4, 6, 8]
+
+&gt;&gt;&gt; product = 1
+
+&gt;&gt;&gt; for number in numbers:
+
+...    product = product * number
+
+... 
+
+&gt;&gt;&gt; print('The product is:', product)
+
+<span class="output">The product is: 384</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           All the Flow You’d Expect
+          </h1>
+          <p>
+           Python knows the usual control flow statements that other languages speak —
+           <code>
+            if
+           </code>
+           ,
+           <code>
+            for
+           </code>
+           ,
+           <code>
+            while
+           </code>
+           and
+           <code>
+            range
+           </code>
+           — with some of its own twists, of course.
+           <a onclick="window.open('//docs.python.org/3/tutorial/controlflow.html'); return false;">
+            More control flow tools in Python 3
+           </a>
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Simple output (with Unicode)</span>
+
+&gt;&gt;&gt; print("Hello, I'm Python!")
+
+<span class="output">Hello, I'm Python!</span>
+
+<span class="comment"># Input, assignment</span>
+
+&gt;&gt;&gt; name = input('What is your name?\n')
+
+<span class="output">What is your name?
+
+Python</span>
+
+&gt;&gt;&gt; print(f'Hi, {name}.')
+
+<span class="output">Hi, Python.</span></code>
+
+</pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Quick &amp; Easy to Learn
+          </h1>
+          <p>
+           Experienced programmers in any other language can pick up Python very quickly, and beginners find the clean syntax and indentation structure easy to learn.
+           <a onclick="window.open('//docs.python.org/3/tutorial/'); return false;">
+            Whet your appetite
+           </a>
+           with our Python 3 overview.
+          </p>
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="introduction">
+      <p>
+       Python is a programming language that lets you work quickly
+       <span class="breaker">
+       </span>
+       and integrate systems more effectively.
+       <a class="readmore" onclick="window.open('/doc/'); return false;">
+        Learn More
+       </a>
+      </p>
+     </div>
+    </div>
+    <!-- end .container -->
+   </header>
+   <div class="content-wrapper" id="content">
+    <!-- Main Content Column -->
+    <div class="container">
+     <section class="main-content" role="main">
+      <div class="row">
+       <div class="small-widget get-started-widget">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-get-started">
+         </span>
+         Get Started
+        </h2>
+        <p>
+         Whether you're new to programming or an experienced developer, it's easy to learn and use Python.
+        </p>
+        <p>
+         <a onclick="window.open('/about/gettingstarted/'); return false;">
+          Start with our Beginner’s Guide
+         </a>
+        </p>
+       </div>
+       <div class="small-widget download-widget">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-download">
+         </span>
+         Download
+        </h2>
+        <p>
+         Python source code and installers are available for download for all versions!
+        </p>
+        <p>
+         Latest:
+         <a onclick="window.open('/downloads/release/python-3137/'); return false;">
+          Python 3.13.7
+         </a>
+        </p>
+       </div>
+       <div class="small-widget documentation-widget">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-documentation">
+         </span>
+         Docs
+        </h2>
+        <p>
+         Documentation for Python's standard library, along with tutorials and guides, are available online.
+        </p>
+        <p>
+         <a onclick="window.open('https://docs.python.org'); return false;">
+          docs.python.org
+         </a>
+        </p>
+       </div>
+       <div class="small-widget jobs-widget last">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-jobs">
+         </span>
+         Jobs
+        </h2>
+        <p>
+         Looking for work or have a Python related position that you're trying to hire for? Our
+         <strong>
+          relaunched community-run job board
+         </strong>
+         is the place to go.
+        </p>
+        <p>
+         <a onclick="window.open('//jobs.python.org'); return false;">
+          jobs.python.org
+         </a>
+        </p>
+       </div>
+      </div>
+      <div class="list-widgets row">
+       <div class="medium-widget blog-widget">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-news">
+          </span>
+          Latest News
+         </h2>
+         <p class="give-me-more">
+          <a onclick="window.open('https://blog.python.org'); return false;" title="More News">
+           More
+          </a>
+         </p>
+         <ul class="menu">
+          <li>
+           <time datetime="2025-09-18T12:06:00.000003+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            09-18
+           </time>
+           <a onclick="window.open('https://pythoninsider.blogspot.com/2025/09/python-3140rc3-is-go.html'); return false;">
+            Python 3.14.0rc3 is go!
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-09-16T17:11:00.000001+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            09-16
+           </time>
+           <a onclick="window.open('https://pyfound.blogspot.com/2025/09/announcing-2025-psf-board-election.html'); return false;">
+            Announcing the 2025 PSF Board Election Results!
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-09-10T10:30:00.000002+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            09-10
+           </time>
+           <a onclick="window.open('https://pyfound.blogspot.com/2025/09/sprints-are-best-part-of-conference.html'); return false;">
+            Sprints are the best part of a conference
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-09-02T14:02:00.000001+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            09-02
+           </time>
+           <a onclick="window.open('https://pyfound.blogspot.com/2025/09/the-2025-psf-board-election-is-open.html'); return false;">
+            The 2025 PSF Board Election is Open!
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-08-26T12:40:00.000001+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            08-26
+           </time>
+           <a onclick="window.open('https://pyfound.blogspot.com/2025/08/pypistats-org-is-now-operated-by-the-psf.html'); return false;">
+            pypistats.org is now operated by the Python Software Foundation
+           </a>
+          </li>
+         </ul>
+        </div>
+        <!-- end .shrubbery -->
+       </div>
+       <div class="medium-widget event-widget last">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-calendar">
+          </span>
+          Upcoming Events
+         </h2>
+         <p class="give-me-more">
+          <a onclick="window.open('/events/calendars/'); return false;" title="More Events">
+           More
+          </a>
+         </p>
+         <ul class="menu">
+          <li>
+           <time datetime="2025-10-02T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-02
+           </time>
+           <a onclick="window.open('/events/python-events/1848/'); return false;">
+            PyCon Estonia 2025
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-02T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-02
+           </time>
+           <a onclick="window.open('/events/python-events/2092/'); return false;">
+            PyCon Nigeria 2025
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-04T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-04
+           </time>
+           <a onclick="window.open('/events/python-user-group/2107/'); return false;">
+            Taller gratuito de programación enfocado en las mujeres — Django Girls Cali 2025
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-04T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-04
+           </time>
+           <a onclick="window.open('/events/python-user-group/2086/'); return false;">
+            Django Girls Aba
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-06T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-06
+           </time>
+           <a onclick="window.open('/events/python-events/2076/'); return false;">
+            Python-Driven E-Commerce Forum 2025
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+       <div class="medium-widget success-stories-widget">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-success-stories">
+          </span>
+          Success Stories
+         </h2>
+         <p class="give-me-more">
+          <a onclick="window.open('/success-stories/'); return false;" title="More Success Stories">
+           More
+          </a>
+         </p>
+         <div class="success-story-item" id="success-story-836">
+          <blockquote>
+           <a onclick="window.open('/success-stories/python-seo-link-analyzer/'); return false;">
+            "Python is all about automating repetitive tasks, leaving more time for your other SEO efforts."
+           </a>
+          </blockquote>
+          <table border="0" cellpadding="0" cellspacing="0" class="quote-from" width="100%">
+           <tbody>
+            <tr>
+             <td>
+              <p>
+               <a onclick="window.open('/success-stories/python-seo-link-analyzer/'); return false;">
+                Using Python scripts to analyse SEO and broken links on your site
+               </a>
+               <em>
+                by Marnix de Munck
+               </em>
+              </p>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div>
+        <!-- end .shrubbery -->
+       </div>
+       <div class="medium-widget applications-widget last">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-python">
+          </span>
+          Use Python for…
+         </h2>
+         <p class="give-me-more">
+          <a onclick="window.open('/about/apps'); return false;" title="More Applications">
+           More
+          </a>
+         </p>
+         <ul class="menu">
+          <li>
+           <b>
+            Web Development
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" onclick="window.open('http://www.djangoproject.com/'); return false;">
+             Django
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://www.pylonsproject.org/'); return false;">
+             Pyramid
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://bottlepy.org'); return false;">
+             Bottle
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://tornadoweb.org'); return false;">
+             Tornado
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://flask.pocoo.org/'); return false;">
+             Flask
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://www.web2py.com/'); return false;">
+             web2py
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            GUI Development
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" onclick="window.open('http://wiki.python.org/moin/TkInter'); return false;">
+             tkInter
+            </a>
+            ,
+            <a class="tag" onclick="window.open('https://wiki.gnome.org/Projects/PyGObject'); return false;">
+             PyGObject
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://www.riverbankcomputing.co.uk/software/pyqt/intro'); return false;">
+             PyQt
+            </a>
+            ,
+            <a class="tag" onclick="window.open('https://wiki.qt.io/PySide'); return false;">
+             PySide
+            </a>
+            ,
+            <a class="tag" onclick="window.open('https://kivy.org/'); return false;">
+             Kivy
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://www.wxpython.org/'); return false;">
+             wxPython
+            </a>
+            ,
+            <a class="tag" onclick="window.open('https://dearpygui.readthedocs.io/en/latest/'); return false;">
+             DearPyGui
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            Scientific and Numeric
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" onclick="window.open('http://www.scipy.org'); return false;">
+             SciPy
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://pandas.pydata.org/'); return false;">
+             Pandas
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://ipython.org'); return false;">
+             IPython
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            Software Development
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" onclick="window.open('http://buildbot.net/'); return false;">
+             Buildbot
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://trac.edgewall.org/'); return false;">
+             Trac
+            </a>
+            ,
+            <a class="tag" onclick="window.open('http://roundup.sourceforge.net/'); return false;">
+             Roundup
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            System Administration
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" onclick="window.open('http://www.ansible.com'); return false;">
+             Ansible
+            </a>
+            ,
+            <a class="tag" onclick="window.open('https://saltproject.io'); return false;">
+             Salt
+            </a>
+            ,
+            <a class="tag" onclick="window.open('https://www.openstack.org'); return false;">
+             OpenStack
+            </a>
+            ,
+            <a class="tag" onclick="window.open('https://xon.sh'); return false;">
+             xonsh
+            </a>
+           </span>
+          </li>
+         </ul>
+        </div>
+        <!-- end .shrubbery -->
+       </div>
+      </div>
+      <div class="psf-widget">
+       <div class="python-logo">
+       </div>
+       <h2 class="widget-title">
+        <span class="prompt">
+         &gt;&gt;&gt;
+        </span>
+        <a onclick="window.open('/psf/'); return false;">
+         Python Software Foundation
+        </a>
+       </h2>
+       <p>
+        The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.
+        <a class="readmore" onclick="window.open('/psf/'); return false;">
+         Learn more
+        </a>
+       </p>
+       <p class="click-these">
+        <a class="button" onclick="window.open('/psf/membership/'); return false;">
+         Become a Member
+        </a>
+        <a class="button" onclick="window.open('/psf/donations/'); return false;">
+         Donate to the PSF
+        </a>
+       </p>
+      </div>
+     </section>
+    </div>
+    <!-- end .container -->
+   </div>
+   <!-- end #content .content-wrapper -->
+   <!-- Footer and social media list -->
+   <footer class="main-footer" id="site-map" role="contentinfo">
+    <div class="main-footer-links">
+     <div class="container">
+      <a class="jump-link" id="back-to-top-1" onclick="window.open('#python-network'); return false;">
+       <span aria-hidden="true" class="icon-arrow-up">
+        <span>
+         ▲
+        </span>
+       </span>
+       Back to Top
+      </a>
+      <ul class="sitemap navigation menu do-not-print" id="container" role="tree">
+       <li class="tier-1 element-1">
+        <a onclick="window.open('/about/'); return false;">
+         About
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/about/apps/'); return false;" title="">
+           Applications
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/about/quotes/'); return false;" title="">
+           Quotes
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/about/gettingstarted/'); return false;" title="">
+           Getting Started
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/about/help/'); return false;" title="">
+           Help
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('http://brochure.getpython.info/'); return false;" title="">
+           Python Brochure
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-2">
+        <a onclick="window.open('/downloads/'); return false;">
+         Downloads
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/downloads/'); return false;" title="">
+           All releases
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/downloads/source/'); return false;" title="">
+           Source code
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/downloads/windows/'); return false;" title="">
+           Windows
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/downloads/macos/'); return false;" title="">
+           macOS
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('/downloads/android/'); return false;" title="">
+           Android
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('/download/other/'); return false;" title="">
+           Other Platforms
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('https://docs.python.org/3/license.html'); return false;" title="">
+           License
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a onclick="window.open('/download/alternatives'); return false;" title="">
+           Alternative Implementations
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-3">
+        <a onclick="window.open('/doc/'); return false;">
+         Documentation
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/doc/'); return false;" title="">
+           Docs
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/doc/av'); return false;" title="">
+           Audio/Visual Talks
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/BeginnersGuide'); return false;" title="">
+           Beginner's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('https://devguide.python.org/'); return false;" title="">
+           Developer's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('https://docs.python.org/faq/'); return false;" title="">
+           FAQ
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('http://wiki.python.org/moin/Languages'); return false;" title="">
+           Non-English Docs
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('https://peps.python.org'); return false;" title="">
+           PEP Index
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/PythonBooks'); return false;" title="">
+           Python Books
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a onclick="window.open('/doc/essays/'); return false;" title="">
+           Python Essays
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-4">
+        <a onclick="window.open('/community/'); return false;">
+         Community
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/community/diversity/'); return false;" title="">
+           Diversity
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/community/lists/'); return false;" title="">
+           Mailing Lists
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/community/irc/'); return false;" title="">
+           IRC
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/community/forums/'); return false;" title="">
+           Forums
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('/psf/annual-report/2024/'); return false;" title="">
+           PSF Annual Impact Report
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('/community/workshops/'); return false;" title="">
+           Python Conferences
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('/community/sigs/'); return false;" title="">
+           Special Interest Groups
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a onclick="window.open('/community/logos/'); return false;" title="">
+           Python Logo
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/'); return false;" title="">
+           Python Wiki
+          </a>
+         </li>
+         <li class="tier-2 element-10" role="treeitem">
+          <a onclick="window.open('/psf/conduct/'); return false;" title="">
+           Code of Conduct
+          </a>
+         </li>
+         <li class="tier-2 element-11" role="treeitem">
+          <a onclick="window.open('/community/awards'); return false;" title="">
+           Community Awards
+          </a>
+         </li>
+         <li class="tier-2 element-12" role="treeitem">
+          <a onclick="window.open('/psf/get-involved/'); return false;" title="">
+           Get Involved
+          </a>
+         </li>
+         <li class="tier-2 element-13" role="treeitem">
+          <a onclick="window.open('/psf/community-stories/'); return false;" title="">
+           Shared Stories
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-5">
+        <a onclick="window.open('/success-stories/'); return false;" title="success-stories">
+         Success Stories
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/success-stories/category/arts/'); return false;" title="">
+           Arts
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/success-stories/category/business/'); return false;" title="">
+           Business
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/success-stories/category/education/'); return false;" title="">
+           Education
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/success-stories/category/engineering/'); return false;" title="">
+           Engineering
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('/success-stories/category/government/'); return false;" title="">
+           Government
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a onclick="window.open('/success-stories/category/scientific/'); return false;" title="">
+           Scientific
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a onclick="window.open('/success-stories/category/software-development/'); return false;" title="">
+           Software Development
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-6">
+        <a onclick="window.open('/blogs/'); return false;" title="News from around the Python world">
+         News
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/blogs/'); return false;" title="Python Insider Blog Posts">
+           Python News
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/psf/newsletter/'); return false;" title="Python Software Foundation Newsletter">
+           PSF Newsletter
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('http://pyfound.blogspot.com/'); return false;" title="PSF Blog">
+           PSF News
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('http://pycon.blogspot.com/'); return false;" title="PyCon Blog">
+           PyCon US News
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('http://planetpython.org/'); return false;" title="Planet Python">
+           News from the Community
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-7">
+        <a onclick="window.open('/events/'); return false;">
+         Events
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('/events/python-events/'); return false;" title="">
+           Python Events
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('/events/python-user-group/'); return false;" title="">
+           User Group Events
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('/events/python-events/past/'); return false;" title="">
+           Python Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/events/python-user-group/past/'); return false;" title="">
+           User Group Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('https://wiki.python.org/moin/PythonEventsCalendar#Submitting_an_Event'); return false;" title="">
+           Submit an Event
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-8">
+        <a onclick="window.open('/dev/'); return false;">
+         Contributing
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a onclick="window.open('https://devguide.python.org/'); return false;" title="">
+           Developer's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a onclick="window.open('https://github.com/python/cpython/issues'); return false;" title="">
+           Issue Tracker
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a onclick="window.open('https://mail.python.org/mailman/listinfo/python-dev'); return false;" title="">
+           python-dev list
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a onclick="window.open('/dev/core-mentorship/'); return false;" title="">
+           Core Mentorship
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a onclick="window.open('/dev/security/'); return false;" title="">
+           Report a Security Issue
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+      <a class="jump-link" id="back-to-top-2" onclick="window.open('#python-network'); return false;">
+       <span aria-hidden="true" class="icon-arrow-up">
+        <span>
+         ▲
+        </span>
+       </span>
+       Back to Top
+      </a>
+     </div>
+     <!-- end .container -->
+    </div>
+    <!-- end .main-footer-links -->
+    <div class="site-base">
+     <div class="container">
+      <ul class="footer-links navigation menu do-not-print" role="tree">
+       <li class="tier-1 element-1">
+        <a onclick="window.open('/about/help/'); return false;">
+         Help &amp;
+         <span class="say-no-more">
+          General
+         </span>
+         Contact
+        </a>
+       </li>
+       <li class="tier-1 element-2">
+        <a onclick="window.open('/community/diversity/'); return false;">
+         Diversity
+         <span class="say-no-more">
+          Initiatives
+         </span>
+        </a>
+       </li>
+       <li class="tier-1 element-3">
+        <a onclick="window.open('https://github.com/python/pythondotorg/issues'); return false;">
+         Submit Website Bug
+        </a>
+       </li>
+       <li class="tier-1 element-4">
+        <a onclick="window.open('https://status.python.org/'); return false;">
+         Status
+         <span class="python-status-indicator-default" id="python-status-indicator">
+         </span>
+        </a>
+       </li>
+      </ul>
+      <div class="copyright">
+       <p>
+        <small>
+         <span class="pre">
+          Copyright ©2001-2025.
+         </span>
+         <span class="pre">
+          <a onclick="window.open('/psf-landing/'); return false;">
+           Python Software Foundation
+          </a>
+         </span>
+         <span class="pre">
+          <a onclick="window.open('/about/legal/'); return false;">
+           Legal Statements
+          </a>
+         </span>
+         <span class="pre">
+          <a onclick="window.open('https://policies.python.org/python.org/Privacy-Notice/'); return false;">
+           Privacy Notice
+          </a>
+         </span>
+         <!--&nbsp;<span class="pre"><a href="/psf/community-infrastructure">Powered by PSF Community Infrastructure</a></span>-->
+        </small>
+       </p>
+      </div>
+     </div>
+     <!-- end .container -->
+    </div>
+    <!-- end .site-base -->
+   </footer>
+  </div>
+  <!-- end #touchnav-wrapper -->
+  <script src="local_resources\jquery.min_3ad54c725771ab73.js">
+  </script>
+  <script>
+   window.jQuery || document.write('<script src="/static/js/libs/jquery-1.8.2.min.js"><\/script>')
+  </script>
+  <script src="local_resources\jquery-ui.min_8ef0c2d75ef27313.js">
+  </script>
+  <script>
+   window.jQuery || document.write('<script src="/static/js/libs/jquery-ui-1.12.1.min.js"><\/script>')
+  </script>
+  <script src="local_resources\masonry.pkgd.min_219b4e54f347ba6c.js">
+  </script>
+  <script src="local_resources\html-includes_22939585fc965de1.js">
+  </script>
+  <script charset="utf-8" src="local_resources\main-min.ef82c06437cf_950f6d47c6b3ce12.js" type="text/javascript">
+  </script>
+  <!--[if lte IE 7]>
+    <script type="text/javascript" src="/static/js/plugins/IE8-min.8af6e26c7a3b.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+  <!--[if lte IE 8]>
+    <script type="text/javascript" src="/static/js/plugins/getComputedStyle-min.d41d8cd98f00.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

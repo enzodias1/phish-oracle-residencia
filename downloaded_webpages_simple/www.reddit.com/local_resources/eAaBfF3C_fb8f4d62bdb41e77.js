@@ -1,0 +1,2 @@
+SML.di("./DVMhF-xZ.js",import.meta.url,"DVMhF-xZ");SML.di("./CElIDZoh.js",import.meta.url,"CElIDZoh");SML.di("./DN8NCGGW.js",import.meta.url,"DN8NCGGW");
+SML.dm("eAaBfF3C",["CElIDZoh","DVMhF-xZ","DN8NCGGW"],(async t=>{t.i({listId:"popular-communities-list",seeButtonId:"popular-communities-list-see-more"}),window.addEventListener("afterRoute",(()=>t.i({listId:"popular-communities-list",seeButtonId:"popular-communities-list-see-more"})))}));

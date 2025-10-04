@@ -1,0 +1,153 @@
+
+/*
+Theme Name: Liftoff
+*/
+.fa::before {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-feature-settings: normal;
+	font-kerning: auto;
+	font-language-override: normal;
+	font-size: inherit;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-synthesis: weight style;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1;
+	text-align: right;
+	text-rendering: auto;
+	transform: translate(0px, 0px);
+}
+
+.lf-block--page-section > .acf-innerblocks-container > *.has-bone-background-color {
+	width: 100%;
+	max-width: 100%;
+}
+
+/* nav fix */
+@media screen and (min-width:960px) {
+	.page-template-template-mobileheroes header.lf-nav.light .main-nav > li > a, .single-blog header.lf-nav.light .main-nav > li > a, .single-hero header.lf-nav.light .main-nav > li > a {
+		text-align: center;
+	}
+	
+	.page-template-template-mobileheroes header.lf-nav.light #header-get-started, .single-blog header.lf-nav.light #header-get-started, .single-hero header.lf-nav.light #header-get-started {
+		white-space: nowrap;
+	}
+	
+	body.page-template-template-mobileheroes header.lf-nav .desktop-nav .wp-block-button, body.single-hero header.lf-nav .desktop-nav .wp-block-button, body.single-blog header.lf-nav .desktop-nav .wp-block-button {
+		margin-left: 30px;
+	}
+	
+	body.page-template-template-mobileheroes header.lf-nav .desktop-nav .main-nav, .single-blog header.lf-nav .desktop-nav .main-nav, .single-hero header.lf-nav .desktop-nav .main-nav {
+		gap: 10px;
+	}
+}
+
+@media screen and (min-width:1120px) {
+	.page-template-template-mobileheroes header.lf-nav.light .main-nav > li > a, .single-blog header.lf-nav.light .main-nav > li > a, .single-hero header.lf-nav.light .main-nav > li > a {
+		text-align: left;
+	}
+	
+	body.page-template-template-mobileheroes header.lf-nav .desktop-nav .wp-block-button, .single-blog header.lf-nav .desktop-nav .wp-block-button, .single-hero header.lf-nav .desktop-nav .wp-block-button {
+		margin-left: 68px;
+	}
+	
+	body.page-template-template-mobileheroes header.lf-nav .lf-nav--desktop-link-area, body.single-blog header.lf-nav .lf-nav--desktop-link-area, body.single-hero header.lf-nav .lf-nav--desktop-link-area {
+		grid-column: 4/13;
+	}
+	
+	body.page-template-template-mobileheroes header.lf-nav .lf-nav--desktop-logo-area, body.single-hero header.lf-nav .lf-nav--desktop-logo-area, body.single-blog header.lf-nav .lf-nav--desktop-logo-area {
+		grid-column: 1/4;
+	}
+	
+	body.page-template-template-mobileheroes header.lf-nav .desktop-nav .main-nav, .single-blog header.lf-nav .desktop-nav .main-nav, .single-hero header.lf-nav .desktop-nav .main-nav {
+		gap: 34px;
+	}
+}
+
+@media screen and (max-width:639px) {
+	/* icon size update */
+	body .lf-card-persona .top-section img {
+		width: calc(100% - 48px);
+		height: calc(100% - 48px);
+	}
+}
+
+/* video hero*/
+.hero-video video {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.lf-block--hero-2 .lf-block__hero-2-image-container.hero-video {
+	position: relative;
+}
+
+@media screen and (max-width:767px) {
+	.lf-block--hero-2 .lf-block__hero-2-image-container.hero-video-mobile {
+		height: 0;
+		position: relative;
+		padding-bottom: 74.65%;
+	}
+	
+	.hidden-mobile {
+		display: none;
+	}
+	
+	.hidden-desktop {
+		display: block;
+	}
+}
+
+@media screen and (min-width:768px) {
+	.hidden-desktop {
+		display: none;
+	}
+	
+	.lf-block--hero-2 .lf-block__hero-2-image-container.hero-video.has-pumpkin-background-color {
+		background-color: transparent;
+	}
+	
+	.lf-block--hero-2 .lf-block__hero-2-image-container.hero-video {
+		height: 0;
+		background-color: transparent;
+		padding-bottom: 41.92%;
+	}
+}
+
+@media screen and (max-width:767px) {
+	body .lf-block--wide-card-group > .acf-innerblocks-container:has(> *:last-child:nth-child(odd)) > * {
+		width: calc(50% - 12px);
+	}
+	
+	body .lf-card-persona::before {
+		background-color: transparent;
+	}
+	
+	body .lf-card-persona .top-section img {
+		top: 46px;
+	}
+	
+	body .lf-card-persona .top-section {
+		min-height: 210px;
+	}
+	
+	body .lf-card-persona .top-section .tag {
+		font-size: 9px;
+	}
+	
+	body .lf-card-persona {
+		padding-left: 6px;
+		padding-right: 6px;
+		padding-bottom: 5px;
+	}
+}
+
+body .has-periwinkle-background-color {
+	background-color: #555fff !important;
+}

@@ -1,0 +1,1 @@
+var isRead = 0;var beComment = 0;var beCommonCss = 1;var webLoginType = "";

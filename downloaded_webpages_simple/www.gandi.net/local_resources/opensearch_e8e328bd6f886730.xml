@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Gandi domain name search</ShortName>
+  <Description>Gandi domain name registration</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/vnd.microsoft.icon">https://www.gandi.net/favicon.ico</Image>
+
+  <Url type="text/html" method="get" template="https://shop.gandi.net/en/domain/suggest">
+    <Param name="search" value="{searchTerms}"/>
+    <Param name="sourceid" value="Mozilla-search"/>
+  </Url>
+
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://www.gandi.net/opensearch.xml" />
+  <moz:SearchForm>https://www.gandi.net</moz:SearchForm>
+</OpenSearchDescription>

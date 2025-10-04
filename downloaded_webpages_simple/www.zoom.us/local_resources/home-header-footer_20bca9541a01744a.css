@@ -1,0 +1,84 @@
+#userProfile {
+  display: none;
+}
+#whatsNew a {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  #whatsNewDesktop {
+    display: none !important;
+  }
+}
+#whatsNewDesktop {
+  display: none;
+}
+
+@media (max-width: 440px) {
+  .zdcm-header-v1
+    .zdcm-megamenu
+    .zdcm-megamenu-products-wrapper
+    .zdcm-megamenu-products-categories
+    .fdn-tabs--text
+    .fdn-tabs__tablist
+    .fdn-tabs__tab#tab-2:after {
+    content: unset;
+  }
+
+  .zdcm-header-v1.zdcm-header--active.zdcm-expand-state
+    .zdcm-mobile-menu:has(
+      .zdcm-mobile-menu__sidebar
+        #accordion-content-products.zdcm-accordion-content[aria-hidden="false"]
+    )::after {
+    content: "";
+    filter: drop-shadow(0px -1px 10px rgba(0, 0, 0, 0.9));
+    position: absolute;
+    top: 12px;
+    width: 94%;
+    height: 2px;
+    display: block;
+    background: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .zdcm-header-v1.zdcm-header--active.zdcm-expand-state
+    .zdcm-mobile-menu
+    .zdcm-accordion-content
+    .zdcm-megamenu-products-categories
+    .fdn-tabs
+    .fdn-tabs__tablist
+    .fdn-tabs__tab {
+    min-width: unset !important;
+  }
+}
+.zdcm-header-v1 .FlyoutContainer #standaloneSearchbox.CoveoSearchInterface {
+  flex-direction: unset;
+  align-items: flex-start;
+}
+.zdcm-header-v1 .FlyoutContainer #standaloneSearchbox.CoveoSearchInterface div.CoveoSearchButton {
+    background-color: #0b5cff;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Almaden Sans';
+    font-size: 1rem;
+    font-weight: 600;
+    height: 2.75rem;
+    line-height: 120%;
+    padding: .25rem 1.25rem;
+    width: fit-content;
+}
+.zdcm-header-v1 .FlyoutContainer .magic-box.magic-box-hasFocus .magic-box-suggestions.magic-box-hasSuggestion .coveo-magicbox-suggestions .coveo-omnibox-selected {
+    background-color: #f3f8ff;
+}
+.zdcm-header-v1 .FlyoutContainer #standaloneSearchbox.CoveoSearchInterface > .CoveoAnalytics,
+.zdcm-header-v1 .FlyoutContainer #standaloneSearchbox.CoveoSearchInterface > .FlyoutButton {
+  display: none;
+}

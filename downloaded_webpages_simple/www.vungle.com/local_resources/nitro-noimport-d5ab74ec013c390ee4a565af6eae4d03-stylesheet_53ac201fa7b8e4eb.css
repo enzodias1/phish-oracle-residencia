@@ -1,0 +1,12 @@
+
+@font-face {
+	font-family: "FontAwesome";
+	font-weight: normal;
+	font-style: normal;
+	src: url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/static/source/rev-cb9d267/maxcdn.bootstrapcdn.com/font-awesome/4.6.1/fonts/914c21b477826a474801cc079c4ab410.fontawesome-webfont.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Comic";
+	src: local("Segoe Print"), url("https://cdn-ilbanff.nitrocdn.com/MWEqlTjiRKGrGneCdFpBgWxUqZRLqkQa/assets/static/source/rev-cb9d267/liftoff.io/wp-content/themes/liftoff/fonts/SegoePrint.ttf") format("truetype");
+}

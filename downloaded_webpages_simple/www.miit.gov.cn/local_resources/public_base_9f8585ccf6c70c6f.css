@@ -1,0 +1,85 @@
+/*全局样式*/
+*{margin:0;padding:0;box-sizing:border-box;outline:0;font-family: "Microsoft YaHei";}
+ul,li{list-style:none;}
+img{border:0;}
+table{border-collapse:collapse;}
+a{text-decoration:none;color:#000;}
+
+
+
+.sy-wrapper{min-width:1400px;}
+.newpage-wrapper .page-con{width:1280px;margin:0 auto;}
+
+.clear::after{content:"";display:block;clear:both;float:none;}
+
+/* 首页头部 */
+.top{padding:0 !important;margin:0 !important}
+.top-l{padding: 42px 0;float:left;}
+.top-l img{height: 68px;}
+.top-r{float:right;padding-top: 35px;width:410px;}
+.top-rt a{color:#000;float:left;margin-left: 15px;line-height:26px;position:relative;display:inline-block;vertical-align: top;display: flex;align-items: center;font-size: 14px;}
+.top-rt a img{padding-right:6px;}
+.top-rt a div{position:absolute;top:100%;z-index: 99;left:50%;margin-left:-66px;display:none;}
+.top-rt a div img{padding-right:0;}
+.top-rt a:hover div{display:block;}
+.top-rb{float:right;margin-top:10px;}
+.search-form{border:1px solid #e5e5e5;overflow: hidden;}
+.search-form-txt{width:354px;border:0;border-right:1px solid #e5e5e5;height:23px;float:left;padding:0 10px;margin-top:10px;color:#aaaaaa;}
+.search-form-btn{width:38px !important;height:38px !important;background:url(top_img02.png) no-repeat 50% 50% #054696 !important;border:2px solid #fff !important;float:left !important;box-sizing:content-box !important;cursor: pointer !important;}
+.top-rt a:hover,
+.bottom-t a:hover,
+.bottom-bm a:hover{color:#054696;}
+
+
+/* 首页导航 */
+.nav{width:100%;position:relative;z-index:9;}
+.nav-box{background-color:#054696;border-radius: 50px;height: 50px;line-height: 50px;background: url(/cms_files/webmiit/tplobject/gxbsy/7c75257d15f44bcb9bf47d524cd9cb65/images/nav_bg_ie8.png) no-repeat 0 0;}
+.nav-box a{display:block;}
+.nav-box ul{padding-left: 78px;position:relative;}
+.nav-box ul li{float:left;text-align:center;margin-right: 2px;_margin-right:0.5px;}
+.nav-box ul li p{float:left;position: relative;z-index: 2;}
+.nav-box ul li p a{color:#fff;padding: 0 40px;font-size: 22px;}
+.nav-box ul li .xiala-con{width:100%;float:left;display:none;line-height:24px;font-size: 0;position:absolute;left:0;top:50px;padding-left: 78px;}
+.nav-box ul li .xiala-con a{width:100%;float:left;border-bottom:1px dashed #eee;border-top:0;color:#333;padding:13px 0;}
+.nav-box ul li .xiala-con a:hover{color:#2d8ed8;}
+.nav-box ul li.active p,
+.nav-box ul li.active p a{background:#f0f7ff;color:#054696;font-weight:bold;}
+.nav-box ul li:hover p,
+.nav-box ul li:hover p a{font-weight:bold;}
+/*.nav-box ul li:hover .xiala-con{display:block;text-align:center;}*/
+.nav-box ul li.home-a p{width: 130px;}
+.nav-box ul li.home-a p{font-size:0;}
+.nav-box ul li.home-a p img{vertical-align:top;}
+.nav-box ul li .xiala-con iframe{box-shadow: 0px 2px 10px 3px #676767;float: left;width: 1110px !important;background:#fff;}
+
+
+/* 底部区域 */
+.bottom{width:100%;float:left;background:#f2f2f2;height:auto;height: auto;min-height: auto;}
+.bottom .bottom-t{width:100%;float:left;line-height: 57px;height: 60px;border-bottom:3px solid #054696;font-size:0;text-align:center;}
+.bottom .bottom-t a{font-size: 16px;color:#000;margin: 0 17px;}
+.bottom .bottom-b{width:100%;float:left;padding-top: 23px;padding-bottom: 34px;}
+.bottom .bottom-bl{width: 353px;float:left;padding-left: 80px;font-size:0;}
+.bottom .bottom-bl img{float:left;margin-right: 23px;}
+.bottom .bottom-bl-img2{position: relative;top:0.1875rem}
+.bottom .bottom-bm{width: 650px;float:left;font-size: 14px;line-height: 24px;color:#000;}
+.bottom .bottom-bm a{color:#000;}
+.bottom .bottom-bm span{margin-right: 15px;}
+.bottom .bottom-bm img{position: relative;top:0.3125rem;margin-right: 0.125rem;}
+.bottom .bottom-br{width: 165px;float:left;padding-top: 5px;}
+.newpage-wrapper .bottom{margin-top: 60px;}
+.bottom p{margin-bottom: 0}
+
+
+
+.nav-mob,
+.mob-search,
+.mob-show,
+.mob-more-btn,
+.mob-more-btn-syzw{display:none !important;}
+.mob-more-btn{text-align:center;width:100%;padding: 10px 0 0 0 !important;float:left;background:none !important;}
+.mob-more-btn a{display:inline-block !important;float:none !important;color:#054696 !important;font-size:14px !important;background:none !important;padding:0 !important;}
+
+
+
+body{background:none !important;}
+.w1100.head.clearfix{height:auto;background:#fff;}

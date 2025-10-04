@@ -1,0 +1,51 @@
+.letters-paginator {
+  font-family: "pf_centro_sans_proregular", Calibri, Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.letters-paginator .lettstart {
+  color: #494949;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+.letters-paginator .lettstart:hover, .letters-paginator .lettstart.isee {
+  color: #0078d7;
+}
+@media (min-width: 0px) and (max-width: 1023px) {
+  .letters-paginator .lettstart {
+    font-size: 25px;
+    border: 1px solid;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    margin: 0 10px 10px 0;
+  }
+  .letters-paginator .lettstart:hover, .letters-paginator .lettstart.isee {
+    background: #0078d7;
+    color: #fff;
+    border: 1px solid #0078d7;
+  }
+}
+@media (min-width: 0px) and (max-width: 567px) {
+  .letters-paginator {
+    padding: 0 30px;
+  }
+  .letts-container {
+    padding: 0 30px;
+  }
+  .ppp-30 {
+    padding: 0 30px;
+  }
+}
+.letts {
+  font-family: "pf_centro_sans_proregular", Calibri, Arial, sans-serif;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease all;
+}
+.letts.isee {
+  max-height: 1100px;
+  opacity: 1;
+}

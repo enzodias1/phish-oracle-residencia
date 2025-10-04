@@ -1,0 +1,2133 @@
+<!DOCTYPE html>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    <html lang="ko">
+      <head>
+        <meta name="pageKey" content="d_homepage-guest-home">
+<!----><!----><!---->        <meta name="locale" content="ko_KR">
+        <meta id="config" data-app-version="2.1.2422" data-call-tree-id="AAZAVqEdCAP/4OEbyGog/w==" data-jet-tags="guest-homepage" data-multiproduct-name="homepage-guest-frontend" data-service-name="homepage-guest-frontend" data-browser-id="c8c45a10-ac27-4b59-8383-efb0c0e8aa1a" data-enable-page-view-heartbeat-tracking data-page-instance="urn:li:page:d_homepage-guest-home;jnLgERIZQKKiGpaoxx/itw==" data-disable-jsbeacon-pagekey-suffix="false" data-member-id="0" data-should-use-full-url-in-pve-path="true" data-dna-member-lix-treatment="enabled" data-human-member-lix-treatment="enabled" data-dfp-member-lix-treatment="control" data-sync-apfc-headers-lix-treatment="control" data-sync-apfc-cb-lix-treatment="control" data-recaptcha-v3-integration-lix-value="control" data-network-interceptor-lix-value="control">
+
+        <link rel="canonical" href="https://kr.linkedin.com/">
+          <link rel="alternate" hreflang="de" href="https://de.linkedin.com/">
+          <link rel="alternate" hreflang="en-IE" href="https://ie.linkedin.com/">
+          <link rel="alternate" hreflang="en-US" href="https://www.linkedin.com/">
+          <link rel="alternate" hreflang="pt" href="https://pt.linkedin.com/">
+          <link rel="alternate" hreflang="en-IL" href="https://il.linkedin.com/">
+          <link rel="alternate" hreflang="ms-MY" href="https://my.linkedin.com/">
+          <link rel="alternate" hreflang="en-IN" href="https://in.linkedin.com/">
+          <link rel="alternate" hreflang="es-BO" href="https://bo.linkedin.com/">
+          <link rel="alternate" hreflang="en-ZA" href="https://za.linkedin.com/">
+          <link rel="alternate" hreflang="zh-CN" href="https://cn.linkedin.com/">
+          <link rel="alternate" hreflang="en-AU" href="https://au.linkedin.com/">
+          <link rel="alternate" hreflang="id" href="https://id.linkedin.com/">
+          <link rel="alternate" hreflang="en-NG" href="https://ng.linkedin.com/">
+          <link rel="alternate" hreflang="de-CH" href="https://ch.linkedin.com/">
+          <link rel="alternate" hreflang="ja-JP" href="https://jp.linkedin.com/">
+          <link rel="alternate" hreflang="en-ZW" href="https://zw.linkedin.com/">
+          <link rel="alternate" hreflang="en-JM" href="https://jm.linkedin.com/">
+          <link rel="alternate" hreflang="es-SV" href="https://sv.linkedin.com/">
+          <link rel="alternate" hreflang="ms" href="https://my.linkedin.com/">
+          <link rel="alternate" hreflang="es-GT" href="https://gt.linkedin.com/">
+          <link rel="alternate" hreflang="en" href="https://www.linkedin.com/">
+          <link rel="alternate" hreflang="es-CR" href="https://cr.linkedin.com/">
+          <link rel="alternate" hreflang="it" href="https://it.linkedin.com/">
+          <link rel="alternate" hreflang="es-CL" href="https://cl.linkedin.com/">
+          <link rel="alternate" hreflang="es" href="https://es.linkedin.com/">
+          <link rel="alternate" hreflang="zh" href="https://cn.linkedin.com/">
+          <link rel="alternate" hreflang="es-CO" href="https://co.linkedin.com/">
+          <link rel="alternate" hreflang="es-PE" href="https://pe.linkedin.com/">
+          <link rel="alternate" hreflang="ar" href="https://ae.linkedin.com/">
+          <link rel="alternate" hreflang="en-NZ" href="https://nz.linkedin.com/">
+          <link rel="alternate" hreflang="pt-PT" href="https://pt.linkedin.com/">
+          <link rel="alternate" hreflang="es-PA" href="https://pa.linkedin.com/">
+          <link rel="alternate" hreflang="ja" href="https://jp.linkedin.com/">
+          <link rel="alternate" hreflang="en-SG" href="https://sg.linkedin.com/">
+          <link rel="alternate" hreflang="fr-FR" href="https://fr.linkedin.com/">
+          <link rel="alternate" hreflang="ro" href="https://ro.linkedin.com/">
+          <link rel="alternate" hreflang="en-GB" href="https://uk.linkedin.com/">
+          <link rel="alternate" hreflang="nl" href="https://nl.linkedin.com/">
+          <link rel="alternate" hreflang="en-KE" href="https://ke.linkedin.com/">
+          <link rel="alternate" hreflang="no" href="https://no.linkedin.com/">
+          <link rel="alternate" hreflang="en-CA" href="https://ca.linkedin.com/">
+          <link rel="alternate" hreflang="ru" href="https://ru.linkedin.com/">
+          <link rel="alternate" hreflang="en-GH" href="https://gh.linkedin.com/">
+          <link rel="alternate" hreflang="es-PR" href="https://pr.linkedin.com/">
+          <link rel="alternate" hreflang="fr" href="https://fr.linkedin.com/">
+          <link rel="alternate" hreflang="es-DO" href="https://do.linkedin.com/">
+          <link rel="alternate" hreflang="de-AT" href="https://at.linkedin.com/">
+          <link rel="alternate" hreflang="es-EC" href="https://ec.linkedin.com/">
+          <link rel="alternate" hreflang="cs-CZ" href="https://cz.linkedin.com/">
+          <link rel="alternate" hreflang="en-PH" href="https://ph.linkedin.com/">
+          <link rel="alternate" hreflang="en-PK" href="https://pk.linkedin.com/">
+          <link rel="alternate" hreflang="de-DE" href="https://de.linkedin.com/">
+          <link rel="alternate" hreflang="sv" href="https://se.linkedin.com/">
+          <link rel="alternate" hreflang="ko" href="https://kr.linkedin.com/">
+          <link rel="alternate" hreflang="en-TT" href="https://tt.linkedin.com/">
+          <link rel="alternate" hreflang="zh-TW" href="https://tw.linkedin.com/">
+          <link rel="alternate" hreflang="en-HK" href="https://hk.linkedin.com/">
+          <link rel="alternate" hreflang="pt-BR" href="https://br.linkedin.com/">
+          <link rel="alternate" hreflang="es-UY" href="https://uy.linkedin.com/">
+          <link rel="alternate" hreflang="es-ES" href="https://es.linkedin.com/">
+          <link rel="alternate" hreflang="es-VE" href="https://ve.linkedin.com/">
+          <link rel="alternate" hreflang="es-MX" href="https://mx.linkedin.com/">
+          <link rel="alternate" hreflang="cs" href="https://cz.linkedin.com/">
+          <link rel="alternate" hreflang="es-AR" href="https://ar.linkedin.com/">
+          <link rel="alternate" hreflang="th" href="https://th.linkedin.com/">
+          <link rel="alternate" hreflang="sv-SE" href="https://se.linkedin.com/">
+          <link rel="alternate" hreflang="tl" href="https://ph.linkedin.com/">
+          <link rel="alternate" hreflang="da-DK" href="https://dk.linkedin.com/">
+          <link rel="alternate" hreflang="fr-LU" href="https://lu.linkedin.com/">
+          <link rel="alternate" hreflang="pl" href="https://pl.linkedin.com/">
+          <link rel="alternate" hreflang="da" href="https://dk.linkedin.com/">
+          <link rel="alternate" hreflang="tr" href="https://tr.linkedin.com/">
+            <link rel="alternate" hreflang="x-default" href="https://www.linkedin.com/">
+
+<!---->
+<!---->
+          <meta property="al:android:url" content="https://kr.linkedin.com/">
+          <meta property="al:android:package" content="com.linkedin.android">
+          <meta property="al:android:app_name" content="LinkedIn">
+          <meta property="al:ios:url" content="https://kr.linkedin.com/">
+          <meta property="al:ios:app_store_id" content="288429040">
+          <meta property="al:ios:app_name" content="LinkedIn">
+
+<!---->
+          <link rel="icon" href="https://static.licdn.com/aero-v1/sc/h/al2o9zrvru7aqj8e1x2rzsrca">
+
+
+        <script>
+          function getDfd() {let yFn,nFn;const p=new Promise(function(y, n){yFn=y;nFn=n;});p.resolve=yFn;p.reject=nFn;return p;}
+          window.lazyloader = getDfd();
+          window.tracking = getDfd();
+          window.impressionTracking = getDfd();
+          window.ingraphTracking = getDfd();
+          window.appDetection = getDfd();
+          window.pemTracking = getDfd();
+        </script>
+
+<!---->
+        
+        
+
+    
+
+    <title>LinkedIn 대한민국: 로그인 또는 회원 가입</title>
+    <meta property="og:site_name" content="LinkedIn">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="LinkedIn 대한민국: 로그인 또는 회원 가입">
+    <meta property="og:description" content="1B 회원들이 함께 하는 글로벌 비즈니스 세상 비즈니스 인맥을 쌓고 넓히세요. 커리어 계발에 유용한 정보와 기회의 문으로 들어오세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kr.linkedin.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@linkedin">
+    <meta name="twitter:title" content="LinkedIn 대한민국: 로그인 또는 회원 가입">
+    <meta name="twitter:description" content="1B 회원들이 함께 하는 글로벌 비즈니스 세상 비즈니스 인맥을 쌓고 넓히세요. 커리어 계발에 유용한 정보와 기회의 문으로 들어오세요.">
+    <meta name="description" content="1B 회원들이 함께 하는 글로벌 비즈니스 세상 비즈니스 인맥을 쌓고 넓히세요. 커리어 계발에 유용한 정보와 기회의 문으로 들어오세요.">
+    <meta name="linkedin:pageTag" content="basic">
+      <meta name="naver-site-verification" content="6c180087cc8c9aef0b448521383709b955b7dc5b">
+    <meta name="litmsProfileName" content="homepage-guest-frontend">
+      <meta name="clientSideIngraphs" content="1" data-gauge-metric-endpoint="/homepage-guest/api/ingraphs/gauge" data-counter-metric-endpoint="/homepage-guest/api/ingraphs/counter">
+    <meta name="robots" content="noarchive">
+  
+        <link rel="stylesheet" href="https://static.licdn.com/aero-v1/sc/h/4k4kipp8ruw8yzkd7gxmudzh7">
+      
+<!---->      </head>
+      <body dir="ltr">
+<!---->          
+          
+    
+
+    <a href="#main-content" class="skip-link btn-md btn-primary absolute z-11 -top-[100vh] focus:top-0">
+      본문 내용으로 가기
+    </a>
+  
+<!---->
+        
+        
+    <div class="guest-upsells">
+        
+    
+    
+    
+    <form class="google-auth base-google-auth" action="https://www.linkedin.com/uas/login-submit" method="post">
+      <input name="loginCsrfParam" value="c8c45a10-ac27-4b59-8383-efb0c0e8aa1a" type="hidden">
+<!---->      <input name="trk" value="guest_homepage-basic_google-one-tap-submit" type="hidden">
+        <div class="google-one-tap__module hidden fixed flex flex-col items-center top-[20px] right-[20px] z-[9999]">
+          <div class="google-auth__tnc-container hidden relative top-2 bg-color-background-container-tint pl-2 pr-1 pt-2 pb-3 w-[375px] rounded-md shadow-2xl">
+            <p class="text-md font-bold text-color-text">
+              LinkedIn 동의 후 가입
+            </p>
+            
+    
+    
+    <p class="linkedin-tc__text text-color-text-low-emphasis text-xs pb-2 !text-sm !text-color-text" data-impression-id="guest_homepage-basic_one-tap-skip-tc-text">
+      가입이나 로그인을 하기 위해 계속 버튼을 클릭하면 LinkedIn <a href="/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement" target="_blank" data-tracking-control-name="linkedin-tc_auth-button_user-agreement" data-tracking-will-navigate="true">사용자약관</a>, <a href="/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy" target="_blank" data-tracking-control-name="linkedin-tc_auth-button_privacy-policy" data-tracking-will-navigate="true">개인정보 처리방침</a>, <a href="/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy" target="_blank" data-tracking-control-name="linkedin-tc_auth-button_cookie-policy" data-tracking-will-navigate="true">쿠키정책</a>에 동의하게 됩니다.
+    </p>
+  
+          </div>
+          <div data-tracking-control-name="guest_homepage-basic_google-one-tap" id="google-one-tap__container"></div>
+        </div>
+      
+    <div class="loader loader--full-screen">
+      <div class="loader__container mb-2 overflow-hidden">
+        <icon class="loader__icon inline-block loader__icon--default text-color-progress-loading" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/ddi43qwelxeqjxdd45pe3fvs1" data-svg-class-name="loader__icon-svg--large fill-currentColor h-[60px] min-h-[60px] w-[60px] min-w-[60px]"></icon>
+      </div>
+    </div>
+  
+    </form>
+    <script data-delayed-url="https://static.licdn.com/aero-v1/sc/h/29rdkxlvag0d3cpj96fiilbju" data-module-id="google-gsi-lib"></script>
+    <code id="isLinkedInAppWebView" style="display: none"><!--false--></code>
+    <code id="shouldRemoveUndefinedValues" style="display: none"><!--false--></code>
+    <code id="isItpSupportEnabled" style="display: none"><!--false--></code>
+    <code id="tncFlow" style="display: none"><!--"control"--></code>
+      <code id="isGoogleAuthButtonLocaleSupportEnabled" style="display: none"><!--true--></code>
+      <code id="gsiLocale" style="display: none"><!--"ko_KR"--></code>
+  
+
+<!---->
+      
+    
+    
+    
+
+    
+    
+
+<!---->  
+    </div>
+    <code id="disableOneTapOnInitIfCsm" style="display: none"><!--false--></code>
+  
+          
+    <form class="microsoft-auth" action="https://www.linkedin.com/uas/login-submit" method="post">
+      <input name="loginCsrfParam" value="c8c45a10-ac27-4b59-8383-efb0c0e8aa1a" type="hidden">
+
+<!---->
+      <input name="trk" value="guest_homepage-basic_microsoft-auth-submit" type="hidden">
+      
+    <div class="loader loader--full-screen">
+      <div class="loader__container mb-2 overflow-hidden">
+        <icon class="loader__icon inline-block loader__icon--default text-color-progress-loading" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/ddi43qwelxeqjxdd45pe3fvs1" data-svg-class-name="loader__icon-svg--large fill-currentColor h-[60px] min-h-[60px] w-[60px] min-w-[60px]"></icon>
+      </div>
+    </div>
+  
+    </form>
+
+    <script data-delayed-url="https://static.licdn.com/aero-v1/sc/h/fx69lqty609xpf6l4xb6bs3a" data-module-id="microsoft-auth-lib"></script>
+    <code id="isMicrosoftTermsAndConditionsSkipEnabled" style="display: none"><!--false--></code>
+    <code id="microsoftAuthLibraryPath" style="display: none"><!--"https://static.licdn.com/aero-v1/sc/h/fx69lqty609xpf6l4xb6bs3a"--></code>
+    <code id="microsoftShowOneTap" style="display: none"><!--false--></code>
+    <code id="microsoftLocale" style="display: none"><!--"ko_KR"--></code>
+  
+        
+
+    
+    
+    
+    
+
+    <nav class="nav pt-1.5 pb-2 flex items-center justify-between relative flex-nowrap babymamabear:py-1.5
+        
+        
+         babybear:flex-wrap " aria-label="기본">
+
+      <a href="/?trk=guest_homepage-basic_nav-header-logo" class="nav__logo-link link-no-visited-state z-1 mr-auto min-h-[52px] flex items-center babybear:z-0 hover:no-underline focus:no-underline active:no-underline
+          " data-tracking-control-name="guest_homepage-basic_nav-header-logo" data-tracking-will-navigate>
+          
+    
+    <span class="sr-only">LinkedIn</span>
+      <icon class="nav-logo--inbug flex text-color-brand
+          papabear:hidden mamabear:hidden order-1" data-svg-class-name="h-[34px] w-[34px] babybear:h-[26px] babybear:w-[26px]" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/4zqr0f9jf98vi2nkijyc3bex2"></icon>
+      <icon class="block text-color-brand w-[102px] h-[26px] babybear:hidden order-1" data-test-id="nav-logo" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/8fkga714vy9b2wk5auqo5reeb"></icon>
+  
+      </a>
+
+<!---->
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    <ul class="top-nav-menu flex items-center babybear:w-full babybear:justify-between babybear:pt-1 justify-start w-max pt-0 overflow-x-auto
+        after:papamamabear:up-down-divider after:papamamabear:!h-[37px]
+         nav__menu babybear:order-last order-3 ml-auto">
+        <li class>
+          
+    <a href="https://www.linkedin.com/pulse/topics/home/?trk=guest_homepage-basic_guest_nav_menu_articles" data-tracking-control-name="guest_homepage-basic_guest_nav_menu_articles" data-tracking-will-navigate class="top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-8 
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/6ulnj3n2ijcmhej768y6oj1hr">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-xs leading-regular text-center w-max
+          font-regular">
+        글
+      </span>
+    </a>
+  
+        </li>
+        <li class>
+          
+    <a href="https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people" data-tracking-control-name="guest_homepage-basic_guest_nav_menu_people" data-tracking-will-navigate class="top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-8 
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/7kb6sn3tm4cx918cx9a5jlb0">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-xs leading-regular text-center w-max
+          font-regular">
+        사람
+      </span>
+    </a>
+  
+        </li>
+        <li class>
+          
+    <a href="https://www.linkedin.com/learning/search?trk=guest_homepage-basic_guest_nav_menu_learning" data-tracking-control-name="guest_homepage-basic_guest_nav_menu_learning" data-tracking-will-navigate class="top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-8 
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/8wykgzgbqy0t3fnkgborvz54u">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-xs leading-regular text-center w-max
+          font-regular">
+        온라인클래스
+      </span>
+    </a>
+  
+        </li>
+        <li class>
+          
+    <a href="https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs" data-tracking-control-name="guest_homepage-basic_guest_nav_menu_jobs" data-tracking-will-navigate class="top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-8 
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/92eb1xekc34eklevj0io6x4ki">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-xs leading-regular text-center w-max
+          font-regular">
+        채용공고
+      </span>
+    </a>
+  
+        </li>
+        <li class>
+          
+    <a href="https://www.linkedin.com/games?trk=guest_homepage-basic_guest_nav_menu_games" data-tracking-control-name="guest_homepage-basic_guest_nav_menu_games" data-tracking-will-navigate class="top-nav-link flex justify-center items-center min-h-[52px] hover:text-color-text visited:hover:text-color-text hover:no-underline
+        w-8 
+        flex-col mx-1 babybear:mx-0
+        text-color-text-secondary visited:text-color-text-secondary">
+      <icon class="top-nav-link__icon flex h-3 w-3 flex-shrink-0 justify-center " data-delayed-url="https://static.licdn.com/aero-v1/sc/h/29h8hsjuomfp50lam5ipnc3uh">
+      </icon>
+      <span class="top-nav-link__label-text font-sans text-xs leading-regular text-center w-max
+          font-regular">
+        게임
+      </span>
+    </a>
+  
+        </li>
+    </ul>
+  
+
+      <div class="nav__cta-container order-3 flex gap-x-1 justify-end min-w-[100px] flex-nowrap flex-shrink-0 babybear:flex-wrap flex-2
+          ">
+<!---->
+        
+    
+            
+              <a class="nav__button-tertiary btn-md btn-tertiary" href="https://www.linkedin.com/signup?_l=ko&amp;trk=guest_homepage-basic_nav-header-join" data-tracking-control-name="guest_homepage-basic_nav-header-join" data-tracking-will-navigate>
+                회원 가입<!---->              </a>
+          
+          
+
+
+          
+  
+  
+
+      
+      <a class="nav__button-secondary btn-secondary-emphasis btn-md" href="https://www.linkedin.com/login/ko?fromSignIn=true&amp;trk=guest_homepage-basic_nav-header-signin" data-tracking-control-name="guest_homepage-basic_nav-header-signin" data-tracking-will-navigate data-tracking-client-ingraph>
+          로그인
+      </a>
+
+
+<!---->      </div>
+
+<!---->
+<!---->    </nav>
+  
+        <main class="flex flex-col items-center overflow-hidden min-h-[calc(100vh-76px-50px)]" role="main" id="main-content">
+          
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    <section class="section min-h-68 flex-nowrap pt-6 babybear:flex-col babybear:min-h-0 babybear:px-mobile-container-padding babybear:pt-3" data-test-id="hero">
+      <div class="self-start relative flex-shrink-0 w-[55%] pr-6 babybear:w-full babybear:pr-0" data-test-id="hero__content">
+        <h1 class="font-sans babybear:pb-3 font-regular leading-regular text-display-lg text-smoke-70 babybear:text-display-md babybear:text-center" data-test-id="hero__headline">
+          프로를 위한 커뮤니티
+        </h1>
+
+<!---->
+        
+            <!--400px width and 40px height made standard to match other buttons to Google limitations-->
+            <!--https://developers.google.com/identity/gsi/web/reference/js-reference#width-->
+            <!--Size controls height/padding. Large hits 40px. https://developers.google.com/identity/gsi/web/reference/js-reference#size-->
+          <div class="mt-3 w-column max-w-[400px] babybear:mt-0 babybear:w-full">
+            
+    
+
+    <div class="google-auth-button google-auth-button--without-signin-form mb-2 mx-auto text-center">
+<!---->      <div class="google-auth-button__placeholder mx-auto
+          " data-theme="filled_blue" data-logo-alignment="center" data-locale="ko_KR" role="button" aria-label="구글 계정으로 계속" data-safe-to-skip-tnc-redirect></div>
+<!---->    </div>
+  
+<!---->              <a class="sign-in-form__sign-in-cta my-2 py-1 btn-md btn-secondary block min-h-[40px] babybear:w-full" href="https://www.linkedin.com/login/ko" data-test-id="home-hero-sign-in-cta" data-tracking-control-name="homepage-basic_home-hero-sign-in-cta" data-tracking-will-navigate data-tracking-client-ingraph>
+                  이메일로 로그인
+                </a>      
+                          <code id="isTermsAndConditionsSkipEnabledAuthButton" style="display: none"><!--true--></code>
+              
+    
+    
+    <p class="linkedin-tc__text text-color-text-low-emphasis text-xs pb-2 text-center mt-3" data-impression-id="linkedin-tc__button-skip-tc-text">
+      가입이나 로그인을 하기 위해 계속 버튼을 클릭하면 LinkedIn <a href="/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement" target="_blank" data-tracking-control-name="linkedin-tc_auth-button_user-agreement" data-tracking-will-navigate="true">사용자약관</a>, <a href="/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy" target="_blank" data-tracking-control-name="linkedin-tc_auth-button_privacy-policy" data-tracking-will-navigate="true">개인정보 처리방침</a>, <a href="/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy" target="_blank" data-tracking-control-name="linkedin-tc_auth-button_cookie-policy" data-tracking-will-navigate="true">쿠키정책</a>에 동의하게 됩니다.
+    </p>
+  
+          </div>
+          <p class="sign-in-form__join-cta-wrapper text-center my-2 w-column babybear:w-full">
+            LinkedIn이 처음이세요? <a href="https://www.linkedin.com/signup?_l=ko" class="sign-in-form__join-cta link link-no-visited-state" data-test-id="sign-in-join-cta" data-tracking-client-ingraph="true" data-tracking-control-name="homepage-basic_sign-in-form_inline-join-cta" data-tracking-will-navigate="true">회원 가입</a>
+          </p>
+<!---->      
+      </div>
+        <img class="flip-rtl block -z-1 w-[700px] h-[560px] relative flex-shrink babybear:w-[374px] babybear:h-[214px] babybear:static" alt="프로를 위한 커뮤니티" data-test-id="hero__illustration" src="https://static.licdn.com/aero-v1/sc/h/dxf91zhqd2z6b0bwg85ktm5s4">
+    </section>
+  
+  
+<!----><!---->              
+    
+
+    
+  <section class="section py-section flex-wrap babybear:flex-col papabear:flex-row papabear:items-start" data-test-id="search-cta">
+      <div class="self-start mb-3 w-full flex-shrink-0 papabear:mr-[72px] papabear:w-column" data-test-id="pill-list-module__cta">
+        <h2 class="header">
+          나에게 맞는 자리 찾기
+        </h2>
+<!---->
+        
+      </div>
+
+        <div class="w-full papabear:max-w-[calc(theme('spacing.content-max-w')-theme('spacing.column')-72px)]">
+          
+
+    
+    
+    
+
+      <div class="show-more-less etta-show-more-less">
+<!---->
+        <ul data-max-num-to-show="10" class="show-more-less__list show-more-less__list--hide-after-10" data-impression-id="homepage-basic_pill-list-module_etta-show-more-less_show-more-less">
+          
+        
+              
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/engineering-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          공학
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/business-development-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          사업개발
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/finance-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          금융
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/administrative-assistant-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          보좌관
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/retail-associate-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          소매업 담당
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/customer-service-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          고객지원
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/operations-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          운영
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/information-technology-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          IT
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/marketing-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          마케팅
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/human-resources-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          인사
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/healthcare-services-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          헬스케어
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/sales-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          영업
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/program-and-project-management-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          프로젝트 관리
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/accounting-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          회계
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/arts-and-design-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          미술·디자인
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/community-and-social-services-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          사회복지
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/consulting-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          컨설팅
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/education-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          교육
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/entrepreneurship-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          기업운영
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/legal-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          법률
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/media-and-communications-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          미디어
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/military-and-protective-services-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          국방
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/product-management-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          제품관리
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/purchasing-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          구매조달
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/quality-assurance-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          품질관리
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/real-estate-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          부동산
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/research-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          리서치
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/support-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          지원
+        
+        </a>
+  
+      </li>
+      <li>
+        
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_suggested-search" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/administrative-jobs-브라질?trk=homepage-basic_suggested-search" data-tracking-client-ingraph>
+          
+          행정
+        
+        </a>
+  
+      </li>
+  
+      
+            
+      
+        </ul>
+
+            <button class="show-more-less__button show-more-less__more-button show-more-less-button
+                " aria-expanded="false" data-tracking-control-name="homepage-basic_pill-list-module_etta-show-more-less_show_more">
+                더보기
+              <icon class="show-more-less__button--chevron show-more-less-button-icon" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/cyolgscd0imw2ldqppkrb84vo"></icon>
+            </button>
+
+            <button class="show-more-less__button show-more-less__less-button show-more-less-button
+                show-more-less__button--hide" aria-expanded="false" data-tracking-control-name="homepage-basic_pill-list-module_etta-show-more-less_show_more">
+                더보기 취소
+              <icon class="show-more-less__button--chevron show-more-less-button-icon" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/4chtt12k98xwnba1nimld2oyg"></icon>
+            </button>
+      </div>
+  
+  
+        </div>
+    </section>
+  
+  
+                <section class="section">
+                  
+    
+    
+
+    <div class="w-full flex items-center py-8 after:full-color-bkg after:content-[''] flex-col
+        after:bg-[#f1ece5]
+        babybear:flex-col babybear:items-start babybear:py-6 babybear:px-mobile-container-padding" data-impression-id="homepage-basic_talent-finder-cta" data-test-id="talent-finder-cta">
+      <h2 class="header !text-warm-red-70 text-center pb-4 babybear:mb-3">
+        수백만 명을 대상으로 채용공고를 게시하세요.
+      </h2>
+      
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary-emphasis flex-shrink babybear:my-auto babybear:mx-0" data-tracking-control-name="homepage-basic_talent-finder-cta" data-tracking-will-navigate href="https://www.linkedin.com/talent/post-a-job?trk=homepage-basic_talent-finder-cta">
+          
+        채용공고 올리기
+      
+        </a>
+  
+    </div>
+  
+                </section>
+              
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+  <section class="section py-section flex-wrap babybear:flex-col papabear:flex-row papabear:items-start top-product-categories">
+      <div class="self-start mb-3 w-full flex-shrink-0 papabear:mr-[72px] papabear:w-column" data-test-id="pill-list-module__cta">
+        <h2 class="header">
+          최고의 소프트웨어 도구 발견
+        </h2>
+            <p class="body mt-1.5">
+              직접 사용한 경험이 있는 구매자와 1촌을 맺어 가장 적합한 제품을 찾으세요.
+            </p>
+
+        
+      </div>
+
+        <div class="w-full papabear:max-w-[calc(theme('spacing.content-max-w')-theme('spacing.column')-72px)]">
+          
+
+    
+    
+    
+
+      <ul class="show-more-less__list show-more-less__list--no-hidden-elems etta-show-more-less" data-impression-id="homepage-basic_discover_products_pill-list-module_etta-show-more-less_show-more-less">
+        
+        
+              
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/e-commerce-platforms">
+          
+              전자상거래 플랫폼
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/customer-relationship-management-software">
+          
+              CRM 소프트웨어
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/human-resources-management-systems">
+          
+              인적 자원 관리 시스템
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/recruiting-software">
+          
+              채용 소프트웨어
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/sales-intelligence-software">
+          
+              세일즈 인텔리전스 소프트웨어
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/project-management-software">
+          
+              프로젝트 관리 소프트웨어
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/help-desk-software">
+          
+              헬프 데스크 소프트웨어
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/social-networking-software">
+          
+              소셜 네트워킹 소프트웨어
+            
+        </a>
+  
+          </li>
+          <li class="top-product-categories__pill">
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/categories/desktop-publishing-software">
+          
+              데스크톱 퍼블리싱 소프트웨어
+            
+        </a>
+  
+          </li>
+        <li class="top-product-categories__pill">
+          
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary-emphasis" data-tracking-control-name="homepage-basic_top-product-categories_topic-pill" data-tracking-will-navigate href="https://www.linkedin.com/products/home" aria-label="소프트웨어 및 플랫폼 모두 표시">
+          
+            모두 표시
+          
+        </a>
+  
+        </li>
+      
+            
+      
+      </ul>
+  
+  
+        </div>
+    </section>
+  
+  
+              
+    
+    
+
+    
+  <section class="section py-section flex-wrap babybear:flex-col papabear:flex-row papabear:items-start game-hub-banner">
+      <div class="self-start mb-3 w-full flex-shrink-0 papabear:mr-[72px] papabear:w-column" data-test-id="pill-list-module__cta">
+        <h2 class="header">
+          게임을 통해 정신을 기민하게 만들기
+        </h2>
+            <p class="body mt-1.5">
+              짧은 일일 게임을 통해 잠시 휴식을 취하면서 인맥에게 연락하세요.
+            </p>
+
+        
+      </div>
+
+        <div class="w-full papabear:max-w-[calc(theme('spacing.content-max-w')-theme('spacing.column')-72px)]">
+          
+
+    
+    
+    
+
+      <ul class="show-more-less__list show-more-less__list--no-hidden-elems etta-show-more-less" data-impression-id="homepage-basic_discover_games_pill-list-module_etta-show-more-less_show-more-less">
+        
+        
+              
+          <li>
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_game-hub__game-pill" data-tracking-will-navigate href="https://lnkd.in/pinpoint">
+          
+              Pinpoint
+            
+        </a>
+  
+          </li>
+          <li>
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_game-hub__game-pill" data-tracking-will-navigate href="https://lnkd.in/queens">
+          
+              Queens
+            
+        </a>
+  
+          </li>
+          <li>
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_game-hub__game-pill" data-tracking-will-navigate href="https://lnkd.in/crossclimb">
+          
+              Crossclimb
+            
+        </a>
+  
+          </li>
+          <li>
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_game-hub__game-pill" data-tracking-will-navigate href="https://lnkd.in/tango">
+          
+              Tango
+            
+        </a>
+  
+          </li>
+          <li>
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_game-hub__game-pill" data-tracking-will-navigate href="https://lnkd.in/zip">
+          
+              Zip
+            
+        </a>
+  
+          </li>
+          <li>
+            
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic_game-hub__game-pill" data-tracking-will-navigate href="https://lnkd.in/minisudoku">
+          
+              Mini Sudoku
+            
+        </a>
+  
+          </li>
+      
+            
+      
+      </ul>
+  
+  
+        </div>
+    </section>
+  
+  
+              
+
+    
+    
+
+    
+    
+
+    
+    
+
+    <div data-nosnippet class="section py-section after:full-color-bkg after:content-[''] after:bg-color-background-canvas babybear:-mx-2 babybear:pt-0">
+      
+<!---->
+
+    
+    
+    
+    
+    
+    
+    
+
+    <section class="slide-list relative  w-full">
+        <header class="slide-list__header mb-1.5">
+<!---->        </header>
+
+
+          <div class="slide-list__nav">
+            <div class="slide-list__nav-wrap absolute flex h-full items-center top-0 z-1 slide-list__nav-wrap--prev left-[-20px]">
+              <div class="previous-slide-list__a11y-notification sr-only hidden" role="alert">
+                이전 콘텐츠 없음
+              </div>
+              <button data-tracking-control-name="homepage-basic_testimonials_slide_list_prev_button" class="slide-list__nav-button rounded-xl px-1.5 py-1 btn-overlay cursor-pointer disabled:hidden" aria-label="이전 슬라이드" data-direction="prev" disabled>
+                <icon class="slide-list__nav-icon flex items-center justify-center pointer-events-none w-2 h-3 rtl:-scale-x-100 rtl:translate-x-[7px]" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/c4cba545dp8erex8bfiynf35e"></icon>
+              </button>
+            </div>
+          </div>
+
+        <div class="relative overflow-hidden slide-list__container " aria-live="polite" tabindex="0">
+              <ul class="slide-list__list items-stretch flex list-none transition-all duration-slow ease-standard ">
+                
+          
+  <li class="flex justify-between relative items-center mr-12 w-full babybear:flex babybear:flex-wrap-reverse babybear:mr-2" data-test-id="testimonial">
+    <div class="w-[564px] mr-8 mamabear:max-w-[50vw] babybear:w-[300px] babybear:mt-2 babybear:mr-0">
+      <h2 class="header !text-warm-red-70">
+        현재 구직 중임을 알리세요.
+      </h2>
+      <p class="body my-2">
+        <span>구직중 기능을 이용하여 리크루터에게 비공개로 구직 의사를 표시하거나 공개적으로 LinkedIn 커뮤니티에 회원님이 이직 희망 중임을 알릴 수 있습니다.</span>
+      </p>
+    </div>
+    <img class="w-[450px] rounded-[50%] mamabear:max-w-[50vw] babybear:h-[300px] babybear:w-[300px] babybear:mt-2 babybear:mx-auto" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/dbvmk0tsk0o0hd59fi64z3own" alt>
+  </li>
+
+          
+  <li class="flex justify-between relative items-center mr-12 w-full babybear:flex babybear:flex-wrap-reverse babybear:mr-2" data-test-id="testimonial">
+    <div class="w-[564px] mr-8 mamabear:max-w-[50vw] babybear:w-[300px] babybear:mt-2 babybear:mr-0">
+      <h2 class="header !text-warm-red-70">
+        오늘의 대화가 절호의 기회로 이어질 수 있습니다.
+      </h2>
+      <p class="body my-2">
+        <span>아는 사람들에게 메시지를 보내는 것은 경력 면에서 다음 단계를 나아갈 때 사람들과의 관계를 강화해 주는 좋은 방법입니다.</span>
+      </p>
+    </div>
+    <img class="w-[450px] rounded-[50%] mamabear:max-w-[50vw] babybear:h-[300px] babybear:w-[300px] babybear:mt-2 babybear:mx-auto" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/2r8kd5zqpi905lkzsshdlvvn5" alt>
+  </li>
+
+          
+  <li class="flex justify-between relative items-center mr-12 w-full babybear:flex babybear:flex-wrap-reverse babybear:mr-2" data-test-id="testimonial">
+    <div class="w-[564px] mr-8 mamabear:max-w-[50vw] babybear:w-[300px] babybear:mt-2 babybear:mr-0">
+      <h2 class="header !text-warm-red-70">
+        업계에 대한 최신 뉴스 보기
+      </h2>
+      <p class="body my-2">
+        <span>라이브 동영상, 스토리, 뉴스레터 등에 이르기까지 LinkedIn에서는 업계의 최신 정보를 얻을 수 있습니다.</span>
+      </p>
+    </div>
+    <img class="w-[450px] rounded-[50%] mamabear:max-w-[50vw] babybear:h-[300px] babybear:w-[300px] babybear:mt-2 babybear:mx-auto" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/ann24vsq7r0ux3vipqa1n90gg" alt>
+  </li>
+
+      
+              </ul>
+        </div>
+
+          <div class="slide-list__nav">
+            <div class="slide-list__nav-wrap absolute flex h-full items-center top-0 z-1 slide-list__nav-wrap--next right-[-20px]">
+              <div class="next-slide-list__a11y-notification sr-only hidden" role="alert">
+                다음 콘텐츠 없음
+              </div>
+              <button data-tracking-control-name="homepage-basic_testimonials_slide_list_next_button" class="slide-list__nav-button rounded-xl px-1.5 py-1 btn-overlay cursor-pointer disabled:hidden" aria-label="다음 슬라이드" data-direction="next">
+                <icon class="slide-list__nav-icon flex items-center justify-center pointer-events-none w-2 h-3 rtl:-scale-x-100 rtl:translate-x-[7px]" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/attd0x4zpqud1mtgka71gdtdk"></icon>
+              </button>
+            </div>
+          </div>
+
+
+<!---->
+      <code id="i18n_slide_list_current_slide_aria_label" style="display: none"><!--"현재 항목"--></code>
+    </section>
+  
+    </div>
+  
+              <section class="section py-section">
+                
+    
+    
+    
+    <div class="flex flex-row flex-wrap justify-between w-full babybear:flex-column mamabear:py-8 mamabear:px-0 papabear:py-8 papabear:px-0" data-test-id="product-cta">
+      
+    <section class="tile-module section py-section flex-wrap babybear:gap-6">
+      
+    <div class="flex flex-grow mr-2 self-start flex-col last:mr-0">
+      <img class="flex-shrink-0 xs:mr-[72px] mb-2 h-32 w-32" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/43h6n82li4xu0q23s8jqizk6j" alt>
+      <div class="max-w-56 my-auto babybear:w-full">
+        <h2 class="header">
+          도움이 될 사람과 1촌 맺기
+        </h2>
+
+<!---->
+          <div class="mt-4 babybear:mt-3">
+            
+          
+          
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-secondary" data-tracking-control-name="homepage-basic" data-tracking-will-navigate href="https://kr.linkedin.com/pub/dir/+/+?trk=homepage-basic">
+          
+            아는 사람 찾기
+          
+        </a>
+  
+        
+        
+          </div>
+      </div>
+    </div>
+  
+
+        
+    <div class="flex flex-grow mr-2 self-start flex-col last:mr-0">
+      <img class="flex-shrink-0 xs:mr-[72px] mb-2 h-32 w-32" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/1dhh8rr3wohexkaya6jhn2y8j" alt>
+      <div class="max-w-56 my-auto babybear:w-full">
+        <h2 class="header">
+          실력 키우기
+        </h2>
+
+<!---->
+          <div class="mt-4 babybear:mt-3">
+            
+            
+          
+    
+    
+    
+      
+    <div class="dropdown-to-modal learning-cta__dropdown-modal">
+        
+
+    
+
+    <div class="collapsible-dropdown flex items-center relative hyphens-auto">
+          
+            
+          <button class="dropdown-to-modal__button collapsible-dropdown__button btn-md btn-tertiary cursor-pointer
+              bg-white flex h-auto items-center justify-between w-[360px] container-lined py-2 pr-1.5 pl-2 babybear:w-full" aria-expanded="false" data-tracking-control-name="homepage-basic_learning-cta">
+            <span class="body">배우려는 분야 선택</span>
+            <icon aria-hidden="true" class="w-3 h-3 ml-1" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/7asbl4deqijhoy3z2ivveispv"></icon>
+          </button>
+        
+          
+
+        <div class="collapsible-dropdown__list hidden container-raised absolute w-auto overflow-y-auto flex-col items-stretch z-[9999] bottom-auto top-[100%]" tabindex="-1">
+          
+            
+          <ul class="w-[358px] overflow-scroll mt-0.5 pb-2
+              max-h-[380px]">
+                <li aria-label="다양성, 형평성, 포용성(DEI) 10+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/27e1b601-9e8f-3c6c-8577-cf4075634a63?trk=homepage-basic_learning-cta">
+                    <span class="text-md">다양성, 형평성, 포용성(DEI)</span>
+                      <span class="text-sm !font-regular">
+                        10+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="리더십 및 관리 70+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/be245444-19be-3195-99b4-d7116e0ea9e1?trk=homepage-basic_learning-cta">
+                    <span class="text-md">리더십 및 관리</span>
+                      <span class="text-sm !font-regular">
+                        70+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="마케팅 0+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/cc4844a8-7a64-33a0-8c16-dccbcea5ea1f?trk=homepage-basic_learning-cta">
+                    <span class="text-md">마케팅</span>
+                      <span class="text-sm !font-regular">
+                        0+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="비즈니스 분석 및 전략 40+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/172e70ff-9cdc-38d5-b1b7-74b65369feb0?trk=homepage-basic_learning-cta">
+                    <span class="text-md">비즈니스 분석 및 전략</span>
+                      <span class="text-sm !font-regular">
+                        40+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="비즈니스 소프트웨어 및 도구 10+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/e53b27f2-fa08-3ed6-8eb3-2e083bc35d10?trk=homepage-basic_learning-cta">
+                    <span class="text-md">비즈니스 소프트웨어 및 도구</span>
+                      <span class="text-sm !font-regular">
+                        10+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="비즈니스용 인공지능 10+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/172e70ff-9cdc-38d5-b1b7-74b65369feb0-26221935?trk=homepage-basic_learning-cta">
+                    <span class="text-md">비즈니스용 인공지능</span>
+                      <span class="text-sm !font-regular">
+                        10+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="영업 10+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/f44049fc-5faa-32ed-888b-d23a1a677954?trk=homepage-basic_learning-cta">
+                    <span class="text-md">영업</span>
+                      <span class="text-sm !font-regular">
+                        10+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="인적 자원 10+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/59603471-ee2c-3cda-8e98-cdeec3b5156a?trk=homepage-basic_learning-cta">
+                    <span class="text-md">인적 자원</span>
+                      <span class="text-sm !font-regular">
+                        10+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="재무 및 회계 0+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/bf1498c0-fe9a-3758-b244-d82c1da2237f?trk=homepage-basic_learning-cta">
+                    <span class="text-md">재무 및 회계</span>
+                      <span class="text-sm !font-regular">
+                        0+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="전문성 개발 90+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/7b44d3e2-cf6b-3cfd-8448-22e6250a0812-19017135?trk=homepage-basic_learning-cta">
+                    <span class="text-md">전문성 개발</span>
+                      <span class="text-sm !font-regular">
+                        90+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="커리어 개발 10+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/1fc73b48-8955-38ad-8624-f614b96965a5?trk=homepage-basic_learning-cta">
+                    <span class="text-md">커리어 개발</span>
+                      <span class="text-sm !font-regular">
+                        10+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="프로젝트 관리 20+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/ec674831-4a97-3cb6-b313-a4830985f907?trk=homepage-basic_learning-cta">
+                    <span class="text-md">프로젝트 관리</span>
+                      <span class="text-sm !font-regular">
+                        20+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="훈련 및 교육 0+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/976592e1-6d4e-371d-9e73-a7e17831533f?trk=homepage-basic_learning-cta">
+                    <span class="text-md">훈련 및 교육</span>
+                      <span class="text-sm !font-regular">
+                        0+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="데이터 과학 20+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/a3c60921-5984-31a6-a7f7-b3ca5729d402?trk=homepage-basic_learning-cta">
+                    <span class="text-md">데이터 과학</span>
+                      <span class="text-sm !font-regular">
+                        20+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="소프트웨어 개발 20+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/4341fbbb-d613-3775-9ee2-3d9c5c09501a?trk=homepage-basic_learning-cta">
+                    <span class="text-md">소프트웨어 개발</span>
+                      <span class="text-sm !font-regular">
+                        20+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="웹 개발 0+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/fb79eea1-af16-37fa-88a1-fbf2b9a740bd?trk=homepage-basic_learning-cta">
+                    <span class="text-md">웹 개발</span>
+                      <span class="text-sm !font-regular">
+                        0+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="인공지능(AI) 0+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/5303ab72-acff-3596-969b-ea3875e15edf?trk=homepage-basic_learning-cta">
+                    <span class="text-md">인공지능(AI)</span>
+                      <span class="text-sm !font-regular">
+                        0+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="클라우드 컴퓨팅 10+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/5f4cc635-37e5-3408-9e46-1d03296262c6?trk=homepage-basic_learning-cta">
+                    <span class="text-md">클라우드 컴퓨팅</span>
+                      <span class="text-sm !font-regular">
+                        10+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="AEC 0+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/aec?trk=homepage-basic_learning-cta">
+                    <span class="text-md">AEC</span>
+                      <span class="text-sm !font-regular">
+                        0+ courses
+                      </span>
+                  </a>
+                </li>
+                <li aria-label="그래픽 디자인 0+ courses" class="mt-2 mr-1 mb-0 ml-2" role="menuitem">
+                  <a class="flex flex-col link-styled" data-tracking-control-name="homepage-basic_learning-cta" data-tracking-will-navigate href="https://kr.linkedin.com/learning/topics/40816e62-0cf6-3772-8fc0-4446cb18bfe2?trk=homepage-basic_learning-cta">
+                    <span class="text-md">그래픽 디자인</span>
+                      <span class="text-sm !font-regular">
+                        0+ courses
+                      </span>
+                  </a>
+                </li>
+          </ul>
+        
+          
+        </div>
+
+<!---->    </div>
+  
+    </div>
+  
+  
+        
+          
+          </div>
+      </div>
+    </div>
+  
+    </section>
+  
+    </div>
+  
+              </section>
+              <section class="section min-h-section py-section">
+                
+
+    
+    
+    
+    
+    
+
+    <div class="flex flex-row flex-nowrap h-[720px] w-full after:full-color-bkg after:content-[''] after:bg-color-background-canvas papabear:after:brand-discovery-bkg mamabear:after:brand-discovery-bkg babybear:h-full" data-impression-id="homepage-basic_brand-discovery" data-test-id="brand-discovery">
+      
+
+    
+    
+    
+
+    <div class="block h-auto min-w-[50%] w-[50%] babybear:w-full my-auto pr-6 babybear:pr-0" data-test-id data-impression-id="homepage-basic_brand-discovery_intent-module">
+        
+          <h2 class="header !text-warm-red-70 mb-1">
+            LinkedIn을 이용하는 이유는?
+          </h2>
+          <p class="body mb-4 babybear:mb-3">
+            일자리 기회 찾기
+          </p>
+        
+      <div class="flex flex-col">
+        <ul>
+          
+  <li class="mb-2">
+    <a class="flex justify-between items-center min-h-8 w-column babybear:w-full
+            bg-color-background-canvas-mobile p-2 link:body
+            hover:bg-[#e1dad0] hover:link:text-color-text hover:link:no-underline" data-tracking-control-name="homepage-basic_brand-discovery_intent-module-firstBtn" data-tracking-will-navigate href="https://kr.linkedin.com/pub/dir/+/+?trk=homepage-basic_brand-discovery_intent-module-firstBtn">
+      
+            동료나 동창 찾기
+          
+      <icon aria-hidden="true" class="ml-2 flip-rtl" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3l4csbmaa6sv4gtsledhbu9lq"></icon>
+    </a>
+  </li>
+
+          
+  <li class="mb-2">
+    <a class="flex justify-between items-center min-h-8 w-column babybear:w-full
+            bg-color-background-canvas-mobile p-2 link:body
+            hover:bg-[#e1dad0] hover:link:text-color-text hover:link:no-underline" data-tracking-control-name="homepage-basic_brand-discovery_intent-module-secondBtn" data-tracking-will-navigate href="https://kr.linkedin.com/jobs/jobs-in-브라질?trk=homepage-basic_brand-discovery_intent-module-secondBtn">
+      
+            취업 기회 찾기
+          
+      <icon aria-hidden="true" class="ml-2 flip-rtl" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3l4csbmaa6sv4gtsledhbu9lq"></icon>
+    </a>
+  </li>
+
+          
+  <li class="mb-2">
+    <a class="flex justify-between items-center min-h-8 w-column babybear:w-full
+            bg-color-background-canvas-mobile p-2 link:body
+            hover:bg-[#e1dad0] hover:link:text-color-text hover:link:no-underline" data-tracking-control-name="homepage-basic_brand-discovery_intent-module-thirdBtn" data-tracking-will-navigate href="https://kr.linkedin.com/learning/search?trk=homepage-basic_brand-discovery_intent-module-thirdBtn">
+      
+            온라인클래스 듣기
+          
+      <icon aria-hidden="true" class="ml-2 flip-rtl" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3l4csbmaa6sv4gtsledhbu9lq"></icon>
+    </a>
+  </li>
+
+        </ul>
+      </div>
+    </div>
+  
+
+        <img class="h-[840px] self-center ml-12 flip-rtl babybear:hidden" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/3sl7tbu5h1kpaq25djohtnkmu" alt="LinkedIn을 이용하는 이유는?">
+    </div>
+  
+              </section>
+<!---->            
+    <section class="section min-h-section py-section">
+      <div data-test-id="bottom-cta-section" class="w-full self-start lazy-load after-lazy-bg-join after:content-[''] after:full-color-bkg after:bg-repeat-x after:bg-bottom after:bg-full-y babybear:h-full babybear:p-0 babybear:after:content-[none]">
+        <h2 class="header papabear:!text-display-lg mt-6 mb-2 keep-all babybear:mt-0 babybear:mb-3" id="bottom-cta-section__header">
+          동문과 동료들이 모여 있는 LinkedIn에 가입하세요.
+        </h2>
+
+<!---->
+        
+                
+        <a class="btn-md babybear:btn-sm mb-1.5 mr-1 flex items-center w-fit float-left btn-primary" data-tracking-control-name="homepage-basic_join-cta" data-tracking-will-navigate href="https://www.linkedin.com/signup?_l=ko&amp;trk=homepage-basic_join-cta" aria-describedby="bottom-cta-section__header">
+          
+                  시작
+                
+        </a>
+  
+              
+      </div>
+    </section>
+  
+            
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <section class="directory section w-full flex justify-between pt-3 pb-3 after:full-color-bkg after:content-[''] after:bg-color-background-canvas babybear:flex-col babybear:max-w-full babybear:py-3 babybear:px-mobile-container-padding" data-impression-id="homepage-basic_directory" data-test-id="directory-section">
+      <icon class="flex self-start h-[21px] w-[84px] text-blue-70" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/b0sinzszgdrksde0dzc0leckm"></icon>
+      <div class="w-full flex justify-end pl-2 babybear:flex-col babybear:flex-wrap babybear:mt-3 babybear:pl-0">
+          <div class="w-full max-w-[192px] mr-3">
+            <h3 class="font-sans text-md font-bold text-color-text leading-regular mb-1 babybear:max-w-full babybear:my-1">
+              일반
+            </h3>
+            <ul>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/signup?_l=ko&amp;trk=guest_homepage-basic_directory" data-tracking-control-name="guest_homepage-basic_directory" data-tracking-will-navigate>
+                      회원가입
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/help/linkedin?lang=ko&amp;trk=homepage-basic_directory_helpCenterUrl" data-tracking-control-name="homepage-basic_directory_helpCenterUrl" data-tracking-will-navigate>
+                      고객센터
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://about.linkedin.com/?trk=homepage-basic_directory_aboutUrl" data-tracking-control-name="homepage-basic_directory_aboutUrl" data-tracking-will-navigate>
+                      소개
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://press.linkedin.com/?trk=homepage-basic_directory_pressMicrositeUrl" data-tracking-control-name="homepage-basic_directory_pressMicrositeUrl" data-tracking-will-navigate>
+                      미디어
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://blog.linkedin.com/?trk=homepage-basic_directory_blogMicrositeUrl" data-tracking-control-name="homepage-basic_directory_blogMicrositeUrl" data-tracking-will-navigate>
+                      블로그
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/company/linkedin/jobs?trk=homepage-basic_directory_careersUrl" data-tracking-control-name="homepage-basic_directory_careersUrl" data-tracking-will-navigate>
+                      채용
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://developer.linkedin.com/?trk=homepage-basic_directory_developerMicrositeUrl" data-tracking-control-name="homepage-basic_directory_developerMicrositeUrl" data-tracking-will-navigate>
+                      개발자
+                    </a>
+                  </li>
+            </ul>
+          </div>
+          <div class="w-full max-w-[192px] mr-3">
+            <h3 class="font-sans text-md font-bold text-color-text leading-regular mb-1 babybear:max-w-full babybear:my-1">
+              LinkedIn 검색
+            </h3>
+            <ul>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/learning/?trk=homepage-basic_directory_learningHomeUrl" data-tracking-control-name="homepage-basic_directory_learningHomeUrl" data-tracking-will-navigate>
+                      온라인클래스
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/jobs?trk=homepage-basic_directory_jobsHomeUrl" data-tracking-control-name="homepage-basic_directory_jobsHomeUrl" data-tracking-will-navigate>
+                      채용공고
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/games?trk=homepage-basic_directory_gameHubUrl" data-tracking-control-name="homepage-basic_directory_gameHubUrl" data-tracking-will-navigate>
+                      게임
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://members.linkedin.com/apps?trk=homepage-basic_directory_mobileMicrositeUrl" data-tracking-control-name="homepage-basic_directory_mobileMicrositeUrl" data-tracking-will-navigate>
+                      모바일
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/services?trk=homepage-basic_directory_servicesHomeUrl" data-tracking-control-name="homepage-basic_directory_servicesHomeUrl" data-tracking-will-navigate>
+                      서비스
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/products?trk=homepage-basic_directory_productsHomeUrl" data-tracking-control-name="homepage-basic_directory_productsHomeUrl" data-tracking-will-navigate>
+                      제품
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/hubs/top-companies/?trk=homepage-basic_directory_topCompaniesHubHomeUrl" data-tracking-control-name="homepage-basic_directory_topCompaniesHubHomeUrl" data-tracking-will-navigate>
+                      탑 회사 허브
+                    </a>
+                  </li>
+            </ul>
+          </div>
+          <div class="w-full max-w-[192px] mr-3">
+            <h3 class="font-sans text-md font-bold text-color-text leading-regular mb-1 babybear:max-w-full babybear:my-1">
+              비즈니스솔루션
+            </h3>
+            <ul>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://business.linkedin.com/talent-solutions?src=li-footer&amp;utm_source=linkedin&amp;utm_medium=footer&amp;trk=homepage-basic_directory_talentSolutionsMicrositeUrl" data-tracking-control-name="homepage-basic_directory_talentSolutionsMicrositeUrl" data-tracking-will-navigate>
+                      인재
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://business.linkedin.com/marketing-solutions?src=li-footer&amp;utm_source=linkedin&amp;utm_medium=footer&amp;trk=homepage-basic_directory_marketingSolutionsMicrositeUrl" data-tracking-control-name="homepage-basic_directory_marketingSolutionsMicrositeUrl" data-tracking-will-navigate>
+                      마케팅
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://business.linkedin.com/sales-solutions?src=li-footer&amp;utm_source=linkedin&amp;utm_medium=footer&amp;trk=homepage-basic_directory_salesSolutionsMicrositeUrl" data-tracking-control-name="homepage-basic_directory_salesSolutionsMicrositeUrl" data-tracking-will-navigate>
+                      영업
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://learning.linkedin.com/?src=li-footer&amp;trk=homepage-basic_directory_learningMicrositeUrl" data-tracking-control-name="homepage-basic_directory_learningMicrositeUrl" data-tracking-will-navigate>
+                      온라인클래스
+                    </a>
+                  </li>
+            </ul>
+          </div>
+          <div class="w-full max-w-[192px] mr-3">
+            <h3 class="font-sans text-md font-bold text-color-text leading-regular mb-1 babybear:max-w-full babybear:my-1">
+              전체목록
+            </h3>
+            <ul>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/directory/people?trk=homepage-basic_directory_peopleDirectoryUrl" data-tracking-control-name="homepage-basic_directory_peopleDirectoryUrl" data-tracking-will-navigate>
+                      회원
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/directory/jobs?trk=homepage-basic_directory_jobSearchDirectoryUrl" data-tracking-control-name="homepage-basic_directory_jobSearchDirectoryUrl" data-tracking-will-navigate>
+                      채용공고
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/directory/companies?trk=homepage-basic_directory_companyDirectoryUrl" data-tracking-control-name="homepage-basic_directory_companyDirectoryUrl" data-tracking-will-navigate>
+                      회사
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/directory/featured?trk=homepage-basic_directory_featuredDirectoryUrl" data-tracking-control-name="homepage-basic_directory_featuredDirectoryUrl" data-tracking-will-navigate>
+                      스페셜
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/directory/learning?trk=homepage-basic_directory_learningDirectoryUrl" data-tracking-control-name="homepage-basic_directory_learningDirectoryUrl" data-tracking-will-navigate>
+                      온라인클래스
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/directory/posts?trk=homepage-basic_directory_postsDirectoryUrl" data-tracking-control-name="homepage-basic_directory_postsDirectoryUrl" data-tracking-will-navigate>
+                      업데이트
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/directory/articles?trk=homepage-basic_directory_articlesDirectoryUrl" data-tracking-control-name="homepage-basic_directory_articlesDirectoryUrl" data-tracking-will-navigate>
+                      글
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/directory/schools?trk=homepage-basic_directory_schoolsDirectoryUrl" data-tracking-control-name="homepage-basic_directory_schoolsDirectoryUrl" data-tracking-will-navigate>
+                      학교
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/directory/news?trk=homepage-basic_directory_newsDirectoryUrl" data-tracking-control-name="homepage-basic_directory_newsDirectoryUrl" data-tracking-will-navigate>
+                      뉴스
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/directory/newsletters?trk=homepage-basic_directory_newslettersDirectoryUrl" data-tracking-control-name="homepage-basic_directory_newslettersDirectoryUrl" data-tracking-will-navigate>
+                      뉴스레터
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/directory/services?trk=homepage-basic_directory_servicesDirectoryUrl" data-tracking-control-name="homepage-basic_directory_servicesDirectoryUrl" data-tracking-will-navigate>
+                      서비스
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/directory/products?trk=homepage-basic_directory_productsDirectoryUrl" data-tracking-control-name="homepage-basic_directory_productsDirectoryUrl" data-tracking-will-navigate>
+                      제품
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://www.linkedin.com/directory/advice?trk=homepage-basic_directory_adviceDirectoryUrl" data-tracking-control-name="homepage-basic_directory_adviceDirectoryUrl" data-tracking-will-navigate>
+                      조언
+                    </a>
+                  </li>
+                  <li class="babybear:my-1 babybear:max-w-full">
+                    <a class="font-sans text-sm text-black-a60 font-bold leading-regular visited:text-black-a60 hover:visited:text-blue-70" href="https://kr.linkedin.com/directory/people-search?trk=homepage-basic_directory_peopleSearchDirectoryUrl" data-tracking-control-name="homepage-basic_directory_peopleSearchDirectoryUrl" data-tracking-will-navigate>
+                      사람 검색
+                    </a>
+                  </li>
+            </ul>
+          </div>
+      </div>
+    </section>
+  
+        </main>
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    <footer class="li-footer bg-transparent w-full ">
+      <ul class="li-footer__list flex flex-wrap flex-row items-start justify-start w-full h-auto min-h-[50px] my-[0px] mx-auto py-3 px-2 papabear:p-0">
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        
+          <span class="sr-only">LinkedIn</span>
+          <icon class="li-footer__copy-logo text-color-logo-brand-alt inline-block self-center h-[14px] w-[56px] mr-1" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/5mebydpuuijm3uhv1q375inqh"></icon>
+          <span class="li-footer__copy-text flex items-center">© 2025</span>
+        
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://about.linkedin.com?trk=homepage-basic_footer-about" data-tracking-control-name="homepage-basic_footer-about" data-tracking-will-navigate>
+          
+          정보
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/accessibility?trk=homepage-basic_footer-accessibility" data-tracking-control-name="homepage-basic_footer-accessibility" data-tracking-will-navigate>
+          
+          웹접근성
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/user-agreement?trk=homepage-basic_footer-user-agreement" data-tracking-control-name="homepage-basic_footer-user-agreement" data-tracking-will-navigate>
+          
+          사용자약관
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/privacy-policy?trk=homepage-basic_footer-privacy-policy" data-tracking-control-name="homepage-basic_footer-privacy-policy" data-tracking-will-navigate>
+          
+          개인정보 처리방침
+        
+        </a>
+  </li>
+
+<!---->        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/cookie-policy?trk=homepage-basic_footer-cookie-policy" data-tracking-control-name="homepage-basic_footer-cookie-policy" data-tracking-will-navigate>
+          
+          쿠키정책
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/copyright-policy?trk=homepage-basic_footer-copyright-policy" data-tracking-control-name="homepage-basic_footer-copyright-policy" data-tracking-will-navigate>
+          
+          저작권정책
+        
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://brand.linkedin.com/policies?trk=homepage-basic_footer-brand-policy" data-tracking-control-name="homepage-basic_footer-brand-policy" data-tracking-will-navigate>
+          
+          브랜드정책
+        
+        </a>
+  </li>
+
+          
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/psettings/guest-controls?trk=homepage-basic_footer-guest-controls" data-tracking-control-name="homepage-basic_footer-guest-controls" data-tracking-will-navigate>
+          
+            비회원 설정
+          
+        </a>
+  </li>
+
+        
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        <a class="li-footer__item-link flex items-center font-sans text-xs font-bold text-color-text-solid-secondary hover:text-color-link-hover focus:text-color-link-focus" href="https://www.linkedin.com/legal/professional-community-policies?trk=homepage-basic_footer-community-guide" data-tracking-control-name="homepage-basic_footer-community-guide" data-tracking-will-navigate>
+          
+          커뮤니티정책
+        
+        </a>
+  </li>
+
+        
+<!---->
+          
+          
+  <li class="li-footer__item font-sans text-xs text-color-text-solid-secondary flex flex-shrink-0 justify-start p-1 relative w-50% papabear:justify-center papabear:w-auto">
+        
+              
+
+    
+    
+
+    
+
+    
+
+    <div class="collapsible-dropdown collapsible-dropdown--footer collapsible-dropdown--up flex items-center relative hyphens-auto language-selector z-2">
+<!---->
+        <ul class="collapsible-dropdown__list hidden container-raised absolute w-auto overflow-y-auto flex-col items-stretch z-[9999] bottom-[100%] top-auto" role="menu" tabindex="-1">
+          
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="아랍어(العربية)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ar_AE" data-locale="ar_AE" role="menuitem" lang="ar_AE">
+                아랍어(العربية)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="벵골어(বাংলা)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-bn_IN" data-locale="bn_IN" role="menuitem" lang="bn_IN">
+                벵골어(বাংলা)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="체코어(Čeština)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-cs_CZ" data-locale="cs_CZ" role="menuitem" lang="cs_CZ">
+                체코어(Čeština)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="덴마크어(Dansk)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-da_DK" data-locale="da_DK" role="menuitem" lang="da_DK">
+                덴마크어(Dansk)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="독일어(Deutsch)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-de_DE" data-locale="de_DE" role="menuitem" lang="de_DE">
+                독일어(Deutsch)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="그리스어(Ελληνικά)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-el_GR" data-locale="el_GR" role="menuitem" lang="el_GR">
+                그리스어(Ελληνικά)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="영어(English)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-en_US" data-locale="en_US" role="menuitem" lang="en_US">
+                영어(English)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="스페인어(Español)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-es_ES" data-locale="es_ES" role="menuitem" lang="es_ES">
+                스페인어(Español)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="페르시아어(فارسی)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-fa_IR" data-locale="fa_IR" role="menuitem" lang="fa_IR">
+                페르시아어(فارسی)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="핀란드어(Suomi)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-fi_FI" data-locale="fi_FI" role="menuitem" lang="fi_FI">
+                핀란드어(Suomi)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="프랑스어(Français)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-fr_FR" data-locale="fr_FR" role="menuitem" lang="fr_FR">
+                프랑스어(Français)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="힌디어(हिंदी)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-hi_IN" data-locale="hi_IN" role="menuitem" lang="hi_IN">
+                힌디어(हिंदी)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="헝가리어(Magyar)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-hu_HU" data-locale="hu_HU" role="menuitem" lang="hu_HU">
+                헝가리어(Magyar)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="인도네시아어(Bahasa Indonesia)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-in_ID" data-locale="in_ID" role="menuitem" lang="in_ID">
+                인도네시아어(Bahasa Indonesia)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="이탈리아어(Italiano)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-it_IT" data-locale="it_IT" role="menuitem" lang="it_IT">
+                이탈리아어(Italiano)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="히브리어(עברית)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-iw_IL" data-locale="iw_IL" role="menuitem" lang="iw_IL">
+                히브리어(עברית)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="일본어(日本語)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ja_JP" data-locale="ja_JP" role="menuitem" lang="ja_JP">
+                일본어(日本語)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="한국어(Korean) 선택됨" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link--selected" data-tracking-control-name="language-selector-ko_KR" data-locale="ko_KR" role="menuitem" lang="ko_KR">
+                <strong>한국어(Korean)</strong>
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="마라티어(मराठी)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-mr_IN" data-locale="mr_IN" role="menuitem" lang="mr_IN">
+                마라티어(मराठी)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="말레이시아어(Bahasa Malaysia)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ms_MY" data-locale="ms_MY" role="menuitem" lang="ms_MY">
+                말레이시아어(Bahasa Malaysia)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="네덜란드어(Nederlands)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-nl_NL" data-locale="nl_NL" role="menuitem" lang="nl_NL">
+                네덜란드어(Nederlands)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="노르웨이어(Norsk)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-no_NO" data-locale="no_NO" role="menuitem" lang="no_NO">
+                노르웨이어(Norsk)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="펀자브어(ਪੰਜਾਬੀ)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pa_IN" data-locale="pa_IN" role="menuitem" lang="pa_IN">
+                펀자브어(ਪੰਜਾਬੀ)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="폴란드어(Polski)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pl_PL" data-locale="pl_PL" role="menuitem" lang="pl_PL">
+                폴란드어(Polski)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="포르투갈어(Português)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-pt_BR" data-locale="pt_BR" role="menuitem" lang="pt_BR">
+                포르투갈어(Português)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="루마니아어(Română)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ro_RO" data-locale="ro_RO" role="menuitem" lang="ro_RO">
+                루마니아어(Română)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="러시아어(Русский)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-ru_RU" data-locale="ru_RU" role="menuitem" lang="ru_RU">
+                러시아어(Русский)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="스웨덴어(Svenska)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-sv_SE" data-locale="sv_SE" role="menuitem" lang="sv_SE">
+                스웨덴어(Svenska)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="텔루구어(తెలుగు)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-te_IN" data-locale="te_IN" role="menuitem" lang="te_IN">
+                텔루구어(తెలుగు)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="태국어(ภาษาไทย)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-th_TH" data-locale="th_TH" role="menuitem" lang="th_TH">
+                태국어(ภาษาไทย)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="필리핀어(Tagalog)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-tl_PH" data-locale="tl_PH" role="menuitem" lang="tl_PH">
+                필리핀어(Tagalog)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="터키어(Türkçe)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-tr_TR" data-locale="tr_TR" role="menuitem" lang="tr_TR">
+                터키어(Türkçe)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="우크라이나어(Українська)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-uk_UA" data-locale="uk_UA" role="menuitem" lang="uk_UA">
+                우크라이나어(Українська)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="베트남어(Tiếng Việt)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-vi_VN" data-locale="vi_VN" role="menuitem" lang="vi_VN">
+                베트남어(Tiếng Việt)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="중국어 간체(简体中文)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-zh_CN" data-locale="zh_CN" role="menuitem" lang="zh_CN">
+                중국어 간체(简体中文)
+            </button>
+          </li>
+          <li class="language-selector__item" role="presentation">
+            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->
+            <button aria-label="중국어 번체(正體中文)" class="font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark
+                language-selector__link !font-regular" data-tracking-control-name="language-selector-zh_TW" data-locale="zh_TW" role="menuitem" lang="zh_TW">
+                중국어 번체(正體中文)
+            </button>
+          </li>
+<!---->      
+        </ul>
+
+          
+        <button class="language-selector__button select-none relative pr-2 font-sans text-xs font-bold text-color-text-low-emphasis hover:text-color-link-hover hover:cursor-pointer focus:text-color-link-focus focus:outline-dotted focus:outline-1" aria-expanded="false" data-tracking-control-name="footer-lang-dropdown_trigger">
+          <span class="language-selector__label-text mr-0.5 break-words">
+            언어
+          </span>
+          <icon class="language-selector__label-chevron w-2 h-2 absolute top-0 right-0" data-delayed-url="https://static.licdn.com/aero-v1/sc/h/cyolgscd0imw2ldqppkrb84vo"></icon>
+        </button>
+      
+    </div>
+  
+  
+          
+  </li>
+
+      </ul>
+
+<!---->    </footer>
+  
+          <script src="https://static.licdn.com/aero-v1/sc/h/bomhiirxve6rcf6g3x4bf32cn" async defer></script>
+          <script data-delayed-url="https://static.licdn.com/aero-v1/sc/h/51t74mlo1ty7vakn3a80a9jcp" data-module-id="apfc-lib"></script>
+          <code id="apfcLix" style="display: none"><!--true--></code>
+<!---->      
+
+            <script src="https://static.licdn.com/aero-v1/sc/h/cnxivhx5op0cwgxozgzlpf16m" async></script>
+<!---->          
+          
+<!----><!---->  
+      </body>
+    </html>
+  
+  

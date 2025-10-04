@@ -2,9 +2,11 @@ import os
 import shutil
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter, UnidentifiedImageError
 from bs4 import BeautifulSoup
+from pathlib import Path
 import cairosvg
 import random
 import numpy as np
+import io
 from adding_15_features import add_features_now
 # from download_webpage import starting_here
 import time
@@ -156,20 +158,51 @@ def add_rotation_grey_colored_mesh(input_image_path, output_image_path, watermar
 
 # Function to add Gaussian noise and JPEG compression
 def add_gaussian_noise_jpeg_compression(input_image_path, output_image_path, watermark_text=None):
+    """Aplica ruído gaussiano e compressão JPEG com tratamento de alfa. SEM usar np_img antes de definir."""
     try:
-        img = Image.fromarray(np_img).convert('RGBA')  # remove o DeprecationWarning
+        img = Image.open(input_image_path)
     except UnidentifiedImageError:
-        print(f"Cannot identify image file: {input_image_path}")
-        return
+        # Arquivo não suportado pelo Pillow (ex.: SVG) — deixe para quem chama decidir pular
+        raise
 
-    # Add Gaussian Noise to the image
-    np_img = np.array(img)
-    noise = np.random.normal(1, 0.5, np_img.shape)
-    np_img = np.clip(np_img + noise, 0, 255).astype(np.uint8)
-    img = Image.fromarray(np_img, 'RGBA')
+    # Trabalhe em RGBA para preservar alfa, se existir
+    img = img.convert("RGBA")
+    arr = np.array(img)  # (H,W,4) ou (H,W,3) após RGBA
+    rgb = arr[..., :3]
+    alpha = arr[..., 3] if arr.shape[2] == 4 else None
 
-    img = img.convert("RGB")
-    img.save(output_image_path, "PNG")
+    # Ruído
+    sigma = random.uniform(2, 12)
+    noise = np.random.normal(0, sigma, rgb.shape).astype(np.float32)
+    noisy = np.clip(rgb.astype(np.float32) + noise, 0, 255).astype(np.uint8)
+    noisy_img = Image.fromarray(noisy, mode="RGB")
+
+    # Compressão JPEG em memória
+    buf = io.BytesIO()
+    quality = random.randint(40, 85)
+    noisy_img.save(buf, format="JPEG", quality=quality, optimize=True)
+    buf.seek(0)
+    comp = Image.open(buf).convert("RGB")
+
+    # Reanexa alfa se havia
+    if alpha is not None:
+        comp = comp.convert("RGBA")
+        comp.putalpha(Image.fromarray(alpha))
+
+    # Marca d’água simples (opcional)
+    if watermark_text:
+        draw = ImageDraw.Draw(comp)
+        W, H = comp.size
+        try:
+            font = ImageFont.load_default()
+        except Exception:
+            font = None
+        w, h = draw.textlength(watermark_text, font=font), 12
+        x = max(4, int(W - w - 8))
+        y = max(4, H - h - 6)
+        draw.text((x, y), watermark_text, font=font)
+
+    comp.save(output_image_path)
 
 
 # Function to handle SVG files
@@ -221,29 +254,49 @@ def update_html_image_sources(html_file_path, local_resources_folder):
         f.write(str(soup))
 
 
-def process_images(local_resources_folder):
-    for root, _, files in os.walk(local_resources_folder):
-        for filename in files:
-            name_lower = filename.lower()
-            if not name_lower.endswith(('.png', '.svg', '.jpg', '.jpeg', '.webp')):
-                continue
-            if '_modified' in name_lower:   # <-- não reprocessar gerados
-                continue
+def process_images(local_resources_path):
+    """
+    Varre imagens raster e aplica uma transformação aleatória.
+    **Pula SVGs** e quaisquer formatos não suportados pelo Pillow.
+    Nunca interrompe o processamento por causa de 1 arquivo.
+    """
+    local_resources_path = Path(local_resources_path)
+    if not local_resources_path.exists():
+        print(f"[skip] pasta não existe: {local_resources_path}")
+        return
 
-            input_image_path = os.path.join(root, filename)
-            base, _ = os.path.splitext(filename)
-            output_image_path = os.path.join(root, f"{base}_modified.png")
+    # Extensões suportadas pelo Pillow (raster). SVG será ignorado.
+    raster_exts = {".png", ".jpg", ".jpeg", ".webp", ".bmp", ".gif"}
 
-            if name_lower.endswith('.svg'):
-                handle_svg(input_image_path, output_image_path, watermark_text="PhishOracle")
-            else:
-                random.choice([
-                    add_watermark_at_bottom_right,
-                    add_watermark_diagonally,
-                    add_rotation_brightness_gaussian_blur,
-                    add_rotation_grey_colored_mesh,
-                    add_gaussian_noise_jpeg_compression
-                ])(input_image_path, output_image_path, watermark_text="PhishOracle")
+    transforms = [
+        add_gaussian_noise_jpeg_compression,
+        # se tiver outras funções suas (blur, sharpen etc), adicione aqui:
+        # add_blur, add_watermark_only, ...
+    ]
+
+    for p in local_resources_path.iterdir():
+        if not p.is_file():
+            continue
+        ext = p.suffix.lower()
+
+        if ext == ".svg":
+            print(f"[skip] SVG (sem rasterizar no Windows): {p.name}")
+            continue
+
+        if ext not in raster_exts:
+            # Arquivos de script, css, fontes etc.
+            continue
+
+        # Define saída temporária ao lado do arquivo
+        out = p.with_name(f"phish_{p.name}")
+        try:
+            random.choice(transforms)(str(p), str(out), watermark_text="PhishOracle")
+            # Se seu código depois faz o replace no HTML para apontar pra 'phish_*',
+            # mantenha. Se prefere sobrescrever o original, use: p.write_bytes(out.read_bytes()); out.unlink()
+        except UnidentifiedImageError:
+            print(f"[warn] formato não suportado por Pillow: {p.name}")
+        except Exception as e:
+            print(f"[warn] falha ao processar {p.name}: {e}")
 
 # Function to find the parent folder of 'local_resources' and the corresponding HTML file
 def find_target_html_and_local_resources(folder_path):

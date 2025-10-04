@@ -1,0 +1,3281 @@
+
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <meta charset="UTF-8"/>
+    <meta name="languageCode" content="zh"/>
+    <meta name="countryCode" content="cn"/>
+    <meta name="searchTitle" content="IBM 中国官方网站丨全球知名的人工智能解决方案和云平台公司"/>
+    <meta name="focusArea" content="Cross IBM SDRs"/>
+      <meta name='primaryTaxonomyEn' content="IBM"/>
+    <meta name="siteSection" content="home"/>
+    <title>IBM 中国官方网站丨全球知名的人工智能解决方案和云平台公司</title>
+      <script defer="defer" type="text/javascript" src="https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js" data-routing="program=131558,environment=1281329,tier=publish"></script>
+<link rel="icon" sizes="16x16" href="/content/dam/adobe-cms/default-images/icon-16x16.png"/>
+      <link rel="icon" sizes="32x32" href="/content/dam/adobe-cms/default-images/icon-32x32.png"/>
+      <link rel="icon" sizes="150x150" href="/content/dam/adobe-cms/default-images/icon-150x150.png"/>
+      <link rel="icon" sizes="192x192" href="/content/dam/adobe-cms/default-images/icon-192x192.png"/>
+      <link rel="icon" sizes="512x512" href="/content/dam/adobe-cms/default-images/icon-512x512.png"/>
+      <link rel="apple-touch-icon" sizes="57x57" href="/content/dam/adobe-cms/default-images/apple-touch-icon-57x57.png"/>
+      <link rel="apple-touch-icon" sizes="76x76" href="/content/dam/adobe-cms/default-images/apple-touch-icon-76x76.png"/>
+      <link rel="apple-touch-icon" sizes="120x120" href="/content/dam/adobe-cms/default-images/apple-touch-icon-120x120.png"/>
+      <link rel="apple-touch-icon" sizes="152x152" href="/content/dam/adobe-cms/default-images/apple-touch-icon-152x152.png"/>
+      <link rel="apple-touch-icon" sizes="180x180" href="/content/dam/adobe-cms/default-images/apple-touch-icon-180x180.png"/>
+
+    
+    <meta name="description" content="一个多世纪以来，IBM 一直是全球技术创新者，不断引领 AI、自动化、混合云解决方案的进步，帮助企业发展壮大。"/>
+    <meta name="template" content="full-width-layout"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="robots" content="index, follow, max-image-preview:large"/>
+    
+    
+      
+      
+      
+      
+      
+    <link rel="canonical" href="https://www.ibm.com/cn-zh"/>
+
+    
+    <link rel="preload" href="/etc.clientlibs/adobe-cms/clientlibs/clientlib-masthead-container.lc-805468542bc3ba0f982c73537e2461af-lc.min.js" as="script">
+
+
+
+    
+
+    
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-smartling-context.lc-d30c41c1c7a4511befbe3e285d76955a-lc.min.js"></script>
+
+
+
+      
+
+      
+      <script type="text/javascript">
+          !function(e, a, n, t) {
+              var i = e.head;
+              if (i) {
+                  if (a) return;
+                  var o = e.createElement("style");
+                  o.id = "alloy-prehiding", o.innerText = n, i.appendChild(o),
+                      setTimeout(function() {
+                          o.parentNode && o.parentNode.removeChild(o)
+                      }, t)
+              }
+          }
+          (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, "body { opacity: 0 !important }", 900);
+      </script>
+      
+      
+<!--      <script type="text/javascript">
+          (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "s52kp7iw7g");
+      </script>-->
+      
+    <style id="prevent-layout-shift-style">
+    c4d-masthead-container:not(:defined) {
+        min-height: 114px; /* Reserve space before it loads */
+        display: block !important; 
+        opacity: 0; /* Hide visually but keep space */
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    c4d-masthead-container:defined {
+        transition: opacity 0.3s ease-in-out;
+        opacity: 1;
+    }
+
+    c4d-leadspace:not(:defined) {
+        display:none;
+    }
+
+    c4d-table-of-contents:not(:defined) {
+        display:none;
+    }
+
+    c4d-link-list:not(:defined) {
+        display:none;
+    }
+</style>
+
+      <script src="https://assets.adobedtm.com/0f2de1d5b89a/565c2aeb0d39/launch-560e54b3e83c.min.js" type="text/javascript" async="async"></script>
+     <script type="text/javascript" async="async">
+	var adobeDataLayer = window.adobeDataLayer || [];
+	</script>
+
+    <script type="text/javascript">
+        window.searchKey = {
+            templateName: 'full\u002Dwidth\u002Dlayout',
+            taxonomylist: 'taxonomy : Brands \/ IBM',
+            L0Tag: 'Topics,Brands,Industries,Geography,Compliance Entities,Products,Events,Computer Languages,Content Format,Series,Content Type,CMaaS Focus Areas,brands,Deployment Types,Product Types,Search Index,Unified Taxonomy,topics_v2,Site Sections,marketing_entities',
+        }
+    </script>
+
+    
+        <link rel="alternate" hreflang="ar-sa" href="https://www.ibm.com/sa-ar"/>
+    
+        <link rel="alternate" hreflang="de-de" href="https://www.ibm.com/de-de"/>
+    
+        <link rel="alternate" hreflang="en-us" href="https://www.ibm.com/"/>
+    
+        <link rel="alternate" hreflang="en-ca" href="https://www.ibm.com/ca-en"/>
+    
+        <link rel="alternate" hreflang="ko-kr" href="https://www.ibm.com/kr-ko"/>
+    
+        <link rel="alternate" hreflang="pt-br" href="https://www.ibm.com/br-pt"/>
+    
+        <link rel="alternate" hreflang="ar-qa" href="https://www.ibm.com/qa-ar"/>
+    
+        <link rel="alternate" hreflang="en-in" href="https://www.ibm.com/in-en"/>
+    
+        <link rel="alternate" hreflang="es-es" href="https://www.ibm.com/es-es"/>
+    
+        <link rel="alternate" hreflang="ar-ae" href="https://www.ibm.com/ae-ar"/>
+    
+        <link rel="alternate" hreflang="zh-cn" href="https://www.ibm.com/cn-zh"/>
+    
+        <link rel="alternate" hreflang="es-mx" href="https://www.ibm.com/mx-es"/>
+    
+        <link rel="alternate" hreflang="fr-ca" href="https://www.ibm.com/ca-fr"/>
+    
+        <link rel="alternate" hreflang="it-it" href="https://www.ibm.com/it-it"/>
+    
+        <link rel="alternate" hreflang="id-id" href="https://www.ibm.com/id-id"/>
+    
+        <link rel="alternate" hreflang="en-au" href="https://www.ibm.com/au-en"/>
+    
+        <link rel="alternate" hreflang="en-uk" href="https://www.ibm.com/uk-en"/>
+    
+        <link rel="alternate" hreflang="fr-fr" href="https://www.ibm.com/fr-fr"/>
+    
+        <link rel="alternate" hreflang="ja-jp" href="https://www.ibm.com/jp-ja"/>
+    
+
+    <script type="text/javascript">
+        var languageCode = document.getElementsByName('languageCode')[0].content;
+        var countryCode = document.getElementsByName('countryCode')[0].content;
+        var focusArea = document.getElementsByName('focusArea')[0].content;
+        /* Define digital data object based on _appInfo object */
+          window._ibmAnalytics = {
+              settings: {
+                 name: "AEM Sites",
+                 tealiumProfileName: "adobe-launch"
+              },
+           };
+        window.digitalData = {
+            page: {
+                category: {
+                    primaryCategory: '',
+                },
+                pageInfo: {
+                    language: languageCode + '-' + countryCode,
+                    ibm: {
+                        siteID: 'MarketingAEM',
+                        country: countryCode,
+                        messaging: {
+                            routing: {
+                                focusArea: focusArea,
+                                languageCode: languageCode,
+                                regionCode: countryCode
+                            },
+                            translation: {
+                                languageCode: languageCode,
+                                regionCode: countryCode
+                            }
+                        },
+                        sections: 0,
+                        patterns: 0,
+                    },
+                    carbon: {
+                        '@carbon/web-components': '',
+                        '@carbon/ibmdotcom-web-components': '',
+                        'carbon-for-aem': '',
+                    },
+                },
+            },
+        };
+    </script>
+    
+    
+    
+    
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Corporation",
+                "name": "IBM",
+                "url": "[https://www.ibm.com/]",
+                "logo": "[https://www.ibm.com/favicon.ico]",
+                "sameAs": [
+                    "[https://www.linkedin.com/company/ibm]",
+                    "[https://x.com/IBM]",
+                    "[https://www.youtube.com/ibm]"
+                ],
+                "subOrganization": [{"@type": "Organization","name": "IBM Saudi Arabia","url": "[https://www.ibm.com/sa-ar/]"},{"@type": "Organization","name": "IBM Indonesia","url": "[https://www.ibm.com/id-id/]"},{"@type": "Organization","name": "IBM Mexico","url": "[https://www.ibm.com/mx-es/]"},{"@type": "Organization","name": "IBM China","url": "[https://www.ibm.com/cn-zh/]"},{"@type": "Organization","name": "IBM Qatar","url": "[https://www.ibm.com/qa-ar/]"},{"@type": "Organization","name": "IBM Germany","url": "[https://www.ibm.com/de-de/]"},{"@type": "Organization","name": "IBM United States","url": "[https://www.ibm.com/us-en/]"},{"@type": "Organization","name": "IBM Spain","url": "[https://www.ibm.com/es-es/]"},{"@type": "Organization","name": "IBM Italy","url": "[https://www.ibm.com/it-it/]"},{"@type": "Organization","name": "IBM Brazil","url": "[https://www.ibm.com/br-pt/]"},{"@type": "Organization","name": "IBM United Arab Emirates","url": "[https://www.ibm.com/ae-ar/]"},{"@type": "Organization","name": "IBM Japan","url": "[https://www.ibm.com/jp-ja/]"},{"@type": "Organization","name": "IBM France","url": "[https://www.ibm.com/fr-fr/]"},{"@type": "Organization","name": "IBM Korea","url": "[https://www.ibm.com/kr-ko/]"}]
+            } 
+        </script>
+    
+
+      <!-- Instana script specific to Dev environment start -->
+<!--      <script>
+          (function(s,t,a,n){s[t]||(s[t]=a,n=s[a]=function(){n.q.push(arguments)},
+          n.q=[],n.v=2,n.l=1*new Date)})(window,"InstanaEumObject","ineum");
+
+          ineum('reportingUrl', 'https://eum-orange-saas.instana.io');
+          ineum('key', 'mFJnYtpBSiCKl9zenWHXtg');
+          ineum('trackSessions');
+      </script>
+      <script defer crossorigin="anonymous" src=https://eum.instana.io/1.7.2/eum.min.js
+              integrity="sha384-cgeSlevgebehPauohUhsnAeBrpjXzaj94mSv3L2EXjCQH0RRb9xSQ2ErGOWkthIJ"></script>-->
+      <!-- Instana script specific to Dev environment end -->
+
+    
+    
+        <meta property="og:url" content="https://www.ibm.com/cn-zh"/>
+    
+        <meta property="og:type" content="website"/>
+    
+        <meta property="og:title" content="IBM 中国官方网站丨全球知名的人工智能解决方案和云平台公司"/>
+    
+        <meta property="og:description" content="一个多世纪以来，IBM 一直是全球技术创新者，不断引领 AI、自动化、混合云解决方案的进步，帮助企业发展壮大。"/>
+    
+        
+    
+    
+        <meta property="og:image" content="https://www.ibm.com/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.png/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"/>
+    
+
+    <script src="https://1.www.s81c.com/common/stats/ibm-common.js" type="text/javascript" fetchpriority="high" async="async"></script>
+
+    <link rel="preload" href="https://hybrid-cloud-widgets-production.s3.us.cloud-object-storage.appdomain.cloud/loader.js" as="script"/>
+    <script src="https://hybrid-cloud-widgets-production.s3.us.cloud-object-storage.appdomain.cloud/loader.js" type="application/javascript"></script>
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/adobe-cms/clientlibs/clientlib-base.lc-30313e00669f877069f15dd099f23454-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStylesCarbon.lc-e29cf6779adeee4a212d5333a9dd59c9-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-5ee6bf1c5d48dcd30eb71112996e300f-lc.min.css" type="text/css">
+
+
+
+    
+    <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css"/>
+    <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon/plex/sans.css"/>
+    
+    
+
+
+    
+    
+    
+
+    
+
+    
+
+
+
+    
+    
+    
+
+
+
+    
+
+    
+    
+
+
+</head>
+<body class="content-page page basicpage publish" id="content-page-472129f632" data-cmp-data-layer-enabled data-fullwidthtemplate="true">
+<script>
+    window.adobeDataLayer = window.adobeDataLayer || [];
+    adobeDataLayer.push({
+        page: JSON.parse("{\x22content\u002Dpage\u002D472129f632\x22:{\x22@type\x22:\x22adobe\u002Dcms\/components\/structure\/content\u002Dpage\x22,\x22repo:modifyDate\x22:\x222025\u002D09\u002D26T14:45:23Z\x22,\x22dc:title\x22:\x22主页\x22,\x22xdm:template\x22:\x22\/conf\/adobe\u002Dcms\u002Deditable\/settings\/wcm\/templates\/full\u002Dwidth\u002Dlayout\x22,\x22xdm:language\x22:\x22zh\x22,\x22xdm:tags\x22:[],\x22repo:path\x22:\x22\/content\/adobe\u002Dcms\/cn\/zh\/homepage.html\x22}}"),
+        event: 'cmp:show',
+        eventInfo: {
+            path: 'page.content\u002Dpage\u002D472129f632'
+        }
+    });
+</script>
+
+
+    
+
+
+
+
+    
+
+
+
+    
+
+
+<c4d-video-cta-container>
+     
+         <div class="root container responsivegrid">
+
+    
+    
+    
+    <div id="container-9225520bd9" class="cmp-container">
+        
+        <div class="masthead">
+
+
+
+
+
+
+<c4d-masthead-container data-endpoint="#" auth-method="profile-api" has-contact="true" has-global="true" has-profile has-search has-cart current-region-text="您当前所在的地区" different-region-text="选择其他地区" no-other-region-text="任何其他地区都没有此页面"></c4d-masthead-container>
+
+
+
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-masthead-container.lc-805468542bc3ba0f982c73537e2461af-lc.min.js"></script>
+
+
+
+    
+<script src="/etc.clientlibs/clientlibs/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+<script src="/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/site.lc-d0496aeb70a83159950174b8ec6939b7-lc.min.js"></script>
+
+
+
+
+
+    
+    
+<script src="/etc.clientlibs/adobe-cms/components/structure/navigation/masthead/clientlibs/country-restoration.lc-e52d8a52a2bc79416ea399b5741ce575-lc.min.js"></script>
+
+
+
+
+
+<script>
+    let l0Json = "{\x22profileMenu\x22:{\x22signedout\x22:[{\x22title\x22:\x22我的 IBM\x22,\x22url\x22:\x22https:\/\/myibm.ibm.com\/?lnk=mmi\x22},{\x22title\x22:\x22登录\x22,\x22url\x22:\x22https:\/\/login.ibm.com\/oidc\/endpoint\/default\/authorize?redirect_uri=https%3A%2F%2Fmyibm.ibm.com%2FOIDCHandler.html\x26response_type=token\x26client_id=v18LoginProdCI\x26scope=openid\x26state=https%3A%2F%2Fwww.ibm.com\x26nonce=8675309\x22}],\x22signedin\x22:[{\x22title\x22:\x22我的 IBM\x22,\x22url\x22:\x22https:\/\/myibm.ibm.com\/?lnk=mmi\x22},{\x22title\x22:\x22概要\x22,\x22url\x22:\x22https:\/\/myibm.ibm.com\/profile\/?lnk=mmi\x22},{\x22title\x22:\x22计费\x22,\x22url\x22:\x22https:\/\/myibm.ibm.com\/billing\/?lnk=mmi\x22},{\x22title\x22:\x22注销\x22,\x22url\x22:\x22https:\/\/myibm.ibm.com\/pkmslogout?filename=accountRedir.html\x22}]},\x22mastheadNav\x22:{\x22links\x22:[{\x22title\x22:\x22AI\x22,\x22url\x22:\x22\x22,\x22submenu\x22:{\x22sections\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22概述\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/artificial\u002Dintelligence\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22Consulting\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/consulting\/artificial\u002Dintelligence\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22watsonx\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22研究\x22,\x22url\x22:\x22https:\/\/research.ibm.com\/artificial\u002Dintelligence\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22智能体\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/ai\u002Dagents\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22AI 伦理与治理\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/artificial\u002Dintelligence\/ai\u002Dethics\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22Granite 模型\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/granite\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22安全性\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/ai\u002Dcybersecurity\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[]}]}],\x22viewAll\x22:{\x22title\x22:\x22\x22,\x22url\x22:\x22\x22}}},{\x22title\x22:\x22混合云\x22,\x22url\x22:\x22\x22,\x22submenu\x22:{\x22sections\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22概述\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/hybrid\u002Dcloud\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22IT 基础架构\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/it\u002Dinfrastructure\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22Consulting\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/cloud\/transformation\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22量子计算\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/quantum\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22云平台\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/cloud\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22研究\x22,\x22url\x22:\x22https:\/\/research.ibm.com\/hybrid\u002Dcloud\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[]}]}],\x22viewAll\x22:{\x22title\x22:\x22\x22,\x22url\x22:\x22\x22}}},{\x22title\x22:\x22产品\x22,\x22url\x22:\x22\x22,\x22submenu\x22:{\x22sections\x22:[{\x22heading\x22:{\x22title\x22:\x22特色服务\x22,\x22description\x22:\x22\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Concert\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/concert?lnk=flatitem\x22,\x22description\x22:\x22用于管理应用程序、降低风险和增强弹性的软件\x22},{\x22title\x22:\x22FlashSystem\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/flashsystem?lnk=flatitem\x22,\x22description\x22:\x22用于性能和延迟敏感型工作量的主存储\x22},{\x22title\x22:\x22HashiCorp\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/hashicorp?lnk=flatitem\x22,\x22description\x22:\x22云端基础架构与安全管理\x22},{\x22title\x22:\x22IBM Cloud\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/cloud?lnk=flatitem\x22,\x22description\x22:\x22按需云计算平台和 API\x22},{\x22title\x22:\x22IBM Z\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/z?lnk=flatitem\x22,\x22description\x22:\x22搭载片上 AI 和量子安全加密技术的旗舰大型机\x22},{\x22title\x22:\x22IBM webMethods Hybrid Integration\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/webmethods\u002Dhybrid\u002Dintegration?lnk=flatitem\x22,\x22description\x22:\x22用于统一整合工作流的 AI 驱动型自动化软件\x22},{\x22title\x22:\x22Instana\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/instana?lnk=flatitem\x22,\x22description\x22:\x22应用程序性能监控和自动化软件\x22},{\x22title\x22:\x22MaaS360\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/maas360?lnk=flatitem\x22,\x22description\x22:\x22适用于多种设备类型的统一终端管理软件\x22},{\x22title\x22:\x22Maximo\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/maximo?lnk=flatitem\x22,\x22description\x22:\x22资产管理和相关工作流程软件\x22},{\x22title\x22:\x22Planning Analytics\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/planning\u002Danalytics?lnk=flatitem\x22,\x22description\x22:\x22用于自动化财务和业务规划的软件\x22},{\x22title\x22:\x22Robotic Process Automation (RPA)\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/robotic\u002Dprocess\u002Dautomation?lnk=flatitem\x22,\x22description\x22:\x22用于自动化工作流和业务流程的软件\x22},{\x22title\x22:\x22Storage Scale\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dscale?lnk=flatitem\x22,\x22description\x22:\x22用于 AI 和高性能工作量的软件定义存储\x22},{\x22title\x22:\x22Turbonomic\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/turbonomic?lnk=flatitem\x22,\x22description\x22:\x22用于管理和优化 IT 资源使用情况的软件\x22},{\x22title\x22:\x22Verify\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/verify?lnk=flatitem\x22,\x22description\x22:\x22身份识别、身份认证和访问控制软件\x22},{\x22title\x22:\x22watsonx\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/watsonx?lnk=flatitem\x22,\x22description\x22:\x22AI 和数据平台\x22},{\x22title\x22:\x22watsonx Orchestrate\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Dorchestrate?lnk=flatitem\x22,\x22description\x22:\x22可自动执行重复性任务的个人助手软件\x22},{\x22title\x22:\x22watsonx.data\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Ddata\x22,\x22description\x22:\x22专为 AI 和分析打造的开放混合式湖仓一体\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22AI 和机器学习\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/artificial\u002Dintelligence?lnk=flathl\x22,\x22description\x22:\x22运用 IBM Watson 的 AI 功能或自行构建机器学习模型\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Cloud Pak for AIOps\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Daiops?lnk=flatitem\x22,\x22description\x22:\x22具有 AI 分析和建议功能的开发运维 (DevOps) 管理工具\x22},{\x22title\x22:\x22Cloud Pak for Data\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Ddata?lnk=flatitem\x22,\x22description\x22:\x22数据分析、组织和管理工具\x22},{\x22title\x22:\x22InstructLab\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/cloud\/redhat\x22,\x22description\x22:\x22将自定义 AI 模型部署为服务 \x22},{\x22title\x22:\x22Knowledge Catalog\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/knowledge\u002Dcatalog?lnk=flatitem\x22,\x22description\x22:\x22可对数据、AI 模型、元数据、策略等进行编目的 SaaS\x22},{\x22title\x22:\x22Watson Discovery\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watson\u002Ddiscovery?lnk=flatitem\x22,\x22description\x22:\x22用于搜索和回答有关业务文档的问题的 AI\x22},{\x22title\x22:\x22Watson Natural Language Understanding\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/natural\u002Dlanguage\u002Dunderstanding?lnk=flatitem\x22,\x22description\x22:\x22用于文本分析和元数据提取的 API\x22},{\x22title\x22:\x22Watson Speech to Text\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/speech\u002Dto\u002Dtext?lnk=flatitem\x22,\x22description\x22:\x22用于实时语音识别和转录的 API\x22},{\x22title\x22:\x22Watson Studio\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watson\u002Dstudio?lnk=flatitem\x22,\x22description\x22:\x22用于构建、运行和管理 AI 模型的 IDE\x22},{\x22title\x22:\x22Watson Text to Speech\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/text\u002Dto\u002Dspeech?lnk=flatitem\x22,\x22description\x22:\x22用于实时文本转语音的 API\x22},{\x22title\x22:\x22Z Anomaly Analytics\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/z\u002Danomaly\u002Danalytics?lnk=flatitem\x22,\x22description\x22:\x22大型机操作异常检测软件\x22},{\x22title\x22:\x22watsonx\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/watsonx?lnk=flatitem\x22,\x22description\x22:\x22AI 和数据平台\x22},{\x22title\x22:\x22watsonx Assistant\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Dassistant?lnk=flatitem\x22,\x22description\x22:\x22可针对任何领域定制的虚拟代理\x22},{\x22title\x22:\x22watsonx Code Assistant\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Dcode\u002Dassistant?lnk=flatitem\x22,\x22description\x22:\x22一种生成代码的 AI 工具\x22},{\x22title\x22:\x22watsonx.data\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Ddata\x22,\x22description\x22:\x22专为 AI 和分析打造的开放混合式湖仓一体\x22},{\x22title\x22:\x22watsonx.data integration\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Ddata\u002Dintegration\x22,\x22description\x22:\x22通过统一的整合扩展数据交付\x22},{\x22title\x22:\x22watsonx.data intelligence\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Ddata\u002Dintelligence\x22,\x22description\x22:\x22发现、治理和共享可信数据\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22分析\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/analytics?lnk=flathl\x22,\x22description\x22:\x22汇总和分析大型数据集\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Business Analytics Enterprise\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/business\u002Danalytics\u002Denterprise?lnk=flatitem\x22,\x22description\x22:\x22业务规划和分析软件\x22},{\x22title\x22:\x22CPLEX\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/ilog\u002Dcplex\u002Doptimization\u002Dstudio?lnk=flatitem\x22,\x22description\x22:\x22用于建立和解决复杂优化模型的软件\x22},{\x22title\x22:\x22Cloud Pak for Data\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Ddata?lnk=flatitem\x22,\x22description\x22:\x22数据分析、组织和管理工具\x22},{\x22title\x22:\x22Cognos Analytics\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cognos\u002Danalytics?lnk=flatitem\x22,\x22description\x22:\x22商业智能和性能管理软件\x22},{\x22title\x22:\x22Databand\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/databand?lnk=flatitem\x22,\x22description\x22:\x22面向数据工程师和 DataOps 团队的数据可观察性软件\x22},{\x22title\x22:\x22InfoSphere Information Server\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/information\u002Dserver?lnk=flatitem\x22,\x22description\x22:\x22用于 ETL、治理和分析的数据集成套件\x22},{\x22title\x22:\x22Netezza\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/netezza?lnk=flatitem\x22,\x22description\x22:\x22自定义硬件上的数据仓库和分析系统\x22},{\x22title\x22:\x22Optim\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/infosphere\u002Doptim?lnk=flatitem\x22,\x22description\x22:\x22用于管理测试、生产和存档数据的软件\x22},{\x22title\x22:\x22Planning Analytics\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/planning\u002Danalytics?lnk=flatitem\x22,\x22description\x22:\x22用于自动化财务和业务规划的软件\x22},{\x22title\x22:\x22SPSS\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/spss?lnk=flatitem\x22,\x22description\x22:\x22统计分析和商业智能软件\x22},{\x22title\x22:\x22StreamSets\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/streamsets?lnk=flatitem\x22,\x22description\x22:\x22用于构建和管理流数据管道的图形界面\x22},{\x22title\x22:\x22Watson Discovery\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watson\u002Ddiscovery?lnk=flatitem\x22,\x22description\x22:\x22用于搜索和回答有关业务文档的问题的 AI\x22},{\x22title\x22:\x22Watson Studio\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watson\u002Dstudio?lnk=flatitem\x22,\x22description\x22:\x22用于构建、运行和管理 AI 模型的 IDE\x22},{\x22title\x22:\x22watsonx.data integration\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Ddata\u002Dintegration\x22,\x22description\x22:\x22通过统一的整合扩展数据交付\x22},{\x22title\x22:\x22watsonx.data intelligence\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Ddata\u002Dintelligence\x22,\x22description\x22:\x22发现、治理和共享可信数据\x22},{\x22title\x22:\x22高性能计算(HPC)\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/high\u002Dperformance\u002Dcomputing?lnk=flatitem\x22,\x22description\x22:\x22用于优化复杂计算集群中资源的软件\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22资产生命周期管理\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/asset\u002Dlifecycle\u002Dmanagement\x22,\x22description\x22:\x22管理和维护实物资产\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Environmental Intelligence\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/environmental\u002Dintelligence?lnk=flatitem\x22,\x22description\x22:\x22用于预测和应对天气和气候事件的 SaaS\x22},{\x22title\x22:\x22Envizi\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/envizi?lnk=flatitem\x22,\x22description\x22:\x22环境、社会和治理数据管理、报告和分析 SaaS\x22},{\x22title\x22:\x22Maximo\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/maximo?lnk=flatitem\x22,\x22description\x22:\x22资产管理和相关工作流程软件\x22},{\x22title\x22:\x22TRIRIGA\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/tririga?lnk=flatitem\x22,\x22description\x22:\x22房地产和工作场所管理软件\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22业务自动化\x22,\x22description\x22:\x22自动化工作流和业务流程\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22BlueWorks Live\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/blueworkslive?lnk=flatitem\x22,\x22description\x22:\x22用于业务流程协作建模的 SaaS\x22},{\x22title\x22:\x22Business Automation Manager Open Editions\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/business\u002Dautomation\u002Dmanager\u002Dopen\u002Deditions?lnk=flatitem\x22,\x22description\x22:\x22一种用于工作流程自动化和决策管理的软件\x22},{\x22title\x22:\x22Business Automation Workflow\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/business\u002Dautomation\u002Dworkflow?lnk=flatitem\x22,\x22description\x22:\x22用于工作流自动化的 Cloud Pak for Business Automation 附加组件\x22},{\x22title\x22:\x22Cloud Pak for Business Automation\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Dbusiness\u002Dautomation?lnk=flatitem\x22,\x22description\x22:\x22具有 AI 洞察分析功能的运营管理软件\x22},{\x22title\x22:\x22Datacap\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/data\u002Dcapture\u002Dand\u002Dimaging?lnk=flatitem\x22,\x22description\x22:\x22用于 IBM Cloud Pak for Business Automation 的文档管理\x22},{\x22title\x22:\x22FileNet Content Manager\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/filenet\u002Dcontent\u002Dmanager?lnk=flatitem\x22,\x22description\x22:\x22用于 Cloud Pak for Business Automation 的内容管理解决方案\x22},{\x22title\x22:\x22Operational Decision Manager\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/operational\u002Ddecision\u002Dmanager?lnk=flatitem\x22,\x22description\x22:\x22用于基于规则的决策的 Cloud Pak for Business Automation 附加组件\x22},{\x22title\x22:\x22Process Mining\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/process\u002Dmining?lnk=flatitem\x22,\x22description\x22:\x22用于从业务应用程序中提取流程数据的软件\x22},{\x22title\x22:\x22Robotic Process Automation (RPA)\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/robotic\u002Dprocess\u002Dautomation?lnk=flatitem\x22,\x22description\x22:\x22用于自动化工作流和业务流程的软件\x22},{\x22title\x22:\x22watsonx Orchestrate\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/watsonx\u002Dorchestrate?lnk=flatitem\x22,\x22description\x22:\x22可自动执行重复性任务的个人助手软件\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22容器\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/containers?lnk=flathl\x22,\x22description\x22:\x22按需分配计算基础架构\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Cloud Satellite\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/satellite?lnk=flatitem\x22,\x22description\x22:\x22用于在任何基础架构上运行托管云服务的平台\x22},{\x22title\x22:\x22Code Engine\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/code\u002Dengine?lnk=flatitem\x22,\x22description\x22:\x22用于容器、批处理作业或代码的托管无服务器运行时\x22},{\x22title\x22:\x22Container Registry\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/container\u002Dregistry?lnk=flatitem\x22,\x22description\x22:\x22用于容器存储和管理的私有 SaaS 注册表\x22},{\x22title\x22:\x22Kubernetes Service\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/kubernetes\u002Dservice?lnk=flatitem\x22,\x22description\x22:\x22用于高可用性容器部署的托管 Kubernetes\x22},{\x22title\x22:\x22Red Hat OpenShift on IBM Cloud\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/openshift?lnk=flatitem\x22,\x22description\x22:\x22用于安全、管理和监控工具的托管服务\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22数据库\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/database\x22,\x22description\x22:\x22存储、查询、分析结构化数据\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Cloudant\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloudant?lnk=flatitem\x22,\x22description\x22:\x22Apache CouchDB 上符合 PCI 规范的托管 JSON 文档存储\x22},{\x22title\x22:\x22DB2 for z\/OS\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/db2\u002Dfor\u002Dzos?lnk=flatitem\x22,\x22description\x22:\x22用适于 IBM Z 大型机的 IBM Db2 数据库\x22},{\x22title\x22:\x22Db2\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/db2\u002Ddatabase?lnk=flatitem\x22,\x22description\x22:\x22包括 IBM Db2 数据库在内的数据管理软件\x22},{\x22title\x22:\x22IBM Cloud Databases for Elastic Search\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/databases\u002Dfor\u002Delasticsearch?lnk=flatitem\x22,\x22description\x22:\x22用于全文搜索的 JSON 文档存储\x22},{\x22title\x22:\x22IBM Cloud Databases for MongoDB\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/databases\u002Dfor\u002Dmongodb?lnk=flatitem\x22,\x22description\x22:\x22托管 NoSQL JSON 文档存储\x22},{\x22title\x22:\x22IBM Cloud Databases for MySQL\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/databases\u002Dfor\u002Dmysql?lnk=flatitem\x22,\x22description\x22:\x22托管 SQL 数据库\x22},{\x22title\x22:\x22IBM Cloud Databases for PostgreSQL\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/databases\u002Dfor\u002Dpostgresql?lnk=flatitem\x22,\x22description\x22:\x22具有高级功能的托管 SQL database\x22},{\x22title\x22:\x22Information Management System (IMS)\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/ims?lnk=flatitem\x22,\x22description\x22:\x22用于处理大量事务的数据库和管理系统\x22},{\x22title\x22:\x22Informix\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/informix?lnk=flatitem\x22,\x22description\x22:\x22用于 SQL、NoSQL、时序数据和空间数据的嵌入式数据库\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22DevOps\\n \\n 开发运维和工程\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/devops\x22,\x22description\x22:\x22管理基础架构、环境和部署\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Application Delivery Foundation for z\/OS\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/app\u002Ddelivery\u002Dfoundation\u002Dfor\u002Dzos?lnk=flatitem\x22,\x22description\x22:\x22z\/OS 的应用程序开发和 DevOps 开发运维工具\x22},{\x22title\x22:\x22Application Discovery and Delivery Intelligence\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/app\u002Ddiscovery\u002Dand\u002Ddelivery\u002Dintelligence?lnk=flatitem\x22,\x22description\x22:\x22用于可视化 z\/OS 上的应用程序、数据和作业的分析工具\x22},{\x22title\x22:\x22Cloud Continuous Delivery\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/continuous\u002Ddelivery?lnk=flatitem\x22,\x22description\x22:\x22用于自动构建和部署应用程序的工具链\x22},{\x22title\x22:\x22Cloud Pak for AIOps\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Daiops?lnk=flatitem\x22,\x22description\x22:\x22具有 AI 分析和建议功能的开发运维 (DevOps) 管理工具\x22},{\x22title\x22:\x22DevOps\\n\\n开发运维计划\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/devops\u002Dplan?lnk=flatitem\x22,\x22description\x22:\x22通过低代码工作流管理简化交付\x22},{\x22title\x22:\x22DevOps Build\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/devops\u002Dbuild?lnk=flatitem\x22,\x22description\x22:\x22用于配置和运行软件构建的管理工具\x22},{\x22title\x22:\x22DevOps Code ClearCase\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/devops\u002Dcode\u002Dclearcase?lnk=flatitem\x22,\x22description\x22:\x22用于软件资产访问控制的配置管理系统\x22},{\x22title\x22:\x22DevOps Test\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/devops\u002Dtest?lnk=flatitem\x22,\x22description\x22:\x22持续测试与虚拟化平台\x22},{\x22title\x22:\x22DevOps Velocity\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/devops\u002Dvelocity?lnk=flatitem\x22,\x22description\x22:\x22用于管道编排和分析的发布管理软件\x22},{\x22title\x22:\x22DevOps 部署\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/devops\u002Ddeploy?lnk=flatitem\x22,\x22description\x22:\x22用于持续交付和部署的自动化软件\x22},{\x22title\x22:\x22Engineering Lifecycle Management (ELM)\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/engineering\u002Dlifecycle\u002Dmanagement?lnk=flatitem\x22,\x22description\x22:\x22产品和应用程序生命周期管理软件\x22},{\x22title\x22:\x22IBM DevOps Automation\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/devops\u002Dautomation?lnk=flatitem\x22,\x22description\x22:\x22自动化软件交付过程\x22},{\x22title\x22:\x22IBM i Modernization Engine\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/ibm\u002Di\u002Dmerlin?lnk=flatitem\x22,\x22description\x22:\x22适用于 IBM i 应用程序的开发与现代化工具\x22},{\x22title\x22:\x22Test Accelerator for Z\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/test\u002Daccelerator\u002Dz?lnk=flatitem\x22,\x22description\x22:\x22用于 z\/OS 的测试自动化和测试生成框架\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22IT 自动化\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/automation\x22,\x22description\x22:\x22自动化 IT 应用程序和基础设施管理\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Apptio\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/apptio?lnk=flatitem\x22,\x22description\x22:\x22混合云财务管理和规划软件\x22},{\x22title\x22:\x22Cloud App Configuration\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/app\u002Dconfiguration?lnk=flatitem\x22,\x22description\x22:\x22用于 Web 与移动应用程序的功能管理和配置服务\x22},{\x22title\x22:\x22Cloud Event Notifications\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/event\u002Dnotifications?lnk=flatitem\x22,\x22description\x22:\x22面向 IBM Cloud 事件的通知和工作流程自动化服务\x22},{\x22title\x22:\x22Cloud Logs\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dlogs?lnk=flatitem\x22,\x22description\x22:\x22用于应用程序和基础设施的日志记录和可观察性服务\x22},{\x22title\x22:\x22Cloud Pak for AIOps\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Daiops?lnk=flatitem\x22,\x22description\x22:\x22具有 AI 分析和建议功能的开发运维 (DevOps) 管理工具\x22},{\x22title\x22:\x22Cloud Schematics\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/schematics?lnk=flatitem\x22,\x22description\x22:\x22通过代码来管理和配置云基础设施\x22},{\x22title\x22:\x22Concert\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/concert?lnk=flatitem\x22,\x22description\x22:\x22用于管理应用程序、降低风险和增强弹性的软件\x22},{\x22title\x22:\x22Flexera one\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/flexera\u002Done?lnk=flatitem\x22,\x22description\x22:\x22IT 资产管理软件\x22},{\x22title\x22:\x22HashiCorp\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/hashicorp?lnk=flatitem\x22,\x22description\x22:\x22云端基础架构与安全管理\x22},{\x22title\x22:\x22Instana\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/instana?lnk=flatitem\x22,\x22description\x22:\x22应用程序性能监控和自动化软件\x22},{\x22title\x22:\x22IntelliMagic Vision for z\/OS\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/z\u002Dintellimagic\u002Dvision\u002Dfor\u002Dzos?lnk=flatitem\x22,\x22description\x22:\x22基础设施性能管理和监控软件\x22},{\x22title\x22:\x22Turbonomic\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/turbonomic?lnk=flatitem\x22,\x22description\x22:\x22用于管理和优化 IT 资源使用情况的软件\x22},{\x22title\x22:\x22Z Service Management Suite\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/z\u002Dservice\u002Dmanagement\u002Dsuite?lnk=flatitem\x22,\x22description\x22:\x22针对 Z 的监控、控制和自动化套件\x22},{\x22title\x22:\x22云监控\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dmonitoring?lnk=flatitem\x22,\x22description\x22:\x22用于组织范围内系统性能的托管监控工具\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22中间件 (Middleware)\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/automation\x22,\x22description\x22:\x22连接您的应用程序、数据和事件\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22API Connect\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/api\u002Dconnect?lnk=flatitem\x22,\x22description\x22:\x22用于快速创建、保护、社交化和管理 API 的软件\x22},{\x22title\x22:\x22App Connect\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/app\u002Dconnect?lnk=flatitem\x22,\x22description\x22:\x22适用于您的数据、应用程序和 API 的无代码连接器\x22},{\x22title\x22:\x22Aspera\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/aspera?lnk=flatitem\x22,\x22description\x22:\x22在全球范围内传输、同步或串流海量数据的系统\x22},{\x22title\x22:\x22CICS Transaction Server for z\/OS\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cics\u002Dtransaction\u002Dserver?lnk=flatitem\x22,\x22description\x22:\x22联机事务处理应用程序服务器\x22},{\x22title\x22:\x22Cloud Pak for Applications\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Dapplications?lnk=flatitem\x22,\x22description\x22:\x22基于 Kubernetes 的混合云应用程序平台\x22},{\x22title\x22:\x22Cloud Pak for Integration\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dpak\u002Dfor\u002Dintegration?lnk=flatitem\x22,\x22description\x22:\x22用于连接所有应用程序、数据和事件的工具\x22},{\x22title\x22:\x22DataPower\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/datapower\u002Dgateway?lnk=flatitem\x22,\x22description\x22:\x22物理或虚拟多协议网络网关\x22},{\x22title\x22:\x22Event Automation\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/event\u002Dautomation?lnk=flatitem\x22,\x22description\x22:\x22用于构建自动化事件驱动工作流的无代码工具\x22},{\x22title\x22:\x22Event Streams\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/event\u002Dstreams?lnk=flatitem\x22,\x22description\x22:\x22基于 Apache Kafka 的 PaaS 流处理\x22},{\x22title\x22:\x22IBM Cloud Messages for RabbitMQ\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/messages\u002Dfor\u002Drabbitmq?lnk=flatitem\x22,\x22description\x22:\x22托管的开源消息代理\x22},{\x22title\x22:\x22IBM Sterling \u002D 数据交换\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/sterling\x22,\x22description\x22:\x22B2B 集成\/EDI、托管文件传输软件和 SaaS\x22},{\x22title\x22:\x22IBM webMethods Hybrid Integration\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/webmethods\u002Dhybrid\u002Dintegration?lnk=flatitem\x22,\x22description\x22:\x22用于统一整合工作流的 AI 驱动型自动化软件\x22},{\x22title\x22:\x22Information Management System\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/ims?lnk=flatitem\x22,\x22description\x22:\x22用于 Z 的分层数据库和事务处理器\x22},{\x22title\x22:\x22MQ\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/mq?lnk=flatitem\x22,\x22description\x22:\x22分布式系统之间消息传递的软件和硬件\x22},{\x22title\x22:\x22z\/OS Connect\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/zos\u002Dconnect?lnk=flatitem\x22,\x22description\x22:\x22用于为 z\/OS 应用程序构建和提供 RESTful API 的软件\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22网络\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/network\u002Dmanagement?lnk=flathl\x22,\x22description\x22:\x22运行和管理公共网络、私有网络和虚拟网络\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Hybrid Cloud Mesh\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/hybrid\u002Dcloud\u002Dmesh?lnk=flatitem\x22,\x22description\x22:\x22加快混合云应用程序连接\x22},{\x22title\x22:\x22NS1 Connect\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/ns1\u002Dconnect?lnk=flatitem\x22,\x22description\x22:\x22托管权威 DNS 以引导流量\x22},{\x22title\x22:\x22SevOne\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/sevone\u002Dnetwork\u002Dperformance\u002Dmanagement?lnk=flatitem\x22,\x22description\x22:\x22推动以应用程序为中心的网络可观测性\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22操作系统\x22,\x22description\x22:\x22在专用操作系统上运行关键工作量\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22AIX\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/aix?lnk=flatitem\x22,\x22description\x22:\x22用于 Power 服务器的 UNIX 操作系统\x22},{\x22title\x22:\x22IBM i\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/ibm\u002Di?lnk=flatitem\x22,\x22description\x22:\x22用于 Power 服务器的集成式操作系统\x22},{\x22title\x22:\x22Linux\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/linux?lnk=flatitem\x22,\x22description\x22:\x22在 IBM 服务器上运行 Linux 工作量\x22},{\x22title\x22:\x22z\/OS\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/zos?lnk=flatitem\x22,\x22description\x22:\x22用于连续高容量大型机操作的旗舰操作系统\x22},{\x22title\x22:\x22z\/TPF\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/z\u002Dtransaction\u002Dprocessing\u002Dfacility?lnk=flatitem\x22,\x22description\x22:\x22用于大型机的实时操作系统\x22},{\x22title\x22:\x22z\/VM\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/zvm?lnk=flatitem\x22,\x22description\x22:\x22适用于 IBM Z 和 LinuxONE 的虚拟机管理程序和虚拟化软件\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22量子\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/quantum?lnk=flathl\x22,\x22description\x22:\x22利用 IBM 量子计算技术深入了解量子优势时代的应用\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22IBM® Quantum 平台\x22,\x22url\x22:\x22https:\/\/quantum.cloud.ibm.com\/\x22,\x22description\x22:\x22获取 IBM 量子计算机和学习资源\x22},{\x22title\x22:\x22Qiskit\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/quantum\/qiskit?lnk=flatitem\x22,\x22description\x22:\x22借助全栈软件和开发工具研究量子计算应用\x22},{\x22title\x22:\x22Quantum Safe\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/quantum\/quantum\u002Dsafe?lnk=flatitem\x22,\x22description\x22:\x22帮助组织保护量子时代数据的服务和工具\x22},{\x22title\x22:\x22技术\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/quantum\/technology?lnk=flatitem\x22,\x22description\x22:\x22了解 IBM 量子计算硬件和软件\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22安全与身份\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/security?lnk=flathl\x22,\x22description\x22:\x22可保护资源并简化合规性的云原生软件\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Cloud AppID\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/app\u002Did?lnk=flatitem\x22,\x22description\x22:\x22面向移动和 Web 应用程序的身份验证和用户配置文件即服务\x22},{\x22title\x22:\x22Cloud Security and Compliance Center\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/security\u002Dand\u002Dcompliance\u002Dcenter?lnk=flatitem\x22,\x22description\x22:\x22用于定义和审核云的合规性状况的 SaaS\x22},{\x22title\x22:\x22Guardium\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/guardium?lnk=flatitem\x22,\x22description\x22:\x22用于数据加密、管理和简化合规性的套件\x22},{\x22title\x22:\x22Key Protect for IBM Cloud\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/key\u002Dprotect?lnk=flatitem\x22,\x22description\x22:\x22用于在 IBM Cloud 服务中为应用程序调配和存储密钥的工具\x22},{\x22title\x22:\x22MaaS360\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/maas360?lnk=flatitem\x22,\x22description\x22:\x22面向移动劳动力的统一端点管理\x22},{\x22title\x22:\x22QRadar EDR\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/qradar\u002Dedr?lnk=flatitem\x22,\x22description\x22:\x22进阶版 AI 威胁检测和端点响应\x22},{\x22title\x22:\x22QRadar SIEM\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/qradar\u002Dsiem?lnk=flatitem\x22,\x22description\x22:\x22威胁检测和优先级排序，实现实时可见性\x22},{\x22title\x22:\x22QRadar SOAR\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/qradar\u002Dsoar?lnk=flatitem\x22,\x22description\x22:\x22用于安全操作的自动化和工作流程管理\x22},{\x22title\x22:\x22Secrets Manager\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/secrets\u002Dmanager\x22,\x22description\x22:\x22在单租户专用实例中集中管理机密\x22},{\x22title\x22:\x22Trusteer\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/trusteer?lnk=flatitem\x22,\x22description\x22:\x22用于对客户进行身份验证、检测欺诈和评估风险的软件\x22},{\x22title\x22:\x22Verify\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/verify?lnk=flatitem\x22,\x22description\x22:\x22身份识别、身份认证和访问控制软件\x22},{\x22title\x22:\x22zSecure\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/zsecure?lnk=flatitem\x22,\x22description\x22:\x22适用于 Z 系列硬件的安全、风险管理和合规性工具\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22服务器\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/servers?lnk=flathl\x22,\x22description\x22:\x22在混合云基础架构上运行工作负载\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22GPU 和 AI 加速器\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/cloud\/gpu\u002Dai\u002Daccelerator\x22,\x22description\x22:\x22访问 NVIDIA、Intel Gaudi 3 和 AMD 的 GPU 与 AI 加速器\x22},{\x22title\x22:\x22IBM Bare Metal Servers\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/bare\u002Dmetal\u002Dservers?lnk=flatitem\x22,\x22description\x22:\x22助力实现最佳性能的专用硬件\x22},{\x22title\x22:\x22IBM Cloud Virtual Servers for VPC\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/virtual\u002Dservers?lnk=flatitem\x22,\x22description\x22:\x22采用 Intel Xeon 或 IBM Z CPU 的 Virtual server\x22},{\x22title\x22:\x22LinuxONE 5\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/linuxone\u002D5?lnk=flatitem\x22,\x22description\x22:\x22用于运行 Linux 的物理服务器和虚拟服务器\x22},{\x22title\x22:\x22Power\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/power?lnk=flatitem\x22,\x22description\x22:\x22采用 IBM Power CPU 的物理服务器和虚拟服务器\x22},{\x22title\x22:\x22z17\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/z17?lnk=flatitem\x22,\x22description\x22:\x22搭载片上 AI 和量子安全加密技术的旗舰大型机\x22}]}]},{\x22heading\x22:{\x22title\x22:\x22存储\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/storage?lnk=flathl\x22,\x22description\x22:\x22适用于关键和运行工作量和数据的软件、硬件和服务\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Ceph\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dceph?lnk=flatitem\x22,\x22description\x22:\x22多协议软件定义的企业存储平台\x22},{\x22title\x22:\x22Cloud Block Storage\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/block\u002Dstorage?lnk=flatitem\x22,\x22description\x22:\x22针对低延迟和高传输速率进行了优化的托管服务\x22},{\x22title\x22:\x22Cloud File Storage\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/file\u002Dstorage?lnk=flatitem\x22,\x22description\x22:\x22由闪存支持并基于 NFS 的耐用文件存储托管服务\x22},{\x22title\x22:\x22Cloud Object Storage\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/cloud\u002Dobject\u002Dstorage?lnk=flatitem\x22,\x22description\x22:\x22通过云 API 访问的非结构化数据存储\x22},{\x22title\x22:\x22DS8000\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/ds8000?lnk=flatitem\x22,\x22description\x22:\x22高容量、高可用性大型机存储系统\x22},{\x22title\x22:\x22Defender\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Ddefender?lnk=flatitem\x22,\x22description\x22:\x22用于威胁检测和数据恢复的数据弹性软件\x22},{\x22title\x22:\x22FlashSystem\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/flashsystem?lnk=flatitem\x22,\x22description\x22:\x22具有适用于任何工作量的性能和容量的全闪存阵列\x22},{\x22title\x22:\x22Fusion\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dfusion?lnk=flatitem\x22,\x22description\x22:\x22适用于 OpenShift 的容器原生存储和数据编排\x22},{\x22title\x22:\x22Insights\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dinsights?lnk=flatitem\x22,\x22description\x22:\x22用于指标驱动的分析和决策的存储 AIOps\x22},{\x22title\x22:\x22Protect\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dprotect?lnk=flatitem\x22,\x22description\x22:\x22通过 SaaS 提供的数据弹性、备份和恢复\x22},{\x22title\x22:\x22Protect for Cloud\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dprotect\u002Dfor\u002Dcloud?lnk=flatitem\x22,\x22description\x22:\x22一种针对公有云服务中的数据进行备份和恢复的 SaaS\x22},{\x22title\x22:\x22SAN 交换机\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Darea\u002Dnetwork?lnk=flatitem\x22,\x22description\x22:\x22可扩展且高度可用的存储区域网络解决方案\x22},{\x22title\x22:\x22Scale\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dscale?lnk=flatitem\x22,\x22description\x22:\x22用于 AI 和高性能工作量的软件定义存储\x22},{\x22title\x22:\x22Scale System\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/storage\u002Dscale\u002Dsystem?lnk=flatitem\x22,\x22description\x22:\x22用于云级规模用例的全闪存或混合高性能存储\x22},{\x22title\x22:\x22磁带系统\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/solutions\/tape\u002Dstorage?lnk=flatitem\x22,\x22description\x22:\x22用于加密和气隙档案的软件和硬件\x22}]}]}],\x22viewAll\x22:{\x22title\x22:\x22查看所有产品\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\x22}}},{\x22title\x22:\x22Consulting\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/consulting?lnk=L0G\x22},{\x22title\x22:\x22支持\x22,\x22url\x22:\x22\x22,\x22submenu\x22:{\x22sections\x22:[{\x22heading\x22:{\x22title\x22:\x22\x22,\x22description\x22:\x22\x22},\x22groups\x22:[{\x22heading\x22:{\x22title\x22:\x22最新动态\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/new?lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22社区\x22,\x22url\x22:\x22https:\/\/community.ibm.com\/community\/user\/community?lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22开发者\x22,\x22url\x22:\x22https:\/\/developer.ibm.com\/?lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Call for Code\x22,\x22url\x22:\x22https:\/\/developer.ibm.com\/callforcode\/?lnk=flatitem\x22},{\x22title\x22:\x22生成式 AI\x22,\x22url\x22:\x22https:\/\/developer.ibm.com\/get\u002Dstarted\/generative\u002Dai\/\x22},{\x22title\x22:\x22编程马拉松\x22,\x22url\x22:\x22https:\/\/developer.ibm.com\/hackathons\/\x22},{\x22title\x22:\x22IBM 的开源技术\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/opensource\/?lnk=flatitem\x22},{\x22title\x22:\x22技术\x22,\x22url\x22:\x22https:\/\/developer.ibm.com\/technologies\/?lnk=flatitem\x22}]},{\x22heading\x22:{\x22title\x22:\x22文档\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/docs\/en?lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22所有产品文档\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/docs\/en?lnk=flatitem\x22},{\x22title\x22:\x22IBM Cloud 文档\x22,\x22url\x22:\x22https:\/\/cloud.ibm.com\/docs?lnk=flatitem\x22},{\x22title\x22:\x22IBM 红皮书\x22,\x22url\x22:\x22https:\/\/www.redbooks.ibm.com\/?lnk=flatitem\x22}]},{\x22heading\x22:{\x22title\x22:\x22IBM Cloud 平台支持\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/cloud\/support?lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[]},{\x22heading\x22:{\x22title\x22:\x22实施\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22Expert Labs\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/products\/expertlabs?lnk=flatitem\x22}]},{\x22heading\x22:{\x22title\x22:\x22支持\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/mysupport\/s\/?language=en_US\x26lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22下载修复、更新和驱动程序\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/support\/fixcentral?lnk=flatitem\x22},{\x22title\x22:\x22下载许可软件 \u002D Passport Advantage\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/software\/passportadvantage\/pao_customer.html?lnk=flatitem\x22},{\x22title\x22:\x22IBM 软件许可\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/about\/software\u002Dlicensing\/?lnk=flatitem\x22},{\x22title\x22:\x22创建支持请求\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/mysupport\/s\/redirecttoopencasepage?lnk=flatitem\x22},{\x22title\x22:\x22查看详情\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/mysupport\/s\/?language=en_US\x26lnk=flatitem\x22},{\x22title\x22:\x22查看支持计划\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/support\/pages\/ibm\u002Dsupport\u002Dofferings?lnk=flatitem\x22},{\x22title\x22:\x22查看您的请求\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/mysupport\/s\/my\u002Dcases?lnk=flatitem\x22}]},{\x22heading\x22:{\x22title\x22:\x22技术生命周期服务\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/services\/technology\u002Dlifecycle\u002Dservices?lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22企业网络和安全\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/services\/networking\u002Dsupport?lnk=flatitem\x22},{\x22title\x22:\x22服务器和存储\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/services\/systems\u002Dsupport?lnk=flatitem\x22},{\x22title\x22:\x22软件\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/services\/software\u002Dsupport?lnk=flatitem\x22}]},{\x22heading\x22:{\x22title\x22:\x22培训\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/training\/?lnk=flathl\x22,\x22description\x22:\x22\x22},\x22links\x22:[{\x22title\x22:\x22课程\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/training\/search?q=course\x26lnk=flatitem\x22},{\x22title\x22:\x22订阅数字化学习\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/training\/subscriptions?lnk=flatitem\x22},{\x22title\x22:\x22学习路径和集合\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/training\/learning\u002Dpaths\u002Dand\u002Dcollections?lnk=flatitem\x22},{\x22title\x22:\x22专业认证\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/training\/credentials?lnk=flatitem\x22}]}]}],\x22viewAll\x22:{\x22title\x22:\x22\x22,\x22url\x22:\x22\x22}}},{\x22title\x22:\x22Think\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/cn\u002Dzh\/think\x22}]}}";
+    const searchPlaceholderText = "搜索所有 IBM";
+    const links = JSON.parse(l0Json).mastheadNav.links;
+    const unAuthenticated = JSON.parse(l0Json).profileMenu.signedout;
+    const authenticated = JSON.parse(l0Json).profileMenu.signedin;
+
+    const mastheadContainerEl = document.querySelector('c4d-masthead-container');
+
+    mastheadContainerEl.navLinks = links;
+    mastheadContainerEl.unauthenticatedProfileItems = unAuthenticated;
+    mastheadContainerEl.authenticatedProfileItems = authenticated;
+
+    const appendSearchPlaceholderText = () => {
+        const typeheadEl = mastheadContainerEl.querySelector('c4d-search-with-typeahead');
+        if (typeheadEl) {
+            typeheadEl.searchPlaceholder = searchPlaceholderText;
+            observer.disconnect();
+        }
+    }
+    let observer = new MutationObserver(appendSearchPlaceholderText);
+    observer.observe(mastheadContainerEl, {subtree: true, childList: true});
+</script>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+<script type="text/javascript">
+    if(window.location.href.includes("/careers")){
+       document.querySelector('c4d-masthead-container').setAttribute("has-search","false");
+       document.querySelector('c4d-masthead-container').setAttribute("has-profile","false");
+    }
+     document.addEventListener("DOMContentLoaded", function() {
+        const mastheadContainer = document.querySelector("c4d-masthead-container");
+        if (mastheadContainer && mastheadContainer.getAttribute("has-global") === "false") {
+            document.querySelector('.earth-language-icon').style.display = 'none';
+        }
+        else{
+               document.querySelector('.earth-language-icon').style.setProperty('display', 'block', 'important');
+        }
+    });
+</script>
+</div>
+<div class="container responsivegrid">
+
+    
+    
+    
+    <div id="container-639bca8d8a" class="cmp-container">
+        
+        
+        
+    </div>
+
+</div>
+<div class="leadspace-container container responsivegrid" id="mbox-leadspace">
+
+    
+    
+    
+    <div id="leadspace-container-5da1a74015" class="cmp-container">
+        
+        <div class="leadspace-expanded leadspace">
+
+
+
+<section class="cds--grid theme-white  leadspace-expanded__container leadspace-expanded__container--tall leadspace-expanded__container--aside">
+    <div class="cds--row leadspace-expanded__row">
+        <div class="cds--col-lg-6 leadspace-expanded__column leadspace-expanded__column--content">
+            <div>
+                
+                    
+                <div class="leadspace-expanded__navigation leadspace-expanded__navigation--tags">
+                    
+
+
+    
+
+
+                </div>
+
+                <div id="mbox-heading">
+                    <h1 class="leadspace-expanded__heading display-01" id="leadspaceSimpleTitle">
+                        
+
+
+    
+
+  
+
+<span class="enhanced-title text-color-gradient-90-blue-to-purple">HashiCorp: 自动化驾驭混合云&#xff0c;实现安全与高效</span>
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+                    </h1>
+                </div>
+            </div>
+            <div>
+                <span class="lead-in">
+                    <div id="mbox-subheading">
+                        <div class="cms-richtext " id="rich-text-358f8f574d" data-dynamic-inner-content="description">
+    <p>HashiCorp 赋能企业在混合多云中实现安全合规与高效运维的自动化。</p>
+
+    
+    
+    
+    
+
+</div>
+                    
+                    </div>
+                </span>
+
+                
+
+                
+                    <div id="mbox-leadspace_cta">
+                        <c4d-button-group class="leadspace-expanded__action leadspace-expanded__action--button-group">
+                            
+                                
+                                
+
+
+
+
+<!-- Determine if selector includes 'tagName=c4d-button-group-item' -->
+
+
+
+<!-- C4D Markup for publish mode -->
+
+    
+    
+    
+    
+    
+    <a href="https://www.ibm.com/cn-zh/products/hashicorp?lnk=hpls1cn" target="_self">
+        <c4d-button-group-item href="https://www.ibm.com/cn-zh/products/hashicorp?lnk=hpls1cn" target="_self" kind="primary" cta-type="local" data-aem-autoid="aem--leadspace_cta-0" data-video-modal-type="media-center">
+            <span>了解 IBM + HashiCorp</span>
+            
+            
+        </c4d-button-group-item>
+    </a>
+    
+    
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-button.lc-f42f9b91d85d94bcd2bbcaeb9feb260f-lc.min.js"></script>
+
+
+    
+
+     
+
+    
+    
+    
+    
+    
+    <a href="https://portal.cloud.hashicorp.com/sign-up?lnk=hpls2cn" target="_blank">
+        <c4d-button-group-item href="https://portal.cloud.hashicorp.com/sign-up?lnk=hpls2cn" target="_blank" kind="tertiary" cta-type="external" data-aem-autoid="aem--leadspace_cta-1" data-video-modal-type="media-center">
+            <span>试用 HashiCorp 云平台</span>
+            
+            
+        </c4d-button-group-item>
+    </a>
+    
+    
+    
+    
+
+    
+
+     
+
+
+
+<!-- Fallback for author/edit mode -->
+
+                            
+                        </c4d-button-group>
+                    </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <div class="cds--col-lg-8 leadspace-expanded__column leadspace-expanded__column--media">
+            <div class="leadspace-expanded__column-inner">
+                <div id="mbox-leadspace_visual">
+                    
+                        
+    
+    
+    
+        
+        
+        
+        
+        
+        <c4d-image id="image-88834736" alt="Hashicorp 徽标" default-src="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-xl.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded" class="" caption-alignment="left">
+            
+            
+                
+                    
+    <c4d-image-item media="(min-width: 1312px) and (min-resolution: 192dpi)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-xl-retina.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(min-width: 1312px)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-xl.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(min-width: 1056px) and (min-resolution: 192dpi)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-l-retina.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(min-width: 1056px)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-l.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(min-width: 672px) and (min-resolution: 192dpi)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-m-retina.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(min-width: 672px)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-m.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(min-width: 481px) and (min-resolution: 192dpi)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-s-retina.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(min-width: 481px)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-s.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(max-width: 480px) and (min-resolution: 192dpi)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-xs-retina.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    <c4d-image-item media="(max-width: 480px)" srcset="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/64/de/hashicorp-cn-homepge-static-ls-5-4.component.crop-5by4-xs.ts=1758897810074.png/content/adobe-cms/cn/zh/homepage/jcr:content/root/leadspace_container/leadspace_expanded"></c4d-image-item>
+    
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-image.lc-8b7aabedf8a702d4a72cfa282459025b-lc.min.js"></script>
+
+
+    
+
+                    
+                
+            
+        </c4d-image>
+    
+
+    
+    
+    
+    
+
+    
+
+
+                    
+
+                    
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+        <div class="cds--col-lg-2 leadspace-expanded__column leadspace-expanded__column--aside">
+            <div class="leadspace-expanded__column-inner newsfeed" id="mbox-leadspace-side">
+                
+
+                
+            </div>
+        </div>
+    </div>
+</section></div>
+
+        
+    </div>
+
+</div>
+<div class="table-of-contents container responsivegrid">
+<c4d-table-of-contents data-cmp-is="table-of-contents" data-autoid="c4d--tableofcontents" class="cmp-table-of-contents " stickyoffset="48" toc-layout="horizontal" toc-hide="hidden">
+    
+    
+    <div id="table-of-contents-b6e1429f67" class="cmp-table-of-contents">
+        
+        <div class="modular-container container responsivegrid">
+
+    
+    
+    
+    <div id="modular-container-e4f748c483" class="cmp-container">
+        
+        <div class="standalone-title enhanced-title text">
+
+
+
+
+
+
+
+    <h5 class="expressive-heading-02  ">推荐产品<br /></h5>
+
+
+    
+
+</div>
+
+        
+    </div>
+
+</div>
+<div class="tile-group-container container responsivegrid">
+  <div class="cds--col">
+    
+
+    <h2 class="expressive-heading-05  ">
+        
+    </h2>
+        
+  
+
+
+
+
+
+
+
+
+
+    
+
+
+      <caem-tile-group>
+        
+
+    
+
+
+	<caem-tile label="HashiCorp Terrafom" cta-type="external" href="https://www.hashicorp.com/en/products/terraform?utm_source=IBM&utm_medium=referral&utm_campaign=26Q1_WW_TDM_MULTI_IBM&utm_content=&utm_offer=landing_page&lnk=hprc1cn" target="_blank" data-video-modal-type="media-center">
+
+		
+
+		<div slot="image"><div class="image-dm image">
+
+
+	<div data-cmp-aspectratio="1x1" data-cmp-hook-image="imageV3IBM" data-cmp-is="image" data-cmp-widths="320,384,512,640,768,960,1024,1152,1280,1536,1584" data-cmp-dmimage data-cmp-src="https://assets.ibm.com/is/image/ibm/hashicorp-terraform-large?ts=1758897671781&amp;dpr=off" data-asset-id="2d761e8a-6886-4975-9d30-6217f436a37c" data-cmp-filereference="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/a1/ee/hashicorp-terraform-large.png" id="AI" data-cmp-data-layer="{&#34;AI&#34;:{&#34;@type&#34;:&#34;adobe-cms/components/content/atoms/image-dm&#34;,&#34;repo:modifyDate&#34;:&#34;2025-09-26T14:41:11Z&#34;,&#34;dc:title&#34;:&#34;Hashicorp terraform&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;2d761e8a-6886-4975-9d30-6217f436a37c&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-10T03:36:56Z&#34;,&#34;@type&#34;:&#34;image/png&#34;,&#34;repo:path&#34;:&#34;/content/dam/worldwide-content/creative-assets/s-migr/ul/g/a1/ee/hashicorp-terraform-large.png&#34;,&#34;xdm:tags&#34;:[&#34;properties:orientation/landscape&#34;],&#34;xdm:smartTags&#34;:{&#34;webpage&#34;:0.753}}}}" class="cmp-image">
+		<script type="application/json">
+			{
+				"widths": [320,384,512,640,768,960,1024,1152,1280,1536,1584],
+				"maximagesize": "5000",
+				"aspectratio": "1x1",
+				"urls": {
+					"dynamicmedia": "https://assets.ibm.com/is/image/ibm/hashicorp-terraform-large",
+					"adaptiveservlet": "https://www.ibm.com/cn-zh/_jcr_content/root/table_of_contents/tile_group_container_1662354541/container/tile_card_734954344/image.coreimg.90{.width}.png/1758897671781/hashicorp-terraform-large.png",
+					"assetdelivery": "/adobe/dynamicmedia/deliver/dm-aid--2d761e8a-6886-4975-9d30-6217f436a37c/hashicorp-terraform-large.png?preferwebp=true"
+				},
+				"usecustomcrop": "false",
+				"customcrops": {
+					"1x1": "",
+					"2x1": "",
+					"3x2": "",
+					"4x3": "",
+					"5x2": "",
+					"16x9": ""
+				}
+			}
+		</script>
+		
+
+			
+				
+					
+
+					<img src="https://assets.ibm.com/is/image/ibm/hashicorp-terraform-large?ts=1758897671781&dpr=off" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="2732" height="1536" alt="Hashicorp Terraform 用户界面仪表板"/>
+				
+
+				
+
+			
+		
+		
+
+		
+
+	</div>
+	
+    
+
+
+
+
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-lightbox-media-viewer.lc-bf707b20f57fbd5b4ca10a562fb66d21-lc.min.js"></script>
+
+
+</div>
+</div>
+
+		<div class="caem-tile__text">基础设施即代码 (IaC)：统一自动化标准</div>
+		
+    
+    
+
+
+
+    
+
+		<a slot="cta" href="https://www.hashicorp.com/en/products/terraform?utm_source=IBM&utm_medium=referral&utm_campaign=26Q1_WW_TDM_MULTI_IBM&utm_content=&utm_offer=landing_page&lnk=hprc1cn" target="_blank">
+			<p slot="cta" class="caem-tile__link">点击查看</p>
+		</a>
+	</caem-tile>
+
+	<div class="caem-card-svg-source" hidden><svg xmlns="http://www.w3.org/2000/svg" id="accelerated-computing" viewBox="0 0 32 32"><path d="M19,29.36c-3.401,0-6.596-1.506-8.764-4.131l0.556-0.459c2.03,2.459,5.022,3.869,8.208,3.869 c5.867,0,10.64-4.772,10.64-10.64c0-5.867-4.772-10.64-10.64-10.64c-3.186,0-6.177,1.411-8.208,3.87l-0.555-0.459 c2.091-2.532,5.137-4.022,8.403-4.125V5.36H16c-0.199,0-0.36-0.161-0.36-0.36V3c0-0.199,0.161-0.36,0.36-0.36h6 c0.199,0,0.36,0.161,0.36,0.36v2c0,0.199-0.161,0.36-0.36,0.36h-2.64v1.286c6.098,0.191,11,5.211,11,11.354 C30.36,24.264,25.264,29.36,19,29.36z M16.36,4.64h5.28V3.36h-5.28V4.64z M14,23.36H4v-0.72h10V23.36z M12,18.36H2v-0.72h10V18.36z M19.179,18.312l-0.357-0.625l7-4l0.357,0.625L19.179,18.312z M14,13.36H4v-0.72h10V13.36z"/></svg></div>
+
+
+    
+
+
+
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-caem-tile.lc-9237eb858e61b329197a1fab9afae0aa-lc.min.js"></script>
+
+
+
+
+    
+
+
+	<caem-tile label="HashiCorp Vault" cta-type="external" href="https://www.hashicorp.com/en/products/vault?utm_source=IBM&utm_medium=referral&utm_campaign=26Q1_WW_TDM_MULTI_IBM&utm_content=&utm_offer=landing_page&lnk=hprc2cn" target="_blank" data-video-modal-type="media-center">
+
+		
+
+		<div slot="image"><div class="image-dm image">
+
+
+	<div data-cmp-aspectratio="1x1" data-cmp-hook-image="imageV3IBM" data-cmp-is="image" data-cmp-widths="320,384,512,640,768,960,1024,1152,1280,1536,1584" data-cmp-dmimage data-cmp-src="https://assets.ibm.com/is/image/ibm/hashicorp-vault-large?ts=1758897694899&amp;dpr=off" data-asset-id="2ca10cb2-4fd4-4bbc-8d6e-8fc3efba5c68" data-cmp-filereference="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/b2/b0/hashicorp-vault-large.png" id="watsonx.orchestrate" data-cmp-data-layer="{&#34;watsonx.orchestrate&#34;:{&#34;@type&#34;:&#34;adobe-cms/components/content/atoms/image-dm&#34;,&#34;repo:modifyDate&#34;:&#34;2025-09-26T14:41:34Z&#34;,&#34;dc:title&#34;:&#34;Hashicorp vault&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;2ca10cb2-4fd4-4bbc-8d6e-8fc3efba5c68&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-10T02:55:05Z&#34;,&#34;@type&#34;:&#34;image/png&#34;,&#34;repo:path&#34;:&#34;/content/dam/worldwide-content/creative-assets/s-migr/ul/g/b2/b0/hashicorp-vault-large.png&#34;,&#34;xdm:tags&#34;:[&#34;properties:orientation/landscape&#34;]}}}" class="cmp-image">
+		<script type="application/json">
+			{
+				"widths": [320,384,512,640,768,960,1024,1152,1280,1536,1584],
+				"maximagesize": "5000",
+				"aspectratio": "1x1",
+				"urls": {
+					"dynamicmedia": "https://assets.ibm.com/is/image/ibm/hashicorp-vault-large",
+					"adaptiveservlet": "https://www.ibm.com/cn-zh/_jcr_content/root/table_of_contents/tile_group_container_1662354541/container/tile_card_2026675993/image.coreimg.90{.width}.png/1758897694899/hashicorp-vault-large.png",
+					"assetdelivery": "/adobe/dynamicmedia/deliver/dm-aid--2ca10cb2-4fd4-4bbc-8d6e-8fc3efba5c68/hashicorp-vault-large.png?preferwebp=true"
+				},
+				"usecustomcrop": "false",
+				"customcrops": {
+					"1x1": "",
+					"2x1": "",
+					"3x2": "",
+					"4x3": "",
+					"5x2": "",
+					"16x9": ""
+				}
+			}
+		</script>
+		
+
+			
+				
+					
+
+					<img src="https://assets.ibm.com/is/image/ibm/hashicorp-vault-large?ts=1758897694899&dpr=off" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="2732" height="1536" alt="Hashicorp Vault 用户界面仪表板"/>
+				
+
+				
+
+			
+		
+		
+
+		
+
+	</div>
+	
+    
+
+
+
+
+    
+
+</div>
+</div>
+
+		<div class="caem-tile__text">安全生命周期管理：护身份，保数据</div>
+		
+    
+    
+
+
+
+    
+
+		<a slot="cta" href="https://www.hashicorp.com/en/products/vault?utm_source=IBM&utm_medium=referral&utm_campaign=26Q1_WW_TDM_MULTI_IBM&utm_content=&utm_offer=landing_page&lnk=hprc2cn" target="_blank">
+			<p slot="cta" class="caem-tile__link">点击查看</p>
+		</a>
+	</caem-tile>
+
+	<div class="caem-card-svg-source" hidden><svg xmlns="http://www.w3.org/2000/svg" id="accelerated-computing" viewBox="0 0 32 32"><path d="M19,29.36c-3.401,0-6.596-1.506-8.764-4.131l0.556-0.459c2.03,2.459,5.022,3.869,8.208,3.869 c5.867,0,10.64-4.772,10.64-10.64c0-5.867-4.772-10.64-10.64-10.64c-3.186,0-6.177,1.411-8.208,3.87l-0.555-0.459 c2.091-2.532,5.137-4.022,8.403-4.125V5.36H16c-0.199,0-0.36-0.161-0.36-0.36V3c0-0.199,0.161-0.36,0.36-0.36h6 c0.199,0,0.36,0.161,0.36,0.36v2c0,0.199-0.161,0.36-0.36,0.36h-2.64v1.286c6.098,0.191,11,5.211,11,11.354 C30.36,24.264,25.264,29.36,19,29.36z M16.36,4.64h5.28V3.36h-5.28V4.64z M14,23.36H4v-0.72h10V23.36z M12,18.36H2v-0.72h10V18.36z M19.179,18.312l-0.357-0.625l7-4l0.357,0.625L19.179,18.312z M14,13.36H4v-0.72h10V13.36z"/></svg></div>
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+	<caem-tile label="HashiCorp + Red Hat" cta-type="external" href="https://www.hashicorp.com/en/blog/hashicorp-and-red-hat-better-together?utm_source=ibm&utm_medium=referral&utm_campaign=26Q3_WW_MULTI_MULTI_IBM-Microsite_BLOG&utm_content=&utm_offer=blog&lnk=hprc3cn" target="_blank" data-video-modal-type="media-center">
+
+		
+
+		<div slot="image"><div class="image-dm image">
+
+
+	<div data-cmp-aspectratio="1x1" data-cmp-hook-image="imageV3IBM" data-cmp-is="image" data-cmp-widths="320,384,512,640,768,960,1024,1152,1280,1536,1584" data-cmp-dmimage data-cmp-src="https://assets.ibm.com/is/image/ibm/vault-red-hat-openshift-teaser-ui?ts=1758897756765&amp;dpr=off" data-asset-id="53db11da-b6c5-4902-98a3-d273a81a1464" data-cmp-filereference="/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/s-migr/ul/g/53/db/vault-red-hat-openshift-teaser-ui.png" id="watsonx.data图片" data-cmp-data-layer="{&#34;watsonx.data图片&#34;:{&#34;@type&#34;:&#34;adobe-cms/components/content/atoms/image-dm&#34;,&#34;repo:modifyDate&#34;:&#34;2025-09-26T14:42:36Z&#34;,&#34;dc:title&#34;:&#34;Vault and Red Hat Openshift teaser&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;53db11da-b6c5-4902-98a3-d273a81a1464&#34;,&#34;repo:modifyDate&#34;:&#34;2024-12-20T21:20:33Z&#34;,&#34;@type&#34;:&#34;image/png&#34;,&#34;repo:path&#34;:&#34;/content/dam/connectedassets-adobe-cms/worldwide-content/creative-assets/s-migr/ul/g/53/db/vault-red-hat-openshift-teaser-ui.png&#34;,&#34;xdm:tags&#34;:[&#34;properties:orientation/square&#34;]}}}" class="cmp-image">
+		<script type="application/json">
+			{
+				"widths": [320,384,512,640,768,960,1024,1152,1280,1536,1584],
+				"maximagesize": "5000",
+				"aspectratio": "1x1",
+				"urls": {
+					"dynamicmedia": "https://assets.ibm.com/is/image/ibm/vault-red-hat-openshift-teaser-ui",
+					"adaptiveservlet": "https://www.ibm.com/cn-zh/_jcr_content/root/table_of_contents/tile_group_container_1662354541/container/tile_card/image.coreimg.90{.width}.png/1758897756765/vault-red-hat-openshift-teaser-ui.png",
+					"assetdelivery": "/adobe/dynamicmedia/deliver/dm-aid--53db11da-b6c5-4902-98a3-d273a81a1464/vault-red-hat-openshift-teaser-ui.png?preferwebp=true"
+				},
+				"usecustomcrop": "false",
+				"customcrops": {
+					"1x1": "",
+					"2x1": "",
+					"3x2": "",
+					"4x3": "",
+					"5x2": "",
+					"16x9": ""
+				}
+			}
+		</script>
+		
+
+			
+				
+					
+
+					<img src="https://assets.ibm.com/is/image/ibm/vault-red-hat-openshift-teaser-ui?ts=1758897756765&dpr=off" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="1370" height="1370" alt="Hashicorp Red Hat OpenShift 用户界面仪表板"/>
+				
+
+				
+
+			
+		
+		
+
+		
+
+	</div>
+	
+    
+
+
+
+
+    
+
+</div>
+</div>
+
+		<div class="caem-tile__text">发挥基础设施和安全自动化的协同优势</div>
+		
+    
+    
+
+
+
+    
+
+		<a slot="cta" href="https://www.hashicorp.com/en/blog/hashicorp-and-red-hat-better-together?utm_source=ibm&utm_medium=referral&utm_campaign=26Q3_WW_MULTI_MULTI_IBM-Microsite_BLOG&utm_content=&utm_offer=blog&lnk=hprc3cn" target="_blank">
+			<p slot="cta" class="caem-tile__link">阅读博客</p>
+		</a>
+	</caem-tile>
+
+	<div class="caem-card-svg-source" hidden><svg xmlns="http://www.w3.org/2000/svg" id="accelerated-computing" viewBox="0 0 32 32"><path d="M19,29.36c-3.401,0-6.596-1.506-8.764-4.131l0.556-0.459c2.03,2.459,5.022,3.869,8.208,3.869 c5.867,0,10.64-4.772,10.64-10.64c0-5.867-4.772-10.64-10.64-10.64c-3.186,0-6.177,1.411-8.208,3.87l-0.555-0.459 c2.091-2.532,5.137-4.022,8.403-4.125V5.36H16c-0.199,0-0.36-0.161-0.36-0.36V3c0-0.199,0.161-0.36,0.36-0.36h6 c0.199,0,0.36,0.161,0.36,0.36v2c0,0.199-0.161,0.36-0.36,0.36h-2.64v1.286c6.098,0.191,11,5.211,11,11.354 C30.36,24.264,25.264,29.36,19,29.36z M16.36,4.64h5.28V3.36h-5.28V4.64z M14,23.36H4v-0.72h10V23.36z M12,18.36H2v-0.72h10V18.36z M19.179,18.312l-0.357-0.625l7-4l0.357,0.625L19.179,18.312z M14,13.36H4v-0.72h10V13.36z"/></svg></div>
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+	<caem-tile label="webMethods Hybrid Integration" cta-type="local" href="https://www.ibm.com/cn-zh/products/webmethods-hybrid-integration?lnk=hprc4cn" target="_self" data-video-modal-type="media-center">
+
+		
+
+		<div slot="image"><div class="image-dm image">
+
+
+	<div data-cmp-aspectratio="1x1" data-cmp-hook-image="imageV3IBM" data-cmp-is="image" data-cmp-widths="320,384,512,640,768,960,1024,1152,1280,1536,1584" data-cmp-dmimage data-cmp-src="https://assets.ibm.com/is/image/ibm/3_dco_native-prospecting-wmhi_control_pane-1200x1200?ts=1758897780907&amp;dpr=off" data-asset-id="bac49de0-b314-49f1-9fe9-110e7128c437" data-cmp-filereference="/content/dam/worldwide-content/pm/ul/g/af/3d/3_dco_native-prospecting-wmhi_control_pane-1200x1200.jpg" id="webmethods-hybrid-integration" data-cmp-data-layer="{&#34;webmethods-hybrid-integration&#34;:{&#34;@type&#34;:&#34;adobe-cms/components/content/atoms/image-dm&#34;,&#34;repo:modifyDate&#34;:&#34;2025-09-26T14:43:00Z&#34;,&#34;dc:title&#34;:&#34;Representation of a composable architecture&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;bac49de0-b314-49f1-9fe9-110e7128c437&#34;,&#34;repo:modifyDate&#34;:&#34;2025-05-19T16:20:49Z&#34;,&#34;@type&#34;:&#34;image/jpeg&#34;,&#34;repo:path&#34;:&#34;/content/dam/worldwide-content/pm/ul/g/af/3d/3_dco_native-prospecting-wmhi_control_pane-1200x1200.jpg&#34;,&#34;xdm:tags&#34;:[&#34;properties:orientation/square&#34;],&#34;xdm:smartTags&#34;:{&#34;diagram&#34;:0.837,&#34;computer equipment&#34;:0.775,&#34;metropolis&#34;:0.859,&#34;infrastructure&#34;:0.816,&#34;design&#34;:0.757,&#34;graphic design&#34;:0.816,&#34;graphics&#34;:0.778,&#34;abstract photography&#34;:0.875,&#34;network&#34;:0.878}}}}" class="cmp-image">
+		<script type="application/json">
+			{
+				"widths": [320,384,512,640,768,960,1024,1152,1280,1536,1584],
+				"maximagesize": "5000",
+				"aspectratio": "1x1",
+				"urls": {
+					"dynamicmedia": "https://assets.ibm.com/is/image/ibm/3_dco_native-prospecting-wmhi_control_pane-1200x1200",
+					"adaptiveservlet": "https://www.ibm.com/cn-zh/_jcr_content/root/table_of_contents/tile_group_container_1662354541/container/tile_card_964526575/image.coreimg.90{.width}.jpeg/1758897780907/3-dco-native-prospecting-wmhi-control-pane-1200x1200.jpeg",
+					"assetdelivery": "/adobe/dynamicmedia/deliver/dm-aid--bac49de0-b314-49f1-9fe9-110e7128c437/3-dco-native-prospecting-wmhi-control-pane-1200x1200.jpg?preferwebp=true"
+				},
+				"usecustomcrop": "false",
+				"customcrops": {
+					"1x1": "",
+					"2x1": "",
+					"3x2": "",
+					"4x3": "",
+					"5x2": "",
+					"16x9": ""
+				}
+			}
+		</script>
+		
+
+			
+				
+					
+
+					<img src="https://assets.ibm.com/is/image/ibm/3_dco_native-prospecting-wmhi_control_pane-1200x1200?ts=1758897780907&dpr=off" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="1200" height="1200" alt="可组合架构的三维表示"/>
+				
+
+				
+
+			
+		
+		
+
+		
+
+	</div>
+	
+    
+
+
+
+
+    
+
+</div>
+</div>
+
+		<div class="caem-tile__text">AI 赋能的企业自动化：开启 AI 时代 “集成新纪元&#34;</div>
+		
+    
+    
+
+
+
+    
+
+		<a slot="cta" href="https://www.ibm.com/cn-zh/products/webmethods-hybrid-integration?lnk=hprc4cn" target="_self">
+			<p slot="cta" class="caem-tile__link">免费试用</p>
+		</a>
+	</caem-tile>
+
+	<div class="caem-card-svg-source" hidden><svg xmlns="http://www.w3.org/2000/svg" id="accelerated-computing" viewBox="0 0 32 32"><path d="M19,29.36c-3.401,0-6.596-1.506-8.764-4.131l0.556-0.459c2.03,2.459,5.022,3.869,8.208,3.869 c5.867,0,10.64-4.772,10.64-10.64c0-5.867-4.772-10.64-10.64-10.64c-3.186,0-6.177,1.411-8.208,3.87l-0.555-0.459 c2.091-2.532,5.137-4.022,8.403-4.125V5.36H16c-0.199,0-0.36-0.161-0.36-0.36V3c0-0.199,0.161-0.36,0.36-0.36h6 c0.199,0,0.36,0.161,0.36,0.36v2c0,0.199-0.161,0.36-0.36,0.36h-2.64v1.286c6.098,0.191,11,5.211,11,11.354 C30.36,24.264,25.264,29.36,19,29.36z M16.36,4.64h5.28V3.36h-5.28V4.64z M14,23.36H4v-0.72h10V23.36z M12,18.36H2v-0.72h10V18.36z M19.179,18.312l-0.357-0.625l7-4l0.357,0.625L19.179,18.312z M14,13.36H4v-0.72h10V13.36z"/></svg></div>
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+      </caem-tile-group>
+  </div>
+
+
+
+  
+    <script defer src="/etc.clientlibs/adobe-cms/components/content/organisms/tile-group/tile-group-container/clientlibs.lc-92a38a0479519d42cd16961ae5a4bd09-lc.min.js"></script>
+
+
+
+</div>
+<div class="modular-container container responsivegrid">
+
+    
+    
+    
+    <div id="modular-container-bbdb9f7f49" class="cmp-container">
+        
+        <div class="standalone-text rich-text text">
+</div>
+
+        
+    </div>
+
+</div>
+<div class="50-50-content-block"><div class="cds--50-50-content-block">
+  <div class="cds--row">
+    
+      <h2 class="cds--50-50-content-block__heading cds--col-lg-8 expressive-heading-05">
+        
+
+
+
+  
+    AI 洞察和工具
+
+
+
+
+
+
+    
+
+
+      </h2>
+    
+  </div>
+
+  <div class="cds--row">
+    <div class="cds--50-50-content-block__item cds--col-lg-8">
+      
+<div class="cds--content-block-50-50-card ">
+    
+    <div class="cds--no-gutter cds--content-block-50-50-card__media">
+        
+
+
+	
+	
+    
+
+
+
+
+    
+
+
+    </div>
+    <div class="cds--content-block-50-50-card__heading">
+        <h4 class="expressive-heading-04">
+            
+
+
+    
+
+  
+
+<span class="enhanced-title text-color-gradient-90-blue-to-teal">面向开发者</span>
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+        </h4>
+    </div>
+    <div>
+        <div class="cds--content-block-50-50-card__body">
+
+    
+    
+    
+    <div id="content-block-container-2ea510aa6c" class="cmp-container">
+        
+        <div class="standalone-text rich-text text">
+    <span class="  normal cms-richtext">
+        <p>利用我们的 AI 工具和基础模型&#xff0c;提升您的技能并创造新内容。然后&#xff0c;与同行建立联系&#xff0c;开展合作&#xff0c;共同创新。</p>
+
+    </span>
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://www.ibm.com/cn-zh/granite?lnk=hpdev1cn" icon-placement="right" target="_self" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">开始使用 IBM Granite 模型进行构建</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://developer.ibm.com/technologies/artificial-intelligence?lnk=hpdev2cn" icon-placement="right" target="_self" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">深入了解 AI 课程、API、数据集等内容</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://www.ibm.com/cn-zh/products/watsonx-code-assistant?lnk=hpdev3cn" icon-placement="right" target="_self" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">使用 watsonx Code Assistant 加快软件开发</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://www.ibm.com/watsonx/developer/?lnk=hpdev4cn" icon-placement="right" target="_self" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">探索 watsonx.ai 开发人员工具包</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+
+        
+    </div>
+
+</div>
+    </div>
+</div>
+
+    
+    
+
+
+    </div>
+    <div class="cds--50-50-content-block__item cds--col-lg-8">
+      
+<div class="cds--content-block-50-50-card ">
+    
+    <div class="cds--no-gutter cds--content-block-50-50-card__media">
+        
+
+
+	
+	
+    
+
+
+
+
+    
+
+
+    </div>
+    <div class="cds--content-block-50-50-card__heading">
+        <h4 class="expressive-heading-04">
+            
+
+
+    
+
+  
+
+<span class="enhanced-title text-color-gradient-90-blue-to-teal">适用于商业高管</span>
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+        </h4>
+    </div>
+    <div>
+        <div class="cds--content-block-50-50-card__body">
+
+    
+    
+    
+    <div id="content-block-container-cce74643fb" class="cmp-container">
+        
+        <div class="standalone-text rich-text text">
+    <span class="  normal cms-richtext">
+        <p>利用 AI 工具、科技和洞察&#xff0c;转变业务并推动增长&#xff0c;帮助您保持竞争力&#xff0c;并负责任地规划组织的未来发展。</p>
+
+    </span>
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://www.ibm.com/cn-zh/services/insights/institute-business-value?lnk=hpab1cn" icon-placement="right" target="_blank" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">获取 IBM 商业价值研究院最新洞察报告</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://www.ibm.com/cn-zh/think/videos/ai-academy?lnk=hpab2cn" icon-placement="right" target="_self" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">深入了解专为商业领袖设计的 AI 课程</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://www.ibm.com/cn-zh/subscribe?lnk=hpab4cn" icon-placement="right" target="_blank" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">订阅 Think 时事通讯</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+<div class="link button">
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+            <div>
+                    <a cta-type="local" href="https://www.ibm.com/cn-zh/contact#hotline?lnk=hpab5cn" icon-placement="right" target="_self" data-link-type="local" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-video-modal-type="media-center">
+                    
+                    <span class="cds--link-text" data-link-text data-dynamic-inner-content="ctaLabel">查看 IBM 大中华区专属区域热线</span>
+                    
+    <!-- LTR - Left to Right version -->
+    
+    <svg xmlns="http://www.w3.org/2000/svg" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    <!-- RTL - Right to Left version -->
+    
+    
+    
+    
+    
+    
+    
+    
+
+                    </a>
+            </div>
+        
+    
+    
+    
+
+
+</div>
+
+        
+    </div>
+
+</div>
+    </div>
+</div>
+
+    
+    
+
+
+    </div>
+  </div>
+
+  <div>
+    
+    
+    
+        <div role="separator" class="cmp-horizontal-rule"></div>
+        
+    
+
+    
+
+
+  </div>
+
+</div>
+</div>
+<div class="promotional-banner">
+
+
+
+    
+
+<div class="promotionalBanner" data-node="/content/adobe-cms/cn/zh/homepage/jcr:content/root/table_of_contents/promotional_banner_c" isapicall="NonApi">
+    <c4d-promo-banner class="promotional-banner__container theme-c10 ">
+        
+            
+
+
+	<div data-cmp-aspectratio="original" data-cmp-hook-image="imageV3IBM" slot="image" data-cmp-is="image" data-cmp-widths="320,384,512,640,768,960,1024,1152,1280,1536,1584" data-cmp-dmimage data-cmp-src="https://assets.ibm.com/is/image/ibm/taz-early-testing?ts=1758897628967&amp;dpr=off" data-asset-id="41c62f9e-36ce-4585-8d23-d23024105472" data-cmp-filereference="/content/dam/worldwide-content/creative-assets/s-migr/ul/g/6f/a4/taz-early-testing.png" id="image-dm-fdb879325f" data-cmp-data-layer="{&#34;image-dm-fdb879325f&#34;:{&#34;@type&#34;:&#34;adobe-cms/components/content/atoms/image-dm&#34;,&#34;repo:modifyDate&#34;:&#34;2025-09-26T14:40:28Z&#34;,&#34;dc:title&#34;:&#34;Early Integration test builder&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;41c62f9e-36ce-4585-8d23-d23024105472&#34;,&#34;repo:modifyDate&#34;:&#34;2025-09-09T19:15:25Z&#34;,&#34;@type&#34;:&#34;image/png&#34;,&#34;repo:path&#34;:&#34;/content/dam/worldwide-content/creative-assets/s-migr/ul/g/6f/a4/taz-early-testing.png&#34;,&#34;xdm:tags&#34;:[&#34;properties:orientation/landscape&#34;],&#34;xdm:smartTags&#34;:{&#34;peripheral&#34;:0.772,&#34;computer equipment&#34;:0.848,&#34;gaming&#34;:0.764,&#34;pc game&#34;:0.844,&#34;indoor activity&#34;:0.776,&#34;simulation&#34;:0.933,&#34;commercial photography&#34;:0.798,&#34;rendering&#34;:0.789,&#34;call center&#34;:0.857,&#34;lab&#34;:0.79,&#34;network&#34;:0.84,&#34;diagram&#34;:0.773,&#34;computer&#34;:0.817,&#34;duplicator&#34;:0.801,&#34;collaboration&#34;:0.766,&#34;mass production&#34;:0.813,&#34;organization&#34;:0.786,&#34;computer terminal&#34;:0.834,&#34;manufacturing&#34;:0.798}}}}" class="cmp-image">
+		<script type="application/json">
+			{
+				"widths": [320,384,512,640,768,960,1024,1152,1280,1536,1584],
+				"maximagesize": "5000",
+				"aspectratio": "original",
+				"urls": {
+					"dynamicmedia": "https://assets.ibm.com/is/image/ibm/taz-early-testing",
+					"adaptiveservlet": "https://www.ibm.com/cn-zh/_jcr_content/root/table_of_contents/promotional_banner_c/image.coreimg.90{.width}.png/1758897628967/taz-early-testing.png",
+					"assetdelivery": "/adobe/dynamicmedia/deliver/dm-aid--41c62f9e-36ce-4585-8d23-d23024105472/taz-early-testing.png?preferwebp=true"
+				},
+				"usecustomcrop": "false",
+				"customcrops": {
+					"1x1": "",
+					"2x1": "",
+					"3x2": "",
+					"4x3": "",
+					"5x2": "",
+					"16x9": ""
+				}
+			}
+		</script>
+		
+
+			
+				
+					
+
+					<img src="https://assets.ibm.com/is/image/ibm/taz-early-testing?ts=1758897628967&dpr=off" srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="3840" height="2160" alt="一条涉及数据处理和自动化技术的装配线示意图" title="Illustration of automated data processing system"/>
+				
+
+				
+
+			
+		
+		
+
+		
+
+	</div>
+	
+    
+
+
+
+
+    
+
+
+	        
+        
+        
+
+        
+            <span class="heading-compact-02"><p>IBM 智能制造业解决方案</p>
+</span>
+        
+        <div class=" "><p>借助 AI 和混合云解决方案&#xff0c;将业务运营敏捷性提升到全新水平。</p>
+<p> </p>
+</div>
+        
+            
+    
+    
+    
+    
+    <a href="https://www.ibm.com/cn-zh/industries/manufacturing?lnk=hpcnbt1" target="_blank" slot="cta">
+        <c4d-button slot="cta" href="https://www.ibm.com/cn-zh/industries/manufacturing?lnk=hpcnbt1" target="_blank" kind="primary" aria-label="深入了解并报名参加 TechXchange" cta-type="local">
+            <span>查看解决方案</span>
+            
+            
+        </c4d-button>
+    </a>
+    
+    
+    
+    
+
+    
+
+
+        
+        
+    <svg xmlns="http://www.w3.org/2000/svg" class="promotional-banner__icon" slot="icon" width="20" height="20" focusable="false" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+    </svg>
+
+    
+    </c4d-promo-banner>
+</div>
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-countdown.lc-6c97219b4fcb6ba874f6148c18a572cd-lc.min.js"></script>
+<script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-promo-banner.lc-669985cdd23e78d49fdb267c50a8c0c7-lc.min.js"></script>
+
+
+</div>
+<div class="card-group-pictogram-full-width card-group-pictogram themed-block theme-white">
+    <div class="cds--content-block">
+        <div class="cds--full-width-intro-container">
+            
+
+<div class="intro-section--flex fullwidth-intro-section">
+    <div class="intro-section--heading-wrapper">
+        <h2 class="expressive-heading-05 ">
+            
+
+
+
+  
+    Technology &amp; Consulting 
+
+
+
+
+
+
+    
+
+
+        </h2>
+    </div>
+    <div class="intro-section--content-wrapper">
+        <span class="expressive-heading-03">
+            <div class="cms-richtext " id="rich-text-54956cd3cc" data-dynamic-inner-content="description">
+    <p>从<a href="https://www.ibm.com/cn-zh/artificial-intelligence?lnk&#61;ProdC">下一代 AI</a> 到尖端的<a href="https://www.ibm.com/cn-zh/solutions/hybrid-cloud?lnk&#61;ProdC">混合云</a>解决方案&#xff0c;再到 <a href="https://www.ibm.com/cn-zh/consulting?lnk&#61;ProdC">IBM 咨询</a>的深厚专业知识&#xff0c;IBM 拥有帮助您在 AI 时代重塑业务运作方式所需的一切。</p>
+
+    
+    
+    
+    
+
+</div>
+        </span>
+
+        
+            <c4d-link-list type="vertical">
+                
+                    
+    
+    
+    
+    
+
+    
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-cibm-cta.lc-40199c076cfcd345694fbc98910075f1-lc.min.js"></script>
+
+
+    
+   
+
+                
+                
+                    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+
+                
+            </c4d-link-list>
+        
+
+        
+    </div>
+</div>
+
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-link-list.lc-faf0fd39e21a0290a46d2de37e1d6fc1-lc.min.js"></script>
+
+
+
+
+        </div>
+        
+            
+                <c4d-card-group grid-mode="border" cards-per-row="4" data-autoid="c4d--card-group" style="--c4d--card-group--cards-in-row:4" class="themed-pictogram themed-pictogram--blue-teal-gradient">
+                    
+
+    
+    
+    
+    
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/artificial-intelligence?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    AI 解决方案</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="ai" viewBox="0 0 32 32"><path d="M16.195,31.36c-6.421,0-12.169-4.007-14.399-10.002 C1.051,21.408,0.373,20.771,0.372,20c0-0.75,0.61-1.36,1.36-1.36s1.36,0.61,1.36,1.36c0,0.474-0.243,0.892-0.611,1.135 c2.133,5.698,7.604,9.505,13.714,9.505c6.446,0,11.919-4.301,13.773-10.22c-1.448,2.06-3.877,3.44-6.565,3.44 c-3.822,0-7.066-2.785-7.664-6.525C15.113,17.212,14.64,16.661,14.64,16c0-0.584,0.37-1.083,0.888-1.275 c-0.608-3.421-3.615-5.962-7.125-5.962c-3.947,0-7.04,3.176-7.042,7.231c0,0.002,0,0.004,0,0.006H0.64c0-0.002,0-0.004,0-0.007 C0.644,7.526,7.445,0.64,15.805,0.64c6.42,0,12.168,4.006,14.399,10.001c0.777-0.034,1.425,0.587,1.425,1.358 c0,0.75-0.61,1.36-1.36,1.36s-1.36-0.61-1.36-1.36c0-0.473,0.243-0.891,0.611-1.135C27.387,5.166,21.916,1.36,15.805,1.36 c-6.319,0-11.704,4.134-13.659,9.873c1.402-1.949,3.662-3.19,6.256-3.19c3.881,0,7.204,2.826,7.846,6.62 C16.88,14.779,17.36,15.335,17.36,16c0,0.589-0.376,1.092-0.901,1.28c0.567,3.363,3.496,5.859,6.943,5.859 c3.857,0,7.127-3.118,7.235-6.851c0.001-0.096,0.002-0.192,0.002-0.289h0.721c0,0.033,0,0.065-0.001,0.098h0.001 c0,0.069-0.001,0.138-0.003,0.207C31.196,24.634,24.456,31.36,16.195,31.36z M1.732,19.36c-0.353,0-0.64,0.287-0.64,0.64 s0.287,0.64,0.64,0.64s0.64-0.287,0.64-0.64S2.085,19.36,1.732,19.36z M16,15.36c-0.353,0-0.64,0.287-0.64,0.64 s0.287,0.64,0.64,0.64s0.64-0.287,0.64-0.64S16.353,15.36,16,15.36z M30.269,11.36c-0.353,0-0.64,0.287-0.64,0.64 s0.287,0.64,0.64,0.64s0.64-0.287,0.64-0.64S30.621,11.36,30.269,11.36z"/></svg>
+                </svg>
+                <p>充分利用专为商业构建的 AI 技术，实现从 AI 试点到规模化生产的跨越</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/artificial-intelligence?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/artificial-intelligence?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/artificial-intelligence?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-card.lc-9bc2333312dd636af9fcf05525b1eec2-lc.min.js"></script>
+
+
+    
+   
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/granite?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    人工智能模型</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="app--developer" viewBox="0 0 32 32"><path d="M3.254,9.254L2.746,8.746L3.991,7.5L2.746,6.254l0.509-0.509L5.009,7.5L3.254,9.254z M3,2 C2.724,2,2.5,2.224,2.5,2.5S2.724,3,3,3s0.5-0.224,0.5-0.5S3.276,2,3,2z M5.5,2.5C5.5,2.776,5.276,3,5,3S4.5,2.776,4.5,2.5 S4.724,2,5,2S5.5,2.224,5.5,2.5z M7.5,2.5C7.5,2.776,7.276,3,7,3S6.5,2.776,6.5,2.5S6.724,2,7,2S7.5,2.224,7.5,2.5z M18.5,6.5 C18.5,6.776,18.276,7,18,7s-0.5-0.224-0.5-0.5S17.724,6,18,6S18.5,6.224,18.5,6.5z M20.5,6.5C20.5,6.776,20.276,7,20,7 s-0.5-0.224-0.5-0.5S19.724,6,20,6S20.5,6.224,20.5,6.5z M22.5,6.5C22.5,6.776,22.276,7,22,7s-0.5-0.224-0.5-0.5S21.724,6,22,6 S22.5,6.224,22.5,6.5z M5.5,24.5C5.5,24.776,5.276,25,5,25s-0.5-0.224-0.5-0.5S4.724,24,5,24S5.5,24.224,5.5,24.5z M13,14.36H1 c-0.199,0-0.36-0.161-0.36-0.36V1c0-0.199,0.161-0.36,0.36-0.36h12c0.199,0,0.36,0.161,0.36,0.36v13 C13.36,14.199,13.199,14.36,13,14.36z M12.64,4.36H1.36v9.28h11.28C12.64,13.64,12.64,4.36,12.64,4.36z M12.64,1.36H1.36v2.281 h11.28C12.64,3.641,12.64,1.36,12.64,1.36z M31.36,5v17c0,0.199-0.161,0.36-0.36,0.36H19.691c-0.301,0.471-0.69,0.885-1.152,1.215 c2.875,1.05,4.819,3.778,4.819,6.902l0.002,0.521L22.639,31l-0.002-0.522c0-3.078-2.09-5.729-5.083-6.45 c-0.15-0.035-0.26-0.163-0.274-0.316s0.07-0.299,0.211-0.361c1.315-0.592,2.165-1.9,2.165-3.334c0-2.017-1.64-3.657-3.656-3.657 c-2.018,0-3.66,1.64-3.66,3.657c0,1.434,0.85,2.742,2.166,3.334c0.141,0.062,0.225,0.208,0.211,0.361s-0.125,0.281-0.274,0.316 c-2.993,0.721-5.084,3.372-5.084,6.449l0.001,0.521L8.64,31l-0.001-0.522c0-3.125,1.943-5.854,4.819-6.903 c-1.138-0.812-1.838-2.134-1.838-3.559c0-2.292,1.772-4.178,4.02-4.362V5c0-0.199,0.161-0.36,0.36-0.36h15 C31.199,4.64,31.36,4.801,31.36,5z M30.64,8.36H16.36v7.295c2.246,0.184,4.017,2.07,4.017,4.362c0,0.566-0.11,1.115-0.315,1.623 H30.64V8.36z M30.64,5.36H16.36v2.28h14.28V5.36z M22,11.64h-4v0.72h4V11.64z M23.64,17.5c0-1.577,1.283-2.86,2.86-2.86 s2.86,1.283,2.86,2.86s-1.283,2.86-2.86,2.86S23.64,19.077,23.64,17.5z M28.242,16.266l-1.383,1.383l-0.004,1.955 c1.01-0.171,1.784-1.046,1.784-2.104C28.64,17.04,28.49,16.615,28.242,16.266z M24.36,17.5c0,1.055,0.769,1.928,1.774,2.103 l0.006-2.253l1.592-1.593c-0.349-0.248-0.773-0.397-1.233-0.397C25.32,15.36,24.36,16.32,24.36,17.5z M8,9.64H5v0.72h3V9.64z M3.5,21.36h3v-0.72h-3V21.36z M3.5,19.36h3v-0.72h-3V19.36z M22,13.64h-4v0.72h4V13.64z M29,11.64h-4v0.72h4V11.64z M29,9.64h-4 v0.72h4V9.64z M22,9.64h-4v0.72h4V9.64z M8.36,17.584v7.832c0,0.521-0.423,0.944-0.944,0.944H2.584 c-0.521,0-0.944-0.424-0.944-0.944v-7.832c0-0.521,0.423-0.944,0.944-0.944h4.832C7.937,16.64,8.36,17.063,8.36,17.584z M7.64,23.36 H2.36v2.056c0,0.123,0.101,0.224,0.224,0.224h4.832c0.124,0,0.224-0.101,0.224-0.224C7.64,25.416,7.64,23.36,7.64,23.36z M7.64,17.584c0-0.123-0.101-0.224-0.224-0.224H2.584c-0.124,0-0.224,0.101-0.224,0.224v5.056h5.28 C7.64,22.64,7.64,17.584,7.64,17.584z"/></svg>
+                </svg>
+                <p>我们的 AI 模型经济高效，专为商业量身定制，并针对规模化应用优化，敬请开始利用</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/granite?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/granite?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/granite?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/consulting?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    咨询</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="group" viewBox="0 0 32 32"><path d="M24.36,31h-0.72v-7.5c0-3.552-2.414-6.604-5.872-7.424c-0.15-0.036-0.261-0.163-0.275-0.316 c-0.015-0.154,0.071-0.3,0.212-0.363c1.517-0.675,2.496-2.181,2.496-3.836c0-2.316-1.884-4.201-4.2-4.201S11.8,9.244,11.8,11.561 c0,1.655,0.98,3.162,2.496,3.836c0.141,0.063,0.227,0.209,0.212,0.363c-0.014,0.153-0.125,0.281-0.275,0.316 c-3.458,0.82-5.872,3.872-5.872,7.424V31H7.64v-7.5c0-3.592,2.257-6.718,5.585-7.879c-1.326-0.907-2.146-2.421-2.146-4.061 c0-1.964,1.157-3.664,2.826-4.452C14.101,6.617,14.2,6.097,14.2,5.561c0-2.316-1.884-4.201-4.2-4.201S5.799,3.244,5.799,5.561 c0,1.656,0.98,3.162,2.496,3.836C8.437,9.46,8.521,9.606,8.507,9.76c-0.014,0.153-0.125,0.281-0.275,0.316 C4.774,10.896,2.36,13.948,2.36,17.5V25H1.64v-7.5c0-3.592,2.257-6.718,5.585-7.879C5.899,8.714,5.08,7.2,5.08,5.561 c0-2.713,2.207-4.92,4.92-4.92s4.92,2.207,4.92,4.92c0,0.422-0.052,0.836-0.157,1.237c0.791-0.205,1.683-0.205,2.473,0 c-0.104-0.401-0.157-0.815-0.157-1.237c0-2.713,2.208-4.92,4.921-4.92s4.921,2.207,4.921,4.92c0,1.64-0.82,3.154-2.146,4.061 c3.329,1.161,5.586,4.287,5.586,7.879V25H29.64v-7.5c0-3.552-2.414-6.604-5.872-7.424c-0.15-0.036-0.261-0.163-0.275-0.316 c-0.015-0.154,0.071-0.3,0.212-0.363C25.221,8.722,26.2,7.216,26.2,5.561c0-2.316-1.884-4.201-4.2-4.201s-4.2,1.884-4.2,4.201 c0,0.536,0.099,1.056,0.295,1.548c1.669,0.789,2.826,2.488,2.826,4.452c0,1.64-0.82,3.154-2.146,4.061 c3.329,1.161,5.586,4.287,5.586,7.879L24.36,31L24.36,31z"/></svg>
+                </svg>
+                <p>与 IBM Consulting 共同设计、构建、运营，打造高绩效企业</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/consulting?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/consulting?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/consulting?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/solutions/analytics?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    分析</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="predictive-analytics" viewBox="0 0 32 32"><path d="M31,31.36H1c-0.199,0-0.36-0.161-0.36-0.36 V1h0.72v29.64h4.28v-7.328c-0.576-0.158-1-0.687-1-1.312c0-0.75,0.61-1.36,1.36-1.36c0.364,0,0.694,0.144,0.938,0.377l3.702-2.221 v-8.484c-0.576-0.158-1-0.686-1-1.312c0-0.75,0.61-1.36,1.36-1.36S12.36,8.25,12.36,9c0,0.625-0.424,1.153-1,1.312v8.053l3.33-1.998 c-0.032-0.116-0.05-0.239-0.05-0.366c0-0.75,0.61-1.36,1.36-1.36c0.364,0,0.695,0.144,0.939,0.377l3.701-2.221V6.312 c-0.575-0.158-1-0.686-1-1.312c0-0.75,0.61-1.36,1.36-1.36S22.36,4.25,22.36,5c0,0.625-0.425,1.153-1,1.312v6.053l3.33-1.998 c-0.033-0.117-0.05-0.24-0.05-0.367c0-0.75,0.61-1.36,1.36-1.36s1.36,0.61,1.36,1.36c0,0.625-0.425,1.153-1,1.312V30.64H31V31.36z M21.36,30.64h4.279V11.312c-0.22-0.061-0.418-0.175-0.578-0.328l-3.701,2.221V30.64z M16.36,30.64h4.28V13.636l-3.33,1.998 c0.033,0.116,0.05,0.239,0.05,0.366c0,0.625-0.425,1.153-1,1.312V30.64z M11.36,30.64h4.28V17.312 c-0.22-0.061-0.418-0.175-0.579-0.328l-3.702,2.221V30.64H11.36z M6.36,30.64h4.28V19.636l-3.33,1.998 C7.343,21.75,7.36,21.873,7.36,22c0,0.625-0.424,1.153-1,1.312V30.64z M6,21.36c-0.353,0-0.64,0.287-0.64,0.64S5.647,22.64,6,22.64 S6.64,22.353,6.64,22S6.353,21.36,6,21.36z M16,15.36c-0.353,0-0.64,0.287-0.64,0.64s0.287,0.64,0.64,0.64s0.64-0.287,0.64-0.64 S16.353,15.36,16,15.36z M26,9.36c-0.353,0-0.64,0.287-0.64,0.64s0.287,0.64,0.64,0.64s0.64-0.287,0.64-0.64S26.353,9.36,26,9.36z M11,8.36c-0.353,0-0.64,0.287-0.64,0.64S10.647,9.64,11,9.64S11.64,9.353,11.64,9S11.353,8.36,11,8.36z M21,4.36 c-0.353,0-0.64,0.287-0.64,0.64S20.647,5.64,21,5.64S21.64,5.353,21.64,5S21.353,4.36,21,4.36z"/></svg>
+                </svg>
+                <p>支持您的企业开展数据驱动型决策</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/solutions/analytics?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/solutions/analytics?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/solutions/analytics?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/solutions/automation?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    IT 自动化</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="automation--decision" viewBox="0 0 32 32"><path d="M27.255,19.255L30.509,16l-3.254-3.254l-0.51,0.509l2.386,2.386H16.149L9.36,8.85V5.36h19.771 l-2.386,2.386l0.51,0.509L30.509,5l-3.254-3.254l-0.51,0.509l2.386,2.386H9C8.801,4.64,8.64,4.801,8.64,5v3.85l-6.895,6.896 c-0.141,0.141-0.141,0.368,0,0.509L8.64,23.15V27c0,0.199,0.161,0.36,0.36,0.36h20.131l-2.386,2.385l0.51,0.51L30.509,27 l-3.254-3.255l-0.51,0.51l2.386,2.385H9.36v-3.49l6.789-6.79h12.982l-2.386,2.385L27.255,19.255z M9,22.491L2.509,16L9,9.508 L15.491,16L9,22.491z"/></svg>
+                </svg>
+                <p>了解自动化解决方案如何在有效控制成本的同时提高生产力。</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/solutions/automation?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/solutions/automation?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/solutions/automation?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/solutions/servers?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    计算和服务器</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="storage--product" viewBox="0 0 32 32"><path d="M30,31.36H8c-0.199,0-0.36-0.161-0.36-0.36v-5c0-0.199,0.161-0.36,0.36-0.36h22 c0.199,0,0.36,0.161,0.36,0.36v5C30.36,31.199,30.199,31.36,30,31.36z M8.36,30.64h21.28v-4.28H8.36V30.64z M6,31.36H2 c-0.199,0-0.36-0.161-0.36-0.36V1c0-0.199,0.161-0.36,0.36-0.36h11c0.199,0,0.36,0.161,0.36,0.36v9h-0.72V1.36H2.36v29.28H6V31.36z M28.36,30h-0.72v-2h0.721L28.36,30L28.36,30z M26.36,30h-0.72v-2h0.721L26.36,30L26.36,30z M24.36,30h-0.72v-2h0.721L24.36,30 L24.36,30z M22.36,30h-0.72v-2h0.721L22.36,30L22.36,30z M30,24.36H8c-0.199,0-0.36-0.161-0.36-0.36v-5 c0-0.199,0.161-0.36,0.36-0.36h22c0.199,0,0.36,0.161,0.36,0.36v5C30.36,24.199,30.199,24.36,30,24.36z M8.36,23.64h21.28v-4.28 H8.36V23.64z M28.36,23h-0.72v-2h0.721L28.36,23L28.36,23z M26.36,23h-0.72v-2h0.721L26.36,23L26.36,23z M24.36,23h-0.72v-2h0.721 L24.36,23L24.36,23z M22.36,23h-0.72v-2h0.721L22.36,23L22.36,23z M30,17.36H8c-0.199,0-0.36-0.161-0.36-0.36v-5 c0-0.199,0.161-0.36,0.36-0.36h22c0.199,0,0.36,0.161,0.36,0.36v5C30.36,17.199,30.199,17.36,30,17.36z M8.36,16.64h21.28v-4.28 H8.36V16.64z M28.36,16h-0.72v-2h0.721L28.36,16L28.36,16z M26.36,16h-0.72v-2h0.721L26.36,16L26.36,16z M24.36,16h-0.72v-2h0.721 L24.36,16L24.36,16z M22.36,16h-0.72v-2h0.721L22.36,16L22.36,16z M6,4.36H4V3.64h2V4.36z"/></svg>
+                </svg>
+                <p>处理任务关键型工作负载，同时保持整个 IT 基础设施的安全性、可靠性和控制力</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/solutions/servers?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/solutions/servers?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/solutions/servers?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/solutions/database?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    数据库</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="hard--drive--network" viewBox="0 0 32 32"><path d="M20,6c-0.552,0-1-0.448-1-1s0.448-1,1-1s1,0.448,1,1S20.552,6,20,6z M21,16 c0-0.552-0.448-1-1-1s-1,0.448-1,1s0.448,1,1,1S21,16.552,21,16z M21,27c0-0.552-0.448-1-1-1s-1,0.448-1,1s0.448,1,1,1 S21,27.552,21,27z M24,31.36H1c-0.199,0-0.36-0.161-0.36-0.36v-8c0-0.199,0.161-0.36,0.36-0.36h23c0.199,0,0.36,0.161,0.36,0.36v8 C24.36,31.199,24.199,31.36,24,31.36z M1.36,30.64h22.28v-7.28H1.36V30.64z M31,27.36h-5v-0.72h4.64V16.36H26v-0.72h4.64V5.36H26 V4.64h5c0.199,0,0.36,0.161,0.36,0.36v22C31.36,27.199,31.199,27.36,31,27.36z M24,20.36H1c-0.199,0-0.36-0.161-0.36-0.36v-8 c0-0.199,0.161-0.36,0.36-0.36h23c0.199,0,0.36,0.161,0.36,0.36v8C24.36,20.199,24.199,20.36,24,20.36z M1.36,19.64h22.28v-7.28 H1.36V19.64z M24,9.36H1C0.801,9.36,0.64,9.199,0.64,9V1c0-0.199,0.161-0.36,0.36-0.36h23c0.199,0,0.36,0.161,0.36,0.36v8 C24.36,9.199,24.199,9.36,24,9.36z M1.36,8.64h22.28V1.36H1.36V8.64z"/></svg>
+                </svg>
+                <p>使用任意云上的数据库，运行您的应用程序、分析和生成式 AI</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/solutions/database?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/solutions/database?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/solutions/database?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+    
+        
+        
+            
+            
+            <c4d-card-group-item color-scheme grid-mode="condensed" data-video-modal-type="media-center" cta-type="local" data-autoid="c4d--card-group-item" href="https://www.ibm.com/cn-zh/solutions/security?lnk=ProdC" target="_self" pictogram-placement="bottom" size>
+                <c4d-card-heading aria-level="3" data-autoid="c4d--card-heading" role="heading" slot="heading">
+                    
+                    安全与身份</c4d-card-heading>
+                <svg slot="pictogram" class="cds--card__pictogram" style="--colorized-background:url('#g3'); fill: var(--colorized-background)" focusable="false" height="48" width="48" role="img">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="secure--profile" viewBox="0 0 32 32"><path d="M23.14,25.415v-1.988c-0.373-0.145-0.64-0.503-0.64-0.927c0-0.552,0.448-1,1-1s1,0.448,1,1 c0,0.424-0.266,0.782-0.64,0.927v1.988c0,0.199-0.161,0.36-0.36,0.36S23.14,25.614,23.14,25.415z M31.36,16v15 c0,0.199-0.161,0.36-0.36,0.36H16c-0.199,0-0.36-0.161-0.36-0.36V19h0.72v11.64h14.28V16.36H1c-0.199,0-0.36-0.161-0.36-0.36V1 c0-0.199,0.161-0.36,0.36-0.36h15c0.199,0,0.36,0.161,0.36,0.36v12h-0.72V1.36H1.36v14.28h2.28v-2.639 c0-1.926,1.166-3.659,2.908-4.427C5.978,8.04,5.643,7.293,5.643,6.5c0-1.577,1.283-2.86,2.86-2.86s2.86,1.283,2.86,2.86 c0,0.794-0.335,1.542-0.907,2.075c1.74,0.77,2.904,2.502,2.904,4.426v2.639h6.28V11.5c0-2.128,1.731-3.86,3.859-3.86 c2.129,0,3.861,1.731,3.861,3.86l-0.001,4.14H31C31.199,15.64,31.36,15.801,31.36,16z M12.64,13.001c0-1.837-1.25-3.47-3.041-3.97 c-0.141-0.04-0.244-0.16-0.261-0.306C9.321,8.58,9.395,8.439,9.523,8.369c0.69-0.379,1.12-1.095,1.12-1.869 c0-1.18-0.96-2.14-2.14-2.14s-2.14,0.96-2.14,2.14c0,0.773,0.429,1.489,1.119,1.868c0.128,0.07,0.201,0.211,0.184,0.357 C7.648,8.87,7.545,8.991,7.404,9.03C5.612,9.529,4.36,11.162,4.36,13.001v2.639h8.28C12.64,15.64,12.64,13.001,12.64,13.001z M26.64,11.5c0-1.731-1.408-3.14-3.14-3.14s-3.14,1.409-3.14,3.14v4.14h6.278L26.64,11.5z"/></svg>
+                </svg>
+                <p>采用以数据和身份为中心的网络安全解决方案，保护混合云和 AI</p>
+                <a slot="footer" href="https://www.ibm.com/cn-zh/solutions/security?lnk=ProdC" target="_self">
+                    <c4d-card-footer color-scheme target="_self" cta-type="local" data-autoid="c4d--card-footer" href="https://www.ibm.com/cn-zh/solutions/security?lnk=ProdC" icon-placement="right" parent-href="https://www.ibm.com/cn-zh/solutions/security?lnk=ProdC" slot="footer">
+                        
+                    </c4d-card-footer>
+                </a>
+            </c4d-card-group-item>
+        
+    
+    
+    
+
+    
+    
+    
+
+    
+   
+    
+
+
+                </c4d-card-group>
+            
+        
+        
+    </div>
+
+    <div horizontal-ruler>
+        
+    
+    
+        <div role="separator" class="cmp-horizontal-rule"></div>
+        
+    
+
+    
+
+
+    </div>
+    
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-card-group.lc-f24e1bdf5219d3baa4703ea955070f20-lc.min.js"></script>
+
+
+    
+ 
+<svg class="cds--visually-hidden">
+    <defs>
+        <linearGradient id="g1" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0F62FE"></stop>
+            <stop offset="100%" stop-color="#8A3FFC"></stop>
+        </linearGradient>
+        <linearGradient id="g1-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#4589FF"></stop>
+            <stop offset="100%" stop-color="#A56EFF"></stop>
+        </linearGradient>
+        <linearGradient id="g2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0F62FE"></stop>
+            <stop offset="100%" stop-color="#78A9FF"></stop>
+        </linearGradient>
+        <linearGradient id="g2-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0F62FE"></stop>
+            <stop offset="100%" stop-color="#78A9FF"></stop>
+        </linearGradient>
+        <linearGradient id="g3" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0F62FE"></stop>
+            <stop offset="100%" stop-color="#08BDBA"></stop>
+        </linearGradient>
+        <linearGradient id="g3-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#4589FF"></stop>
+            <stop offset="100%" stop-color="#08BDBA"></stop>
+        </linearGradient>
+        <linearGradient id="g4" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0F62FE"></stop>
+            <stop offset="100%" stop-color="#FF7EB6"></stop>
+        </linearGradient>
+        <linearGradient id="g4-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#4589FF"></stop>
+            <stop offset="100%" stop-color="#EE5396"></stop>
+        </linearGradient>
+        <linearGradient id="g5" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#FA4D56"></stop>
+            <stop offset="100%" stop-color="#A56EFF"></stop>
+        </linearGradient>
+        <linearGradient id="g5-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#FA4D56"></stop>
+            <stop offset="100%" stop-color="#A56EFF"></stop>
+        </linearGradient>
+    </defs>
+</svg></div>
+<div class="cta-section thin-stat">
+
+
+
+
+  
+
+
+<c4d-cta-block class="   title-plus-3-items-layout" no-border>
+    <c4d-content-block-heading class="">
+        
+        
+
+     
+    IBM 团队
+
+
+
+
+    
+
+
+    </c4d-content-block-heading>
+    
+    
+    
+
+
+
+    <c4d-cta-block-item-row no-border>
+        
+
+    
+    
+    
+    
+
+<c4d-cta-block-item>
+    
+    
+    
+
+    
+    <c4d-content-item-heading>
+        
+
+
+
+  
+    我们的公司
+
+
+
+
+
+
+    
+
+
+    </c4d-content-item-heading>
+    <c4d-content-item-copy>
+        <c4d-content-item-paragraph>
+            <div class="cms-richtext " id="rich-text-dd13463735" data-dynamic-inner-content="description">
+    <p>深入了解 IBM 的历史和文化&#xff0c;探索我们如何运用科技改变现实世界。</p>
+
+    
+    
+    
+    
+
+</div>
+        </c4d-content-item-paragraph>
+    </c4d-content-item-copy>
+    
+    
+    
+        
+        
+        
+        <a slot="footer" href="https://www.ibm.com/cn-zh/about?lnk=inside" target="_self" style="display: contents">
+            <c4d-text-cta cta-type="local" icon-placement="right" href="https://www.ibm.com/cn-zh/about?lnk=inside" target="_self" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel" data-video-modal-type="media-center">关于 IBM
+                
+            </c4d-text-cta>
+        </a>
+    
+    
+    
+
+   
+
+    
+    
+    
+        
+        
+        
+        <a slot="footer" href="https://www.ibm.com/cn-zh/history?lnk=inside" target="_self" style="display: contents">
+            <c4d-text-cta cta-type="local" icon-placement="right" href="https://www.ibm.com/cn-zh/history?lnk=inside" target="_self" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel" data-video-modal-type="media-center">我们的历史
+                
+            </c4d-text-cta>
+        </a>
+    
+    
+    
+
+   
+
+</c4d-cta-block-item>
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-cta-block.lc-ebbd6d70a1369e9a249837cfe3fa449d-lc.min.js"></script>
+
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/components/content/molecules/cta-section-item/clientlibs.lc-06abd45fa5966d11f20d1a510a93fdda-lc.min.js"></script>
+
+
+
+
+<c4d-cta-block-item>
+    
+    
+    
+
+    
+    <c4d-content-item-heading>
+        
+
+
+
+  
+    我们的创新
+
+
+
+
+
+
+    
+
+
+    </c4d-content-item-heading>
+    <c4d-content-item-copy>
+        <c4d-content-item-paragraph>
+            <div class="cms-richtext " id="rich-text-1074a653bb" data-dynamic-inner-content="description">
+    <p>参观 IBM 实验室&#xff0c;了解计算领域未来的发展前景。</p>
+
+    
+    
+    
+    
+
+</div>
+        </c4d-content-item-paragraph>
+    </c4d-content-item-copy>
+    
+    
+    
+        
+        
+        
+        <a slot="footer" href="https://research.ibm.com?lnk=inside" target="_self" style="display: contents">
+            <c4d-text-cta cta-type="external" icon-placement="right" href="https://research.ibm.com?lnk=inside" target="_self" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel" data-video-modal-type="media-center">IBM Research
+                
+            </c4d-text-cta>
+        </a>
+    
+    
+    
+
+   
+
+    
+    
+    
+        
+        
+        
+        <a slot="footer" href="https://www.ibm.com/quantum?lnk=inside" target="_self" style="display: contents">
+            <c4d-text-cta cta-type="local" icon-placement="right" href="https://www.ibm.com/quantum?lnk=inside" target="_self" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel" data-video-modal-type="media-center">量子计算
+                
+            </c4d-text-cta>
+        </a>
+    
+    
+    
+
+   
+
+</c4d-cta-block-item>
+
+    
+    
+
+    
+    
+
+
+
+<c4d-cta-block-item>
+    
+    
+    
+
+    
+    <c4d-content-item-heading>
+        
+
+
+
+  
+    我们的员工
+
+
+
+
+
+
+    
+
+
+    </c4d-content-item-heading>
+    <c4d-content-item-copy>
+        <c4d-content-item-paragraph>
+            <div class="cms-richtext " id="rich-text-7fe6d704ff" data-dynamic-inner-content="description">
+    <p>了解成为 IBM 一员需具备何种素质&#xff0c;也可借助我们的课程发展您的技能。</p>
+
+    
+    
+    
+    
+
+</div>
+        </c4d-content-item-paragraph>
+    </c4d-content-item-copy>
+    
+    
+    
+        
+        
+        
+        <a slot="footer" href="https://www.ibm.com/cn-zh/careers?lnk=hpii1cn" target="_self" style="display: contents">
+            <c4d-text-cta cta-type="local" icon-placement="right" href="https://www.ibm.com/cn-zh/careers?lnk=hpii1cn" target="_self" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel" data-video-modal-type="media-center">成为 IBM 一员
+                
+            </c4d-text-cta>
+        </a>
+    
+    
+    
+
+   
+
+    
+    
+    
+        
+        
+        
+        <a slot="footer" href="https://skillsbuild.org/zh?lnk=hpii1cn" target="_blank" style="display: contents">
+            <c4d-text-cta cta-type="external" icon-placement="right" href="https://skillsbuild.org/zh?lnk=hpii1cn" target="_blank" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel" data-video-modal-type="media-center">开始学习
+                
+            </c4d-text-cta>
+        </a>
+    
+    
+    
+
+   
+
+</c4d-cta-block-item>
+
+    
+    
+
+    
+    
+
+
+    
+
+
+    </c4d-cta-block-item-row>
+
+
+    
+    
+
+
+
+</c4d-cta-block>
+
+<!-- Author markup -->
+
+
+    
+    
+
+
+</div>
+<div class="modular-container container responsivegrid">
+
+    
+    
+    
+    <div id="modular-container-a0e1053be0" class="cmp-container">
+        
+        <div class="standalone-text rich-text text">
+</div>
+
+        
+    </div>
+
+</div>
+
+        
+    </div>
+
+</c4d-table-of-contents>
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-table-of-contents.lc-d37b622a20beb1957406223150885cfa-lc.min.js"></script>
+
+</div>
+<div class="footer">
+
+
+    <div>
+
+
+
+    <c4d-footer-container selected-language="" size="regular" data-footer-json="{&#34;footerMenu&#34;:[{&#34;title&#34;:&#34;发现&#34;,&#34;links&#34;:[{&#34;title&#34;:&#34;产品&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/products/?lnk=fdi&#34;},{&#34;title&#34;:&#34;咨询服务&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/consulting&#34;},{&#34;title&#34;:&#34;行业&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/industries&#34;},{&#34;title&#34;:&#34;成功案例&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/case-studies&#34;},{&#34;title&#34;:&#34;融资&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/financing?lnk=flatitem&#34;},{&#34;title&#34;:&#34;研究&#34;,&#34;url&#34;:&#34;https://research.ibm.com/?lnk=flatitem&#34;}]},{&#34;title&#34;:&#34;关注&#34;,&#34;links&#34;:[{&#34;title&#34;:&#34;新浪微博&#34;,&#34;url&#34;:&#34;https://weibo.com/ibm100&#34;},{&#34;title&#34;:&#34;播客&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/think/podcasts&#34;}]},{&#34;title&#34;:&#34;连接&#34;,&#34;links&#34;:[{&#34;title&#34;:&#34;业务合作伙伴&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/partnerplus?lnk=fpo&#34;},{&#34;title&#34;:&#34;文档&#34;,&#34;url&#34;:&#34;https://www.ibm.com/docs/en?lnk=flathl&#34;},{&#34;title&#34;:&#34;订阅中心&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/subscribe&#34;},{&#34;title&#34;:&#34;支持&#34;,&#34;url&#34;:&#34;https://www.ibm.com/mysupport/s/?language=zh_CN&amp;lnk=fcw&#34;},{&#34;title&#34;:&#34;TechXchange 社区&#34;,&#34;url&#34;:&#34;https://community.ibm.com/community/user/home?lnk=fpo&#34;}]},{&#34;title&#34;:&#34;简介&#34;,&#34;links&#34;:[{&#34;title&#34;:&#34;概述&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/about&#34;},{&#34;title&#34;:&#34;职位&#34;,&#34;url&#34;:&#34;https://www.ibm.com/careers/cn-zh/?lnk=fab&#34;},{&#34;title&#34;:&#34;投资者关系&#34;,&#34;url&#34;:&#34;https://www.ibm.com/investor?lnk=flatitem&#34;},{&#34;title&#34;:&#34;领导力&#34;,&#34;url&#34;:&#34;https://asean.newsroom.ibm.com/leadership&#34;},{&#34;title&#34;:&#34;新闻中心&#34;,&#34;url&#34;:&#34;https://china.newsroom.ibm.com/?lnk=fab_cnzh&#34;},{&#34;title&#34;:&#34;安全、隐私和信任&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/trust?lnk=flatitem&#34;}]}],&#34;footerThin&#34;:[{&#34;title&#34;:&#34;联系 IBM&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/contact&#34;},{&#34;title&#34;:&#34;隐私&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/privacy&#34;},{&#34;title&#34;:&#34;使用条款&#34;,&#34;url&#34;:&#34;https://www.ibm.com/cn-zh/legal?lnk=flg-tous-cnzh&#34;},{&#34;title&#34;:&#34;可访问性&#34;,&#34;url&#34;:&#34;https://www.ibm.com/able?lnk=flg-able-cnzh&#34;},{&#34;title&#34;:&#34;沪ICP备18004249号-23&#34;,&#34;url&#34;:&#34;https://beian.miit.gov.cn/&#34;}]}"></c4d-footer-container>
+
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-footer.lc-3c0e8efc5d961039d9be9bdd11512d9d-lc.min.js"></script>
+
+
+
+    
+<script src="/etc.clientlibs/adobe-cms/components/structure/footer-configuration/clientlibs/site.lc-b4a62f4105057beb9158cca91124e50e-lc.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+        const localeButton = document.querySelector("c4d-locale-button");
+        if (localeButton) {
+            localeButton.style.display = "none";
+        }
+    });
+</script>
+</div>
+
+
+
+
+    
+    
+</div>
+
+        
+    </div>
+
+</div>
+
+     
+    <div class="leadspace-newsfeed">
+	<c4d-link-list class="newsfeed target-newsfeed-enabled" style="display: none;">
+		<c4d-link-list-heading role="heading" aria-level="4" slot="heading">最新资讯</c4d-link-list-heading>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-09-25-IBM-AI" aria-label="IBM的AI智能体实践：从全员参与到深度赋能">
+	<p>IBM的AI智能体实践：从全员参与到深度赋能</p>
+	<a href="https://china.newsroom.ibm.com/2025-09-25-IBM-AI" slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-09-25-IBM-AI" cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-08-27-IBM-NASA-AI-," aria-label="IBM 联合NASA发布开源 AI 模型重要突破：对太阳天气进行预测和预警，保护关键技术及基础设施">
+	<p>IBM 联合NASA发布开源 AI 模型重要突破：对太阳天气进行预测和预警，保护关键技术及基础设施</p>
+	<a href="https://china.newsroom.ibm.com/2025-08-27-IBM-NASA-AI-," slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-08-27-IBM-NASA-AI-," cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-08-20-IBM-AI" aria-label="IBM 研究报告：体育粉丝对AI助力的动态数字内容的需求增长">
+	<p>IBM 研究报告：体育粉丝对AI助力的动态数字内容的需求增长</p>
+	<a href="https://china.newsroom.ibm.com/2025-08-20-IBM-AI" slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-08-20-IBM-AI" cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-08-19-IBM-2025-AI" aria-label="IBM与美国网球协会携手推出2025年美国网球公开赛AI驱动的球迷体验">
+	<p>IBM与美国网球协会携手推出2025年美国网球公开赛AI驱动的球迷体验</p>
+	<a href="https://china.newsroom.ibm.com/2025-08-19-IBM-2025-AI" slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-08-19-IBM-2025-AI" cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-08-05-IBM-," aria-label="专访IBM陈科典：中国仍很重要，大湾区或成东南亚企业入华支点">
+	<p>专访IBM陈科典：中国仍很重要，大湾区或成东南亚企业入华支点</p>
+	<a href="https://china.newsroom.ibm.com/2025-08-05-IBM-," slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-08-05-IBM-," cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-08-03-IBM-13-AI-AI-," aria-label="IBM 调研报告：13% 的企业曾遭遇 AI 模型或AI应用的安全漏洞，绝大多数缺乏完善的访问控制管理">
+	<p>IBM 调研报告：13% 的企业曾遭遇 AI 模型或AI应用的安全漏洞，绝大多数缺乏完善的访问控制管理</p>
+	<a href="https://china.newsroom.ibm.com/2025-08-03-IBM-13-AI-AI-," slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-08-03-IBM-13-AI-AI-," cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-07-31-X-Power-IBM-IBM-AI" aria-label="X-Power IBM赋能创新中心今日在苏州启动运营 搭载IBM AI及自动化技术助力制造业数字化转型">
+	<p>X-Power IBM赋能创新中心今日在苏州启动运营 搭载IBM AI及自动化技术助力制造业数字化转型</p>
+	<a href="https://china.newsroom.ibm.com/2025-07-31-X-Power-IBM-IBM-AI" slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-07-31-X-Power-IBM-IBM-AI" cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+			<c4d-link-list-item class="newsfeed__item" cta-type="local" href="https://china.newsroom.ibm.com/2025-07-23-AI" aria-label="亚太企业AI应用现状---- 理想丰满、现实骨感">
+	<p>亚太企业AI应用现状---- 理想丰满、现实骨感</p>
+	<a href="https://china.newsroom.ibm.com/2025-07-23-AI" slot="footer">
+		<c4d-card-footer href="https://china.newsroom.ibm.com/2025-07-23-AI" cta-type="local" target="_self">
+			<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+		</c4d-card-footer>
+	</a>
+	<span slot="icon" class="ibm_icon_arrowright_local cds--card__cta c4d-ce--cta__icon"></span>
+</c4d-link-list-item>
+		
+	</c4d-link-list>
+</div>
+
+</c4d-video-cta-container>
+<div class="video-modal-overlay" aria-hidden="true">
+    <div class="video-modal-overlay__dialog">
+        <div class="video-modal-overlay__dialog--body">
+            <div class="video-modal-overlay__dialog--body__close-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="24" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+                    <path id="Vector" d="M13.0606 12L19.5 5.56058L18.4394 4.5L12 10.9394L5.56072 4.5L4.5 5.56058L10.9394 12L4.5 18.4394L5.56072 19.5L12 13.0606L18.4394 19.5L19.5 18.4394L13.0606 12Z" fill="#161616"/>
+                </svg>
+            </div>
+            <div class="video-modal-overlay__dialog--body-content">
+
+                <div class="video-modal-overlay__loading-container">
+                    <cds-loading></cds-loading>
+                </div>
+
+                <div class="video-wms hide">
+                    <iframe class="video-modal-content" data-original-src="https://video.ibm.com/embed/$[wmsChanneId]?volume=0&autoplay=true&controls=true" src="" webkitallowfullscreen allowfullscreen frameborder="no" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="video-media-center hide">
+                    <c4d-video-player-container video-id="" aspect-ratio="16x9" auto-play muted playing-mode="inline"></c4d-video-player-container>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-video-player.lc-a26a5992cdb98cd2e94a4d6426a1f9d2-lc.min.js"></script>
+<script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-cweb-loading.lc-ca618eb7785b83e9cfb87f1d1683e7cd-lc.min.js"></script>
+
+
+
+
+<c4d-lightbox-video-player-container></c4d-lightbox-video-player-container>
+
+    
+    
+
+
+    
+    
+    
+<script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlBundle.lc-f6e56fb79df3212866086786bd84703d-lc.min.js"></script>
+
+
+
+    
+
+
+    
+    <script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-base.lc-c7d8c8a31404fb2a97939ee4096001bf-lc.min.js"></script>
+<script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-components-main.lc-e6c3b56619a60c7d14763cbebb8fa70f-lc.min.js"></script>
+<script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.lc-9ae9735f22a00802eb3b222b985e6469-lc.min.js"></script>
+<script src="/etc.clientlibs/adobe-cms/components/content/atoms/image-dm/clientlibs/site.lc-cdf1f98956703ddaa9b16a5d74875d46-lc.min.js"></script>
+
+
+
+
+
+<script src="https://www.ibm.com/common/digitaladvisor/cm-app/latest/cm-app.min.js" defer async></script>
+
+
+
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-cweb-code-snippet.lc-d1f19e3766d5ef4bb40f94c6a51b5bbf-lc.min.js"></script>
+
+
+
+    
+    
+    <script defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-pdfviewer.lc-8724b09a05a28fe3fb2eed1a54741072-lc.min.js"></script>
+
+
+    
+
+
+    
+    <script async defer src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-adobe-data-layer.lc-a27dd47fa802878abcfd8cfc0ead27f8-lc.min.js"></script>
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+    
+<script src="/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.lc-70264651675213ed7f7cc5a02a00f621-lc.min.js"></script>
+
+
+
+
+    
+
+
+
+
+<!-- Added for Adobe analytics implementation ADCMS-5834
+<script type="text/javascript">
+
+    adobeDataLayer.push({
+        "event": "linkClick",
+        "web": {
+            "webPageDetails": {
+                "URL": document.URL,
+                "name": "home"
+            },
+            "webInteraction": {
+                "linkClick":"event",
+                "value":"1",
+                "type": "other",
+                "URL": document.URL,
+                "name": "linkClick: " +  document.URL
+            }
+        },
+    })
+</script>  !-->
+
+<!-- Added for Adobe analytics implementation ADCMS-5834 & ADCMS-6152 !-->
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        var templatePath = "\/conf\/adobe\u002Dcms\u002Deditable\/settings\/wcm\/templates\/full\u002Dwidth\u002Dlayout";
+        var templateName = templatePath.split('/').pop();
+        const currentUrl = document.URL;
+        const [baseUrl, queryString] = currentUrl.split('?');
+        const urlWithoutProtocolAndDomain = baseUrl.replace(/^https?:\/\/[^\/]+\//, '');
+        const segments = urlWithoutProtocolAndDomain.split('/').filter(segment => segment);
+        const localePattern = /^[a-z]{2}-[a-z]{2}$/;
+        const cleanedSegments = segments.filter(segment => !localePattern.test(segment));
+        const firstSegment = cleanedSegments[0] || "";
+        const secondSegment = cleanedSegments[1] || "";
+        const thirdSegment = cleanedSegments[2] || "";
+        const lastModified = "Fri Sep 26 14:45:23 UTC 2025";
+        var isoDate="";
+        if (lastModified.includes("UTC")) {
+               const date = new Date(lastModified);
+               isoDate = date.toISOString();
+        } else {
+                 isoDate = lastModified;
+        }
+
+        if (currentUrl.includes("/products")) {
+            callProductPageLoadEvent();
+        }
+
+        function callProductPageLoadEvent(){
+            adobeDataLayer.push({
+                "event": "productPageLoad",
+                "commerce": {
+                    "productViews": {
+                        "value": 1
+                     }
+                },
+                "productListItems": {
+                    "name": secondSegment,
+                    "productCategories": {
+                        "categoryName": thirdSegment
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "URL": document.URL,
+                        "name": cleanUrl(window.location.host) + " | " + templateName + " | 主页",
+                        "siteSection": firstSegment
+                    },
+                    "webReferrer": {
+                        "URL": document.referrer
+                    }
+                }
+            });
+        }
+
+        function getCookieByName(name) {
+            const cookieArr = document.cookie.split(';');
+            for (let i = 0; i < cookieArr.length; i++) {
+                const cookie = cookieArr[i].trim();
+                if (cookie.startsWith(name + "=")) {
+                    return cookie.substring(name.length + 1);
+                }
+            }
+            return null;
+        }
+
+        function getContextCookie(name) {
+  		    const cookieArr = document.cookie.split(';');
+            for (let i = 0; i < cookieArr.length; i++) {
+              const cookie = cookieArr[i].trim();
+              if (cookie.startsWith(name + "=")) {
+                  const value = cookie.substring(name.length + 1);
+                  if (value.includes("0:")) return "false";
+                  return (value.includes("2:") || value.includes("1:")) ? "true" : "false";
+              }
+            }
+            return "false";
+        }
+
+        function cleanUrl(url) {
+            let modifiedUrl = url;
+            if (modifiedUrl.startsWith("www")) {
+                modifiedUrl = modifiedUrl.replace(/^www\.?/, "");
+            }
+            return modifiedUrl;
+        }
+
+        /* */
+
+        window.addEventListener('load', function () {
+            setTimeout(initializeDDSTracking, 1000);
+        });
+
+        if (!window.ddsVideoTrackingInitialized) {
+            window.ddsVideoTrackingInitialized = false;
+        }
+
+        function initializeDDSTracking() {
+            if (window.ddsVideoTrackingInitialized) return;
+            window.ddsVideoTrackingInitialized = true;
+            var videoPlayers = document.querySelectorAll('caem-video-player, c4d-video-player');
+            //console.log('Found ' + videoPlayers.length + ' video players.');
+            for (var i = 0; i < videoPlayers.length; i++) {
+                (function (videoPlayer, index) {
+                    var videoName = videoPlayer.getAttribute('name') || "Video " + (index + 1);
+                    var playingMode = videoPlayer.getAttribute('playing-mode') || "";
+                    //console.log('Processing video player: ' + videoName);
+                    function pushVideoEvent(eventType) {
+                        //console.log('Pushing event: ' + eventType + ' for ' + videoName);
+                            adobeDataLayer.push({
+                                "event": eventType,
+                                    "_ibm": {
+                                        "video": {
+                                            "videoName": videoName,
+                                            "videoType": "mp4",
+                                            "videoPublishDate": isoDate,
+                                            "videoEditDate": isoDate,
+                                            "videoPlaylistName": "",
+                                            "videoPlayType": playingMode,
+                                            "videoTagKeywords": "video-container",
+                                            [eventType]: {
+                                                  "value": 1
+                                            }
+                                        },
+                                        "user": {
+                                            "userAgent": navigator.userAgent,
+                                            "loginStatus": digitalData.user.segment.isAuthenticated ? "logged in" : "logged out"
+                                        }
+                                    },
+                                    "web": {
+                                        "webPageDetails": {
+                                             "URL": document.URL,
+                                             "name": cleanUrl(window.location.host) + " | " + templateName + " | " + "主页" ,
+                                             "siteSection": firstSegment
+                                        },
+                                        "webReferrer": {
+                                            "URL": document.referrer
+                                        }
+                                    }
+                            });
+                    }
+
+                function checkForVideo(container) {
+                    var iframe = container.querySelector('iframe');
+                    if (!iframe) return null;
+
+                    try {
+                            return iframe.contentDocument ? iframe.contentDocument.querySelector('video') : null;
+                        } catch (e) {
+                            console.error('Unable to access iframe content for ' + videoName + ':', e);
+                            return null;
+                        }
+                }
+
+                function trackVideoProgress(video) {
+                    if (video.hasTracking) return;
+                    video.hasTracking = true;
+
+                    var milestones = {
+                        reachedStart: false,
+                        reached25: false,
+                        reached50: false,
+                        reached75: false,
+                        completed: false
+                    };
+
+                    var handleFirstPlay = function () {
+                            if (!milestones.reachedStart) {
+                                milestones.reachedStart = true;
+                                pushVideoEvent("videoStart");
+                            }
+                    };
+
+                    video.addEventListener("playing", handleFirstPlay, {
+                        once: true
+                    });
+
+                    if (!video.paused) {
+                        handleFirstPlay();
+                    }
+
+                    video.addEventListener("timeupdate", function () {
+                        var percentageWatched = (video.currentTime / video.duration) * 100;
+
+                        if (percentageWatched >= 25 && !milestones.reached25) {
+                            milestones.reached25 = true;
+                            pushVideoEvent("video25");
+                        }
+
+                        if (percentageWatched >= 50 && !milestones.reached50) {
+                            milestones.reached50 = true;
+                            pushVideoEvent("video50");
+                        }
+
+                        if (percentageWatched >= 75 && !milestones.reached75) {
+                            milestones.reached75 = true;
+                            pushVideoEvent("video75");
+                        }
+
+                        if (percentageWatched >= 100 && !milestones.completed) {
+                            milestones.completed = true;
+                            video.removeEventListener("timeupdate", arguments.callee);
+                            pushVideoEvent("videoComplete");
+                        }
+                    });
+                }
+
+                function setupVideoTracking() {
+                    setTimeout(function () {
+                        var container = videoPlayer.querySelector('.kWidgetIframeContainer');
+                        if (!container) {
+                            console.log('No video container found inside ' + videoName);
+                            return;
+                        }
+
+                        var video = checkForVideo(container);
+                        if (video) {
+                            if (videoPlayer.hasAttribute('background-mode')) {
+                                    //console.log('Skipping tracking for background-mode video: ' + videoName);
+                                    return;
+                            }
+                            trackVideoProgress(video);
+                        } else {
+                            console.log('No video found inside ' + videoName);
+                        }
+                    }, 3000);
+                }
+
+                var container = videoPlayer.querySelector('.kWidgetIframeContainer');
+                if (container && checkForVideo(container)) {
+                    setupVideoTracking();
+                } else {
+                         videoPlayer.addEventListener('click', function () {
+                            if (!videoPlayer.videoTrackingStarted) {
+                                   videoPlayer.videoTrackingStarted = true;
+                                    setupVideoTracking();
+                            }
+                        }, { once: true });
+                }
+
+              })(videoPlayers[i], i);
+            }
+        }
+        /*  */
+
+        function getVisitDepth() {
+            let pageVisitCount = sessionStorage.getItem('pageVisitCount');
+            pageVisitCount = pageVisitCount ? parseInt(pageVisitCount, 10) : 0;
+            pageVisitCount++;
+            sessionStorage.setItem('pageVisitCount', pageVisitCount);
+            return pageVisitCount;
+        }
+
+        function getAmPm() {
+            const date = new Date();
+            const hours = date.getHours();
+            return hours >= 12 ? "PM" : "AM";
+        }
+
+        function getCurrentDay() {
+            const date = new Date();
+            return new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(date);
+        }
+
+        function getDayOfMonth() {
+            const date = new Date();
+            return date.getDate();
+        }
+
+        function getDayOfWeekAsInteger() {
+            const date = new Date();
+            return date.getDay();
+        }
+
+        function getDayOfYear() {
+            const date = new Date();
+            const startOfYear = new Date(date.getFullYear(), 0, 1);
+            const diffInMillis = date - startOfYear;
+            const dayOfYear = Math.floor(diffInMillis / (1000 * 60 * 60 * 24)) + 1;
+            return dayOfYear;
+        }
+
+        function getCurrentHour() {
+            var currentHour = new Date().getHours();
+            var formattedHour = (currentHour === 0 ? 24 : currentHour);
+            return formattedHour + ":00";
+        }
+
+        function getCurrentHourInADay() {
+            const date = new Date();
+            let hours = date.getHours();
+            const period = hours >= 12 ? "PM" : "AM";
+            hours = hours % 12 || 12;
+            return hours +":00" +" " + period;
+        }
+
+        function getCurrentMinute() {
+            const date = new Date();
+            return date.getMinutes();
+        }
+
+        function getCurrentMonth() {
+            const date = new Date();
+            return date.getMonth() + 1;
+        }
+
+        function printCurrentMonthName() {
+            const months = ["January", "February", "March", "April", "May", "June",
+                    "July", "August", "September", "October", "November", "December"];
+            const date = new Date();
+            const monthName = months[date.getMonth()];
+            return monthName;
+        }
+
+        function getQuarter(date = new Date()) {
+            var year = date.getFullYear();
+            var quarters = [
+                            { start: "Jan", end: "Mar" },
+                            { start: "Apr", end: "Jun" },
+                            { start: "Jul", end: "Sep" },
+                            { start: "Oct", end: "Dec" }
+                           ];
+
+            var quarterIndex = Math.floor(date.getMonth() / 3);
+            var start = quarters[quarterIndex].start;
+            var end = quarters[quarterIndex].end;
+            return start + " " + year + " - " + end + " " + year;
+        }
+
+        function getCurrentQuarter() {
+            const date = new Date();
+            const month = date.getMonth();
+            const quarter = Math.floor(month / 3) + 1;
+            return quarter;
+        }
+
+        function getCurrentWeek() {
+            const date = new Date();
+            const startOfYear = new Date(date.getFullYear(), 0, 1);
+            const diff = date - startOfYear;
+            const oneWeekInMillis = 1000 * 60 * 60 * 24 * 7;
+            const weekNumber = Math.ceil(diff / oneWeekInMillis);
+            return weekNumber;
+        }
+
+        function getDayType() {
+            const date = new Date();
+            const dayOfWeek = date.getDay();
+             if (dayOfWeek === 0 || dayOfWeek === 6) {
+                return "Weekend";
+             } else {
+                        return "Weekday";
+                    }
+        }
+
+        function getCurrentYear() {
+            const date = new Date();
+            return date.getFullYear();
+        }
+
+        function generateUtCodesObject() {
+            const utCodesMeta = document.querySelector('meta[name="ut-codes"]');
+            const utCodesIdMeta = document.querySelector('meta[name="ut-codes-id"]');
+            if (utCodesMeta && utCodesIdMeta) {
+                const utCodesContent = utCodesMeta.getAttribute('content');
+                const utCodesIdContent = utCodesIdMeta.getAttribute('content');
+                const utCodesArray = utCodesContent.split(" > ");
+                const utCodesIdArray = utCodesIdContent.split(" > ");
+                let utCodes = {};
+                utCodesArray.forEach((code, index) => {
+                    const firstTwoLetters = code.substring(0, 2);
+                    let prefix = '';
+                    switch (firstTwoLetters) {
+                        case '10':
+                        prefix = 'BusinessUnit';
+                        break;
+                        case '15':
+                        prefix = 'LineOfBusiness';
+                        break;
+                        case '17':
+                        prefix = 'Market';
+                        break;
+                        case '20':
+                        prefix = 'OfferingPortfolio';
+                        break;
+                        case '30':
+                        prefix = 'Offering';
+                        break;
+                        default:
+                        prefix = 'Unknown';
+                    }
+
+                    const codeKey = 'ut' + firstTwoLetters + prefix;
+                    const codeName = code + ':' + (utCodesIdArray[index] || "");
+                    utCodes[codeKey] = codeName;
+                });
+
+                return utCodes;
+            }
+
+            return {};
+        }
+
+        function isFirstPageVisited() {
+            const domainKey = 'firstPageVisited_' + window.location.hostname;
+            if (!localStorage.getItem(domainKey)) {
+                localStorage.setItem(domainKey, 'true');
+                return true;
+            }
+            return false;
+        }
+
+        function getQueryParamWithKey(paramName) {
+            const urlObj = new URL(window.location.href);
+            const value = urlObj.searchParams.get(paramName);
+            if (urlObj.searchParams.has(paramName)) {
+                return paramName + '=' + value;
+            }
+            return '';
+        }
+
+        function getQueryParam(name) {
+            const queryString = window.location.search.substring(1);
+            if (name === '?') {
+                return queryString;
+            }
+
+            const urlParams = new URLSearchParams(queryString);
+            return urlParams.get(name);
+        }
+
+        const utCodes = generateUtCodesObject();
+        const pmpDataScript = "{\x22platforms\x22:[]}";
+        let pmpItems = [];
+        if (pmpDataScript) {
+               try {
+                   pmpItems = JSON.parse(pmpDataScript);
+               } catch (e) {
+                      console.error("error: " + e);
+               }
+        }
+
+        adobeDataLayer.push({
+            "event": "pageLoad",
+            "_ibm": {
+                "page": {
+                    utCodes: utCodes,
+                    "pageQueryString":{
+                            "pageQueryString": getQueryParam('?') || "" ,
+                            "utm_content": getQueryParam('utm_content') || "",
+                            "utm_term": getQueryParam('utm_term') || "",
+                            "utm_medium": getQueryParam('utm_medium') || "",
+                            "utm_source": getQueryParam('utm_source') || "",
+                            "utm_campaign": getQueryParam('utm_campaign') || "",
+                            "utm_id": getQueryParam('utm_id') || "",
+                            "p1": getQueryParam('p1') || "",
+                            "p2": getQueryParam('p2') || "",
+                            "p3": getQueryParam('p3') || "",
+                            "p4": getQueryParam('p4') || "",
+                            "p5": getQueryParam('p5') || "",
+                            "p6": getQueryParam('p6') || "",
+                            "p7": getQueryParam('p7') || "",
+                            "p8": getQueryParam('p8') || "",
+                            "p9": getQueryParam('p9') || "",
+                    },
+                    "firstPageFlag": isFirstPageVisited(),
+                    "internalCampaign": getQueryParamWithKey("intcmp"),
+                    "siteSection2": secondSegment,
+                    "siteSection3": thirdSegment,
+                    "pageType": templateName,
+                    "domain": cleanUrl(window.location.host),
+                    "siteLanguage": "zh",
+                    "pageName": "主页",
+                    "siteCountry": "cn"
+                },
+
+                "siteActivity": {
+                    "visitDepth": getVisitDepth()
+        	    },
+                "timeParting": {
+                    "t_AmPM": getAmPm(),
+                    "t_Day": getCurrentDay(),
+                    "t_DayOfMonth": getDayOfMonth(),
+                    "t_DayOfWeek": getDayOfWeekAsInteger(),
+                    "t_DayOfYear": getDayOfYear(),
+                    "t_Hour": getCurrentHour(),
+ 		            "t_HourOfDay": getCurrentHourInADay(),
+                    "t_Minute": getCurrentMinute(),
+                    "t_Month": getCurrentMonth(),
+                    "t_MonthOfYear": printCurrentMonthName(),
+                    "t_Quarter": getQuarter(date = new Date()),
+                    "t_QuarterOfYear": getCurrentQuarter(),
+                    "t_Week": getCurrentWeek(),
+                    "t_Weekday_Weekend": getDayType(),
+                    "t_Year": getCurrentYear()
+        	    }
+
+            },
+            paidMediaPlatforms: pmpItems.platforms || [],
+            "web": {
+                "webPageDetails": {
+                    "pageViews": { "value": 1 },
+                    "URL": document.URL,
+                    "name": cleanUrl(window.location.host) + " | " + templateName + " | 主页",
+                    "siteSection": firstSegment
+                },
+                "webReferrer": {
+                    "URL": document.referrer
+                }
+            }
+        });
+
+        document.addEventListener('click', function(event) {
+            if (event.target.closest('.WACLauncher__ButtonContainer')) {
+                handleClick(event);
+            }
+        });
+
+        function handleClick(event) {
+            adobeDataLayer.push({
+                "event": "contactLoad",
+                "_ibm": {
+                    "contact": {
+                        "contactBotClick": { "value": 1 },
+                        "contactExperienceType": "Support or Sales",
+                        "contactLanguage": "zh",
+                        "contactCountry": "cn"
+                    },
+                    "click": {
+                        "linkTileNumber": 1
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "URL": document.URL,
+                        "name": cleanUrl(window.location.host) + " | " + templateName + " | 主页",
+                    },
+                    "webInteraction": {
+                        "name": "contactLoad",
+                        "URL": document.URL,
+                        "type": "other"
+                    }
+                }
+            });
+        }
+
+        const legalNavItems = document.getElementsByTagName('c4d-legal-nav-item');
+        for (let item of legalNavItems) {
+            const hrefValue = item.getAttribute('href');
+            if (hrefValue && hrefValue.includes('/contact')) {
+                item.addEventListener('click', function(event) {
+                     handleClick(event);
+                });
+            }
+        }
+
+        const mastheadItems = document.getElementsByTagName('c4d-masthead-contact');
+        for (let item of mastheadItems) {
+            if (item.getAttribute('data-ibm-contact') === 'contact-link') {
+                item.addEventListener('click', function(event) {
+                    handleClick(event);
+
+                });
+            }
+        }
+    });
+</script>
+
+<script type="text/javascript"  src="/inwkkDRkXZ/8i8sOVws/yZ/Ot3QXD2JGzD26z/ejRAYyE8BQU/cQJ/bLx8RUiQ"></script><link rel="stylesheet" type="text/css"  href="/inwkkDRkXZ/8i8sOVws/yZ/Qt/OnwlYyE8BQU/c2x/UAzNPOixY"><script  src="/inwkkDRkXZ/8i8sOVws/yZ/Qt/OnwlYyE8BQU/ZmM/Deyl4F1ko" async defer></script><div id="sec-overlay" style="display:none;"><div id="sec-container"></div></div></body>
+</html>

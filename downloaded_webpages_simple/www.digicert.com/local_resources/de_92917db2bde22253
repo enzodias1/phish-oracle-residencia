@@ -1,0 +1,3348 @@
+
+<!DOCTYPE HTML>
+<html lang="de-DE">
+    <head><script src="/bry-Say-I-double-We-well-Mighties-in-finde-And-i" async></script>
+  <meta charset="UTF-8"/>
+  <title>CA für TLS/SSL | Führender Anbieter von Digital-Trust-Lösungen | DigiCert</title>
+  <!-- <meta data-sly-test.keywords="DE,DigiCert" name="keywords" content=""/> -->
+  <meta name="description" content="SSL-Zertifikate von DigiCert sichern unzählige Server mit branchenweit stärkster Verschlüsselung und höchster Authentifizierung."/>
+  <!--  <meta data-sly-test.templateName="content-page-template" name="template" content=""/> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  
+    
+
+	<script defer="defer" type="text/javascript" src="/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js"></script>
+<link rel="alternate" href="https://www.digicert.com/" hreflang="en-US"/>
+
+	<link rel="alternate" href="https://www.digicert.com/de" hreflang="de-DE"/>
+
+	<link rel="alternate" href="https://www.digicert.com/es" hreflang="es-ES"/>
+
+	<link rel="alternate" href="https://www.digicert.com/fr" hreflang="fr-FR"/>
+
+	<link rel="alternate" href="https://www.digicert.com/it" hreflang="it-IT"/>
+
+	<link rel="alternate" href="https://www.digicert.com/nl" hreflang="nl-NL"/>
+
+	<link rel="alternate" href="https://www.digicert.com/pt" hreflang="pt-BR"/>
+
+	<link rel="alternate" href="https://www.digicert.com/cn" hreflang="zh-CN"/>
+
+	<link rel="alternate" href="https://www.digicert.com/tw" hreflang="zh-TW"/>
+
+	<link rel="alternate" href="https://www.digicert.com/jp" hreflang="ja-JP"/>
+
+	<link rel="alternate" href="https://www.digicert.com/kr" hreflang="ko-KR"/>
+
+
+
+  
+  
+  
+  
+      <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "Organization",
+    "name": "DigiCert, Inc.",
+    "url": "https://www.digicert.com/",
+    "logo": "https://www.digicert.com/content/dam/digicert/images/navigation/header/DigiCertLogo_MainNavigation.svg",
+    "alternateName": "DigiCert, Inc.",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q3027764",
+      "https://www.youtube.com/user/DigiCertSSL",
+      "https://twitter.com/digicert",
+      "https://www.linkedin.com/company/digicert-inc-/",
+      "https://www.facebook.com/DigiCert/"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-801-701-9600",
+        "contactType": "customer service",
+        "email": "sales@digicert.com"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-800-896-7973",
+        "contactType": "technical support",
+        "email": "support@digicert.com"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-800-896-7973",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": [
+          "EN",
+          "ES",
+          "DE",
+          "FR",
+          "JP",
+          "NL",
+          "KR",
+          "TW",
+          "CN",
+          "PT",
+          "IT"
+        ]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-800-579-2848",
+        "contactType": "sales",
+        "email": "enterprise-sslsupport@digicert.com"
+      }
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.digicert.com/search-results?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "DigiCert",
+    "url": "https://www.digicert.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.digicert.com/search-results?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+]
+</script>
+    
+  
+  
+
+
+	
+	
+	
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    
+    
+    
+    
+    
+    
+	<meta property="og:locale" content="de_DE"/>
+	<meta name="keywords" content="de, digicert"/>
+	<meta class="swiftype" name="published_at" data-type="date" content="08/01/2025"/>
+    <meta class="swiftype" name="tags" data-type="string" content="de, digicert"/>
+	
+    <meta class="swiftype" name="featured" data-type="integer" content="0"/>
+    <meta class="swiftype" name="download" data-type="string"/>
+     
+    
+    
+    	<meta class="swiftype" name="domain" data-type="integer" content="0"/>
+    	
+		
+	
+		
+			<meta property="og:locale:alternate" content="es_ES"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="nl_NL"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="de_DE"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="fr_FR"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="it_IT"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="zh_CN"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="zh_TW"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="ja_JP"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="ko_KR"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="pt_PT"/>
+		
+	
+    
+	
+	<meta class="swiftype" name="langc" data-type="string" content="de_DE"/>
+	<link rel="canonical" href="https://www.digicert.com/de"/>
+	
+
+
+
+
+	<link rel="icon" href="/content/dam/digicert/images/DigiCertFavicon_16x16.png" sizes="16x16"/>
+	<link rel="icon" href="/content/dam/digicert/images/DigiCertFavicon_32x32.png" sizes="32x32"/>
+	<link rel="apple-touch-icon" href="/content/dam/digicert/images/DigiCertFavicon_32x32.png"/>
+	<meta name="msapplication-TileImage" content="/content/dam/digicert/images/DigiCertFavicon_32x32.png"/>
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-commerce.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/ui.search.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-base.lc-92cb49f48966db2d29894924ef3775a4-lc.min.css" type="text/css">
+
+
+
+
+
+	
+
+
+	
+
+
+<!-- Omniture data Capture -->
+
+	<script type="text/javascript">
+		var dataLayerList = "{\x22om\x22:{\x22content_title\x22:\x22deutsch\x22,\x22site_name\x22:\x22digicert\x22,\x22content_type\x22:\x22page\x22,\x22site_country\x22:\x22de\x22,\x22page_name\x22:\x22homepage\x22,\x22site_sub_sub_section\x22:\x22na\x22,\x22content_format\x22:\x22html\x22,\x22site_language\x22:\x22de\x22,\x22site_section\x22:\x22digicert\x22,\x22account\x22:\x22veritassymantecwebsitesecurity\x22,\x22site_sub_section\x22:\x22na\x22}}";
+    	var obj = JSON.parse(dataLayerList);
+		//console.log(obj.om);
+    	window.symcDataLayer = {};
+    	window.symcDataLayer.om = {
+        	"account" : obj.om.account,
+			"content_format" : obj.om.content_format,
+        	"content_title" : obj.om.content_title,
+        	"content_type": obj.om.content_type,
+			"page_name" : obj.om.page_name,
+			"page_type": obj.om.page_type,
+			"site_country" : obj.om.site_country,
+			"site_language" : obj.om.site_language,
+			"site_section" : obj.om.site_section,
+        	"site_sub_section" : obj.om.site_sub_section,
+        	"site_sub_sub_section" : obj.om.site_sub_sub_section
+    	};
+	</script>
+
+
+
+<script>
+  //Adobe Target prehiding snippet (must be place//Adobe Target prehiding snippet (must be placed directly above '< script src="https://assets.adobedtm.com/.../.../launch-....min.js" async> </ script>')
+  
+  //check if OneTrust is allowing "Personalized Experience Cookies" (i.e., Adobe Target) to load
+  var adobeTargetOneTrustGroup = "PE";
+  
+  function isAdobeTargetAllowed(adobeTargetOneTrustGroup) {
+    var OptanonConsentCookie = document.cookie.match(/OptanonConsent=.*;/);
+    
+    return (OptanonConsentCookie && decodeURIComponent(OptanonConsentCookie[0]).includes(adobeTargetOneTrustGroup + ":1"));
+  }
+  
+  if (isAdobeTargetAllowed(adobeTargetOneTrustGroup)) {
+    //Adobe Target prehiding snippet
+    ;(function(win, doc, style, timeout) {
+      var STYLE_ID = 'at-body-style';
+      
+      function getParent() {
+        return doc.getElementsByTagName('head')[0];
+      }
+      
+      function addStyle(parent, id, def) {
+        if (!parent) {
+          return;
+        }
+        
+        var style = doc.createElement('style');
+        style.id = id;
+        style.innerHTML = def;
+        parent.appendChild(style);
+      }
+      
+      function removeStyle(parent, id) {
+        if (!parent) {
+          return;
+        }
+        
+        var style = doc.getElementById(id);
+        
+        if (!style) {
+          return;
+        }
+        
+        parent.removeChild(style);
+      }
+      
+      addStyle(getParent(), STYLE_ID, style);
+      setTimeout(function() {
+        removeStyle(getParent(), STYLE_ID);
+      }, timeout);
+    }(window, document, "body {opacity: 0 !important}", 3000));
+  }
+</script>
+
+<!-- DEV Analytics -->
+<!--<script src="https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-ENb8e5854ed93c443fa2962c8516926c96-staging.min.js" async></script>-->
+<!-- PROD Analytics -->
+<script src="https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js" async></script>
+
+
+
+	
+    <link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-cif.lc-730ca46df993f316603b6ff0381df120-lc.min.css" type="text/css">
+
+
+
+<!--Accessibility Widget-->
+<script src="https://cdn.userway.org/widget.js" data-account="9ikoIUc0o1"></script>
+  
+  
+
+
+  
+  
+  
+  
+  
+    <meta name="store-config" content="{&#34;storeView&#34;:&#34;eur&#34;,&#34;graphqlEndpoint&#34;:&#34;/api/graphql/us&#34;,&#34;graphqlMethod&#34;:&#34;POST&#34;,&#34;headers&#34;:{&#34;Store&#34;:&#34;eur&#34;},&#34;locale&#34;:&#34;en&#34;,&#34;enableClientSidePriceLoading&#34;:true}">
+  
+  <script async data-lazy id="__ada" data-handle="digicert-gen" src="https://static.ada.support/embed2.js"></script>
+  <!-- ADA chatbot for contact us page -->
+  <script type="text/javascript">
+    let conversationEnded = false;
+    let isStarted = false;
+    let drawerOpen = false;
+    let dc1conversationEnded = false;
+    let isdc1Started = false;
+    let dc1DrawerOpen = false;
+    let loadBot = () => {
+      if (!isStarted) {
+        //Check if DC1 chatbot was active 
+        if (isdc1Started) {
+          window.adaEmbed.stop();
+        }
+        // Starting embed
+        window.adaEmbed.start({
+          handle: "digicert-gen",
+          onAdaEmbedLoaded: () => {
+            console.log("embed loaded.");
+            console.log("Toggling chat");
+            adaEmbed.toggle();
+            isStarted = true;
+            //Subscribing to the end_conversation event
+            window.adaEmbed.subscribeEvent("ada:end_conversation", (data, context) => {
+              console.log("The conversation has been ended by the user.");
+              conversationEnded = true;
+            });
+          },
+          toggleCallback: (isDrawerOpen) => {
+            //toggle callback to check if the drawer has been closed after ending the conversation.
+            console.log("drawer open:", isDrawerOpen)
+            if (conversationEnded && !isDrawerOpen) {
+              console.log("Conversation has been ended and the drawer has been closed")
+              //Stopping the bot if the conversation has ended, and the drawer is toggled close
+              adaEmbed.stop();
+              isStarted = false;
+            }
+          }
+        });
+      }
+      else {
+        adaEmbed.toggle();
+      }
+    }
+
+    let loadPkiBot = () => {
+      if (!isdc1Started) {
+        //Check if support chatbot was active 
+        if (isStarted) {
+          window.adaEmbed.stop();
+        }
+        // Starting embed
+        window.adaEmbed.start({
+          handle: "dc1-digicert-gen",
+          onAdaEmbedLoaded: () => {
+            console.log("DC1 embed loaded.");
+            console.log("Toggling DC1 chat");
+            adaEmbed.toggle();
+            isdc1Started = true;
+            //Subscribing to the end_conversation event
+            window.adaEmbed.subscribeEvent("ada:end_conversation", (data, context) => {
+              console.log("The DC1 conversation has been ended by the user.");
+              dc1conversationEnded = true;
+            });
+          },
+          toggleCallback: (dc1DrawerOpen) => {
+            //toggle callback to check if the drawer has been closed after ending the conversation.
+            console.log("DC1 drawer open:", dc1DrawerOpen)
+            if (dc1conversationEnded && !dc1DrawerOpen) {
+              console.log("DC1 Conversation has been ended and the drawer has been closed")
+              //Stopping the bot if the conversation has ended, and the drawer is toggled close
+              adaEmbed.stop();
+              isdc1Started = false;
+            }
+          }
+        });
+      }
+      else {
+        adaEmbed.toggle();
+      }
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  
+</head>
+    <body class="page basicpage digicert-body" data-lang="de-DE">
+        
+        
+            
+
+
+<div class="container">
+    <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-c25c31d7af" class="cmp-experiencefragment cmp-experiencefragment--digicert-header-xf">
+
+	
+
+    
+    
+    
+    <div id="container-0826022920" class="cmp-container" am-region="Body">
+        
+        <div class="static-html-container">		
+<style>.digicert-body .hamburger{
+margin:0;
+}
+@media only screen and (max-width: 1024px) {
+body.digicert-body .container.responsivegrid  .cmp-container{
+margin-top: 80px;
+}
+}</style>
+
+
+    
+
+</div>
+<div class="minicart-config">
+
+
+
+	<div class="minicart__feature">
+		<div class="minicart__feature minicart__feature__enable-pro-svc-prod"></div>
+	</div>
+
+
+
+
+
+</div>
+<div class="header-v3 fixed"><header am-region="Header">
+	<div class="site_logo">
+<div class="image-video image-video--default">
+  
+  
+  
+  
+  
+  <a class="link link--color-default link--weight-medium" href="https://www.digicert.com/de" title="DigCert Logo - Leader in Digital Trust">
+    <picture>
+      
+      <img data-src="/content/dam/digicert/images/navigation/header/DigiCertLogo_MainNavigation.svg" alt="DigCert Logo - Leader in Digital Trust" loading="lazy" src="/content/dam/digicert/images/navigation/header/DigiCertLogo_MainNavigation.svg" class="lazyload cmp-image__image objfit-contain " htmlwidth="0" htmlheight="0"/>
+    </picture>
+  </a>
+  
+  
+    
+
+</div></div>
+	<div class="primary__navigation">
+	 
+
+	 
+
+	 
+
+	 
+
+	 
+
+	 <ul class="clearfix nav-list">
+		<li class=" dropDownNav_item" am-region="Lösungen">
+        	
+        	   <span>Lösungen <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="digital_trust_solutions navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>Zurück
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: #fff;"><div class="list section"><p class="heading jqOnHover" data-for="digital-trust" data-lineSeparator="false" am-region="Digital Trust Lösungen für:">
+   Digital Trust Lösungen für: 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="enterprise-it" data-lineSeparator="false" am-region="Unternehmens-IT, PKI und Identitätsmanagement">
+   Unternehmens-IT, PKI und Identitätsmanagement 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert® Trust Lifecycle Manager">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/de/trust-lifecycle-manager" data-for="enterprise-it" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® Trust Lifecycle Manager</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="websites-servers" data-lineSeparator="false" am-region="Websites und Server">
+   Websites und Server 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert CertCentral® TLS Manager">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/de/tls-ssl/certcentral-tls-ssl-manager" data-for="websites-servers" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert CertCentral® TLS Manager</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="DigiCert® DNS Trust Manager">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/de/dns-trust-manager" data-for="websites-servers" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® DNS Trust Manager</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="code-software" data-lineSeparator="false" am-region="Code- und Software-Signing">
+   Code- und Software-Signing 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert® Software Trust Manager">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/de/software-trust-manager" data-for="code-software" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® Software Trust Manager</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="documents-signing" data-lineSeparator="false" am-region="Dokumente und E-Signaturen">
+   Dokumente und E-Signaturen 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert® Document Trust Manager">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/de/document-trust-manager" data-for="documents-signing" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® Document Trust Manager</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="iot-connected-devices" data-lineSeparator="false" am-region="IoT und vernetzte Geräte">
+   IoT und vernetzte Geräte 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert® Device Trust Manager">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/de/device-trust-manager" data-for="iot-connected-devices" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® Device Trust Manager</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Matter-Zertifizierung für IoT-Geräte">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/de/iot/matter-iot-device-certification" data-for="iot-connected-devices" class="txt-u-animate straight-line jqOnHover link--color-">Matter-Zertifizierung für IoT-Geräte</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="DigiCert® TrustCore SDK">	
+               <div class="level-one-title">
+               		<a href="/de/iot/trustcore-sdk" data-for="mocana-developers" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® TrustCore SDK</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     
+     
+     <div class="column2">
+     	  <div class="col1row1 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div class="text-color--white"><div id="enterprise-it"><h2>PKI- und zertifikatsbezogene Risiken an einem Ort managen</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Konkurrenzlose Ausfallsicherheit</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Management des Zertifikatslebenszyklus</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Private PKI-Services</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Integrationen und Vorteile</a></li>
+</ul>
+</div>
+<div id="digital-trust" style="display: none;"><h2>PKI- und zertifikatsbezogene Risiken an einem Ort managen</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Konkurrenzlose Ausfallsicherheit</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Management des Zertifikatslebenszyklus</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Private PKI-Services</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/trust-lifecycle-manager" style="color: rgb(255,255,255);">Integrationen und Vorteile</a></li>
+</ul>
+</div>
+<div id="websites-servers" style="display: none;"><h2>Die smarte Art, Zertifikatslebenszyklen zu managen</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">Ausstellung und Installation</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">Prüfung und Problembehebung</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">Erneuerung und Automatisierung</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">Zuweisung und Delegierung</a></li>
+</ul>
+</div>
+<div id="code-software" style="display: none;"><h2>Kontinuierliches Signieren für CI/CD&nbsp;und DevOps</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/software-trust-manager" style="color: rgb(255,255,255);">Code-Integrität sicherstellen</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/software-trust-manager" style="color: rgb(255,255,255);">Workflows zum Signieren von Software automatisieren</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/software-trust-manager" style="color: rgb(255,255,255);">Schlüssel- und Berechtigungsmanagement zentralisieren</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/software-trust-manager" style="color: rgb(255,255,255);">Compliance vereinfachen und durchsetzen</a></li>
+</ul>
+</div>
+<div id="documents-signing" style="display: none;"><h2>Sicheres und flexibles Signieren&nbsp;– weltweit</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/document-trust-manager" style="color: rgb(255,255,255);">Krypto-Identitäten erstellen</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/document-trust-manager" style="color: rgb(255,255,255);">Vertrauenswürdige Remote-Identitätsprüfung</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/document-trust-manager" style="color: rgb(255,255,255);">Intuitive Integrationen für Adobe und DocuSign</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/document-trust-manager" style="color: rgb(255,255,255);">Flexible Workflow-Optionen</a></li>
+</ul>
+</div>
+<div id="iot-connected-devices" style="display: none;"><h2>Vertrauenswürdig&nbsp;– von der Programmierung bis zum Einsatz</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/iot/iot-device-manager/iot-of-healthcare" style="color: rgb(255,255,255);">IoT im Gesundheitswesen</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/iot-device-manager/iot-home-and-consumer" style="color: rgb(255,255,255);">IoT für Heim und Verbraucher</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/iot-device-manager/industrial-iot" style="color: rgb(255,255,255);">Industrielles IoT</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/iot-device-manager/smart-city" style="color: rgb(255,255,255);">Smart-City-IoT</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/iot-device-manager/iot-of-transportation" style="color: rgb(255,255,255);">IoT im Transportwesen</a></li>
+</ul>
+</div>
+<div id="mocana-devices" style="display: none;"><h2>Gerätesicherheit ohne Kompromisse</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/iot/trust-for-connected-devices" style="color: rgb(255,255,255);">Integriertes Vertrauen</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/trust-for-connected-devices" style="color: rgb(255,255,255);">Automatisiertes Gerätemanagement</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/trust-for-connected-devices" style="color: rgb(255,255,255);">Zentrale Steuerung</a></li>
+</ul>
+</div>
+<div id="mocana-developers" style="display: none;"><h2>Schnellere und sichere Anwendungsentwicklung</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/de/iot/trustcore-sdk" style="color: rgb(255,255,255);">Betriebssystem- und prozessorunabhängige Entwicklung</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/trustcore-sdk" style="color: rgb(255,255,255);">Flexible Datenlast</a></li>
+<li><a class="txt-u-animate straight-line" href="/de/iot/trustcore-sdk" style="color: rgb(255,255,255);">Unterstützung für alle Sprachen</a></li>
+</ul>
+</div>
+</div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+          <div class="col1row2 gradient__" style="background-color: #015a99;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" id="," style="background-color:transparent;">
+     <div class="text-color--white" id="desktop-section"><div id="enterprise-it" class="flex flex--justify-content-between"><div id="pqc-webinar-promo-0803"><h2 style="font-size: 40.0px; line-height: 42.0px;">Scannen. Signieren. Liefern.</h2>
+<h4>Wie tragen Sie der Komplexität der Softwarelieferkette Rechnung?</h4>
+<div class="btn-container horizontal"><a href="https://www.digicert.com/campaigns/software-security-in-5-steps" class="btn primary white" target="_blank">LEITFADEN HERUNTERLADEN</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/campaigns/software-security/top-5-strategies-nav-promo-370x235.png" alt="Software security in 5 steps"></div>
+</div>
+</div>
+<div id="mobile-section" class="text-color--white"><h2 style="margin-bottom: 43.0px;">Scannen. Signieren. Liefern.</h2>
+<h4>Wie tragen Sie der Komplexität der Softwarelieferkette Rechnung?</h4>
+<a class="btn primary white" href="https://www.digicert.com/campaigns/software-security-in-5-steps" style="min-width: 171.0px;" target="_blank">LEITFADEN HERUNTERLADEN</a></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     </div>
+     
+     
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class=" dropDownNav_item" am-region="Kaufen">
+        	
+        	   <span>Kaufen <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="purchase navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>Zurück
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: ;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="/de/tls-ssl/tls-ssl-certificates">TLS/SSL-Zertifikate</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Einzel-Domain">	
+               <div class="level-one-title">
+               		Einzel-Domain
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/tls-ssl/compare-single-domain-certificates">KAUFEN</a>
+				
+                
+                     
+	                      <div class="level-two" am-region="Erweiterte Validierung kaufen">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/de/tls-ssl/compare-single-domain-certificates?ev_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">Erweiterte Validierung kaufen</a>
+	                           </div>
+	                      </div>
+                      
+	                      <div class="level-two" am-region="Organisationsvalidierung kaufen">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/de/tls-ssl/compare-single-domain-certificates?ov_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">Organisationsvalidierung kaufen</a>
+	                           </div>
+	                      </div>
+                      
+                
+            </div>
+      
+		  <div class="level-one" am-region="Multi-Domain">	
+               <div class="level-one-title">
+               		Multi-Domain
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/tls-ssl/compare-multi-domain-certificates">KAUFEN</a>
+				
+                
+                     
+	                      <div class="level-two" am-region="Erweiterte Validierung kaufen">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/de/tls-ssl/compare-multi-domain-certificates?ev_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">Erweiterte Validierung kaufen</a>
+	                           </div>
+	                      </div>
+                      
+	                      <div class="level-two" am-region="Organisationsvalidierung kaufen">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/de/tls-ssl/compare-multi-domain-certificates?ov_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">Organisationsvalidierung kaufen</a>
+	                           </div>
+	                      </div>
+                      
+                
+            </div>
+      
+		  <div class="level-one" am-region="Wildcard-Domain">	
+               <div class="level-one-title">
+               		Wildcard-Domain
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/tls-ssl/compare-wildcard-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/de/signing/document-signing-certificates">Document-Signing-Zertifikate</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Dokumentsignierung – Einzelperson">	
+               <div class="level-one-title">
+               		Dokumentsignierung – Einzelperson
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/signing/compare-document-signing-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Dokumentsignierung – Unternehmen">	
+               <div class="level-one-title">
+               		Dokumentsignierung – Unternehmen
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/signing/compare-document-signing-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     <div class="column2 gradient__" style="background-color: ;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/de/signing/code-signing-certificates">Code-Signing-Zertifikate</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Code-Signing">	
+               <div class="level-one-title">
+               		Code-Signing
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/signing/compare-code-signing-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Code Signing + KeyLocker">	
+               <div class="level-one-title">
+               		Code Signing + KeyLocker
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/signing/compare-code-signing-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/de/tls-ssl/secure-email-smime-certificates">S/MIME-Zertifikate für E-Mails</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Sichere private E-Mail">	
+               <div class="level-one-title">
+               		Sichere private E-Mail
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/tls-ssl/compare-secure-email-smime-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Sichere E-Mail für das Geschäft">	
+               <div class="level-one-title">
+               		Sichere E-Mail für das Geschäft
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/tls-ssl/compare-secure-email-smime-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/de/tls-ssl/verified-mark-certificates">Mark-Zertifikate</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Verified-Mark-Zertifikate (VMC)">	
+               <div class="level-one-title">
+               		Verified-Mark-Zertifikate (VMC)
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/tls-ssl/compare-mark-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Common-Mark-Zertifikate">	
+               <div class="level-one-title">
+               		Common-Mark-Zertifikate
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/tls-ssl/compare-mark-certificates">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     
+     
+     <div class="column3 gradient__" style="background-color: ;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="/de/dns-trust-manager">DNS</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Autoritatives DNS">	
+               <div class="level-one-title">
+               		Autoritatives DNS
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://dnsmadeeasy.com/pricing">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/de/solutions/solutions-overview">EU (eIDAS)</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="QWAC">	
+               <div class="level-one-title">
+               		QWAC
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/qualified-certificates/compare-psd2-qwacs">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Qualifizierte Signierung">	
+               <div class="level-one-title">
+               		Qualifizierte Signierung
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/qualified-certificates/compare-eu-document-signing">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="PSD2">	
+               <div class="level-one-title">
+               		PSD2
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/qualified-certificates/compare-psd2-qsealc">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/de/solutions/solutions-overview">PKIoverheid</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Private Server-Services">	
+               <div class="level-one-title">
+               		Private Server-Services
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/pkioverheid/private-services-server">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Document Signing">	
+               <div class="level-one-title">
+               		Document Signing
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/pkioverheid/compare-pkio-document-signing">KAUFEN</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Authentifizierung/Verschlüsselung">	
+               <div class="level-one-title">
+               		Authentifizierung/Verschlüsselung
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/de/pkioverheid/compare-pkio-authentication-encryption">KAUFEN</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+
+     <div class="column4">
+     	  <div class="row1col1"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <h4 style="margin: 0;font-size: 19.0px;line-height: 1.365;">Finden Sie die richtigen TLS/SSL-Zertifikate zum Schutz Ihrer Website.</h4>
+
+     <div class="btn-container vertical">
+		  <a href="https://www.digicert.com/de/tls-ssl/compare-certificates" class="btn primary blue" target="_self" style="margin-right:px;
+				    margin-bottom:px;">
+				 	Vergleich</a>
+	 </div>   
+</div>
+
+    
+
+</div>
+<div class="static-html-container section">		
+<style>@media only screen and (min-width: 1024px) {
+.header-v3 header .nav_dropdown .navItem.purchase{
+gap: 40px 70px;
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+.header-v3 header .nav_dropdown .navItem.purchase .column1 .level-one .level-one-title{
+font-size:17px;
+}</style>
+
+
+    
+
+</div>
+
+</div>
+     	  <div class="row1col2"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <h4 style="margin: 0;font-size: 19.0px;line-height: 1.365;">eIDAS-konforme Sicherheitslösungen für Transaktionen und Website-Dokumente</h4>
+
+     <div class="btn-container vertical">
+		  <a href="https://www.digicert.com/de/solutions/eu-trust-solutions" class="btn primary blue" target="_self" style="margin-right:px;
+				    margin-bottom:px;">
+				 	Mehr dazu</a>
+	 </div>   
+</div>
+
+    
+
+</div>
+
+</div>	 	   	
+     </div>
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class=" dropDownNav_item" am-region="Einblicke">
+        	
+        	   <span>Einblicke <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="insights navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>Zurück
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: #fff;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" id="," style="background-color:transparent;">
+     <ul class="clearfix superParent">
+<li class=" onHoverFindMyChild" data-addlinebreaker="false"><div><h2>Einblicke</h2>
+<p>&nbsp;</p>
+</div>
+</li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://labs.digicert.com/" style="color: rgb(53,53,53); font-size: 18.0px;">DigiCert PQC-Labor</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/insights/artificial-intelligence" style="color: rgb(53,53,53); font-size: 18.0px;">Künstliche Intelligenz</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/insights/digital-trust" style="color: rgb(53,53,53); font-size: 18.0px;"> Die vier Bausteine für digitales Vertrauen</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/insights/open-source" style="color: rgb(53,53,53); font-size: 18.0px;"> DigiCert Open Source</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/insights/compliance" style="color: rgb(53,53,53); font-size: 18.0px;">Ein Plädoyer für Compliance</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/insights/zero-trust" style="color: rgb(53,53,53); font-size: 18.0px;">Zero Trust: Grundlagen des digitalen Vertrauens</a></li>
+</ul>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     
+     <div class="column2 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div class="text-color--white"><h2>Ressourcen</h2>
+<p>Auf diesen Seiten erfahren Sie, wie DigiCert Unternehmen dabei unterstützt, digitales Vertrauen zu etablieren, zu managen und auszuweiten, um reale Probleme zu lösen.</p>
+<ul class="clearfix" style="font-size: 18.0px;">
+<li><a class="btn text white" style="text-decoration: underline;" href="https://www.digicert.com/de/blog">BLOGBEITRAG &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="https://www.digicert.com/de/news">ÖFFENTLICHKEITSARBEIT &amp; NEUIGKEITEN &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="https://www.digicert.com/events">VERANSTALTUNGEN &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="https://events.zoom.us/eo/AkMkI3coRs2lKw1skPCAu9JwafTcjh-j306Gy-N7qvciWgDzbN47~AggLXsr32QYFjq8BlYLZ5I06Dg" target="_blank" rel="noopener noreferrer">WEBINARE &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="https://www.digicert.com/de/case-studies">FALLSTUDIEN &gt;</a></li>
+</ul>
+<i class="nav_dismiss close"></i></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     
+     
+     
+     <div class="column3 gradient__" style="background-color: #015a99;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div id="desktop-section" class="text-color--white"><div><h2>Sind Sie bereit?</h2>
+<p>Nehmen Sie gemeinsam mit prominenten Branchenvertretern am World Quantum Readiness Day teil.</p>
+<h6><a href="https://www.digicert.com/de/world-quantum-readiness-day" style="color: rgb(255,255,255); text-decoration: underline;">AUFZEICHNUNG ANSEHEN &gt;</a></h6>
+</div>
+<br>
+<div style="margin-top: 20.0px;"><a href="https://www.digicert.com/de/world-quantum-readiness-day"><img class="imagePoster" src="/content/dam/digicert/images/campaigns/pqc-wrd/wqrd-nav-promo.png" alt="World Quantum Readiness Day Promo"></a></div>
+</div>
+<div id="mobile-section" class="text-color--white"><h6>Sind Sie bereit?</h6>
+<h2 style="margin-bottom: 43.0px;">Nehmen Sie gemeinsam mit prominenten Branchenvertretern am World Quantum Readiness Day teil.</h2>
+<a class="btn primary white" href="https://www.digicert.com/de/world-quantum-readiness-day" style="min-width: 171.0px;">AUFZEICHNUNG ANSEHEN </a></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class=" dropDownNav_item" am-region="Partner">
+        	
+        	   <span>Partner <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="partners navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>Zurück
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: #fff;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false" am-region="DigiCert Partnernetzwerk ">
+   DigiCert Partnernetzwerk  
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert Partnerprogramm">	
+               <div class="level-one-title">
+               		<a href="/de/partners" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert Partnerprogramm</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="DigiCert Partnerportal">	
+               <div class="level-one-title">
+               		<a href="https://partners.digicert.com/German/" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert Partnerportal</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Programm für DigiCert Technologiepartner">	
+               <div class="level-one-title">
+               		<a href="/de/partners/technology-partner-integration" class="txt-u-animate straight-line jqOnHover link--color-">Programm für DigiCert Technologiepartner</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Verzeichnis unserer Integrationspartner">	
+               <div class="level-one-title">
+               		<a href="/de/partners/partners-directory" class="txt-u-animate straight-line jqOnHover link--color-">Verzeichnis unserer Integrationspartner</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Führungsrolle in der Branche und in Gremien">	
+               <div class="level-one-title">
+               		<a href="/de/partners/industry-partners" class="txt-u-animate straight-line jqOnHover link--color-">Führungsrolle in der Branche und in Gremien</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     
+     
+     <div class="column2">
+     	  <div class="col1row1 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div id="partner" class="text-color--white"><div><h2>Partnerschaften sorgen für digitales Vertrauen</h2>
+<i class="nav_dismiss close"></i><ul class="clearfix dataList">
+<li>Systemintegratoren</li>
+<li>Softwareentwickler &amp; Lösungsanbieter</li>
+<li>OEMs</li>
+<li>Distributoren &amp; Reseller</li>
+<li>Managed Service &amp; Cloud-Serviceanbieter</li>
+</ul>
+</div>
+</div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+          <div class="col1row2 gradient__" style="background-color: #015a99;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div id="desktop-section" class="text-color--white flex"><div><h2>Auf Vertrauen Basiert</h2>
+<p>Mit Digital Trust Lösungen erschließt Acmetek neue Chancen</p>
+<div class="btn-container vertical"><a href="/content/dam/digicert/videos/digicert-acmetek-compressed.mp4" class="btn video white">JETZT ANSEHEN</a></div>
+</div>
+<div><img class="videoPoster" src="/content/dam/digicert/images/videos/acmetek-730x416.jpg" alt="Acmetek Partnership Digital Trust PKI Solutions" data-videourl="/content/dam/digicert/videos/digicert-acmetek-compressed.mp4"></div>
+</div>
+<div class="text-color--white" id="mobile-section"><h2 style="margin-bottom: 43.0px;">PARTNERSCHAFT DURCH VERTRAUEN</h2>
+<a class="btn primary white" href="/content/dam/digicert/en/videos/digicert_eonti_181007_720p.mp4" style="min-width: 171.0px;">JETZT ANSEHEN</a></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     </div>
+     
+     
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class=" dropDownNav_item" am-region="Support">
+        	
+        	   <span>Support <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="support navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>Zurück
+	 	  </div>
+     </div>
+	 <div class="column1 gradient__" style="background-color: #fff;">
+          <div class="col1row1"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" id="," style="background-color:transparent;">
+     <h6 style="font-size: 18.0px; margin-bottom: 10.0px;">Support</h6>
+<ul class="clearfix">
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/support" style="color: rgb(53,53,53);"><small>Support</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/support/pki-support" style="color: rgb(53,53,53);"><small>PKI-Support</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/contact-us" style="color: rgb(53,53,53);"><small>Kontakt</small></a></li>
+</ul>
+<hr style="border-top: none; color: rgb(53,53,53);">
+
+<h6 style="font-size: 18.0px; margin-bottom: 10.0px; margin-top: 20.0px;">Tools</h6>
+<ul class="clearfix">
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/smime-certificate-linter" target="_blank" style="color: rgb(72,86,94);" rel="noopener noreferrer"><small>Tools: S/MIME Certificate Linter</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/help/" style="color: rgb(53,53,53);"><small>Tools: SSL-Installationsdiagnostik</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/support/tools/certificate-utility-for-windows" style="color: rgb(53,53,53);"><small>Tools: Certificate Utility für Windows</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://knowledge.digicert.com/general-information/how-to-create-a-csr" style="color: rgb(53,53,53);"><small>Tools: CSR-Erzeugung</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/ssltools/view-csr/" style="color: rgb(53,53,53);"><small>Tools: CSR-Prüfung</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://knowledge.digicert.com/general-information/ssl-certificate-installation-instructions-and-tutorials" style="color: rgb(53,53,53); display: table-cell;"><small>Tools: Anleitung für die Installation von SSL-Zertifikaten</small></a></li>
+</ul>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+          <div class="col1row2"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <h6 style="font-size: 18.0px; margin-bottom: 10.0px;">Ressourcen</h6>
+<ul class="clearfix">
+<li><a class="txt-u-animate straight-line" title="documentation" href="https://docs.digicert.com/" target="_blank" style="color: rgb(72,86,94);"><small>Dokumentation</small></a></li>
+<li><a class="txt-u-animate straight-line" title="API Documentation" href="https://dev.digicert.com/" target="_blank" style="color: rgb(72,86,94);"><small>API-Dokumentation</small></a></li>
+<li><a class="txt-u-animate straight-line" title="Knowledgebase" href="https://knowledge.digicert.com/" target="_blank" style="color: rgb(72,86,94);"><small>Wissensdatenbank</small></a></li>
+<li><a class="txt-u-animate straight-line" title="Solutions" href="https://www.digicert.com/de/solutions/solutions-overview" style="color: rgb(72,86,94);"><small>Lösungen</small></a></li>
+<li><a class="txt-u-animate straight-line" title="FAQ" href="https://www.digicert.com/de/faq" style="color: rgb(72,86,94);"><small>HÄUFIG GESTELLTE FRAGEN</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/what-is-pki" style="color: rgb(72,86,94);"><small>Was ist PKI?</small></a></li>
+<li><a class="txt-u-animate straight-line" title="What is an SSL Certificate" href="https://www.digicert.com/de/what-is-an-ssl-certificate" style="color: rgb(72,86,94);"><small>Was ist ein SSL-Zertifikat?</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/what-is-ssl-tls-and-https" style="color: rgb(72,86,94);"><small>Was sind SSL, TLS und HTTPS?</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/how-tls-ssl-certificates-work" style="color: rgb(72,86,94);"><small>Wie funktioniert TLS/SSL?</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://www.digicert.com/de/difference-between-dv-ov-and-ev-ssl-certificates" style="color: rgb(72,86,94);"><small>Was ist der Unterschied zwischen<br>
+ Zertifikaten mit DV, OV und EV?</small></a></li>
+</ul>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     </div>
+     
+     
+     
+     <div class="column2 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div class="text-color--white"><h2 style="font-size: 40.0px;">Kontakt zu unserem Support</h2>
+<div id="liveChatAgents">&nbsp;</div>
+<ul class="clearfix" data-column-count="2" style="margin-top: 20.0px;">
+<li><small><b>Nord- und Südamerika</b></small><ul class="clearfix" style="margin-top: 10.0px;">
+<li><small>+1 866 893 6565 (gebührenfrei in den USA und Kanada)</small></li>
+<li><small>+1 801 770 1701 (Vertrieb)</small></li>
+<li><small>+1 801 701 9601 (Spanisch)</small></li>
+<li><small>+1 800 579 2848 (für Großkunden)</small></li>
+<li><small>+1 801 769 0749 (für Großkunden)</small></li>
+</ul>
+</li>
+<li><small><b>Europa, Naher Osten und Afrika</b></small><ul class="clearfix" style="margin-top: 10.0px;">
+<li><small>+44 203 788 7741</small></li>
+<li><small><b>Asien-Pazifik und Japan</b></small></li>
+<li><small>+61 396 745 500</small></li>
+</ul>
+</li>
+</ul>
+</div>
+
+     <div class="btn-container horizontal">
+		  <a href="mailto:sales@digicert.com" class="btn primary white" target="_blank" style="margin-right:60px;
+				    margin-bottom:px;">
+				 	E-Mail an das Vertriebsteam</a>
+	 
+		  <a href="mailto:support@digicert.com" class="btn primary white" target="_blank" style="margin-right:px;
+				    margin-bottom:px;">
+				 	E-Mail an das Support-Team</a>
+	 </div>   
+</div>
+
+    
+
+</div>
+
+</div>
+     
+     
+     
+     
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 </ul>
+
+
+	 
+	
+
+	 <ul class="clearfix mobile-nav-list">
+	 	 
+	 	 	  <li class="contact-us"><a href="/de/contact-us">Kontaktieren Sie uns <i class="arrow-updated right"></i></a></li>
+	 	 
+	 	 
+	 	 
+	 	 	  <li class="language">
+	 	 	  	  <span>Sprache <i class="arrow-updated right"></i></span>
+	 	 	  	  <div class="content">
+	 	 	  	  	  <div class="goback">
+	 	 	  	  	  	   <div class="goback--content">
+	 	 	  	  	  	   		<i class="arrow-updated left"></i>Zurück
+	 	 	  	  	  	   </div>
+	 	 	  	  	  </div>			
+		 	 	 	  <h2>CHOOSE YOUR LANGUAGE</h2>
+			 	 	  <ul class="clearfix">
+				 	 	  <li>
+				 	 	  	  <a href="/">Englisch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/es">Spanisch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/nl">Niederländisch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/de">Deutsch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/fr">Französisch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/it">Italienisch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/cn">Chinesisch – (vereinfacht)</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/tw">Chinesisch – (traditionell)</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/jp">Japanisch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/kr">Koreanisch</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/pt">Portugiesisch</a>
+				 	 	  </li>
+			 	 	  </ul>
+	 	 	 	  </div>
+	 	 	  </li>
+	 	 
+	 	 	  
+	 	 
+	 	 	  
+	 	 	
+	 </ul>
+	
+
+	 
+	
+
+
+    
+</div>
+	<div class="secondary_navigation"><ul class="clearfix nav-list">
+	<li class="contact-us">
+		<a class="btn primary blue-filled" href="/de/contact-us">Kontaktieren Sie uns</a>
+	</li>
+	<li class="language dropDownNav_item">
+		<img class="image icon-size--medium" alt="language" src="/content/dam/digicert/icons/svg/Language_Gray.svg" data-hoversrc="/content/dam/digicert/icons/svg/Language_Blue.svg" width="25" height="25"/>
+		
+			 <div class="nav_dropdown">
+				  <div>
+					  <h2 class="title">Wählen Sie Ihre Sprache</h2>
+					  <ul class="clearfix list">
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/">
+						  		<small>Englisch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/es">
+						  		<small>Spanisch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/nl">
+						  		<small>Niederländisch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/de">
+						  		<small>Deutsch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/fr">
+						  		<small>Französisch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/it">
+						  		<small>Italienisch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/cn">
+						  		<small>Chinesisch – (vereinfacht)</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/tw">
+						  		<small>Chinesisch – (traditionell)</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/jp">
+						  		<small>Japanisch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/kr">
+						  		<small>Koreanisch</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/pt">
+						  		<small>Portugiesisch</small>
+						  	 </a>
+						  </li>
+					  </ul>
+					  <span class="nav_dismiss close">&times;</span>
+				  </div>
+			 </div>
+		
+			 
+		
+			 
+		
+	</li>
+	<li class="search dropDownNav_item">
+		<img class="image icon-size--medium" alt="search" src="/content/dam/digicert/icons/svg/Search_Gray.svg" data-hoversrc="/content/dam/digicert/icons/svg/Search_Blue.svg" width="25" height="25"/>
+			 <div class="nav_dropdown">
+				  <form class="search-form">
+						 <i class="search__icon search"></i>
+						 <div class="search-form__input">
+							  <input id="header-search-box" type="text" placeholder="Suche" required autofocus/>
+						 </div>
+						 <span class="nav_dismiss close">&times;</span>
+				  </form>
+				  
+					  
+				  
+					  <div id="quicklinks" class="quicklinks-list">
+						   <small class="title">RECOMMENDED LINKS</small>
+						   <ul class="clearfix">
+							   <li><a class="item-link txt-u-animate straight-line" href="/de/tls-ssl/compare-certificates">Zertifikate im Vergleich</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/de/trust-lifecycle-manager"> DigiCert® Trust Lifecycle Manager</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/de/device-trust-manager">DigiCert® Device Trust Manager</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/de/document-trust-manager">DigiCert® Document Trust Manager</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/de/software-trust-manager"> DigiCert® Software Trust Manager</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/de/dns-trust-manager"> DigiCert® DNS Trust Manager</a></li>
+						   </ul>
+					  </div>
+				  
+					  
+				  
+			</div>
+		
+	</li>
+	<li class="minicart dropDownNav_item">
+		<div id="minicart-e740197ba5" class="minicart__root">
+		    <div class="minicart__trigger"></div>
+		    <div class="minicart__body"></div>
+		</div>
+	</li>
+	<li>
+		<a href="https://www.digicert.com/account/login.php">
+			<img class="image icon-size--medium" alt="user_circle" src="/content/dam/digicert/icons/svg/Login_Gray.svg" data-hoversrc="/content/dam/digicert/icons/svg/Login_Blue.svg" width="25" height="25"/>
+		</a>
+	</li>
+	<li class="hamburger">
+		<i class="icon hamburger" id="hamburger" isactive="false"></i>
+		<span class="nav_dismiss close mobile" style="display:none">&times;</span>
+	</li>
+</ul>
+
+<div style="display:none">
+	<div id="liveChatAgents">
+		
+		<div class="btn-container" id="liveagent_chatbtns">
+			 
+			 	  <a class="btn text" href="javascript://Chat" onclick="loadBot()">CHAT: TECHNISCHER SUPPORT &gt;</a>
+			 
+			 
+		 
+		 
+			 
+			 
+				  <a id="liveagent_online_" class="btn text" onclick="startChat(this.id)" href="javascript://Chat">CHAT: VALIDIERUNG &gt;</a>
+			 
+		 
+		 
+			 
+			 
+				  <a id="liveagent_online_5730z0000008Orq" class="btn text" onclick="startChat(this.id)" href="javascript://Chat">CHAT: VERTRIEB &gt;</a>
+			 
+		 
+		 </div>
+		 
+	 </div>
+</div>
+
+    
+
+</div>
+</header></div>
+
+        
+    </div>
+
+
+
+</div>
+
+    
+</div>
+<div class="container responsivegrid digicert-body aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="pencil-banner-active" class="cmp-container" am-region="Body">
+        
+        <div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:20px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="heroimage cmp-image vspacebtncomp-heroimage">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='grid-12'>
+	
+	<div class="img-container fgdgap full-gdcol relative
+				noBgColor
+				mb-txtWhite" style="background-color:;">
+		 		
+		 
+			 		
+		 
+		
+
+		
+			
+				
+			
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/digicertone-launch-hero.jpg"/>
+		
+	</div>
+
+	
+	<div class="descriptionBox left default image">
+		 
+		 
+		 <div class="description cmp-text" style="color:#fff;"><h1 style="	padding-right: 40.0%;
+">Willkommen im Quantenzeitalter</h1>
+<h4 style="	padding-right: 20.0%;
+">Es ist da. Die erste Plattform, die für die Beherrschung von<br />
+Kryptoagilität mit einer einzigartigen Kombination aus PKI und DNS entwickelt wurde.</h4>
+</div>
+		 <div class="btn-container horizontal left">
+				<a class="button button--style--white-filled button--size- isVideoButton- border--radius-x-large" target="_self" href="https://www.digicert.com/campaigns/pki-dns-launch">Erfahren Sie mehr</a>
+		
+				<a class="button button--style--white button--size- isVideoButton- border--radius-x-large" target="_self" href="https://www.digicert.com/contact-us">Kontaktieren Sie uns</a>
+		</div>
+	</div>
+</div>
+
+
+
+    
+
+</div>
+<div class="static-html-container">		
+<style>.heroimage .button {
+    min-width: 130px;
+    text-align: center;
+}</style>
+
+
+    
+
+</div>
+<div class="static-html-container">		
+<style>#home-tout-3bxs-grey{width: 100%; display: flex; padding:35px 0px 25px; box-sizing: border-box; background: #E9EEF1; border: 1px solid #E9EEF1; border-radius: 25px;justify-content:space-between;flex-direction:row;margin-bottom: 50px;}
+	.home-tout-content-box{padding: 0 40px 25px;box-sizing: border-box;width: 100%;}
+	.home-tout-content-box h4{font-family: Roboto-Condensed, sans-serif;font-stretch: condensed; font-size: 20px; font-weight: bold; color: #083D77;margin-bottom: 16px;}
+	.home-tout-content-box p{flex-grow: 1;font-size: 20px;color: #48565E;
+    font-family: Roboto-Regular, sans-serif;}
+	.home-tout-content-box p a{color: #48565E;}
+	.home-tout-separator{width: 2px; background: linear-gradient(-180deg, transparent 0%, transparent 10%, rgba(193, 203, 211, 1) 10%, rgba(193, 203, 211, 1) 80%, transparent 80%, transparent 100%);display: block;}
+	@media (max-width: 768px) {
+		#home-tout-3bxs-grey{flex-direction: column;}
+		.home-tout-separator{display:none;}
+	}</style>
+
+
+    
+
+</div>
+<div class="static-html-container">		
+
+<div class="html"><div id="home-tout-3bxs-grey">
+<div class="home-tout-content-box">
+	<h4>2025 Trust Summit Roadshow</h4>
+	<p><a href="https://www.digicert.com/about/events/digicert-trust-summit-roadshow">Join us on the path to crypto agility at our premiere event >></a></p>
+</div>
+<div class="home-tout-separator">&nbsp;</div>
+<div class="home-tout-content-box">
+	<h4>Stop Outages and Regain Control</h4>
+	<p><a href="https://app.storylane.io/demo/mgdrecbfptak">Watch demo and see how to alleviate certificate management challenges >></a></p>
+</div>
+<div class="home-tout-separator">&nbsp;</div>
+<div class="home-tout-content-box">
+	<h4>TLS Certificate Lifespans <br>Shrinking to 47 Days</h4>
+	<p><a href="https://www.digicert.com/blog/tls-certificate-lifetimes-will-officially-reduce-to-47-days">Learn what this means for you >></a></p>
+</div>
+</div></div>
+
+    
+
+</div>
+<div class="static-html-container">		
+
+<div class="html"><div>
+    <div id="dc-one-diag-top-img">
+      <h2>The DigiCert<sup>®</sup> ONE Platform</h2>
+      <p>Reduce outages, automate manual processes and close security gaps for all things PKI and DNS.</p>
+<div id="dc-one-diag-img-wrap"><img src="/content/dam/digicert/images/homepage/dc-one-radial-diagram.png" alt="DigiCert Digital Trust Platform - PKI-based Identity Lifecycle Management"></div>
+    </div>
+</div></div>
+
+    
+
+</div>
+<div class="static-html-container">		
+
+<div class="html"><div id="dc-one-diag">
+    <div id="dc-one-diag-prod-all">
+      <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-1">
+                <h3><a href="https://www.digicert.com/trust-lifecycle-manager">Certificate Lifecycle</a></h3>
+                <p>Get full visibility across your PKI landscape and avoid outages.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/trust-lifecycle-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="Learn more about DigiCert Trust Lifecycle Manager"></a></div>
+        </div>
+    
+        <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-2">
+                <h3><a href="https://www.digicert.com/software-trust-manager">Software Trust</a></h3>
+                <p>Release <a href="https://www.digicert.com/software-trust-manager">secure software</a> while lowering remediation and compliance costs.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/software-trust-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="Learn more about DigiCert Software Trust Manager"></a></div>
+        </div>
+
+        <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-3">
+                <h3><a href="https://www.digicert.com/device-trust-manager">Device Trust</a></h3>
+                <p><a href="https://www.digicert.com/device-trust-manager">Protect IoT devices</a> with complete lifecycle security, from manufacturing to decommissioning.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/device-trust-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="Learn more about DigiCert Device Trust Manager"></a></div>
+        </div>
+    
+        <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-4">
+                <h3><a href="https://www.digicert.com/document-trust-manager">Document Trust</a></h3>
+                <p><a href="https://www.digicert.com/document-trust-manager">Safeguard digital documents and transactions</a> with trusted integrations and global compliance.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/document-trust-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="Learn more about DigiCert Document Trust Manager"></a></div>
+        </div>
+    </div>
+
+    <div id="dc-one-diag-btm-bx-all">
+        <div class="dc-one-diag-btm-bx-ind"><a href="https://vercara.digicert.com/"><div class="dc-one-diag-btm-bx" id="dc-one-diag-public">
+                          <p>DNS >></p>
+                        </div></a>
+                  </div>
+        <div class="dc-one-diag-btm-bx-ind"><a href="https://www.digicert.com/tls-ssl/certcentral-tls-ssl-manager"><div class="dc-one-diag-btm-bx" id="dc-one-diag-public">
+                          <p>DigiCert Public CA <nobr>(CertCentral) >></nobr></p>
+                        </div></a>
+                  </div>
+        <div class="dc-one-diag-btm-bx-ind"><a href="https://www.digicert.com/private-pki"><div class="dc-one-diag-btm-bx" id="dc-one-diag-private">
+                          <p>Private CA >></p>
+                        </div></a>
+                </div>
+      </div>
+</div></div>
+
+    
+
+</div>
+<div class="static-html-container">		
+<style>#dc-one-diag-top-img{background: rgb(26,60,115); background: linear-gradient(45deg, rgba(8,61,119,1) 0%, rgba(1,116,195,1) 100%); border: 1px solid transparent;border-radius:20px;padding-top: 60px;text-align: center;}
+#dc-one-diag-top-img h2, #dc-one-diag-top-img p{color: #fff;}
+#dc-one-diag-top-img p{width: 70%; margin: 0 auto;}
+#dc-one-diag-img-wrap{position: relative;height:465px;padding-top: 45px;width: 100%;}
+#dc-one-diag-top-img img{width: 85%;position: absolute;left: 50%;transform: translateX(-50%);}
+#dc-one-diag-prod-all{display: flex; justify-content: space-between;margin-top: 110px;}
+.dc-one-diag-prod-card{position:relative;width: 23%;display: flex;flex-direction: column;box-sizing: border-box;padding: 35px 25px 20px;}
+.dc-one-diag-prod-card p:nth-child(2){flex-grow: 1;}
+.dc-one-diag-prod-card p{font-size: 16px; line-height: 24px;font-family: Roboto-regular, sans-serif;}
+.dc-one-diag-prod-card h3{font-size:23px; font-weight: 600;margin-bottom: 0;margin-bottom: 14px;}
+#dc-one-diag-prod-1{background:#e7ebf0;border: 1px solid #e7ebf0;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-2{background:#e7eef4;border: 1px solid #e7eef4;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-3{background:#e7f1f8;border: 1px solid #e7f1f8;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-4{background:#ecf5f9;border: 1px solid #ecf5f9;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-1 h3{color:#1a3d73;}
+#dc-one-diag-prod-2 h3{/*color:#255797;*/color:#1a3d73;}
+#dc-one-diag-prod-3 h3{/*color:#3273bc;*/color:#1a3d73;}
+#dc-one-diag-prod-4 h3{/*color:#5099c0;*/color:#1a3d73;}
+#dc-one-diag-prod-1 a{color:#1a3d73;}
+#dc-one-diag-prod-2 a{/*color:#255797;*/color:#1a3d73;}
+#dc-one-diag-prod-3 a{/*color:#3273bc;*/color:#1a3d73;}
+#dc-one-diag-prod-4 a{/*color:#5099c0;*/color:#1a3d73;}
+.dc-one-diag-prod-card-cta{align-self: flex-end;}
+.dc-one-diag-tool-tip{display:none;z-index: 3;position:relative;}
+.dc-one-diag-tool-tip.show-tool-tip{display: flex;position: relative;flex-direction: column;align-items: center;width: 80%;margin:0 auto;height:130px;}
+.dc-one-diag-tr{width: 0; height: 0;border-left: 20px solid transparent; border-right: 20px solid transparent; border-bottom: 20px solid #c3cdd5; position: absolute;top: -19px;left: 50%;transform: translateX(-50%);}
+.dc-one-diag-inner-tr{width: 0;height: 0; border-left: 19px solid transparent;border-right: 19px solid transparent;border-bottom: 19px solid #fff; position: absolute; top: 1px; left: -19px;}
+.dc-one-diag-tool-tip-body{background: #fff; border: 1px solid #c3cdd5; border-radius: 8px; box-sizing: border-box;width: 100%;display: flex; flex-direction: column; align-items: center;}
+.dc-one-diag-tool-tip-body p {font-size: 14px; font-family: Roboto-regular, sans-serif;margin-bottom: 4px;line-height: 19px;padding: 30px 30px 0;}
+.dc-one-diag-tool-tip-body a{font-size: 13px; font-weight: bold;font-family: Roboto-regular, sans-serif;color: #004ab7;padding-bottom:17px; text-decoration: underline;}
+#dc-one-diag-btm-bx-all{margin: 18px auto 0; display: flex; flex-wrap: wrap; width: 100%;justify-content: space-between;}
+.dc-one-diag-btm-bx-ind{position:relative;width: 32%;}
+.dc-one-diag-btm-bx{margin-bottom: 14px; height: 58px;border-radius: 8px;box-sizing: border-box;display:flex;align-content: center;justify-content: center;}
+.dc-one-diag-btm-bx p{color: #586268; margin:0;font-family: Roboto-regular, sans-serif;font-size: 22px;text-align: center;}
+#dc-one-diag-public{width: 100%; background: #f5f6f8; border: 1px solid #f5f6f8; display:flex; justify-content: center; align-items: center;}
+#dc-one-diag-private{width: 100%; background: #f5f6f8; border: 1px solid #f5f6f8; display:flex; justify-content: center; align-items: center;}
+.dc-one-diag-btm-bx#dc-one-diag-other p{color: #000;}
+
+@media (max-width: 1230px){
+    #dc-one-diag-img-wrap{height: calc(27.5vw - 2vw);}
+    #dc-one-diag-prod-all{margin-top: 22vw;}
+}
+@media (max-width: 1024px){
+    #dc-one-diag-public{width: 100%;}
+    #dc-one-diag-private{width: 100%;}
+    #dc-one-diag-other{width: 100%;}
+    #dc-one-diag-prod-all{margin-top: 16vw;}
+}
+@media (max-width: 960px){
+    #dc-one-diag-prod-all{flex-wrap: wrap;justify-content: center;}
+    .dc-one-diag-prod-card {width: 280px;margin: 10px;}
+    #dc-one-diag-img img{width: 85%;}
+    .dc-one-diag-btm-bx-ind{width: 100%;}
+}
+@media (max-width: 768px){
+    #dc-one-diag-logo{width: 272px;}
+}</style>
+
+
+    
+
+</div>
+<div class="text vspacebtncomp-top">
+
+
+<div class="rich-text cmp-text cmp-text--left rhythm--small-medium" style="background-color:">
+  <h2 style="text-align: center;">Sicherheit für namhafte Marken</h2>
+<p style="text-align: center;">DigiCert bietet Zertifikatsverwaltungs- und Sicherheitslösungen für die meisten der Global 2000-Unternehmen.</p>
+
+  
+</div>
+
+    
+</div>
+<div class="text-and-image">
+<div class="grid-12 vspacebtncomp">
+  
+    
+
+  <div class="media media--text-and-image media--default design1  animate--false " style="grid-gap:60px">
+    <div class="media__figure media__figure--default img-container" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">
+      
+      
+      
+      <img alt="DigiCert - Securing the World’s Best Brands" src="/content/dam/digicert/images/homepage/homepage-trust-stat-row.png" class="image image--width-full icon text-and-image-hide" loading="lazy"/>
+    </div>
+    
+  </div>
+</div></div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:-55px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:15px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:-45px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="column-ctrl-component"><div class="grid-12">
+	 <div class="column-cntrl-section fill-gridgap
+				 cardFlow--40 
+				 gdcol-1-13 mgdcol-1-5" style="grid-column-gap:0px;
+         		 grid-row-gap:0px;
+         		 grid-template-columns:repeat(5,1fr);
+         		 background-color: transparent">
+          <div class="cell-1 animation---"><div class="text vspacebtncomp-top section">
+
+
+
+
+    
+</div>
+
+</div>
+	
+          <div class="cell-2 animation---">
+</div>
+	
+          <div class="cell-3 animation---">
+</div>
+	
+          <div class="cell-4 animation---">
+</div>
+	
+          <div class="cell-5 animation---">
+</div>
+	
+          <div class="cell-6 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_11/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_11/image.img.png/1754005692026.png" alt="Home Page Braun Logo" title="Home Page Braun Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_11\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-b-braun.png", imageTitle: "Home Page Braun Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-7 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_12/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_12/image.img.png/1754005691958.png" alt="Home Page Xerox Logo" title="Home Page Xerox Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_12\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-xerox.png", imageTitle: "Home Page Xerox Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-8 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_13/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_13/image.img.png/1754005691967.png" alt="Home Page Apache Logo" title="Home Page Apache Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_13\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-apache.png", imageTitle: "Home Page Apache Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-9 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_20/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_20/image.img.png/1754005691977.png" alt="Home Page Haelthlink Logo" title="Home Page Haelthlink Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_20\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-healthlink.png", imageTitle: "Home Page Haelthlink Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-10 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_21/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_21/image.img.png/1754005691986.png" alt="Home Page GE Healthcare Logo" title="Home Page GE Healthcare Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_21\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-ge-healthcare.png", imageTitle: "Home Page GE Healthcare Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-11 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_22/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_22/image.img.png/1754005691996.png" alt="Home Page Sabre Logo" title="Home Page Sabre Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_22\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-sabre.png", imageTitle: "Home Page Sabre Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-12 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_23/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_23/image.img.png/1754005692036.png" alt="Home Page UKG Logo" title="Home Page UKG Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_23\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-ukg.png", imageTitle: "Home Page UKG Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-13 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_30/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_30/image.img.png/1754005691910.png" alt="Home Page Abbott Logo" title="Home Page Abbott Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_30\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-abbott.png", imageTitle: "Home Page Abbott Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-14 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_31/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_31/image.img.png/1754005691919.png" alt="Home Page Oracle Logo" title="Home Page Oracle Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_31\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-oracle.png", imageTitle: "Home Page Oracle Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-15 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_32/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_32/image.img.png/1754005691929.png" alt="Home Page IBM Logo" title="Home Page IBM Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_32\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-ibm.png", imageTitle: "Home Page IBM Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-16 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_33/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_33/image.img.png/1754005691939.png" alt="Home Page Cloudfare Logo" title="Home Page Cloudfare Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_33\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-cloudflare.png", imageTitle: "Home Page Cloudfare Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-17 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_40/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_40/image.img.png/1754005691948.png" alt="Home Page Sainsbury Logo" title="Home Page Sainsbury Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_40\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-saisbury.png", imageTitle: "Home Page Sainsbury Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-18 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_41/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_41/image.img.png/1754005692046.png" alt="Home Page Alaska Logo" title="Home Page Alaska Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_41\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-alaska-airlines.png", imageTitle: "Home Page Alaska Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-19 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_42/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_42/image.img.png/1754005691863.png" alt="Home Page Miva Logo" title="Home Page Miva Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_42\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-miva.png", imageTitle: "Home Page Miva Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-20 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/de/de/jcr:content/root/container/column_ctrl_componen/par_43/image"><img src="/content/digicert/de/de/jcr%3acontent/root/container/column_ctrl_componen/par_43/image.img.png/1754005691873.png" alt="Home Page Snapdeal Logo" title="Home Page Snapdeal Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/de\/de\/jcr:content\/root\/container\/column_ctrl_componen\/par_43\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-snapdeal.png", imageTitle: "Home Page Snapdeal Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	</div>
+</div>
+
+    
+
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:45px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="text vspacebtncomp-top">
+
+
+<div class="rich-text cmp-text cmp-text--left rhythm--small-medium" id="customer-stories" style="background-color:">
+  <h2 style="text-align: center;">Lesen Sie, was unsere Kunden sagen</h2>
+<p>&nbsp;</p>
+
+  
+</div>
+
+    
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:-40px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="tabs">
+  
+
+<div class="cmp-tabs vspacebtncomp-top" data-cmp-is="tabs">
+     
+     <ol role="tablist" class="cmp-tabs__tablist" aria-multiselectable="false">
+         
+			  <li role="tab" class="cmp-tabs__tab cmp-tabs__tab--active" tabindex="0" data-cmp-hook-tabs="tab">IBM &gt;</li>
+     
+         
+			  <li role="tab" class="cmp-tabs__tab " tabindex="-1" data-cmp-hook-tabs="tab">ORACLE &gt;</li>
+     
+         
+			  <li role="tab" class="cmp-tabs__tab " tabindex="-1" data-cmp-hook-tabs="tab">CLOUDFLARE &gt;</li>
+     </ol>
+     <div role="tabpanel" tabindex="0" class="cmp-tabs__tabpanel cmp-tabs__tabpanel--active" data-cmp-hook-tabs="tabpanel"><div class="customer-carousel">
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp">
+	<div class="img-container img-container--right">
+		 <div class="revealAnimation">
+		 	
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/ibm.jpg" alt="IBM - Customer Feedback"/>
+         </div>
+	</div>
+	<div class="icon-container icon-container--left">
+		 <img loading="lazy" src="/content/dam/digicert/images/homepage/IBM-logo-2.png" alt="IBM Logo - Partners"/>
+	</div>
+	<div class="descriptionBox descriptionBox--left" style="background-color:#0174c3;">
+    	<div class="description">
+    		<p><span style="">„Mit dieser unternehmensfreundlichen Lösung können wir unsere Endbenutzer jetzt endlich mit dem ganzen technischen Drumherum verschonen.“ </span><br />
+</p>
+<h6>WEBER YUAN, LEAD ARCHITECT, CIO IDENTITY SERVICES, IBM </h6>
+
+    		<div class="btn-container vertical" style="background-color:#0174c3;">
+				 <a href="/content/dam/digicert/videos/digicert_ibm_181016_720p.mp4" class="btn video white" target="_blank" style="margin-right:px;
+				 		   margin-bottom:px;">
+				 	Video ansehen</a>
+			</div>
+	    </div>
+	</div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div role="tabpanel" tabindex="0" class="cmp-tabs__tabpanel" data-cmp-hook-tabs="tabpanel"><div class="customer-carousel">
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp">
+	<div class="img-container img-container--right">
+		 <div class="revealAnimation">
+		 	
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/oracle-headshot.png" alt="Oracle Client Promo"/>
+         </div>
+	</div>
+	<div class="icon-container icon-container--left">
+		 <img loading="lazy" src="/content/dam/digicert/images/homepage/oracle-gray-logo.jpg" alt="Oracle logo"/>
+	</div>
+	<div class="descriptionBox descriptionBox--left" style="background-color:#0174c3;">
+    	<div class="description">
+    		<p>„Für ein Unternehmen ist Digital Trust genauso unerlässlich wie der Grundstein für das Fundament, und ohne Digital Trust sind Unternehmen jeder Gefahr schutzlos ausgeliefert.“</p>
+<h6>SEAN SWEENEY, CHIEF INFORMATION SECURITY OFFICER</h6>
+
+    		<div class="btn-container vertical" style="background-color:#0174c3;">
+				 <a href="/content/dam/digicert/dynamic-media/videos/digicert-oracle-partner-en.mp4" class="btn video white" target="_blank" style="margin-right:px;
+				 		   margin-bottom:px;">
+				 	Video ansehen</a>
+			</div>
+	    </div>
+	</div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div role="tabpanel" tabindex="0" class="cmp-tabs__tabpanel" data-cmp-hook-tabs="tabpanel"><div class="customer-carousel">
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp">
+	<div class="img-container img-container--right">
+		 <div class="revealAnimation">
+		 	
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/cloudflare.jpg" alt="Cloudflare Client Promo"/>
+         </div>
+	</div>
+	<div class="icon-container icon-container--left">
+		 <img loading="lazy" src="/content/dam/digicert/images/homepage/homepage-03.png" alt="Cloudflare Logo - Partners"/>
+	</div>
+	<div class="descriptionBox descriptionBox--left" style="background-color:#0174c3;">
+    	<div class="description">
+    		<p>„DigiCert beeindruckt mit seiner wirklich professionellen Softwareentwicklung – das kann man nicht von vielen Unternehmen behaupten. DigiCert ist nicht nur Anbieter, Es handelt sich um ein Entwicklungsunternehmen.“</p>
+<h6>PATRICK DONAHUE, DIRECTOR OF PRODUCT MANAGEMENT</h6>
+
+    		<div class="btn-container vertical" style="background-color:#0174c3;">
+				 <a href="/content/dam/digicert/videos/Digicert_CloudFlare_01_WeSellTrust_180917_720p.mp4" class="btn video white" target="_blank" style="margin-right:px;
+				 		   margin-bottom:px;">
+				 	Video ansehen</a>
+			</div>
+	    </div>
+	</div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+    
+</div></div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:45px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="static-html-container">		
+<style>@media only screen and (min-width: 1024px) {
+.heroimage-v2,
+ .heroimage-v2 .bgImage {
+height: auto;
+}
+}
+body#authorMode .heroimage-v2{
+margin-left:-70px;
+margin-right:-70px;
+}
+.heroimage-v2 .cardList{
+grid-row:2;
+margin-top: -60px;
+}
+.heroimage-v2 .cardList .listItem .title{
+margin:0;
+padding: 17px 24px 19px;
+line-height: 26px;
+}
+.heroimage-v2 .bgImage img {
+object-fit:cover;
+}
+.heroimage-v2 .cardList .listItem img{
+object-fit: fill;
+}</style>
+
+
+    
+
+</div>
+<div class="text vspacebtncomp-top">
+
+
+<div class="rich-text cmp-text cmp-text--center rhythm--small-medium" style="background-color:">
+  <h2>Neues von DigiCert</h2>
+
+  
+</div>
+
+    
+</div>
+<div class="custom-carousel carousel panelcontainer">
+<div class="cmp-carousel" role="group" aria-roledescription="carousel" data-cmp-is="carousel" data-cmp-delay="4000">
+    <div class="cmp-carousel__content">
+
+        <div class="cmp-carousel__item cmp-carousel__item--active" role="tabpanel" aria-label="Folie 1 von 5" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/modernize-your-pki-efficiency-agility.png" alt="alt=&#34;modernize your PKI security efficiency and agility&#34;"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>Whitepaper</h6>
+<h3>Mit einer modernen PKI für alles gerüstet</h3>
+<p>Erfahren Sie, wie eine zeitgemäße PKI Ihrem Unternehmen die erforderliche Sicherheit, Effizienz und Agilität zur Bekämpfung moderner Bedrohungen bietet – was immer die Zukunft bringen mag.</p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/campaigns/pki-modernization-white-paper" class="btn primary blue" target="_self" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	ZUM WHITEPAPER</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+<div class="cmp-carousel__item" role="tabpanel" aria-label="Folie 2 von 5" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/top-5-strategies-carousel.png" alt="Top 5 Strategies to Secure Your Software Supply Chain Image"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>LEITFADEN</h6>
+<h3>Scannen. Signieren. Liefern.</h3>
+<p>Wie tragen Sie der Komplexität der Softwarelieferkette Rechnung? Erfahren Sie, wie eine zeitgemäße PKI Ihrem Unternehmen die erforderliche Sicherheit, Effizienz und Agilität zur Bekämpfung moderner Bedrohungen bietet – was immer die Zukunft bringen mag.</p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/campaigns/software-security-in-5-steps" class="btn primary blue" target="_self" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	LEITFADEN HERUNTERLADEN</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+<div class="cmp-carousel__item" role="tabpanel" aria-label="Folie 3 von 5" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/tls-best-practices-guide-homepage-carousel.jpg" alt="TLS Best Practices Guide Homepage Carousel Image"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>LEITFADEN</h6>
+<h3>Best Practices für TLS</h3>
+<p>Manuelles Zertifikatsmanagement ist passé. Erfahren Sie, wie Sie den Lebenszyklus von Zertifikaten effektiv überwachen und steuern.</p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/campaigns/tls-best-practices-guide" class="btn primary blue" target="_blank" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	Zum Leitfaden</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+<div class="cmp-carousel__item" role="tabpanel" aria-label="Folie 4 von 5" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/dtr-ebook-homepage-carousel.jpg" alt="Digital Trust for the Real World eBook Homepage Carousel"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>E-BOOK</h6>
+<h3>Digital Trust. Echt gemacht.</h3>
+<p>Alles, auf das wir angewiesen sind – vom Meeresgrund bis hoch ins All – benötigt seinerseits Digital Trust.
+</p>
+<p><br />
+ </p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/ebook/digital-trust-for-the-real-world" class="btn primary blue" target="_self" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	ZUM E-BOOK</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+<div class="cmp-carousel__item" role="tabpanel" aria-label="Folie 5 von 5" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/dummies.png" alt="PQC for Dummies eBook Image"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>E-BOOK</h6>
+<h3>Post-Quanten-Kryptografie für Einsteiger.</h3>
+<p>Die Quanteninformatik macht rasante Fortschritte. Doch worin unterscheidet sich Quantencomputing von klassischem Computing und wie wirkt es sich auf Sie und Ihre Sicherheit aus? Hier sind Ihre Antworten.</p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/campaigns/pqc-for-dummies-ebook" class="btn primary blue" target="_blank" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	ZUM BUCH</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+
+	     
+        <div class="cmp-carousel__actions navType-default center" style="display:;">
+            <button class="cmp-carousel__action cmp-carousel__action--previous" role="button" aria-label="Vorige" data-cmp-hook-carousel="previous">
+                <span class="cmp-carousel__action-icon--right"></span>
+                <span class="cmp-carousel__action-text"> < </span>
+            </button>
+            
+            <ol class="cmp-carousel__indicators clearfix" role="tablist" aria-label="Choose a slide to display" data-cmp-hook-carousel="indicators">
+	            <li class="cmp-carousel__indicator cmp-carousel__indicator--active" role="tab" aria-label="Folie 1" data-cmp-hook-carousel="indicator">Modernize PKI</li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Folie 2" data-cmp-hook-carousel="indicator">Top 5 Strategies</li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Folie 3" data-cmp-hook-carousel="indicator">TLS Best Practices Guide</li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Folie 4" data-cmp-hook-carousel="indicator">Digital Trust for the Real World</li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="Folie 5" data-cmp-hook-carousel="indicator">Post-Quantum Cryptography for Dummies</li>
+
+        	</ol>
+            <button class="cmp-carousel__action cmp-carousel__action--next" role="button" aria-label="Weiter" data-cmp-hook-carousel="next">
+                <span class="cmp-carousel__action-icon--next"></span>
+                <span class="cmp-carousel__action-text"> > </span>
+            </button>
+        </div>
+    </div>
+
+    
+</div>
+</div>
+
+        
+    </div>
+
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-2c50cfeb6e" class="cmp-experiencefragment cmp-experiencefragment--digicert-footer">
+
+	
+
+    
+    
+    
+    <div id="container-eb8136a75c" class="cmp-container" am-region="Body">
+        
+        <div class="digicert-footer">
+<div class="popupModal hide" id="mediaPopup">
+	 <h2 class="closeVideoPlayer" style="margin:0;"></h2>
+	 <div class="popup">
+		  <video id="popupVideoPlayer" class="videoPlayer" width="100%" controls>
+		 		 <source src=""/>
+		  </video>
+		  <iframe id="popupIframeVideoPlayer" src=""></iframe>
+	 </div>
+</div>
+
+
+<!-- Place with DigiCert Seal HTML or with other scripts -->
+<script type="text/javascript">
+	var __dcid = __dcid || [];
+		__dcid.push({"cid":"DigiCertClickID_QpVPir5r","tag":"QpVPir5r","seal_format":"dynamic"});
+		(function(){
+			var cid=document.createElement("script");
+				cid.async=true;
+				cid.src="//seal.digicert.com/seals/cascade/seal.min.js";
+			var s = document.getElementsByTagName("script");
+			var ls = s[(s.length - 1)];
+				ls.parentNode.insertBefore(cid, ls.nextSibling);
+		}());
+</script>
+
+<div class="footer-top-line"></div>
+<div class="footer-digicert" am-region="Footer">
+	 <ul id="aboutus-text" class="clearfix">
+	 	 <li class="aboutus-text">
+			 
+
+
+
+<div class="site-branding">
+    <a>
+    	<img loading="lazy" src="/content/dam/digicert/DigiCert-Logo.png" alt="DigiCert Logo"/>
+    </a>
+</div>
+
+
+    
+
+
+			 <p>Der vertrauenswürdigste globale Anbieter von hochsicheren TLS/SSL-, PKI-, IoT- und Signaturlösungen.</p>
+
+		</li>
+		<li id="digicert-seal" class="digicert-seal">
+			
+			
+			<div id="DigiCertClickID_QpVPir5r"></div>
+			
+		</li>
+		<li class="socialMedia">
+			<a href="https://www.linkedin.com/company/digicert-inc-/">
+			   <img loading="lazy" src="/content/dam/digicert/icons/LinkedInIcon.svg" alt="Linkedin"/>
+		    </a>
+		
+			<a href="https://twitter.com/digicert?s=20">
+			   <img loading="lazy" src="/content/dam/digicert/icons/TwitterIcon.svg" alt="Twitter"/>
+		    </a>
+		
+			<a href="https://www.youtube.com/@DigiCert">
+			   <img loading="lazy" src="/content/dam/digicert/icons/YouTubeIcon.svg" alt="Youtube"/>
+		    </a>
+		</li>
+	 </ul>
+	 <ul id="footer-menu" class="menu clearfix">
+		 <li>
+			<h6 class="footer-label">
+				Unternehmen
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="https://www.digicert.com/de/about" class=" txt-u-animate straight-line">Über uns</a></li>
+			
+				<li><a href="https://www.digicert.com/de/blog" class=" txt-u-animate straight-line">Blog</a></li>
+			
+				<li><a href="https://www.digicert.com/de/careers" class=" txt-u-animate straight-line">Wir stellen ein</a></li>
+			
+				<li><a href="https://www.digicert.com/events" class=" txt-u-animate straight-line">Events</a></li>
+			
+				<li><a href="https://www.digicert.com/de/news" class=" txt-u-animate straight-line">Pressezentrum</a></li>
+			
+				<li><a href="https://www.digicert.com/de/leadership" class=" txt-u-animate straight-line">Unternehmensführung</a></li>
+			
+				<li><a href="https://www.digicert.com/de/history" class=" txt-u-animate straight-line">Unternehmensgeschichte</a></li>
+			
+				<li><a href="https://www.digicert.com/de/contact-us" class=" txt-u-animate straight-line">Kontaktieren</a></li>
+			</ul>
+		 </li>
+	
+		 <li>
+			<h6 class="footer-label">
+				Mein Konto
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="https://knowledge.digicert.com/" class=" txt-u-animate straight-line">KnowledgeBase</a></li>
+			
+				<li><a href="https://docs.digicert.com/" class=" txt-u-animate straight-line">Documentation</a></li>
+			
+				<li><a href="https://www.digicert.com/de/support" class=" txt-u-animate straight-line">Unterstützung</a></li>
+			
+				<li><a href="https://dev.digicert.com/" class=" txt-u-animate straight-line">Entwickler</a></li>
+			
+				<li><a href="https://www.digicert.com/de/all-products" class=" txt-u-animate straight-line">Alle Produkte</a></li>
+			
+				<li><a href="https://www.digicert.com/tools/" class=" txt-u-animate straight-line">Tools</a></li>
+			
+				<li><a href="https://www.digicert.com/de/tls-ssl/digicert-site-seal" class=" txt-u-animate straight-line">Website-Siegel</a></li>
+			
+				<li><a href="https://www.digicert.com/de/case-studies" class=" txt-u-animate straight-line">Fallstudien</a></li>
+			</ul>
+		 </li>
+	
+		 <li>
+			<h6 class="footer-label">
+				Ressourcen
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="https://www.digicert.com/de/faq" class=" txt-u-animate straight-line">Häufig Gestellte Fragen (FAQ)</a></li>
+			
+				<li><a href="https://www.digicert.com/de/media" class=" txt-u-animate straight-line">Medien</a></li>
+			
+				<li><a href="https://www.digicert.com/de/professional-services" class=" txt-u-animate straight-line">Professional Services</a></li>
+			
+				<li><a href="https://www.digicert.com/de/what-is-pki" class=" txt-u-animate straight-line">Was ist PKI?</a></li>
+			
+				<li><a href="/de/how-tls-ssl-certificates-work" class=" txt-u-animate straight-line">Wie funktioniert TLS/SSL?</a></li>
+			
+				<li><a href="https://www.digicert.com/de/what-is-ssl-tls-and-https" class=" txt-u-animate straight-line">Was sind SSL, TLS <br />und HTTPS?</a></li>
+			
+				<li><a href="/de/what-is-an-ssl-certificate" class=" txt-u-animate straight-line">Was ist ein SSL-Zertifikat?</a></li>
+			</ul>
+		 </li>
+	
+		 <li>
+			<h6 class="footer-label">
+				<a class="txt-u-animate straight-line" href="/de/solutions/solutions-overview">Lösungen</a>
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="/de/solutions/security-solutions-for-automation" class=" txt-u-animate straight-line">Sicherheitslösungen für die Automatisierung</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-servicenow" class=" txt-u-animate straight-line">Sicherheitslösungen für ServiceNow</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-post-quantum-computing" class=" txt-u-animate straight-line">Sicherheitslösungen für das <br /> Zeitalter der Post-Quanten-Kryptografie</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-ci-cd" class=" txt-u-animate straight-line">Sicherheitslösungen für CI/CD</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-email" class=" txt-u-animate straight-line">Sicherheitslösungen für E-Mail</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-code" class=" txt-u-animate straight-line">Sicherheitslösungen für Code​</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-devices" class=" txt-u-animate straight-line">Sicherheitslösungen für Geräte</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-documents" class=" txt-u-animate straight-line">Sicherheitslösungen für Dokumente</a></li>
+			
+				<li><a href="/de/solutions/security-solutions-for-ci-plus" class=" txt-u-animate straight-line">Sicherheitslösungen für CI&#43;</a></li>
+			</ul>
+		 </li>
+	</ul>
+	<ul id="mobile-socialMedia" class="clearfix">
+		<li>
+			<a href="https://www.linkedin.com/company/digicert-inc-/">
+			   <img loading="lazy" src="/content/dam/digicert/icons/LinkedInIcon.svg" alt="Linkedin"/>
+		    </a>
+		
+			<a href="https://twitter.com/digicert?s=20">
+			   <img loading="lazy" src="/content/dam/digicert/icons/TwitterIcon.svg" alt="Twitter"/>
+		    </a>
+		
+			<a href="https://www.youtube.com/@DigiCert">
+			   <img loading="lazy" src="/content/dam/digicert/icons/YouTubeIcon.svg" alt="Youtube"/>
+		    </a>
+		</li>
+	</ul>
+	<ul id="copyright" class="clearfix">
+		<li>
+			<p>© 2025 DigiCert, Inc. Alle Rechte vorbehalten.</p>
+
+			
+				
+				
+					<a href="https://www.digicert.com/legal-repository">Rechtliches</a>
+                
+			
+				
+				
+					<a href="https://www.digicert.com/webtrust-audits">WebTrust-Audits</a>
+                
+			
+				
+				
+					<a href="/de/security-terms">Nutzungsbedingungen</a>
+                
+			
+				
+				
+					<a href="/de/digicert-privacy-policy">Datenschutz</a>
+                
+			
+				
+				
+					<a href="/de/digicert-accessibility-statement">Barrierefreiheit</a>
+                
+			
+				
+					<a href="javascript:void(0);" onclick="transcend.showConsentManager({ viewState: 'CompleteOptions' });">Cookie-Einstellungen</a>
+                
+				
+			
+		</li>
+	</ul>
+</div>
+</div>
+
+        
+    </div>
+
+
+
+</div>
+
+    
+</div>
+<div class="back-to-top aem-GridColumn aem-GridColumn--default--12"><button class="backtotop" id="myBtn" title="Go to top"><i class="arrow-updated up"></i>&nbsp;&nbsp;TO TOP</button>
+
+    
+</div>
+
+    
+</div>
+</div>
+
+         <div id="root"></div>
+        
+
+        
+</div>
+            
+
+
+
+	
+    <script async src="/etc.clientlibs/digicert/clientlibs/clientlib-cif.lc-d65ce9dd67998fa89c585cff528cea1c-lc.min.js"></script>
+
+
+
+
+
+    
+    
+<script src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/utils.lc-e7bf340a353e643d198b25d0c8ccce47-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite.lc-543d214c88dfa6f4a3233b630c82d875-lc.min.js"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/jquery.lc-dd9b395c741ce2784096e26619e14910-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/clientlib-dependencies.lc-f387ef617ecfd387b67935070b9ca4f1-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/clientlib-commerce.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/ui.search.lc-65abc05e87888bf6e812cbc48d2731c4-lc.min.js"></script>
+<script src="/libs/dam/components/scene7/common/clientlibs/viewer.lc-286d51076949b1908ec34d18f81e6977-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/clientlib-base.lc-c21ebab563866dc8b60db15557458926-lc.min.js"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/shared.lc-41f79c8a45bb1766981ec4ca82d7e0e6-lc.min.js"></script>
+
+
+
+
+
+
+
+	<script type="text/javascript" src="https://c.la3-c1-ia4.salesforceliveagent.com/content/g/js/50.0/deployment.js"></script>
+	<script type="text/javascript">
+
+        var liveagentInitUrl = 'https:\/\/d.la3\u002Dc1\u002Dia4.salesforceliveagent.com\/chat';
+		var deploymentId = '5720z0000008One';
+		var orgId = '00D60000000KAGN';
+
+		liveagent.init(liveagentInitUrl,deploymentId, orgId);
+
+		if (!window._laq) {
+			window._laq = [];
+		}
+
+		window._laq.push(function() {
+			/* liveagent.enableLogging(); */
+			var chat_btn = document.getElementById('liveagent_chatbtns');
+			if(chat_btn != null){
+				
+				var rightNavLiveAgent = document.getElementById("rightNavLiveAgent");
+				if(rightNavLiveAgent!=null)
+					rightNavLiveAgent.innerHTML=chat_btn.innerHTML;
+				
+	            var liveagentchatbtnlist_online = document.querySelectorAll("[id^=liveagent_online_]");
+			    var liveagentchatbtnlist_offline = document.querySelectorAll("[id^=liveagent_offline_]");
+				liveagent.setChatWindowHeight(640);
+				liveagent.setChatWindowWidth(480);
+
+	            for(var i=0;i<liveagentchatbtnlist_online.length;i++){
+	            	var elem = liveagentchatbtnlist_online[i];
+					var buttonId = elem.id.split("_").pop();
+	                	liveagent.showWhenOnline(buttonId,elem);
+	            }
+	            for(var i=0;i<liveagentchatbtnlist_offline.length;i++){
+	            	var elem = liveagentchatbtnlist_offline[i];
+					var buttonId = elem.id.split("_").pop();
+	                	liveagent.showWhenOffline(buttonId,elem);
+	            }
+			}
+		});
+		function startChat(buttonId) {
+			liveagent.startChat(buttonId.split("_").pop());
+		}
+	</script> 
+
+
+
+ 
+<script>
+var bodyElem = document.querySelector('body');
+var dataLang = bodyElem.dataset.lang
+if(dataLang.toLowerCase() == "en-us" || dataLang.toLowerCase() == "en"){
+    var el = document.querySelector(".experiencefragment #OldNavigationHeader");
+    if(el!=null)
+        el.innerHTML = "";
+}
+else{
+    var el = document.querySelector(".experiencefragment #NewNavigationHeader");
+    if(el!=null)
+        el.innerHTML = "";
+}
+</script>
+
+
+
+        
+    <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=17&cb=130110167" async></script></body>
+</html>

@@ -1,0 +1,3237 @@
+
+<!DOCTYPE HTML>
+<html lang="ko-KR">
+    <head><script src="/bry-Say-I-double-We-well-Mighties-in-finde-And-i" async></script>
+  <meta charset="UTF-8"/>
+  <title>TLS/SSL 인증 기관 | 디지털 트러스트 선도 기업 | DigiCert</title>
+  <!-- <meta data-sly-test.keywords="TLS Certificate Authority,EN,DigiCert" name="keywords" content=""/> -->
+  <meta name="description" content="DigiCert는 업계를 선도하는 TLS/SSL 인증 기관으로, PKI, IoT, DNS, 문서 및 소프트웨어 보안 솔루션에 기반하여 실제 세계를 위한 디지털 트러스트를 전문적으로 제공하고 있습니다."/>
+  <!--  <meta data-sly-test.templateName="content-page-template" name="template" content=""/> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  
+    
+
+	<script defer="defer" type="text/javascript" src="/.rum/@adobe/helix-rum-js@%5E2/dist/rum-standalone.js"></script>
+<link rel="alternate" href="https://www.digicert.com/jp" hreflang="ja-JP"/>
+
+	<link rel="alternate" href="https://www.digicert.com/kr" hreflang="ko-KR"/>
+
+	<link rel="alternate" href="https://www.digicert.com/" hreflang="en-US"/>
+
+	<link rel="alternate" href="https://www.digicert.com/de" hreflang="de-DE"/>
+
+	<link rel="alternate" href="https://www.digicert.com/es" hreflang="es-ES"/>
+
+	<link rel="alternate" href="https://www.digicert.com/fr" hreflang="fr-FR"/>
+
+	<link rel="alternate" href="https://www.digicert.com/it" hreflang="it-IT"/>
+
+	<link rel="alternate" href="https://www.digicert.com/nl" hreflang="nl-NL"/>
+
+	<link rel="alternate" href="https://www.digicert.com/pt" hreflang="pt-BR"/>
+
+	<link rel="alternate" href="https://www.digicert.com/cn" hreflang="zh-CN"/>
+
+	<link rel="alternate" href="https://www.digicert.com/tw" hreflang="zh-TW"/>
+
+
+
+  
+  
+  
+  
+      <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org/",
+    "@type": "Organization",
+    "name": "DigiCert, Inc.",
+    "url": "https://www.digicert.com/",
+    "logo": "https://www.digicert.com/content/dam/digicert/images/navigation/header/DigiCertLogo_MainNavigation.svg",
+    "alternateName": "DigiCert, Inc.",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q3027764",
+      "https://www.youtube.com/user/DigiCertSSL",
+      "https://twitter.com/digicert",
+      "https://www.linkedin.com/company/digicert-inc-/",
+      "https://www.facebook.com/DigiCert/"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-801-701-9600",
+        "contactType": "customer service",
+        "email": "sales@digicert.com"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-800-896-7973",
+        "contactType": "technical support",
+        "email": "support@digicert.com"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-800-896-7973",
+        "contactType": "customer service",
+        "areaServed": "US",
+        "availableLanguage": [
+          "EN",
+          "ES",
+          "DE",
+          "FR",
+          "JP",
+          "NL",
+          "KR",
+          "TW",
+          "CN",
+          "PT",
+          "IT"
+        ]
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "1-800-579-2848",
+        "contactType": "sales",
+        "email": "enterprise-sslsupport@digicert.com"
+      }
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.digicert.com/search-results?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "DigiCert",
+    "url": "https://www.digicert.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.digicert.com/search-results?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+]
+</script>
+    
+  
+  
+
+
+	
+	
+	
+    
+    
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    
+    
+    
+    
+    
+    
+	<meta property="og:locale" content="ko_KR"/>
+	<meta name="keywords" content="tls-certificate-authority, en, digicert"/>
+	<meta class="swiftype" name="published_at" data-type="date" content="08/02/2025"/>
+    <meta class="swiftype" name="tags" data-type="string" content="tls-certificate-authority, en, digicert"/>
+	
+    <meta class="swiftype" name="featured" data-type="integer" content="0"/>
+    <meta class="swiftype" name="download" data-type="string"/>
+     
+    
+    
+    	<meta class="swiftype" name="domain" data-type="integer" content="0"/>
+    	
+		
+	
+		
+			<meta property="og:locale:alternate" content="es_ES"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="nl_NL"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="de_DE"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="fr_FR"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="it_IT"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="zh_CN"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="zh_TW"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="ja_JP"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="ko_KR"/>
+		
+	
+		
+			<meta property="og:locale:alternate" content="pt_PT"/>
+		
+	
+    
+	
+	<meta class="swiftype" name="langc" data-type="string" content="ko_KR"/>
+	<link rel="canonical" href="https://www.digicert.com/kr"/>
+	
+
+
+
+
+	<link rel="icon" href="/content/dam/digicert/images/DigiCertFavicon_16x16.png" sizes="16x16"/>
+	<link rel="icon" href="/content/dam/digicert/images/DigiCertFavicon_32x32.png" sizes="32x32"/>
+	<link rel="apple-touch-icon" href="/content/dam/digicert/images/DigiCertFavicon_32x32.png"/>
+	<meta name="msapplication-TileImage" content="/content/dam/digicert/images/DigiCertFavicon_32x32.png"/>
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-commerce.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/ui.search.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-base.lc-92cb49f48966db2d29894924ef3775a4-lc.min.css" type="text/css">
+
+
+
+
+
+	
+
+
+	
+
+
+<!-- Omniture data Capture -->
+
+	<script type="text/javascript">
+		var dataLayerList = "{\x22om\x22:{\x22content_title\x22:\x22영어\x22,\x22site_name\x22:\x22digicert\x22,\x22content_type\x22:\x22page\x22,\x22site_country\x22:\x22kr\x22,\x22page_name\x22:\x22homepage\x22,\x22site_sub_sub_section\x22:\x22na\x22,\x22content_format\x22:\x22html\x22,\x22site_language\x22:\x22ko\x22,\x22site_section\x22:\x22digicert\x22,\x22account\x22:\x22veritassymantecwebsitesecurity\x22,\x22site_sub_section\x22:\x22na\x22}}";
+    	var obj = JSON.parse(dataLayerList);
+		//console.log(obj.om);
+    	window.symcDataLayer = {};
+    	window.symcDataLayer.om = {
+        	"account" : obj.om.account,
+			"content_format" : obj.om.content_format,
+        	"content_title" : obj.om.content_title,
+        	"content_type": obj.om.content_type,
+			"page_name" : obj.om.page_name,
+			"page_type": obj.om.page_type,
+			"site_country" : obj.om.site_country,
+			"site_language" : obj.om.site_language,
+			"site_section" : obj.om.site_section,
+        	"site_sub_section" : obj.om.site_sub_section,
+        	"site_sub_sub_section" : obj.om.site_sub_sub_section
+    	};
+	</script>
+
+
+
+<script>
+  //Adobe Target prehiding snippet (must be place//Adobe Target prehiding snippet (must be placed directly above '< script src="https://assets.adobedtm.com/.../.../launch-....min.js" async> </ script>')
+  
+  //check if OneTrust is allowing "Personalized Experience Cookies" (i.e., Adobe Target) to load
+  var adobeTargetOneTrustGroup = "PE";
+  
+  function isAdobeTargetAllowed(adobeTargetOneTrustGroup) {
+    var OptanonConsentCookie = document.cookie.match(/OptanonConsent=.*;/);
+    
+    return (OptanonConsentCookie && decodeURIComponent(OptanonConsentCookie[0]).includes(adobeTargetOneTrustGroup + ":1"));
+  }
+  
+  if (isAdobeTargetAllowed(adobeTargetOneTrustGroup)) {
+    //Adobe Target prehiding snippet
+    ;(function(win, doc, style, timeout) {
+      var STYLE_ID = 'at-body-style';
+      
+      function getParent() {
+        return doc.getElementsByTagName('head')[0];
+      }
+      
+      function addStyle(parent, id, def) {
+        if (!parent) {
+          return;
+        }
+        
+        var style = doc.createElement('style');
+        style.id = id;
+        style.innerHTML = def;
+        parent.appendChild(style);
+      }
+      
+      function removeStyle(parent, id) {
+        if (!parent) {
+          return;
+        }
+        
+        var style = doc.getElementById(id);
+        
+        if (!style) {
+          return;
+        }
+        
+        parent.removeChild(style);
+      }
+      
+      addStyle(getParent(), STYLE_ID, style);
+      setTimeout(function() {
+        removeStyle(getParent(), STYLE_ID);
+      }, timeout);
+    }(window, document, "body {opacity: 0 !important}", 3000));
+  }
+</script>
+
+<!-- DEV Analytics -->
+<!--<script src="https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-ENb8e5854ed93c443fa2962c8516926c96-staging.min.js" async></script>-->
+<!-- PROD Analytics -->
+<script src="https://assets.adobedtm.com/80bda08f0087/1015fcf0b78f/launch-EN214b022a648841a199bcc6b7b217acc1.min.js" async></script>
+
+
+
+	
+    <link rel="stylesheet" href="/etc.clientlibs/digicert/clientlibs/clientlib-cif.lc-730ca46df993f316603b6ff0381df120-lc.min.css" type="text/css">
+
+
+
+<!--Accessibility Widget-->
+<script src="https://cdn.userway.org/widget.js" data-account="9ikoIUc0o1"></script>
+  
+  
+
+
+  
+  
+  
+  
+  
+    <meta name="store-config" content="{&#34;storeView&#34;:&#34;usd&#34;,&#34;graphqlEndpoint&#34;:&#34;/api/graphql/us&#34;,&#34;graphqlMethod&#34;:&#34;POST&#34;,&#34;headers&#34;:{&#34;Store&#34;:&#34;usd&#34;},&#34;locale&#34;:&#34;en&#34;,&#34;enableClientSidePriceLoading&#34;:true}">
+  
+  <script async data-lazy id="__ada" data-handle="digicert-gen" src="https://static.ada.support/embed2.js"></script>
+  <!-- ADA chatbot for contact us page -->
+  <script type="text/javascript">
+    let conversationEnded = false;
+    let isStarted = false;
+    let drawerOpen = false;
+    let dc1conversationEnded = false;
+    let isdc1Started = false;
+    let dc1DrawerOpen = false;
+    let loadBot = () => {
+      if (!isStarted) {
+        //Check if DC1 chatbot was active 
+        if (isdc1Started) {
+          window.adaEmbed.stop();
+        }
+        // Starting embed
+        window.adaEmbed.start({
+          handle: "digicert-gen",
+          onAdaEmbedLoaded: () => {
+            console.log("embed loaded.");
+            console.log("Toggling chat");
+            adaEmbed.toggle();
+            isStarted = true;
+            //Subscribing to the end_conversation event
+            window.adaEmbed.subscribeEvent("ada:end_conversation", (data, context) => {
+              console.log("The conversation has been ended by the user.");
+              conversationEnded = true;
+            });
+          },
+          toggleCallback: (isDrawerOpen) => {
+            //toggle callback to check if the drawer has been closed after ending the conversation.
+            console.log("drawer open:", isDrawerOpen)
+            if (conversationEnded && !isDrawerOpen) {
+              console.log("Conversation has been ended and the drawer has been closed")
+              //Stopping the bot if the conversation has ended, and the drawer is toggled close
+              adaEmbed.stop();
+              isStarted = false;
+            }
+          }
+        });
+      }
+      else {
+        adaEmbed.toggle();
+      }
+    }
+
+    let loadPkiBot = () => {
+      if (!isdc1Started) {
+        //Check if support chatbot was active 
+        if (isStarted) {
+          window.adaEmbed.stop();
+        }
+        // Starting embed
+        window.adaEmbed.start({
+          handle: "dc1-digicert-gen",
+          onAdaEmbedLoaded: () => {
+            console.log("DC1 embed loaded.");
+            console.log("Toggling DC1 chat");
+            adaEmbed.toggle();
+            isdc1Started = true;
+            //Subscribing to the end_conversation event
+            window.adaEmbed.subscribeEvent("ada:end_conversation", (data, context) => {
+              console.log("The DC1 conversation has been ended by the user.");
+              dc1conversationEnded = true;
+            });
+          },
+          toggleCallback: (dc1DrawerOpen) => {
+            //toggle callback to check if the drawer has been closed after ending the conversation.
+            console.log("DC1 drawer open:", dc1DrawerOpen)
+            if (dc1conversationEnded && !dc1DrawerOpen) {
+              console.log("DC1 Conversation has been ended and the drawer has been closed")
+              //Stopping the bot if the conversation has ended, and the drawer is toggled close
+              adaEmbed.stop();
+              isdc1Started = false;
+            }
+          }
+        });
+      }
+      else {
+        adaEmbed.toggle();
+      }
+    }
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  
+</head>
+    <body class="page basicpage digicert-body" data-lang="ko-KR">
+        
+        
+            
+
+
+<div class="container">
+    <div class="root responsivegrid">
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-c25c31d7af" class="cmp-experiencefragment cmp-experiencefragment--digicert-header-xf">
+
+	
+
+    
+    
+    
+    <div id="container-a3b97edaac" class="cmp-container" am-region="Body">
+        
+        <div class="static-html-container">		
+<style>.digicert-body .hamburger{
+margin:0;
+}@media only screen and (max-width: 1024px) {body.digicert-body .container.responsivegrid  .cmp-container{
+margin-top: 80px;
+}
+}</style>
+
+
+    
+
+</div>
+<div class="minicart-config">
+
+
+
+	<div class="minicart__feature">
+		<div class="minicart__feature minicart__feature__enable-pro-svc-prod"></div>
+	</div>
+
+
+
+
+
+</div>
+<div class="header-v3 fixed"><header am-region="Header">
+	<div class="site_logo">
+<div class="image-video image-video--default">
+  
+  
+  
+  
+  
+  <a class="link link--color-default link--weight-medium" href="https://www.digicert.com/kr" title="DigCert Logo - Leader in Digital Trust">
+    <picture>
+      
+      <img data-src="/content/dam/digicert/images/navigation/header/DigiCertLogo_MainNavigation.svg" alt="DigCert Logo - Leader in Digital Trust" loading="lazy" src="/content/dam/digicert/images/navigation/header/DigiCertLogo_MainNavigation.svg" class="lazyload cmp-image__image objfit-contain " htmlwidth="0" htmlheight="0"/>
+    </picture>
+  </a>
+  
+  
+    
+
+</div></div>
+	<div class="primary__navigation">
+	 
+
+	 
+
+	 
+
+	 
+
+	 
+
+	 <ul class="clearfix nav-list">
+		<li class=" dropDownNav_item" am-region="솔루션">
+        	
+        	   <span>솔루션 <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="digital_trust_solutions navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>뒤로
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: #fff;"><div class="list section"><p class="heading jqOnHover" data-for="digital-trust" data-lineSeparator="false" am-region="디지털 트러스트를 지원하는 분야:">
+   디지털 트러스트를 지원하는 분야: 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="enterprise-it" data-lineSeparator="false" am-region="엔터프라이즈 IT, PKI 및 ID">
+   엔터프라이즈 IT, PKI 및 ID 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert® 트러스트 수명 주기 관리자">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/trust-lifecycle-manager" data-for="enterprise-it" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® 트러스트 수명 주기 관리자</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="websites-servers" data-lineSeparator="false" am-region="웹사이트 및 서버">
+   웹사이트 및 서버 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert CertCentral® TLS/SSL 관리자">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/tls-ssl/certcentral-tls-ssl-manager" data-for="websites-servers" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert CertCentral® TLS/SSL 관리자</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="DigiCert® DNS 트러스트 관리자">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/dns-trust-manager" data-for="websites-servers" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® DNS 트러스트 관리자</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="code-software" data-lineSeparator="false" am-region="코드 및 소프트웨어">
+   코드 및 소프트웨어 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert® 소프트웨어 트러스트 관리자">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/software-trust-manager" data-for="code-software" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® 소프트웨어 트러스트 관리자</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="documents-signing" data-lineSeparator="false" am-region="문서 및 서명 ">
+   문서 및 서명  
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert® 문서 트러스트 관리자">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/document-trust-manager" data-for="documents-signing" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® 문서 트러스트 관리자</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-for="iot-connected-devices" data-lineSeparator="false" am-region="IoT 및 연결된 디바이스">
+   IoT 및 연결된 디바이스 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert 장치 신뢰 관리자">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/device-trust-manager" data-for="device-trust-manager" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert 장치 신뢰 관리자</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="Matter 이니셔티브 IoT 장치 인증">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/iot/matter-iot-device-certification" data-for="iot-connected-devices" class="txt-u-animate straight-line jqOnHover link--color-">Matter 이니셔티브 IoT 장치 인증</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="DigiCert® TrustCore SDK">	
+               <div class="level-one-title">
+               		<a href="https://www.digicert.com/kr/iot/trustcore-sdk" data-for="mocana-developers" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert® TrustCore SDK</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     
+     
+     <div class="column2">
+     	  <div class="col1row1 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div class="text-color--white"><div id="enterprise-it"><h2>한 곳에서 PKI 및 인증서 리스크 관리</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">운영 중단 방지</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">인증서 수명 주기 관리</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">비공개 PKI 서비스</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">통합 및 장점</a></li>
+</ul>
+</div>
+<div id="digital-trust" style="display: none;"><h2>한 곳에서 PKI 및 인증서 리스크 관리</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">운영 중단 방지</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">인증서 수명 주기 관리</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">비공개 PKI 서비스</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/trust-lifecycle-manager" style="color: rgb(255,255,255);">통합 및 장점</a></li>
+</ul>
+</div>
+<div id="websites-servers" style="display: none;"><h2>더 현명한 인증서 수명 주기 관리 방법</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">발급 및 설치</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">검사 및 수정</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">갱신 및 자동화</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/tls-ssl/certcentral-tls-ssl-manager" style="color: rgb(255,255,255);">할당 및 위임</a></li>
+</ul>
+</div>
+<div id="code-software" style="display: none;"><h2>지속적인 CI/CD 및 DevOps 서명</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/software-trust-manager" style="color: rgb(255,255,255);">코드 무결성 보장</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/software-trust-manager" style="color: rgb(255,255,255);">소프트웨어 서명 워크플로 자동화</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/software-trust-manager" style="color: rgb(255,255,255);">키 및 권한 관리 중앙 집중화</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/software-trust-manager" style="color: rgb(255,255,255);">규정 준수 간소화 및 적용</a></li>
+</ul>
+</div>
+<div id="documents-signing" style="display: none;"><h2>안정적이고 유연한 전 세계 범용 서명</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/document-trust-manager" style="color: rgb(255,255,255);">고유한 암호화 ID 설정</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/document-trust-manager" style="color: rgb(255,255,255);">신뢰할 수 있는 RIV(Remote Identity Verification)</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/document-trust-manager" style="color: rgb(255,255,255);">직관적인 Adobe 및 DocuSign 통합</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/document-trust-manager" style="color: rgb(255,255,255);">유연한 워크플로 옵션</a></li>
+</ul>
+</div>
+<div id="iot-connected-devices" style="display: none;"><h2>실리콘에서 현장에 이르는 모든 단계의 신뢰</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/iot/iot-device-manager/iot-of-healthcare" style="color: rgb(255,255,255);">의료 분야 IoT</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/iot-device-manager/iot-home-and-consumer" style="color: rgb(255,255,255);">가정 및 소비자 분야 IoT</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/iot-device-manager/industrial-iot" style="color: rgb(255,255,255);">산업 분야 IoT</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/iot-device-manager/smart-city" style="color: rgb(255,255,255);">스마트 시티 분야 IoT</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/iot-device-manager/iot-of-transportation" style="color: rgb(255,255,255);">운송 분야 IoT</a></li>
+</ul>
+</div>
+<div id="mocana-devices" style="display: none;"><h2>장치 철통 보안</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/iot/trust-for-connected-devices" style="color: rgb(255,255,255);">내장된 트러스트</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/trust-for-connected-devices" style="color: rgb(255,255,255);">자동화된 장치 관리</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/trust-for-connected-devices" style="color: rgb(255,255,255);">중앙 집중식 제어</a></li>
+</ul>
+</div>
+<div id="mocana-developers" style="display: none;"><h2>안전한 앱 개발 가속화</h2>
+<ul class="clearfix dataList">
+<li><a class="txt-u-animate straight-line" href="/kr/iot/trustcore-sdk" style="color: rgb(255,255,255);">OS 및 프로세서에 구애받지 않는 개발</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/trustcore-sdk" style="color: rgb(255,255,255);">유연한 범위</a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/iot/trustcore-sdk" style="color: rgb(255,255,255);">모든 언어</a></li>
+</ul>
+</div>
+</div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+          <div class="col1row2 gradient__" style="background-color: #015a99;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div class="text-color--white" id="desktop-section"><div id="enterprise-it" class="flex flex--justify-content-between"><div id="pqc-webinar-promo-0803"><h2 style="font-size: 27.0px; line-height: 35.0px;">간편해진 인증서 <br>
+관리 및 자동화:<br>
+
+규모에 맞춘 가동 시간 및 가용성 제공</h2>
+<div class="btn-container horizontal"><a href="https://digicert.registration.goldcast.io/events/43110a8d-00ae-4576-bb01-e428c2bf9b26?utm_source=digicert&amp;utm_medium=internal&amp;utm_campaign=distributed-infrastructure&amp;utm_content=nav-banner&amp;toc=701Vu00000471TMIAY" class="btn primary white" target="_blank">지금 등록하기</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/croston-machado-webinar-nav-promo.png" alt="Webinar - Streamlined Certificate Management and Automation"></div>
+</div>
+<div id="digital-trust" class="flex flex--justify-content-between" style="display: none;"><div><h2 style="font-size: 30.0px; line-height: 35.0px;">TLS/SSL 모범 사례 가이드 2022 판</h2>
+<div class="btn-container vertical"><a href="/campaigns/tls-best-practices-guide" class="btn primary white">지금 다운로드</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/tls-best-practices-promo.png" alt="TLS Best Practices Promo"></div>
+</div>
+<div id="websites-servers" class="flex flex--justify-content-between" style="display: none;"><div><h2 style="font-size: 30.0px; line-height: 35.0px;">TLS/SSL 모범 사례 가이드 2022 판</h2>
+<div class="btn-container vertical"><a href="/campaigns/tls-best-practices-guide" class="btn primary white">지금 다운로드</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/tls-best-practices-promo.png" alt="TLS Best Practices Promo"></div>
+</div>
+<div id="user-machine-identities" class="flex flex--justify-content-between" style="display: none;"><div><h6>웨비나</h6>
+<h2 style="font-size: 30.0px; line-height: 35.0px;">기기, ID, 인증관리의 무분별한 확대 관리</h2>
+<div class="btn-container vertical"><a href="/campaigns/benefits-of-managed-pki" class="btn primary white">지금 시청하기</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/user-networks-machine-identity-promo.png" alt="USER Networks Machine Identity Promo"></div>
+</div>
+<div id="code-software" class="flex flex--justify-content-between" style="display: none;"><div><h2 style="font-size: 30.0px; line-height: 35.0px;">DevOps가 실제로 채택할 서명 정책 수립 방법</h2>
+<div class="btn-container vertical"><a href="/campaigns/guide-to-creating-a-code-signing-policy" class="btn primary white">가이드 받기</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/code-and-software-promo.png" alt="CODE And Software Promo"></div>
+</div>
+<div id="documents-signing" class="flex flex--justify-content-between" style="display: none;"><div><h2 style="font-size: 30.0px; line-height: 35.0px;">문서 서명과 규제 사항 관리에 관한 국제적 관점</h2>
+<div class="btn-container vertical"><a href="https://www.digicert.com/content/dam/digicert/pdfs/datasheet/document-trust-manager-datasheet-en.pdf" class="btn primary white">지금 다운로드</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/docs-and-signing-promo.png" alt="DOCS And Signing Promo"></div>
+</div>
+<div id="iot-connected-devices" class="flex flex--justify-content-between" style="display: none;"><div><h2 style="font-size: 30.0px; line-height: 35.0px;">대규모로 연결된 기기를 보호, 업데이트, 감시 및 관리하기</h2>
+<div class="btn-container vertical"><a href="https://www.digicert.com/content/dam/digicert/pdfs/datasheet/device-trust-datasheet-en.pdf" class="btn primary white">지금 다운로드</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/mocana-connected-device-promo.png" alt="MOCANA Connected Device Promo"></div>
+</div>
+<div id="mocana-devices" class="flex flex--justify-content-between" style="display: none;"><div><h2 style="font-size: 30.0px; line-height: 35.0px;">대규모로 연결된 기기를 보호, 업데이트, 감시 및 관리하기</h2>
+<div class="btn-container vertical"><a href="https://www.digicert.com/content/dam/digicert/pdfs/datasheet/device-trust-datasheet-en.pdf" class="btn primary white">지금 다운로드</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/mocana-connected-device-promo.png" alt="MOCANA Connected Device Promo"></div>
+</div>
+<div id="mocana-developers" class="flex flex--justify-content-between" style="display: none;"><div><h2 style="font-size: 30.0px; line-height: 35.0px;">대규모로 연결된 기기를 보호, 업데이트, 감시 및 관리하기</h2>
+<div class="btn-container vertical"><a href="https://www.digicert.com/content/dam/digicert/pdfs/datasheet/device-trust-datasheet-en.pdf" class="btn primary white">지금 다운로드</a></div>
+</div>
+<div><img class="imagePoster" src="/content/dam/digicert/images/navigation/header/digital-trust/mocana-connected-device-promo.png" alt="MOCANA Connected Device Promo"></div>
+</div>
+</div>
+<div id="mobile-section" class="text-color--white"><h2 style="margin-bottom: 43.0px;">대규모로 연결된 기기를 보호, 업데이트, 감시 및 관리하기</h2>
+<a class="btn primary white" href="/content/dam/digicert/pdfs/datasheet/device-trust-datasheet-en.pdf" style="min-width: 171.0px;">지금 다운로드</a></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     </div>
+     
+     
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class=" dropDownNav_item" am-region="구매">
+        	
+        	   <span>구매 <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="purchase navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>뒤로
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: ;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="/kr/tls-ssl/tls-ssl-certificates">TLS/SSL 인증서</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="싱글 도메인">	
+               <div class="level-one-title">
+               		싱글 도메인
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/tls-ssl/compare-single-domain-certificates">구매</a>
+				
+                
+                     
+	                      <div class="level-two" am-region="확장 유효성 검사 구매">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/kr/tls-ssl/compare-single-domain-certificates?ev_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">확장 유효성 검사 구매</a>
+	                           </div>
+	                      </div>
+                      
+	                      <div class="level-two" am-region="조직 유효성 검사 구매">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/kr/tls-ssl/compare-single-domain-certificates?ov_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">조직 유효성 검사 구매</a>
+	                           </div>
+	                      </div>
+                      
+                
+            </div>
+      
+		  <div class="level-one" am-region="멀티 도메인">	
+               <div class="level-one-title">
+               		멀티 도메인
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/tls-ssl/compare-multi-domain-certificates">구매</a>
+				
+                
+                     
+	                      <div class="level-two" am-region="확장 유효성 검사 구매">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/kr/tls-ssl/compare-multi-domain-certificates?ev_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">확장 유효성 검사 구매</a>
+	                           </div>
+	                      </div>
+                      
+	                      <div class="level-two" am-region="조직 유효성 검사 구매">	
+	                           <div class="level-two-title">
+	                                <a href="https://www.digicert.com/kr/tls-ssl/compare-multi-domain-certificates?ov_comparision_chart=active" class="txt-u-animate straight-line jqOnHover link--color-">조직 유효성 검사 구매</a>
+	                           </div>
+	                      </div>
+                      
+                
+            </div>
+      
+		  <div class="level-one" am-region="와일드카드 도메인">	
+               <div class="level-one-title">
+               		와일드카드 도메인
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/tls-ssl/compare-wildcard-certificates">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/kr/signing/document-signing-certificates">문서 서명 인증서</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="문서 서명 - 개인">	
+               <div class="level-one-title">
+               		문서 서명 - 개인
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/signing/compare-document-signing-certificates">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="문서 서명 - 조직">	
+               <div class="level-one-title">
+               		문서 서명 - 조직
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/signing/compare-document-signing-certificates">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     <div class="column2 gradient__" style="background-color: ;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/kr/signing/code-signing-certificates">코드 서명 인증서</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="코드 서명">	
+               <div class="level-one-title">
+               		코드 서명
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/signing/compare-code-signing-certificates">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="코드 서명 + KeyLocker">	
+               <div class="level-one-title">
+               		코드 서명 + KeyLocker
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/signing/compare-code-signing-certificates">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/kr/tls-ssl/secure-email-smime-certificates">S/MIME 이메일 인증서</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="보안 이메일 - 개인">	
+               <div class="level-one-title">
+               		보안 이메일 - 개인
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/tls-ssl/compare-secure-email-smime-certificates">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="보안 메일 - 비즈니스">	
+               <div class="level-one-title">
+               		보안 메일 - 비즈니스
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/tls-ssl/compare-secure-email-smime-certificates">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/kr/tls-ssl/verified-mark-certificates">상표 표기 인증서</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="등록 상표에 대한 VMC">	
+               <div class="level-one-title">
+               		등록 상표에 대한 VMC
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/tls-ssl/compare-mark-certificates">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="정부 직인에 대한 VMC">	
+               <div class="level-one-title">
+               		정부 직인에 대한 VMC
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/tls-ssl/compare-mark-certificates">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     
+     
+     <div class="column3 gradient__" style="background-color: ;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://dnsmadeeasy.com/pricing">DNS</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="권한 있는 DNS">	
+               <div class="level-one-title">
+               		권한 있는 DNS
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://dnsmadeeasy.com/pricing">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/kr/solutions/eu-trust-solutions">EU(eIDAS)</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="QWAC">	
+               <div class="level-one-title">
+               		QWAC
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/qualified-certificates/compare-psd2-qwacs">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="인증된 서명">	
+               <div class="level-one-title">
+               		인증된 서명
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/qualified-certificates/compare-eu-document-signing">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="PSD2">	
+               <div class="level-one-title">
+               		PSD2
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/qualified-certificates/compare-psd2-qsealc">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+<div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="https://www.digicert.com/kr/solutions/eu-trust-solutions">PKIoverheid</a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="Private Services Server">	
+               <div class="level-one-title">
+               		Private Services Server
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/pkioverheid/private-services-server">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="문서 서명">	
+               <div class="level-one-title">
+               		문서 서명
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/pkioverheid/compare-pkio-document-signing">구매</a>
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="인증/암호화">	
+               <div class="level-one-title">
+               		인증/암호화
+               </div>
+               	<a class="btn buy level-one-btn blue link--color-" href="https://www.digicert.com/kr/pkioverheid/compare-pkio-authentication-encryption">구매</a>
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+
+     <div class="column4">
+     	  <div class="row1col1"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <h4 style="margin: 0;font-size: 19.0px;line-height: 1.365;">웹사이트 보호를 위한 올바른 TLS/SSL 인증서 찾기</h4>
+
+     <div class="btn-container vertical">
+		  <a href="https://www.digicert.com/kr/tls-ssl/compare-certificates" class="btn primary blue" target="_self" style="margin-right:px;
+				    margin-bottom:px;">
+				 	비교</a>
+	 </div>   
+</div>
+
+    
+
+</div>
+
+</div>
+     	  <div class="row1col2"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <h4 style="margin: 0;font-size: 19.0px;line-height: 1.365;">eIDAS 준수 트랜잭션 및 웹사이트 문서 보안 솔루션</h4>
+
+     <div class="btn-container vertical">
+		  <a href="https://www.digicert.com/kr/solutions/eu-trust-solutions" class="btn primary blue" target="_self" style="margin-right:px;
+				    margin-bottom:px;">
+				 	자세히 알아보기</a>
+	 </div>   
+</div>
+
+    
+
+</div>
+
+</div>	 	   	
+     </div>
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class=" dropDownNav_item" am-region="인사이트">
+        	
+        	   <span>인사이트 <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="insights navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>뒤로
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: #fff;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" id="," style="background-color:transparent;">
+     <ul class="clearfix superParent">
+<li class=" onHoverFindMyChild" data-addlinebreaker="false"><div><h2>인사이트</h2>
+<p>&nbsp;</p>
+</div>
+</li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://labs.digicert.com/" style="color: rgb(53,53,53); font-size: 18.0px;">DigiCert PQC 플레이그라운드</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="/kr/insights/artificial-intelligence" style="color: rgb(53,53,53); font-size: 18.0px;">인공 지능</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="/kr/insights/digital-trust" style="color: rgb(53,53,53); font-size: 18.0px;"> 디지털 트러스트의 4가지 핵심 요소</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="/kr/insights/open-source" style="color: rgb(53,53,53); font-size: 18.0px;"> DigiCert 오픈 소스</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="/kr/insights/compliance" style="color: rgb(53,53,53); font-size: 18.0px;">규정 준수 사례</a></li>
+<li data-addlinebreaker="false"><a class="txt-u-animate straight-line" href="https://www.digicert.com/kr/insights/zero-trust" style="color: rgb(53,53,53); font-size: 18.0px;">제로 트러스트: 디지털 신뢰의 핵심</a></li>
+</ul>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     
+     <div class="column2 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div class="text-color--white"><h2>리소스</h2>
+<p>조직이 현실 세계의 문제를 해결하기 위해 디지털 신뢰를 구축, 관리 및 확장하는 데 DigiCert가 어떤 도움을 주는지 이 페이지에서 알아보십시오.</p>
+<ul class="clearfix" style="font-size: 18.0px;">
+<li><a class="btn text white" style="text-decoration: underline;" href="/kr/blog">블로그 &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="/kr/news">PR 및 뉴스 &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="/kr/events">이벤트 &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="https://events.zoom.us/eo/AkMkI3coRs2lKw1skPCAu9JwafTcjh-j306Gy-N7qvciWgDzbN47~AggLXsr32QYFjq8BlYLZ5I06Dg" target="_blank" rel="noopener noreferrer">웨비나 &gt;</a></li>
+<li><a class="btn text white" style="text-decoration: underline;" href="/kr/case-studies">사례 연구 &gt;</a></li>
+</ul>
+<i class="nav_dismiss close"></i></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     
+     
+     
+     <div class="column3 gradient__" style="background-color: #015a99;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div id="desktop-section" class="text-color--white"><div><h2>준비되셨나요?</h2>
+<p>세계 양자 컴퓨팅 대비의 날을 맞이해 업계 전문가와 함께 하십시오.</p>
+<h6><a href="https://www.digicert.com/kr/world-quantum-readiness-day" style="color: rgb(255,255,255); text-decoration: underline;">재생해서 보기 &gt;</a></h6>
+</div>
+<br>
+<div style="margin-top: 20.0px;"><a href="https://www.digicert.com/kr/world-quantum-readiness-day"><img class="imagePoster" src="/content/dam/digicert/images/campaigns/pqc-wrd/wqrd-nav-promo.png" alt="World Quantum Readiness Day Promo"></a></div>
+</div>
+<div id="mobile-section" class="text-color--white"><h6>준비되셨나요?</h6>
+<h2 style="margin-bottom: 43.0px;">세계 양자 컴퓨팅 대비의 날을 맞이해 업계 전문가와 함께 하십시오.</h2>
+<a class="btn primary white" href="https://www.digicert.com/kr/world-quantum-readiness-day" style="min-width: 171.0px;">재생해서 보기</a></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class=" dropDownNav_item" am-region="파트너">
+        	
+        	   <span>파트너 <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="partners navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>뒤로
+	 	  </div>
+     </div>
+	 
+     
+     <div class="column1 gradient__" style="background-color: ;"><div class="list section"><p class="heading jqOnHover" data-lineSeparator="false">
+   <a class="txt-u-animate straight-line link--color-" href="/kr/partners">DigiCert 파트너 네트워크 </a> 
+   <i class="arrow-updated right"></i>
+</p>
+
+
+	 
+		  <div class="level-one" am-region="DigiCert 파트너 프로그램">	
+               <div class="level-one-title">
+               		<a href="/kr/partners" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert 파트너 프로그램</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="DigiCert 파트너 포털">	
+               <div class="level-one-title">
+               		<a href="https://partners.digicert.com/Korean/" class="txt-u-animate straight-line jqOnHover link--color-">DigiCert 파트너 포털</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="기술 파트너 프로그램">	
+               <div class="level-one-title">
+               		<a href="/kr/partners/technology-partner-integration" class="txt-u-animate straight-line jqOnHover link--color-">기술 파트너 프로그램</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="통합 파트너 디렉토리">	
+               <div class="level-one-title">
+               		<a href="/kr/partners/partners-directory" class="txt-u-animate straight-line jqOnHover link--color-">통합 파트너 디렉토리</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+		  <div class="level-one" am-region="업계 및 컨소시엄 리더십">	
+               <div class="level-one-title">
+               		<a href="/kr/partners/industry-partners" class="txt-u-animate straight-line jqOnHover link--color-">업계 및 컨소시엄 리더십</a>
+               </div>
+               	
+				
+                
+            </div>
+      
+
+
+    
+</div>
+
+</div>
+     
+     
+     
+     <div class="column2">
+     	  <div class="col1row1 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div id="partner" class="text-color--white"><div><h2>디지털 트러스트를 전하는 파트너십</h2>
+<i class="nav_dismiss close"></i><ul class="clearfix dataList">
+<li>시스템 통합업체</li>
+<li>소프트웨어 개발자 및 솔루션 제공업체</li>
+<li>OEM</li>
+<li>유통업체 및 리셀러</li>
+<li>관리형 서비스 및 클라우드 서비스 제공업체</li>
+</ul>
+</div>
+</div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+          <div class="col1row2 gradient__" style="background-color: #015a99;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div id="desktop-section" class="text-color--white flex"><div><h2>신뢰를 기반으로 한 구축</h2>
+<p>Acmetek에 새로운 기회를 안겨준 디지털 트러스트 솔루션</p>
+<div class="btn-container vertical"><a href="/content/dam/digicert/videos/digicert-acmetek-compressed.mp4" class="btn video white">지금 시청하기</a></div>
+</div>
+<div><img class="videoPoster" src="/content/dam/digicert/images/videos/acmetek-730x416.jpg" alt="Acmetek Partnership Digital Trust PKI Solutions" data-videourl="/content/dam/digicert/videos/digicert-acmetek-compressed.mp4"/></div>
+</div>
+<div class="text-color--white" id="mobile-section"><h2 style="margin-bottom: 43.0px;">신뢰를 기반으로 한 파트너십</h2>
+<a class="btn primary white" href="/content/dam/digicert/en/videos/digicert_eonti_181007_720p.mp4" style="min-width: 171.0px;">지금 시청하기</a></div>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     </div>
+     
+     
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 
+		<li class="activated dropDownNav_item" am-region="지원">
+        	
+        	   <span>지원 <i class="arrow-updated right"></i></span>
+        	
+            <div class="nav_dropdown"><div class="support navItem">
+	 <div class="goback">
+	 	  <div class="goback--content">
+	 	 	   <i class="arrow-updated left"></i>뒤로
+	 	  </div>
+     </div>
+	 <div class="column1 gradient__" style="background-color: #fff;">
+          <div class="col1row1"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" id="," style="background-color:transparent;">
+     <h6 style="font-size: 18.0px; margin-bottom: 10.0px;">지원</h6>
+<ul class="clearfix">
+<li><a class="txt-u-animate straight-line" href="/kr/support" style="color: rgb(72,86,94);"><small>지원</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/support/pki-support" style="color: rgb(72,86,94);"><small>PKI 지원</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/contact-us" style="color: rgb(72,86,94);"><small>연락처</small></a></li>
+</ul>
+<hr style="border-top: none; color: rgb(72,86,94);">
+
+<h6 style="font-size: 18.0px; margin-bottom: 10.0px; margin-top: 20.0px;">도구</h6>
+<ul class="clearfix">
+<li><a class="txt-u-animate straight-line" href="/smime-certificate-linter" target="_blank" style="color: rgb(72,86,94);" rel="noopener noreferrer"><small>도구: S/MIME 인증서 Linter</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/help/" style="color: rgb(72,86,94);"><small>도구: SSL 설치 진단</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/support/tools/certificate-utility-for-windows" style="color: rgb(72,86,94);"><small>도구: Windows용 인증서 유틸리티</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://knowledge.digicert.com/general-information/how-to-create-a-csr" style="color: rgb(72,86,94);"><small>도구: CSR 생성기</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/ssltools/view-csr/" style="color: rgb(72,86,94);"><small>도구: CSR 검사</small></a></li>
+<li><a class="txt-u-animate straight-line" href="https://knowledge.digicert.com/general-information/ssl-certificate-installation-instructions-and-tutorials" style="color: rgb(72,86,94);"><small>도구: SSL 인증서 설치 지침</small></a></li>
+</ul>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+          <div class="col1row2"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <h6 style="font-size: 18.0px; margin-bottom: 10.0px;">리소스</h6>
+<ul class="clearfix">
+<li><a class="txt-u-animate straight-line" title="documentation" href="https://docs.digicert.com/" target="_blank" style="color: rgb(72,86,94);"><small>설명서</small></a></li>
+<li><a class="txt-u-animate straight-line" title="API Documentation" href="https://dev.digicert.com/" target="_blank" style="color: rgb(72,86,94);"><small>API 설명서</small></a></li>
+<li><a class="txt-u-animate straight-line" title="Knowledgebase" href="https://knowledge.digicert.com/" target="_blank" style="color: rgb(72,86,94);"><small>자료</small></a></li>
+<li><a class="txt-u-animate straight-line" title="Solutions" href="/kr/solutions/solutions-overview" style="color: rgb(72,86,94);"><small>솔루션</small></a></li>
+<li><a class="txt-u-animate straight-line" title="FAQ" href="/kr/faq" style="color: rgb(72,86,94);"><small>FAQ</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/what-is-pki" style="color: rgb(72,86,94);"><small>PKI란 무엇입니까?</small></a></li>
+<li><a class="txt-u-animate straight-line" title="What is an SSL Certificate" href="/kr/what-is-an-ssl-certificate" style="color: rgb(72,86,94);"><small>SSL 인증서란 무엇입니까?</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/what-is-ssl-tls-and-https" style="color: rgb(72,86,94);"><small>SSL, TLS 및 HTTPS란 무엇입니까?</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/how-tls-ssl-certificates-work" style="color: rgb(72,86,94);"><small>TLS/SSL 작동 원리</small></a></li>
+<li><a class="txt-u-animate straight-line" href="/kr/difference-between-dv-ov-and-ev-ssl-certificates" style="color: rgb(72,86,94);"><small>DV, OV 및 EV SSL 인증서의<br>
+ 차이점은 무엇입니까?</small></a></li>
+</ul>
+
+        
+</div>
+
+    
+
+</div>
+
+</div>
+     </div>
+     
+     
+     
+     <div class="column2 gradient__" style="background-color: #0174c3;"><div class="text section">
+
+
+<div class="cmp-text cmp-text--left" style="background-color:transparent;">
+     <div class="text-color--white"><h2 style="font-size: 40.0px;">지원팀 연락처</h2>
+<div id="liveChatAgents"> </div>
+<ul class="clearfix" data-column-count="2" style="margin-top: 20.0px;">
+<li><small><b>아메리카</b></small><ul class="clearfix" style="margin-top: 10.0px;">
+<li><small>1.866.893.6565(미국 및 캐나다 수신자 부담)</small></li>
+<li><small>1.801.770.1701(세일즈팀)</small></li>
+<li><small>1.801.701.9601(스페인어)</small></li>
+<li><small>1.800.579.2848(기업 전용)</small></li>
+<li><small>1.801.769.0749(기업 전용)</small></li>
+</ul>
+</li>
+<li><small><b>유럽, 중동 아프리카</b></small><ul class="clearfix" style="margin-top: 10.0px;">
+<li><small>+44.203.788.7741</small></li>
+<li><small><b>아시아 태평양, 일본</b></small></li>
+<li><small>61.3.9674.5500</small></li>
+</ul>
+</li>
+</ul>
+</div>
+
+     <div class="btn-container horizontal">
+		  <a href="mailto:sales@digicert.com" class="btn primary white" target="_blank" style="margin-right:60px;
+				    margin-bottom:px;">
+				 	세일즈 이메일</a>
+	 
+		  <a href="mailto:support@digicert.com" class="btn primary white" target="_blank" style="margin-right:px;
+				    margin-bottom:px;">
+				 	지원팀 이메일</a>
+	 </div>   
+</div>
+
+    
+
+</div>
+
+</div>
+     
+     
+     
+     
+
+     
+</div>
+
+    
+</div>
+        </li>
+	 </ul>
+
+
+	 
+	
+
+	 <ul class="clearfix mobile-nav-list">
+	 	 
+	 	 	  <li class="contact-us"><a href="/kr/contact-us">연락처 <i class="arrow-updated right"></i></a></li>
+	 	 
+	 	 
+	 	 
+	 	 	  <li class="language">
+	 	 	  	  <span>언어 <i class="arrow-updated right"></i></span>
+	 	 	  	  <div class="content">
+	 	 	  	  	  <div class="goback">
+	 	 	  	  	  	   <div class="goback--content">
+	 	 	  	  	  	   		<i class="arrow-updated left"></i>뒤로
+	 	 	  	  	  	   </div>
+	 	 	  	  	  </div>			
+		 	 	 	  <h2>CHOOSE YOUR LANGUAGE</h2>
+			 	 	  <ul class="clearfix">
+				 	 	  <li>
+				 	 	  	  <a href="/">영어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/es">스페인어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/nl">네덜란드어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/de">독일어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/fr">프랑스어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/it">이탈리아어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/cn">중국어(간체)</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/tw">중국어(번체)</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/jp">일본어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/kr">한국어</a>
+				 	 	  </li>
+			 	 	  
+				 	 	  <li>
+				 	 	  	  <a href="/pt">포르투갈어</a>
+				 	 	  </li>
+			 	 	  </ul>
+	 	 	 	  </div>
+	 	 	  </li>
+	 	 
+	 	 	  
+	 	 
+	 	 	  
+	 	 	
+	 </ul>
+	
+
+	 
+	
+
+
+    
+</div>
+	<div class="secondary_navigation"><ul class="clearfix nav-list">
+	<li class="contact-us">
+		<a class="btn primary blue-filled" href="/kr/contact-us">연락처</a>
+	</li>
+	<li class="language dropDownNav_item">
+		<img class="image icon-size--medium" alt="language" src="/content/dam/digicert/icons/svg/Language_Gray.svg" data-hoversrc="/content/dam/digicert/icons/svg/Language_Blue.svg" width="25" height="25"/>
+		
+			 <div class="nav_dropdown">
+				  <div>
+					  <h2 class="title">언어를 선택하세요</h2>
+					  <ul class="clearfix list">
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/">
+						  		<small>영어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/es">
+						  		<small>스페인어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/nl">
+						  		<small>네덜란드어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/de">
+						  		<small>독일어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/fr">
+						  		<small>프랑스어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/it">
+						  		<small>이탈리아어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/cn">
+						  		<small>중국어(간체)</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/tw">
+						  		<small>중국어(번체)</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/jp">
+						  		<small>일본어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/kr">
+						  		<small>한국어</small>
+						  	 </a>
+						  </li>
+					  
+						  <li>
+						  	 <a class="txt-u-animate straight-line" href="/pt">
+						  		<small>포르투갈어</small>
+						  	 </a>
+						  </li>
+					  </ul>
+					  <span class="nav_dismiss close">&times;</span>
+				  </div>
+			 </div>
+		
+			 
+		
+			 
+		
+	</li>
+	<li class="search dropDownNav_item">
+		<img class="image icon-size--medium" alt="search" src="/content/dam/digicert/icons/svg/Search_Gray.svg" data-hoversrc="/content/dam/digicert/icons/svg/Search_Blue.svg" width="25" height="25"/>
+			 <div class="nav_dropdown">
+				  <form class="search-form">
+						 <i class="search__icon search"></i>
+						 <div class="search-form__input">
+							  <input id="header-search-box" type="text" placeholder="검색" required autofocus/>
+						 </div>
+						 <span class="nav_dismiss close">&times;</span>
+				  </form>
+				  
+					  
+				  
+					  <div id="quicklinks" class="quicklinks-list">
+						   <small class="title">RECOMMENDED LINKS</small>
+						   <ul class="clearfix">
+							   <li><a class="item-link txt-u-animate straight-line" href="/kr/tls-ssl/compare-certificates">인증서 비교</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/kr/trust-lifecycle-manager"> DigiCert® 트러스트 수명 주기 관리자</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/kr/iot-trust-manager"> DigiCert® IoT 트러스트 관리자</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/kr/document-trust-manager">DigiCert® 문서 트러스트 관리자</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/kr/software-trust-manager"> DigiCert® 소프트웨어 트러스트 관리자</a></li>
+						   
+							   <li><a class="item-link txt-u-animate straight-line" href="/kr/dns-trust-manager"> DigiCert® DNS 트러스트 관리자</a></li>
+						   </ul>
+					  </div>
+				  
+					  
+				  
+			</div>
+		
+	</li>
+	<li class="minicart dropDownNav_item">
+		<div id="minicart-e740197ba5" class="minicart__root">
+		    <div class="minicart__trigger"></div>
+		    <div class="minicart__body"></div>
+		</div>
+	</li>
+	<li>
+		<a href="https://www.digicert.com/account/login.php?lang=ko">
+			<img class="image icon-size--medium" alt="user_circle" src="/content/dam/digicert/icons/svg/Login_Gray.svg" data-hoversrc="/content/dam/digicert/icons/svg/Login_Blue.svg" width="25" height="25"/>
+		</a>
+	</li>
+	<li class="hamburger">
+		<i class="icon hamburger" id="hamburger" isactive="false"></i>
+		<span class="nav_dismiss close mobile" style="display:none">&times;</span>
+	</li>
+</ul>
+
+<div style="display:none">
+	<div id="liveChatAgents">
+		
+		<div class="btn-container" id="liveagent_chatbtns">
+			 
+			 	  <a class="btn text" href="javascript://Chat" onclick="loadBot()">기술 지원 상담 &gt;</a>
+			 
+			 
+		 
+		 
+			 
+			 
+				  <a id="liveagent_online_" class="btn text" onclick="startChat(this.id)" href="javascript://Chat">확인 상담</a>
+			 
+		 
+		 
+			 
+			 
+				  <a id="liveagent_online_" class="btn text" onclick="startChat(this.id)" href="javascript://Chat">세일즈 상담 &gt;</a>
+			 
+		 
+		 </div>
+		 
+	 </div>
+</div>
+
+    
+
+</div>
+</header></div>
+
+        
+    </div>
+
+
+
+</div>
+
+    
+</div>
+<div class="container responsivegrid digicert-body aem-GridColumn aem-GridColumn--default--12">
+
+    
+    
+    
+    <div id="pencil-banner-active" class="cmp-container" am-region="Body">
+        
+        <div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:20px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="heroimage cmp-image vspacebtncomp-heroimage">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class='grid-12'>
+	
+	<div class="img-container fgdgap full-gdcol relative
+				noBgColor
+				mb-txtWhite" style="background-color:;">
+		 		
+		 
+			 		
+		 
+		
+
+		
+			
+				
+			
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/certificate-automation-hero.webp" alt="Certificate Automation"/>
+		
+	</div>
+
+	
+	<div class="descriptionBox left default image">
+		 
+		 
+		 <div class="description cmp-text" style="color:#fff;"><h1 style="	padding-right: 40.0%;
+">47일</h1>
+<h4 style="	padding-right: 35.0%;
+">자동화를 통해 더 짧아진 수명 주기로 보안 강화</h4>
+</div>
+		 <div class="btn-container horizontal left">
+				<a class="button button--style-contained-primary button--size-x-large isVideoButton-false border--radius-x-large" target="_self" href="https://www.digicert.com/kr/solutions/security-solutions-for-automation#certificate-automation">자세히 알아보기</a>
+		</div>
+	</div>
+</div>
+
+
+
+    
+
+</div>
+<div class="static-html-container">		
+<style>#home-tout-3bxs-grey{width: 100%; display: flex; padding:35px 0px 25px; box-sizing: border-box; background: #E9EEF1; border: 1px solid #E9EEF1; border-radius: 25px;justify-content:space-between;flex-direction:row;margin-bottom: 50px;}
+	.home-tout-content-box{padding: 0 40px 25px;box-sizing: border-box;width: 100%;}
+	.home-tout-content-box h4{font-family: Roboto-Condensed, sans-serif;font-stretch: condensed; font-size: 20px; font-weight: bold; color: #083D77;margin-bottom: 16px;}
+	.home-tout-content-box p{flex-grow: 1;font-size: 20px;color: #48565E;
+    font-family: Roboto-Regular, sans-serif;}
+	.home-tout-content-box p a{color: #48565E;}
+	.home-tout-separator{width: 2px; background: linear-gradient(-180deg, transparent 0%, transparent 10%, rgba(193, 203, 211, 1) 10%, rgba(193, 203, 211, 1) 80%, transparent 80%, transparent 100%);display: block;}
+	@media (max-width: 768px) {
+		#home-tout-3bxs-grey{flex-direction: column;}
+		.home-tout-separator{display:none;}
+	}</style>
+
+
+    
+
+</div>
+<div class="static-html-container">		
+
+<div class="html"><div id="home-tout-3bxs-grey">
+<div class="home-tout-content-box">
+	<h4>2025 Trust Summit 공개 방송</h4>
+	<p><a href="https://www.digicert.com/about/events/digicert-trust-summit-roadshow">DigiCert의 공개 행사에서 암호화 민첩성을 향한 여정에 함께하십시오 >></a></p>
+</div>
+<div class="home-tout-separator">&nbsp;</div>
+<div class="home-tout-content-box">
+	<h4>운영 중단을 방지하고 제어 역량을 회복하십시오</h4>
+	<p><a href="https://app.storylane.io/demo/mgdrecbfptak" target="_blank">데모를 시청하고 인증서 관리 어려움을 줄이는 방법을 알아보십시오 >></a></p>
+</div>
+<div class="home-tout-separator">&nbsp;</div>
+<div class="home-tout-content-box">
+	<h4>기존 CA에서 DigiCert로 전환하십시오</h4>
+	<p><a href="https://www.digicert.com/kr/campaigns/entrust-certificate-distrust">신뢰할 수 있는 대체 인증서를 빠르게 받아보십시오 >></a></p>
+</div>
+</div></div>
+
+    
+
+</div>
+<div class="static-html-container">		
+
+<div class="html"><div>
+    <div id="dc-one-diag-top-img">
+      <h2>The DigiCert<sup>®</sup> ONE 플랫폼</h2>
+      <p>운영 중단 상황을 줄이고 수동 프로세스를 자동화하며 모든 PKI 및 DNS에 대한 보안 격차를 해소하십시오.</p>
+<div id="dc-one-diag-img-wrap"><img src="/content/dam/digicert/images/homepage/dc-one-radial-diagram.png" alt="DigiCert 디지털 트러스트 플랫폼 - PKI 기반 ID 수명 주기 관리"></div>
+    </div>
+</div></div>
+
+    
+
+</div>
+<div class="static-html-container">		
+
+<div class="html"><div id="dc-one-diag">
+    <div id="dc-one-diag-prod-all">
+      <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-1">
+                <h3><a href="https://www.digicert.com/kr/trust-lifecycle-manager">인증서 수명 주기</a></h3>
+                <p>PKI 환경을 완전히 파악하고 운영 중단을 방지할 수 있습니다.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/kr/trust-lifecycle-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="DigiCert 트러스트 수명 주기 관리자에 대해 자세히 알아보기"></a></div>
+        </div>
+    
+        <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-2">
+                <h3><a href="https://www.digicert.com/kr/software-trust-manager">소프트웨어 신뢰</a></h3>
+                <p><a href="https://www.digicert.com/kr/software-trust-manager">안전한 소프트웨어</a>를 출시하는 동시에 개선 및 규정 준수 비용을 절감할 수 있습니다.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/kr/software-trust-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="DigiCert 소프트웨어 신뢰 관리자에 대해 자세히 알아보기"></a></div>
+        </div>
+
+        <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-3">
+                <h3><a href="https://www.digicert.com/kr/device-trust-manager">장치 신뢰</a></h3>
+                <p>제조부터 폐기까지 완벽한 수명 주기 보안으로 <a href="https://www.digicert.com/kr/device-trust-manager">IoT 장치를 보호</a>할 수 있습니다.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/kr/device-trust-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="DigiCert 장치 신뢰 관리자에 대해 자세히 알아보기"></a></div>
+        </div>
+    
+        <div class="dc-one-diag-prod-card" id="dc-one-diag-prod-4">
+                <h3><a href="https://www.digicert.com/kr/document-trust-manager">문서 신뢰</a></h3>
+                <p>신뢰할 수 있는 통합과 글로벌 규정 준수를 통해 <a href="https://www.digicert.com/kr/document-trust-manager">디지털 문서와 거래를 보호</a>할 수 있습니다.</p>
+                <div class="dc-one-diag-prod-card-cta"><a href="https://www.digicert.com/kr/document-trust-manager"><img src="/content/dam/digicert/images/homepage/homepage-promotion-boxes-circle-arrow-01.png" alt="DigiCert 문서 신뢰 관리자에 대해 자세히 알아보기"></a></div>
+        </div>
+    </div>
+
+    <div id="dc-one-diag-btm-bx-all">
+        <div class="dc-one-diag-btm-bx-ind"><a href="https://vercara.digicert.com/"><div class="dc-one-diag-btm-bx" id="dc-one-diag-public">
+                          <p>DNS >></p>
+                        </div></a>
+                  </div>
+        <div class="dc-one-diag-btm-bx-ind"><a href="https://www.digicert.com/kr/tls-ssl/certcentral-tls-ssl-manager"><div class="dc-one-diag-btm-bx" id="dc-one-diag-public">
+                          <p>DigiCert 공개 CA <nobr>(CertCentral) >></nobr></p>
+                        </div></a>
+                  </div>
+        <div class="dc-one-diag-btm-bx-ind"><a href="https://www.digicert.com/kr/private-pki"><div class="dc-one-diag-btm-bx" id="dc-one-diag-private">
+                          <p>비공개 CA >></p>
+                        </div></a>
+                </div>
+      </div>
+</div></div>
+
+    
+
+</div>
+<div class="static-html-container">		
+<style>#dc-one-diag-top-img{background: rgb(26,60,115); background: linear-gradient(45deg, rgba(8,61,119,1) 0%, rgba(1,116,195,1) 100%); border: 1px solid transparent;border-radius:20px;padding-top: 60px;text-align: center;}
+#dc-one-diag-top-img h2, #dc-one-diag-top-img p{color: #fff;}
+#dc-one-diag-top-img p{width: 70%; margin: 0 auto;}
+#dc-one-diag-img-wrap{position: relative;height:465px;padding-top: 45px;width: 100%;}
+#dc-one-diag-top-img img{width: 85%;position: absolute;left: 50%;transform: translateX(-50%);}
+#dc-one-diag-prod-all{display: flex; justify-content: space-between;margin-top: 110px;}
+.dc-one-diag-prod-card{position:relative;width: 23%;display: flex;flex-direction: column;box-sizing: border-box;padding: 35px 25px 20px;}
+.dc-one-diag-prod-card p:nth-child(2){flex-grow: 1;}
+.dc-one-diag-prod-card p{font-size: 16px; line-height: 24px;font-family: Roboto-regular, sans-serif;}
+.dc-one-diag-prod-card h3{font-size:23px; font-weight: 600;margin-bottom: 0;margin-bottom: 14px;}
+#dc-one-diag-prod-1{background:#e7ebf0;border: 1px solid #e7ebf0;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-2{background:#e7eef4;border: 1px solid #e7eef4;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-3{background:#e7f1f8;border: 1px solid #e7f1f8;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-4{background:#ecf5f9;border: 1px solid #ecf5f9;border-radius: 8px 8px 8px 8px;}
+#dc-one-diag-prod-1 h3{color:#1a3d73;}
+#dc-one-diag-prod-2 h3{/*color:#255797;*/color:#1a3d73;}
+#dc-one-diag-prod-3 h3{/*color:#3273bc;*/color:#1a3d73;}
+#dc-one-diag-prod-4 h3{/*color:#5099c0;*/color:#1a3d73;}
+#dc-one-diag-prod-1 a{color:#1a3d73;}
+#dc-one-diag-prod-2 a{/*color:#255797;*/color:#1a3d73;}
+#dc-one-diag-prod-3 a{/*color:#3273bc;*/color:#1a3d73;}
+#dc-one-diag-prod-4 a{/*color:#5099c0;*/color:#1a3d73;}
+.dc-one-diag-prod-card-cta{align-self: flex-end;}
+.dc-one-diag-tool-tip{display:none;z-index: 3;position:relative;}
+.dc-one-diag-tool-tip.show-tool-tip{display: flex;position: relative;flex-direction: column;align-items: center;width: 80%;margin:0 auto;height:130px;}
+.dc-one-diag-tr{width: 0; height: 0;border-left: 20px solid transparent; border-right: 20px solid transparent; border-bottom: 20px solid #c3cdd5; position: absolute;top: -19px;left: 50%;transform: translateX(-50%);}
+.dc-one-diag-inner-tr{width: 0;height: 0; border-left: 19px solid transparent;border-right: 19px solid transparent;border-bottom: 19px solid #fff; position: absolute; top: 1px; left: -19px;}
+.dc-one-diag-tool-tip-body{background: #fff; border: 1px solid #c3cdd5; border-radius: 8px; box-sizing: border-box;width: 100%;display: flex; flex-direction: column; align-items: center;}
+.dc-one-diag-tool-tip-body p {font-size: 14px; font-family: Roboto-regular, sans-serif;margin-bottom: 4px;line-height: 19px;padding: 30px 30px 0;}
+.dc-one-diag-tool-tip-body a{font-size: 13px; font-weight: bold;font-family: Roboto-regular, sans-serif;color: #004ab7;padding-bottom:17px; text-decoration: underline;}
+#dc-one-diag-btm-bx-all{margin: 18px auto 0; display: flex; flex-wrap: wrap; width: 100%;justify-content: space-between;}
+.dc-one-diag-btm-bx-ind{position:relative;width: 32%;}
+.dc-one-diag-btm-bx{margin-bottom: 14px; height: 58px;border-radius: 8px;box-sizing: border-box;display:flex;align-content: center;justify-content: center;}
+.dc-one-diag-btm-bx p{color: #586268; margin:0;font-family: Roboto-regular, sans-serif;font-size: 22px;text-align: center;}
+#dc-one-diag-public{width: 100%; background: #f5f6f8; border: 1px solid #f5f6f8; display:flex; justify-content: center; align-items: center;}
+#dc-one-diag-private{width: 100%; background: #f5f6f8; border: 1px solid #f5f6f8; display:flex; justify-content: center; align-items: center;}
+.dc-one-diag-btm-bx#dc-one-diag-other p{color: #000;}
+
+@media (max-width: 1230px){
+    #dc-one-diag-img-wrap{height: calc(27.5vw - 2vw);}
+    #dc-one-diag-prod-all{margin-top: 22vw;}
+}
+@media (max-width: 1024px){
+    #dc-one-diag-public{width: 100%;}
+    #dc-one-diag-private{width: 100%;}
+    #dc-one-diag-other{width: 100%;}
+    #dc-one-diag-prod-all{margin-top: 16vw;}
+}
+@media (max-width: 960px){
+    #dc-one-diag-prod-all{flex-wrap: wrap;justify-content: center;}
+    .dc-one-diag-prod-card {width: 280px;margin: 10px;}
+    #dc-one-diag-img img{width: 85%;}
+    .dc-one-diag-btm-bx-ind{width: 100%;}
+}
+@media (max-width: 768px){
+    #dc-one-diag-logo{width: 272px;}
+}</style>
+
+
+    
+
+</div>
+<div class="text vspacebtncomp-top">
+
+
+<div class="rich-text cmp-text cmp-text--left rhythm--small-medium" style="background-color:">
+  <h2 style="text-align: center;">세계 최고의 브랜드를 안전하게 보호</h2>
+<p style="text-align: center;">DigiCert는 글로벌 2,000대 기업 중 상당수에 인증서 관리 및 보안 솔루션을 제공합니다.</p>
+
+  
+</div>
+
+    
+</div>
+<div class="text-and-image">
+<div class="grid-12 vspacebtncomp">
+  
+    
+
+  <div class="media media--text-and-image media--default design1  animate--false " style="grid-gap:60px">
+    <div class="media__figure media__figure--default img-container" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">
+      
+      
+      
+      <img alt="DigiCert - Securing the World’s Best Brands" src="/content/dam/digicert/images/homepage/homepage-trust-stat-row.png" class="image image--width-full icon text-and-image-hide" loading="lazy"/>
+    </div>
+    
+  </div>
+</div></div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:-55px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="column-ctrl-component"><div class="grid-12">
+	 <div class="column-cntrl-section fill-gridgap
+				 cardFlow--40 
+				 gdcol-1-13 mgdcol-1-5" style="grid-column-gap:0px;
+         		 grid-row-gap:0px;
+         		 grid-template-columns:repeat(5,1fr);
+         		 background-color: transparent">
+          <div class="cell-1 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_00/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_00/image.img.png/1754022960667.png" alt="Home Page Braun Logo" title="Home Page Braun Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_00\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-b-braun.png", imageTitle: "Home Page Braun Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-2 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_01/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_01/image.img.png/1754022960676.png" alt="Home Page Xerox Logo" title="Home Page Xerox Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_01\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-xerox.png", imageTitle: "Home Page Xerox Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-3 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_02/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_02/image.img.png/1754022960686.png" alt="Home Page Apache Logo" title="Home Page Apache Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_02\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-apache.png", imageTitle: "Home Page Apache Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-4 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_10/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_10/image.img.png/1754022960696.png" alt="Home Page Haelthlink Logo" title="Home Page Haelthlink Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_10\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-healthlink.png", imageTitle: "Home Page Haelthlink Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-5 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_11/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_11/image.img.png/1754022960706.png" alt="Home Page GE Healthcare Logo" title="Home Page GE Healthcare Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_11\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-ge-healthcare.png", imageTitle: "Home Page GE Healthcare Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-6 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_12/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_12/image.img.png/1754022960716.png" alt="Home Page Sabre Logo" title="Home Page Sabre Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_12\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-sabre.png", imageTitle: "Home Page Sabre Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-7 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_20/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_20/image.img.png/1754022960725.png" alt="Home Page UKG Logo" title="Home Page UKG Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_20\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-ukg.png", imageTitle: "Home Page UKG Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-8 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_21/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_21/image.img.png/1754022960735.png" alt="Home Page Abbott Logo" title="Home Page Abbott Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_21\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-abbott.png", imageTitle: "Home Page Abbott Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-9 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_22/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_22/image.img.png/1754022960745.png" alt="Home Page Oracle Logo" title="Home Page Oracle Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_22\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-oracle.png", imageTitle: "Home Page Oracle Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-10 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_30/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_30/image.img.png/1754022960755.png" alt="Home Page IBM Logo" title="Home Page IBM Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_30\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-ibm.png", imageTitle: "Home Page IBM Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-11 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_31/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_31/image.img.png/1754022960765.png" alt="Home Page Cloudfare Logo" title="Home Page Cloudfare Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_31\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-cloudflare.png", imageTitle: "Home Page Cloudfare Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-12 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_32/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_32/image.img.png/1754022960775.png" alt="Home Page Sainsbury Logo" title="Home Page Sainsbury Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_32\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-saisbury.png", imageTitle: "Home Page Sainsbury Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-13 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_40/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_40/image.img.png/1754022960785.png" alt="Home Page Alaska Logo" title="Home Page Alaska Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_40\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-alaska-airlines.png", imageTitle: "Home Page Alaska Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-14 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_41/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_41/image.img.png/1754022960795.png" alt="Home Page Miva Logo" title="Home Page Miva Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_41\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-miva.png", imageTitle: "Home Page Miva Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	
+          <div class="cell-15 animation---"><div class="image parbase section"><div id="cq-image-jsp-/content/digicert/kr/ko/jcr:content/root/container/column_ctrl_componen_339600445/par_42/image"><img src="/content/digicert/kr/ko/jcr%3acontent/root/container/column_ctrl_componen_339600445/par_42/image.img.png/1754022960805.png" alt="Home Page Snapdeal Logo" title="Home Page Snapdeal Logo" class="cq-dd-image"></div>
+    
+    
+<script type="text/javascript">
+    (function() {
+        var imageDiv = document.getElementById("cq\u002Dimage\u002Djsp\u002D\/content\/digicert\/kr\/ko\/jcr:content\/root\/container\/column_ctrl_componen_339600445\/par_42\/image");
+        var imageEvars = '{ imageLink: "", imageAsset: "/content/dam/digicert/images/homepage/customer-logo-snapdeal.png", imageTitle: "Home Page Snapdeal Logo" }';
+        var tagNodes = imageDiv.getElementsByTagName('A');
+        for (var i = 0; i < tagNodes.length; i++) {
+            var link = tagNodes.item(i); 
+            link.setAttribute('onclick', 'CQ_Analytics.record({event: "imageClick", values: ' + imageEvars + ', collect: false, options: { obj: this }, componentPath: "foundation\/components\/image"})');
+        }
+        
+    })();
+</script>
+
+</div>
+
+</div>
+	</div>
+</div>
+
+    
+
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:45px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="text vspacebtncomp-top">
+
+
+<div class="rich-text cmp-text cmp-text--left rhythm--small-medium" id="customer-stories" style="background-color:">
+  <h2 style="text-align: center;">고객 후기 확인하기</h2>
+<p>&nbsp;</p>
+
+  
+</div>
+
+    
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:-40px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="tabs">
+  
+
+<div class="cmp-tabs vspacebtncomp-top" data-cmp-is="tabs">
+     
+     <ol role="tablist" class="cmp-tabs__tablist" aria-multiselectable="false">
+         
+			  <li role="tab" class="cmp-tabs__tab cmp-tabs__tab--active" tabindex="0" data-cmp-hook-tabs="tab">IBM &gt;</li>
+     
+         
+			  <li role="tab" class="cmp-tabs__tab " tabindex="-1" data-cmp-hook-tabs="tab">ORACLE &gt;</li>
+     
+         
+			  <li role="tab" class="cmp-tabs__tab " tabindex="-1" data-cmp-hook-tabs="tab">CLOUDFLARE &gt;</li>
+     </ol>
+     <div role="tabpanel" tabindex="0" class="cmp-tabs__tabpanel cmp-tabs__tabpanel--active" data-cmp-hook-tabs="tabpanel"><div class="customer-carousel">
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp">
+	<div class="img-container img-container--right">
+		 <div class="revealAnimation">
+		 	
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/ibm.jpg" alt="IBM - Customer Feedback"/>
+         </div>
+	</div>
+	<div class="icon-container icon-container--left">
+		 <img loading="lazy" src="/content/dam/digicert/images/homepage/IBM-logo-2.png" alt="IBM Logo - Partners"/>
+	</div>
+	<div class="descriptionBox descriptionBox--left" style="background-color:#0174c3;">
+    	<div class="description">
+    		<p><span style="">&#34;이제 비즈니스 친화적인 솔루션을 사용하면 더 이상 이러한 기술적 측면을 최종 사용자에게 노출할 필요가 없습니다.&#34; </span><br />
+</p>
+<h6>WEBER YUAN, 아키텍트 리드, CIO IDENTITY SERVICES, IBM </h6>
+
+    		<div class="btn-container vertical" style="background-color:#0174c3;">
+				 <a href="/content/dam/digicert/videos/digicert_ibm_181016_720p.mp4" class="btn video white" target="_blank" style="margin-right:px;
+				 		   margin-bottom:px;">
+				 	영상 보기</a>
+			</div>
+	    </div>
+	</div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div role="tabpanel" tabindex="0" class="cmp-tabs__tabpanel" data-cmp-hook-tabs="tabpanel"><div class="customer-carousel">
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp">
+	<div class="img-container img-container--right">
+		 <div class="revealAnimation">
+		 	
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/oracle-headshot.png" alt="Oracle Client Promo"/>
+         </div>
+	</div>
+	<div class="icon-container icon-container--left">
+		 <img loading="lazy" src="/content/dam/digicert/images/homepage/oracle-gray-logo.jpg" alt="Oracle logo"/>
+	</div>
+	<div class="descriptionBox descriptionBox--left" style="background-color:#0174c3;">
+    	<div class="description">
+    		<p>&#34;디지털 트러스트는 조직 기반의 초석이라 할 수 있습니다. 디지털 트러스트가 없으면 조직은 수많은 위협에 손쉽게 노출될 것입니다.&#34;</p>
+<h6>SEAN SWEENEY, 정보 보호 최고 책임자</h6>
+
+    		<div class="btn-container vertical" style="background-color:#0174c3;">
+				 <a href="/content/dam/digicert/dynamic-media/videos/digicert-oracle-partner-en.mp4" class="btn video white" target="_blank" style="margin-right:px;
+				 		   margin-bottom:px;">
+				 	영상 보기</a>
+			</div>
+	    </div>
+	</div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+<div role="tabpanel" tabindex="0" class="cmp-tabs__tabpanel" data-cmp-hook-tabs="tabpanel"><div class="customer-carousel">
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp">
+	<div class="img-container img-container--right">
+		 <div class="revealAnimation">
+		 	
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/cloudflare.jpg" alt="Cloudflare Client Promo"/>
+         </div>
+	</div>
+	<div class="icon-container icon-container--left">
+		 <img loading="lazy" src="/content/dam/digicert/images/homepage/homepage-03.png" alt="Cloudflare Logo - Partners"/>
+	</div>
+	<div class="descriptionBox descriptionBox--left" style="background-color:#0174c3;">
+    	<div class="description">
+    		<p>“제가 보기에 DigiCert는 업계에서 유일하게 전문적으로 운영되는 소프트웨어 개발 조직처럼 느껴집니다. 단순한 판매자를 넘어 개발 조직처럼 운영되죠.&#34;</p>
+<h6>Patrick Donahue, 제품 관리 부문 책임자</h6>
+
+    		<div class="btn-container vertical" style="background-color:#0174c3;">
+				 <a href="/content/dam/digicert/videos/Digicert_CloudFlare_01_WeSellTrust_180917_720p.mp4" class="btn video white" target="_blank" style="margin-right:px;
+				 		   margin-bottom:px;">
+				 	영상 보기</a>
+			</div>
+	    </div>
+	</div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+    
+</div></div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:-30px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:0px;margin-bottom:-50px;"></div>
+<div class="cmp-separator tablet" style="margin-top:0px;margin-bottom:0px;"></div>
+<div class="cmp-separator mobile" style="margin-top:0px;margin-bottom:0px;"></div>
+
+    
+
+</div>
+<div class="separator">
+
+
+
+
+
+<div class="cmp-separator desktop" style="margin-top:30px;margin-bottom:0px;"></div>
+<div class="cmp-separator tablet" style="margin-top:px;margin-bottom:px;"></div>
+<div class="cmp-separator mobile" style="margin-top:px;margin-bottom:px;"></div>
+
+    
+
+</div>
+<div class="text vspacebtncomp-top">
+
+
+<div class="rich-text cmp-text cmp-text--center rhythm--small-medium" style="background-color:">
+  <h2>DigiCert의 최신 솔루션</h2>
+
+  
+</div>
+
+    
+</div>
+<div class="custom-carousel carousel panelcontainer">
+<div class="cmp-carousel" role="group" aria-roledescription="carousel" data-cmp-is="carousel" data-cmp-delay="4000">
+    <div class="cmp-carousel__content">
+
+        <div class="cmp-carousel__item cmp-carousel__item--active" role="tabpanel" aria-label="슬라이드 1/4" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/campaigns/pqc-wrd/pki-modernization-homepage-carousel-promo.jpg" alt="PKI Modernization white paper promo"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>백서</h6>
+<h3>모든 위협에 대비된, 현대적인 PKI.</h3>
+<p>조직이 PKI 현대화를 통해 어떻게 보안, 효율성, 민첩성을 확보하여 오늘날의 위협을 비롯해 미래의 위협까지도 대처할 수 있는지 알아보십시오.</p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/campaigns/pki-modernization-white-paper" class="btn primary blue" target="_blank" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	백서 받기</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+<div class="cmp-carousel__item" role="tabpanel" aria-label="슬라이드 2/4" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/top-5-strategies-carousel.png" alt="Top 5 Strategies to Secure Your Software Supply Chain Image"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>가이드</h6>
+<h3>검사. 서명. 전달.</h3>
+<p>소프트웨어 공급망의 복잡성에 어떻게 대응하시겠습니까?<br /><br /> </p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/campaigns/software-security-in-5-steps" class="btn primary blue" target="_blank" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	DigiCert 가이드 얻기</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+<div class="cmp-carousel__item" role="tabpanel" aria-label="슬라이드 3/4" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/tls-best-practices-guide-homepage-carousel.jpg" alt="TLS Best Practices Guide Homepage Carousel Image"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: #fff;">
+            <div class="description">
+            	 <h6>가이드</h6>
+<h3>TLS 모범 사례 가이드</h3>
+<p>더 이상 직접 인증서를 관리할 필요가 없습니다. 인증서의 수명 주기를 모니터링 및 관리하는 방법을 알아보십시오.<br /> </p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/campaigns/tls-best-practices-guide" class="btn primary blue" target="_blank" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	가이드 받기 </a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+<div class="cmp-carousel__item" role="tabpanel" aria-label="슬라이드 4/4" data-cmp-hook-carousel="item"><div class="graphic-text-carousel-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-12 vspacebtncomp
+			ht-top20
+			design1">
+
+	
+	<div class="blue-box left top20
+			   " style="background-color: #E9EEF1;">
+		 <div class='blue-box--design1'></div>
+	</div>
+
+	
+	
+
+	
+	<div class="imgBox left
+				">
+
+          <div style="margin-top: 0px;
+			 		 margin-right:0px;
+			 		 margin-bottom:0px;
+			 		 margin-left:0px;">
+			 	 
+				<img loading="lazy" src="/content/dam/digicert/images/homepage/dtr-ebook-homepage-carousel.jpg" alt="Digital Trust for the Real World eBook Homepage Carousel"/>
+		 </div>
+	</div>
+	
+    
+		<div class="descriptionBox whiteBox right top20" style="background-color: ;">
+            <div class="description">
+            	 <h6>EBOOK</h6>
+<h3>현실 세계를 위한 디지털 트러스트</h3>
+<p>해저부터 우주의 끝자락까지, 위치에 상관없이 인류가 의존하는 모든 것에는 디지털 트러스트가 필요합니다.<br /><br /> </p>
+
+                 <div class="btn-container vertical">
+				 	  <a href="https://www.digicert.com/ebook/digital-trust-for-the-real-world" class="btn primary blue" target="_blank" style="margin-right:px;
+				 			    margin-bottom:px;">
+				 	        	eBook 다운로드</a>
+				 </div>
+            </div>
+		</div>
+    
+</div>
+
+    
+
+</div>
+</div>
+
+	     
+        <div class="cmp-carousel__actions navType-default center" style="display:;">
+            <button class="cmp-carousel__action cmp-carousel__action--previous" role="button" aria-label="이전" data-cmp-hook-carousel="previous">
+                <span class="cmp-carousel__action-icon--right"></span>
+                <span class="cmp-carousel__action-text"> < </span>
+            </button>
+            
+            <ol class="cmp-carousel__indicators clearfix" role="tablist" aria-label="Choose a slide to display" data-cmp-hook-carousel="indicators">
+	            <li class="cmp-carousel__indicator cmp-carousel__indicator--active" role="tab" aria-label="슬라이드 1" data-cmp-hook-carousel="indicator">PKI Modernization Whitepaper</li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="슬라이드 2" data-cmp-hook-carousel="indicator">Digital Trust Study</li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="슬라이드 3" data-cmp-hook-carousel="indicator">TLS Best Practices Guide</li>
+<li class="cmp-carousel__indicator" role="tab" aria-label="슬라이드 4" data-cmp-hook-carousel="indicator">Digital Trust eBook </li>
+
+        	</ol>
+            <button class="cmp-carousel__action cmp-carousel__action--next" role="button" aria-label="다음" data-cmp-hook-carousel="next">
+                <span class="cmp-carousel__action-icon--next"></span>
+                <span class="cmp-carousel__action-text"> > </span>
+            </button>
+        </div>
+    </div>
+
+    
+</div>
+</div>
+<div class="back-to-top"><button class="backtotop" id="myBtn" title="Go to top"><i class="arrow-updated up"></i>&nbsp;&nbsp;TO TOP</button>
+
+    
+</div>
+
+        
+    </div>
+
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-2c50cfeb6e" class="cmp-experiencefragment cmp-experiencefragment--digicert-footer">
+
+	
+
+    
+    
+    
+    <div id="container-744516d91f" class="cmp-container" am-region="Body">
+        
+        <div class="digicert-footer">
+<div class="popupModal hide" id="mediaPopup">
+	 <h2 class="closeVideoPlayer" style="margin:0;"></h2>
+	 <div class="popup">
+		  <video id="popupVideoPlayer" class="videoPlayer" width="100%" controls>
+		 		 <source src=""/>
+		  </video>
+		  <iframe id="popupIframeVideoPlayer" src=""></iframe>
+	 </div>
+</div>
+
+
+<!-- Place with DigiCert Seal HTML or with other scripts -->
+<script type="text/javascript">
+	var __dcid = __dcid || [];
+		__dcid.push({"cid":"DigiCertClickID_QpVPir5r","tag":"QpVPir5r","seal_format":"dynamic"});
+		(function(){
+			var cid=document.createElement("script");
+				cid.async=true;
+				cid.src="//seal.digicert.com/seals/cascade/seal.min.js";
+			var s = document.getElementsByTagName("script");
+			var ls = s[(s.length - 1)];
+				ls.parentNode.insertBefore(cid, ls.nextSibling);
+		}());
+</script>
+
+<div class="footer-top-line"></div>
+<div class="footer-digicert" am-region="Footer">
+	 <ul id="aboutus-text" class="clearfix">
+	 	 <li class="aboutus-text">
+			 
+
+
+
+<div class="site-branding">
+    <a href="/kr">
+    	<img loading="lazy" src="/content/dam/digicert/DigiCert-Logo.png" alt="DigiCert Logo"/>
+    </a>
+</div>
+
+
+    
+
+
+			 <p>보증된 TLS/SSL, PKI, IoT 및 서명 솔루션을 제공하는 가장 신뢰할 수 있는 글로벌 공급업체 </p>
+
+		</li>
+		<li id="digicert-seal" class="digicert-seal">
+			
+			
+			<div id="DigiCertClickID_QpVPir5r"></div>
+			
+		</li>
+		<li class="socialMedia">
+			<a href="https://www.linkedin.com/company/digicert-inc-/">
+			   <img loading="lazy" src="/content/dam/digicert/icons/LinkedInIcon.svg" alt="Linkedin"/>
+		    </a>
+		
+			<a href="https://twitter.com/digicert?s=20">
+			   <img loading="lazy" src="/content/dam/digicert/icons/TwitterIcon.svg" alt="Twitter"/>
+		    </a>
+		
+			<a href="https://www.youtube.com/@DigiCert">
+			   <img loading="lazy" src="/content/dam/digicert/icons/YouTubeIcon.svg" alt="Youtube"/>
+		    </a>
+		</li>
+	 </ul>
+	 <ul id="footer-menu" class="menu clearfix">
+		 <li>
+			<h6 class="footer-label">
+				리소스
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="/kr/news" class=" txt-u-animate straight-line">PR/뉴스</a></li>
+			
+				<li><a href="/kr/blog" class=" txt-u-animate straight-line">블로그</a></li>
+			
+				<li><a href="/kr/media" class=" txt-u-animate straight-line">미디어 라이브러리</a></li>
+			
+				<li><a href="/kr/what-is-pki" class=" txt-u-animate straight-line">PKI란?</a></li>
+			
+				<li><a href="/kr/what-is-ssl-tls-and-https" class=" txt-u-animate straight-line">SSL TLS &amp; HTTPS란?</a></li>
+			</ul>
+		 </li>
+	
+		 <li>
+			<h6 class="footer-label">
+				회사
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="/kr/about" class=" txt-u-animate straight-line">정보</a></li>
+			
+				<li><a href="/kr/careers" class=" txt-u-animate straight-line">채용 정보</a></li>
+			
+				<li><a href="/kr/events" class=" txt-u-animate straight-line">이벤트</a></li>
+			
+				<li><a href="/kr/leadership" class=" txt-u-animate straight-line">리더십</a></li>
+			
+				<li><a href="/kr/history" class=" txt-u-animate straight-line">기록</a></li>
+			
+				<li><a href="/kr/contact-us" class=" txt-u-animate straight-line">문의</a></li>
+			
+				<li><a href="https://www.digicert.com/kr/case-studies" class=" txt-u-animate straight-line">사례 연구</a></li>
+			</ul>
+		 </li>
+	
+		 <li>
+			<h6 class="footer-label">
+				내 계정
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="https://knowledge.digicert.com/" class=" txt-u-animate straight-line">지식 베이스</a></li>
+			
+				<li><a href="https://docs.digicert.com/ko/" class=" txt-u-animate straight-line">문서</a></li>
+			
+				<li><a href="/kr/support" class=" txt-u-animate straight-line">지원</a></li>
+			
+				<li><a href="https://dev.digicert.com/" class=" txt-u-animate straight-line">개발자</a></li>
+			
+				<li><a href="/kr/all-products" class=" txt-u-animate straight-line">모든 제품</a></li>
+			
+				<li><a href="https://www.digicert.com/tools/" class=" txt-u-animate straight-line">도구</a></li>
+			
+				<li><a href="/kr/tls-ssl/digicert-site-seal" class=" txt-u-animate straight-line">Site Seal</a></li>
+			</ul>
+		 </li>
+	
+		 <li>
+			<h6 class="footer-label">
+				<a class="txt-u-animate straight-line" href="/kr/solutions/solutions-overview">솔루션</a>
+			</h6>
+			<i class="arrow-updated down"></i>
+			<ul class="sub-menu clearfix">
+				<li><a href="/kr/solutions/security-solutions-for-automation" class=" txt-u-animate straight-line">자동화 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-servicenow" class=" txt-u-animate straight-line">ServiceNow 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-post-quantum-computing" class=" txt-u-animate straight-line">Crypto 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-ci-cd" class=" txt-u-animate straight-line">CI/CD 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-email" class=" txt-u-animate straight-line">보안 이메일 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-code" class=" txt-u-animate straight-line">코드 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-devices" class=" txt-u-animate straight-line">장치 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-documents" class=" txt-u-animate straight-line">문서 솔루션</a></li>
+			
+				<li><a href="/kr/solutions/security-solutions-for-ci-plus" class=" txt-u-animate straight-line">CI-Plus 솔루션</a></li>
+			</ul>
+		 </li>
+	</ul>
+	<ul id="mobile-socialMedia" class="clearfix">
+		<li>
+			<a href="https://www.linkedin.com/company/digicert-inc-/">
+			   <img loading="lazy" src="/content/dam/digicert/icons/LinkedInIcon.svg" alt="Linkedin"/>
+		    </a>
+		
+			<a href="https://twitter.com/digicert?s=20">
+			   <img loading="lazy" src="/content/dam/digicert/icons/TwitterIcon.svg" alt="Twitter"/>
+		    </a>
+		
+			<a href="https://www.youtube.com/@DigiCert">
+			   <img loading="lazy" src="/content/dam/digicert/icons/YouTubeIcon.svg" alt="Youtube"/>
+		    </a>
+		</li>
+	</ul>
+	<ul id="copyright" class="clearfix">
+		<li>
+			<p>저작권 © 2025 DigiCert, Inc.. 판권 소유.</p>
+
+			
+				
+				
+					<a href="https://www.digicert.com/legal-repository">법률 자료</a>
+                
+			
+				
+				
+					<a href="https://www.digicert.com/webtrust-audits">WebTrust 감사</a>
+                
+			
+				
+				
+					<a href="/kr/security-terms">이용약관</a>
+                
+			
+				
+				
+					<a href="/kr/digicert-privacy-policy">개인정보 보호정책</a>
+                
+			
+				
+				
+					<a href="/kr/digicert-accessibility-statement">접근성</a>
+                
+			
+				
+					<a href="javascript:void(0);" onclick="transcend.showConsentManager({ viewState: 'CompleteOptions' });">쿠키 설정</a>
+                
+				
+			
+				
+				
+					<a href="https://privacyportal.onetrust.com/webform/8805d472-8993-4a56-a4d1-9c1ba8b92aca/f3fe7561-71f8-4f11-b648-8fb5955dd5ef">개인 정보 요청 양식</a>
+                
+			
+		</li>
+	</ul>
+</div>
+</div>
+
+        
+    </div>
+
+
+
+</div>
+
+    
+</div>
+<div class="back-to-top aem-GridColumn aem-GridColumn--default--12"><button class="backtotop" id="myBtn" title="Go to top"><i class="arrow-updated up"></i>&nbsp;&nbsp;TO TOP</button>
+
+    
+</div>
+
+    
+</div>
+</div>
+
+         <div id="root"></div>
+        
+
+        
+</div>
+            
+
+
+
+	
+    <script async src="/etc.clientlibs/digicert/clientlibs/clientlib-cif.lc-d65ce9dd67998fa89c585cff528cea1c-lc.min.js"></script>
+
+
+
+
+
+    
+    
+<script src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/utils.lc-e7bf340a353e643d198b25d0c8ccce47-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery/granite.lc-543d214c88dfa6f4a3233b630c82d875-lc.min.js"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/jquery.lc-dd9b395c741ce2784096e26619e14910-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/clientlib-dependencies.lc-f387ef617ecfd387b67935070b9ca4f1-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/clientlib-commerce.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/ui.search.lc-65abc05e87888bf6e812cbc48d2731c4-lc.min.js"></script>
+<script src="/libs/dam/components/scene7/common/clientlibs/viewer.lc-286d51076949b1908ec34d18f81e6977-lc.min.js"></script>
+<script src="/etc.clientlibs/digicert/clientlibs/clientlib-base.lc-c21ebab563866dc8b60db15557458926-lc.min.js"></script>
+<script src="/etc.clientlibs/foundation/clientlibs/shared.lc-41f79c8a45bb1766981ec4ca82d7e0e6-lc.min.js"></script>
+
+
+
+
+
+
+
+	<script type="text/javascript" src="https://c.la3-c1-ia4.salesforceliveagent.com/content/g/js/50.0/deployment.js"></script>
+	<script type="text/javascript">
+
+        var liveagentInitUrl = 'https:\/\/d.la3\u002Dc1\u002Dia4.salesforceliveagent.com\/chat';
+		var deploymentId = '5720z0000008One';
+		var orgId = '00D60000000KAGN';
+
+		liveagent.init(liveagentInitUrl,deploymentId, orgId);
+
+		if (!window._laq) {
+			window._laq = [];
+		}
+
+		window._laq.push(function() {
+			/* liveagent.enableLogging(); */
+			var chat_btn = document.getElementById('liveagent_chatbtns');
+			if(chat_btn != null){
+				
+				var rightNavLiveAgent = document.getElementById("rightNavLiveAgent");
+				if(rightNavLiveAgent!=null)
+					rightNavLiveAgent.innerHTML=chat_btn.innerHTML;
+				
+	            var liveagentchatbtnlist_online = document.querySelectorAll("[id^=liveagent_online_]");
+			    var liveagentchatbtnlist_offline = document.querySelectorAll("[id^=liveagent_offline_]");
+				liveagent.setChatWindowHeight(640);
+				liveagent.setChatWindowWidth(480);
+
+	            for(var i=0;i<liveagentchatbtnlist_online.length;i++){
+	            	var elem = liveagentchatbtnlist_online[i];
+					var buttonId = elem.id.split("_").pop();
+	                	liveagent.showWhenOnline(buttonId,elem);
+	            }
+	            for(var i=0;i<liveagentchatbtnlist_offline.length;i++){
+	            	var elem = liveagentchatbtnlist_offline[i];
+					var buttonId = elem.id.split("_").pop();
+	                	liveagent.showWhenOffline(buttonId,elem);
+	            }
+			}
+		});
+		function startChat(buttonId) {
+			liveagent.startChat(buttonId.split("_").pop());
+		}
+	</script> 
+
+
+
+ 
+<script>
+var bodyElem = document.querySelector('body');
+var dataLang = bodyElem.dataset.lang
+if(dataLang.toLowerCase() == "en-us" || dataLang.toLowerCase() == "en"){
+    var el = document.querySelector(".experiencefragment #OldNavigationHeader");
+    if(el!=null)
+        el.innerHTML = "";
+}
+else{
+    var el = document.querySelector(".experiencefragment #NewNavigationHeader");
+    if(el!=null)
+        el.innerHTML = "";
+}
+</script>
+
+
+
+        
+    <script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=112895222" async></script></body>
+</html>

@@ -1,0 +1,1805 @@
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+<html class="windows no-js" lang="sr" dir="ltr" data-country-code="BR" data-needs-consent="False" data-latest-firefox="143.0.4" data-esr-versions="140.3.1" data-gtm-container-id="GTM-MW3R8V" data-stub-attribution-rate="1.0" data-sentry-dsn="https://c3ab8514873549d5b3785ebc7fb83c80@o1069899.ingest.sentry.io/6260331" >
+  <head>
+    <meta charset="utf-8">
+
+    <!--[if !IE]><!-->
+    <script src="https://www.mozilla.org/media/js/site.a066757d134f.js"></script>
+
+    
+    <!--<![endif]-->
+
+    <!--[if IE 9]>
+    <script src="https://www.mozilla.org/media/js/site-ie.c7db1be2702b.js"></script>
+    <![endif]-->
+
+<!--
+
+
+             _.-~-.
+           7''  Q..\
+        _7         (_
+      _7  _/    _q.  /
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+
+Hi there, nice to meet you!
+
+Interested in having a direct impact on hundreds of millions of users? Join
+Mozilla, and become part of a global community that’s helping to build a
+brighter future for the Web.
+
+Visit https://www.mozilla.org/careers to learn about our current job openings.
+Visit https://www.mozilla.org/contribute for more ways to get involved and
+help support Mozilla.
+-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<!-- validates bing webmaster tools -->
+<meta name="msvalidate.01" content="B7B177115A634927D608514DA17B2574">
+<!-- YouTube Verification -->
+<meta name="google-site-verification" content="U9a6gH32vLIykvntaDToj-ytYhlZ1AfAgVEKstixQIE">
+
+
+    
+    <title>Интернет за људе, не за профит</title>
+    <meta name="description" content="Да ли сте знали? Mozilla, творац Firefox-а, бори се да интернет остане глобални јавни ресурс, отворен и доступан свима.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="sr">
+    <meta property="og:url" content="https://www.mozilla.org/sr/">
+    <meta property="og:image" content="https://www.mozilla.org/media/img/m24/og.3a69dffad83e.png">
+    <meta property="og:title" content="Интернет за људе, не за профит">
+    <meta property="og:description" content="Да ли сте знали? Mozilla, творац Firefox-а, бори се да интернет остане глобални јавни ресурс, отворен и доступан свима.">
+    <meta property="fb:page_id" content="262134952380">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mozilla">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <meta name="twitter:app:name:iphone" content="Firefox">
+    <meta name="twitter:app:id:iphone" content="989804926">
+    <meta name="twitter:app:name:ipad" content="Firefox">
+    <meta name="twitter:app:id:ipad" content="989804926">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://www.mozilla.org/media/img/favicons/mozilla/apple-touch-icon.05aa000f6748.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="https://www.mozilla.org/media/img/favicons/mozilla/favicon-196x196.e143075360ea.png">
+    <link rel="shortcut icon" href="https://www.mozilla.org/media/img/favicons/mozilla/favicon.d0be64e474b1.ico">
+    <link rel="canonical" href="https://www.mozilla.org/sr/">
+    <link rel="alternate" hreflang="x-default" href="https://www.mozilla.org/">
+    <link rel="alternate" hreflang="an" href="https://www.mozilla.org/an/" title="aragonés">
+        <link rel="alternate" hreflang="ar" href="https://www.mozilla.org/ar/" title="عربي">
+        <link rel="alternate" hreflang="az" href="https://www.mozilla.org/az/" title="Azərbaycanca">
+        <link rel="alternate" hreflang="be" href="https://www.mozilla.org/be/" title="Беларуская">
+        <link rel="alternate" hreflang="bg" href="https://www.mozilla.org/bg/" title="Български">
+        <link rel="alternate" hreflang="bn" href="https://www.mozilla.org/bn/" title="বাংলা">
+        <link rel="alternate" hreflang="bs" href="https://www.mozilla.org/bs/" title="Bosanski">
+        <link rel="alternate" hreflang="ca" href="https://www.mozilla.org/ca/" title="Català">
+        <link rel="alternate" hreflang="cs" href="https://www.mozilla.org/cs/" title="Čeština">
+        <link rel="alternate" hreflang="cy" href="https://www.mozilla.org/cy/" title="Cymraeg">
+        <link rel="alternate" hreflang="da" href="https://www.mozilla.org/da/" title="Dansk">
+        <link rel="alternate" hreflang="de" href="https://www.mozilla.org/de/" title="Deutsch">
+        <link rel="alternate" hreflang="el" href="https://www.mozilla.org/el/" title="Ελληνικά">
+        <link rel="alternate" hreflang="en-CA" href="https://www.mozilla.org/en-CA/" title="English (Canadian)">
+        <link rel="alternate" hreflang="en-GB" href="https://www.mozilla.org/en-GB/" title="English (British)">
+        <link rel="alternate" hreflang="en" href="https://www.mozilla.org/en-US/" title="English">
+        <link rel="alternate" hreflang="en-US" href="https://www.mozilla.org/en-US/" title="English (USA)">
+        <link rel="alternate" hreflang="eo" href="https://www.mozilla.org/eo/" title="Esperanto">
+        <link rel="alternate" hreflang="es-AR" href="https://www.mozilla.org/es-AR/" title="Español (de Argentina)">
+        <link rel="alternate" hreflang="es-CL" href="https://www.mozilla.org/es-CL/" title="Español (de Chile)">
+        <link rel="alternate" hreflang="es" href="https://www.mozilla.org/es-ES/" title="Español">
+        <link rel="alternate" hreflang="es-ES" href="https://www.mozilla.org/es-ES/" title="Español (de España)">
+        <link rel="alternate" hreflang="es-MX" href="https://www.mozilla.org/es-MX/" title="Español (de México)">
+        <link rel="alternate" hreflang="et" href="https://www.mozilla.org/et/" title="Eesti keel">
+        <link rel="alternate" hreflang="eu" href="https://www.mozilla.org/eu/" title="Euskara">
+        <link rel="alternate" hreflang="fa" href="https://www.mozilla.org/fa/" title="فارسی">
+        <link rel="alternate" hreflang="fi" href="https://www.mozilla.org/fi/" title="suomi">
+        <link rel="alternate" hreflang="fr" href="https://www.mozilla.org/fr/" title="Français">
+        <link rel="alternate" hreflang="fy" href="https://www.mozilla.org/fy-NL/" title="Frysk">
+        <link rel="alternate" hreflang="fy-NL" href="https://www.mozilla.org/fy-NL/" title="Frysk">
+        <link rel="alternate" hreflang="gd" href="https://www.mozilla.org/gd/" title="Gàidhlig">
+        <link rel="alternate" hreflang="gl" href="https://www.mozilla.org/gl/" title="Galego">
+        <link rel="alternate" hreflang="gn" href="https://www.mozilla.org/gn/" title="Avañe'ẽ">
+        <link rel="alternate" hreflang="gu" href="https://www.mozilla.org/gu-IN/" title="ગુજરાતી">
+        <link rel="alternate" hreflang="gu-IN" href="https://www.mozilla.org/gu-IN/" title="ગુજરાતી (ભારત)">
+        <link rel="alternate" hreflang="he" href="https://www.mozilla.org/he/" title="עברית">
+        <link rel="alternate" hreflang="hi" href="https://www.mozilla.org/hi-IN/" title="हिन्दी">
+        <link rel="alternate" hreflang="hi-IN" href="https://www.mozilla.org/hi-IN/" title="हिन्दी (भारत)">
+        <link rel="alternate" hreflang="hr" href="https://www.mozilla.org/hr/" title="Hrvatski">
+        <link rel="alternate" hreflang="hu" href="https://www.mozilla.org/hu/" title="magyar">
+        <link rel="alternate" hreflang="hy" href="https://www.mozilla.org/hy-AM/" title="Հայերեն">
+        <link rel="alternate" hreflang="hy-AM" href="https://www.mozilla.org/hy-AM/" title="Հայերեն">
+        <link rel="alternate" hreflang="ia" href="https://www.mozilla.org/ia/" title="Interlingua">
+        <link rel="alternate" hreflang="id" href="https://www.mozilla.org/id/" title="Bahasa Indonesia">
+        <link rel="alternate" hreflang="is" href="https://www.mozilla.org/is/" title="íslenska">
+        <link rel="alternate" hreflang="it" href="https://www.mozilla.org/it/" title="Italiano">
+        <link rel="alternate" hreflang="ja" href="https://www.mozilla.org/ja/" title="日本語">
+        <link rel="alternate" hreflang="ka" href="https://www.mozilla.org/ka/" title="ქართული">
+        <link rel="alternate" hreflang="ko" href="https://www.mozilla.org/ko/" title="한국어">
+        <link rel="alternate" hreflang="lo" href="https://www.mozilla.org/lo/" title="ພາສາລາວ">
+        <link rel="alternate" hreflang="lt" href="https://www.mozilla.org/lt/" title="Lietuvių">
+        <link rel="alternate" hreflang="ml" href="https://www.mozilla.org/ml/" title="മലയാളം">
+        <link rel="alternate" hreflang="mr" href="https://www.mozilla.org/mr/" title="मराठी">
+        <link rel="alternate" hreflang="ms" href="https://www.mozilla.org/ms/" title="Melayu">
+        <link rel="alternate" hreflang="my" href="https://www.mozilla.org/my/" title="မြန်မာဘာသာ">
+        <link rel="alternate" hreflang="nb-NO" href="https://www.mozilla.org/nb-NO/" title="Norsk bokmål">
+        <link rel="alternate" hreflang="nl" href="https://www.mozilla.org/nl/" title="Nederlands">
+        <link rel="alternate" hreflang="nn-NO" href="https://www.mozilla.org/nn-NO/" title="Norsk nynorsk">
+        <link rel="alternate" hreflang="pa" href="https://www.mozilla.org/pa-IN/" title="ਪੰਜਾਬੀ">
+        <link rel="alternate" hreflang="pa-IN" href="https://www.mozilla.org/pa-IN/" title="ਪੰਜਾਬੀ (ਭਾਰਤ)">
+        <link rel="alternate" hreflang="pl" href="https://www.mozilla.org/pl/" title="Polski">
+        <link rel="alternate" hreflang="pt-BR" href="https://www.mozilla.org/pt-BR/" title="Português (do Brasil)">
+        <link rel="alternate" hreflang="pt" href="https://www.mozilla.org/pt-PT/" title="Português">
+        <link rel="alternate" hreflang="pt-PT" href="https://www.mozilla.org/pt-PT/" title="Português (Europeu)">
+        <link rel="alternate" hreflang="rm" href="https://www.mozilla.org/rm/" title="rumantsch">
+        <link rel="alternate" hreflang="ro" href="https://www.mozilla.org/ro/" title="Română">
+        <link rel="alternate" hreflang="ru" href="https://www.mozilla.org/ru/" title="Русский">
+        <link rel="alternate" hreflang="si" href="https://www.mozilla.org/si/" title="සිංහල">
+        <link rel="alternate" hreflang="sk" href="https://www.mozilla.org/sk/" title="slovenčina">
+        <link rel="alternate" hreflang="sl" href="https://www.mozilla.org/sl/" title="Slovenščina">
+        <link rel="alternate" hreflang="sq" href="https://www.mozilla.org/sq/" title="Shqip">
+        <link rel="alternate" hreflang="sr" href="https://www.mozilla.org/sr/" title="Српски">
+        <link rel="alternate" hreflang="sv" href="https://www.mozilla.org/sv-SE/" title="Svenska">
+        <link rel="alternate" hreflang="sv-SE" href="https://www.mozilla.org/sv-SE/" title="Svenska">
+        <link rel="alternate" hreflang="ta" href="https://www.mozilla.org/ta/" title="தமிழ்">
+        <link rel="alternate" hreflang="tg" href="https://www.mozilla.org/tg/" title="Тоҷикӣ">
+        <link rel="alternate" hreflang="th" href="https://www.mozilla.org/th/" title="ไทย">
+        <link rel="alternate" hreflang="tr" href="https://www.mozilla.org/tr/" title="Türkçe">
+        <link rel="alternate" hreflang="uk" href="https://www.mozilla.org/uk/" title="Українська">
+        <link rel="alternate" hreflang="ur" href="https://www.mozilla.org/ur/" title="اُردو">
+        <link rel="alternate" hreflang="vi" href="https://www.mozilla.org/vi/" title="Tiếng Việt">
+        <link rel="alternate" hreflang="zh" href="https://www.mozilla.org/zh-CN/" title="中文">
+        <link rel="alternate" hreflang="zh-CN" href="https://www.mozilla.org/zh-CN/" title="中文 (简体)">
+        <link rel="alternate" hreflang="zh-TW" href="https://www.mozilla.org/zh-TW/" title="正體中文 (繁體)">
+        
+    
+    
+    <link href="https://mastodon.social/@mozilla" rel="me">
+
+    
+
+    <!--[if lt IE 9]>
+      
+      <script src="https://www.mozilla.org/media/js/ie/libs/html5shiv.a94a0b700fa2.js"></script>
+    <![endif]-->
+
+    <!--[if IE]>
+      
+      
+        <link href="https://www.mozilla.org/media/css/common-old-ie.f49c61257235.css" rel="stylesheet" type="text/css">
+      
+    <![endif]-->
+
+    <!--[if !IE]><!-->
+    
+    
+    <link href="https://www.mozilla.org/media/css/protocol-mozilla.681c9295a062.css" rel="stylesheet" type="text/css">
+    
+      <link href="https://www.mozilla.org/media/css/m24-navigation-and-footer.192cecbef0eb.css" rel="stylesheet" type="text/css">
+    
+
+
+    
+    
+  <link href="https://www.mozilla.org/media/css/protocol-split.b2c741eb3ef3.css" rel="stylesheet" type="text/css">
+  <link href="https://www.mozilla.org/media/css/protocol-picto.cfee40a3cd36.css" rel="stylesheet" type="text/css">
+  <link href="https://www.mozilla.org/media/css/protocol-newsletter.0f68eb7e0134.css" rel="stylesheet" type="text/css">
+  <link href="https://www.mozilla.org/media/css/home-new.5df31e77349c.css" rel="stylesheet" type="text/css">
+
+  
+    <link href="https://www.mozilla.org/media/css/mofo-donate-promo.00458581db28.css" rel="stylesheet" type="text/css">
+  
+
+  
+
+  
+    <link href="https://www.mozilla.org/media/css/firefox-app-store-banner.928e99aec8e1.css" rel="stylesheet" type="text/css">
+  
+
+    <!--<![endif]-->
+
+    
+      
+    
+
+    
+    
+      <!--[if IE 9]><!-->
+        
+
+<!--
+Read more about our custom configuration and use of Google Analytics here:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1122305#c8
+-->
+
+<!-- Google Tag Manager -->
+<!-- Customized for Mozilla.org-->
+<!-- Region Container: NONE -->
+<!-- Rollup Container: System Filtered -->
+<!-- Site Container: NONE -->
+
+
+    <script src="https://www.mozilla.org/media/js/gtm-snippet.b5b7c885f8fa.js"></script>
+
+<!-- End Google Tag Manager -->
+      <!--<![endif]-->
+    
+  </head>
+
+  <body id="home" class="html-ltr lang-sr" >
+    <div id="strings"
+      data-global-close="Затвори"
+      data-global-next="Даље"
+      data-global-previous="Претходно"
+      ></div>
+
+    
+      
+
+<aside class="moz-consent-banner" id="moz-consent-banner" role="region" aria-label="Банер колачића" data-nosnippet="true" data-testid="consent-banner">
+  <div class="moz-consent-banner-content">
+    <h2 class="moz-consent-banner-heading">Помозите да побољшамо ваше Mozilla искуство</h2>
+    <div class="moz-consent-banner-copy">
+      <p>In addition to Cookies necessary for this site to function, we’d like your permission to set some additional Cookies to better understand your browsing needs and improve your experience. Rest assured — we value your privacy.</p>
+      <div class="moz-consent-banner-controls">
+        <button type="button" id="moz-consent-banner-button-accept" class="moz-consent-banner-button moz-consent-banner-button-accept" data-testid="consent-banner-accept-button">
+          Прихвати све додатне колачиће
+        </button>
+        <button type="button" id="moz-consent-banner-button-reject" class="moz-consent-banner-button moz-consent-banner-button-reject" data-testid="consent-banner-reject-button">
+          Одбиј све додатне колачиће
+        </button>
+        <a href="/sr/privacy/websites/cookie-settings/">
+          Подешавања колачића
+        </a>
+      </div>
+    </div>
+  </div>
+</aside>
+    
+
+    
+      
+
+
+  
+
+ 
+
+
+  
+
+
+
+  
+
+  
+    
+  
+
+
+
+ <nav class="m24-navigation-refresh m24-mzp-is-sticky" aria-label="Primary">
+  <div class="m24-c-navigation-l-content">
+    <div class="m24-c-navigation-container">
+      <button class="m24-c-navigation-menu-button" type="button" aria-controls="m24-c-navigation-items" data-testid="m24-navigation-menu-button">Мени</button>
+      <a class="m24-c-navigation-logo-link" href="/sr/" data-link-text="mozilla home icon" data-link-position="nav">
+        <img class="m24-c-navigation-logo-image" src="https://www.mozilla.org/media/img/logos/m24/lockup-black.f2ddba3f0724.svg" alt="Mozilla" width="101" height="24">
+      </a>
+      <div class="m24-c-navigation-items" id="m24-c-navigation-items" data-testid="m24-navigation-menu-items">
+        <div class="m24-c-navigation-menu">
+          <div class="m24-c-menu m24-mzp-is-basic">
+            <ul class="m24-c-menu-category-list">
+              
+
+ 
+
+<li class="m24-c-menu-category m24-c-menu-category-has-icon">
+  <a class="m24-c-menu-title" href="https://www.firefox.com?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=firefox" data-testid="m24-navigation-link-firefox">
+    <img src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg" class="m24-c-menu-title-icon" width="16" height="16" alt="">
+    Firefox прегледачи
+  </a>
+</li>
+              
+
+
+
+<li class="m24-c-menu-category mzp-has-drop-down mzp-js-expandable">
+  <a class="m24-c-menu-title" href="/sr/products/" aria-haspopup="true" aria-controls="m24-c-menu-panel-products" data-testid="m24-navigation-link-products">Производи</a>
+  <div class="m24-c-menu-panel" id="m24-c-menu-panel-products" data-testid="m24-navigation-panel-products">
+    <div class="m24-c-menu-panel-container" data-testid="m24-navigation-menu-products">
+      <button class="m24-c-menu-button-close" type="button" aria-controls="m24-c-menu-panel-products">Затвори мени Производи</button>
+      <div class="m24-c-menu-panel-content">
+        <ul class="m24-mzp-l-content">
+          <li>
+            <section class="m24-c-menu-item mzp-has-icon">
+              <a class="m24-c-menu-item-link" href="/sr/products/vpn/" data-link-text="Mozilla VPN" data-link-position="topnav - products" data-testid="m24-navigation-menu-link-products-vpn">
+                <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/mozilla/vpn/logo.c648f487bfb8.svg" class="m24-c-menu-item-icon" width="32" height="32" alt="">
+                <h2 class="m24-c-menu-item-title">Mozilla VPN</h2>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="m24-c-menu-item mzp-has-icon">
+              
+                
+              
+              <a class="m24-c-menu-item-link" href="https://monitor.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=products" data-link-text="Mozilla Monitor" data-link-position="topnav - products">
+                <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/firefox/monitor/logo.d97e5516f9e6.svg" class="m24-c-menu-item-icon" width="32" height="32" alt="">
+                <h2 class="m24-c-menu-item-title">Mozilla Monitor</h2>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="m24-c-menu-item mzp-has-icon">
+              <a class="m24-c-menu-item-link" href="https://relay.firefox.com/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=products" data-link-text="Firefox Relay" data-link-position="topnav - products">
+                <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/firefox/relay/logo.d42a8b52e44c.svg" class="m24-c-menu-item-icon" width="32" height="32" alt="">
+                <h2 class="m24-c-menu-item-title">Firefox Relay</h2>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="m24-c-menu-item mzp-has-icon">
+              <a class="m24-c-menu-item-link" href="https://getpocket.com/firefox_learnmore/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=products" data-link-text="Pocket" data-link-position="topnav - products">
+                <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/pocket/logo.17446bc33a5d.svg" class="m24-c-menu-item-icon" width="32" height="32" alt="">
+                <h2 class="m24-c-menu-item-title">Pocket</h2>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="m24-c-menu-item mzp-has-icon">
+              <a class="m24-c-menu-item-link" href="https://developer.mozilla.org/plus?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=products" data-link-text="MDN Plus" data-link-position="topnav - products">
+                <img loading="lazy" src="https://www.mozilla.org/media/img/logos/mdn/mdn-plus-logo.c615b46ca4ce.svg" class="m24-c-menu-item-icon" width="32" height="32" alt="">
+                <h2 class="m24-c-menu-item-title">MDN Plus</h2>
+              </a>
+            </section>
+          </li>
+          <li>
+            <section class="m24-c-menu-item mzp-has-icon">
+              <a class="m24-c-menu-item-link" href="https://www.thunderbird.net/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=products" data-link-text="Thunderbird" data-link-position="topnav - products">
+                <img loading="lazy" src="https://www.mozilla.org/media/img/logos/thunderbird/logo-thunderbird.121e9c0fed45.svg" class="m24-c-menu-item-icon" width="32" height="32" alt="">
+                <h2 class="m24-c-menu-item-title">Thunderbird</h2>
+              </a>
+            </section>
+          </li>
+        </ul>
+        <p class="m24-c-menu-category-link">
+          <a href="/sr/products/" data-link-text="Go to all browsers and products" data-link-position="topnav - products">
+            Сви производи
+            <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24" height="24" viewBox="0 0 23.4 24" fill="currentColor">
+              <path d="M23.4 12 9.1 0v10.5H0v3h9.1V24l14.3-12zm-11.3-1.5v-4l6.6 5.5-6.6 5.5v-7z"/>
+            </svg>
+          </a>
+        </p>
+      </div>
+    </div><!-- close .m24-c-menu-panel-container -->
+  </div><!-- close .m24-c-menu-panel -->
+</li><!-- close products -->
+              
+
+ 
+
+ <li class="m24-c-menu-category mzp-has-drop-down mzp-js-expandable">
+   <a class="m24-c-menu-title" href="/sr/about/" aria-haspopup="true" aria-controls="m24-c-menu-panel-about" data-testid="m24-navigation-link-about-us">О нама</a>
+   <div class="m24-c-menu-panel" id="m24-c-menu-panel-about" data-testid="m24-navigation-menu-about-us">
+     <div class="m24-c-menu-panel-container">
+       <button class="m24-c-menu-button-close" type="button" aria-controls="m24-c-menu-panel-about">Затвори мени О нама</button>
+       <div class="m24-c-menu-panel-content multi-column">
+        <div class="m24-mzp-l-content-container">
+          <p>Наша мисија</p>
+          <ul class="m24-mzp-l-content">
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="/sr/about/" data-link-text="About Mozilla" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">О Mozilla-и</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="/sr/about/manifesto/" data-link-text="The Mozilla manifesto" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Mozilla манифест</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="/sr/contribute/" data-link-text="Get Involved" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Прикључите се</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="https://blog.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about-us" data-link-text="Blog" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Блог</h2>
+                </a>
+              </section>
+            </li>
+           </ul>
+        </div>
+        <div class="m24-mzp-l-content-container">
+          <p>Наш рад</p>
+          <ul class="m24-mzp-l-content">
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="https://foundation.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about-us" data-link-text="Mozilla Foundation" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Mozilla Foundation</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="https://www.mozilla.ai/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about-us" data-link-text="Mozilla.ai" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Mozilla.ai</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="https://mozilla.vc/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about-us" data-link-text="Mozilla Ventures" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Mozilla Ventures</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="/sr/advertising/" data-link-text="Mozilla Advertising" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Mozilla оглашавање</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="https://builders.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about-us" data-link-text="Mozilla Builders" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Mozilla Builders</h2>
+                </a>
+              </section>
+            </li>
+            <li>
+              <section class="m24-c-menu-item">
+                <a class="m24-c-menu-item-link" href="https://newproducts.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=nav&amp;utm_content=about-us" data-link-text="Mozilla New Products" data-link-position="topnav - about">
+                  <h2 class="m24-c-menu-item-title">Mozilla New Products</h2>
+                </a>
+              </section>
+            </li>
+           </ul>
+        </div>
+       </div>
+     </div><!-- close .m24-c-menu-panel-container -->
+   </div><!-- close .m24-c-menu-panel -->
+ </li><!-- close about us -->
+            </ul>
+          </div>
+        </div><!-- close .m24-c-navigation-menu -->
+      </div><!-- close .m24-c-navigation-items -->
+      <blink class="spacer-gif"></blink>
+    </div><!-- close .m24-c-navigation-container -->
+  </div><!-- close .m24-c-navigation-l-content -->
+</nav>
+
+    
+
+    
+
+    <div id="outer-wrapper">
+      
+
+<header>
+
+  <div class="c-header-wrapper mzp-l-content mzp-t-content-lg">
+    <h1>Вођени мисијом. Оснажени људима.</h1>
+    <p>Нисмо ваша обична технолошка компанија. Ствари које правимо стављају људе и њихову приватност изнад профита. Постојима да интернет направимо здравијим, срећнијим место за све.</p>
+  </div>
+</header>
+
+<main class="c-homepage">
+  <div class="c-quote mitchell">
+    <div class="c-quote-wrapper mzp-l-content mzp-t-content-lg">
+      <blockquote>
+        <p>„Здравље интернета и живота на мрежи је разлог зашто постојимо.”
+        </p>
+        <cite>Mitchell Baker, извршна председница одбора, Mozilla Foundation</cite>
+      </blockquote>
+    </div>
+  </div>
+
+  <section class="c-products mzp-l-content mzp-t-content-xl">
+    <h2>Mozilla ствара производе који поштују приватност</h2>
+
+    <ul class="c-product-columns mzp-l-columns mzp-t-columns-four">
+
+      <!-- Firefox -->
+      <li class="mzp-c-picto">
+  
+    <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg" alt="" class="mzp-c-picto-image" width="50" height="50">
+  
+  <h3 class="mzp-c-picto-heading">Приватно и безбедно прегледање</h3>
+  
+  <div class="mzp-c-picto-body">
+    
+        <a href="https://www.firefox.com/" class="mzp-c-button mzp-t-secondary" id="homepage-get-firefox" data-cta-text="Get Firefox" >Преузмите Firefox</a>
+      
+  </div>
+  
+</li>
+
+      <!-- Relay -->
+      <li class="mzp-c-picto">
+  
+    <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/firefox/relay/logo.d42a8b52e44c.svg" alt="" class="mzp-c-picto-image" width="50" height="50">
+  
+  <h3 class="mzp-c-picto-heading">Сакријте ваш број телефона и е-адресу од нежељене поште</h3>
+  
+  <div class="mzp-c-picto-body">
+    
+        <a href="https://relay.firefox.com/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=homepage" rel="external noopener" class="mzp-c-button mzp-t-secondary" id="homepage-get-relay" data-cta-text="Get Relay" data-cta-type="relay">Преузмите Relay</a>
+      
+  </div>
+  
+</li>
+
+      <!-- VPN -->
+      <li class="mzp-c-picto">
+  
+    <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/mozilla/vpn/logo.c648f487bfb8.svg" alt="" class="mzp-c-picto-image" width="50" height="50">
+  
+  <h3 class="mzp-c-picto-heading">VPN којем можете веровати</h3>
+  
+  <div class="mzp-c-picto-body">
+    
+        <a href="/sr/products/vpn/" class="mzp-c-button mzp-t-secondary" id="homepage-get-mozilla-vpn" data-cta-text="Get Mozilla VPN" data-cta-type="vpn">Преузмите Mozilla VPN</a>
+      
+  </div>
+  
+</li>
+
+      <!-- Monitor -->
+      <li class="mzp-c-picto">
+  
+    <img loading="lazy" src="https://www.mozilla.org/media/protocol/img/logos/firefox/monitor/logo.d97e5516f9e6.svg" alt="" class="mzp-c-picto-image" width="50" height="50">
+  
+  <h3 class="mzp-c-picto-heading">Заштитите ваше личне податке од брокера подацима</h3>
+  
+  <div class="mzp-c-picto-body">
+    
+         <a href="https://monitor.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=homepage" rel="external noopener" class="mzp-c-button mzp-t-secondary" id="homepage-get-monitor" data-cta-text="Get Mozilla Monitor" data-cta-type="monitor">Преузмите Monitor</a>
+      
+  </div>
+  
+</li>
+
+    </ul>
+  </section>
+
+  <div class="c-quote politico">
+    <div class="c-quote-wrapper mzp-l-content mzp-t-content-lg">
+      <blockquote>
+        <p>„Mozilla намерава да докаже свету да је могуће обавити ствари помоћу поуздане вештачке интелигенције. Ово укључује стављање људских права, заштите података и транспарентности у срж рада овог сложеног система.”
+        </p>
+        <cite>Politico</cite>
+      </blockquote>
+    </div>
+  </div>
+
+  <section class="c-mission">
+
+    <!-- Trustworthy AI -->
+
+    
+      <section class="mzp-c-split mzp-l-split-center-on-sm-md mzp-t-content-xl c-trustworthy-ai">
+  
+  <div class="mzp-c-split-container">
+    
+      
+        <div class="mzp-c-split-media">
+          <img loading="lazy" src="https://www.mozilla.org/media/img/home/2023/colorwaves.15f7b7e61210.jpg" srcset="https://www.mozilla.org/media/img/home/2023/colorwaves-high-res.f7e2290da603.jpg 2x" alt="" class="mzp-c-split-media-asset">
+        </div>
+      
+    
+    <div class="mzp-c-split-body">
+      
+      <h2>Придружите нам се у обликовању поуздане ВИ</h2>
+      <p>Mozilla рад са ВИ није ништа ново — годинама финансирамо, градимо и заговарамо ВИ која је отворена, поштена и развијена одговорно. Наш фокус је на стварању ВИ која ради за људе, даје приоритет транспарентности и подржава јавни интерес, а не корпоративне планове.</p>
+      <a href="https://blog.mozilla.org/en/mozilla/ai/next-steps-for-mozilla-and-trustworthy-ai/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=homepage" rel="external noopener" class="mzp-c-button">Прочитајте више</a>
+      
+    </div>
+    
+  </div>
+  
+</section>
+    
+
+    
+    
+
+    <!-- Foundation -->
+    <section class="mzp-c-split mzp-l-split-center-on-sm-md mzp-l-split-reversed mzp-t-content-xl c-foundation">
+  
+  <div class="mzp-c-split-container">
+    
+      
+        <div class="mzp-c-split-media">
+          <img loading="lazy" src="https://www.mozilla.org/media/img/home/2023/mofo-split.e28f9f2631fc.png" srcset="https://www.mozilla.org/media/img/home/2023/mofo-split-high-res.1d0e2fec3bb7.jpg 2x" alt="" class="mzp-c-split-media-asset">
+        </div>
+      
+    
+    <div class="mzp-c-split-body">
+      
+    <h2>Дакле, шта је Mozilla?</h2>
+    <p>At its core, Mozilla is an activist organization led by the Mozilla Foundation that makes change in the world through a variety of ventures including Mozilla Corporation, MZLA, <a href="https://mozilla.vc/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=homepage" data-cta-text="Mozilla Ventures">Mozilla Ventures</a> and <a href="https://mozilla.ai/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=homepage" data-cta-text="Mozilla AI">Mozilla.ai</a>. How are we different? Because we’re mission-driven, it means we have the freedom to make all of our decisions based on what’s best for the internet and for everyone online, not based on the demands of shareholders — we don’t actually have any of those.</p>
+    <a href="https://foundation.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=homepage" rel="external noopener" class="mzp-c-button">
+      Сазнајте више о Mozilla Foundation
+    </a>
+    
+    </div>
+    
+  </div>
+  
+</section>
+
+    <!-- Mid-page promo -->
+    
+      
+
+<section class="mofo-donate-promo mzp-l-content">
+  <div class="feature-wrapper">
+    <img loading="lazy" src="https://www.mozilla.org/media/img/home/2023/mofo-heart.b635826c055a.svg" alt="">
+    <div class="feature-info">
+      <small>Изградите наш покрет</small>
+      <h2>Донирајте Mozilla Foundation данас да обезбедите да интернет остане отворен и доступан за све.</h2>
+    </div>
+    <a href="https://foundation.mozilla.org/?form=featured-section" class="mzp-c-button" data-cta-text="Donate" data-cta-position="mid-page banner">Донирајте</a>
+  </div>
+</section>
+    
+
+    <!-- Contribute -->
+    <section class="mzp-c-split mzp-l-split-center-on-sm-md mzp-t-content-xl c-volunteer">
+  
+  <div class="mzp-c-split-container">
+    
+      
+        <div class="mzp-c-split-media">
+          <img loading="lazy" src="https://www.mozilla.org/media/img/home/2023/contribute-split.202473fa9197.png" srcset="https://www.mozilla.org/media/img/home/2023/contribute-split-high-res.549780ca290a.png 2x" alt="" class="mzp-c-split-media-asset">
+        </div>
+      
+    
+    <div class="mzp-c-split-body">
+      
+    <h2 >Придружите се борби за здрав интернет</h2>
+    <p>Ваш глас. Ваш кȏд. Ваше идеје. Постоје хиљаду начина на које можете да допринесет Mozilla.</p>
+    <a href="/sr/contribute/" class="mzp-c-button">Волонтирајте са Mozilla</a>
+    
+    </div>
+    
+  </div>
+  
+</section>
+  </section>
+
+  <section class="c-about">
+    <div class="c-about-wrapper mzp-l-content mzp-t-content-lg">
+      <h2>Онај један пут када смо дали наш изворни кȏд…</h2>
+      <p>Mozilla пројекат је основан у Сан Франциску 1998. године, када је Netscape прегледач донио радикалну одлуку да свој програмски кȏд да јавности како би се надограђивао и побољшавао. У то време, једна компанија је имала виртуелни монопол на то како људи доживљавају интернет.</p>
+      <p>На крају, Mozilla пројекат отвореног кода прерастао је у веома популарну прву Firefox верзију.</p>
+      <p>Данас, Mozilla наставља свој покрет за бољи интернет уз милионе активних чланова заједнице широм света и залаже се за етичку технологију, поуздану вештачку интелигенцију и производе који поштују приватност и дају више моћи људима.</p>
+      <div class="c-about-cta">
+        <a href="/sr/about/" class="mzp-c-button">Сазнајте више о Mozilla</a>
+      </div>
+      <div class="c-dino">
+        <img loading="lazy" src="https://www.mozilla.org/media/img/home/2023/mozilla-dino.3affc2229c70.svg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <aside class="c-newsletter" aria-label="Образац за претплату">
+    <div class="c-newsletter-wrapper mzp-l-content mzp-t-content-lg">
+      <div class="c-newsletter-info">
+        <h2>Придружите се заједници</h2>
+        <p>Пријавите се да бисте примали месечна ажурирања од Firefox-а и интернет трендова који обликују ваш живот на мрежи.</p>
+      </div>
+
+      <div class="c-newsletter-content">
+        
+
+
+
+
+  <form id="newsletter-form" class="mzp-c-newsletter-form" action="https://basket.mozilla.org/news/subscribe/" method="post" data-testid="newsletter-form">
+    
+      <div hidden>
+        <div id="id_newsletters"><div>
+    <label for="id_newsletters_0"><input type="checkbox" name="newsletters" value="mozilla-and-you" id="id_newsletters_0" checked>
+ Firefox</label>
+
+</div>
+</div>
+      </div>
+    
+    <input type="hidden" name="source_url" value="https://www.mozilla.org/sr/">
+
+    
+    <header class="mzp-c-newsletter-header">
+      <h3 class="mzp-c-newsletter-title">Примите новости о Firefox-у</h3>
+      
+      
+    </header>
+    
+
+    <fieldset class="mzp-c-newsletter-content">
+      <div class="mzp-c-form-errors hidden" id="newsletter-errors" data-testid="newsletter-error-message">
+        
+        <ul class="mzp-u-list-styled">
+          <li class="error-email-invalid hidden">
+            Унесите важећу адресу е-поште
+          </li>
+          <li class="error-select-country hidden">
+            Изаберите државу или регион
+          </li>
+          <li class="error-select-language hidden">
+            Изаберите језик
+          </li>
+          <li class="error-newsletter-checkbox hidden">
+            Изаберите барем једну опцију за слање билтена.
+          </li>
+          <li class="error-privacy-policy hidden">
+            Морате се сложити са полисом приватности
+          </li>
+          <li class="error-try-again-later hidden">
+            Жао нам је, дошло је до проблема са нашим системом. Покушајте поново касније!
+          </li>
+        </ul>
+      </div>
+
+      <label for="id_email">Ваша адреса е-поште:</label>
+      
+        
+      
+      <input type="email" name="email" required data-testid="newsletter-email-input" maxlength="320" placeholder="вашеиме@example.com" class="mzp-js-email-field" id="id_email">
+
+      <div id="newsletter-details" class="mzp-c-newsletter-details">
+        <div class="mzp-c-newsletter-details-inner">
+        
+          <label for="id_country">Изаберите државу или покрајину:</label>
+          <p><select name="country" required="required" aria-required="true" data-testid="newsletter-country-select" id="id_country">
+  <option value="" selected>Изаберите државу или покрајину</option>
+
+  <option value="xk">Kosovo</option>
+
+  <option value="jm">Јамајка</option>
+
+  <option value="xj">Јан Мајен</option>
+
+  <option value="jp">Јапан</option>
+
+  <option value="ye">Јемен</option>
+
+  <option value="am">Јерменија</option>
+
+  <option value="jo">Јордан</option>
+
+  <option value="gs">Јужна Џорџија и Јужна Сендвичка Острва</option>
+
+  <option value="kr">Јужна Кореја</option>
+
+  <option value="ss">Јужни Судан</option>
+
+  <option value="za">Јужноафричка Република</option>
+
+  <option value="je">Џерзи</option>
+
+  <option value="dj">Џибути</option>
+
+  <option value="af">Авганистан</option>
+
+  <option value="az">Азербејџан</option>
+
+  <option value="qz">Акротири</option>
+
+  <option value="al">Албанија</option>
+
+  <option value="dz">Алжир</option>
+
+  <option value="vi">Америчка Девичанска Острва</option>
+
+  <option value="as">Америчка Самоа</option>
+
+  <option value="ai">Ангвила</option>
+
+  <option value="ao">Ангола</option>
+
+  <option value="ad">Андора</option>
+
+  <option value="aq">Антарктик</option>
+
+  <option value="ag">Антигва и Барбуда</option>
+
+  <option value="ar">Аргентина</option>
+
+  <option value="aw">Аруба</option>
+
+  <option value="xu">Атол Џонсон</option>
+
+  <option value="au">Аустралија</option>
+
+  <option value="at">Аустрија</option>
+
+  <option value="bd">Бангладеш</option>
+
+  <option value="bb">Барбадос</option>
+
+  <option value="qs">Басас да Индија</option>
+
+  <option value="bs">Бахами</option>
+
+  <option value="bh">Бахреин</option>
+
+  <option value="be">Белгија</option>
+
+  <option value="bz">Белизе</option>
+
+  <option value="by">Белорусија</option>
+
+  <option value="bj">Бенин</option>
+
+  <option value="bm">Бермуди</option>
+
+  <option value="cx">Божићно Острво</option>
+
+  <option value="bo">Боливија</option>
+
+  <option value="ba">Босна и Херцеговина</option>
+
+  <option value="bw">Боцвана</option>
+
+  <option value="br">Бразил</option>
+
+  <option value="vg">Британска Девичанска Острва</option>
+
+  <option value="io">Британска територија Индијског океана</option>
+
+  <option value="bn">Брунеј</option>
+
+  <option value="bg">Бугарска</option>
+
+  <option value="bf">Буркина Фасо</option>
+
+  <option value="bi">Бурунди</option>
+
+  <option value="bt">Бутан</option>
+
+  <option value="wf">Валис и Футуна</option>
+
+  <option value="vu">Вануату</option>
+
+  <option value="va">Ватикан</option>
+
+  <option value="gb">Велика Британија</option>
+
+  <option value="ve">Венецуела</option>
+
+  <option value="vn">Вијетнам</option>
+
+  <option value="ga">Габон</option>
+
+  <option value="gm">Гамбија</option>
+
+  <option value="gh">Гана</option>
+
+  <option value="gp">Гвадалупе</option>
+
+  <option value="gt">Гватемала</option>
+
+  <option value="gn">Гвинеја</option>
+
+  <option value="gw">Гвинеја Бисао</option>
+
+  <option value="gg">Гернзи</option>
+
+  <option value="gi">Гибралтар</option>
+
+  <option value="gy">Гијана</option>
+
+  <option value="gd">Гренада</option>
+
+  <option value="gl">Гренланд</option>
+
+  <option value="ge">Грузија</option>
+
+  <option value="gr">Грчка</option>
+
+  <option value="gu">Гуам</option>
+
+  <option value="dk">Данска</option>
+
+  <option value="xd">Декелија</option>
+
+  <option value="dg">Дијего Гарсија</option>
+
+  <option value="dm">Доминика</option>
+
+  <option value="do">Доминиканска Република</option>
+
+  <option value="eg">Египат</option>
+
+  <option value="ec">Еквадор</option>
+
+  <option value="gq">Екваторијална Гвинеја</option>
+
+  <option value="er">Еритреја</option>
+
+  <option value="sz">Есватини</option>
+
+  <option value="ee">Естонија</option>
+
+  <option value="et">Етиопија</option>
+
+  <option value="zm">Замбија</option>
+
+  <option value="eh">Западна Сахара</option>
+
+  <option value="xw">Западна обала</option>
+
+  <option value="cv">Зеленортска Острва</option>
+
+  <option value="zw">Зимбабве</option>
+
+  <option value="il">Израел</option>
+
+  <option value="in">Индија</option>
+
+  <option value="id">Индонезија</option>
+
+  <option value="iq">Ирак</option>
+
+  <option value="ir">Иран</option>
+
+  <option value="ie">Ирска</option>
+
+  <option value="is">Исланд</option>
+
+  <option value="it">Италија</option>
+
+  <option value="kz">Казахстан</option>
+
+  <option value="kh">Камбоџа</option>
+
+  <option value="cm">Камерун</option>
+
+  <option value="ca">Канада</option>
+
+  <option value="bq">Карипска Холандија</option>
+
+  <option value="qa">Катар</option>
+
+  <option value="ky">Кајманска Острва</option>
+
+  <option value="ke">Кенија</option>
+
+  <option value="cn">Кина</option>
+
+  <option value="xm">Кингмен</option>
+
+  <option value="cy">Кипар</option>
+
+  <option value="kg">Киргистан</option>
+
+  <option value="ki">Кирибати</option>
+
+  <option value="cc">Кокосова (Килингова) Острва</option>
+
+  <option value="co">Колумбија</option>
+
+  <option value="km">Комори</option>
+
+  <option value="cg">Конго-Бразавил</option>
+
+  <option value="cd">Конго-Киншаса</option>
+
+  <option value="cr">Костарика</option>
+
+  <option value="cu">Куба</option>
+
+  <option value="kw">Кувајт</option>
+
+  <option value="ck">Кукова Острва</option>
+
+  <option value="cw">Курасао</option>
+
+  <option value="la">Лаос</option>
+
+  <option value="ls">Лесото</option>
+
+  <option value="lv">Летонија</option>
+
+  <option value="lb">Либан</option>
+
+  <option value="lr">Либерија</option>
+
+  <option value="ly">Либија</option>
+
+  <option value="lt">Литванија</option>
+
+  <option value="li">Лихтенштајн</option>
+
+  <option value="lu">Луксембург</option>
+
+  <option value="mg">Мадагаскар</option>
+
+  <option value="mo">Макао</option>
+
+  <option value="mw">Малави</option>
+
+  <option value="mv">Малдиви</option>
+
+  <option value="my">Малезија</option>
+
+  <option value="ml">Мали</option>
+
+  <option value="mt">Малта</option>
+
+  <option value="ma">Мароко</option>
+
+  <option value="mq">Мартиник</option>
+
+  <option value="mh">Маршалска Острва</option>
+
+  <option value="mr">Мауританија</option>
+
+  <option value="mu">Маурицијус</option>
+
+  <option value="hu">Мађарска</option>
+
+  <option value="yt">Мајот</option>
+
+  <option value="mx">Мексико</option>
+
+  <option value="qm">Мидвеј</option>
+
+  <option value="fm">Микронезија</option>
+
+  <option value="mz">Мозамбик</option>
+
+  <option value="md">Молдавија</option>
+
+  <option value="mc">Монако</option>
+
+  <option value="mn">Монголија</option>
+
+  <option value="ms">Монсерат</option>
+
+  <option value="mm">Мјанмар</option>
+
+  <option value="na">Намибија</option>
+
+  <option value="nr">Науру</option>
+
+  <option value="de">Немачка</option>
+
+  <option value="np">Непал</option>
+
+  <option value="ne">Нигер</option>
+
+  <option value="ng">Нигерија</option>
+
+  <option value="ni">Никарагва</option>
+
+  <option value="nu">Нијуе</option>
+
+  <option value="nc">Нова Каледонија</option>
+
+  <option value="nz">Нови Зеланд</option>
+
+  <option value="no">Норвешка</option>
+
+  <option value="ci">Обала Слоноваче</option>
+
+  <option value="om">Оман</option>
+
+  <option value="xh">Оство Хауланд</option>
+
+  <option value="xa">Острва Ашмор и Картије</option>
+
+  <option value="qx">Острва Глориозо</option>
+
+  <option value="xc">Острва Коралног мора</option>
+
+  <option value="xp">Острва Парасел</option>
+
+  <option value="pn">Острва Питкерн</option>
+
+  <option value="tc">Острва Туркс и Каикос</option>
+
+  <option value="hm">Острва Херд и Макдоналд</option>
+
+  <option value="qu">Острво Јуан де Нова</option>
+
+  <option value="xq">Острво Џарвис</option>
+
+  <option value="xb">Острво Бејкер</option>
+
+  <option value="bv">Острво Буве</option>
+
+  <option value="qw">Острво Вејк</option>
+
+  <option value="xe">Острво Европа</option>
+
+  <option value="cp">Острво Клипертон</option>
+
+  <option value="im">Острво Ман</option>
+
+  <option value="xv">Острво Наваса</option>
+
+  <option value="nf">Острво Норфок</option>
+
+  <option value="xt">Острво Тромелин</option>
+
+  <option value="pk">Пакистан</option>
+
+  <option value="pw">Палау</option>
+
+  <option value="xl">Палмира</option>
+
+  <option value="pa">Панама</option>
+
+  <option value="pg">Папуа Нова Гвинеја</option>
+
+  <option value="py">Парагвај</option>
+
+  <option value="pe">Перу</option>
+
+  <option value="pr">Порторико</option>
+
+  <option value="pt">Португал</option>
+
+  <option value="xg">Појас Газе</option>
+
+  <option value="pl">Пољска</option>
+
+  <option value="re">Реинион</option>
+
+  <option value="rw">Руанда</option>
+
+  <option value="ro">Румунија</option>
+
+  <option value="ru">Русија</option>
+
+  <option value="sv">Салвадор</option>
+
+  <option value="ws">Самоа</option>
+
+  <option value="sm">Сан Марино</option>
+
+  <option value="st">Сао Томе и Принципе</option>
+
+  <option value="sa">Саудијска Арабија</option>
+
+  <option value="xr">Свалбард</option>
+
+  <option value="sh">Света Јелена, Асенсион и Тристан да Куња</option>
+
+  <option value="lc">Света Луција</option>
+
+  <option value="bl">Свети Бартоломеј</option>
+
+  <option value="vc">Свети Винсент и Гренадини</option>
+
+  <option value="kn">Свети Китс и Невис</option>
+
+  <option value="mf">Свети Мартин</option>
+
+  <option value="sx">Свети Мартин</option>
+
+  <option value="pm">Свети Пјер и Микелон</option>
+
+  <option value="kp">Северна Кореја</option>
+
+  <option value="mk">Северна Македонија</option>
+
+  <option value="mp">Северна Маријанска Острва</option>
+
+  <option value="sn">Сенегал</option>
+
+  <option value="sc">Сејшели</option>
+
+  <option value="sg">Сингапур</option>
+
+  <option value="sy">Сирија</option>
+
+  <option value="sl">Сијера Леоне</option>
+
+  <option value="sk">Словачка</option>
+
+  <option value="si">Словенија</option>
+
+  <option value="sb">Соломонова Острва</option>
+
+  <option value="so">Сомалија</option>
+
+  <option value="xs">Сомалија</option>
+
+  <option value="rs">Србија</option>
+
+  <option value="sd">Судан</option>
+
+  <option value="sr">Суринам</option>
+
+  <option value="us">Сједињене Америчке Државе</option>
+
+  <option value="tz">Танзанија</option>
+
+  <option value="tw">Тајван</option>
+
+  <option value="th">Тајланд</option>
+
+  <option value="tj">Таџикистан</option>
+
+  <option value="tl">Тимор-Лесте</option>
+
+  <option value="tg">Того</option>
+
+  <option value="tk">Токелау</option>
+
+  <option value="to">Тонга</option>
+
+  <option value="tt">Тринидад и Тобаго</option>
+
+  <option value="tv">Тувалу</option>
+
+  <option value="tn">Тунис</option>
+
+  <option value="tm">Туркменистан</option>
+
+  <option value="tr">Турска</option>
+
+  <option value="ug">Уганда</option>
+
+  <option value="uz">Узбекистан</option>
+
+  <option value="ua">Украjина</option>
+
+  <option value="uy">Уругвај</option>
+
+  <option value="ae">Уједињени Арапски Емирати</option>
+
+  <option value="fo">Фарска Острва</option>
+
+  <option value="ph">Филипини</option>
+
+  <option value="fi">Финска</option>
+
+  <option value="fj">Фиџи</option>
+
+  <option value="fk">Фоклендска Острва (Малвинас)</option>
+
+  <option value="fr">Француска</option>
+
+  <option value="gf">Француска Гвајана</option>
+
+  <option value="pf">Француска Полинезија</option>
+
+  <option value="tf">Француске јужне и антарктичке земље</option>
+
+  <option value="ht">Хаити</option>
+
+  <option value="nl">Холандија</option>
+
+  <option value="hk">Хонг Конг</option>
+
+  <option value="hn">Хондурас</option>
+
+  <option value="hr">Хрватска</option>
+
+  <option value="cf">Централноафричка Република</option>
+
+  <option value="me">Црна Гора</option>
+
+  <option value="td">Чад</option>
+
+  <option value="cz">Чешка</option>
+
+  <option value="cl">Чиле</option>
+
+  <option value="ch">Швајцарска</option>
+
+  <option value="se">Шведска</option>
+
+  <option value="es">Шпанија</option>
+
+  <option value="lk">Шри Ланка</option>
+
+</select></p>
+        
+
+        
+          <label for="id_lang">Изаберите језик:</label>
+          <p><select name="lang" required="required" aria-required="true" id="id_lang">
+  <option value="" selected>Доступни језици</option>
+
+  <option value="id">Bahasa Indonesia</option>
+
+  <option value="de">Deutsch</option>
+
+  <option value="en">English</option>
+
+  <option value="es">Español</option>
+
+  <option value="fr">Français</option>
+
+  <option value="pl">Polski</option>
+
+  <option value="pt">Português</option>
+
+  <option value="ru">Русский</option>
+
+  <option value="zh-TW">正體中文</option>
+
+</select></p>
+        
+
+        
+
+        <p>
+          <label for="privacy" class="mzp-u-inline">
+            <input type="checkbox" id="privacy" name="privacy" required aria-required="true" data-testid="newsletter-privacy-checkbox"> Не смета ми да Mozilla рукује мојим подацима као што је објашњено у <a href="/sr/privacy/websites/">овој Изјави приватности</a>
+          </label>
+        </p>
+        </div>
+      </div>
+
+      <p class="mzp-c-form-submit">
+        <button type="submit" id="newsletter-submit" class="mzp-c-button button-dark" data-cta-text="Newsletter Sign Up" data-testid="newsletter-submit-button">
+          
+            Пријавите се сада
+          
+        </button>
+
+        
+            <span class="mzp-c-fieldnote">
+              
+              
+                Слаћемо вам само информације везане за Firefox. Можете се одјавити било када.
+              
+            </span>
+        
+      </p>
+    </fieldset>
+  </form>
+
+  <div id="newsletter-thanks" class="mzp-c-newsletter-thanks hidden" data-testid="newsletter-thanks-message">
+    
+      
+  <h3>Хвала!</h3>
+  <p>Мораћете да потврдите пријаву на један од Mozilla билтена ако већ нисте. Проверите вашу сандуче е-поште или филтер за непожељну пошту.</p>
+
+    
+  </div>
+
+
+        </div>
+      </div>
+  </aside>
+</main>
+
+
+      
+        
+
+
+
+
+  
+
+ <footer class="moz24-footer" id="colophon" role="contentinfo">
+  
+  <div class="moz24-footer-content">
+    <div class="moz24-footer-primary">
+      <div class="moz24-footer-sections-container">
+        <div class="moz24-footer-advertising">
+          <div class="moz24-footer-advertising-wrapper">
+            <h2>Mozilla Advertising</h2>
+            <p>Privacy-first advertising solutions for brands, publishers, and platforms.</p>
+            <a class="moz24-footer-advertising-link" href="/sr/advertising/" data-link-position="footer" data-link-text="Learn more">
+              <span class="mzp-c-button-icon-text">Learn more <span>about Mozilla Advertising</span></span>
+              <span class="mzp-c-button-icon-end">
+                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24" height="24" viewBox="0 0 23.4 24">
+                  <path fill="#fff" d="M23.4 12 9.1 0v10.5H0v3h9.1V24l14.3-12zm-11.3-1.5v-4l6.6 5.5-6.6 5.5v-7z"/>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="moz24-footer-links">
+          <section>
+            <h2 class="moz24-footer-label" data-testid="footer-heading-company">
+              Предузеће
+            </h2>
+            <ul class="moz24-footer-primary-list" data-testid="footer-list-company">
+              <li><a href="/sr/about/leadership/" data-link-position="footer" data-link-text="Leadership">Руководство</a></li>
+              <li><a href="https://blog.mozilla.org/category/mozilla/news/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&utm_content=company" data-link-position="footer" data-link-text="Press Center">Центар за медије</a></li>
+              <li><a href="/sr/careers/" data-link-position="footer" data-link-text="Careers">Каријере</a></li>
+              <li><a href="/sr/contact/" data-link-position="footer" data-link-text="Contact">Контакт</a></li>
+            
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="moz24-footer-label" data-testid="footer-heading-support">
+              Подршка
+            </h2>
+            <ul class="moz24-footer-primary-list" data-testid="footer-list-support">
+              <li><a href="https://support.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&utm_content=support" data-link-position="footer" data-link-text="Product Help">Помоћ за производ</a></li>
+              <li><a href="https://bugzilla.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&utm_content=support" data-link-position="footer" data-link-text="File a Bug">Пријавите грешку</a></li>
+              <li><a href="https://pontoon.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&utm_content=support" data-link-position="footer" data-link-text="Localise Mozilla">Преведите Mozilla-у</a></li>
+              <li><a href="/sr/security/" data-link-position="footer" data-link-text="Security">Security</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="moz24-footer-label" data-testid="footer-heading-developers">
+              Програмери
+            </h2>
+            <ul class="moz24-footer-primary-list" data-testid="footer-list-developers">
+              <li><a href="https://www.firefox.com/channel/desktop/developer/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer" data-link-position="footer" data-link-text="Firefox Developer Edition">Developer Edition</a></li>
+              <li><a href="https://www.firefox.com/browsers/enterprise/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer" data-link-position="footer" data-link-text="Firefox for Enterprise">Enterprise</a></li>
+              <li><a href="https://firefox-source-docs.mozilla.org/devtools-user/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer&utm_content=developers" rel="external" data-link-position="footer" data-link-text="Tools">Алатке</a></li>
+              <li><a href="https://developer.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer" data-link-position="footer" data-link-text="MDN">MDN</a></li>
+              <li><a href="https://www.firefox.com/firefox/143.0.4/releasenotes/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer" data-link-position="footer" data-link-text="Firefox Release Notes">Firefox напомене о издању</a></li>
+            </ul>
+          </section>
+        </div>
+        <div class="moz24-footer-socials">
+          <div class="moz24-footer-refresh-social-wrapper">
+            <h2 class="moz24-footer-heading-social">Пратите @Mozilla</h2>
+            <ul class="moz24-footer-social-links">
+              <li><a class="bluesky" href="https://bsky.app/profile/mozilla.org" data-link-position="footer" data-link-text="Bluesky (@mozilla.org)" translate="no">Bluesky<span> (@mozilla.org)</span></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/mozilla/" data-link-position="footer" data-link-text="Instagram (@mozilla)">Instagram<span> (@mozilla)</span></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/company/mozilla-corporation/" data-link-position="footer" data-link-text="LinkedIn (@mozilla)">LinkedIn<span> (@mozilla)</span></a></li>
+              <li><a class="tiktok" href="https://www.tiktok.com/@mozilla" data-link-position="footer" data-link-text="TikTok (@mozilla)">TikTok<span> (@mozilla)</span></a></li>
+              <li><a class="spotify" href="https://open.spotify.com/show/0vT7LJMeVDxyQ2ZamHKu08?si=_uDRD6bRR_6M5YZyISGXgA" data-link-position="footer" data-link-text="Spotify (@mozilla)">Spotify<span> (@mozilla)</span></a></li>
+            </ul>
+          </div>
+          <div class="moz24-footer-refresh-social-wrapper">
+            <h2 class="moz24-footer-heading-social">Пратите @Firefox</h2>
+            <ul class="moz24-footer-social-links">
+              <li><a class="bluesky" href="https://bsky.app/profile/firefox.com" data-link-position="footer" data-link-text="Bluesky (@firefox.com)" translate="no">Bluesky<span> (@firefox.com)</span></a></li>
+              <li><a class="instagram" href="https://www.instagram.com/firefox/" data-link-position="footer" data-link-text="Instagram (@firefox)">Instagram<span> (@firefox)</span></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/user/firefoxchannel" data-link-position="footer" data-link-text="YouTube (@firefoxchannel)">YouTube<span> (@firefoxchannel)</span></a></li>
+              <li><a class="tiktok" href="https://www.tiktok.com/@firefox" data-link-position="footer" data-link-text="TikTok (@firefox)">TikTok<span> (@firefox)</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="moz24-footer-actions">
+      <a class="moz24-footer-donate" href="https://foundation.mozilla.org/?form=moco-donate-footer" data-link-type="button" data-link-text="Donate">
+        <span class="mzp-c-button-icon-start">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path fill="currentColor" d="M16.34 2.93c-1.26 0-2.34.46-3.2 1.03-.11.09-.57.43-.84.82h-.71c-.28-.4-.75-.75-.85-.81s-.02-.01-.03-.02h-.01c-.85-.56-1.92-1-3.16-1-3.09 0-5.6 2.57-5.6 5.73 0 1.6.52 3.26 1.55 4.94.79 1.28 1.87 2.57 3.22 3.85 2.27 2.14 4.51 3.49 4.61 3.55l.29.17h.66l.29-.17c.09-.06 2.34-1.41 4.61-3.55 1.35-1.28 2.44-2.57 3.22-3.85 1.03-1.68 1.55-3.34 1.55-4.94 0-3.16-2.51-5.73-5.6-5.73Zm-.8 12.74c-1.4 1.33-2.82 2.34-3.61 2.87-.78-.53-2.21-1.54-3.61-2.87-1.82-1.72-3.99-4.34-3.99-7.02 0-1.83 1.44-3.33 3.2-3.33.78 0 1.58.33 2.36.99.37.31.66.63.83.85s0 .01 0 .01v2.39h2.4V7.15c.18-.22.46-.53.83-.84.78-.66 1.58-.99 2.36-.99 1.76 0 3.2 1.49 3.2 3.33 0 2.68-2.17 5.29-3.99 7.02Z"/>
+          </svg>
+        </span>
+        <span class="mzp-c-button-icon-text">Донирајте</span>
+      </a>
+      <div class="moz24-footer-language">
+        
+   <form id="lang_form" class="moz24-c-language-switcher" method="get" action="#">
+    <a class="mzp-c-language-switcher-link" href="/locales/">Језик</a>
+    <label for="page-language-select">Језик</label>
+     <select id="page-language-select" class="mzp-js-language-switcher-select" name="lang" dir="ltr" data-testid="footer-language-select">
+       
+         <option lang="an" value="an">aragonés</option>
+       
+         <option lang="ar" value="ar">عربي</option>
+       
+         <option lang="ast" value="ast">Asturianu</option>
+       
+         <option lang="az" value="az">Azərbaycanca</option>
+       
+         <option lang="be" value="be">Беларуская</option>
+       
+         <option lang="bg" value="bg">Български</option>
+       
+         <option lang="bn" value="bn">বাংলা</option>
+       
+         <option lang="bs" value="bs">Bosanski</option>
+       
+         <option lang="ca" value="ca">Català</option>
+       
+         <option lang="cak" value="cak">Maya Kaqchikel</option>
+       
+         <option lang="cs" value="cs">Čeština</option>
+       
+         <option lang="cy" value="cy">Cymraeg</option>
+       
+         <option lang="da" value="da">Dansk</option>
+       
+         <option lang="de" value="de">Deutsch</option>
+       
+         <option lang="dsb" value="dsb">Dolnoserbšćina</option>
+       
+         <option lang="el" value="el">Ελληνικά</option>
+       
+         <option lang="en-CA" value="en-CA">English (Canadian)</option>
+       
+         <option lang="en-GB" value="en-GB">English (British)</option>
+       
+         <option lang="en-US" value="en-US">English</option>
+       
+         <option lang="eo" value="eo">Esperanto</option>
+       
+         <option lang="es-AR" value="es-AR">Español (de Argentina)</option>
+       
+         <option lang="es-CL" value="es-CL">Español (de Chile)</option>
+       
+         <option lang="es-ES" value="es-ES">Español (de España)</option>
+       
+         <option lang="es-MX" value="es-MX">Español (de México)</option>
+       
+         <option lang="et" value="et">Eesti keel</option>
+       
+         <option lang="eu" value="eu">Euskara</option>
+       
+         <option lang="fa" value="fa">فارسی</option>
+       
+         <option lang="fi" value="fi">suomi</option>
+       
+         <option lang="fr" value="fr">Français</option>
+       
+         <option lang="fy-NL" value="fy-NL">Frysk</option>
+       
+         <option lang="gd" value="gd">Gàidhlig</option>
+       
+         <option lang="gl" value="gl">Galego</option>
+       
+         <option lang="gn" value="gn">Avañe'ẽ</option>
+       
+         <option lang="gu-IN" value="gu-IN">ગુજરાતી (ભારત)</option>
+       
+         <option lang="he" value="he">עברית</option>
+       
+         <option lang="hi-IN" value="hi-IN">हिन्दी (भारत)</option>
+       
+         <option lang="hr" value="hr">Hrvatski</option>
+       
+         <option lang="hsb" value="hsb">Hornjoserbsce</option>
+       
+         <option lang="hu" value="hu">magyar</option>
+       
+         <option lang="hy-AM" value="hy-AM">Հայերեն</option>
+       
+         <option lang="ia" value="ia">Interlingua</option>
+       
+         <option lang="id" value="id">Bahasa Indonesia</option>
+       
+         <option lang="is" value="is">íslenska</option>
+       
+         <option lang="it" value="it">Italiano</option>
+       
+         <option lang="ja" value="ja">日本語</option>
+       
+         <option lang="ka" value="ka">ქართული</option>
+       
+         <option lang="kab" value="kab">Taqbaylit</option>
+       
+         <option lang="ko" value="ko">한국어</option>
+       
+         <option lang="lij" value="lij">Ligure</option>
+       
+         <option lang="lo" value="lo">ພາສາລາວ</option>
+       
+         <option lang="lt" value="lt">Lietuvių</option>
+       
+         <option lang="ml" value="ml">മലയാളം</option>
+       
+         <option lang="mr" value="mr">मराठी</option>
+       
+         <option lang="ms" value="ms">Melayu</option>
+       
+         <option lang="my" value="my">မြန်မာဘာသာ</option>
+       
+         <option lang="nb-NO" value="nb-NO">Norsk bokmål</option>
+       
+         <option lang="nl" value="nl">Nederlands</option>
+       
+         <option lang="nn-NO" value="nn-NO">Norsk nynorsk</option>
+       
+         <option lang="pa-IN" value="pa-IN">ਪੰਜਾਬੀ (ਭਾਰਤ)</option>
+       
+         <option lang="pl" value="pl">Polski</option>
+       
+         <option lang="pt-BR" value="pt-BR">Português (do Brasil)</option>
+       
+         <option lang="pt-PT" value="pt-PT">Português (Europeu)</option>
+       
+         <option lang="rm" value="rm">rumantsch</option>
+       
+         <option lang="ro" value="ro">Română</option>
+       
+         <option lang="ru" value="ru">Русский</option>
+       
+         <option lang="sco" value="sco">Scots</option>
+       
+         <option lang="si" value="si">සිංහල</option>
+       
+         <option lang="sk" value="sk">slovenčina</option>
+       
+         <option lang="skr" value="skr">سرائیکی</option>
+       
+         <option lang="sl" value="sl">Slovenščina</option>
+       
+         <option lang="sq" value="sq">Shqip</option>
+       
+         <option lang="sr" value="sr" selected>Српски</option>
+       
+         <option lang="sv-SE" value="sv-SE">Svenska</option>
+       
+         <option lang="ta" value="ta">தமிழ்</option>
+       
+         <option lang="tg" value="tg">Тоҷикӣ</option>
+       
+         <option lang="th" value="th">ไทย</option>
+       
+         <option lang="tr" value="tr">Türkçe</option>
+       
+         <option lang="trs" value="trs">Triqui</option>
+       
+         <option lang="uk" value="uk">Українська</option>
+       
+         <option lang="ur" value="ur">اُردو</option>
+       
+         <option lang="vi" value="vi">Tiếng Việt</option>
+       
+         <option lang="zh-CN" value="zh-CN">中文 (简体)</option>
+       
+         <option lang="zh-TW" value="zh-TW">正體中文 (繁體)</option>
+       
+     </select>
+   </form>
+ 
+       </div>
+    </div>
+    <div class="moz24-footer-secondary">
+      <div class="moz24-footer-legal">
+        <p class="moz24-footer-license" rel="license">
+          
+          
+          Посетите непрофитну матичну компанију <a href="/sr/" data-link-position="footer" data-link-text="Mozilla Corporation">Mozilla Corporation</a>, <a href="https://foundation.mozilla.org/?utm_source=www.mozilla.org&amp;utm_medium=referral&amp;utm_campaign=footer" rel="external noopener" data-link-position="footer" data-link-text="Mozilla Foundation">Mozilla Foundation</a>.<br>
+          Права над деловима овог садржаја су ©1998–2025 појединачни сарадници mozilla.org пројекта. Садржај је доступан под <a rel="license" href="/sr/foundation/licensing/website-content/">Creative Commons лиценцом</a>.
+        </p>
+        <ul class="moz24-footer-terms">
+          <li><a href="/sr/privacy/websites/" data-link-position="footer" data-link-text="Privacy">Обавештење о приватности сајта</a></li>
+          <li>
+            
+            <a href="/sr/privacy/websites/cookie-settings/" data-link-position="footer" data-link-text="Cookies">Колачићи</a>
+          </li>
+          <li><a href="/sr/about/legal/" data-link-position="footer" data-link-text="Legal">Правно</a></li>
+          <li><a href="/sr/about/governance/policies/participation/" data-link-position="footer" data-link-text="Community Participation Guidelines">Смернице за учешће у заједници</a></li>
+          
+            <li><a href="/sr/about/this-site/" data-link-position="footer" data-link-text="About this site">О овом сајту</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <img loading="lazy" class="moz24-footer-logo-image-bottom" src="https://www.mozilla.org/media/img/logos/m24/wordmark-white.2d673bb5b33a.svg" alt="" width="1376" height="285">
+  </div>
+</footer>
+
+
+  
+
+
+      
+
+      
+      
+  
+    
+
+
+
+
+
+<aside class="c-banner hide-from-legacy-ie mzp-t-firefox t-native" id="firefox-app-store-banner" aria-label="Преузимање са App store-а">
+  
+  <div class="c-banner-inner" data-nosnippet="true">
+    <div class="mzp-l-content">
+      <div class="c-banner-main">
+          <button type="button" class="c-banner-close"><span>Затвори</span></button>
+            <img class="c-banner-icon" src="https://www.mozilla.org/media/img/banners/mobile/app-icon-512.782bf4aa77fd.jpg" width="57" height="57" alt="">
+          <div class=c-banner-copy>
+            <h2 class="c-banner-title">Firefox: Приватан и сигуран прегледач</h2>
+            <p>Mozilla</p>
+            <p class="show-android">Бесплатно – на Google Play</p>
+            <p class="show-ios">Бесплатно – на App Store</p>
+          </div>
+          <a class="c-banner-button show-android ga-product-download" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dwww.mozilla.org%26utm_medium%3Dreferral%26utm_campaign%3Dapp-store-banner&amp;hl=sr" data-cta-text="View (Android)" data-cta-type="firefox_mobile" data-cta-position="banner">Преглед</a>
+          <a class="c-banner-link show-ios ga-product-download" href="https://apps.apple.com/app/apple-store/id989804926?mz_pr=firefox_mobile&amp;pt=373246&amp;ct=app-store-banner&amp;mt=8" data-cta-text="View (iOS)" data-cta-type="firefox_mobile" data-cta-position="banner">Преглед</a>
+      </div>
+    </div>
+  </div>
+</aside>
+
+  
+
+    </div>
+
+    
+    
+      
+        <!--[if !IE]><!-->
+          
+          <script src="https://www.mozilla.org/media/js/sentry.bcde33fd3cfe.js"></script>
+        <!--<![endif]-->
+      
+    
+
+    
+      <!--[if !IE]><!-->
+        
+        <script src="https://www.mozilla.org/media/js/lib.7cb1e204ce21.js"></script>
+        <script src="https://www.mozilla.org/media/js/fxa.f30434397531.js"></script>
+        <script src="https://www.mozilla.org/media/js/data.024ac2959f4a.js"></script>
+        
+          <script src="https://www.mozilla.org/media/js/m24-ui.abe5cd072012.js"></script>
+        
+      <!--<![endif]-->
+
+      <!--[if IE 9]>
+        
+        <script src="https://www.mozilla.org/media/js/lib-ie.cf16e08599c3.js"></script>
+      <![endif]-->
+    
+
+    
+    
+      
+        <!--[if IE 9]><!-->
+          
+          <script src="https://www.mozilla.org/media/js/stub-attribution.819aeb6b157b.js"></script>
+        <!--<![endif]-->
+      
+    
+
+    <!--[if !IE]><!-->
+    
+    
+      
+    
+
+    
+  <script src="https://www.mozilla.org/media/js/newsletter.71014fae1f98.js"></script>
+
+  
+    <script src="https://www.mozilla.org/media/js/firefox-app-store-banner.d4ceb205cbba.js"></script>
+  
+
+
+    
+    <!--<![endif]-->
+
+    
+    <!--[if IE 9]><!-->
+      
+      <script src="https://www.mozilla.org/media/js/consent-banner.497ea1aa3e76.js"></script>
+    <!--<![endif]-->
+    
+  </body>
+</html>

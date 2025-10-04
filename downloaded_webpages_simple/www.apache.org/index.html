@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="" name="description"/>
+<link href="local_resources\apple-touch-icon-57x57_a8d9e28730a63272.png" rel="apple-touch-icon" sizes="57x57"/>
+<link href="local_resources\apple-touch-icon-60x60_d0bcfc36dc7cf2a0.png" rel="apple-touch-icon" sizes="60x60"/>
+<link href="local_resources\apple-touch-icon-72x72_5584028777fb58c3.png" rel="apple-touch-icon" sizes="72x72"/>
+<link href="local_resources\apple-touch-icon-76x76_b2e689410b6a9724.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="local_resources\apple-touch-icon-114x114_c31815c76c9c35e5.png" rel="apple-touch-icon" sizes="114x114"/>
+<link href="local_resources\apple-touch-icon-120x120_ca18072b4eb3ad75.png" rel="apple-touch-icon" sizes="120x120"/>
+<link href="local_resources\apple-touch-icon-144x144_2fe24f956c4019f3.png" rel="apple-touch-icon" sizes="144x144"/>
+<link href="local_resources\apple-touch-icon-152x152_21e845b63d057931.png" rel="apple-touch-icon" sizes="152x152"/>
+<link href="local_resources\apple-touch-icon-180x180_8e7e9b33c657b848.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="local_resources\favicon-32x32_2af52c6b9f50284d.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="local_resources\favicon-194x194_c2ab7a17c3522025.png" rel="icon" sizes="194x194" type="image/png"/>
+<link href="local_resources\favicon-96x96_6a306ec1dbf943f8.png" rel="icon" sizes="96x96" type="image/png"/>
+<link href="local_resources\android-chrome-192x192_b867033cd35c31a2.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="local_resources\favicon-16x16_58764e454fe83a6d.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="local_resources\manifest_8bba77f90c9e037a.json" rel="manifest"/>
+<link href="local_resources\favicon_039c9b9209320cf7.png" rel="shortcut icon"/>
+<meta content="#603cba" name="msapplication-TileColor"/>
+<meta content="/favicons/mstile-144x144.png" name="msapplication-TileImage"/>
+<meta content="/favicons/browserconfig.xml" name="msapplication-config"/>
+<meta content="#282661" name="theme-color"/>
+<title>Welcome to The Apache Software Foundation | Apache Software Foundations</title>
+<link href="local_resources\Montserrat-300-600-800_9c00653e965024b1.css" rel="stylesheet"/>
+<link href="local_resources\OpenSans_462242b9a890359e.css" rel="stylesheet"/>
+<link href="local_resources\min.bootstrap_94450aa6e6844403.css" rel="stylesheet"/>
+<link href="local_resources\styles_4a714d3116c9fa7b.css" rel="stylesheet"/>
+<link href="local_resources\new-ui_f5bd653424bd9dfd.css" rel="stylesheet"/>
+<script src="local_resources\snippet_13c556f62df12fc6.js"></script>
+<style>
+.headerlink {
+  visibility: hidden;
+}
+dt:hover > .headerlink, p:hover > .headerlink, td:hover > .headerlink, h1:hover > .headerlink, h2:hover > .headerlink, h3:hover > .headerlink, h4:hover > .headerlink, h5:hover > .headerlink, h6:hover > .headerlink {
+  visibility: visible
+}  </style>
+<!-- pagefind search -->
+<link href="local_resources\pagefind-ui_4895219fdaedf688.css" rel="stylesheet"/>
+<script src="local_resources\pagefind-ui_38bd849f9784542e.js" type="text/javascript"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#pagefind-search" });
+    });
+    var pageTitle = 'Welcome to The Apache Software Foundation';
+    if(pageTitle === '404'){
+      window.addEventListener('DOMContentLoaded', (event) => {
+          new PagefindUI({ element: "#page-404-search" });
+      });
+    }
+  </script>
+<!-- Matomo -->
+<script>
+    var pageTitle = 'Welcome to The Apache Software Foundation';
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before
+"trackPageView" */
+    /* We explicitly disable cookie tracking to avoid privacy issues */
+    _paq.push(['disableCookies']);
+    if(pageTitle === '404'){
+      /* Track 404 page hits */
+      _paq.push(['setDocumentTitle',  '404/URL = ' +  encodeURIComponent(document.location.pathname+document.location.search) + '/From = ' + encodeURIComponent(document.referrer)]);
+    }
+    /* Measure a visit to flink.apache.org and nightlies.apache.org/flink
+as the same visit */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//analytics.apache.org/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '37']);
+      var d=document, g=d.createElement('script'),
+s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+<!-- End Matomo Code -->
+<script src="local_resources\jquery.min_8419a7cb1ed09df3.js"></script>
+</head>
+<body id="home">
+<!-- Navigation -->
+<header id="top-header">
+<div class="header-banner">
+<div class="inner text-center">
+<p>Introducing The ASFâs New Logo <a href="https://news.apache.org/foundation/entry/introducing-the-asfs-new-logo" target="_blank">Learn More</a></p>
+</div>
+</div>
+<div class="logo-row">
+<div class="inner text-center py-medium">
+<a href="/" id="logo"><img alt="Apache Software Foundation Logo" class="logo" src="local_resources\asflogo_horizontal_color_32c0d5db75916e27.svg"/></a>
+</div>
+</div>
+<div class="lower-header">
+<div class="inner">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#mainnav-collapse" data-toggle="collapse" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="mainnav-collapse">
+<ul class="nav navbar-nav navbar-justified n-navbar-padding">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Community <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li role="listitem"><a href="https://community.apache.org/" role="menuitem" target="_blank">Contributor Getting Started</a></li>
+<li role="listitem"><a href="https://community.apache.org/contributors/" role="menuitem" target="_blank">Becoming a Committer</a></li>
+<li role="listitem"><a href="/foundation/policies/conduct" role="menuitem">Code of Conduct</a></li>
+<li role="listitem"><a href="/community-resources/" role="menuitem">Community Resources</a></li>
+<li role="listitem"><a href="https://communityovercode.org/" role="menuitem" target="_blank">Community Over Code</a></li>
+<li role="listitem"><a href="https://events.apache.org/" role="menuitem" target="_blank">Events</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Projects <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li role="listitem"><a href="/projects" role="menuitem">Projects</a></li>
+<li role="listitem"><a href="https://incubator.apache.org/" role="menuitem" target="_blank">Incubator Projects</a></li>
+<li role="listitem"><a href="https://projects.apache.org/" role="menuitem" target="_blank">Projects Directory </a></li>
+<li role="listitem"><a href="/foundation/mailinglists" role="menuitem">Mailing Lists </a></li>
+<li role="listitem"><a href="/security" role="menuitem">Report a Vulnerability</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Downloads <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li role="listitem"><a href="https://downloads.apache.org/" role="menuitem" target="_blank">Distributions</a></li>
+<li role="listitem"><a href="https://projects.apache.org/releases.html" role="menuitem" target="_blank">Releases</a></li>
+<li role="listitem"><a href="https://status.apache.org/" role="menuitem" target="_blank">Infrastructure Status</a></li>
+<li role="listitem"><a href="https://infra-reports.apache.org/#uptime" role="menuitem" target="_blank">Infrastructure Statistics</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Learn <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li role="listitem"><a href="https://news.apache.org/" role="menuitem" target="_blank">Blog</a></li>
+<li role="listitem"><a href="/foundation/how-it-works" role="menuitem">How the ASF Works</a></li>
+<li role="listitem"><a href="/theapacheway/" role="menuitem">The Apache Way</a></li>
+<li role="listitem"><a href="/legal/" role="menuitem">Legal &amp; Trademark</a></li>
+<li role="listitem"><a href="/licenses" role="menuitem">Licenses</a></li>
+<li role="listitem"><a href="/foundation/glossary" role="menuitem">Glossary</a></li>
+<li role="listitem"><a href="/foundation/faq" role="menuitem">FAQ</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Resources &amp; Tools <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li role="listitem"><a href="/dev/" role="menuitem">Developer Information</a></li>
+<li role="listitem"><a href="https://cwiki.apache.org/" role="menuitem" target="_blank">Wiki</a></li>
+<li role="listitem"><a href="https://issues.apache.org/" role="menuitem" target="_blank">Issues</a></li>
+<li role="listitem"><a href="https://infra.apache.org/slack.html" role="menuitem" target="_blank">Slack</a></li>
+<li role="listitem"><a href="https://selfserve.apache.org/" role="menuitem" target="_blank">Self Serve Portal</a></li>
+<li role="listitem"><a href="https://infra.apache.org/" role="menuitem" target="_blank">Infrastructure</a></li>
+<li role="listitem"><a href="https://whimsy.apache.org/" role="menuitem" target="_blank">Whimsy</a></li>
+<li role="listitem"><a href="/foundation/press/kit/" role="menuitem">Brand Guidelines</a></li>
+<li role="listitem"><a href="/logos/" role="menuitem">Project Logos</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">About <span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li role="listitem"><a href="/foundation/" role="menuitem">About</a></li>
+<li role="listitem"><a href="/foundation/sponsors" role="menuitem">Our Sponsors</a></li>
+<li role="listitem"><a href="/foundation/sponsorship" role="menuitem">Corporate Sponsorship</a></li>
+<li role="listitem"><a href="/foundation/individual-supporters" role="menuitem">Individual Supporters</a></li>
+<li role="listitem"><a href="/foundation/leadership" role="menuitem">Leadership</a></li>
+<li role="listitem"><a href="/foundation/members" role="menuitem">Members</a></li>
+<li role="listitem"><a href="https://diversity.apache.org/" role="menuitem" target="_blank">Diversity &amp; Inclusion</a></li>
+<li role="listitem"><a href="/press/" role="menuitem">Newsroom</a></li>
+<li role="listitem"><a href="/foundation/contact" role="menuitem">Contact</a></li>
+</ul>
+</li>
+<li><a class="btn" href="/foundation/sponsorship">Sponsor</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle hidden-xs" data-toggle="dropdown" href="#" role="button"><span aria-hidden="true" class="glyphicon glyphicon-search"></span><span class="sr-only">Search</span></a>
+<ul class="dropdown-menu search-form" role="search">
+<li>
+<div class="input-group" id="pagefind-search" style="width: 100%; padding: 0 5px;"></div>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</header>
+<!-- Script is to make the input field ready as soon as user click the search button-->
+<!-- script could be simplyfy and shorten in length bootstrap framework  -->
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Using Bootstrap's event system for dropdowns
+            $(document).on('shown.bs.dropdown', '.dropdown', function () {
+                // Check if this is the search dropdown
+                if ($(this).find('.glyphicon-search').length > 0) {
+                    // Find and focus the search input
+                    setTimeout(function() {
+                        $('.pagefind-ui__search-input').focus();
+                    }, 50); // Small delay to ensure input is ready
+                }
+            });
+        });
+    </script>
+<!-- 
+         Default Page Hero section
+         Home page is exlcuded because it has a more custom design
+     -->
+<main id="maincontent">
+<section class="home-hero" id="parallax">
+<!-- update -->
+<div class="inner flex">
+<div class="w66 py-xl flex flex-column flex-justify-center pr-medium">
+<h1 id="software-for-the-public-good">Software For The Public Good<a class="headerlink" href="#software-for-the-public-good" title="Permalink">¶</a></h1>
+<p>The Apache® Software Foundation (ASF) provides software for the public good, guided by community over code. Like the enduring oak tree, our projects thrive through the contributions of thousands worldwide.</p>
+<p><a class="btn" href="/projects/">Learn More</a></p>
+</div>
+<div class="w33 relative scrolling-logos">
+<div class="home-hero-parallax" id="para-1">
+<img alt="Logo" class="object-fit-contain" src="local_resources\Apache_PoweredBy_16688e944f8d8314.svg"/>
+</div>
+<div class="home-hero-parallax" id="para-2">
+<img alt="Logo" class="object-fit-contain" src="local_resources\default_77f670727e1aec99.png"/>
+</div>
+<div class="home-hero-parallax" id="para-3">
+<img alt="Logo" class="object-fit-contain" src="local_resources\default_480f7a6dd52488f8.png"/>
+</div>
+<div class="home-hero-parallax pad-0" id="para-4">
+<img alt="Logo" class="object-fit-contain" src="local_resources\parallax-4_fccb1921745623bc.png"/>
+</div>
+<div class="home-hero-parallax pad-0" id="para-5">
+<img alt="Logo" class="object-fit-contain" src="local_resources\parallax-5_c999bc302943261f.png"/>
+</div>
+<div class="home-hero-parallax pad-0" id="para-6">
+<img alt="Logo" class="object-fit-contain" src="local_resources\parallax-8_686aa839f61c5edc.webp"/>
+</div>
+<div class="home-hero-parallax pad-0" id="para-7">
+<img alt="Logo" class="object-fit-contain" src="local_resources\default_c0651b0d35e2d09a.png"/>
+</div>
+<div class="home-hero-parallax pad-0" id="para-8">
+<img alt="Logo" class="object-fit-contain" src="local_resources\parallax-7_dd3c775d938d9259.webp"/>
+</div>
+</div>
+</div></section>
+<p class="hidden">
+<script>
+    // Parallax scrolling effect
+    if (window.innerWidth > 600) {
+        // disable parallax on mobile
+        const parallax = document.getElementById('parallax');
+        const para1 = document.getElementById('para-1');
+        const para2 = document.getElementById('para-2');
+        const para3 = document.getElementById('para-3');
+        const para4 = document.getElementById('para-4');
+        const para5 = document.getElementById('para-5');
+        const para6 = document.getElementById('para-6');
+        const para7 = document.getElementById('para-7');
+        const para8 = document.getElementById('para-8');
+        window.addEventListener('scroll', () => {
+            // Check if parallax element is in viewport
+            const rect = parallax.getBoundingClientRect();
+            const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
+            if (isInViewport) {
+                let scrollPosition = window.scrollY;
+                para1.style.transform = `translateY(${scrollPosition * -0.5}px)`;
+                para2.style.transform = `translateY(${scrollPosition * -0.1}px)`;
+                para3.style.transform = `translateY(${scrollPosition * -0.2}px)`;
+                para4.style.transform = `translateY(${scrollPosition * -0.5}px)`;
+                para5.style.transform = `translateY(${scrollPosition * -0.4}px)`;
+                para6.style.transform = `translateY(${scrollPosition * -.7}px)`;
+                para7.style.transform = `translateY(${scrollPosition * -0.2}px)`;
+                para8.style.transform = `translateY(${scrollPosition * -0.1}px)`;
+            }
+        });  
+    }
+</script>
+</p>
+<section class="bg-navy" id="home-stats">
+<div class="inner text-center py-large">
+<h2 class="text-white mt-0" id="our-impact">Our Impact<a class="headerlink" href="#our-impact" title="Permalink">¶</a></h2>
+<div class="stat-boxes flex flex-center mt-large">
+<div class="stat-box">
+<a href="https://projects.apache.org/">290+  <span>Open Source Projects</span></a>
+</div>
+<div class="stat-box">
+<a href="https://projects.apache.org/releases">1300+  <span>Software Releases</span></a>
+</div>
+<div class="stat-box">
+<a href="https://github.com/orgs/apache/people">9700+  <span>Committers</span></a>
+</div>
+<div class="stat-box">
+<a href="/foundation/members">1140+  <span>Members</span></a>
+</div>
+</div>
+</div>
+</section>
+<section id="open-source-project">
+<div class="inner text-center py-large">
+<div class="text-col">
+<h2 id="our-open-source-projects">Our Open Source Projects<a class="headerlink" href="#our-open-source-projects" title="Permalink">¶</a></h2>
+<p>The ASF is the home of the world’s most trusted open source projects in data, cloud, search, libraries, geospatial, IoT, and beyond.</p>
+</div>
+<div class="project-cards mb-large">
+<div class="logo-card" id="empire-db">
+<a href="https://empire-db.apache.org/" target="_blank" title="Empire-db">
+<img alt="Empire-db" class="objec-fit-cover" src="local_resources\Apache_PoweredBy_16688e944f8d8314.svg"/>
+</a>
+</div><div class="logo-card" id="tika">
+<a href="https://tika.apache.org/" target="_blank" title="Tika">
+<img alt="Tika" class="objec-fit-cover" src="local_resources\default_77f670727e1aec99.png"/>
+</a>
+</div><div class="logo-card" id="superset">
+<a href="https://superset.apache.org" target="_blank" title="Superset">
+<img alt="Superset" class="objec-fit-cover" src="local_resources\default_480f7a6dd52488f8.png"/>
+</a>
+</div><div class="logo-card" id="royale">
+<a href="https://royale.apache.org/" target="_blank" title="Royale">
+<img alt="Royale" class="objec-fit-cover" src="local_resources\default_c0651b0d35e2d09a.png"/>
+</a>
+</div><div class="logo-card" id="flagon">
+<a href="https://flagon.apache.org" target="_blank" title="Flagon">
+<img alt="Flagon" class="objec-fit-cover" src="local_resources\default_8c76dced6c4cdec3.png"/>
+</a>
+</div><div class="logo-card" id="stormcrawler">
+<a href="https://stormcrawler.apache.org" target="_blank" title="StormCrawler">
+<img alt="StormCrawler" class="objec-fit-cover" src="local_resources\default_8ab8e88ffe39134e.png"/>
+</a>
+</div><div class="logo-card" id="cxf">
+<a href="https://cxf.apache.org/" target="_blank" title="CXF">
+<img alt="CXF" class="objec-fit-cover" src="local_resources\default_897ca20eccc0bc3e.png"/>
+</a>
+</div><div class="logo-card" id="attic">
+<a href="https://attic.apache.org/" target="_blank" title="Attic">
+<img alt="Attic" class="objec-fit-cover" src="local_resources\Apache_PoweredBy_16688e944f8d8314.svg"/>
+</a>
+</div><div class="logo-card" id="olingo">
+<a href="https://olingo.apache.org/" target="_blank" title="Olingo">
+<img alt="Olingo" class="objec-fit-cover" src="local_resources\default_839d16209727d241.png"/>
+</a>
+</div><div class="logo-card" id="qpid">
+<a href="https://qpid.apache.org/" target="_blank" title="Qpid">
+<img alt="Qpid" class="objec-fit-cover" src="local_resources\default_64d197368ed0f6a1.png"/>
+</a>
+</div><div class="logo-card" id="tvm">
+<a href="https://tvm.apache.org" target="_blank" title="TVM">
+<img alt="TVM" class="objec-fit-cover" src="local_resources\default_943d12959df19670.png"/>
+</a>
+</div><div class="logo-card" id="gravitino">
+<a href="https://gravitino.apache.org" target="_blank" title="Gravitino">
+<img alt="Gravitino" class="objec-fit-cover" src="local_resources\default_bba9045a07d5962f.png"/>
+</a>
+</div>
+</div>
+<p><a class="btn" href="https://projects.apache.org/">See All Projects</a></p>
+<h2 id="our-incubating-projects">Our Incubating Projects<a class="headerlink" href="#our-incubating-projects" title="Permalink">¶</a></h2>
+<div class="project-cards mb-large" id="incubating-projects">
+<div class="logo-card" id="seata">
+<a href="http://seata.incubator.apache.org" target="_blank" title="Seata">
+<img alt="Seata" class="objec-fit-cover" src="local_resources\default_2f046681cdda7743.png"/>
+</a>
+</div><div class="logo-card" id="kie">
+<a href="http://kie.apache.org" target="_blank" title="KIE">
+<img alt="KIE" class="objec-fit-cover" src="local_resources\default_4ef4e8266e7c0899.png"/>
+</a>
+</div><div class="logo-card" id="amoro">
+<a href="http://amoro.incubator.apache.org" target="_blank" title="Amoro">
+<img alt="Amoro" class="objec-fit-cover" src="local_resources\default_4ef4e8266e7c0899.png"/>
+</a>
+</div><div class="logo-card" id="fesod">
+<a href="http://fesod.incubator.apache.org" target="_blank" title="Fesod">
+<img alt="Fesod" class="objec-fit-cover" src="local_resources\default_4ef4e8266e7c0899.png"/>
+</a>
+</div><div class="logo-card" id="hamilton">
+<a href="https://hamilton.apache.org" target="_blank" title="Hamilton">
+<img alt="Hamilton" class="objec-fit-cover" src="local_resources\default_4ef4e8266e7c0899.png"/>
+</a>
+</div><div class="logo-card" id="xtable">
+<a href="https://xtable.apache.org" target="_blank" title="XTable">
+<img alt="XTable" class="objec-fit-cover" src="local_resources\default_4ef4e8266e7c0899.png"/>
+</a>
+</div>
+</div>
+<p><a class="btn" href="https://incubator.apache.org/projects/#current">See All Incubating Projects</a></p>
+<p class="hidden">
+<script>
+                jQuery(function(){
+                    var logos = jQuery('#incubating-projects').find('.logo-card');
+                    logos.each(function(){
+                        var img = jQuery(this).find('img');
+                        var link = jQuery(this).find('a');
+                        if(img.attr('src') === 'https://www.apache.org/logos/res/incubator/default.png'){
+                            var title = jQuery(this).attr('id');
+                            img.remove();
+                            // append a div with the project name to the link
+                            link.append('<div class="placeholder-logo">'+title+'</div>');
+                        }
+                    });
+                });
+            </script>
+</p>
+<div class="callout-card callout-card--home py-large">
+<div class="callout-card-inner py-large px-large">
+<h2 class="text-white" id="incubate-a-project">Incubate a Project<a class="headerlink" href="#incubate-a-project" title="Permalink">¶</a></h2>
+<p>Give your project a neutral, trusted home where communities flourish — with the ASF’s expertise, tools, and support to help you succeed.</p>
+<p><a class="btn btn--white" href="https://incubator.apache.org/">Learn More</a></p>
+</div>
+</div>
+</div>
+</section>
+<section class="everyone-welcome" id="everyone-welcome">
+<div class="inner py-xl flex gap-large flex-column-reverse-600">
+<div class="flex-1">
+<h2 class="text-white mt-0" id="everyone-is-welcome">Everyone is Welcome<a class="headerlink" href="#everyone-is-welcome" title="Permalink">¶</a></h2>
+<p>At The ASF, contribution is for everyone. Whether code, docs, or ideas — your +1 makes a difference. Come contribute and grow with us.</p>
+<p><a class="btn btn--white" href="https://community.apache.org/" target="_blank">New to The ASF? Start here</a></p>
+</div>
+<div class="flex-1">
+<div class="everyone-welcome-image">
+<img alt="Everyone is Welcome" class="object-fit-cover" id="welcome-image" loading="lazy" src="local_resources\parallax-4_fccb1921745623bc.png"/>
+</div>
+<script>
+                var imgArray = ['images/welcome-bg/image-1.webp', 'images/welcome-bg/image-2.webp', 'images/welcome-bg/image-3.webp', 'images/welcome-bg/image-4.webp', 'images/welcome-bg/image-5.webp', 'images/welcome-bg/image-6.webp', 'images/welcome-bg/image-7.webp', 'images/welcome-bg/image-8.webp', 'images/welcome-bg/image-9.webp', 'images/welcome-bg/image-10.webp'];
+                var randomImage = imgArray[Math.floor(Math.random() * imgArray.length)];
+                var welcomeImage = document.getElementById('welcome-image');
+                welcomeImage.src = randomImage;
+            </script>
+</div>
+</div></section>
+<!-- Quotes -->
+<section id="home-events">
+<div class="inner py-xl text-center">
+<h2 id="upcoming-events">Upcoming Events<a class="headerlink" href="#upcoming-events" title="Permalink">¶</a></h2>
+<div class="slideshow-container">
+<!-- Full-width slides/quotes -->
+<!-- Remember to adjust the number of dot-container entries below to agree with the slide count -->
+<div class="mySlides event-slide text-left">
+<div class="flex">
+<div class="flex-1 event-info event-image">
+<div class="event-image-wrap">
+<img alt="Airflow Summit Banner" class="object-fit-cover" src="local_resources\event-airflow_e5445ab69e81d47c.webp"/>
+</div>
+</div>
+<div class="event-content flex-2 flex flex-column pl-medium">
+<h3 class="event-info event-title" id="airflow-summit">Airflow Summit<a class="headerlink" href="#airflow-summit" title="Permalink">¶</a></h3>
+<h4 class="event-info event-location" id="seattle-washington-usa">Seattle, Washington, USA<a class="headerlink" href="#seattle-washington-usa" title="Permalink">¶</a></h4>
+<h5 class="event-info event-dates">October 7-9, 2025</h5>
+<p class="event-info event-description">Connect with top industry professionals and immerse yourself in the Apache Airflow community. Explore over 100 captivating sessions hosted by industry experts—your ultimate source of knowledge and inspiration.</p>
+<div class="flex-self-end text-right">
+<a class="btn event-link event-info" href="https://airflowsummit.org/" target="_blank">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="mySlides event-slide text-left">
+<div class="flex">
+<div class="flex-1 event-info event-image">
+<div class="event-image-wrap">
+<img alt="Flink Forward banner" class="object-fit-cover" src="local_resources\event-flnk-forward_4d11122fffdf593f.webp"/>
+</div>
+</div>
+<div class="event-content flex-2 flex flex-column pl-medium">
+<h3 class="event-info event-title" id="flink-forward">Flink Forward<a class="headerlink" href="#flink-forward" title="Permalink">¶</a></h3>
+<h4 class="event-info event-location" id="barcelona-spain">Barcelona, Spain<a class="headerlink" href="#barcelona-spain" title="Permalink">¶</a></h4>
+<h5 class="event-info event-dates">October 13-16, 2025</h5>
+<p class="event-info event-description">With a dynamic agenda packed with cutting-edge Flink use cases, training options, and plenty of networking opportunities, Barcelona will provide the perfect backdrop for the global Flink community to connect, learn, and push the boundaries of real-time data streaming.</p>
+<div class="flex-self-end text-right">
+<a class="btn event-link event-info" href="https://www.flink-forward.org/" target="_blank">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="mySlides event-slide text-left">
+<div class="flex">
+<div class="flex-1 event-info event-image">
+<div class="event-image-wrap">
+<img alt="NuttX International Workshop banner" class="object-fit-cover" src="local_resources\event-airflow_e5445ab69e81d47c.webp"/>
+</div>
+</div>
+<div class="event-content flex-2 flex flex-column pl-medium">
+<h3 class="event-info event-title" id="nuttx-international-workshop">NuttX International Workshop<a class="headerlink" href="#nuttx-international-workshop" title="Permalink">¶</a></h3>
+<h5 class="event-info event-dates">October 16-17, 2025</h5>
+<p class="event-info event-description">This global gathering brings together developers and users of Apache NuttX® to connect, collaborate, and shape the future of this powerful real-time operating system. This is your chance to meet the community, share ideas, and influence the project’s direction.</p>
+<div class="flex-self-end text-right">
+<a class="btn event-link event-info" href="https://events.nuttx.apache.org/" target="_blank">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="mySlides event-slide text-left">
+<div class="flex">
+<div class="flex-1 event-info event-image">
+<div class="event-image-wrap">
+<img alt="CloudStack Collaboration Conference banner" class="object-fit-cover" src="local_resources\event-cloudstack_f0bb2ed0ab35587b.webp"/>
+</div>
+</div>
+<div class="event-content flex-2 flex flex-column pl-medium">
+<h3 class="event-info event-title" id="cloudstack-collaboration-conference">CloudStack Collaboration Conference<a class="headerlink" href="#cloudstack-collaboration-conference" title="Permalink">¶</a></h3>
+<h4 class="event-info event-location" id="milan-italy">Milan, Italy<a class="headerlink" href="#milan-italy" title="Permalink">¶</a></h4>
+<h5 class="event-info event-dates">November 19-21, 2025</h5>
+<p class="event-info event-description">The CloudStack Collaboration Conference is an exciting in-person event tailored for the global Apache CloudStack™ community, bringing together developers, users, and technology leaders to explore the latest advancements in open-source cloud and virtualization management.</p>
+<div class="flex-self-end text-right">
+<a class="btn event-link event-info" href="https://www.cloudstackcollab.org/" target="_blank">Learn More</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Next/prev buttons -->
+<a class="prev" onclick="plusSlides(-1)">â®</a>
+<a class="next" onclick="plusSlides(1)">â¯</a>
+</div>
+<!-- Dots/bullets/indicators; there should be one for each event-slide above -->
+<div class="dot-container">
+<span class="dot" onclick="currentSlide(1)"></span>
+<span class="dot" onclick="currentSlide(2)"></span>
+<span class="dot" onclick="currentSlide(3)"></span>
+<span class="dot" onclick="currentSlide(4)"></span>
+</div>
+<!-- END SLIDESHOW CONTAINER -->
+</div>
+</section>
+<section class="hidden" id="home-sponsors">
+<div class="inner text-center py-large">
+<div class="text-col">
+<h2 id="thank-you-sponsors">Thank You, Sponsors<a class="headerlink" href="#thank-you-sponsors" title="Permalink">¶</a></h2>
+<p>The ASF is a 501(c)(3) nonprofit, supported by individual and corporate donors who believe in secure software for the public good and the power of community over code.</p>
+</div>
+<div class="project-cards project-cards--sponsors mb-large" id="sponsor-logos"></div>
+<p><a class="btn" href="/foundation/sponsors">See All Sponsors</a></p>
+</div>
+<p class="hidden">
+<script>
+    // Randomizes an array of sponsors and injects them in the sponsor logos div
+    const sponsors = [
+        {
+            name: "Apple",
+            logo: "foundation/images/apple-platinum.png",
+            url: "https://www.apple.com/"
+        },
+        {
+            name: "Amazon Web Services",
+            logo: "foundation/images/aws-platinum.png",
+            url: "https://aws.amazon.com/"
+        },
+        {
+            name: "Meta",
+            logo: "foundation/images/meta-logo.png",
+            url: "https://www.meta.com/about/"
+        },
+        {
+            name: "GEICO",
+            logo: "foundation/images/geico-platinum2.png",
+            url: "https://www.geico.com/tech/"
+        },
+        {
+            name: "Google",
+            logo: "foundation/images/google.png",
+            url: "http://google.com/"
+        },
+        {
+            name: "Huawei",
+            logo: "foundation/images/huawei-platinum.png",
+            url: "http://huawei.com/"
+        },
+        {
+            name: "Microsoft",
+            logo: "foundation/images/microsoft.png",
+            url: "https://microsoft.com/"
+        },
+        {
+            name: "Pineapple Fund",
+            logo: "foundation/images/pineapple_fund.png",
+            url: "https://news.apache.org/foundation/entry/the-apache-software-foundation-receives"
+        },
+        {
+            name: "Snowflake",
+            logo: "foundation/images/snowflake-platinum.png",
+            url: "https://www.snowflake.com/"
+        },
+        {
+            name: "VISA",
+            logo: "foundation/images/visa-platinum.png",
+            url: "https://www.visa.com/"
+        },
+        {
+            name: "Yahoo!",
+            logo: "foundation/images/yahoo-platinum.png",
+            url: "https://yahooinc.com/"
+        }
+    ];
+    // randomize the sponsors array
+    var randomSponsors = sponsors.sort(() => Math.random() - 0.5);
+    // select first 8 sponsors
+    var selectedSponsors = randomSponsors.slice(0, 8);
+    // create HTML for each sponsor
+    var sponsorHTML = '';
+    selectedSponsors.forEach(function(sponsor) {
+        sponsorHTML += '<div class="logo-card logo-card--sponsor">';
+        sponsorHTML += '<img class="objec-fit-cover" src="' + sponsor.logo + '" alt="' + sponsor.name + '">';
+        sponsorHTML += '</div>';
+    });
+    const sponsorLogos = document.getElementById('sponsor-logos');
+    sponsorLogos.innerHTML = sponsorHTML;
+</script>
+</p>
+</section>
+<section class="grad-purple" id="plus-one">
+<div class="inner text-center py-xl">
+<div class="text-col mb-large">
+<h2 class="text-white" id="asf-plus-one">ASF Plus One<a class="headerlink" href="#asf-plus-one" title="Permalink">¶</a></h2>
+<p class="text-white">Explore what’s new at The ASF — from project news to community voices, all in one place.</p>
+</div>
+<h3 class="text-white" id="most-recent-blog-posts">Most Recent Blog Posts<a class="headerlink" href="#most-recent-blog-posts" title="Permalink">¶</a></h3>
+<div class="blog-feed flex mb-large flex-column-600">
+<div class="blog-card text-left">
+<div class="blog-card-inner">
+<img alt="asf oak leaf logo" class="card-decoration" src="local_resources\oakleaf_a2faf943976eb0b9.svg"/>
+<h4 id="asf-plus-one-newsletter-september-2025">ASF Plus One Newsletter: September 2025<a class="headerlink" href="#asf-plus-one-newsletter-september-2025" title="Permalink">¶</a></h4>
+<div class="blog-card-link">
+<a class="continue" href="https://news.apache.org/?p=6609" target="_blank">Read Post</a>
+</div>
+</div>
+</div><div class="blog-card text-left">
+<div class="blog-card-inner">
+<img alt="asf oak leaf logo" class="card-decoration" src="local_resources\oakleaf_a2faf943976eb0b9.svg"/>
+<h4 id="the-apache-software-foundation-announces-new-top-level-project">The Apache Software Foundation Announces New Top-Level Project<a class="headerlink" href="#the-apache-software-foundation-announces-new-top-level-project" title="Permalink">¶</a></h4>
+<div class="blog-card-link">
+<a class="continue" href="https://news.apache.org/?p=6602" target="_blank">Read Post</a>
+</div>
+</div>
+</div><div class="blog-card text-left">
+<div class="blog-card-inner">
+<img alt="asf oak leaf logo" class="card-decoration" src="local_resources\oakleaf_a2faf943976eb0b9.svg"/>
+<h4 id="introducing-the-asfs-new-logo">Introducing The ASF’s New Logo <a class="headerlink" href="#introducing-the-asfs-new-logo" title="Permalink">¶</a></h4>
+<div class="blog-card-link">
+<a class="continue" href="https://news.apache.org/?p=6584" target="_blank">Read Post</a>
+</div>
+</div>
+</div>
+</div>
+<h3 class="text-white" id="plus-one-newsletter">Plus One Newsletter<a class="headerlink" href="#plus-one-newsletter" title="Permalink">¶</a></h3>
+<div class="blog-feed flex flex-column-600">
+<div class="blog-card text-left">
+<div class="blog-card-inner">
+<img alt="asf oak leaf logo" class="card-decoration" src="local_resources\oakleaf_a2faf943976eb0b9.svg"/>
+<h4 id="asf-plus-one-newsletter-september-2025_1">ASF Plus One Newsletter: September 2025<a class="headerlink" href="#asf-plus-one-newsletter-september-2025_1" title="Permalink">¶</a></h4>
+<div class="blog-card-link">
+<a class="continue" href="https://news.apache.org/?p=6609" target="_blank">Read Post</a>
+</div>
+</div>
+</div><div class="blog-card text-left">
+<div class="blog-card-inner">
+<img alt="asf oak leaf logo" class="card-decoration" src="local_resources\oakleaf_a2faf943976eb0b9.svg"/>
+<h4 id="asf-plus-one-newsletter-august-2025">ASF Plus One Newsletter: August 2025<a class="headerlink" href="#asf-plus-one-newsletter-august-2025" title="Permalink">¶</a></h4>
+<div class="blog-card-link">
+<a class="continue" href="https://news.apache.org/?p=6566" target="_blank">Read Post</a>
+</div>
+</div>
+</div><div class="blog-card text-left">
+<div class="blog-card-inner">
+<img alt="asf oak leaf logo" class="card-decoration" src="local_resources\oakleaf_a2faf943976eb0b9.svg"/>
+<h4 id="asf-plus-one-newsletter-july-2025">ASF Plus One Newsletter: July 2025<a class="headerlink" href="#asf-plus-one-newsletter-july-2025" title="Permalink">¶</a></h4>
+<div class="blog-card-link">
+<a class="continue" href="https://news.apache.org/?p=6519" target="_blank">Read Post</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="public-good">
+<div class="inner py-xl">
+<div class="mb-large">
+<h2 id="growing-together">Growing Together<a class="headerlink" href="#growing-together" title="Permalink">¶</a></h2>
+<p>From first contributions to global impact, these stories show the strength of our community.</p>
+</div>
+<div class="public-good-cards">
+<div class="public-good-card">
+<img alt="Public Good Image" id="public-good-image" src="local_resources\asf-public-good-airflow_c1e4a2067de1fb46.webp"/>
+</div>
+<script>
+                // Array of images to randomly show on page load
+                var imgArray = [
+                    'images/asf-public-good-airflow.webp',
+                    'images/asf-public-good-IoTDB.webp',
+                    'images/asf-public-good-storm.webp',
+                    'images/asf-public-good-superset.webp',
+                ];
+                // select a random image from the array.
+                var randomImage = imgArray[Math.floor(Math.random() * imgArray.length)];
+                var publicGoodImage = document.getElementById('public-good-image');
+                publicGoodImage.src = randomImage;
+            </script>
+</div>
+</div>
+</section>
+</main>
+<section class="newsletter-signup grad-purple">
+<div class="inner text-center py-large">
+<div class="text-col">
+<h2 class="text-white">Subscribe to ASF Plus One, Our Monthly Newsletter</h2>
+<p><a class="btn btn--white" href="https://news.apache.org/foundation/entry/category/plus-one-newsletter" target="_blank">Subscribe Now</a></p>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<!-- Bump -->
+<footer class="bg-primary">
+<div class="inner py-xl">
+<div class="flex gap-large mb-large flex-column-800">
+<div class="flex-1 flex flex-column gap-medium">
+<img alt="ASF White Logo" src="local_resources\asf_logo_full_horizontal_white_4b4e25f3b0424a53.svg" width="300"/>
+<p>Apache and the Apache logo are trademarks of The Apache Software Foundation. </p>
+<p>The ApacheÂ® Software Foundation is a 501(c)(3) nonprofit organization. Tax ID # 47-0825376</p>
+<div class="mb-medium">
+<a class="btn btn--white" href="https://donate.apache.org/48ff" onclick="_paq.push(['trackEvent', 'click', 'SponsorASF Button']);" target="_blank">Donate</a>
+</div>
+<div class="header-social-icons">
+<a href="https://infra.apache.org/slack.html" target="_blank"><img alt="slack icon" src="local_resources\slack-icon_d5d410c7d687cd88.svg"/></a>
+<a href="https://github.com/apache" target="_blank"><img alt="github icon" src="local_resources\github-mark-white_0407567a62d97ca0.svg"/></a>
+<a href="https://www.linkedin.com/company/the-apache-software-foundation/" target="_blank"><img alt="linkedIn icon" src="local_resources\linkedin-icon_d04301708f7df768.png"/></a>
+<a href="https://www.youtube.com/c/TheApacheFoundation" target="_blank"><img alt="youtube icon" src="local_resources\youtube-icon_03c12825162aad72.svg"/></a>
+<a href="https://twitter.com/TheASF" target="_blank"><img alt="X icon" src="local_resources\x-icon_08c6f4c877a9a828.svg"/></a>
+<a href="https://bsky.app/profile/apache.org" target="_blank"><img alt="Blueskey icon" src="local_resources\bluesky-icon_8c7340ec1783f726.png"/></a>
+</div>
+</div>
+<div class="flex-1 flex gap-medium flex-column-600">
+<div class="footer-nav-col flex flex-column flex-1 flex-row-600">
+<div class="footer-nav-group">
+<h5 class="white">Community</h5>
+<ul class="list-unstyled white" role="menu">
+<li role="listitem"><a href="https://community.apache.org/" role="menuitem" target="_blank">Contributor Getting Started</a></li>
+<li role="listitem"><a href="https://community.apache.org/contributors/" role="menuitem" target="_blank">Becoming a Committer</a></li>
+<li role="listitem"><a href="/foundation/policies/conduct" role="menuitem">Code of Conduct</a></li>
+<li role="listitem"><a href="/community-resources/" role="menuitem">Community Resources</a></li>
+<li role="listitem"><a href="https://communityovercode.org/" role="menuitem" target="_blank">Community Over Code</a></li>
+<li role="listitem"><a href="https://events.apache.org/" role="menuitem" target="_blank">Events</a></li>
+</ul>
+</div>
+<div class="footer-nav-group">
+<h5 class="white">Learn</h5>
+<ul class="list-unstyled white" role="menu">
+<li role="listitem"><a href="https://news.apache.org/" role="menuitem" target="_blank">Blog</a></li>
+<li role="listitem"><a href="/foundation/how-it-works" role="menuitem">How the ASF Works</a></li>
+<li role="listitem"><a href="/theapacheway/" role="menuitem">The Apache Way</a></li>
+<li role="listitem"><a href="/legal/" role="menuitem">Legal &amp; Trademark</a></li>
+<li role="listitem"><a href="/licenses" role="menuitem">Licenses</a></li>
+<li role="listitem"><a href="/foundation/glossary" role="menuitem">Glossary</a></li>
+<li role="listitem"><a href="/foundation/faq" role="menuitem">FAQ</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-nav-col flex flex-column flex-1 flex-row-600">
+<div class="footer-nav-group">
+<h5 class="white">Projects</h5>
+<ul class="list-unstyled white" role="menu">
+<li role="listitem"><a href="/projects" role="menuitem">Projects</a></li>
+<li role="listitem"><a href="https://incubator.apache.org/" role="menuitem" target="_blank">Incubator Projects</a></li>
+<li role="listitem"><a href="https://projects.apache.org/" role="menuitem" target="_blank">Projects Directory </a></li>
+<li role="listitem"><a href="/foundation/mailinglists" role="menuitem">Mailing Lists </a></li>
+<li role="listitem"><a href="/security" role="menuitem">Report a Vulnerability</a></li>
+</ul>
+</div>
+<div class="footer-nav-group">
+<h5 class="white">Resources &amp; Tools</h5>
+<ul class="list-unstyled white" role="menu">
+<li role="listitem"><a href="/dev/" role="menuitem">Developer Information</a></li>
+<li role="listitem"><a href="https://cwiki.apache.org/" role="menuitem" target="_blank">Wiki</a></li>
+<li role="listitem"><a href="https://issues.apache.org/" role="menuitem" target="_blank">Issues</a></li>
+<li role="listitem"><a href="https://infra.apache.org/slack.html" role="menuitem" target="_blank">Slack</a></li>
+<li role="listitem"><a href="https://selfserve.apache.org/" role="menuitem" target="_blank">Self Serve Portal</a></li>
+<li role="listitem"><a href="https://infra.apache.org/" role="menuitem" target="_blank">Infrastructure</a></li>
+<li role="listitem"><a href="https://whimsy.apache.org/" role="menuitem" target="_blank">Whimsy</a></li>
+<li role="listitem"><a href="/foundation/press/kit/" role="menuitem">Brand Guidelines</a></li>
+<li role="listitem"><a href="/logos/" role="menuitem">Project Logos</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-nav-col flex flex-column flex-1 flex-row-600">
+<div class="footer-nav-group">
+<h5 class="white">Downloads</h5>
+<ul class="list-unstyled white" role="menu">
+<li role="listitem"><a href="https://downloads.apache.org/" role="menuitem" target="_blank">Distributions</a></li>
+<li role="listitem"><a href="https://projects.apache.org/releases.html" role="menuitem" target="_blank">Releases</a></li>
+<li role="listitem"><a href="https://status.apache.org/" role="menuitem" target="_blank">Infrastructure Status</a></li>
+<li role="listitem"><a href="https://infra-reports.apache.org/#uptime" role="menuitem" target="_blank">Infrastructure Statistics</a></li>
+</ul>
+</div>
+<div class="footer-nav-group">
+<h5 class="white">About</h5>
+<ul class="list-unstyled white" role="menu">
+<li role="listitem"><a href="/foundation/" role="menuitem">About</a></li>
+<li role="listitem"><a href="/foundation/sponsors" role="menuitem">Our Sponsors</a></li>
+<li role="listitem"><a href="/foundation/sponsorship" role="menuitem">Corporate Sponsorship</a></li>
+<li role="listitem"><a href="/foundation/individual-supporters" role="menuitem">Individual Supporters</a></li>
+<li role="listitem"><a href="/foundation/leadership" role="menuitem">Leadership</a></li>
+<li role="listitem"><a href="/foundation/members" role="menuitem">Members</a></li>
+<li role="listitem"><a href="https://diversity.apache.org/" role="menuitem" target="_blank">Diversity &amp; Inclusion</a></li>
+<li role="listitem"><a href="/press/" role="menuitem">Newsroom</a></li>
+<li role="listitem"><a href="/foundation/contact" role="menuitem">Contact</a></li>
+<li role="listitem"><a href="https://privacy.apache.org/policies/privacy-policy-public.html" role="menuitem" target="_blank">Privacy Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p class="text-center">Copyright © 2025 The Apache Software Foundation, Licensed under the <a class="white" href="/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
+</div>
+</footer>
+<!-- / Footer -->
+<script src="local_resources\bootstrap_a6d5ebf62bac5964.js"></script>
+<script src="local_resources\slideshow_dad8f847cb093dbb.js"></script>
+<script>
+    (function($){
+      $(document).ready(function(){
+        $(document)
+        .on('click', '.faq', function(){
+            $(this).find('.faq-answer').slideToggle(500);
+            $(this).toggleClass('open');
+        });
+      });
+    })(jQuery);
+  </script>
+</body>
+</html>

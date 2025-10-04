@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 220 220">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2,.cls-3{stroke:#00081c;stroke-linecap:round;stroke-linejoin:round;stroke-width:5px;}.cls-2{fill:#0376d9;}.cls-3{fill:none;}</style>
+  </defs>
+  <rect class="cls-2" x="10" y="10" width="200" height="200" rx="30" ry="30"></rect>
+  <circle class="cls-2" cx="99.82" cy="120.18" r="55.28"></circle>
+  <circle class="cls-1" cx="99.82" cy="120.18" r="24.67"></circle>
+  <line class="cls-1" x1="99.82" y1="120.18" x2="159.15" y2="60.85"></line>
+  <polyline class="cls-3" points="159.15 44.54 159.15 60.85 175.46 60.85"></polyline>
+  <polyline class="cls-3" points="149.15 54.54 149.15 70.85 165.46 70.85"></polyline>
+</svg>

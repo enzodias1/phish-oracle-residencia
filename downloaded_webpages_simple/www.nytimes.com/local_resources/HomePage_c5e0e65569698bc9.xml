@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Top Stories</title>
+    <link>https://www.nytimes.com</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2025 The New York Times Company</copyright>
+    <lastBuildDate>Sat, 04 Oct 2025 15:13:51 +0000</lastBuildDate>
+    <pubDate>Sat, 04 Oct 2025 14:02:01 +0000</pubDate>
+    <image>
+      <title>NYT &gt; Top Stories</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com</link>
+    </image>
+    <item>
+      <title>Israel and Hamas Say They’ll Work With Trump’s Gaza Plan, but Gaps Remain</title>
+      <link>https://www.nytimes.com/2025/10/04/world/middleeast/israel-hamas-trump-netanyahu.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/world/middleeast/israel-hamas-trump-netanyahu.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/world/middleeast/israel-hamas-trump-netanyahu.html" rel="standout"></atom:link>
+      <description>Israel said it would cooperate with the White House to end the war, but much is still unclear about Hamas’s future and whether it will agree to disarm.</description>
+      <dc:creator>Aaron Boxerman, Adam Rasgon and Natan Odenheimer</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 14:02:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04int-gaza-israel-gzlf/04int-gaza-israel-gzlf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>David Guttenfelder/The New York Times</media:credit>
+      <media:description>Images of Israeli hostages, still held by Hamas inside Gaza, on a banner at a beach in Tel Aviv on Saturday.</media:description>
+    </item>
+    <item>
+      <title>For Netanyahu, Trump’s Nod to Peace Puts Him in a Tough Spot</title>
+      <link>https://www.nytimes.com/2025/10/04/world/middleeast/netanyahu-israel-trump-gaza-plan.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/world/middleeast/netanyahu-israel-trump-gaza-plan.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/world/middleeast/netanyahu-israel-trump-gaza-plan.html" rel="standout"></atom:link>
+      <description>The Israeli leader thought he had a plan from the U.S. president that would have represented total victory over Hamas. Suddenly, it looks as though he might not get everything he wants.</description>
+      <dc:creator>David M. Halbfinger</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 10:59:43 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Israel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04int-israel-assess-jlfp/04int-israel-assess-jlfp-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Doug Mills/The New York Times</media:credit>
+      <media:description>Prime Minister Benjamin Netanyahu of Israel and President Trump speaking at the White House last week.</media:description>
+    </item>
+    <item>
+      <title>Cautious Optimism on Gaza Peace Plan, but No Guarantees. Here’s What to Know.</title>
+      <link>https://www.nytimes.com/2025/10/04/world/middleeast/hamas-trump-gaza-deal.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/world/middleeast/hamas-trump-gaza-deal.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/world/middleeast/hamas-trump-gaza-deal.html" rel="standout"></atom:link>
+      <description>Israel and Hamas said they would work with President Trump’s plan to end the war, but a number of sticking points could derail efforts to make a diplomatic breakthrough.</description>
+      <dc:creator>John Yoon and Natan Odenheimer</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 11:38:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Israel-Gaza War (2023- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Peace Process</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Hamas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Netanyahu, Benjamin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Gaza Strip</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04xp-hamas-wtk-btmk/04xp-hamas-wtk-btmk-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Saher Alghorra for The New York Times</media:credit>
+      <media:description>Smoke rose from Gaza City from shelling on Thursday.</media:description>
+    </item>
+    <item>
+      <title>Trump Seizes on Shutdown to Punish Political Foes</title>
+      <link>https://www.nytimes.com/2025/10/04/us/politics/trump-shutdown-punish-foes.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/us/politics/trump-shutdown-punish-foes.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/us/politics/trump-shutdown-punish-foes.html" rel="standout"></atom:link>
+      <description>The White House has cut or paused billions in funding to Democratic-run cities and states since the federal government came to a halt.</description>
+      <dc:creator>Tony Romm</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 09:01:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Budgets and Budgeting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Finances</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hochul, Kathleen C</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jeffries, Hakeem</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Mike (1972- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schumer, Charles E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Vought, Russell T</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04dc-budget-wckf/04dc-budget-wckf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Dave Sanders for The New York Times</media:credit>
+      <media:description>A site where work has begun on a new Hudson River tunnel connecting New York City and New Jersey. President Trump is using the shutdown to withhold funds from the project.</media:description>
+    </item>
+    <item>
+      <title>This Program Rescued Army Recruiting</title>
+      <link>https://www.nytimes.com/2025/10/04/us/politics/army-recruiting-trump.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/us/politics/army-recruiting-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/us/politics/army-recruiting-trump.html" rel="standout"></atom:link>
+      <description>The defense secretary cites a ‘Trump bump.’ But the Army’s recruiting surge wouldn’t have been possible without the program started three years ago at Fort Jackson.</description>
+      <dc:creator>Greg Jaffe and Kenny Holston</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 13:04:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tests and Examinations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Draft and Recruitment (Military)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Army</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hegseth, Pete</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Fort Jackson (SC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">vis-photo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">audio-neutral-immersive</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">audio-neutral-informative</category>
+    </item>
+    <item>
+      <title>Trump Administration Is Said to Plan to Cut Refugee Admissions to a Record Low</title>
+      <link>https://www.nytimes.com/2025/10/03/us/politics/trump-refugee-admissions-south-africa.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/03/us/politics/trump-refugee-admissions-south-africa.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/03/us/politics/trump-refugee-admissions-south-africa.html" rel="standout"></atom:link>
+      <description>Many of the slots would go to white South Africans and others facing “unjust discrimination,” according to people familiar with the matter and documents obtained by The New York Times.</description>
+      <dc:creator>Zolan Kanno-Youngs, Hamed Aleaziz and Miriam Jordan</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 04:18:29 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Refugees and Displaced Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">State Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/03/multimedia/03dc-refugees1-qwfg/03dc-refugees1-qwfg-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Chip Somodevilla/Getty Images</media:credit>
+      <media:description>The first group of Afrikaner refugees arrived in the United States in May, a remarkable turnaround given that families from other nations often wait years for their chance to be vetted and brought to the country.</media:description>
+    </item>
+    <item>
+      <title>Partisan Shutdown Messages Could Hurt Civil Service, Experts Warn</title>
+      <link>https://www.nytimes.com/2025/10/04/us/politics/partisan-messages-shutdown-trump.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/us/politics/partisan-messages-shutdown-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/us/politics/partisan-messages-shutdown-trump.html" rel="standout"></atom:link>
+      <description>Messages on official government channels blaming Democrats for the shutdown are one of the most significant hits yet to the longstanding wall between federal workers and politics, historians said.</description>
+      <dc:creator>Eileen Sullivan</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 09:01:25 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Government Employees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Office of Special Counsel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hatch Act (1939)</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04dc-workers1-kvcz/04dc-workers1-kvcz-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Alex Kent for The New York Times</media:credit>
+      <media:description>“We have had lots of shutdowns,” one professor who studies the civil service said, but “never before have top officials tried to use their employees as human shields in the partisan battle.”</media:description>
+    </item>
+    <item>
+      <title>What Happens When Socialists Are in Charge? Portland Offers a Glimpse.</title>
+      <link>https://www.nytimes.com/2025/10/04/us/politics/portland-socialists-mamdani.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/us/politics/portland-socialists-mamdani.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/us/politics/portland-socialists-mamdani.html" rel="standout"></atom:link>
+      <description>A West Coast version of Zohran Mamdani’s campaign is playing out in Portland. But the socialist city councilors, who say the city has been “run by the rich” for too long, are facing significant opposition.</description>
+      <dc:creator>Kellen Browning and Jordan Gale</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 09:00:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Socialism (Theory and Philosophy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Income Inequality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Socialists of America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Portland (Ore)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mamdani, Zohran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kotek, Tina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/01/us/politics/00pol-portland-socialists-promo/00pol-portland-socialists-1-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Jordan Gale for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Mamdani Is More Foe Than Friend in the Suburbs, Even Among Democrats</title>
+      <link>https://www.nytimes.com/2025/10/04/nyregion/mamdani-suburbs-voters-republicans.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/nyregion/mamdani-suburbs-voters-republicans.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/nyregion/mamdani-suburbs-voters-republicans.html" rel="standout"></atom:link>
+      <description>Just outside New York City, Republicans are using Zohran Mamdani as an attack line for the 2026 midterms, much as they vilified the city in 2022.</description>
+      <dc:creator>Maya King</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 07:00:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mamdani, Zohran</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2026)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Midterm Elections (2022)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Political Advertising</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suburbs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Long Island (NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hudson River Valley (NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Donnelly, Anne (1964- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Aloise, Nicole</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04met-mamdani-suburbs-blwv/04met-mamdani-suburbs-blwv-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Scott Heins for The New York Times</media:credit>
+      <media:description>While Zohran Mamdani has risen to front-runner status in the New York City mayor’s race, his popularity outside the city is more in question.</media:description>
+    </item>
+    <item>
+      <title>Sean ‘Diddy’ Combs’s Future: Prison, Fine and a Shunning</title>
+      <link>https://www.nytimes.com/2025/10/04/arts/music/sean-combs-diddy-sentenced-prison.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/arts/music/sean-combs-diddy-sentenced-prison.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/arts/music/sean-combs-diddy-sentenced-prison.html" rel="standout"></atom:link>
+      <description>Many who have tracked the music mogul’s career think his reputation has been irreparably damaged by testimony of abusive behavior as a boss and boyfriend.</description>
+      <dc:creator>Ben Sisario and Julia Jacobs</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 10:51:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Domestic Violence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prostitution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Combs, Sean</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ventura, Cassandra (Cassie)</category>
+      <media:content height="1798" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04cul-combs-future-jbvt/04cul-combs-future-jbvt-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Shareif Ziyadat/Getty Images</media:credit>
+      <media:description>Imprisoned now, and damaged by graphic testimony about abusive treatment of women, Sean Combs faces a difficult climb if he ever intends to regain his status as a music producer and brand icon.</media:description>
+    </item>
+    <item>
+      <title>The Tech Jester Who Pranks San Francisco</title>
+      <link>https://www.nytimes.com/2025/10/04/us/the-tech-jester-who-pranks-san-francisco.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/us/the-tech-jester-who-pranks-san-francisco.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/us/the-tech-jester-who-pranks-san-francisco.html" rel="standout"></atom:link>
+      <description>Riley Walz, 23, has gained fame for his online antics. His latest stunt has upset city officials.</description>
+      <dc:creator>Heather Knight</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 09:00:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hoaxes and Pranks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">California</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Francisco (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">San Francisco Bay Area (Calif)</category>
+      <media:content height="1801" medium="image" url="https://static01.nyt.com/images/2025/10/01/multimedia/00nat-sf-rogue-01-mgtp/00nat-sf-rogue-01-mgtp-mediumSquareAt3X-v2.jpg" width="1800"></media:content>
+      <media:credit>Poppy Lynch for The New York Times</media:credit>
+      <media:description>San Francisco has long embraced eccentrics and their wacky ideas. Riley Walz is right at home.</media:description>
+    </item>
+    <item>
+      <title>When A.I. Came for Hollywood</title>
+      <link>https://www.nytimes.com/2025/10/04/opinion/ai-hollywood-tilly-norwood-actress.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/opinion/ai-hollywood-tilly-norwood-actress.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/opinion/ai-hollywood-tilly-norwood-actress.html" rel="standout"></atom:link>
+      <description>The Dream Factory is going full fantasy, human factor be damned.</description>
+      <dc:creator>Maureen Dowd</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 11:00:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blunt, Emily</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lanier, Jaron</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hollywood (Calif)</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/05/opinion/05dowd-AI-Generated/04dowd-AI-Generated-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Illustration by The New York Times; A.I. image by Particle6 Group, via Reuters</media:credit>
+    </item>
+    <item>
+      <title>‘If You Don’t Want This Consequence, Don’t Vote for Republicans’</title>
+      <link>https://www.nytimes.com/2025/10/04/opinion/republicans-government-shutdown.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/opinion/republicans-government-shutdown.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/opinion/republicans-government-shutdown.html" rel="standout"></atom:link>
+      <description>This week, the round table convenes to discuss who wins and who loses when the government shuts down.</description>
+      <dc:creator>Jamelle Bouie, David French, Michelle Goldberg and Derek Arthur</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 11:00:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">audio-neutral-informative</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Illegal Immigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Budget (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicaid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Budgets and Budgeting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shutdowns (Institutional)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schumer, Charles E</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/04/opinion/04opinions-roundtable/04opinions-roundtable-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Illustration by The New York Times; photograph by Mehmet Eser/Getty</media:credit>
+    </item>
+    <item>
+      <title>Best Intentions</title>
+      <link>https://www.nytimes.com/2025/10/04/briefing/best-intentions.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/briefing/best-intentions.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/briefing/best-intentions.html" rel="standout"></atom:link>
+      <description>Everyone’s “intentional” these days, but don’t let the word’s wholesale application to every activity of modern life deprive you of its benefits.</description>
+      <dc:creator>Melissa Kirsch</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 10:21:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">internal-storyline-no</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Productivity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Habits and Routines (Behavior)</category>
+    </item>
+    <item>
+      <title>How Private Equity Oversees the Ethics of Drug Research</title>
+      <link>https://www.nytimes.com/2025/10/04/health/drug-trials-ethics-ozempic.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/health/drug-trials-ethics-ozempic.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/health/drug-trials-ethics-ozempic.html" rel="standout"></atom:link>
+      <description>Many drug trials are vetted by companies with ties to the drugmakers, raising concerns about conflicts of interest and patient safety.</description>
+      <dc:creator>Walt Bogdanich, Carson Kessler and Jeremy Singer-Vine</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 09:00:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Private Equity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ethics and Official Misconduct</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Clinical Trials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conflicts of Interest</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ozempic (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Novo Nordisk A/S</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">GLP-1 RAs (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mergers, Acquisitions and Divestitures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">WCG Clinical</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/08/27/multimedia/INV-IRBs/INV-IRBs-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Blake Cale</media:credit>
+    </item>
+    <item>
+      <title>Stonewall National Museum Chronicling L.G.B.T.Q. History Faces Deep Cuts</title>
+      <link>https://www.nytimes.com/2025/10/04/us/politics/stonewall-national-museum-trump-funding-cuts.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/us/politics/stonewall-national-museum-trump-funding-cuts.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/us/politics/stonewall-national-museum-trump-funding-cuts.html" rel="standout"></atom:link>
+      <description>The Fort Lauderdale museum, one of the country’s oldest L.G.B.T.Q. institutions, is looking to its rich archives for lessons in how to survive a crisis. Here’s a look inside its collection.</description>
+      <dc:creator>Johnny Diaz</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 09:00:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Archives and Records</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homosexuality and Bisexuality</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Fort Lauderdale (Fla)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Stonewall National Museum, Archives and Library</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Navratilova, Martina</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ricky Martin</category>
+      <category domain="">Dont Ask, Dont Tell</category>
+      <category domain="">LGBTQ</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Village People</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ellen DeGeneres</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nancy Pelosi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Barney Frank</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ron DeSantis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Florida</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Stonewall Inn</category>
+      <category domain="">Stonewall riots</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2025/09/10/multimedia/00xp-stonewall-promo-mblf/00xp-stonewall-promo-mblf-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Melody Timothee for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>For the New Archbishop of Canterbury, Nursing Roots Could Bring a Pastoral Sensibility</title>
+      <link>https://www.nytimes.com/2025/10/04/world/europe/sarah-mullally-archbishop-of-canterbury.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/world/europe/sarah-mullally-archbishop-of-canterbury.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/world/europe/sarah-mullally-archbishop-of-canterbury.html" rel="standout"></atom:link>
+      <description>As bishop of London, Sarah Mullally placed herself in the middle of the church’s most charged issues. But experts predict that her years treating cancer patients could inform how she approaches her new role.</description>
+      <dc:creator>Mark Landler</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 13:36:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anglican Churches</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Same-Sex Marriage, Civil Unions and Domestic Partnerships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Anglican Communion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Church of England</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">England</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mullally, Sarah (1962- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Welby, Justin</category>
+      <category domain="">assisted dying</category>
+      <media:content height="1800" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04int-uk-archbishop-gzkc/04int-uk-archbishop-gzkc-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Alberto Pezzali/Associated Press</media:credit>
+      <media:description>Sarah Mullally, newly appointed as the archbishop of Canterbury, on Friday in Canterbury Cathedral in England.</media:description>
+    </item>
+    <item>
+      <title>Sanae Takaichi Is Likely to Be Japan’s Next Leader. Who Is She?</title>
+      <link>https://www.nytimes.com/2025/10/04/world/asia/sanae-takaichi-japan.html</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2025/10/04/world/asia/sanae-takaichi-japan.html</guid>
+      <atom:link href="https://www.nytimes.com/2025/10/04/world/asia/sanae-takaichi-japan.html" rel="standout"></atom:link>
+      <description>Ms. Takaichi would be Japan’s first female prime minister in a country where women are drastically underrepresented at the highest levels of power.</description>
+      <dc:creator>Javier C. Hernández and Hisako Ueno</dc:creator>
+      <pubDate>Sat, 04 Oct 2025 13:18:30 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Takaichi, Sanae</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Elections</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Legislatures and Parliaments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Liberal Democratic Party (Japan)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Yasukuni Shrine (Tokyo, Japan)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women&#39;s Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Content Type: Personal Profile</category>
+      <media:content height="1799" medium="image" url="https://static01.nyt.com/images/2025/10/04/multimedia/04int-japan-election-who-is-takaichi-jtpb/04int-japan-election-who-is-takaichi-jtpb-mediumSquareAt3X.jpg" width="1800"></media:content>
+      <media:credit>Pool photo by Kim Kyung-Hoon</media:credit>
+      <media:description>Sanae Takaichi, the newly elected leader of Japan’s governing Liberal Democratic Party, celebrated in Tokyo on Saturday.</media:description>
+    </item>
+  </channel>
+</rss>

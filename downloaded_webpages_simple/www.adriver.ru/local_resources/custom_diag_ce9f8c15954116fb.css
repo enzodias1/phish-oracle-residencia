@@ -1,0 +1,208 @@
+.diag-zone iframe {
+  border: 0px solid;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  cursor: default;
+}
+.diag-zone .diag-zone-overlay {
+  width: calc(70% - 28px);
+  height: 120px;
+  position: absolute;
+}
+.diag-zone .diag-title span {
+  margin-top: 0;
+}
+.diag-base-params {
+  font-family: "pf_centro_sans_proregular", Calibri, Arial, sans-serif;
+  width: 60%;
+  float: left;
+}
+.diag-additional-params {
+  font-family: "pf_centro_sans_proregular", Calibri, Arial, sans-serif;
+  width: 40%;
+  float: left;
+}
+.diag-zone-params {
+  font-family: "pf_centro_sans_proregular", Calibri, Arial, sans-serif;
+  width: 100%;
+  float: left;
+  padding-left: 10px;
+}
+.diag-zone-params .diag-title span {
+  margin-top: 0;
+}
+.diag-title span {
+  color: #222;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  display: inline-block;
+}
+.diag-line {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+.diag-line .diag-line-title {
+  width: 130px;
+  float: left;
+}
+.diag-line .diag-line-title span {
+  color: #737373;
+  font-size: 14px;
+}
+.diag-line .diag-line-param {
+  float: left;
+  width: calc(100% - 130px);
+}
+.diag-line .diag-line-param span {
+  color: #222;
+}
+.diag-line .diag-line-param span.bad {
+  color: red;
+}
+.diag-line .diag-line-param span.succ {
+  color: green;
+}
+.diag-params-line {
+  float: left;
+}
+.diag-zone-item {
+  float: left;
+  background: #fff;
+  width: 150px;
+  border: 1px solid #ccc;
+  margin: 0 10px 10px 0;
+}
+.diag-zone-item-text {
+  width: calc(100% - 30px);
+  float: left;
+}
+.diag-zone-item-text span {
+  width: 100%;
+  height: 30px;
+  display: inline-block;
+  padding: 9px 5px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.diag-zone-item-indicator {
+  width: 30px;
+  height: 30px;
+  float: left;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red;
+}
+.help-inner-content {
+  float: left;
+}
+.diag-container-1 {
+  width: 70%;
+  float: left;
+}
+.diag-container-2 {
+  width: 30%;
+  float: left;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .diag-container-1 {
+    width: 100%;
+    float: left;
+  }
+  .diag-container-2 {
+    width: 100%;
+    float: left;
+  }
+  .diag-base-params {
+    width: 100%;
+  }
+  .diag-additional-params {
+    width: 100%;
+  }
+  .diag-zone-params {
+    width: 100%;
+    padding: 0;
+  }
+  .diag-params-line {
+    width: 100%;
+  }
+  .diag-zone-item {
+    width: calc(100% - 10px);
+    margin: 0 10px 10px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .diag-container-1 {
+    width: 100%;
+    float: left;
+  }
+  .diag-container-2 {
+    width: 100%;
+    float: left;
+  }
+  .diag-base-params {
+    width: 100%;
+  }
+  .diag-additional-params {
+    width: 100%;
+  }
+  .diag-zone-params {
+    width: 100%;
+    padding: 0;
+  }
+  .diag-params-line {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .diag-container-1 {
+    width: 100%;
+    float: left;
+  }
+  .diag-container-2 {
+    width: 100%;
+    float: left;
+  }
+  .diag-base-params {
+    width: 60%;
+  }
+  .diag-additional-params {
+    width: 40%;
+  }
+  .diag-zone-params {
+    width: 100%;
+    padding: 0;
+  }
+  .diag-params-line {
+    width: 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .diag-container-1 {
+    width: 70%;
+    float: left;
+  }
+  .diag-container-2 {
+    width: 30%;
+    float: left;
+  }
+  .diag-base-params {
+    width: 60%;
+  }
+  .diag-additional-params {
+    width: 40%;
+  }
+  .diag-zone-params {
+    width: 100%;
+  }
+  .diag-params-line {
+    width: 100%;
+  }
+  .diag-zone-item {
+    width: calc(100% - 10px);
+    margin: 0 10px 10px 0;
+  }
+}

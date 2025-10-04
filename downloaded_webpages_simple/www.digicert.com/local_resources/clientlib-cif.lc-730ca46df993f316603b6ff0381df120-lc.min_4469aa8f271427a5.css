@@ -1,0 +1,797 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.thumbnail__root {
+    height: auto;
+    width: auto;
+}
+
+.thumbnail__image {
+    width: 100%;
+}
+
+.thumbnailList__root {
+    display: grid;
+    align-content: start;
+    grid-gap: 1rem;
+}
+
+.carousel__root {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 'thumbs main';
+    grid-template-columns: 17fr 80fr;
+}
+
+.carousel__imageContainer {
+    display: grid;
+    grid-area: main;
+}
+
+.carousel__currentImage {
+    width: 100%;
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.carousel__chevron-left,
+.carousel__chevron-right {
+    display: none;
+}
+
+.select__input {
+    grid-area: input-start / input-start / input-end / icon-end;
+    padding-right: 2.25rem;
+}
+
+.productFullDetail__root {
+    display: grid;
+    grid-template-areas:
+        'images title'
+        'images actions'
+        'images options'
+        'images quantity'
+        'images cart'
+        'images .';
+    grid-template-columns: 1.5625fr 1fr;
+    grid-template-rows: repeat(5, min-content) 1fr [fold];
+}
+
+.productFullDetail__customizeBundle {
+    align-items: center;
+    display: flex;
+    grid-area: cart;
+    justify-content: center;
+}
+
+.productFullDetail__title {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+
+.productFullDetail__title .price {
+    text-align: right;
+}
+
+.productFullDetail__root .price {
+    display: block;
+}
+
+.productFullDetail__root .price .regularPrice {
+    text-decoration: line-through;
+}
+
+.productFullDetail__root .price .discountedPrice {
+    font-weight: bold;
+}
+
+.productFullDetail__root .price .you-save:before {
+    display: block;
+    content: ' ';
+}
+
+.productFullDetail__imageCarousel {
+    grid-area: images;
+    max-width: 800px;
+    padding: 1rem;
+}
+
+.productFullDetail__options {
+    grid-area: options;
+}
+
+.productFullDetail__quantity {
+    grid-area: quantity;
+}
+
+.productFullDetail__groupedProducts table {
+    width: 100%;
+}
+
+.productFullDetail__bundleProduct .priceInfo {
+    float: right;
+}
+
+.productFullDetail__cartActions {
+    grid-area: cart;
+}
+
+.productFullDetail__description {
+    grid-column: 1 / span 1;
+    grid-row: fold / span 1;
+    padding: 1rem;
+}
+
+.productFullDetail__details {
+    grid-column: 2 / span 1;
+    grid-row: fold / span 1;
+    padding: 1rem;
+}
+
+.productFullDetail__related {
+    border-bottom-width: 0;
+    grid-column: 1 / span 2;
+}
+
+.productFullDetail__staged {
+    grid-column: span 2;
+}
+
+.tile__root {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    min-width: 3rem;
+    padding: 0 0.75rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.product__card {
+    float: left;
+    text-align: center;
+    width: 240px;
+}
+
+.product__image {
+    max-width: 240px;
+    max-height: 240px;
+}
+
+.productcarousel__btn {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    height: 20px;
+    margin-top: -25px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    border-color: dimgrey;
+}
+
+.productcarousel__btn:focus-visible {
+    border-color: black;
+}
+
+.productcarousel__btn:disabled {
+    border-color: lightgrey;
+}
+
+.productcarousel__btn--next {
+    border-bottom: 8px solid;
+    border-right: 8px solid;
+    right: 0;
+    -moz-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+}
+
+.productcarousel__btn--prev {
+    border-bottom: 8px solid;
+    border-left: 8px solid;
+    left: 0;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.productcarousel__cardscontainer {
+    margin: auto;
+    width: 12000px;
+    transition-property: margin-left, margin-right;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+.productcarousel__container {
+    position: relative;
+    margin: 25px auto;
+    width: 240px;
+}
+
+@media screen and (min-width: 790px) {
+    .productcarousel__container {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 1090px) {
+    .productcarousel__container {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 1380px) {
+    .productcarousel__container {
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .productcarousel__container {
+        width: 1440px;
+    }
+}
+
+.productcarousel__root {
+    overflow: hidden;
+}
+
+.productcarousel__title {
+    text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2022 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+[dir='rtl'] .productcarousel__container {
+    direction: rtl;
+}
+
+[dir='rtl'] .productcarousel__btn--prev {
+    -moz-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    right: 0;
+    left: unset;
+}
+
+[dir='rtl'] .productcarousel__btn--next {
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    left: 0;
+    right: unset;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.productcollection__results-count {
+    text-align: center;
+}
+
+.productcollection__root {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: minmax(240px, 1fr) auto;
+    grid-template-rows: max-content max-content max-content auto;
+}
+
+.productcollection__filters {
+    grid-row-end: 4 span;
+}
+
+.productcollection__current-filters {
+    list-style-type: none;
+}
+
+.productcollection__current-filter-icon::before {
+    display: block;
+    width: 18px;
+    height: 18px;
+    content: '';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/cross.svg');
+}
+
+.productcollection__filters-body {
+    grid-row-end: 2 span;
+    list-style-type: none;
+}
+
+.productcollection__filter-toggler {
+    opacity: 0;
+}
+
+.productcollection__filter-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.productcollection__filter-icon {
+    display: none;
+}
+.productcollection__filter-icon::before {
+    display: block;
+    width: 24px;
+    height: 24px;
+    content: '';
+}
+
+.productcollection__filter-icon.productcollection__filter-icon--closed::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/chevron-down.svg');
+}
+
+.productcollection__filter-icon.productcollection__filter-icon--open::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/chevron-up.svg');
+}
+
+.productcollection__filter-items {
+    list-style-type: none;
+}
+
+.productcollection__items {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content;
+}
+
+.productcollection__item-xf {
+    grid-column: 1/-1;
+}
+
+.productcollection__item-image {
+    height: auto;
+    width: 100%;
+}
+
+.productcollection__sort-fields {
+    float: right;
+}
+
+.productcollection__sort-order::before {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    content: '';
+}
+
+.productcollection__sort-order.productcollection__sort-order--asc::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/arrow-up.svg');
+}
+
+.productcollection__sort-order.productcollection__sort-order--desc::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/arrow-down.svg');
+}
+
+.productcollection__loadmore-button {
+    display: block;
+    margin: 0 auto auto auto;
+}
+
+.productcollection__pagination {
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+}
+
+.productcollection__pagination-arrow {
+    grid-row-start: 1;
+}
+
+.productcollection__pagination-icon::before {
+    display: block;
+    width: 24px;
+    height: 24px;
+    content: '';
+}
+
+.productcollection__pagination-arrow.productcollection__pagination-arrow--prev
+    .productcollection__pagination-icon::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/chevron-left.svg');
+}
+
+.productcollection__pagination-arrow.productcollection__pagination-arrow--prev.productcollection__pagination-arrow--inactive
+    .productcollection__pagination-icon::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/chevron-left.svg');
+}
+
+.productcollection__pagination-arrow.productcollection__pagination-arrow--next
+    .productcollection__pagination-icon::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/chevron-right.svg');
+}
+
+.productcollection__pagination-arrow.productcollection__pagination-arrow--next.productcollection__pagination-arrow--inactive
+    .productcollection__pagination-icon::before {
+    background-image: url('../../core/cif/components/commerce/productcollection/v2/productcollection/clientlibs/resources/chevron-right.svg');
+}
+
+.productcollection__pagination-button {
+    grid-row-start: 1;
+}
+
+.productcollection__pagination-button-title {
+    padding: 0.1rem 0.4rem;
+}
+
+.productcollection__pagination-button--current .productcollection__pagination-button-title {
+    border: 1px solid;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.productteaser .item__root {
+    position: relative;
+}
+
+.productteaser .item__name {
+    background: white;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.productteaser .price {
+    background: white;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    transform: translate(0, 100%);
+}
+
+.productteaser .productteaser__cta {
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.searchbar__trigger {
+    display: none;
+}
+
+.searchbar__form {
+    display: grid;
+}
+
+.searchbar__input-before,
+.searchbar__input-after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+}
+
+.searchbar__input-before {
+    grid-area: before;
+}
+
+.searchbar__input-after {
+    grid-area: after;
+    justify-self: end;
+}
+
+.searchbar__fields {
+    display: inline-grid;
+    grid-template-areas: 'before input after';
+}
+
+.searchbar__search-icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+}
+
+.searchbar__input-container {
+    grid-column: before-start / after-end;
+    grid-row: input-start / input-end;
+}
+
+.searchbar__input {
+    padding-left: calc(1.875rem * var(--iconsBefore) - -0.375rem - 1px);
+    padding-right: calc(1.875rem * var(--iconsAfter) - -2.1rem - 1px);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.carousel__btn {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    border-color: dimgrey;
+}
+
+.carousel__btn:focus-visible {
+    border-color: black;
+}
+
+.carousel__btn:disabled {
+    border-color: lightgrey;
+}
+
+.carousel__btn--next {
+    border-bottom: 8px solid;
+    border-right: 8px solid;
+    right: 0;
+    -moz-transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+}
+
+.carousel__btn--prev {
+    border-bottom: 8px solid;
+    border-left: 8px solid;
+    left: 0;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.carousel__card {
+    float: left;
+    text-align: center;
+    width: 240px;
+}
+
+.carousel__cardscontainer {
+    margin: auto;
+    /*
+     * the cardscontainer is within the cardsroot with overflow hidden.
+     * in the default style with a card width of 240px the 12000px width
+     * give enough space for 41 cards, this should be sufficient for all
+     * practical cases.
+     */
+    width: 12000px;
+    transition-property: margin-left, margin-right;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+.carousel__cardsroot {
+    overflow: hidden;
+}
+
+.carousel__container {
+    position: relative;
+    margin: 25px auto;
+    width: 240px;
+}
+
+@media screen and (min-width: 790px) {
+    .carousel__container {
+        width: 720px;
+    }
+}
+
+@media screen and (min-width: 1090px) {
+    .carousel__container {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 1380px) {
+    .carousel__container {
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .carousel__container {
+        width: 1440px;
+    }
+}
+
+.carousel__title {
+    text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2022 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+[dir='rtl'] .carousel__container {
+    direction: rtl;
+}
+
+[dir='rtl'] .carousel__btn--prev {
+    -moz-transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+    transform: rotate(225deg);
+    right: 0;
+    left: unset;
+}
+
+[dir='rtl'] .carousel__btn--next {
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    left: 0;
+    right: unset;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.categorycarousel__image {
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+}
+
+.categorycarousel__imagewrapper {
+    background-position: 50% 50%;
+    background-size: cover;
+    display: block;
+    height: 7rem;
+    margin: 0 auto 1rem auto;
+    width: 7rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ Copyright 2021 Adobe
+ ~
+ ~ Licensed under the Apache License, Version 2.0 (the "License");
+ ~ you may not use this file except in compliance with the License.
+ ~ You may obtain a copy of the License at
+ ~
+ ~     http://www.apache.org/licenses/LICENSE-2.0
+ ~
+ ~ Unless required by applicable law or agreed to in writing, software
+ ~ distributed under the License is distributed on an "AS IS" BASIS,
+ ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ ~ See the License for the specific language governing permissions and
+ ~ limitations under the License.
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.cmp-categorylist__anchor {
+    text-align: center;
+}
+
+.cmp-categorylist__content {
+    display: grid;
+    grid-gap: 3rem 2rem;
+    grid-template-columns: repeat(auto-fit, 7rem);
+    justify-content: center;
+}
+
+.cmp-categorylist__image {
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+}
+
+.cmp-categorylist__imagewrapper {
+    background-position: 50% 50%;
+    background-size: cover;
+    display: block;
+    height: 7rem;
+    margin: 0 auto 1rem auto;
+    width: 7rem;
+}
+
+.cmp-categorylist__title {
+    text-align: center;
+}

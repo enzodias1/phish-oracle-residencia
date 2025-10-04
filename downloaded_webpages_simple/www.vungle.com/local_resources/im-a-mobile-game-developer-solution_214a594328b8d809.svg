@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 400 400">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1ca853;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #00081c;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.4px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <polygon class="cls-2" points="159.3 302.95 147.53 302.95 147.53 349.56 103.77 349.56 103.77 302.95 92 302.95 125.66 249.3 159.3 302.95"></polygon>
+    <polygon class="cls-2" points="233.65 242.95 221.88 242.95 221.88 349.56 178.12 349.56 178.12 242.95 166.35 242.95 200.01 189.3 233.65 242.95"></polygon>
+    <polygon class="cls-1" points="308 182.95 296.23 182.95 296.23 349.56 252.47 349.56 252.47 182.95 240.7 182.95 274.36 129.3 308 182.95"></polygon>
+    <line class="cls-2" x1="92" y1="349.56" x2="308" y2="349.56"></line>
+  </g>
+  <circle class="cls-2" cx="125.66" cy="202.37" r="27.51"></circle>
+  <circle class="cls-2" cx="200" cy="142.37" r="27.51"></circle>
+  <circle class="cls-1" cx="274.35" cy="82.37" r="27.51"></circle>
+  <path class="cls-2" d="m286.68,85.51c0,6.81-5.52,12.33-12.33,12.33s-12.33-5.52-12.33-12.33h24.66Z"></path>
+  <path class="cls-2" d="m212.33,145.55c0,6.81-5.52,12.33-12.33,12.33s-12.33-5.52-12.33-12.33"></path>
+  <path class="cls-2" d="m137.98,205.55s-5.52,3.92-12.33,3.92-12.33-3.92-12.33-3.92"></path>
+</svg>

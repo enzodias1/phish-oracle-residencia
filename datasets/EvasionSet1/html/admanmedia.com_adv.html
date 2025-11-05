@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ADman Media is a video supply-side platform (SSP) leader in Spain and Latin America. With seven offices around the world, ADman Media offers the best solutions to help publishers optimise their inventory and maximise their revenues. Our state of the art technology allows advertisers to reach their target with innovative native video formats in high quality inventory" name="description"/>
+  <meta content="" name="author"/>
+  <title>
+   ADman Media
+  </title>
+  <script src="local_resources\jquery_e6eecb177262887f.js">
+  </script>
+  <script src="local_resources\i18next_eca03766f8d3012d.js">
+  </script>
+  <script src="local_resources\functions_1272b827c8e76748.js" type="text/javascript">
+  </script>
+  <!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+  <script async="true" type="text/javascript">
+   (function() {
+
+        var host = window.location.hostname;
+
+        var element = document.createElement('script');
+
+        var firstScript = document.getElementsByTagName('script')[0];
+
+        var url = 'https://cmp.inmobi.com'
+
+          .concat('/choice/', 'GeTDDg-SMRETL', '/', host, '/choice.js?tag_version=V3');
+
+        var uspTries = 0;
+
+        var uspTriesLimit = 3;
+
+        element.async = true;
+
+        element.type = 'text/javascript';
+
+        element.src = url;
+
+
+
+        firstScript.parentNode.insertBefore(element, firstScript);
+
+
+
+        function makeStub() {
+
+          var TCF_LOCATOR_NAME = '__tcfapiLocator';
+
+          var queue = [];
+
+          var win = window;
+
+          var cmpFrame;
+
+
+
+          function addFrame() {
+
+            var doc = win.document;
+
+            var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+
+
+            if (!otherCMP) {
+
+              if (doc.body) {
+
+                var iframe = doc.createElement('iframe');
+
+
+
+                iframe.style.cssText = 'display:none';
+
+                iframe.name = TCF_LOCATOR_NAME;
+
+                doc.body.appendChild(iframe);
+
+              } else {
+
+                setTimeout(addFrame, 5);
+
+              }
+
+            }
+
+            return !otherCMP;
+
+          }
+
+
+
+          function tcfAPIHandler() {
+
+            var gdprApplies;
+
+            var args = arguments;
+
+
+
+            if (!args.length) {
+
+              return queue;
+
+            } else if (args[0] === 'setGdprApplies') {
+
+              if (
+
+                args.length > 3 &&
+
+                args[2] === 2 &&
+
+                typeof args[3] === 'boolean'
+
+              ) {
+
+                gdprApplies = args[3];
+
+                if (typeof args[2] === 'function') {
+
+                  args[2]('set', true);
+
+                }
+
+              }
+
+            } else if (args[0] === 'ping') {
+
+              var retr = {
+
+                gdprApplies: gdprApplies,
+
+                cmpLoaded: false,
+
+                cmpStatus: 'stub'
+
+              };
+
+
+
+              if (typeof args[2] === 'function') {
+
+                args[2](retr);
+
+              }
+
+            } else {
+
+              if(args[0] === 'init' && typeof args[3] === 'object') {
+
+                args[3] = Object.assign(args[3], { tag_version: 'V3' });
+
+              }
+
+              queue.push(args);
+
+            }
+
+          }
+
+
+
+          function postMessageEventHandler(event) {
+
+            var msgIsString = typeof event.data === 'string';
+
+            var json = {};
+
+
+
+            try {
+
+              if (msgIsString) {
+
+                json = JSON.parse(event.data);
+
+              } else {
+
+                json = event.data;
+
+              }
+
+            } catch (ignore) {}
+
+
+
+            var payload = json.__tcfapiCall;
+
+
+
+            if (payload) {
+
+              window.__tcfapi(
+
+                payload.command,
+
+                payload.version,
+
+                function(retValue, success) {
+
+                  var returnMsg = {
+
+                    __tcfapiReturn: {
+
+                      returnValue: retValue,
+
+                      success: success,
+
+                      callId: payload.callId
+
+                    }
+
+                  };
+
+                  if (msgIsString) {
+
+                    returnMsg = JSON.stringify(returnMsg);
+
+                  }
+
+                  if (event && event.source && event.source.postMessage) {
+
+                    event.source.postMessage(returnMsg, '*');
+
+                  }
+
+                },
+
+                payload.parameter
+
+              );
+
+            }
+
+          }
+
+
+
+          while (win) {
+
+            try {
+
+              if (win.frames[TCF_LOCATOR_NAME]) {
+
+                cmpFrame = win;
+
+                break;
+
+              }
+
+            } catch (ignore) {}
+
+
+
+            if (win === window.top) {
+
+              break;
+
+            }
+
+            win = win.parent;
+
+          }
+
+          if (!cmpFrame) {
+
+            addFrame();
+
+            win.__tcfapi = tcfAPIHandler;
+
+            win.addEventListener('message', postMessageEventHandler, false);
+
+          }
+
+        };
+
+
+
+        makeStub();
+
+
+
+        var uspStubFunction = function() {
+
+          var arg = arguments;
+
+          if (typeof window.__uspapi !== uspStubFunction) {
+
+            setTimeout(function() {
+
+              if (typeof window.__uspapi !== 'undefined') {
+
+                window.__uspapi.apply(window.__uspapi, arg);
+
+              }
+
+            }, 500);
+
+          }
+
+        };
+
+
+
+        var checkIfUspIsReady = function() {
+
+          uspTries++;
+
+          if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+
+            console.warn('USP is not accessible');
+
+          } else {
+
+            clearInterval(uspInterval);
+
+          }
+
+        };
+
+
+
+        if (typeof window.__uspapi === 'undefined') {
+
+          window.__uspapi = uspStubFunction;
+
+          var uspInterval = setInterval(checkIfUspIsReady, 6000);
+
+        }
+
+      })();
+  </script>
+  <!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+  <!-- GOOGLE ANALYTICS -->
+  <script>
+   (function (i, s, o, g, r, a, m) {
+
+        i['GoogleAnalyticsObject'] = r;
+
+        (i[r] =
+
+          i[r] ||
+
+          function () {
+
+            (i[r].q = i[r].q || []).push(arguments);
+
+          }),
+
+          (i[r].l = 1 * new Date());
+
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+
+        a.async = 1;
+
+        a.src = g;
+
+        m.parentNode.insertBefore(a, m);
+
+      })(
+
+        window,
+
+        document,
+
+        'script',
+
+        'https://www.google-analytics.com/analytics.js',
+
+        'ga'
+
+      );
+
+
+
+      ga('create', 'UA-103852588-1', 'auto');
+
+      ga('send', 'pageview');
+  </script>
+  <!-- core CSS -->
+  <link href="local_resources\bootstrap.min_0f3cccbc55b86cc6.css" rel="stylesheet"/>
+  <link href="local_resources\font-awesome.min_bbaae9b219570a0a.css" rel="stylesheet"/>
+  <link href="local_resources\animate.min_4939b1cf0d2fc25d.css" rel="stylesheet"/>
+  <link href="local_resources\prettyPhoto_35fc618e171ad60f.css" rel="stylesheet"/>
+  <link href="local_resources\main_aea88692ac13fd90.css" rel="stylesheet"/>
+  <link href="local_resources\responsive_550f8f967dbc3834.css" rel="stylesheet"/>
+  <link href="local_resources\flexslider_c47678d363b464c2.css" rel="stylesheet"/>
+  <style type="text/css">
+   .flex-caption {
+
+        width: 96%;
+
+        padding: 2%;
+
+        left: 0;
+
+        bottom: 0;
+
+        background: rgba(0, 0, 0, 0.5);
+
+        color: #fff;
+
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+        font-size: 14px;
+
+        line-height: 18px;
+
+      }
+
+      li.css a {
+
+        border-radius: 0;
+
+      }
+  </style>
+  <!--<link href="css/style.css" rel="stylesheet">-->
+  <!--[if lt IE 9]>
+
+      <script src="js/html5shiv.js"></script>
+
+      <script src="js/respond.min.js"></script>
+
+    <![endif]-->
+  <link href="local_resources\favicon_3786b5aa9cb06eda.ico" rel="shortcut icon"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <!--/head-->
+ <body class="homepage" id="home">
+  <header class="fijo" id="header">
+   <nav class="navbar navbar-default navbar-fixed-top" id="main-menu" role="banner">
+    <div class="container">
+     <!--<div class="collapse navbar-collapse navbar-left">
+
+            	<a class="logo-res" href="index.html"><img id="logo-res" src="images/nan-tic/logo-nan-tic-color.png" width="100%" alt="logo" ></a>
+
+                </div>-->
+     <div class="row">
+      <div class="col-md-2 col-lg-2">
+       <div class="navbar-header">
+        <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+         <span class="sr-only">
+          Toggle navigation
+         </span>
+         <span class="icon-bar">
+         </span>
+         <span class="icon-bar">
+         </span>
+         <span class="icon-bar">
+         </span>
+        </button>
+        <a class="navbar-brand" onclick="window.open('index.html'); return false;">
+         <img alt="logo" class="logop" src="local_resources\phish_Logo_adman_09a23c6c78a8b042.svg"/>
+        </a>
+       </div>
+      </div>
+      <div class="col-md-10 col-lg-10">
+       <div class="collapse navbar-collapse" id="nav-nan-1">
+        <ul class="nav navbar-nav nantic-menu" id="menu-p">
+         <li class="scroll active">
+          <a data-i18n="nav.home" onclick="window.open('index.html'); return false;">
+          </a>
+         </li>
+         <li class="scroll">
+          <a data-i18n="nav.publishers" onclick="window.open('publishers.html'); return false;">
+          </a>
+         </li>
+         <li class="scroll">
+          <a data-i18n="nav.advertisers" onclick="window.open('advertisers.html'); return false;">
+          </a>
+         </li>
+         <li class="scroll">
+          <a data-i18n="nav.tecnologia" onclick="window.open('tecnologia.html'); return false;">
+          </a>
+         </li>
+         <li class="scroll">
+          <a data-i18n="nav.gallery" onclick="window.open('https://admanmedia.com/gallery/'); return false;" target="_blank">
+          </a>
+         </li>
+         <li class="scroll">
+          <a data-i18n="nav.nosotros" onclick="window.open('nosotros.html'); return false;">
+          </a>
+         </li>
+         <li class="scroll">
+          <a data-i18n="nav.contacto" onclick="window.open('contacto.html'); return false;">
+          </a>
+         </li>
+         <li class="scroll">
+          <a data-i18n="nav.empleo" onclick="window.open('empleo.html'); return false;">
+          </a>
+         </li>
+         <!-- <li class="scroll"><a href="empleo.html" data-i18n="nav.empleo"></a></li>-->
+        </ul>
+        <ul class="nav navbar-nav nantic-menu menu2">
+         <!-- <li class="scroll"><a href="https://me.admanmedia.com">LOGIN</a></li> -->
+         <!--<li class="scroll"><a href="#">REGISTRO</a></li>-->
+         <li class="scroll idioma">
+          <a class="lang" data-lang="es" onclick="window.open('?setLng=es'); return false;">
+           ES
+          </a>
+         </li>
+         <li class="scroll">
+          <a>
+           |
+          </a>
+         </li>
+         <li class="scroll">
+          <a class="lang" data-lang="fr" onclick="window.open('?setLng=fr'); return false;">
+           FR
+          </a>
+         </li>
+         <li class="scroll">
+          <a>
+           |
+          </a>
+         </li>
+         <li class="scroll">
+          <a class="lang" data-lang="en" onclick="window.open('?setLng=en'); return false;">
+           EN
+          </a>
+         </li>
+         <li class="scroll">
+          <a>
+           |
+          </a>
+         </li>
+         <li class="scroll">
+          <a class="lang" data-lang="pt" onclick="window.open('?setLng=pt'); return false;">
+           PT
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <!--/.row-->
+    </div>
+    <!--/.container-->
+   </nav>
+   <!--/nav-->
+  </header>
+  <!--/header-->
+  <div class="clearfix">
+  </div>
+  <section class="home-nan" data-stellar-background-ratio="0.4" data-vide-bg="mp4: video/adman, webm: video/adman, ogv: video/adman, poster: video/adman" data-vide-options="position: 0% 50%">
+   <!--<img class="fondo" src="images/2560x1460_1.jpg" alt="">-->
+   <!--<video class="fondo" autoplay="true" loop="true">
+
+        <source src="video/adman.mp4" type="video/mp4">
+
+        <source src="video/adman.ogv" type="video/ogg">
+
+        <source src="video/adman.WebM" type="video/webm">
+
+      Your browser does not support the video tag.
+
+      </video>-->
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <div class="st-home-unit">
+       <div class="hero-txt">
+        <p class="hero-work section-title text-center wow fadeInDown marg-bots tit-nan" data-i18n="titulohome">
+        </p>
+        <p class="hero-title section-title text-center wow fadeInDown marg-bots tit-nan2" data-i18n="subtitulohome" style="color: #fff; margin-top: 20px">
+        </p>
+        <!-- <p class="hero-sub-title">We Provide Hight Quality Bootstrap Template</p> -->
+        <!-- <a href="#" class="btn btn-default btn-lg left-btn">Purchase Now</a> -->
+       </div>
+       <div class="arrow-home">
+        <img alt="" src="local_resources\phish_flecha-abajo_9d5b6b194a9ae618.png"/>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="mouse-icon">
+    <div class="wheel">
+    </div>
+   </div>
+  </section>
+  <!--<div class="arrow-home-top"><img src="images/arrow-top.png" alt="" /></div>-->
+  <section id="home-contenedor-gris">
+   <div class="container">
+    <div class="section-header">
+     <p class="text-center wow fadeInDown text-white" data-i18n="titulogris">
+     </p>
+     <hr/>
+     <p class="text-center wow fadeInDown text-white" data-i18n="titulogris2">
+     </p>
+    </div>
+   </div>
+  </section>
+  <!--fin#features-->
+  <section id="home-contenedor3">
+   <div class="container">
+    <div class="section-header">
+     <p class="hero-work text-center wow fadeInDown marg-bots tit-nan-negro" data-i18n="beneficios">
+     </p>
+     <hr/>
+     <div class="col-md-6">
+      <img alt="logo" class="center-block" src="local_resources\phish_bola-analytics_84fb7f253250435e.svg" style="margin: auto"/>
+      <p class="text-center subtitles-negro" data-i18n="beneficios-publishers">
+      </p>
+      <p class="text-center margin-bot-movil" data-i18n="texto-beneficios-publishers" style="color: #333333">
+      </p>
+     </div>
+     <div class="col-md-6 margin-bot-movil3">
+      <img alt="logo" class="center-block" src="local_resources\phish_bola-estrella_2f8fc28913b583de.svg" style="margin: auto"/>
+      <p class="text-center subtitles-negro" data-i18n="beneficios-anunciante">
+      </p>
+      <p class="text-center" data-i18n="texto-beneficios-anunciante" style="color: #333333">
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--fin#features3-->
+  <section class="foto-parallax-1">
+  </section>
+  <section id="home-contenedor2">
+   <div class="container">
+    <div class="section-header">
+     <p class="hero-work text-center wow fadeInDown marg-bots tit-nan-negro" data-i18n="productos">
+     </p>
+     <hr/>
+     <p class="hero-work text-center wow fadeInDown marg-bots sub-title-grande" data-i18n="productos-subtitulo">
+     </p>
+    </div>
+    <div class="row marg-top-cajas flexslider">
+     <ul class="slides">
+      <!-- INTEXT START -->
+      <li>
+       <div class="col-md-12">
+        <div class="cajas-naranjas">
+         <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="intext">
+         </p>
+         <hr class="caja-naranja"/>
+         <div class="row">
+          <div class="col-md-6">
+           <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-intext">
+           </p>
+           <img alt="" class="foto-responsive" src="local_resources\phish_responsive-2_8b545f5eaf172c49.jpg"/>
+           <div class="div-btn-demo">
+            <a class="boton-naranja intext btn-demo" data-i18n="ver-demo-desktop" onclick="window.open('http://adm-landing.com.s3.amazonaws.com/demo/theNewYorkTimes/intext/mediakit_interactive.html'); return false;" target="_blank">
+            </a>
+            <a class="boton-naranja intext btn-demo" data-i18n="ver-demo-mobile" onclick="window.open('http://adm-landing.com.s3.amazonaws.com/demo/theNewYorkTimes/intext/mediakit_mobile.html'); return false;" target="_blank">
+            </a>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <img alt="" class="foto-responsive" src="local_resources\phish_intext_86187f6a29195fe2.png"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <!-- INTEXT END -->
+      <!-- INBANNER START -->
+      <li>
+       <div class="col-md-12">
+        <div class="cajas-naranjas">
+         <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="inbanner">
+         </p>
+         <hr class="caja-naranja"/>
+         <div class="row">
+          <div class="col-md-6">
+           <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-inbanner">
+           </p>
+           <img alt="" class="foto-responsive" src="local_resources\phish_responsive-2_8b545f5eaf172c49.jpg"/>
+           <div class="div-btn-demo">
+            <a class="boton-naranja inbanner btn-demo" data-i18n="ver-demo-desktop" onclick="window.open('http://adm-landing.com.s3.amazonaws.com/demo/theNewYorkTimes/inbanner/mediakit.html'); return false;" target="_blank">
+            </a>
+            <a class="boton-naranja inbanner btn-demo" data-i18n="ver-demo-mobile" onclick="window.open('http://adm-landing.com.s3.amazonaws.com/demo/theNewYorkTimes/inbanner/mediakit_mobile.html'); return false;" target="_blank">
+            </a>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <img alt="" class="foto-responsive" src="local_resources\phish_inbanner_759b8f70eb6c2a46.png"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <!-- INBANNER END -->
+      <!-- NATIVE START -->
+      <li>
+       <div class="col-md-12">
+        <div class="cajas-naranjas">
+         <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="native-video">
+         </p>
+         <hr class="caja-naranja"/>
+         <div class="row">
+          <div class="col-md-6">
+           <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-native-video">
+           </p>
+           <img alt="" class="foto-responsive" src="local_resources\phish_responsive-2_8b545f5eaf172c49.jpg"/>
+           <div class="div-btn-demo">
+            <a class="boton-naranja btn-demo" data-i18n="ver-demo-desktop" onclick="window.open('http://adm-landing.admanmedia.com/demo/sites/nytimes/index.html?pmo=c9d93772&amp;format=native'); return false;" target="_blank">
+            </a>
+            <a class="boton-naranja btn-demo" data-i18n="ver-demo-mobile" onclick="window.open('http://adm-landing.admanmedia.com/demo/dynamic/native/theNewYorkTimes/mobile.html?pmo=c9d93772&amp;css=66666666'); return false;" target="_blank">
+            </a>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <img alt="" class="foto-responsive" src="local_resources\phish_native_1f86fa25b3b94f77.png"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <!-- NATIVE END -->
+      <!-- VS2 START -->
+      <li>
+       <div class="col-md-12">
+        <div class="cajas-naranjas">
+         <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="video-seeding-2">
+         </p>
+         <hr class="caja-naranja"/>
+         <div class="row">
+          <div class="col-md-6">
+           <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-video-seeding-2">
+           </p>
+           <img alt="" class="foto-responsive" src="local_resources\phish_responsive-2_8b545f5eaf172c49.jpg"/>
+           <div class="div-btn-demo">
+            <a class="boton-naranja btn-demo" data-i18n="ver-demo-desktop" onclick="window.open('http://adm-landing.admanmedia.com/demo/sites/nytimes/index.html?pmo=54001059'); return false;" target="_blank">
+            </a>
+            <a class="boton-naranja btn-demo" data-i18n="ver-demo-mobile" onclick="window.open('http://adm-landing.admanmedia.com/demo/dynamic/videoseeding2/theNewYorkTimes/mobile.html?pmo=54001059&amp;css=66666666'); return false;" target="_blank">
+            </a>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <img alt="" class="foto-responsive" src="local_resources\phish_native_1f86fa25b3b94f77.png"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <!-- VS2 END -->
+      <!-- SURF START -->
+      <li>
+       <div class="col-md-12">
+        <div class="cajas-naranjas">
+         <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="surf">
+         </p>
+         <hr class="caja-naranja"/>
+         <div class="row">
+          <div class="col-md-6">
+           <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-surf">
+           </p>
+           <img alt="" class="foto-responsive" src="local_resources\phish_responsive-2_8b545f5eaf172c49.jpg"/>
+           <div class="div-btn-demo">
+            <a class="boton-naranja surf btn-demo" data-i18n="ver-demo-desktop" onclick="window.open('http://adm-landing.com.s3.amazonaws.com/demo/theNewYorkTimes/surf/mediakit.html'); return false;" target="_blank">
+            </a>
+            <a class="boton-naranja surf btn-demo" data-i18n="ver-demo-mobile" onclick="window.open('http://adm-landing.admanmedia.com/demo/dynamic/surf/theNewYorkTimes/mobile.html?pmo=ef2a452e'); return false;" target="_blank">
+            </a>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <img alt="" class="foto-responsive" src="local_resources\phish_surf_958b7cf1d6353698.png"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <!-- SURF END -->
+      <!-- PREROLL START -->
+      <li>
+       <div class="col-md-12">
+        <div class="cajas-naranjas">
+         <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="i-spot">
+         </p>
+         <hr class="caja-naranja"/>
+         <div class="row">
+          <div class="col-md-6">
+           <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-i-spot">
+           </p>
+           <img alt="" class="foto-responsive" src="local_resources\phish_responsive-2_8b545f5eaf172c49.jpg"/>
+           <div class="div-btn-demo">
+            <a class="boton-naranja btn-demo" data-i18n="ver-demo-desktop" onclick="window.open('http://adm-landing.admanmedia.com/demo/dynamic/preroll/theNewYorkTimes/index.html?pmo=daae0bbb'); return false;" target="_blank">
+            </a>
+            <a class="boton-naranja btn-demo" data-i18n="ver-demo-mobile" onclick="window.open('http://adm-landing.admanmedia.com/demo/dynamic/preroll/theNewYorkTimes/mobile.html?pmo=ef2a452e'); return false;" target="_blank">
+            </a>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <img alt="" class="foto-responsive" src="local_resources\phish_ispot_4a2362cb9911e57e.png"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <!-- PREROLL END -->
+      <!-- INIMAGE START -->
+      <!-- <li>
+
+                <div class="col-md-12">
+
+                  <div class="cajas-naranjas">
+
+                    <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="inimage"></p>
+
+                    <hr class="caja-naranja">
+
+                    <div class="row">
+
+                      <div class="col-md-6">
+
+                        <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-inimage"></p>
+
+                        <img class="foto-responsive" src="images/responsive-2.jpg" alt="">
+
+                        <div class="div-btn-demo">
+
+                          <a href="http://adm-landing.admanmedia.com/demo/dynamic/inimage/theNewYorkTimes/index.html?pmo=ef2a452e" class="boton-naranja btn-demo" target="_blank" data-i18n="ver-demo-desktop"></a>
+
+                          <a href="http://adm-landing.admanmedia.com/demo/dynamic/inimage/theNewYorkTimes/mobile.html?pmo=ef2a452e" class="boton-naranja btn-demo" target="_blank" data-i18n="ver-demo-mobile"></a>
+
+                        </div>
+
+                      </div>
+
+                      <div class="col-md-6">
+
+                        <img class="foto-responsive" src="images/inimage.png" alt="">
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </li> -->
+      <!-- INIMAGE END -->
+      <!-- INTEXT VERTICAL START -->
+      <li>
+       <div class="col-md-12">
+        <div class="cajas-naranjas">
+         <p class="hero-work text-center wow fadeInDown tit-caja-naranja" data-i18n="intext-vertical">
+         </p>
+         <hr class="caja-naranja"/>
+         <div class="row">
+          <div class="col-md-6">
+           <p class="hero-work text-center wow fadeInDown marg-top-45" data-i18n="[html]listado-intext-vertical">
+           </p>
+           <img alt="" class="foto-responsive" src="local_resources\phish_responsive-3_c3ed7ce63508064a.png"/>
+           <div class="div-btn-demo">
+            <a class="boton-naranja btn-demo" data-i18n="ver-demo-mobile" onclick="window.open('http://adm-landing.com.s3.amazonaws.com/demo/theNewYorkTimes/intext-vertical/mediakit.html'); return false;" target="_blank">
+            </a>
+           </div>
+          </div>
+          <div class="col-md-6">
+           <img alt="" class="foto-responsive" src="local_resources\phish_intext-vertical_44b8715b87cef3f8.png"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <!-- INTEXT VERTICAL END -->
+     </ul>
+    </div>
+    <div class="row">
+     <div class="col-md-12">
+      <a class="boton-naranja-grande" data-i18n="boton-saber-mas" onclick="window.open('tecnologia.html#products'); return false;">
+      </a>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-md-12">
+      <img alt="" class="align-center force-100" src="local_resources\phish_Showcase_02-2_new_d387a2f953660dc7.png"/>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--fin#features2-->
+  <section id="home-contenedor-gris-claro">
+   <div class="container">
+    <div class="section-header">
+     <p class="hero-work text-center wow fadeInDown marg-bots tit-nan-negro" data-i18n="garantias">
+     </p>
+     <hr/>
+     <p class="hero-work text-center wow fadeInDown marg-bots sub-title-grande2" data-i18n="garantias-subtitulo">
+     </p>
+     <div class="row marg-top-bolas">
+      <div class="col-md-4 height-desktop">
+       <img alt="logo" class="center-block marg-top-20 marg-top-20" src="local_resources\phish_bola-naranja-pantalla_4405b3067b29e26a.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro" data-i18n="fraud-free">
+       </p>
+       <p class="text-center" data-i18n="texto-fraud-free" style="color: #333333">
+       </p>
+      </div>
+      <div class="col-md-4 height-desktop">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_bola-naranja-esquinas_31a21ec08ac5eafa.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro" data-i18n="100-viewable">
+       </p>
+       <p class="text-center" data-i18n="texto-100-viewable" style="color: #333333">
+       </p>
+      </div>
+      <div class="col-md-4 height-desktop">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_bola-naranja-grafico_cac26509a1df85ad.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro" data-i18n="analytics">
+       </p>
+       <p class="text-center" data-i18n="texto-analytics" style="color: #333333">
+       </p>
+      </div>
+      <div class="col-md-4 height-desktop">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_bola-naranja-grafico2_6bedca483a18c802.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro" data-i18n="flexibilidad">
+       </p>
+       <p class="text-center" data-i18n="texto-flexibilidad" style="color: #333333">
+       </p>
+      </div>
+      <div class="col-md-4 height-desktop">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_bola-naranja-responsive_0dcf6be3aae6fed8.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro" data-i18n="multipantalla">
+       </p>
+       <p class="text-center" data-i18n="texto-multipantalla" style="color: #333333">
+       </p>
+      </div>
+      <div class="col-md-4 height-desktop">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_bola-naranja-perfil_103caa6e89eb95cc.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro" data-i18n="asistencia">
+       </p>
+       <p class="text-center" data-i18n="texto-asistencia" style="color: #333333">
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--fin#features3-->
+  <section class="foto-parallax-2">
+  </section>
+  <section id="home-contenedor4">
+   <div class="container">
+    <div class="section-header">
+     <p class="hero-work text-center wow fadeInDown marg-bots tit-nan-negro" data-i18n="internacionalidad">
+     </p>
+     <hr/>
+     <div class="row marg-top-100">
+      <div class="col-md-6 margin-bot-movil2">
+       <div class="row">
+        <div class="col-md-3 col-xs-12">
+         <img alt="logo" class="align-center" src="local_resources\phish_number1_2d45987546eae9e0.png"/>
+        </div>
+        <div class="col-md-9 col-xs-12">
+         <p class="text-left subtitles-negro2" data-i18n="mercado">
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-6">
+       <div class="row">
+        <div class="col-md-3 col-xs-12">
+         <img alt="logo" class="align-center" src="local_resources\phish_mundo-naranja_47b62dfb16f8068b.png"/>
+        </div>
+        <div class="col-md-9 col-xs-12">
+         <p class="text-left subtitles-negro2" data-i18n="oficinas1">
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--fin#features3-->
+  <section id="home-contenedor-gris-claro2">
+   <div class="container">
+    <div class="section-header2">
+     <div class="row marg-top-bolas">
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20 marg-top-20" src="local_resources\phish_barcelona_debb1ed0ea590953.svg" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="barcelona">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_madrid_027d97e6218fa7d3.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="madrid">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_paris_cd81588a79870154.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="paris">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_miami_d2b2a22fd0e5634a.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="miami">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_mexico_8f10619260cc12d0.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="mexico-df">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_bogota_9e5ea4f573fda707.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="bogota">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_sao-paoulo_0b23bf5fa67091a5.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="sao-paulo">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_chile_e62b3656cee25289.png" style="margin: auto"/>
+       <p class="text-center subtitles-negro3" data-i18n="chile3">
+       </p>
+      </div>
+      <div class="col-md-4">
+       <img alt="logo" class="center-block marg-top-20" src="local_resources\phish_argentina_aa50b9c69918fb8c.png" style="margin: auto; margin-top: 18px !important"/>
+       <p class="text-center subtitles-negro3" data-i18n="argentina2">
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--fin#features3-->
+  <section id="home-contenedor5">
+   <div class="container">
+    <div class="section-header">
+     <p class="hero-work text-center wow fadeInDown marg-bots tit-nan-negro" data-i18n="reach-adman">
+     </p>
+     <hr/>
+     <div class="column two-third last-col">
+      <div class="skill anim">
+       <h6 class="skill-name" data-i18n="[html]spain">
+       </h6>
+       <div class="skill-bar">
+        <div class="skill-active" data-perc="72" style="width: 72%">
+         <span class="tooltip" style="top: -28px; opacity: 1">
+          72%
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="skill anim">
+       <h6 class="skill-name" data-i18n="[html]france">
+       </h6>
+       <div class="skill-bar">
+        <div class="skill-active" data-perc="61" style="width: 61%">
+         <span class="tooltip" style="top: -28px; opacity: 1">
+          61%
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="skill anim">
+       <h6 class="skill-name" data-i18n="[html]mexico">
+       </h6>
+       <div class="skill-bar">
+        <div class="skill-active" data-perc="78" style="width: 78%">
+         <span class="tooltip" style="top: -28px; opacity: 1">
+          78%
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="skill anim">
+       <h6 class="skill-name" data-i18n="[html]brazil">
+       </h6>
+       <div class="skill-bar">
+        <div class="skill-active" data-perc="81" style="width: 81%">
+         <span class="tooltip" style="top: -28px; opacity: 1">
+          81%
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="skill anim">
+       <h6 class="skill-name" data-i18n="[html]chile">
+       </h6>
+       <div class="skill-bar">
+        <div class="skill-active" data-perc="65" style="width: 65%">
+         <span class="tooltip" style="top: -28px; opacity: 1">
+          65%
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="skill anim">
+       <h6 class="skill-name" data-i18n="[html]colombia">
+       </h6>
+       <div class="skill-bar">
+        <div class="skill-active" data-perc="73" style="width: 73%">
+         <span class="tooltip" style="top: -28px; opacity: 1">
+          73%
+         </span>
+        </div>
+       </div>
+      </div>
+      <div class="skill anim">
+       <h6 class="skill-name" data-i18n="[html]argentina">
+       </h6>
+       <div class="skill-bar">
+        <div class="skill-active" data-perc="73" style="width: 73%">
+         <span class="tooltip" style="top: -28px; opacity: 1">
+          73%
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="col-xs-12 col-sm-12 col-md-12">
+      <p class="text-center" data-i18n="comscore">
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!--fin#features3-->
+  <footer id="footer">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-4">
+      <img alt="" src="local_resources\phish_iab_f1876f0a3200c50d.png" style="max-width: 217px" width="60%"/>
+     </div>
+     <div class="col-sm-6" style="padding-top: 15px">
+      <p>
+       © Copyright ADman Interactive S.L.U. All rights reserved
+      </p>
+      <p>
+       <a data-i18n="condiciones" onclick="window.open('condiciones.html'); return false;">
+        Condiciones de uso
+       </a>
+       |
+       <a data-i18n="politica-privacidad" onclick="window.open('politica.html'); return false;">
+        PolÃ­tica de privacidad
+       </a>
+      </p>
+     </div>
+     <div class="col-sm-2">
+      <ul class="social-icons">
+       <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+       <li>
+        <a onclick="window.open('https://twitter.com/ADmanMedia'); return false;" target="_blank">
+         <i class="fa fa-twitter">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://www.linkedin.com/company/adman-media'); return false;" target="_blank">
+         <i class="fa fa-linkedin">
+         </i>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('http://blog.admanmedia.com/'); return false;" target="_blank">
+         <i class="fa fa-rss">
+         </i>
+        </a>
+       </li>
+       <!--<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+
+                      <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+      </ul>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <!--/#footer-->
+  <script src="local_resources\bootstrap.min_116c8107f1702277.js">
+  </script>
+  <script src="local_resources\jquery.vide_7765702c5ac3648c.js">
+  </script>
+  <script src="local_resources\jquery.flexslider_1fb3cfe18a8d54ef.js">
+  </script>
+  <script src="local_resources\mousescroll_e7ed27596ed09d32.js">
+  </script>
+  <script src="local_resources\jquery.prettyPhoto_4835739c4edb0b98.js">
+  </script>
+  <script src="local_resources\jquery.isotope.min_65e347ccbe11769b.js">
+  </script>
+  <script src="local_resources\jquery.inview.min_9b62d56f421bab15.js">
+  </script>
+  <script src="local_resources\wow.min_fa929062dddd2ae9.js">
+  </script>
+  <script src="local_resources\main_7e0d0119b6619d10.js">
+  </script>
+  <script charset="utf-8" type="text/javascript">
+   $(window).load(function () {
+
+        $('.flexslider').flexslider({
+
+          animation: 'slide',
+
+          start: function (slider) {
+
+            $('body').removeClass('loading');
+
+          },
+
+        });
+
+      });
+  </script>
+ </body>
+</html>

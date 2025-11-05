@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+  <script src="local_resources\login1_2179ec8a1baf120e.js" type="text/javascript">
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="HUAWEI Mobile Cloud, serviço HUAWEI Cloud, HUAWEI Cloud, encontrar meu telefone, encontrar meu dispositivo, telefone HUAWEI perdido, telefone HONOR perdido, backup no Cloud, serviço HUAWEI phone cloud, bloquear remotamente telefone HUAWEI" name="keywords"/>
+  <meta content="Gerencie suas fotos, contatos, notas e outros dados importantes on-line e sincronize-os com seus outros dispositivos Huawei. Você também pode localizar um dispositivo remotamente, fazê-lo reproduzir um som, bloqueá-lo ou apagar dados para proteger sua privacidade." name="description"/>
+  <meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+  <meta content="no-cache" http-equiv="Pragma"/>
+  <meta content="0" http-equiv="Expires"/>
+  <link href="local_resources\login.min_c1dc555d7c7b9cbb.css" rel="stylesheet" type="text/css"/>
+  <script src="local_resources\iscroll.min_c1cd2a8e66b95953.js" type="text/javascript">
+  </script>
+  <script src="local_resources\HiAnalyticsJSSDK.min_2a3891eceb02bacb.js">
+  </script>
+  <link href="local_resources\ico_e38b9a0fe3ce8346.ico" rel="icon" type="image/x-icon"/>
+  <title>
+   HUAWEI Mobile Cloud — Armazenamento seguro para os seus dados
+  </title>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <input id="initifreameUrl" type="hidden" value="https://id5.cloud.huawei.com/CAS/portal/cloudIframeLogin.html?loginUrl=https%3A%2F%2Fcloud.huawei.com%3A443%2Fothers%2Flogin.action&amp;service=https%3A%2F%2Fcloud.huawei.com%3A443%2Fothers%2Flogin.action&amp;reqClientType=1&amp;loginChannel=1000002&amp;lang=zh-cn&amp;countryCode=cn&amp;scenesType=0&amp;clientID=4805300&amp;scope=https%3A%2F%2Fwww.huawei.com%2Fauth%2Faccount%2Fpwdlowlogin"/>
+  <input id="initsiteID" type="hidden" value="5"/>
+  <input id="initcasLogoutUrl" type="hidden" value="https://id5.cloud.huawei.com/CAS/logout?service=https%3A%2F%2Fcloud.huawei.com%3A443%2Fv2Logout&amp;reqClientType=1&amp;loginChannel=1000002"/>
+  <input id="initlang" type="hidden" value="pt-br"/>
+  <input id="initpointSwitch" type="hidden" value="false"/>
+  <input id="initpointReportUrl" type="hidden" value=""/>
+  <input id="initcasWapLogoutUrl" type="hidden" value="https://id5.cloud.huawei.com/CAS/logout?service=https%3A%2F%2Fcloud.huawei.com%3A443%2FwapLogout&amp;reqClientType=1&amp;loginChannel=1000002"/>
+  <input id="initsiteCodeLogin" type="hidden" value="br"/>
+  <input id="deviceBrand" type="hidden" value="HUAWEI"/>
+  <input id="deviceManufacturer" type="hidden" value="HUAWEI"/>
+  <input id="appBrandId" type="hidden" value="1"/>
+  <input id="deviceBrandId" type="hidden" value="1"/>
+  <input id="contactUs" type="hidden" value="https://consumer.huawei.com"/>
+  <input id="cookiesUpdateVersion" type="hidden" value="1101030300"/>
+  <script src="local_resources\login3_c4d0e12c03aeb2ca.js" type="text/javascript">
+  </script>
+  <div id="appLoading">
+   <div class="loading">
+    <img src="data:image/gif;base64,R0lGODlhSABIAIABAP///////yH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUU3Q0RCMTVENUJCMTFFNzhFMjdBNUZGNjdBQzcyQzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUU3Q0RCMTZENUJCMTFFNzhFMjdBNUZGNjdBQzcyQzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1RTdDREIxM0Q1QkIxMUU3OEUyN0E1RkY2N0FDNzJDMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1RTdDREIxNEQ1QkIxMUU3OEUyN0E1RkY2N0FDNzJDMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTD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"/>
+   </div>
+  </div>
+  <div class="class-pc web-is-gray" id="app">
+   <div class="loginAnimation" id="Cloudlogin" style="display:none;">
+    <div style="position: relative;height: 100%;">
+     <div class="loginHeader">
+      <div class="loginHeaderLeft">
+       <div class="dropList">
+        <div class="Logicon">
+         <img _href="https://www.huawei.com" class="loginDragImg" id="hwLogo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMjkzLjggODgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI5My44IDg4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+CjxnPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTUwLjksNTguM2MwLDAsMC4xLTAuMSwwLjEtMC4zaDBjLTguNy0xOS0yMC41LTMzLjMtMjAuNS0zMy4zcy02LjUsNi4xLTYsMTIuM2MwLjIsNC42LDMuNyw3LjQsMy43LDcuNAoJCWM1LjYsNS41LDE5LjMsMTIuNCwyMi40LDE0QzUwLjcsNTguNCw1MC44LDU4LjQsNTAuOSw1OC4zIi8+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDguOCw2M2MtMC4xLTAuMi0wLjMtMC4yLTAuMy0wLjJ2MGwtMjIuNywwLjhjMi41LDQuNCw2LjYsNy44LDEwLjksNi44YzMtMC43LDkuNy01LjUsMTEuOS03bDAsMAoJCUM0OC45LDYzLjEsNDguOCw2Myw0OC44LDYzIi8+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDkuMiw2MWMwLjEtMC4yLTAuMS0wLjMtMC4xLTAuM2wwLDBjLTEwLTYuNy0yOS4zLTE3LjEtMjkuMy0xNy4xYy0xLjgsNS40LDAuNiw5LjgsMC42LDkuOAoJCWMyLjUsNS4yLDcuMiw2LjgsNy4yLDYuOGMyLjIsMC45LDQuMywxLDQuMywxYzAuMywwLjEsMTMuNSwwLDE3LDBDNDkuMSw2MS4xLDQ5LjIsNjEsNDkuMiw2MSIvPgoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTUwLjcsMTQuOWMtMSwwLjEtMy43LDAuNy0zLjcsMC43Yy02LDEuNi03LjQsNy03LjQsN2MtMS4xLDMuNCwwLDcuMiwwLDcuMmMyLDguOSwxMS45LDIzLjUsMTQsMjYuNgoJCWMwLjEsMC4yLDAuMywwLjEsMC4zLDAuMWMwLjItMC4xLDAuMi0wLjMsMC4yLTAuM2wwLDBDNTcuNCwyMy42LDUwLjcsMTQuOSw1MC43LDE0LjkiLz4KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01OC4yLDU2LjVjMC4yLDAuMSwwLjMtMC4xLDAuMy0wLjFsMCwwYzIuMi0zLjIsMTItMTcuNywxNC0yNi42YzAsMCwxLjEtNC4zLDAtNy4yYzAsMC0xLjUtNS41LTcuNS03CgkJYzAsMC0xLjctMC40LTMuNi0wLjdjMCwwLTYuNyw4LjctMy41LDQxLjNoMEM1OCw1Ni41LDU4LjIsNTYuNSw1OC4yLDU2LjUiLz4KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik02My42LDYyLjhjMCwwLTAuMiwwLTAuMywwLjJjMCwwLDAsMC4yLDAuMSwwLjNsMCwwYzIuMiwxLjYsOC44LDYuMiwxMS45LDcuMWMwLDAsNS45LDIsMTEtNi44TDYzLjYsNjIuOAoJCUw2My42LDYyLjh6Ii8+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNOTIuMyw0My41YzAsMC0xOS4zLDEwLjQtMjkuMiwxNy4xbDAsMGMwLDAtMC4yLDAuMS0wLjEsMC4zYzAsMCwwLjEsMC4yLDAuMiwwLjJ2MGMzLjYsMCwxNy4xLDAsMTcuNCwwCgkJYzAsMCwxLjctMC4xLDMuOS0wLjljMCwwLDQuOC0xLjUsNy4zLTdDOTEuOCw1My4yLDk0LDQ4LjcsOTIuMyw0My41Ii8+Cgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNjEuMiw1OC4zYzAsMCwwLjIsMC4xLDAuMywwdjBjMy4yLTEuNiwxNi44LTguNSwyMi40LTE0YzAsMCwzLjUtMi45LDMuNy03LjRjMC40LTYuNC02LTEyLjItNi0xMi4yCgkJUzY5LjgsMzksNjEuMiw1OGgwQzYxLjIsNTgsNjEuMSw1OC4yLDYxLjIsNTguMyIvPgoJPGc+CgkJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIxMjUuNSw0NC42IDExMi42LDQ0LjYgMTEyLjYsMzMuMiAxMDcsMzMuMiAxMDcsNjEuMyAxMTIuNiw2MS4zIDExMi42LDQ5LjkgMTI1LjUsNDkuOSAxMjUuNSw2MS4zIAoJCQkxMzEuMiw2MS4zIDEzMS4yLDMzLjIgMTI1LjUsMzMuMiAJCSIvPgoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNTcuNiw0OS4zYzAsNC42LTIuMyw3LTYuNCw3Yy00LjEsMC02LjQtMi41LTYuNC03LjJWMzMuM2gtNS43djE2YzAsNy45LDQuNCwxMi40LDEyLDEyLjQKCQkJYzcuNywwLDEyLjEtNC42LDEyLjEtMTIuNlYzMy4yaC01LjdWNDkuM3oiLz4KCQk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjIyMy4zLDUyLjUgMjE2LjksMzMuMiAyMTIuMywzMy4yIDIwNS45LDUyLjUgMTk5LjcsMzMuMyAxOTMuNywzMy4zIDIwMy41LDYxLjMgMjA4LjIsNjEuMyAKCQkJMjE0LjYsNDIuOSAyMjAuOSw2MS4zIDIyNS43LDYxLjMgMjM1LjQsMzMuMyAyMjkuNSwzMy4zIAkJIi8+CgkJPHBvbHlnb24gY2xhc3M9InN0MCIgcG9pbnRzPSIyNDUuNiw0OS4yIDI1Niw0OS4yIDI1Niw0NC4xIDI0NS42LDQ0LjEgMjQ1LjYsMzguNCAyNjAuNywzOC40IDI2MC43LDMzLjMgMjQwLDMzLjMgMjQwLDYxLjMgCgkJCTI2MS4yLDYxLjMgMjYxLjIsNTYuMiAyNDUuNiw1Ni4yIAkJIi8+CgkJPHJlY3QgeD0iMjY4IiB5PSIzMy4yIiBjbGFzcz0ic3QwIiB3aWR0aD0iNS42IiBoZWlnaHQ9IjI4Ii8+CgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE4Ny4zLDU1LjRsMi41LDUuOGg2bC0xMi4zLTI4aC01bC0xMi40LDI4aDUuOGwyLjYtNS44SDE4Ny4zeiBNMTgwLjksNDAuM2w0LjMsMTBoLTguNkwxODAuOSw0MC4zeiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=" style="vertical-align: text-bottom;width:120px;height:35px;"/>
+        </div>
+       </div>
+       <div>
+        <a class="sendHsdkLogin" flag1="https://consumer.huawei.com/br/mobileservices/" flag2="login_comHWServiceUrl" id="officalWebsite" onclick="window.open('https://consumer.huawei.com/br/mobileservices/'); return false;" rel="noopener noreferrer" style="display: flex;align-items: center;margin-top: 10px;cursor:not-allowed; text-decoration:none;" target="_blank">
+         <img class="loginDragImg" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgNjQgNjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY0IDY0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6dXJsKCNTVkdJRF8xXyk7fQoJLnN0MXtmaWxsOnVybCgjU1ZHSURfMl8pO30KCS5zdDJ7ZmlsbDp1cmwoI1NWR0lEXzNfKTt9Cgkuc3Qze2ZpbGw6dXJsKCNTVkdJRF80Xyk7fQoJLnN0NHtmaWxsOnVybCgjU1ZHSURfNV8pO30KCS5zdDV7ZmlsbDp1cmwoI1NWR0lEXzZfKTt9Cgkuc3Q2e2ZpbGw6dXJsKCNTVkdJRF83Xyk7fQoJLnN0N3tmaWxsOnVybCgjU1ZHSURfOF8pO30KPC9zdHlsZT4KPGc+Cgk8Zz4KCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzFfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQxLjQ5ODQiIHkxPSIyNi44ODIxIiB4Mj0iNTAuMTA3MiIgeTI9IjM1LjQ5MDgiPgoJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRUVERjJEIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiNFNDFFNkUiLz4KCQk8L2xpbmVhckdyYWRpZW50PgoJCTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjQ1LjgiIGN5PSIzMS4xIiByPSI3LjkiLz4KCQk8cmFkaWFsR3JhZGllbnQgaWQ9IlNWR0lEXzJfIiBjeD0iNDguMDY0MiIgY3k9IjMyLjMxMDIiIHI9IjcuODUwMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgoJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojREExRTZFIi8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuMzI2NSIgc3R5bGU9InN0b3AtY29sb3I6I0U4NzFBMztzdG9wLW9wYWNpdHk6MC42NzM1Ii8+CgkJCTxzdG9wICBvZmZzZXQ9IjAuNjUzIiBzdHlsZT0ic3RvcC1jb2xvcjojRjRCREQ1O3N0b3Atb3BhY2l0eTowLjM0NyIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIwLjg4NDkiIHN0eWxlPSJzdG9wLWNvbG9yOiNGQ0VERjM7c3RvcC1vcGFjaXR5OjAuMTE1MSIvPgoJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojRkZGRkZGO3N0b3Atb3BhY2l0eTowIi8+CgkJPC9yYWRpYWxHcmFkaWVudD4KCQk8Y2lyY2xlIGNsYXNzPSJzdDEiIGN4PSI0NS44IiBjeT0iMzEuMSIgcj0iNy45Ii8+CgkJPGc+CgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfM18iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDEuNDk4NCIgeTE9IjI2Ljg4MjEiIHgyPSI1MC4xMDcyIiB5Mj0iMzUuNDkwOCI+CgkJCQk8c3RvcCAgb2Zmc2V0PSIwIiBzdHlsZT0ic3RvcC1jb2xvcjojRUVERjJEIi8+CgkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojRTQxRTZFIi8+CgkJCTwvbGluZWFyR3JhZGllbnQ+CgkJCTxjaXJjbGUgY2xhc3M9InN0MiIgY3g9IjQ1LjgiIGN5PSIzMS4xIiByPSI3LjkiLz4KCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF80XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI1LjA5MTIiIHkxPSIzMS45MTg1IiB4Mj0iNTguMDA2NiIgeTI9IjMxLjkxODUiPgoJCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6I0ExRkZFMCIvPgoJCQkJPHN0b3AgIG9mZnNldD0iMC4xNzg3IiBzdHlsZT0ic3RvcC1jb2xvcjojOEZGMEU0Ii8+CgkJCQk8c3RvcCAgb2Zmc2V0PSIwLjUzOTEiIHN0eWxlPSJzdG9wLWNvbG9yOiM1RkNCRUYiLz4KCQkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMxOTk0RkYiLz4KCQkJPC9saW5lYXJHcmFkaWVudD4KCQkJPHBhdGggY2xhc3M9InN0MyIgZD0iTTUwLjUsMzIuNGMwLjEtMC40LDAuMi0wLjgsMC4yLTEuM2MwLTIuNy0yLjItNC45LTQuOS00LjljLTAuNywwLTEuNSwwLjItMi4xLDAuNQoJCQkJYy0xLjUtNi4yLTcuMS0xMC45LTEzLjctMTAuOWMtNy44LDAtMTQuMSw2LjMtMTQuMSwxNC4xYzAsMC4yLDAsMC40LDAsMC41Yy0wLjUtMC4xLTEtMC4xLTEuNS0wLjFjLTQuOSwwLTguOCwzLjktOC44LDguOAoJCQkJYzAsNC45LDMuOSw4LjgsOC44LDguOGMzLjksMCwzMC41LDAsMzQuOCwwYzQuMywwLDcuOS0zLjUsNy45LTcuOUM1NywzNi4zLDU0LjIsMzMuMSw1MC41LDMyLjR6Ii8+CgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfNV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjAuNTk4NyIgeTE9IjQ1LjEzNDMiIHgyPSI4LjAxOTYiIHkyPSIzMy4xMjY5Ij4KCQkJCTxzdG9wICBvZmZzZXQ9IjAuMTU4MyIgc3R5bGU9InN0b3AtY29sb3I6Izg1RUVFMztzdG9wLW9wYWNpdHk6MC4zIi8+CgkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojOEFFQkU1O3N0b3Atb3BhY2l0eTowLjQiLz4KCQkJPC9saW5lYXJHcmFkaWVudD4KCQkJPGNpcmNsZSBjbGFzcz0ic3Q0IiBjeD0iMTQuNCIgY3k9IjM5LjIiIHI9IjguOCIvPgoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzZfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjQzLjMxNjUiIHkxPSIzNS40NTcyIiB4Mj0iNDguMDgxNCIgeTI9IjI3LjA3MTEiPgoJCQkJPHN0b3AgIG9mZnNldD0iMC4xNTgzIiBzdHlsZT0ic3RvcC1jb2xvcjojNzhFNEYwO3N0b3Atb3BhY2l0eTowLjQiLz4KCQkJCTxzdG9wICBvZmZzZXQ9IjEiIHN0eWxlPSJzdG9wLWNvbG9yOiMyNEIyRjM7c3RvcC1vcGFjaXR5OjAuNSIvPgoJCQk8L2xpbmVhckdyYWRpZW50PgoJCQk8Y2lyY2xlIGNsYXNzPSJzdDUiIGN4PSI0NS44IiBjeT0iMzEuMSIgcj0iNC45Ii8+CgkJCTxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfN18iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDEuODg2OSIgeTE9IjQyLjkxODYiIHgyPSI1Ni40ODk0IiB5Mj0iMzcuMzUxOSI+CgkJCQk8c3RvcCAgb2Zmc2V0PSIwLjE1ODMiIHN0eWxlPSJzdG9wLWNvbG9yOiM1QUU0RjA7c3RvcC1vcGFjaXR5OjAuNCIvPgoJCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzFDN0RGODtzdG9wLW9wYWNpdHk6MC42Ii8+CgkJCTwvbGluZWFyR3JhZGllbnQ+CgkJCTxjaXJjbGUgY2xhc3M9InN0NiIgY3g9IjQ5LjEiIGN5PSI0MC4xIiByPSI3LjkiLz4KCQkJPGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF84XyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyNi45MjUzIiB5MT0iMzkuMzI2OSIgeDI9IjM0LjI4MzMiIHkyPSIxNi40Nzg1Ij4KCQkJCTxzdG9wICBvZmZzZXQ9IjAuMTU4MyIgc3R5bGU9InN0b3AtY29sb3I6IzdERkZFNDtzdG9wLW9wYWNpdHk6MC41Ii8+CgkJCQk8c3RvcCAgb2Zmc2V0PSIxIiBzdHlsZT0ic3RvcC1jb2xvcjojM0JBRUU4O3N0b3Atb3BhY2l0eTowLjYiLz4KCQkJPC9saW5lYXJHcmFkaWVudD4KCQkJPGNpcmNsZSBjbGFzcz0ic3Q3IiBjeD0iMjkuOSIgY3k9IjI5LjkiIHI9IjE0LjEiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg=="/>
+         <span>
+          Huawei Mobile Services
+         </span>
+        </a>
+       </div>
+      </div>
+      <div class="loginHeaderRight">
+       <!-- 客户端下载 -->
+       <div class="pc-download-entrance" id="pc-download-entrance-id">
+        <img class="pcDownPic loginDragImg" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIxOHB4IiB2aWV3Qm94PSIwIDAgMjQgMTgiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDYxLjIgKDg5NjUzKSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT7nlLXohJE8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz4KICAgICAgICA8cGF0aCBkPSJNMjAuNzI3MjcyNywzIEwzLjI3MjcyNzI3LDMgQzIuMDcyNzI3MjcsMyAxLjA5MDkwOTA5LDMuOTc1IDEuMDkwOTA5MDksNS4xNjY2NjY2NyBMMS4wOTA5MDkwOSwxNS40NTgzMzMzIEMxLjA5MDkwOTA5LDE2LjY1IDIuMDcyNzI3MjcsMTcuNjI1IDMuMjcyNzI3MjcsMTcuNjI1IEwyMC43MjcyNzI3LDE3LjYyNSBDMjEuOTI3MjcyNywxNy42MjUgMjIuOTA5MDkwOSwxNi42NSAyMi45MDkwOTA5LDE1LjQ1ODMzMzMgTDIyLjkwOTA5MDksNS4xNjY2NjY2NyBDMjIuOTA5MDkwOSwzLjk3NSAyMS45MjcyNzI3LDMgMjAuNzI3MjcyNywzIE0yMy4xODE4MTgyLDE4LjcwODMzMzMgQzIzLjY0NTQ1NDUsMTguNzA4MzMzMyAyNCwxOS4wNjA0MTY3IDI0LDE5LjUyMDgzMzMgQzI0LDE5Ljk4MTI1IDIzLjY0NTQ1NDUsMjAuMzMzMzMzMyAyMy4xODE4MTgyLDIwLjMzMzMzMzMgTDAuODE4MTgxODE4LDIwLjMzMzMzMzMgQzAuMzU0NTQ1NDU1LDIwLjMzMzMzMzMgMCwxOS45ODEyNSAwLDE5LjUyMDgzMzMgQzAsMTkuMDYwNDE2NyAwLjM1NDU0NTQ1NSwxOC43MDgzMzMzIDAuODE4MTgxODE4LDE4LjcwODMzMzMgTDIzLjE4MTgxODIsMTguNzA4MzMzMyBaIE0yMC43MjcyNzI3LDQuNjI1IEMyMS4wMjcyNzI3LDQuNjI1IDIxLjI3MjcyNzMsNC44Njg3NSAyMS4yNzI3MjczLDUuMTY2NjY2NjcgTDIxLjI3MjcyNzMsMTUuNDU4MzMzMyBDMjEuMjcyNzI3MywxNS43NTYyNSAyMS4wMjcyNzI3LDE2IDIwLjcyNzI3MjcsMTYgTDMuMjcyNzI3MjcsMTYgQzIuOTcyNzI3MjcsMTYgMi43MjcyNzI3MywxNS43NTYyNSAyLjcyNzI3MjczLDE1LjQ1ODMzMzMgTDIuNzI3MjcyNzMsNS4xNjY2NjY2NyBDMi43MjcyNzI3Myw0Ljg2ODc1IDIuOTcyNzI3MjcsNC42MjUgMy4yNzI3MjcyNyw0LjYyNSBMMjAuNzI3MjcyNyw0LjYyNSBaIiBpZD0icGF0aC0xIj48L3BhdGg+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0i6aaW6aG1IiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iQ29va2llc+S4reWkh+S7vS0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTUyNy4wMDAwMDAsIC0xOS4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9IuWIhue7hC00IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNTI3LjAwMDAwMCwgMTYuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0i55S16ISRIj4KICAgICAgICAgICAgICAgICAgICA8cmVjdCBpZD0i55+p5b2iIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPjwvcmVjdD4KICAgICAgICAgICAgICAgICAgICA8bWFzayBpZD0ibWFzay0yIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgPC9tYXNrPgogICAgICAgICAgICAgICAgICAgIDx1c2UgaWQ9Ik1hc2siIGZpbGw9IiNGRkZGRkYiIHhsaW5rOmhyZWY9IiNwYXRoLTEiPjwvdXNlPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="/>
+        <span class="pcDownTxt">
+         Baixar o aplicativo Cloud
+        </span>
+       </div>
+       <script src="local_resources\login4_d5d604086d7dbe4d.js" type="text/javascript">
+       </script>
+       <a class="switchLan">
+        <img class="langBtnI loginDragImg switchLan" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxwYXRoIGQ9Ik0xNi4xLDMuMUM5LDMuMSwzLjIsOC45LDMuMiwxNlM5LDI5LDE2LjEsMjlDMjMuMiwyOSwyOSwyMy4yLDI5LDE2UzIzLjIsMy4xLDE2LjEsMy4xeiBNNC4yLDE2YzAtMS4xLDAuMi0yLjEsMC40LTMuMQoJbDEuMSwxYzAuNCwyLjEsMi4zLDMuOCw0LjUsMy44aDEuM2MwLjQsMCwwLjcsMC4zLDAuNywwLjd2MS4zdjAuMXYwLjdjMCwwLjcsMC4yLDEuMiwwLjYsMS42YzEuNCwxLjQsMi4yLDMuMywyLjIsNS4ydjAuNAoJQzksMjcuNCw0LjIsMjIuMiw0LjIsMTZ6IE0xNi45LDI3LjlsMy4xLTUuMmMwLjQtMC45LDAuNi0xLjksMC42LTN2LTJjMC0wLjgtMC42LTEuNC0xLjQtMS40SDEyYy0wLjgsMC0xLjQtMC42LTEuNC0xLjQKCXMwLjYtMS40LDEuNC0xLjRoMS42YzAuOCwwLDEuNC0wLjYsMS40LTEuNFYxMGMwLTAuNCwwLjMtMC43LDAuNy0wLjdoMi4xYzEuNiwwLDIuOC0xLjMsMi44LTIuOFY1YzMuMiwxLjMsNS43LDQsNi44LDcuMwoJYzAsMCwwLDAsMCwwbDAsMGMwLjEsMC40LDAuMiwwLjcsMC4zLDEuMWMtMC41LDEuMS0yLjUsMi41LTIuNSwzLjljMCwxLjQsMC44LDIuNSwyLDMuMUMyNS42LDI0LjUsMjEuNiwyNy42LDE2LjksMjcuOXoiIGZpbGw9IiNkN2RkZjUiLz4KPC9zdmc+Cg=="/>
+        <span class="langBtn">
+         Choose  Language
+        </span>
+        <span class="lang_smallTriangle">
+        </span>
+       </a>
+       <a class="sendHsdkLogin" flag1="/static/help/index.html" flag2="login_help" onclick="window.open('/static/help/index.html'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        <img class="helpBtnI loginDragImg" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIxLjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IuWbvuWxgl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe29wYWNpdHk6MDt9Cgkuc3Qxe2ZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO30KPC9zdHlsZT4KPGc+Cgk8cGF0aCBkPSJNMTYsM0M4LjgsMywzLDguOCwzLDE2YzAsNy4yLDUuOCwxMywxMywxM2M3LjIsMCwxMy01LjgsMTMtMTNDMjksOC44LDIzLjIsMywxNiwzeiBNMTYsMjdDOS45LDI3LDUsMjIuMSw1LDE2CgkJQzUsOS45LDkuOSw1LDE2LDVjNi4xLDAsMTEsNC45LDExLDExQzI3LDIyLjEsMjIuMSwyNywxNiwyN3oiIGZpbGw9IiNkN2RkZjUiLz4KCTxjaXJjbGUgY3g9IjE2IiBjeT0iMjEuNSIgcj0iMS4zIiBmaWxsPSIjZDdkZGY1Ii8+Cgk8cGF0aCBkPSJNMTYsOS4yYy0yLjIsMC0zLjksMS44LTMuOSwzLjljMCwwLjYsMC40LDEsMSwxczEtMC40LDEtMWMwLTEuMSwwLjktMS45LDEuOS0xLjlzMS45LDAuOSwxLjksMS45YzAsMC44LTAuNCwxLjEtMS4xLDEuOAoJCUMxNiwxNS41LDE1LDE2LjMsMTUsMTcuOWMwLDAuNiwwLjQsMSwxLDFzMS0wLjQsMS0xYzAtMC42LDAuNC0xLDEuMS0xLjZjMC44LTAuNywxLjktMS42LDEuOS0zLjNDMTkuOSwxMC45LDE4LjIsOS4yLDE2LDkuMnoiIGZpbGw9IiNkN2RkZjUiLz4KPC9nPgo8L3N2Zz4K" title="Ajuda"/>
+        <span class="helpBtn" style="padding-top:5px;">
+         Ajuda
+        </span>
+       </a>
+      </div>
+     </div>
+     <div class="loginNotice">
+     </div>
+     <div class="loginFrame">
+      <iframe frameborder="0" id="iframe1" src="" style="height:0;width:0;">
+      </iframe>
+      <iframe frameborder="0" id="frameAddress" scrolling="no">
+      </iframe>
+     </div>
+     <div class="loginFooter loginFooter_5 cookie_setting">
+      <p>
+       <a class="cursor CloudLinkopacity sendHsdkHome" flag1="/hiCloudNotices" flag2="login_stateServices" onclick="window.open('/hiCloudNotices'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Status do serviço
+       </a>
+       <span class="CloudLinkopacity nbspWidth">
+        |
+       </span>
+       <a class="cursor CloudLinkopacity sendHsdkLogin" flag1="/appeal" flag2="login_hwAppealUrl" onclick="window.open('/appeal'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Recurso para ativação de dispositivos
+       </a>
+       <span class="CloudLinkopacity nbspWidth">
+        |
+       </span>
+       <a class="cursor CloudLinkopacity sendHsdkLogin" flag1="/cloudSpaceTransit" flag2="login_hwAgreementUrl" onclick="window.open('/cloudSpaceTransit'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Contrato de usuário do HUAWEI Mobile Cloud
+       </a>
+       <span class="CloudLinkopacity nbspWidth">
+        |
+       </span>
+       <a class="cursor CloudLinkopacity sendHsdkLogin" flag1="/privacyStatementTransit" flag2="login_hwPrivacyStatementTransit" onclick="window.open('/privacyStatementTransit'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Declaração sobre o HUAWEI Mobile Cloud e a privacidade
+       </a>
+       <span class="CloudLinkopacity nbspWidth">
+        |
+       </span>
+       <!-- 新增隐私和安全入口 -->
+       <a class="cursor CloudLinkopacity sendHsdkLogin" flag1="/security" flag2="login_securityAndPrivacy" onclick="window.open('/security'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Segurança e privacidade
+       </a>
+       <span class="CloudLinkopacity nbspWidth">
+        |
+       </span>
+       <a class="cursor CloudLinkopacity sendHsdkLogin" flag1="/staticpage/opensource/cloudportal.html" flag2="login_hwOpenSource" onclick="window.open('/staticpage/opensource/cloudportal.html'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Licenças de código fonte aberto
+       </a>
+       <span class="CloudLinkopacity nbspWidth">
+        |
+       </span>
+       <a class="cursor CloudLinkopacity sendHsdkLogin" flag1="/cloudInfo" flag2="login_hwCloudInfo" onclick="window.open('/cloudCookie'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Cookies
+       </a>
+       <!-- Cookie Settings add by fy -->
+       <span class="CloudLinkopacity nbspWidth">
+        |
+       </span>
+       <a class="cursor CloudLinkopacity sendHsdkLogin" flag1="/cloudCookie#checkboxSwitch" flag2="login_hwCookies" onclick="window.open('/cloudCookie#checkboxSwitch'); return false;" rel="noopener noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Configurações de cookies
+       </a>
+      </p>
+      <p style="margin-top:5px;">
+       <span class="copyRights">
+        Copyright © 2012-2025 Huawei Services (Hong Kong) Co., Limited. Todos os direitos reservados
+       </span>
+      </p>
+     </div>
+     <div id="wrapper" style="display: none;">
+      <div class="languageSpinner" id="scroller">
+       <img class="languageSpinner_img loginDragImg" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODBweCIgaGVpZ2h0PSI1NnB4IiB2aWV3Qm94PSIwIDAgODAgNTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDQ5LjIgKDUxMTYwKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5keW5hbWljX2ljb25fb25fMjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJQYWdlLTIiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSIwNF8wMl9QaG9uZU1hbmFnZXJfY2xlYW51cF9maW5pc2hlZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyODcuMDAwMDAwLCAtNTk2LjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0iY29tcG9uZW50c19saXN0X3JpZ2h0X29uXzIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCA1MTYuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iZHluYW1pY19pY29uX29uXzIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyODAuMDAwMDAwLCA2My4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0ib3ZlcmxheWVyIiBwb2ludHM9IjAgMCA5NiAwIDk2IDk2IDAgOTYiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMzIuMTY5NSw3MS44NiBMOC4xNzE1LDQ3Ljg0NiBDNi42MDk1LDQ2LjI4MyA2LjYwOTUsNDMuNzQ5IDguMTcxNSw0Mi4xODYgQzkuNzMzNSw0MC42MjMgMTIuMjY2NSw0MC42MjMgMTMuODI3NSw0Mi4xODYgTDM0Ljk5NzUsNjMuMzcgTDgwLjE2NTUsMTguMTczIEM4MS43MjY1LDE2LjYwOSA4NC4yNTk1LDE2LjYwOSA4NS44MjE1LDE4LjE3MyBDODcuMzgzNSwxOS43MzUgODcuMzgzNSwyMi4yNyA4NS44MjE1LDIzLjgzMyBMMzcuODI1NSw3MS44NiBDMzcuMDc1NSw3Mi42MTEgMzYuMDU3NSw3My4wMzIgMzQuOTk3NSw3My4wMzIgQzMzLjkzNzUsNzMuMDMyIDMyLjkxOTUsNzIuNjExIDMyLjE2OTUsNzEuODYgWiIgaWQ9IlBhZ2UtMSIgZmlsbD0iIzAwN0RGRiI+PC9wYXRoPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4="/>
+       <ul class="languageSpinner_ul_list">
+        <li code="pt-br" name="Português(Brasil)">
+         <div code="pt-br" name="Português(Brasil)">
+          Português(Brasil)
+         </div>
+        </li>
+        <li code="az-az" name="Azərbaycan (latın)">
+         <div code="az-az" name="Azərbaycan (latın)">
+          Azərbaycan (latın)
+         </div>
+        </li>
+        <li code="ms-my" name="Bahasa Melayu">
+         <div code="ms-my" name="Bahasa Melayu">
+          Bahasa Melayu
+         </div>
+        </li>
+        <li code="bs-ba" name="Bosanski (latinica)">
+         <div code="bs-ba" name="Bosanski (latinica)">
+          Bosanski (latinica)
+         </div>
+        </li>
+        <li code="my-zg" name="Burmese">
+         <div code="my-zg" name="Burmese">
+          Burmese
+         </div>
+        </li>
+        <li code="ca-es" name="Català ">
+         <div code="ca-es" name="Català ">
+          Català
+         </div>
+        </li>
+        <li code="cs-cz" name="Čeština">
+         <div code="cs-cz" name="Čeština">
+          Čeština
+         </div>
+        </li>
+        <li code="da-dk" name="Dansk">
+         <div code="da-dk" name="Dansk">
+          Dansk
+         </div>
+        </li>
+        <li code="de-de" name="Deutsch">
+         <div code="de-de" name="Deutsch">
+          Deutsch
+         </div>
+        </li>
+        <li code="et-ee" name="Eesti">
+         <div code="et-ee" name="Eesti">
+          Eesti
+         </div>
+        </li>
+        <li code="en-us" name="English">
+         <div code="en-us" name="English">
+          English
+         </div>
+        </li>
+        <li code="en-gb" name="English (United Kingdom)">
+         <div code="en-gb" name="English (United Kingdom)">
+          English (United Kingdom)
+         </div>
+        </li>
+        <li code="es-es" name="Español">
+         <div code="es-es" name="Español">
+          Español
+         </div>
+        </li>
+        <li code="eu-es" name="Euskara">
+         <div code="eu-es" name="Euskara">
+          Euskara
+         </div>
+        </li>
+        <li code="tl-ph" name="Filipino">
+         <div code="tl-ph" name="Filipino">
+          Filipino
+         </div>
+        </li>
+        <li code="fr-fr" name="Français">
+         <div code="fr-fr" name="Français">
+          Français
+         </div>
+        </li>
+        <li code="gl-es" name="Galego">
+         <div code="gl-es" name="Galego">
+          Galego
+         </div>
+        </li>
+        <li code="hr-hr" name="Hrvatski">
+         <div code="hr-hr" name="Hrvatski">
+          Hrvatski
+         </div>
+        </li>
+        <li code="in-id" name="Indonesia">
+         <div code="in-id" name="Indonesia">
+          Indonesia
+         </div>
+        </li>
+        <li code="it-it" name="Italiano">
+         <div code="it-it" name="Italiano">
+          Italiano
+         </div>
+        </li>
+        <li code="jv-id" name="Javanese (Latin)">
+         <div code="jv-id" name="Javanese (Latin)">
+          Javanese (Latin)
+         </div>
+        </li>
+        <li code="sw-ke" name="Kiswahili">
+         <div code="sw-ke" name="Kiswahili">
+          Kiswahili
+         </div>
+        </li>
+        <li code="lv-lv" name="Latviešu ">
+         <div code="lv-lv" name="Latviešu ">
+          Latviešu
+         </div>
+        </li>
+        <li code="lt-lt" name="Lietuvių">
+         <div code="lt-lt" name="Lietuvių">
+          Lietuvių
+         </div>
+        </li>
+        <li code="hu-hu" name="Magyar">
+         <div code="hu-hu" name="Magyar">
+          Magyar
+         </div>
+        </li>
+        <li code="mi-nz" name="Māori">
+         <div code="mi-nz" name="Māori">
+          Māori
+         </div>
+        </li>
+        <li code="nl-nl" name="Nederlands">
+         <div code="nl-nl" name="Nederlands">
+          Nederlands
+         </div>
+        </li>
+        <li code="nb-no" name="Norsk bokmål">
+         <div code="nb-no" name="Norsk bokmål">
+          Norsk bokmål
+         </div>
+        </li>
+        <li code="uz-uz" name="O‘zbek (lotin)">
+         <div code="uz-uz" name="O‘zbek (lotin)">
+          O‘zbek (lotin)
+         </div>
+        </li>
+        <li code="pl-pl" name="Polski">
+         <div code="pl-pl" name="Polski">
+          Polski
+         </div>
+        </li>
+        <li code="pt-pt" name="Português(Portugal)">
+         <div code="pt-pt" name="Português(Portugal)">
+          Português(Portugal)
+         </div>
+        </li>
+        <li code="ro-ro" name="Română">
+         <div code="ro-ro" name="Română">
+          Română
+         </div>
+        </li>
+        <li code="sk-sk" name="Slovenčina">
+         <div code="sk-sk" name="Slovenčina">
+          Slovenčina
+         </div>
+        </li>
+        <li code="sl-si" name="Slovenščina">
+         <div code="sl-si" name="Slovenščina">
+          Slovenščina
+         </div>
+        </li>
+        <li code="sr-rp" name="Srpski (latinica)">
+         <div code="sr-rp" name="Srpski (latinica)">
+          Srpski (latinica)
+         </div>
+        </li>
+        <li code="fi-fi" name="Suomi">
+         <div code="fi-fi" name="Suomi">
+          Suomi
+         </div>
+        </li>
+        <li code="sv-se" name="Svenska">
+         <div code="sv-se" name="Svenska">
+          Svenska
+         </div>
+        </li>
+        <li code="vi-vn" name="Tiếng Việt">
+         <div code="vi-vn" name="Tiếng Việt">
+          Tiếng Việt
+         </div>
+        </li>
+        <li code="tr-tr" name="Türkçe">
+         <div code="tr-tr" name="Türkçe">
+          Türkçe
+         </div>
+        </li>
+        <li code="el-gr" name="Ελληνικά">
+         <div code="el-gr" name="Ελληνικά">
+          Ελληνικά
+         </div>
+        </li>
+        <li code="be-by" name="Беларуская">
+         <div code="be-by" name="Беларуская">
+          Беларуская
+         </div>
+        </li>
+        <li code="bg-bg" name="Български">
+         <div code="bg-bg" name="Български">
+          Български
+         </div>
+        </li>
+        <li code="kk-kz" name="Қазақ тілі">
+         <div code="kk-kz" name="Қазақ тілі">
+          Қазақ тілі
+         </div>
+        </li>
+        <li code="mk-mk" name="Македонски">
+         <div code="mk-mk" name="Македонски">
+          Македонски
+         </div>
+        </li>
+        <li code="mn-mn" name="Монгол">
+         <div code="mn-mn" name="Монгол">
+          Монгол
+         </div>
+        </li>
+        <li code="ru-ru" name="Русский">
+         <div code="ru-ru" name="Русский">
+          Русский
+         </div>
+        </li>
+        <li code="uk-ua" name="Українська">
+         <div code="uk-ua" name="Українська">
+          Українська
+         </div>
+        </li>
+        <li code="ka-ge" name="ქართული">
+         <div code="ka-ge" name="ქართული">
+          ქართული
+         </div>
+        </li>
+        <li code="iw-il" name="עברית">
+         <div code="iw-il" name="עברית">
+          עברית
+         </div>
+        </li>
+        <li code="ur-pk" name="اردو">
+         <div code="ur-pk" name="اردو">
+          اردو
+         </div>
+        </li>
+        <li code="ar-eg" name="العربية">
+         <div code="ar-eg" name="العربية">
+          العربية
+         </div>
+        </li>
+        <li code="fa-ir" name="فارسی">
+         <div code="fa-ir" name="فارسی">
+          فارسی
+         </div>
+        </li>
+        <li code="am-et" name="አማርኛ">
+         <div code="am-et" name="አማርኛ">
+          አማርኛ
+         </div>
+        </li>
+        <li code="ne-np" name="नेपाली">
+         <div code="ne-np" name="नेपाली">
+          नेपाली
+         </div>
+        </li>
+        <li code="hi-in" name="हिन्दी">
+         <div code="hi-in" name="हिन्दी">
+          हिन्दी
+         </div>
+        </li>
+        <li code="bn-bd" name="বাংলা">
+         <div code="bn-bd" name="বাংলা">
+          বাংলা
+         </div>
+        </li>
+        <li code="si-lk" name="සිංහල">
+         <div code="si-lk" name="සිංහල">
+          සිංහල
+         </div>
+        </li>
+        <li code="th-th" name="ภาษาไทย">
+         <div code="th-th" name="ภาษาไทย">
+          ภาษาไทย
+         </div>
+        </li>
+        <li code="lo-la" name="ພາສາລາວ">
+         <div code="lo-la" name="ພາສາລາວ">
+          ພາສາລາວ
+         </div>
+        </li>
+        <li code="bo-cn" name="བོད་སྐད།">
+         <div code="bo-cn" name="བོད་སྐད།">
+          བོད་སྐད།
+         </div>
+        </li>
+        <li code="my-mm" name="ဗမာ">
+         <div code="my-mm" name="ဗမာ">
+          ဗမာ
+         </div>
+        </li>
+        <li code="km-kh" name="ខ្មែរ">
+         <div code="km-kh" name="ខ្មែរ">
+          ខ្មែរ
+         </div>
+        </li>
+        <li code="ko-kr" name="한국어">
+         <div code="ko-kr" name="한국어">
+          한국어
+         </div>
+        </li>
+        <li code="ja-jp" name="日本語 ">
+         <div code="ja-jp" name="日本語 ">
+          日本語
+         </div>
+        </li>
+        <li code="zh-cn" name="简体中文">
+         <div code="zh-cn" name="简体中文">
+          简体中文
+         </div>
+        </li>
+        <li code="zh-tw" name="繁體中文">
+         <div code="zh-tw" name="繁體中文">
+          繁體中文
+         </div>
+        </li>
+        <li code="zh-hk" name="繁體中文（中國香港）">
+         <div code="zh-hk" name="繁體中文（中國香港）">
+          繁體中文（中國香港）
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="CloudLogin_Mask_bg" id="login_mask_bg" style="display:none;">
+    </div>
+   </div>
+  </div>
+  <script src="local_resources\login5_1f1b9ded227d6eee.js" type="text/javascript">
+  </script>
+  <script src="local_resources\pointjs.min_1207da71999630c1.js">
+  </script>
+  <input id="cookieInitSiteID" type="hidden" value="5"/>
+  <input id="cookieSiteCodePart" type="hidden" value="br"/>
+  <div class="cookiePart">
+   <!-- å½å¤ç«ç¹ -->
+   <div class="cookie-box" id="cookieTipOut">
+    <div class="panel" id="panelBox">
+     <!-- cookie -->
+     <div class="banner-foreign">
+      <div class="cookie-text" id="cookieText">
+       <!-- cookieææ¡æç¤ºåå®¹ -->
+       <img src="local_resources\phish_cookie-text-icon_0b3bb218e5dfd179.svg"/>
+       <span class="text">
+        Este site usa cookies e tecnologias semelhantes para funcionar corretamente. Com o seu consentimento, usaremos esses meios para coletar dados sobre suas visitas e compilar estatísticas agregadas com o objetivo de analisar e melhorar nossos serviços. Ao aceitar todos os cookies, você concorda com nosso uso de cookies desta forma.
+       </span>
+       <!-- äºè§£æ´å¤ -->
+       <span class="learn-more" flag="out" id="learnMore">
+        Saber mais
+       </span>
+      </div>
+      <div class="cookie-close">
+       <!-- å³é­å¼¹åºæ¡æé® -->
+       <img class="close" id="closeCookieTips" src="local_resources\phish_cookie-close-foreign_c190f1752c4a1bf1.svg"/>
+      </div>
+     </div>
+     <!-- ç¨æ·æä½ -->
+     <div class="cookie-btns cookie-pc" id="cookieBtnBox">
+      <!-- è®¾ç½® -->
+      <span class="cookieButton" id="settingBtn">
+       Configurações de cookies
+      </span>
+      <!-- æç» -->
+      <span class="cookieButton" id="rejectBtn">
+       Apenas cookies essenciais
+      </span>
+      <!-- æ¥å -->
+      <span class="cookieButton" id="agreeBtn">
+       Aceitar tudo
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="local_resources\pointjs.min_51128d5e40f20a94.js" type="text/javascript">
+  </script>
+  <script src="local_resources\cookie1_ec17ee72cae80983.js" type="text/javascript">
+  </script>
+  <style>
+   /* cookieæç¤º */
+
+    .cookiePart {
+
+        position: relative;
+
+    }
+
+    .cookieTip {
+
+        padding: 10px 24px;
+
+        background: rgba(218, 218, 218, .8);
+
+        color: rgb(51, 51, 51);
+
+        font-size: 14px;
+
+        position: fixed;
+
+        bottom: 0;
+
+        left: 0;
+
+        right: 0;
+
+        z-index: 3;
+
+    }
+
+    .cookieAll {
+
+        display: flex;
+
+        align-items: center;
+
+    }
+
+    /* æç¤ºåå®¹ */
+
+    .cookieTipTxt {
+
+        color: #191919;
+
+        flex: 1;
+
+        line-height: 21px;
+
+        margin-right: 25px;
+
+    }
+
+    /* æç¤ºåå®¹:å­¦ä¹ æ´å¤ */
+
+    .cookieTipMore {
+
+        margin-left: 8px;
+
+        font-weight: 600;
+
+        cursor: pointer;
+
+        display: inline-block;
+
+        /* position: relative; */
+
+        border-bottom: 1px solid #191919;
+
+    }
+
+    /* åææé® */
+
+    .cookieTipAgreen {
+
+        display: inline-block;
+
+        height: 26px;
+
+        line-height: 26px;
+
+        text-align: center;
+
+        font-size: 14px;
+
+        border: 1px solid #666666;
+
+        border-radius: 4px;
+
+        cursor: pointer;
+
+        box-sizing: content-box;
+
+        margin-right: 24px;
+
+        padding: 0 15px;
+
+    }
+
+    /* å³é­æé® */
+
+    .cookieTipClose {
+
+        width: 20px;
+
+        height: 20px;
+
+        cursor: pointer;
+
+    }
+
+/* æµ·å¤ç¯å¢æ ·å¼ */
+
+.cookie-box {
+
+  position: fixed;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  z-index: 99999;
+
+  padding: 18px 24px;
+
+  background: rgba(0, 0, 0, 0.65);
+
+  color: #fff;
+
+  font-size: 14px;
+
+}
+
+.cookie-box .panel {
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.cookie-box .panel .banner-foreign {
+
+  display: flex;
+
+  line-height: 20px;
+
+  justify-content: center;
+
+}
+
+.cookie-box .panel .banner-foreign .cookie-text {
+
+  margin-right: 25px;
+
+}
+
+.cookie-box .panel .banner-foreign .cookie-text img {
+
+  width: 16px;
+
+  height: 16px;
+
+  vertical-align: middle;
+
+  margin-right: 6px;
+
+  padding-bottom: 2px;
+
+}
+
+.cookie-box .panel .banner-foreign .cookie-text .learn-more {
+
+  margin-left: 8px;
+
+  font-weight: 400;
+
+  cursor: pointer;
+
+  position: relative;
+
+  border-bottom: 1px solid #fff;
+
+  display: inline-block;
+
+}
+
+.cookie-box .panel .banner-foreign .cookie-text .learn-more:hover {
+
+  color: #007DFF;
+
+  border-bottom-color: #007DFF;
+
+}
+
+.cookie-box .panel .banner-foreign .cookie-close {
+
+  position: absolute;
+
+  right: 20px;
+
+}
+
+.cookie-box .panel .banner-foreign .cookie-close img {
+
+  width: 20px;
+
+  height: 20px;
+
+  line-height: 20px;
+
+  cursor: pointer;
+
+  border: 1px solid transparent;
+
+}
+
+.cookie-box .panel .banner-foreign .cookie-close img:hover {
+
+  border: 1px solid #787878;
+
+  border-radius: 50%;
+
+  background: rgba(120, 120, 120,0.3);
+
+}
+
+.cookie-box .panel .cookie-btns {
+
+  display: flex;
+
+  flex: 1 auto;
+
+  align-items: center;
+
+  margin: 15px 0 0 0;
+
+}
+
+.cookie-box .panel .flexStart{
+
+    justify-content: flex-start;
+
+}
+
+.cookie-box .panel .flexCenter{
+
+  justify-content: center;
+
+}
+
+.cookie-box .panel .cookie-btns span {
+
+  cursor: pointer;
+
+  white-space: nowrap;
+
+}
+
+.cookie-box .panel .cookie-btns span.setting {
+
+  margin-right: 24px;
+
+}
+
+.cookie-box .panel .cookie-btns span.setting:hover {
+
+  color: #007DFF;
+
+}
+
+.cookie-box .panel .cookie-btns span.cookieButton{
+
+  border: 1px solid #fff;
+
+  border-radius: 16px;
+
+  padding: 6px 10px;
+
+  margin-right: 16px;
+
+  overflow: hidden;
+
+  text-overflow:ellipsis;
+
+}
+
+.cookie-box .panel .cookie-btns span.cookieButton:hover{
+
+  background-color: rgba(255, 255, 255, 0.38);
+
+  border-color: rgba(255, 255, 255, 0.38);
+
+}
+
+.cookie-box .panel .cookie-mobile{
+
+    display: block;
+
+    padding-top: -14px;
+
+}
+
+.cookie-box .panel .cookie-mobile span.cookieButton{
+
+  margin: 14px auto 0;
+
+  width: 296px;
+
+  overflow: hidden;
+
+  text-align: center;
+
+  text-overflow:ellipsis;
+
+  display: block;
+
+}
+
+.cookie-box .panel .cookie-pc span.cookieButton{
+
+  overflow: inherit;
+
+  text-overflow:clip;
+
+}
+  </style>
+ </body>
+</html>

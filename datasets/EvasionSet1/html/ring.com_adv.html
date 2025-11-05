@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html class="ie9 no-js" lang="es"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="es">
+ <!--<![endif]-->
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="#7796a8" name="theme-color"/>
+  <meta content="cfa66e40ddf9267a341081e4bbb3c9d7" name="p:domain_verify"/>
+  <meta content="aUAV9flJAVf4SLpW0R7YF0AQB6KjbEYOjMTWj-EI8Xo" name="google-site-verification"/>
+  <!-- Script 1.1 - The main CM script -->
+  <script async="" id="consent-script" src="local_resources\consent-manager_1d2df781305a8828.js" type="text/javascript">
+  </script>
+  <!-- <script id='consent-script' type='text/javascript' src='https://d1ber8az9zrhox.cloudfront.net/common/static/consent-manager.js?locale=es-419&loggedIn=0&region=EU' async=''></script> -->
+  <!-- Script 2.1 - Heap Analytics: Analytics Helper -->
+  <script>
+   var analyticsHelper = (function () {
+      var CAMPAIGN_TRACKING_ID = "campaign";
+      var TIME_30_MIN = 1800000;
+      var cookieDomain =
+        window.location.hostname.indexOf("ring.com") < 0
+          ? window.location.hostname
+          : ".ring.com";
+      function getCookie(name) {
+        var match = document.cookie.match(
+          new RegExp(name + "=([^;]*)?(;|$)", "im")
+        );
+        return (match && decodeURIComponent(match[1])) || false;
+      }
+      function getQueryParam(name) {
+        var match = window.location.search.match(
+          new RegExp(name + "=(.*?)(&|$|#|\\?)", "im")
+        );
+        return (match && decodeURIComponent(match[1])) || "";
+      }
+      function initCampaignTracking() {
+        setCampaignData(
+          getCampaignData() || {
+            data: {
+              utm_source: getQueryParam("utm_source"),
+              utm_medium: getQueryParam("utm_medium"),
+              utm_campaign: getQueryParam("utm_campaign"),
+              utm_content: getQueryParam("utm_content"),
+              utm_term: getQueryParam("utm_term"),
+              referrer: document.referrer,
+              path: document.location.pathname,
+            },
+          }
+        );
+      }
+      function applyCampaignTracking(props) {
+        var campaignData = getCampaignData();
+        if (campaignData) {
+          if (props.session_properties) {
+            assign(props.session_properties, campaignData.data);
+          }
+        }
+      }
+      function getCampaignData() {
+        var cookie = getCookie(CAMPAIGN_TRACKING_ID);
+        return (cookie && JSON.parse(cookie)) || undefined;
+      }
+      function setCampaignData(data) {
+        var expirationDate = new Date();
+        expirationDate.setTime(expirationDate.getTime() + TIME_30_MIN);
+        document.cookie =
+          CAMPAIGN_TRACKING_ID +
+          "=" +
+          encodeURIComponent(JSON.stringify(data)) +
+          ";domain=" +
+          cookieDomain +
+          ";path=/;expires=" +
+          expirationDate.toUTCString();
+      }
+      function assign(obj1, obj2) {
+        for (var key in obj2) {
+          obj1[key] = obj2[key];
+        }
+        return obj1;
+      }
+      var loaded = document.readyState !== "loading";
+      if (loaded) {
+        initCampaignTracking();
+      } else {
+        document.addEventListener("DOMContentLoaded", initCampaignTracking);
+      }
+      return {
+        applyCampaignTracking: applyCampaignTracking,
+      };
+    })();
+  </script>
+  <link href="local_resources\res_119b4fbf293bf7e1" rel="canonical"/>
+  <link href="local_resources\favicon_6d5be611cad38670.png" rel="shortcut icon" type="image/png"/>
+  <title>
+   Seguridad Inteligente con Video Timbres y Cámaras de Seguridad Ring
+| Ring
+  </title>
+  <!-- SOCIAL META -->
+  <!-- /snippets/social-meta-tags.liquid -->
+  <meta content="Ring LATAM" property="og:site_name"/>
+  <meta content="https://latam-es.ring.com/" property="og:url"/>
+  <meta content="Seguridad Inteligente con Video Timbres y Cámaras de Seguridad Ring" property="og:title"/>
+  <meta content="website" property="og:type"/>
+  <meta content=" " property="og:description"/>
+  <meta content="@https://x.com/ring" name="twitter:site"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Seguridad Inteligente con Video Timbres y Cámaras de Seguridad Ring" name="twitter:title"/>
+  <meta content=" " name="twitter:description"/>
+  <link href="local_resources\res_4cb29a63cd886d37" hreflang="x-default" rel="alternate"/>
+  <link href="local_resources\res_47b8629bd22f049b" hreflang="en-us" rel="alternate"/>
+  <link href="local_resources\res_47b8629bd22f049b" hreflang="en-ca" rel="alternate"/>
+  <link href="local_resources\res_0299457c29a41c60" hreflang="de-at" rel="alternate"/>
+  <link href="local_resources\res_2d43c99e10551700" hreflang="fr-be" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-bg" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-hr" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-cy" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-cz" rel="alternate"/>
+  <link href="local_resources\res_f5d22b3a21e88cda" hreflang="en-dk" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-ee" rel="alternate"/>
+  <link href="local_resources\res_f5d22b3a21e88cda" hreflang="en-fi" rel="alternate"/>
+  <link href="local_resources\res_2d43c99e10551700" hreflang="fr-fr" rel="alternate"/>
+  <link href="local_resources\res_0299457c29a41c60" hreflang="de-de" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-gr" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-hu" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-is" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-ie" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-it" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-lv" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-li" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-lt" rel="alternate"/>
+  <link href="local_resources\res_2d43c99e10551700" hreflang="fr-lu" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-mt" rel="alternate"/>
+  <link href="local_resources\res_6d5ea743eebf2594" hreflang="nl-nl" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-no" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-pl" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-pt" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-ro" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-sk" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-si" rel="alternate"/>
+  <link href="local_resources\res_785af538cbae60a0" hreflang="es-es" rel="alternate"/>
+  <link href="local_resources\res_f5d22b3a21e88cda" hreflang="en-se" rel="alternate"/>
+  <link href="local_resources\res_9c0f811fb598131b" hreflang="en-ch" rel="alternate"/>
+  <link href="local_resources\res_2ca8359702cb0d6d" hreflang="en-gb" rel="alternate"/>
+  <link href="local_resources\res_d560be00f682b784" hreflang="en-sa" rel="alternate"/>
+  <link href="local_resources\res_e53bb02bbc5ca057" hreflang="en-za" rel="alternate"/>
+  <link href="local_resources\res_a741d63dfacb3d79" hreflang="en-ae" rel="alternate"/>
+  <link href="local_resources\res_614a8c972d67497c" hreflang="en-au" rel="alternate"/>
+  <link href="local_resources\res_cd28b96591320d73" hreflang="en-nz" rel="alternate"/>
+  <link href="local_resources\res_119b4fbf293bf7e1" hreflang="es-ar" rel="alternate"/>
+  <link href="local_resources\res_119b4fbf293bf7e1" hreflang="es-co" rel="alternate"/>
+  <link href="local_resources\res_119b4fbf293bf7e1" hreflang="es-cl" rel="alternate"/>
+  <link href="local_resources\res_119b4fbf293bf7e1" hreflang="es-mx" rel="alternate"/>
+  <link href="local_resources\res_119b4fbf293bf7e1" hreflang="es-pa" rel="alternate"/>
+  <!-- STYLESHEETS -->
+  <link as="style" href="local_resources\ring_main.min_80426cc942a5b227.css" rel="preload"/>
+  <link as="style" href="local_resources\ring.min_a48abc8581e93b2c.css" rel="preload"/>
+  <link href="local_resources\equip-reg_e69915a88215d9c3.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\equip-light_a9f718c63bf3b89f.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\equip-exlight_33d1b044fccb4539.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\equip-med_cce1be43605a1eea.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\equip-thin_a215ed10f14b2cdc.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\fontawesome_c63141d4be66c6f5.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\theme.scss_c933cff1620216da.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\ring_main.min_80426cc942a5b227.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\ring.min_a48abc8581e93b2c.css" media="all" rel="stylesheet" type="text/css"/>
+  <!-- SCRIPTS -->
+  <script src="local_resources\jquery-3.3.1.min_309bb9eec1e3cc53.js" type="text/javascript">
+  </script>
+  <script src="local_resources\ring.min_587b5461971653f7.js" type="text/javascript">
+  </script>
+  <script>
+   var theme = {
+      strings: {
+        addToCart: "Agregar al carrito",
+        soldOut: "Agotado",
+        unavailable: "No disponible",
+        showMore: "Ver más",
+        showLess: "Mostrar menos",
+        addressError: "No se puede encontrar esa dirección",
+        addressNoResults: "No results for that address",
+        addressQueryLimit: "Se ha excedido el límite de uso de la API de Google . Considere la posibilidad de actualizar a un \u003ca href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\"\u003ePlan Premium\u003c\/a\u003e.",
+        authError: "Hubo un problema de autenticación con su cuenta de Google Maps."
+      },
+      moneyFormat: "${{amount}}"
+    }
+
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+  <!--[if (lte IE 9) ]><script src="//latam-es.ring.com/cdn/shop/t/3/assets/match-media.min.js?v=22265819453975888031539813431" type="text/javascript"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!-->
+  <script async="async" src="local_resources\lazysizes_668baa12493a2c2c.js">
+  </script>
+  <!--<![endif]-->
+  <!--[if lte IE 9]><script src="//latam-es.ring.com/cdn/shop/t/3/assets/lazysizes.min.js?7946"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!-->
+  <script defer="defer" src="local_resources\vendor_cf93a589c5ef4826.js">
+  </script>
+  <!--<![endif]-->
+  <!--[if lte IE 9]><script src="//latam-es.ring.com/cdn/shop/t/3/assets/vendor.js?v=136118274122071307521539813427"></script><![endif]-->
+  <!--[if (gt IE 9)|!(IE)]><!-->
+  <script defer="defer" src="local_resources\theme_dc6abdee7484e786.js">
+  </script>
+  <!--<![endif]-->
+  <!--[if lte IE 9]><script src="//latam-es.ring.com/cdn/shop/t/3/assets/theme.js?v=105168736828464233611575406548"></script><![endif]-->
+  <link href="local_resources\code-base_2239d60733bb1ae9.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\custom-inner_5f68f88a68961a79.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\custom_5719b7ebdaa09809.css" media="all" rel="stylesheet" type="text/css"/>
+  <script src="local_resources\custom_9929aafe51b07f15.js" type="text/javascript">
+  </script>
+  <script>
+   window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');
+  </script>
+  <meta content="/6535250009/digital_wallets/dialog" id="shopify-digital-wallet" name="shopify-digital-wallet"/>
+  <script async="async" src="local_resources\preloads_dc8da6b27fde75c1.js">
+  </script>
+  <script id="shopify-features" type="application/json">
+   {"accessToken":"9d6b5323cb8e07830b7b28e3bb832f9a","betas":["rich-media-storefront-analytics"],"domain":"latam-es.ring.com","predictiveSearch":true,"shopId":6535250009,"locale":"es"}
+  </script>
+  <script>
+   var Shopify = Shopify || {};
+Shopify.shop = "ring-latam.myshopify.com";
+Shopify.locale = "es";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.country = "BR";
+Shopify.theme = {"name":"Ring","id":40798060633,"schema_name":"Debut","schema_version":"1.6.4","theme_store_id":null,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "latam-es.ring.com/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";
+  </script>
+  <script type="module">
+   !function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);
+  </script>
+  <script>
+   !function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);
+  </script>
+  <script id="shop-js-analytics" type="application/json">
+   {"pageType":"index"}
+  </script>
+  <script async="async" defer="defer" onload='window.Shopify.SignInWithShop?.initShopCartSync?.({"fedCMEnabled":true,"windoidEnabled":true});
+' src="local_resources\client_f439d8983d6c9abe.js">
+  </script>
+  <script>
+   (function() {
+  var isLoaded = false;
+  function asyncLoad() {
+    if (isLoaded) return;
+    isLoaded = true;
+    var urls = ["https:\/\/widgetic.com\/sdk\/sdk.js?shop=ring-latam.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();
+  </script>
+  <script id="__st">
+   var __st={"a":6535250009,"offset":-14400,"reqid":"87a4f04c-16bf-42f1-8a24-96aa83770989-1760769276","pageurl":"latam-es.ring.com\/","u":"ac79df808076","p":"home"};
+  </script>
+  <script>
+   window.ShopifyPaypalV4VisibilityTracking = true;
+  </script>
+  <script id="captcha-bootstrap">
+   !function(){'use strict';const t='contact',e='account',n='new_comment',o=[[t,t],['blogs',n],['comments',n],[t,'customer']],c=[[e,'customer_login'],[e,'guest_login'],[e,'recover_customer_password'],[e,'create_customer']],r=t=>t.map((([t,e])=>`form[action*='/${t}']:not([data-nocaptcha='true']) input[name='form_type'][value='${e}']`)).join(','),a=t=>()=>t?[...document.querySelectorAll(t)].map((t=>t.form)):[];function s(){const t=[...o],e=r(t);return a(e)}const i='password',u='form_key',d=['recaptcha-v3-token','g-recaptcha-response','h-captcha-response',i],f=()=>{try{return window.sessionStorage}catch{return}},m='__shopify_v',_=t=>t.elements[u];function p(t,e,n=!1){try{const o=window.sessionStorage,c=JSON.parse(o.getItem(e)),{data:r}=function(t){const{data:e,action:n}=t;return t[m]||n?{data:e,action:n}:{data:t,action:n}}(c);for(const[e,n]of Object.entries(r))t.elements[e]&&(t.elements[e].value=n);n&&o.removeItem(e)}catch(o){console.error('form repopulation failed',{error:o})}}const l='form_type',E='cptcha';function T(t){t.dataset[E]=!0}const w=window,h=w.document,L='Shopify',v='ce_forms',y='captcha';let A=!1;((t,e)=>{const n=(g='f06e6c50-85a8-45c8-87d0-21a2b65856fe',I='https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_hcaptcha.v1.5.2.iife.js',D={infoText:'Protegido por hCaptcha',privacyText:'Privacidad',termsText:'Términos'},(t,e,n)=>{const o=w[L][v],c=o.bindForm;if(c)return c(t,g,e,D).then(n);var r;o.q.push([[t,g,e,D],n]),r=I,A||(h.body.append(Object.assign(h.createElement('script'),{id:'captcha-provider',async:!0,src:r})),A=!0)});var g,I,D;w[L]=w[L]||{},w[L][v]=w[L][v]||{},w[L][v].q=[],w[L][y]=w[L][y]||{},w[L][y].protect=function(t,e){n(t,void 0,e),T(t)},Object.freeze(w[L][y]),function(t,e,n,w,h,L){const[v,y,A,g]=function(t,e,n){const i=e?o:[],u=t?c:[],d=[...i,...u],f=r(d),m=r(i),_=r(d.filter((([t,e])=>n.includes(e))));return[a(f),a(m),a(_),s()]}(w,h,L),I=t=>{const e=t.target;return e instanceof HTMLFormElement?e:e&&e.form},D=t=>v().includes(t);t.addEventListener('submit',(t=>{const e=I(t);if(!e)return;const n=D(e)&&!e.dataset.hcaptchaBound&&!e.dataset.recaptchaBound,o=_(e),c=g().includes(e)&&(!o||!o.value);(n||c)&&t.preventDefault(),c&&!n&&(function(t){try{if(!f())return;!function(t){const e=f();if(!e)return;const n=_(t);if(!n)return;const o=n.value;o&&e.removeItem(o)}(t);const e=Array.from(Array(32),(()=>Math.random().toString(36)[2])).join('');!function(t,e){_(t)||t.append(Object.assign(document.createElement('input'),{type:'hidden',name:u})),t.elements[u].value=e}(t,e),function(t,e){const n=f();if(!n)return;const o=[...t.querySelectorAll(`input[type='${i}']`)].map((({name:t})=>t)),c=[...d,...o],r={};for(const[a,s]of new FormData(t).entries())c.includes(a)||(r[a]=s);n.setItem(e,JSON.stringify({[m]:1,action:t.action,data:r}))}(t,e)}catch(e){console.error('failed to persist form',e)}}(e),e.submit())}));const S=(t,e)=>{t&&!t.dataset[E]&&(n(t,e.some((e=>e===t))),T(t))};for(const o of['focusin','change'])t.addEventListener(o,(t=>{const e=I(t);D(e)&&S(e,y())}));const B=e.get('form_key'),M=e.get(l),P=B&&M;t.addEventListener('DOMContentLoaded',(()=>{const t=y();if(P)for(const e of t)e.elements[l].value===M&&p(e,B);[...new Set([...A(),...v().filter((t=>'true'===t.dataset.shopifyCaptcha))])].forEach((e=>S(e,t)))}))}(h,new URLSearchParams(w.location.search),n,t,e,['guest_login'])})(!0,!0)}();
+  </script>
+  <script crossorigin="anonymous" data-source-attribution="shopify.loadfeatures" defer="defer" integrity="sha256-52AcMU7V7pcBOXWImdc/TAGTFKeNjmkeM1Pvks/DTgc=" src="local_resources\load_feature-81c60534_7390a12ba1aed3de.js">
+  </script>
+  <script data-source-attribution="shopify.dynamic_checkout.dynamic.init">
+   var Shopify=Shopify||{};Shopify.PaymentButton=Shopify.PaymentButton||{isStorefrontPortableWallets:!0,init:function(){window.Shopify.PaymentButton.init=function(){};var t=document.createElement("script");t.src="https://latam-es.ring.com/cdn/shopifycloud/portable-wallets/latest/portable-wallets.es.js",t.type="module",document.head.appendChild(t)}};
+  </script>
+  <script data-source-attribution="shopify.dynamic_checkout.buyer_consent">
+   function portableWalletsHideBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.add("hidden"),t.setAttribute("aria-hidden","true"),n.removeEventListener("click",e))}function portableWalletsShowBuyerConsent(e){var t=document.getElementById("shopify-buyer-consent"),n=document.getElementById("shopify-subscription-policy-button");t&&n&&(t.classList.remove("hidden"),t.removeAttribute("aria-hidden"),n.addEventListener("click",e))}window.Shopify?.PaymentButton&&(window.Shopify.PaymentButton.hideBuyerConsent=portableWalletsHideBuyerConsent,window.Shopify.PaymentButton.showBuyerConsent=portableWalletsShowBuyerConsent);
+  </script>
+  <script data-source-attribution="shopify.dynamic_checkout.cart.bootstrap">
+   document.addEventListener("DOMContentLoaded",(function(){function t(){return document.querySelector("shopify-accelerated-checkout-cart, shopify-accelerated-checkout")}if(t())Shopify.PaymentButton.init();else{new MutationObserver((function(e,n){t()&&(Shopify.PaymentButton.init(),n.disconnect())})).observe(document.body,{childList:!0,subtree:!0})}}));
+  </script>
+  <script>
+   window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');
+  </script>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <div class="shopify-section" id="shopify-section-geo">
+  </div>
+  <!-- -->
+  <style>
+   .acec-container {
+    cursor: pointer;
+    visibility: hidden;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 50;
+    height: 50px;
+    width: 50px;
+    transition: height 250ms, width 250ms, right 250ms, bottom 250ms;
+  }
+
+  .acec-container--active {
+    height: 600px;
+    width: 375px;
+    cursor: unset;
+  }
+
+  .acec-container--visible {
+    visibility: visible;
+  }
+
+  .acec-container__border {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #e3e3e3;
+    filter: drop-shadow(rgba(0, 0, 0, 0.33) 1px 1px 4px) !important;
+    border-radius: 25px;
+    box-shadow: 0 0 5px #e3e3e3;
+    background: url("https://rc3.ring.com/demo/chat.jpg") center/50px no-repeat white;
+    background-color: #ffffff;
+    background-size: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: border-radius 250ms;
+  }
+
+  .acec-container__border:hover {
+    box-shadow: 0 0 8px 3px #e3e3e3;
+  }
+
+  .acec-container--active .acec-container__border {
+    border-radius: 10px;
+  }
+
+  .acec-container--active .acec-container__border:hover {
+    box-shadow: 0 0 5px #e3e3e3;
+  }
+
+  .acec-container__iframe {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -300px;
+    left: -180px;
+    border-radius: 375px;
+    opacity: 0;
+    border: none;
+    background-color: white;
+    transition: top 250ms, left 250ms, opacity 250ms linear, border-radius 250ms;
+  }
+
+  .acec-container--active .acec-container__iframe {
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    opacity: 1;
+  }
+
+  @media screen and (max-height: 650px) {
+    .acec-container--active {
+      height: calc(100vh - 50px);
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .acec-container--active {
+      bottom: 0;
+      right: 0;
+      height: 100vh;
+      width: 100vw;
+    }
+  }
+  </style>
+  <script type="text/javascript">
+   function loadZVA (){
+    const zvaScript = document.createElement('script');
+    zvaScript.src = 'https://us01ccistatic.zoom.us/us01cci/web-sdk/chat-client.js';
+    zvaScript.dataset.apikey = "otatWMTeSnC9RvVhMN2HpA";
+    zvaScript.dataset.env = "us01";
+    zvaScript.setAttribute('type', 'text/javascript');
+    window.document.body.appendChild(zvaScript);
+
+    window.addEventListener('support_handoff', () => {
+        window.zoomCampaignSdk.close();
+        window.zoomCampaignSdk.hide();
+        window.isLaunched(true);
+        window.init();
+    });
+  }
+
+  const loaded = document.readyState !== 'loading';
+
+  if (loaded) {
+      loadZVA();
+  } else {
+      document.addEventListener('DOMContentLoaded', loadZVA);
+  }
+  </script>
+  <link href="local_resources\res_51fcdabaac51f0f5" rel="dns-prefetch"/>
+  <script>
+   (function(){if ("sendBeacon" in navigator && "performance" in window) {try {var session_token_from_headers = performance.getEntriesByType('navigation')[0].serverTiming.find(x => x.name == '_s').description;} catch {var session_token_from_headers = undefined;}var session_cookie_matches = document.cookie.match(/_shopify_s=([^;]*)/);var session_token_from_cookie = session_cookie_matches && session_cookie_matches.length === 2 ? session_cookie_matches[1] : "";var session_token = session_token_from_headers || session_token_from_cookie || "";function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 6535250009,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token,page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());
+  </script>
+  <script id="web-pixels-manager-setup">
+   (function e(e,d,r,n,o){if(void 0===o&&(o={}),!Boolean(null===(a=null===(i=window.Shopify)||void 0===i?void 0:i.analytics)||void 0===a?void 0:a.replayQueue)){var i,a;window.Shopify=window.Shopify||{};var t=window.Shopify;t.analytics=t.analytics||{};var s=t.analytics;s.replayQueue=[],s.publish=function(e,d,r){return s.replayQueue.push([e,d,r]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l=function(){var e={modern:/Edge?\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Firefox\/(1{2}[4-9]|1[2-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Chrom(ium|e)\/(9{2}|\d{3,})\.\d+(\.\d+|)|(Maci|X1{2}).+ Version\/(15\.\d+|(1[6-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(9{2}|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(15[._]\d+|(1[6-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|SamsungBrowser\/([2-9]\d|\d{3,})\.\d+/,legacy:/Edge?\/(1[6-9]|[2-9]\d|\d{3,})\.\d+(\.\d+|)|Firefox\/(5[4-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)|Chrom(ium|e)\/(5[1-9]|[6-9]\d|\d{3,})\.\d+(\.\d+|)([\d.]+$|.*Safari\/(?![\d.]+ Edge\/[\d.]+$))|(Maci|X1{2}).+ Version\/(10\.\d+|(1[1-9]|[2-9]\d|\d{3,})\.\d+)([,.]\d+|)( \(\w+\)|)( Mobile\/\w+|) Safari\/|Chrome.+OPR\/(3[89]|[4-9]\d|\d{3,})\.\d+\.\d+|(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(10[._]\d+|(1[1-9]|[2-9]\d|\d{3,})[._]\d+)([._]\d+|)|Android:?[ /-](13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})(\.\d+|)(\.\d+|)|Mobile Safari.+OPR\/([89]\d|\d{3,})\.\d+\.\d+|Android.+Firefox\/(13[5-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+Chrom(ium|e)\/(13[3-9]|1[4-9]\d|[2-9]\d{2}|\d{4,})\.\d+(\.\d+|)|Android.+(UC? ?Browser|UCWEB|U3)[ /]?(15\.([5-9]|\d{2,})|(1[6-9]|[2-9]\d|\d{3,})\.\d+)\.\d+|SamsungBrowser\/(5\.\d+|([6-9]|\d{2,})\.\d+)|Android.+MQ{2}Browser\/(14(\.(9|\d{2,})|)|(1[5-9]|[2-9]\d|\d{3,})(\.\d+|))(\.\d+|)|K[Aa][Ii]OS\/(3\.\d+|([4-9]|\d{2,})\.\d+)(\.\d+|)/},d=e.modern,r=e.legacy,n=navigator.userAgent;return n.match(d)?"modern":n.match(r)?"legacy":"unknown"}(),u="modern"===l?"modern":"legacy",c=(null!=n?n:{modern:"",legacy:""})[u],f=function(e){return[e.baseUrl,"/wpm","/b",e.hashVersion,"modern"===e.buildTarget?"m":"l",".js"].join("")}({baseUrl:d,hashVersion:r,buildTarget:u}),m=function(e){var d=e.version,r=e.bundleTarget,n=e.surface,o=e.pageUrl,i=e.monorailEndpoint;return{emit:function(e){var a=e.status,t=e.errorMsg,s=(new Date).getTime(),l=JSON.stringify({metadata:{event_sent_at_ms:s},events:[{schema_id:"web_pixels_manager_load/3.1",payload:{version:d,bundle_target:r,page_url:o,status:a,surface:n,error_msg:t},metadata:{event_created_at_ms:s}}]});if(!i)return console&&console.warn&&console.warn("[Web Pixels Manager] No Monorail endpoint provided, skipping logging."),!1;try{return self.navigator.sendBeacon.bind(self.navigator)(i,l)}catch(e){}var u=new XMLHttpRequest;try{return u.open("POST",i,!0),u.setRequestHeader("Content-Type","text/plain"),u.send(l),!0}catch(e){return console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging to Monorail."),!1}}}}({version:r,bundleTarget:l,surface:e.surface,pageUrl:self.location.href,monorailEndpoint:e.monorailEndpoint});try{o.browserTarget=l,function(e){var d=e.src,r=e.async,n=void 0===r||r,o=e.onload,i=e.onerror,a=e.sri,t=e.scriptDataAttributes,s=void 0===t?{}:t,l=document.createElement("script"),u=document.querySelector("head"),c=document.querySelector("body");if(l.async=n,l.src=d,a&&(l.integrity=a,l.crossOrigin="anonymous"),s)for(var f in s)if(Object.prototype.hasOwnProperty.call(s,f))try{l.dataset[f]=s[f]}catch(e){}if(o&&l.addEventListener("load",o),i&&l.addEventListener("error",i),u)u.appendChild(l);else{if(!c)throw new Error("Did not find a head or body element to append the script");c.appendChild(l)}}({src:f,async:!0,onload:function(){if(!function(){var e,d;return Boolean(null===(d=null===(e=window.Shopify)||void 0===e?void 0:e.analytics)||void 0===d?void 0:d.initialized)}()){var d=window.webPixelsManager.init(e)||void 0;if(d){var r=window.Shopify.analytics;r.replayQueue.forEach((function(e){var r=e[0],n=e[1],o=e[2];d.publishCustomEvent(r,n,o)})),r.replayQueue=[],r.publish=d.publishCustomEvent,r.visitor=d.visitor,r.initialized=!0}}},onerror:function(){return m.emit({status:"failed",errorMsg:"".concat(f," has failed to load")})},sri:function(e){var d=/^sha384-[A-Za-z0-9+/=]+$/;return"string"==typeof e&&d.test(e)}(c)?c:"",scriptDataAttributes:o}),m.emit({status:"loading"})}catch(e){m.emit({status:"failed",errorMsg:(null==e?void 0:e.message)||"Unknown error"})}}})({shopId: 6535250009,storefrontBaseUrl: "https://latam-es.ring.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",monorailEndpoint: "https://monorail-edge.shopifysvc.com/unstable/produce_batch",surface: "storefront-renderer",enabledBetaFlags: ["2dca8a86"],webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0450","apiClientId":"shopify-pixel","type":"APP","privacyPurposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0450","apiClientId":"shopify-pixel","type":"CUSTOM","privacyPurposes":["ANALYTICS","MARKETING"]}],isMerchantRequest: false,initData: {"shop":{"name":"Ring LATAM","paymentSettings":{"currencyCode":"USD"},"myshopifyDomain":"ring-latam.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/latam-es.ring.com"},"customer":null,"cart":null,"checkout":null,"productVariants":[],"purchasingCompany":null},},"https://latam-es.ring.com/cdn","98688ed7w4720d202p17656315m70f274df",{"modern":"","legacy":""},{"shopId":"6535250009","storefrontBaseUrl":"https:\/\/latam-es.ring.com","extensionBaseUrl":"https:\/\/extensions.shopifycdn.com\/cdn\/shopifycloud\/web-pixels-manager","surface":"storefront-renderer","enabledBetaFlags":"[\"2dca8a86\"]","isMerchantRequest":"false","hashVersion":"98688ed7w4720d202p17656315m70f274df","publish":"custom","events":"[[\"page_viewed\",{}]]"});
+  </script>
+  <script>
+   window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+  window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+  window.ShopifyAnalytics.meta.currency = 'USD';
+  var meta = {"page":{"pageType":"home"}};
+  for (var attr in meta) {
+    window.ShopifyAnalytics.meta[attr] = meta[attr];
+  }
+  </script>
+  <script class="analytics">
+   (function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      var first = document.getElementsByTagName('script')[0];
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.onerror = function(e) {
+        var scriptFallback = document.createElement('script');
+        scriptFallback.type = 'text/javascript';
+        scriptFallback.onerror = function(error) {
+                var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 6535250009,
+      theme_id: 40798060633,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "//latam-es.ring.com/cdn/s/trekkie.storefront.fa5ed3681c2fc2a896d098bf1f3f0dad966320f4.min.js"});
+
+        };
+        scriptFallback.async = true;
+        scriptFallback.src = '//latam-es.ring.com/cdn/s/trekkie.storefront.fa5ed3681c2fc2a896d098bf1f3f0dad966320f4.min.js';
+        first.parentNode.insertBefore(scriptFallback, first);
+      };
+      script.async = true;
+      script.src = '//latam-es.ring.com/cdn/s/trekkie.storefront.fa5ed3681c2fc2a896d098bf1f3f0dad966320f4.min.js';
+      first.parentNode.insertBefore(script, first);
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":6535250009,"isMerchantRequest":null,"themeId":40798060633,"themeCityHash":"13856104610817000289","contentLanguage":"es","currency":"USD"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["f0df213a"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer","apiClientId":580111}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      window.ShopifyAnalytics.lib.page(null,{"pageType":"home","shopifyEmitted":true});
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+        
+      }
+    });
+
+
+        var eventsListenerScript = document.createElement('script');
+        eventsListenerScript.async = true;
+        eventsListenerScript.src = "//latam-es.ring.com/cdn/shopifycloud/storefront/assets/shop_events_listener-abeef7a0.js";
+        document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+})();
+  </script>
+  <script data-application="storefront-renderer" data-monorail-region="shop_domain" data-page-type="index" data-render-region="gcp-us-east1" data-resource-timing-sampling-rate="10" data-shop-id="6535250009" data-shs="true" data-shs-beacon="true" data-shs-export-with-fetch="true" data-shs-logs-sample-rate="1" data-theme-instance-id="40798060633" data-theme-name="Debut" data-theme-version="1.6.4" defer="" src="local_resources\shopify-perf-kit-2.0.17.min_3eb10b646d5f793b.js">
+  </script>
+  <div class="shopify-section" id="shopify-section-header">
+   <!-- <div class="protect-plans-banner">
+
+    <a href='https://latam-es.ring.com/blogs/noticias/ring-ofrece-a-los-clientes-mas-claridad-y-color-con-el-video-2k' target="_blank"><p class="protect-plans-text">Disfruta de Video 2K en Spotlight Cam Pro y Floodlight Cam Pro a partir de enero 2025</p></a>
+
+</div> -->
+   <header id="shopify_header" role="banner">
+    <div>
+     <h1 itemscope="" itemtype="http://schema.org/Organization">
+      <a itemprop="url" onclick="window.open('/'); return false;">
+       <img alt="Ring LATAM" class="logo-header" src="local_resources\phish_Stand_alone_Landscape_blue_4ff56d1dacfff08f.png"/>
+      </a>
+     </h1>
+    </div>
+    <div style="margin:0;">
+     <div class="mobile_menu mobile_menu--htx" onclick="toggleNav()">
+      <span>
+      </span>
+     </div>
+     <ul class="header_links">
+      <li>
+       <a onclick="window.open('/collections'); return false;">
+        Todos los Productos
+       </a>
+       <ul class="products todos los productos">
+        <li>
+         <a onclick="window.open('/pages/doorbells'); return false;">
+          <!-- timbres-con-camara -->
+          <img alt="Timbres con Cámara" src="local_resources\phish_doorbells-asset-d7f981f0149a09d22bd3635b8624f127_1024x1024_69a2eea906474dfa.png"/>
+          <div>
+           Timbres con cámara
+          </div>
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('/products/outdoor-cam-plus'); return false;">
+          <!-- outdoor-cam-plus -->
+          <img alt="Cámara para exteriores Plus" src="local_resources\phish_ring_outdoor_cam_plus_mounted_white_1500x1500_f09f44b5-8b50-40b2-adc3-45dd2dc41f1b_1024x1024_367e305a93a80ac3.jpg"/>
+          <div>
+           Outdoor Cam Plus
+          </div>
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('/pages/security-cameras'); return false;">
+          <!-- camaras-de-seguridad -->
+          <img alt="Cámaras de seguridad" src="local_resources\phish_security-cams-header-v2_2x-8cf92c8cc317881718b1314c831b6a51_1024x1024_567310600c51737c.png"/>
+          <div>
+           Cámaras de Seguridad
+          </div>
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('/collections/accessories'); return false;">
+          <!-- accesorios -->
+          <img alt="Accesorios" src="local_resources\phish_accesorios_1024x1024_6db0645afd7d7241.png"/>
+          <div>
+           Accesorios
+          </div>
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a onclick="window.open('/pages/plans'); return false;">
+        Ring Home
+       </a>
+      </li>
+      <li>
+       <a onclick="window.open('/pages/retailers'); return false;">
+        Dónde Comprar
+       </a>
+      </li>
+      <li>
+       <a onclick="window.open('/blogs/noticias'); return false;">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a onclick="window.open('https://support.ring.com/hc/es'); return false;">
+        Ayuda
+       </a>
+       <ul class="ayuda">
+        <li>
+         <a onclick="window.open('https://support.ring.com/hc/es/articles/115004666066'); return false;">
+          <!-- faq -->
+          FAQ
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://support.ring.com/hc/es'); return false;">
+          <!-- centro-de-ayuda -->
+          Centro de Ayuda
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://support.ring.com/hc/es/articles/360036196372'); return false;">
+          <!-- contactanos -->
+          Contáctanos
+         </a>
+        </li>
+       </ul>
+      </li>
+      <a class="mobile_account_link" onclick="window.open('https://ring.com/users/sign_in'); return false;">
+       Log In
+      </a>
+     </ul>
+    </div>
+    <div>
+     <!--<a href="/search"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 37 40"><path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"/></svg></a>-->
+     <a class="account_link" onclick="window.open('https://ring.com/users/sign_in'); return false;">
+      Log In
+     </a>
+    </div>
+    <script type="text/javascript">
+     $(document).ready(function() {
+
+          // When the user scrolls the page, execute customStickyNav
+
+          // window.onscroll = function() {customStickyNav()};
+
+
+
+          // Get the header and the body
+
+          var header = document.getElementById("shopify_header");
+
+          var body = document.body;
+
+
+
+          // Get the offset position of the navbar
+
+          var sticky = header.offsetTop;
+
+
+
+          // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+
+          function customStickyNav() {
+
+            if (window.pageYOffset > sticky) {
+
+              header.classList.add("stick");
+
+              body.classList.add("stick");
+
+            } else {
+
+              header.classList.remove("stick");
+
+              body.classList.remove("stick");
+
+            }
+
+          }
+
+        });
+    </script>
+   </header>
+  </div>
+  <div>
+   <div class="page_content">
+    <!-------- HERO SECTION-------->
+    <!-- <div class="fullscreen" style="display: flex; flex-direction: column;">
+
+	<div id="shopify-section-home-banner" class="homepage-container shopify-section">
+
+	<section id="home-hero">
+
+     <div class="home-hero-banner">
+
+      <div class="container-fluid">
+
+       <div class="row">
+
+       <div class="col-xs-12 col-md-8">
+
+        <div class="home-hero-copy-container"> -->
+    <!-- Desktop -->
+    <!-- <div class="home-hero-show-desktop">
+
+
+
+	<video class="video-index" src="https://cdn.shopify.com/videos/c/o/v/c0f34e8f80fc465ea2a93c82674db08d.mp4" autoplay="true" muted="true" loop="true" poster="//surzrhfnevs3zphg-25658687534.shopifypreview.com/cdn/shop/files/ring_home_plans_intro_video_desktop_1600x600_38b60217-db4d-422f-a3b6-873f901e7295.jpg?v=1726084586"></video>
+
+    <h1 data-animate="fade_up" style="font-size: 25px; font-family: Equip-Medium, Helvetica, Arial, sans-serif;margin-top: -15px">Mejora tu experiencia Ring</h1> <br>
+
+    <h1 data-animate="fade_up" data-delay="0.25" style="font-family: Equip-ExtraLight,Helvetica,Arial,sans-serif; font-size:18px;margin-top: -15px">Obtiene las funcionalidades más avanzadas de video, <br>inteligencia y seguridad con una suscripción a <br>Ring Home.<span class="tablet_float break_mobile"></h1> 
+
+    <br>
+
+     <a data-animate="fade_up" data-delay="0.5" href="https://latam-es.ring.com/pages/anuncios"><button>Más Información</button></a> 
+
+  </div>
+
+</div>
+
+</div>
+
+ -->
+    <!-- Mobile -->
+    <!-- 
+
+<div class="home-hero-show-mobile">
+
+	<video class="video-index" src="https://cdn.shopify.com/videos/c/o/v/4ae0d444218d45d09bac8e63358eedcb.mp4" autoplay="true" muted="true" loop="true" poster="//surzrhfnevs3zphg-25658687534.shopifypreview.com/cdn/shop/files/ring_home_plans_intro_video_mobile_375x375_c72b8275-1676-4542-92c9-03f9515005d9.jpg?v=1726084623"></video>
+
+	<div>
+
+    <h1 data-animate="fade_up" style="font-size: 18px; font-family: Equip-Medium, Helvetica, Arial, sans-serif;"> Mejora tu experiencia Ring</h1> <br>
+
+    <h1 data-animate="fade_up" data-delay="0.25" style="font-family: Equip-ExtraLight,Helvetica,Arial,sans-serif; font-size: 15px;">Obtiene las funcionalidades más avanzadas de video, inteligencia y seguridad con una suscripción a Ring Home.<span class="tablet_float break_mobile"></h1> 
+
+    	<br>
+
+     <a data-animate="fade_up" data-delay="0.5" href="https://latam-es.ring.com/pages/anuncios"><button>Más información</button></a>
+
+     </div>
+
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</a>
+
+</section> -->
+    <!-------- BANNER NUEVO -------->
+    <section class="grid_picture_hero">
+     <div class="copy">
+      <br/>
+      <h1 class="fade_up" data-animate="fade_up">
+       Nueva Cámara para exteriores Plus
+      </h1>
+      <h3 class="fade_up" data-animate="fade_up" data-delay="0.25" style="font-weight: bold">
+       Convierte la noche en el día, todo en 2K.
+      </h3>
+      <p data-animate="fade_up" data-delay="0.25">
+       Observa con claridad y colores brillantes, incluso con poca luz.
+       <br/>
+       Conoce la mejor calidad de imagen de Ring hasta la fecha
+      </p>
+      <a class="fade_up" data-animate="fade_up" data-delay="0.5" onclick="window.open('/products/outdoor-cam-plus'); return false;">
+       <button>
+        Comprar
+       </button>
+      </a>
+     </div>
+     <div class="grid_picture_hero-image">
+      <picture class="image-wrapper">
+       <source media="(max-width: 425px)" srcset="https://cdn.shopify.com/s/files/1/0067/2864/6767/files/ring_OCP_banner_mobile_750x750_6ba2093a-7e56-476a-8625-d5aa1855f5a0.jpg?v=1739399724"/>
+       <source media="(max-width: 1023px)" srcset="https://cdn.shopify.com/s/files/1/0067/2864/6767/files/ring_OCP_banner_tablet_1536x800_e3df0aa0-7455-49b5-8370-7b4fef3fd993.jpg?v=1739399724"/>
+       <img alt="Pasa de todo frente a tu puerta de entrada." src="local_resources\phish_ring_OCP_banner_desktop_3200x1200_e97e1066-25c9-4d33-8d68-b2e31129dfd1_6fda6bcd9a970bda.jpg"/>
+      </picture>
+     </div>
+    </section>
+    <!-------- BANNER PROMOS -------->
+    <!-- <section class="grid_picture_hero">
+
+  <div class="copy">
+
+     <h1 data-animate="fade_up" style="font-size: 45px; color: black;">¡Aprovecha Hot Sale!</h1>
+
+      <h1 data-animate="fade_up" style="font-size: 35px; color: black;">Hasta 50% OFF en cámaras <br>y video timbres Ring</h1>
+
+    
+
+    <a data-animate="fade_up" data-delay="0.5" href="/collections/offers"><button>Comprar</button></a>
+
+  </div>
+
+  <div class="grid_picture_hero-image">
+
+    <picture> 
+
+      <source media="(max-width: 425px)" srcset="https://cdn.shopify.com/s/files/1/0065/3525/0009/files/RING_BANNER_SITIO_HOT_SALE_BRANDED_750X1000_a3f11192-f853-4e6c-970c-1393f47222b6.png?v=1748265612" />
+
+      <source media="(max-width: 1023px)" srcset="https://cdn.shopify.com/s/files/1/0065/3525/0009/files/RING_BANNER_SITIO_HOT_SALE_BRANDED_1538x1280_c779af2f-1441-4372-8423-e1cee0e23cdf.png?v=1748265612" />
+
+      <img src="https://cdn.shopify.com/s/files/1/0065/3525/0009/files/RING_BANNER_SITIO_HOT_SALE_BRANDED_3200x900_9d78b3ce-4e42-48c9-85f0-4a6357e77a64.png?v=1748265612" />
+
+    </picture>
+
+  </div>
+
+</section> -->
+    <div class="fullscreen" style="display:flex; flex-direction: column;">
+     <div class="homepage-container shopify-section" id="shopify-section-home-banner">
+      <section id="featured-products" style="margin-top:">
+       <div class="container-fluid">
+        <div class="row">
+         <div class="col-xs-12 col-sm-12 col-md-6 left-block">
+          <div class="product-block-bg-container">
+           <a onclick="window.open('/pages/security-cameras'); return false;">
+            <div class="product-block-spotlightcam-battery-bg stick-up-cam">
+             <div class="product-block-copy-container">
+              <p class="badge">
+               Nuevo
+              </p>
+              <h3 style="color: black;font-size: 20px !important; line-height:25px !important">
+               Cámara de seguridad para interior nueva con vista panorámica e inclinación
+              </h3>
+              <div class="btn right">
+               <span class="left title">
+                Ver más
+               </span>
+               <span aria-hidden="true" class="right fa fa-angle-right">
+                <span class="slant-right">
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </a>
+          </div>
+          <!-- Mobile -->
+         </div>
+         <div class="col-xs-12 col-sm-12 col-md-6 right-block">
+          <a onclick="window.open('/pages/doorbells'); return false;">
+           <div class="product-block-bg-container">
+            <div class="product-block-floodlightcam-bg">
+             <div class="product-block-copy-container top-margin">
+              <h4 class="tarjeta" style="color: white; font-size: 25px">
+               Timbre con cámara Ring
+              </h4>
+              <p class="tarjetacopy" style="color: white;">
+               Mirá quién está allí
+               <br/>
+               con video de cuerpo completo
+              </p>
+              <div class="btn right">
+               <span class="left title">
+                Ver más
+               </span>
+               <span aria-hidden="true" class="right fa fa-angle-right">
+                <span class="slant-right">
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </a>
+         </div>
+        </div>
+       </div>
+      </section>
+      <section id="interstitials">
+       <div class="container-fluid">
+        <div class="row">
+         <div class="col-xs-12 col-sm-12 col-md-6 left-block">
+          <a onclick="window.open('/pages/security-cameras'); return false;">
+           <div class="interstitials-bg-container">
+            <div class="interstitials-securitycams-bg">
+             <div class="interstitials-copy-container">
+              <h3 style="margin-left: 19%;margin-top: 1%;">
+               Cámaras de seguridad exterior
+              </h3>
+              <div class="btn right" data-event-action="click" data-event-category="Home" data-event-label="interstitials Block - Security Cameras" data-on="click" style="margin-left: 15%;">
+               <span class="left title">
+                Ver todo
+               </span>
+               <span aria-hidden="true" class="right fa fa-angle-right">
+                <span class="slant-right">
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </a>
+         </div>
+         <div class="col-xs-12 col-sm-12 col-md-6 right-block">
+          <a onclick="window.open('/collections/accessories'); return false;">
+           <div class="interstitials-bg-container">
+            <div class="interstitials-accesories-bg">
+             <div class="interstitials-copy-container">
+              <h3>
+               Accesorios
+              </h3>
+              <div class="btn right" data-event-action="click" data-event-category="Home" data-event-label="interstitials Block - Video Doorbells" data-on="click">
+               <span class="left title">
+                Ver todo
+               </span>
+               <span aria-hidden="true" class="right fa fa-angle-right">
+                <span class="slant-right">
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </a>
+         </div>
+        </div>
+       </div>
+      </section>
+      <div class="shopify-section home-content-section home-content-section-1" id="shopify-section-home-content-section">
+       <div class="home-content-left">
+        <img alt="" class="shogun-image img-responsive shogun-image-normal" height="" src="local_resources\phish_download_4_b05312ee72c9bb5f.png" width=""/>
+       </div>
+       <div class="home-content-right">
+        <h3>
+         Ve, escucha y habla con tus visitas
+        </h3>
+        <p>
+         Con Ring puedes controlar tu hogar desde tu smartphone, tablet o PC. Cada dispositivo Ring incluye una cámara, altavoces y un micrófono integrado para que puedas ver, escuchar y hablar con cualquier persona en tu propiedad desde cualquier lugar.
+        </p>
+        <h3>
+         Seguridad doméstica al alcance de tu mano
+        </h3>
+        <p>
+         Los sensores de movimiento personalizables de Ring te permiten centrarte en las áreas más importantes de tu casa. Recibirás avisos instantáneos en cuanto tu dispositivo Ring detecte movimiento, para que siempre seas el primero en saber si alguien se ha acercado demasiado a tu propiedad.
+        </p>
+       </div>
+      </div>
+      <div class="shopify-section home-content-section home-content-section-2" id="shopify-section-home-content-section-2">
+       <div class="section-2-container">
+        <div class="home-content-right">
+         <div class="home-content-right-inner">
+          <h3>
+           Un anillo de seguridad alrededor de tu hogar
+          </h3>
+          <p>
+           Ring te permite vigilar cada rincón de tu propiedad. Con un Video Timbre Ring en tu puerta y una cámara Cámara de seguridad exterior con luces o Cámara de seguridad exterior con reflectores en tu jardín, reforzarás la seguridad de tu hogar.
+          </p>
+          <p>
+           <a onclick="window.open('/products'); return false;">
+            Explorar más productos
+           </a>
+          </p>
+         </div>
+        </div>
+        <div class="home-content-left-img">
+         <img alt="" class="shogun-image img-responsive" height="" src="local_resources\phish_unnamed_506b4959d9af28ee.png" width=""/>
+        </div>
+       </div>
+      </div>
+      <!--
+
+.home-content-section.home-content-section-2 a,.home-content-section.home-content-section-2 a:hover{color:#788188;}
+
+		  .promo-hide{display:none;}
+
+-->
+     </div>
+    </div>
+    <link href="local_resources\ct_table-chart_90e6399ea4a5a491.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_center_aligned_message-729b34600f8f10ae0eb8193e7b82ed33_81c999140b40ea05.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_product-feature-strip-bc71442fe85dab2e571f81e2845e660c_9c63686351f7d2d8.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_50-50-337c0818e773a630b3f44cec6a10d2da_92d01bb3a96760ac.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_accordion-00c927c1dbc517d101f1aa3b522e1603_ad5b2154669fafbd.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_slider-wrapper-36f67633969a045f632d48b9cbf59393_5c5134722816c1d5.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_slider_card-1b750a94bf3d4b4bae9d69b92a159137_24bab003ca3e84cc.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_tech_specs-ac2de9b0c45c70d76cca542580e84614_fb61d0693a8602a8.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_faq-26335816dc14922233a0fe392a829f31_cfaa6792eff6c7e8.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_table-chart-b248a0175abf3e74a29124b8cedf6cc8_c5791025dbd83c23.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_product-wrapper-1cc2cd3252309102e646549ca5ba927d_fd15c301af90a693.css" media="all" rel="stylesheet" type="text/css"/>
+    <link href="local_resources\ct_integration-works-with-a59d35689ddc96b37fee8812de7f8839_9da012fc23c4817f.css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="local_resources\ring.min-e7fa8f2c703d557245d70a92f36b0f24-edited_7f2f717a31b6335e.js" type="text/javascript">
+    </script>
+    <script src="local_resources\ct_slider-wrapper-fa6d5f6bce98fc327c8b71dbe3ccd85f_933ab3988210715c.js" type="text/javascript">
+    </script>
+    <script src="local_resources\ring.min-688d651e37759da4f6ea187774fdfcf0_5c5cdc1577174c9b.js" type="text/javascript">
+    </script>
+    <script src="local_resources\ct_productdetail-b3fd988c50cee0199962ebf344430b4c_43c726fb66c13cbb.js" type="text/javascript">
+    </script>
+    <script src="local_resources\ct_slider-wrapper-fa6d5f6bce98fc327c8b71dbe3ccd85f_933ab3988210715c.js" type="text/javascript">
+    </script>
+    <script src="local_resources\ct_accordion-bda6f34701647df73e1f921773372ddf_3434835a262026b8.js" type="text/javascript">
+    </script>
+    <script src="local_resources\ct_tech_specs-391be564fe41269b33da7625807e4d3d_39bffb96b34958b9.js" type="text/javascript">
+    </script>
+    <script src="local_resources\ct_faq-47aa033651854ab6e0d3ad94e66b2d3d_fd1b00dec997f0af.js" type="text/javascript">
+    </script>
+   </div>
+  </div>
+  <div>
+   <div class="shopify-section" id="shopify-section-app">
+    <div class="app">
+     <img alt="Ring logo" src="local_resources\phish_Stand_alone_Landscape_blue_4ff56d1dacfff08f.png" style="max-width: 300px"/>
+     <a onclick="window.open('https://xt18-alternate.app.link'); return false;" rel="noopener noreferrer" target="_blank">
+      Descarga la App
+     </a>
+    </div>
+   </div>
+   <div class="shopify-section" id="shopify-section-footer">
+    <footer>
+     <div>
+      <div>
+       <h5>
+        Empresa
+       </h5>
+       <div>
+        <ul>
+         <li>
+          <a onclick="window.open('/pages/about'); return false;">
+           Acerca de Nosotros
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('/pages/privacy'); return false;">
+           Políticas de Privacidad
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('/pages/terms'); return false;">
+           Términos de Servicio
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('/pages/security'); return false;">
+           Seguridad
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('/pages/press'); return false;">
+           Medios de Comunicación
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://jobs.lever.co/ring'); return false;">
+           Ofertas de Empleo
+          </a>
+         </li>
+         <li>
+          <!-- Script 1.2 - The CM footer script -->
+          <a class="consent-manage-link">
+           Gestionar las Cookies
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+       <h5>
+        Atención al Cliente
+       </h5>
+       <div>
+        <ul>
+         <li>
+          <a onclick="window.open('https://support.ring.com/hc/es'); return false;">
+           Ayuda
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('http://status.ring.com/'); return false;">
+           Estado del Sistema
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://support.ring.com/hc/es/articles/115004666066'); return false;">
+           FAQ
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('/pages/warranty'); return false;">
+           Garantía
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+       <h5 style="color: #1998d5;">
+        <a onclick="window.open('https://ring.com/es/es/support/contact-us/call/americas'); return false;">
+         Llámanos
+        </a>
+       </h5>
+      </div>
+      <div>
+       <!-- <section class="email-signup">
+
+				<h6 class="header">Sign up for the latest news and offers</h6>
+
+				<div id="signup-form">
+
+					<form method="post" novalidate enctype="multipart/form-data" action="https://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm3226112">
+
+						<input type="hidden" name="form" value="3226112" />
+
+						<input type="hidden" name="viewkey" value="OCj0FDFA60" />
+
+						<input type="hidden" name="hidden_fields" id="hidden_fields3226112" value="" />
+
+						<input type="hidden" name="_submit" value="1" />
+
+						<input type="hidden" name="incomplete" id="incomplete3226112" value="" />
+
+						<input type="hidden" name="incomplete_password" id="incomplete_password3226112" />
+
+						<input type="hidden" name="style_version" value="3" />
+
+						<input type="hidden" id="viewparam" name="viewparam" value="727270" />
+
+						<input type="hidden" id="field70015818" name="field70015818" size="50" value="ring-latam" class="fsField" />
+
+						<input type="email" id="field69985641" name="field69985641" size="50" required="required" value="" class="fsField fsFormatEmail fsRequired" aria-required="true"placeholder="Enter your Email" autocomplete="off" />
+
+						<input id="fsSubmitButton3226112" class="submit-btn" type="submit" value="&#10095;" />
+
+					</form>
+
+				</div>
+
+				<script>
+
+					$('#fsForm3226112').submit(function( event ) {
+
+						event.preventDefault();
+
+						$.post('https://www.formstack.com/forms/index.php', getFooterInputs());
+
+						setTimeout(function(){
+
+							$('#field69985641').val('Thank you for your submission!');
+
+						},500);
+
+
+
+					});
+
+
+
+					function getFooterInputs(){
+
+						var values = {};
+
+						$('#fsForm3226112').find('input').each(function() {
+
+							values[this.name] = $(this).val();
+
+					    });
+
+						return values;
+
+					}
+
+				</script>
+
+			</section> -->
+       <h5>
+        Síguenos
+       </h5>
+       <ul class="full">
+        <li>
+         <a onclick="window.open('https://www.youtube.com/@RingMX'); return false;" target="_blank" title="Ring LATAM en YouTube">
+          <img src="local_resources\phish_youtube_a27028821e8428db.svg"/>
+         </a>
+         <a onclick="window.open('https://x.com/ring'); return false;" target="_blank" title="Ring LATAM en Twitter">
+          <img src="local_resources\phish_twitter_6b774ecd197544f1.svg"/>
+         </a>
+         <a onclick="window.open('https://www.facebook.com/RingMex/'); return false;" target="_blank" title="Ring LATAM en Facebook">
+          <img src="local_resources\phish_facebook_5a73f0dd5e36f61a.svg"/>
+         </a>
+         <a onclick="window.open('https://www.instagram.com/ring.mx/'); return false;" target="_blank" title="Ring LATAM en Instagram">
+          <img src="local_resources\phish_instagram_096b8a8b0117cbe6.svg"/>
+         </a>
+        </li>
+       </ul>
+       <script>
+        var default_co = 'MX';
+
+				var country = getCookie('chosen_country') ? getCookie('chosen_country') : default_co;
+
+				var set_country = "";
+
+
+
+				if(country != set_country){
+
+					window.stop();
+
+					$.ajax({
+
+						type: 'POST',
+
+					    url: '/cart.js',
+
+					    data: {'attributes[user_country]': country},
+
+					    success: function(d){
+
+					      window.location.reload();
+
+					    },
+
+					    dataType: 'json'
+
+					  });
+
+				}
+       </script>
+       <div>
+        <div class="country-icon">
+         <a onclick="window.open('https://shop.ring.com/pages/country-selector'); return false;" title="">
+          <div class="flag" style="background-image: url(//latam-es.ring.com/cdn/shop/files/flag_mex_44x44.png?v=1613172041)">
+          </div>
+          <div>
+           Cambiar
+          </div>
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </footer>
+    <!-- Script 2.2 - Heap Analytics: URL Obfuscation and Traffic Capture -->
+    <template class="consent-heap append-to-head">
+     <script>
+      function obfuscateHeap(props) {
+
+	    const replacement = "$1" + "REDACTED";
+
+	    const pathRegex =
+
+	      /(((account\/)(plan\/|app\/)(devices\/|payment\/|location\/|confirmation\/|plans\/(?:subscribe\/|upgrade\/|cancel\/|remove\/|)))|(cases\/|alerts\/|share\/|user\/viewprofilepage\/user-id\/|orders\/|checkouts\/))([A-Za-z0-9_@.-]+?)(?=\/|\?|$)/g;
+
+	    const queryParamsRegex =
+
+	      /([&?]deviceId=|[&?]locationId=|[&?]PayerID=|[&?]user_email=|[&?]msclkid=|[&?]mkt_tok=|[&?]fbclid=|[&?]token=|[&?]l=|[&?]discount=|[&?]location=|[&?]devices=|[&?]checkout\[email\]=|[&?]invitation_token=|[&?]code=)([A-Za-z0-9_@.-]+?)(?=\/|$|\&|])/g;
+
+	    function applyRegex(str, regex) {
+
+	      return str ? str.replace(regex, replacement) : undefined;
+
+	    }
+
+	    if (analyticsHelper) {
+
+	      analyticsHelper.applyCampaignTracking(props);
+
+	    }
+
+	    if (props.event_properties) {
+
+	      if (props.event_properties.href) {
+
+	        props.event_properties.href = applyRegex(
+
+	          applyRegex(props.event_properties.href, pathRegex),
+
+	          queryParamsRegex
+
+	        );
+
+	      }
+
+	      if (
+
+	        props.event_properties.hierarchy &&
+
+	        props.event_properties.hierarchy.indexOf("[href") > -1
+
+	      ) {
+
+	        props.event_properties.hierarchy = applyRegex(
+
+	          applyRegex(props.event_properties.hierarchy, pathRegex),
+
+	          queryParamsRegex
+
+	        );
+
+	      }
+
+	    }
+
+	    if (props.pageview_properties) {
+
+	      props.pageview_properties.path = applyRegex(
+
+	        props.pageview_properties.path,
+
+	        pathRegex
+
+	      );
+
+	      props.pageview_properties.hash = applyRegex(
+
+	        props.pageview_properties.hash,
+
+	        pathRegex
+
+	      );
+
+	      props.pageview_properties.previous_page = applyRegex(
+
+	        props.pageview_properties.previous_page,
+
+	        pathRegex
+
+	      );
+
+	      props.pageview_properties.query = applyRegex(
+
+	        props.pageview_properties.query,
+
+	        queryParamsRegex
+
+	      );
+
+	    }
+
+	    if (props.session_properties) {
+
+	      props.session_properties.path = applyRegex(
+
+	        props.session_properties.path,
+
+	        pathRegex
+
+	      );
+
+	      props.session_properties.hash = applyRegex(
+
+	        props.session_properties.hash,
+
+	        pathRegex
+
+	      );
+
+	      props.session_properties.referrer = applyRegex(
+
+	        props.session_properties.referrer,
+
+	        pathRegex
+
+	      );
+
+	      props.session_properties.query = applyRegex(
+
+	        props.session_properties.query,
+
+	        queryParamsRegex
+
+	      );
+
+	    }
+
+	    return props;
+
+	  }
+     </script>
+     <!-- Script 2.3 - Heap Analytics: Heap SDK -->
+     <script>
+      (window.heap = window.heap || []),
+
+	    (heap.load = function (e, t) {
+
+	      (window.heap.appid = e), (window.heap.config = t = t || {});
+
+	      var r = document.createElement("script");
+
+	      (r.type = "text/javascript"),
+
+	        (r.async = !0),
+
+	        (r.src = "https://cdn.heapanalytics.com/js/heap-" + e + ".js");
+
+	      var a = document.getElementsByTagName("script")[0];
+
+	      a.parentNode.insertBefore(r, a);
+
+	      for (
+
+	        var n = function (e) {
+
+	            return function () {
+
+	              heap.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+
+	            };
+
+	          },
+
+	          p = [
+
+	            "addEventProperties",
+
+	            "addUserProperties",
+
+	            "clearEventProperties",
+
+	            "identify",
+
+	            "resetIdentity",
+
+	            "removeEventProperty",
+
+	            "setEventProperties",
+
+	            "track",
+
+	            "unsetEventProperty",
+
+	          ],
+
+	          o = 0;
+
+	        o < p.length;
+
+	        o++
+
+	      )
+
+	        heap[p[o]] = n(p[o]);
+
+	    });
+
+	  heap.load("1155664863", {
+
+	    rewrite: obfuscateHeap,
+
+	    disableTextCapture: true,
+
+	  });
+     </script>
+    </template>
+   </div>
+  </div>
+  <div class="ring-over">
+   <div class="ring-over__bg">
+   </div>
+   <div class="ring-over__container">
+    <div class="ring-over__close">
+     X
+    </div>
+    <div class="ring-over__content">
+    </div>
+   </div>
+  </div>
+  <div class="shopify-section" id="shopify-section-affirm">
+  </div>
+  <div class="shopify-section" id="shopify-section-ajaxify-cart">
+  </div>
+  <div class="shopify-section" id="shopify-section-unsupported-browser">
+  </div>
+  <div class="shopify-section country-selector" id="shopify-section-retailers-map">
+  </div>
+  <div class="shopify-section" id="shopify-section-kustomer">
+   <script>
+    var token = false;
+   </script>
+   <!-- <script>
+		  // Kustomer Chat SDK
+			!function(a,b,c,d){a.Kustomer=c,c._q=[],c._i=[],c.init=function(a){function b(a,b){a[b]=function(){a._q.push([b].concat(Array.prototype.slice.call(arguments,0)))}}for(var d="init clear identify track start describe on".split(" "),e=0;e<d.length;e++)b(c,d[e]);c._i.push(a)};var e=b.createElement("script");e.type="text/javascript",e.async=!0,e.src="https://cdn.kustomerapp.com/cw/sdk.v1.1.min.js";var f=b.getElementsByTagName("script")[0];f.parentNode.insertBefore(e,f)}(this,document,window.Kustomer||{});
+
+		  Kustomer.init('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmYjgyOTg3YzU4ZTA5MDA5NjdlOWExMCIsInVzZXIiOiI1ZmI4Mjk4NmVjMzUyZGZiMjAyYmRkOGUiLCJvcmciOiI1OTQzZWE0OTc5N2Q4ODAwMTJmYTE2NmYiLCJvcmdOYW1lIjoicmluZyIsInVzZXJUeXBlIjoibWFjaGluZSIsInBvZCI6InByb2QxIiwicm9sZXMiOlsib3JnLnRyYWNraW5nIl0sImV4cCI6MTYyMTQ1Njc3MywiYXVkIjoidXJuOmNvbnN1bWVyIiwiaXNzIjoidXJuOmFwaSIsInN1YiI6IjVmYjgyOTg2ZWMzNTJkZmIyMDJiZGQ4ZSJ9.qp0hl5tL0liMbsP1POPWLQerX1tBBeyuOuD62kgCluM');
+		  if(token){
+			  Kustomer.identify(token);
+		  }
+
+			// Start the chat client
+			Kustomer.start({ lang: "es", form: "5fb7ed2e64c245008ef477cc", schedule: "5fb7ec90dc0e8700190dfe21" }); 
+		// End Kustomer Chat SDK
+		</script> -->
+   <script>
+    var config = { attributes: false, childList: true };
+	var observer = new MutationObserver(function () {
+		var recaptchaElem = $('script[src$="recaptcha__en.js"');
+		if (recaptchaElem.length) {
+			recaptchaElem.remove();
+			observer.disconnect();
+		}
+	});
+	observer.observe(document.head, config);
+   </script>
+   <!-- Solvvy Snippet for Kustomer -->
+   <script async="" src="local_resources\solvvy_8106e83393f936c2.js">
+   </script>
+   <!-- End Solvvy Snippet for Kustomer -->
+  </div>
+  { % comment % }
+  <script>
+   window.RC3Enabled = true;
+const AsyncChatOrigin = 'https://chatbot.rc3.ring.com';
+const AsyncChatcampaign = 'ACEC_ES';
+
+
+class RingChatBot {
+
+    loadScript() {
+      return new Promise((resolve, reject) => {
+        const script = document.createElement('script');
+        script.src = "https://chatbot.rc3.ring.com/js/1.0.7.js";
+        script.onload = resolve;
+        script.onerror = reject;
+        document.head.appendChild(script);
+      });
+    }
+
+    constructor(chatOrigin, campaign) {
+
+		this.campaign = campaign;
+		this.status = 'loading';
+		this.updateWidget = null;
+		this.onMinimizeHandlers = new Set();
+ 
+		this.props = {
+	        chatOrigin,
+			show: false,
+			active: false,
+			toggleActive: this.toggleActive.bind(this),
+			statusHandler: this.handleStatus.bind(this),
+			startHandler: this.handleStart.bind(this),
+		};
+
+ 
+		const rootId = 'rcb-chat-widget'
+		this.rootEl = document.createElement('div');
+		this.rootEl.id = rootId;
+		this.rootEl.classList.add('acec-container');
+		document.body.appendChild(this.rootEl);
+		this.loadScript().then(() => {
+        	this.updateWidget = chat.bootstrapChatWidget(rootId, this.props);
+
+		})
+	}
+
+ 
+
+	onMinimize(handler) {
+
+      this.onMinimizeHandlers.add(handler);
+      return () => this.onMinimizeHandlers.delete(handler);
+
+    }
+
+ 
+
+    toggleActive() {
+
+      if (this.props.active) {
+        this.minimize();
+      } else {
+        this.expand();
+      }
+    }
+
+
+    handleStatus(status) {
+      this.status = status;
+    }
+
+ 
+
+    updateProps(partialProps) {
+      this.props = { ...this.props, ...partialProps };
+      this.updateWidget(this.props);
+    }
+
+ 
+
+    async handleStart() {
+      await chat.startPublicChat({
+        campaign: this.campaign,
+      });
+    };
+
+ 
+
+    /**
+     * Synchronous function that auto-starts a chat if one is not already
+     * started. This function is invoked when ZVA hands off.
+     */
+    autoStartChat = () => {
+		if (!['loading', 'starting', 'started'].includes(this.status)) {
+			this.handleStart();
+		}
+    };
+
+ 
+
+    // Expands the chat window
+    expand() {
+		this.updateProps({ active: true });
+    }
+
+ 
+
+    // Minimizes the chat window
+    minimize() {
+		this.updateProps({ active: false });
+		this.onMinimizeHandlers.forEach(handler => handler());
+    }
+
+
+    // Remove the chat bubble from page
+    hide() {
+		this.rootEl.classList.remove('acec-container--visible');
+		this.updateProps({ show: false });
+    }
+
+    // Show the chat bubble on page
+	show() {
+		this.rootEl.classList.add('acec-container--visible');
+		this.updateProps({ show: true });
+	}
+ }
+
+
+const rcb = new RingChatBot(AsyncChatOrigin, AsyncChatcampaign);
+
+// called by ZVA sometime when the page first loads and later when initially launched
+function isLaunched(launched) {
+	if (launched) rcb.show();
+	else rcb.hide();
+}
+
+
+// called by ZVA when Ring Chat Bot is initially launched
+function init() {
+	rcb.expand();
+	rcb.autoStartChat();
+}
+  </script>
+  { % endcomment % }
+ </body>
+</html>

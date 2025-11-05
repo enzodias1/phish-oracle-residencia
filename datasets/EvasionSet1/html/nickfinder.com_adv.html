@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   Captcha
+  </title>
+  <script async="" defer="" src="local_resources\api_81e3ea9bac3b8c77.js">
+  </script>
+  <style>
+   body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .error {
+            color: red;
+            display: none;
+        }
+  </style>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <div class="container">
+   <h2>
+    Please verify you are not a bot
+   </h2>
+   <div class="cf-turnstile" data-callback="onCaptchaSuccess" data-sitekey="0x4AAAAAABdRngFQXjavGSrf">
+   </div>
+   <p class="error" id="error">
+    Verification failed. Please try again.
+   </p>
+  </div>
+  <script>
+   function onCaptchaSuccess(token) {
+        fetch('/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            },
+            body: new URLSearchParams({
+                cf_captcha_token: token
+            }),
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.reload();
+                } else {
+                    document.getElementById('error').style.display = 'block';
+                    turnstile.reset();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('error').style.display = 'block';
+                turnstile.reset();
+            });
+    }
+  </script>
+ </body>
+</html>

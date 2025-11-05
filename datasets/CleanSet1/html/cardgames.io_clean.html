@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html class="lang-en frontpage" lang="en">
+<head>
+<title>
+    
+        CardGames.io - Play all your favorite classic card games.
+    
+    </title>
+<meta charset="utf-8"/>
+<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+<meta content="Play classic card games like Hearts, Spades, Solitaire, Free Cell and Euchre for free. No sign-up or download necessary!" name="Description"/>
+<!-- Language -->
+<meta content="en" name="language"/>
+<link href="local_resources\res_76c54c99ea9d760a" hreflang="de" rel="alternate"/>
+<link href="local_resources\res_18fe7383f4cc6f1f" hreflang="en" rel="alternate"/>
+<link href="local_resources\res_18fe7383f4cc6f1f" hreflang="x-default" rel="alternate"/>
+<link href="local_resources\res_1115984c9f2cad45" hreflang="es" rel="alternate"/>
+<link href="local_resources\res_e19062bcd6421499" hreflang="fr" rel="alternate"/>
+<script>
+        // default Consent MUST to be set before the first gtag call
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        // 1) Global defaults: GRANTED (covers US where no banner/updates are sent)
+        gtag('consent', 'default', {
+            ad_storage: 'granted',
+            analytics_storage: 'granted',
+            ad_user_data: 'granted',
+            ad_personalization: 'granted',
+            wait_for_update: 500
+        });
+
+        gtag('consent', 'default', {
+            ad_storage: 'denied',
+            analytics_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            region: [
+            // EU/EEA members
+            "AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU",
+            "IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE",
+            // EEA non-EU
+            "IS","NO","LI",
+            // UK + CH
+            "GB","CH",
+            // European territories/microstates often aligned
+            "AX","MC","SM","GI","GF","GP","MQ","RE","YT","MF",
+            // US and Canada
+            "CA-QC","US-CA","US-CO","US-CT","US-UT","US-VA"
+            ],
+            wait_for_update: 500
+        });
+    </script>
+<script>
+        function OptanonWrapper() { }
+    </script>
+<!-- Removed, don't want the banner showing up where we don't want it <meta name="apple-itunes-app" content="app-id=1496007149" /> -->
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<!-- <script src="https://unpkg.com/i18next@23.6.0/dist/umd/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.1/i18nextHttpBackend.min.js"></script> -->
+<meta content="cardgames.io" name="apple-mobile-web-app-title"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<link href="local_resources\frontpage-touch-icon_2fa1a0cc9c3b64ee.png" rel="apple-touch-icon"/>
+<link href="local_resources\frontpage-manifest_6719a7e71a823e0f.json" rel="manifest"/>
+<link as="font" crossorigin="anonymous" href="local_resources\Slackey-Regular_86c6b9c356fd4b2d.woff" rel="preload"/>
+<link href="local_resources\favicon32_52bde7e7cfc5a6b6.png" rel="icon" sizes="32x32"/>
+<link href="local_resources\frontpage-touch-icon-192_3881f22d09874f54.png" rel="icon" sizes="192x192"/>
+<!--  CMP -->
+<script type="text/javascript">
+                function OptanonWrapper() { }
+            </script>
+<!-- End CMP -->
+<script src="local_resources\translate.min_419e844b1dfefae3.js"></script>
+<script>
+        var adFreeCode = (document.cookie.match(/adfreecode=(\w+)/)||[])[1];
+        var category = "CARDGAMES.IO";
+        var slug = 'frontpage';
+        var siteVersion = '1.56.1';
+        var showAds = 'adsense';
+        var videoAds = 'false';
+        var customChannelId = '7386969395';
+        var players = {"bottom":{"name":"You","face":"/shared/images/svg/face-0.svg","faceSad":"/shared/images/svg/face-0-sad.svg","code":"0","defaultName":"You"},"left":{"name":"Mike","face":"/shared/images/svg/face-mike.svg","faceSad":"/shared/images/svg/face-mike-sad.svg","code":"mlpge","defaultName":"Mike"},"top":{"name":"Bill","face":"/shared/images/svg/face-2.svg","faceSad":"/shared/images/svg/face-2-sad.svg","code":"2","defaultName":"Bill"},"right":{"name":"Lisa","face":"/shared/images/svg/face-3.svg","faceSad":"/shared/images/svg/face-3-sad.svg","code":"3","defaultName":"Lisa"}};
+        var STATIC_ASSET_DOMAIN = '';
+        var APP_MODE = false;
+        var languages = {};
+        var currentLanguage = 'en';
+        var siteUrl = "frontpage";
+        var i18nWindow = initTranslation('frontpage','en');
+        var htmlIsDev = window.location.origin.includes("dev.cardgames.io") || window.location.origin.includes("redace.io");
+        
+        var gameSettings = {};
+         
+        if (location.search.match(/appmode/)) {
+            APP_MODE = true;
+            document.documentElement.className += ' appmode';
+        }
+
+    
+        var defaultSettings = {};
+    
+        var defaultSiteSettings = {"players":{},"playerName":"","multiplayerPublicId":"","multiplayerPrivateId":"","multiplayerIdReset":"","multiplayerPhrases":{},"blocked":{},"muted":{},"favorite":{},"alwaysUseInterstitialAds":false,"mobileBannerAds":true,"confetti":true,"gameLinks":"","playerRating":0,"quitCount":0,"connectionBan":0,"rcq":0,"multiplayerGameInProgress":false,"showAdSettingsLink":false,"spreadCards":false,"svgCards":false,"forceDesktopLook":false,"acceptCookiesId":0,"showPersonalizedAds":true,"enableGA":true,"showDesktopInterstitials":true,"hideAdblockAd":false,"useDarkTheme":false,"useBottomBanner":false,"holidayThemes":true,"hideMultiplayerButton":false,"mandalorian":0};
+
+        function getSiteSettingBool(name, defaultVal) {
+            try {
+                var val = localStorage.getItem('site.' + name);
+                if (val === null) {
+                    return defaultVal;
+                }
+
+                return val === 'true' ? true : false;
+            } catch(ex) {
+                return defaultVal;
+            }
+        }
+
+    </script>
+<script>
+        if (document.location.search.match(/alerterror/)) {
+            window.onerror = function(msg,src,line,col,error) {
+                if (error && error.stack) {
+                    alert(error.stack);
+                } else {
+                    alert(msg);
+                }
+            };
+        } 
+    </script>
+<script>     
+        try {
+            //Allow people to force the desktop look.
+            //First check if we're on mobile to decide whether to display the option
+            if (localStorage['site.forceDesktopLook'] == 'true') {
+                var metas = document.getElementsByTagName('meta');
+                for (var i=0; i < metas.length; i++) {
+                    var m = metas[i];
+                    if (m.getAttribute('name') === 'viewport') {
+                        m.setAttribute('content', 'width=1050');
+                        break;
+                    }
+                }
+            }
+        } catch(ex) {
+
+        }
+    </script>
+<link href="local_resources\frontpage.min_284851feae5a1971.css" rel="stylesheet"/>
+<style id="player-faces-style">
+        .face-bottom-player {
+            background-image:url(/shared/images/svg/face-0.svg);
+        }
+        .face-left-player {
+            background-image:url(/shared/images/svg/face-mike.svg);
+        }
+        .face-top-player {
+            background-image:url(/shared/images/svg/face-2.svg);
+        }
+        .face-right-player {
+            background-image:url(/shared/images/svg/face-3.svg);
+        }
+        .face-bottom-player.sad {
+            background-image:url(/shared/images/svg/face-0-sad.svg);
+        }
+        .face-left-player.sad {
+            background-image:url(/shared/images/svg/face-mike-sad.svg);
+        }
+        .face-top-player.sad {
+            background-image:url(/shared/images/svg/face-2-sad.svg);
+        }
+        .face-right-player.sad {
+            background-image:url(/shared/images/svg/face-3-sad.svg);
+        }
+        
+    </style>
+<script>
+        
+        function loadPlayerFaces() {
+            var KEY = 'site.players';
+            if (!localStorage[KEY]) {
+                localStorage[KEY] = JSON.stringify({
+                    bottom : {
+                        face : '/shared/images/svg/face-0.svg',
+                        faceSad : '/shared/images/svg/face-0-sad.svg',
+                        name : 'You',
+                        code : '0'
+                    }
+                });
+            }
+
+            //2. Get data and add it to css
+            var customPlayers = JSON.parse(localStorage[KEY]);
+
+            if (customPlayers.bottom.name === 'You' && localStorage['site.playerName']) {
+                customPlayers.bottom.name = localStorage['site.playerName'];
+                localStorage[KEY] = JSON.stringify(customPlayers);
+            }
+
+            if (slug === 'checkers' && document.location.search.match(/tesla/) || navigator.userAgent.match(/Tesla|QtCarBrowser|Model S/)) {
+                customPlayers.top = {
+                    name : 'Elon',
+                    type : 'custom',
+                    code: "bamoe",
+                    face: "https://cardgames.io/lambda/faces/bamoe",
+                    faceSad: "https://cardgames.io/lambda/faces/bamoe/sad"            
+                };
+            } 
+            var pdata;
+            var css = '';
+
+
+            
+
+
+            var hideNames = false;
+
+            for (var id in customPlayers) {
+                pdata = customPlayers[id];
+                css += '.face-' + id + '-player { background-image:url(' + pdata.face + '); } \n';
+                css += '.face-' + id + '-player.sad { background-image:url(' + pdata.faceSad + '); } \n';
+                //Override names and images...
+                if (pdata) {
+                    players[id].name = pdata.name;
+                    players[id].face = pdata.face;
+                    players[id].faceSad = pdata.faceSad;
+                    players[id].code = pdata.code;
+                    hideNames = true;
+                }
+            }
+
+            var style = document.createElement('style');
+            style.innerHTML = css;
+            style.id = 'player-faces-custom';
+            document.getElementsByTagName('head')[0].appendChild(style);
+
+            if (hideNames) {
+                var tmpStyle = document.createElement('style');
+                tmpStyle.innerHTML = '.top-player-name, .bottom-player-name, .left-player-name, .right-player-name { color:transparent !important; }';
+                if (tmpStyle.setAttribute) {
+                    tmpStyle.setAttribute('id', 'temphidenames');
+                } else {
+                    tmpStyle.id = 'temphidenames';
+                }
+                document.getElementsByTagName('head')[0].appendChild(tmpStyle);
+            }
+        }
+        
+        try {
+            loadPlayerFaces();
+        } catch(ex) { /*Nevermind*/}
+    
+    </script>
+<script>
+            //Do this before body starts rendering to avoid ugly flicker on mobile when calculating the height
+            (function() {
+            var MOBILE_HEADER_HEIGHT = 47;
+            var MAX_BOARD_HEIGHT = 689;
+            var MIN_BOARD_HEIGHT = 411;
+            var MOBILE_BREAKPOINT = 730;
+
+            if (APP_MODE) {
+                return; //Can count on calculated things here...
+            }
+            var fillMobileViewPort = false; 
+            if (innerWidth <= MOBILE_BREAKPOINT && fillMobileViewPort) {
+                //Are in the mobile look, might have to force set the height
+                var height = innerHeight - MOBILE_HEADER_HEIGHT;
+                //Bound the height
+                height = Math.min(height, MAX_BOARD_HEIGHT);
+                if (!window.matchMedia('(orientation: landscape)').matches) {
+                    height = Math.max(height, MIN_BOARD_HEIGHT);
+                }
+
+                //Some hacks here to get the iPhone app height perfect, it's surprisingly fiddly to get it right... 
+                if (APP_MODE && innerHeight <= 667) { 
+                    height -= 5;
+                }
+                
+                var el = document.createElement('style');
+                el.innerHTML = '#play-page { height:' + height + 'px; }';
+                el.id = 'viewport-height';
+                document.getElementsByTagName('head')[0].appendChild(el);
+            }
+        })();
+    </script>
+<link href="local_resources\res_18fe7383f4cc6f1f" rel="canonical"/>
+<!--Open Graph Protocol metadata-->
+<meta content="summary" name="twitter:card"/>
+<meta content="@cardgames_io" name="twitter:site"/>
+<meta content="@einaregilsson" name="twitter:creator"/>
+<meta content="CardGames.io" property="og:title"/>
+<meta content="Play classic card games for free. No sign-up or download necessary!" property="og:description"/>
+<meta content="game" property="og:type"/>
+<meta content="https://cardgames.io/" property="og:url"/>
+<meta content="/frontpage/images/frontpage-logo.png" property="og:image"/>
+<meta content="1824725124440462" property="fb:app_id"/>
+<meta content="808179882" property="fb:admins"/>
+<script>
+            //Setup basic ad stuff
+            window.adsbygoogle = [];
+            var adBreak = adConfig = function(o) { window.adsbygoogle.push(o); }
+        </script>
+<script data-cfasync="false" type="text/javascript">
+            if(!APP_MODE){
+                //Analytic purposes. 
+                var freestar = freestar || {};
+                freestar.queue = freestar.queue || [];
+                freestar.config = freestar.config || {};
+                freestar.config.enabled_slots = [];
+                freestar.initCallback = function () { freestar.newAdSlots([]) };
+
+                freestar.queue.push(function() {
+                    googletag.pubads().setTargeting('page', 'CARDGAMES.IO');
+                });
+                if(showAds =='both'){
+                    if(videoAds == "false"){                    
+                        window.freestar.queue.push(function(){
+                            window.freestar.newSidewall("cardgames_sidewall_right");
+                        });
+                    }  
+                    window.freestar.queue.push(function(){
+                        window.freestar.newSidewall("cardgames_sidewall_left");
+                    });
+                }
+                if(showAds =='both' && htmlIsDev){
+                    freestar.queue.push(function () {
+                        googletag.pubads().set('page_url', 'https://cardgames.io/');
+                    });
+                }
+            }
+        </script>
+<script>
+    //Check for custom links
+
+    try {
+        //Hide them before page loads to avoid flicker
+        var links = localStorage['site.gameLinks'];
+        if (links) {
+            document.documentElement.className += ' use-custom-links';
+        }
+    } catch(ex) {
+        //Don't interrupt the loading process because of this
+    }
+
+    var supportsSvg = true;
+
+    try {
+        supportsSvg = document.implementation.hasFeature('https://www.w3.org/TR/SVG11/feature#Image', '1.1');
+    } catch(ex) {}
+
+    var themes = {
+        current : '',
+        names : {halloween:'Halloween', xmas:'Christmas', easter:'Easter', thanksgiving:'Thanksgiving', valentines: 'Valentines day', newyears:'New Years'},
+        init : function() {
+            var date = new Date();
+            var MOBILE_BREAKPOINT = 730;
+
+            if (this.isEaster(date) && screen.width > MOBILE_BREAKPOINT) { //TODO: Find a better way to handle mobile look
+                this.current = 'easter';
+            } else if (this.isStarWarsDay(date)) {
+                this.current = 'starwars';
+            } else if (this.isHalloween(date)) {
+                this.current = 'halloween';
+            }  else if (this.isNewYears(date)) {
+                this.current = 'newyears';
+            }else if (this.isXmas(date)) {
+                this.current = 'xmas';
+            } else if (this.isThanksgiving(date)) {
+                this.current = 'thanksgiving';
+            } else if (this.isValentinesDay(date)) {
+                this.current = 'valentines';
+            } else if (this.isFourthOfJuly(date)) {
+                this.current = 'fourthOfJuly';
+            }
+
+            if (document.location.search.match(/\btheme=(\w+)/)) {
+                this.current = RegExp.$1;
+            }            
+
+            if (this.current == '' || this.isTurnedOff()) {
+                return;
+            } 
+          
+            document.write("<link href='/themes/1.56.1/" + this.current + ".min.css' id='theme-css' rel='stylesheet' type='text/css'>");
+            var html = document.getElementsByTagName('html');
+            if (html && html[0]) {
+                html[0].className += ' ' + this.current;
+            }
+        },
+
+        EasterSunday : function(year) {
+            var f = Math.floor,
+                // Golden Number - 1
+                G = year % 19,
+                C = f(year / 100),
+                // related to Epact
+                H = (C - f(C / 4) - f((8 * C + 13)/25) + 19 * G + 15) % 30,
+                // number of days from 21 March to the Paschal full moon
+                I = H - f(H/28) * (1 - f(29/(H + 1)) * f((21-G)/11)),
+                // weekday for the Paschal full moon
+                J = (year + f(year / 4) + I + 2 - C + f(C / 4)) % 7,
+                // number of days from 21 March to the Sunday on or before the Paschal full moon
+                L = I - J,
+                month = 3 + f((L + 40)/44),
+                day = L + 28 - 31 * f(month / 4);
+
+            return  new Date(year, month - 1, day);
+        },
+
+        isFourthOfJuly: function(date){
+            let country = document.cookie.split('; ').find(row => row.startsWith('country='));
+            if(country){
+                country = country.split('=')[1];
+                return date.getMonth() === 6 && date.getDate() === 4 && country === "US";
+            } else {
+                return false;
+            }
+        },
+
+        isEaster : function(date) {
+            var easterSunday = this.EasterSunday(date.getFullYear());
+            var timestamp = date.getTime();
+            var oneDay = 24 * 60 * 60 * 1000;
+            var minDay = easterSunday.getTime() - 7*oneDay;
+            var maxDay = easterSunday.getTime() + 2*oneDay;
+            if (timestamp >= minDay && timestamp < maxDay) {
+                return true;
+            }
+            return false;
+        },
+
+        isHalloween : function(date) {
+            return date.getDate() >= 24  && date.getDate() <= 31 && date.getMonth() == 9;
+        },
+        isValentinesDay : function(date) {
+            return date.getDate() === 14 && date.getMonth() === 1;
+        },
+        isXmas : function(date) {
+            return date.getMonth() == 11 && date.getDate() >= 6 && date.getDate() <= 26;
+        },
+        isStarWarsDay : function(date) {
+            return date.getMonth() === 4 && date.getDate() === 4 & !APP_MODE;
+        },
+
+        isNewYears : function(date) {
+            return (date.getMonth() === 11 && date.getDate() === 31) || (date.getMonth() === 0 && date.getDate() === 1);
+        },
+
+        isThanksgiving : function(date) {
+            var SUNDAY = 0;
+            var THURSDAY = 4;
+            var NOVEMBER = 10; //JavaScript's stupid 0-based month count
+            var ONE_DAY = 24*60*60*1000;
+            var d = date;
+            if (d.getDay() !== SUNDAY && d.getDay() < THURSDAY) {
+                return false;
+            }
+            for (var i = 0; i < 4; i++) {
+                if (d.getDay() === THURSDAY) {
+                    break;
+                } else {
+                    d = new Date(d - ONE_DAY);
+                }
+            }
+            return d.getDate() >= 22 && d.getDate() <= 28 && d.getMonth() === NOVEMBER; //Fourth Thursday of November
+        },
+
+        isTurnedOff : function() {
+            try {
+                return this.current == '' || localStorage['site.holidayThemes'] === 'false' || document.cookie.match(/themeoff/);
+            } catch(ex) {
+                return true;
+            }
+        },
+        
+        usesDarkTheme : function() {
+            try {
+                return localStorage['site.useDarkTheme'] === 'true';
+            } catch(ex) {
+                return false; //IF cookies are disabled, or private mode in Safari, then just accessing localStorage can throw.
+            }
+        },
+
+        turnOn : function(e) {
+            if (this.current === '') {
+                return;
+            }
+
+            $('html').addClass(this.current);
+
+            $('<link/>').attr({
+                href : '/themes/1.56.1/' + this.current + '.min.css',
+                rel : 'stylesheet',
+                id : 'theme-css'
+            }).appendTo('head');
+
+            if (this.usesDarkTheme() && this.current !== 'starwars' && this.current !== 'xmas' && this.current !== 'newyears') {
+                $('html').removeClass('dark-theme');
+            }
+        },
+        turnOff : function(e) {
+            $('html').removeClass(this.current);
+            $('#theme-css').remove();
+            if (this.usesDarkTheme()) {
+                $('html').addClass('dark-theme');
+            }
+        }
+    };
+    
+    try {
+       themes.init(); 
+    } catch(ex) {}
+    
+
+
+     var mainTheme = {
+        init : function(){
+             var html = document.documentElement;
+             try {
+                 var siteTheme = localStorage['site.useDarkTheme'] === 'true' ? 'dark-theme' : 'normal';
+                if(siteTheme && (!themes.current || themes.isTurnedOff() || themes.current === 'starwars' || themes.current === 'newyears' || themes.current === 'valentines' || themes.current === 'xmas')) {
+                    html.className += ' ' + siteTheme;
+                }
+             } catch (ex){
+             }
+        }
+    };
+    mainTheme.init();
+    </script>
+</head>
+<body>
+<!--**************************************************************************
+ This code is copyright (C) Raudas Hugbunadur ehf (Red Ace Software LLC)
+ 
+ This code is NOT open source, and it is NOT permitted to use it on other
+ sites, modify it, or otherwise use it for any other purpose than playing
+ on one of our sites, (https://cardgames.io, https://iochess.com)
+ 
+ I've had to deal with multiple people stealing my work and I'm sick of it.
+ Don't be a thief, write your own game!
+***************************************************************************-->
+<div class="appmode-remove" id="draper-video"></div>
+<div id="game-link-wrapper">
+<div id="promo-links">
+<div id="mobile-options">
+<label>CARDGAMES.IO</label>
+<a href="#about">About Us</a>
+<a href="#faq">Frequently Asked Questions</a>
+<a href="#contact">Contact</a>
+</div>
+<div class="game-links">
+<label>TRICK-TAKING GAMES</label>
+<a href="/bridge/">Bridge</a>
+<a href="/euchre/">Euchre</a>
+<a href="/hearts/">Hearts</a>
+<a href="/lockup/">Lockup</a>
+<a href="/manni/">Manni</a>
+<a href="/ohhell/">Oh Hell!</a>
+<a href="/pinochle/">Pinochle</a>
+<a class="newest-game" href="/skat/">Skat</a>
+<a href="/spades/">Spades</a>
+<a href="/whist/">Whist</a>
+</div>
+<div class="game-links">
+<label>CARD GAMES</label>
+<a href="/canasta/">Canasta</a>
+<a href="/crazyeights/">Crazy Eights</a>
+<a href="/cribbage/">Cribbage</a>
+<a href="/escoba/">Escoba</a>
+<a href="/ginrummy/">Gin Rummy</a>
+<a href="/gofish/">Go Fish</a>
+<a href="/idiot/">Idiot</a>
+<a href="/rummy/">Rummy</a>
+<a href="/spit/">Spit</a>
+<a href="/switch/">Switch</a>
+<a href="/thirteen/">Thirteen</a>
+<a href="/war/">War</a>
+</div>
+<div class="game-links">
+<label>SOLITAIRES</label>
+<a href="/addiction/">Addiction</a>
+<a href="/canfieldsolitaire/">Canfield Solitaire</a>
+<a href="/clocksolitaire/">Clock Solitaire</a>
+<a href="/crescentsolitaire/">Crescent Solitaire</a>
+<a href="/freecell/">FreeCell</a>
+<a href="/golfsolitaire/">Golf Solitaire</a>
+<a href="/kingsinthecorners/">Kings in the Corners</a>
+<a href="/pyramidsolitaire/">Pyramid Solitaire</a>
+<a href="/scorpionsolitaire/">Scorpion Solitaire</a>
+<a href="/solitaire/">Solitaire</a>
+<a href="/spidersolitaire/">Spider Solitaire</a>
+<a href="/tripeakssolitaire/">Tri Peaks Solitaire</a>
+<a href="/yukonsolitaire/">Yukon Solitaire</a>
+</div>
+<div class="game-links">
+<label>OTHER GAMES</label>
+<a href="/backgammon/">Backgammon</a>
+<a href="/checkers/">Checkers</a>
+<a href="/chess/">Chess</a>
+<a href="/farkle/">Farkle</a>
+<a href="/mahjong/">Mahjong</a>
+<a href="/minesweeper/">Minesweeper</a>
+<a href="/reversi/">Reversi</a>
+<a href="/seabattle/">Sea Battle</a>
+<a href="/sudoku/">Sudoku</a>
+<a href="/triangles/">Triangles</a>
+<a href="/yahtzee/">Yahtzee</a>
+</div>
+<div class="mobile-options hide-desktop">
+<label>Change language</label>
+<a class="lang-selector" data-lang="de" href="/de/">DEUTSCH</a>
+<a class="lang-selector" data-lang="en" href="/" style="font-weight:normal">ENGLISH</a>
+<a class="lang-selector" data-lang="es" href="/es/">ESPAÃOL</a>
+<a class="lang-selector" data-lang="fr" href="/fr/">FRANÃAIS</a>
+</div>
+<button id="random-game">Random game</button>
+<div class="game-links appmode-remove">
+<label>OUR OTHER SITES</label>
+<a href="https://spacebugs.io" id="space-link" target="_blank">SPACEBUGS.IO</a>
+<a href="https://sudoku.lol" id="sudoku-link" target="_blank">SUDOKU.LOL</a>
+</div>
+<button class="big hide-mobile appmode-remove" id="close-menu">CLOSE GAME MENU</button>
+<a class="hide-mobile appmode-remove" href="#customize-menu" id="customize-menu">Customize...</a>
+<a class="hide-mobile appmode-remove" href="#hide-home" id="hide-home">Hide 'Home' link</a>
+</div>
+</div>
+<button id="mobile-menu">
+<span class="menu-row-1"></span>
+<span class="menu-row-2"></span>
+<span class="menu-row-3"></span>
+</button>
+<div id="wrapper">
+<!-- row 1, the promo links/menu -->
+<a id="play"></a>
+<!-- end row 1 -->
+<!-- row 2, with [ad|header-and-board|ad] -->
+<div id="board-wrapper-and-ads">
+<div class="don-draper appmode-remove adsense" id="draper-left">
+<label>Advertisement</label>
+<!-- CARDGAMES.IO Left Skyscraper -->
+<ins class="adsbygoogle adslot_1" data-ad-client="ca-pub-9002823967926225" data-ad-format="auto" data-ad-slot="7864190195"></ins>
+<script>
+                    adsbygoogle.push({});
+                    </script>
+</div>
+<div id="board-and-header">
+<div class="lang-wrapper appmode-remove">
+                    ð <select class="lang-selector" onchange="location = this.value;">
+<option data-lang="de" value="/de/">Deutsch</option>
+<option data-lang="en" selected="" value="/">English</option>
+<option data-lang="es" value="/es/">EspaÃ±ol</option>
+<option data-lang="fr" value="/fr/">FranÃ§ais</option>
+</select>
+</div>
+<div class="hide-mobile appmode-remove" id="promo-mini">
+<span id="customizable-links">
+<a class="default-game-link" href="/hearts/">Hearts</a>
+<a class="default-game-link" href="/solitaire/">Solitaire</a>
+<a class="default-game-link" href="/spades/">Spades</a>
+<a class="default-game-link" href="/freecell/">FreeCell</a>
+<a class="default-game-link" href="/cribbage/">Cribbage</a>
+<a class="default-game-link" href="/yahtzee/">Yahtzee</a>
+<a class="default-game-link" href="/ginrummy/">Gin Rummy</a>
+<script>
+                            //Add custom links with document.write to avoid ugly flicker...
+                            try {
+                                var links = localStorage['site.gameLinks'];
+                                if (links) {
+                                    var names = links.split(',');
+                                    for (var i=0; i < names.length; i++) {
+                                        var name = names[i];
+                                        var url = '/' + name.replace(/\s*/g, '').replace(/&nbsp;/, '').replace(/!/g, '').toLowerCase() + '/';
+                                        var link = '<a href="' + url + '">' + name + '</a>';
+                                        document.write(link);
+                                    }
+                                }
+                            } catch(ex) {
+                                //Nevermind...
+                            }
+                        </script>
+</span>
+<a class="newest-game" href="/skat/">Skat</a>
+<a class="newest-game" href="/" id="home-link">Home</a>
+<a href="#more-games" id="more-games-link">More games...</a>
+</div>
+<div id="header">
+<div id="title">
+<h1>CARDGAMES.IO</h1>
+</div>
+<div class="hide-mobile" id="menucontainer">
+<ul id="menu">
+<li><a href="#about">About Us</a></li>
+<li> | <a href="#faq">Frequently Asked Questions</a></li>
+<li> | <a href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+<div class="board frontpage" id="board">
+<div id="draper-inline-video"></div>
+<div class="inner-page" id="play-page">
+<div class="avatar" id="left-player">
+<div class="face-small face-left-player"></div>
+<small class="left-player-name">Mike</small>
+<div class="bubble" id="left-player-bubble"><p><span></span></p></div>
+</div>
+<div class="avatar" id="right-player">
+<div class="face-small face-right-player"></div>
+<small class="right-player-name">Lisa</small>
+<div class="bubble" id="right-player-bubble"><p><span></span></p></div>
+</div>
+<div class="avatar" id="top-player">
+<div class="face-small face-top-player"></div>
+<small class="top-player-name">Bill</small>
+<div class="bubble" id="top-player-bubble"><p><span></span></p></div>
+</div>
+<div class="avatar" id="bottom-player">
+<div class="face-small face-bottom-player"></div>
+<small class="bottom-player-name">You</small>
+<div class="bubble" id="bottom-player-bubble"><p><span></span></p></div>
+</div>
+<a class="multiplayer-hide" href="/avatars/" id="open-player-picker">Change<span> player...</span></a>
+<div id="messageBox"><p></p></div>
+<!-- Old browser DIV. Usually hidden. -->
+<div id="oldbrowser">
+<p>
+            You are using a very old browser, that is no longer supported by this site. We recommend that you upgrade to one of the following browsers:
+        </p>
+<p>
+<a class="lefticon" href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">
+<img alt="Download Mozilla Firefox" border="0" height="100" id="firefox-Logo" src="" width="100"/>
+<span class="caption"> Download Mozilla Firefox</span>
+</a>
+<a class="righticon" href="https://www.google.com/chrome/" target="_blank">
+<img alt="Download Google Chrome" border="0" height="100" id="Chrome-Logo" src="" width="100"/>
+<span class="caption"> Download Google Chrome</span>
+</a>
+</p>
+<a id="hidebutton" onclick="$('#oldbrowser').hide();">(hide)</a>
+</div>
+<!-- End Old browser. Usually hidden. -->
+<div id="play-links">
+<a class="game-link" href="/addiction/">
+<div class="icon" id="addiction-icon"></div>
+<span>Addiction</span>
+</a>
+<a class="game-link" href="/backgammon/">
+<div class="icon" id="backgammon-icon"></div>
+<span>Backgammon</span>
+</a>
+<a class="game-link" href="/bridge/">
+<div class="icon" id="bridge-icon"></div>
+<span>Bridge</span>
+</a>
+<a class="game-link" href="/canasta/">
+<div class="icon" id="canasta-icon"></div>
+<span>Canasta</span>
+</a>
+<a class="game-link" href="/canfieldsolitaire/">
+<div class="icon" id="canfieldsolitaire-icon"></div>
+<span>Canfield</span>
+</a>
+<a class="game-link" href="/checkers/">
+<div class="icon" id="checkers-icon"></div>
+<span>Checkers</span>
+</a>
+<a class="game-link" href="/chess/">
+<div class="icon" id="chess-icon"></div>
+<span>Chess</span>
+</a>
+<a class="game-link" href="/clocksolitaire/">
+<div class="icon" id="clocksolitaire-icon"></div>
+<span>Clock</span>
+</a>
+<a class="game-link" href="/crazyeights/">
+<div class="icon" id="crazyeights-icon"></div>
+<span>Crazy 8's</span>
+</a>
+<a class="game-link" href="/crescentsolitaire/">
+<div class="icon" id="crescentsolitaire-icon"></div>
+<span>Crescent</span>
+</a>
+<a class="game-link" href="/cribbage/">
+<div class="icon" id="cribbage-icon"></div>
+<span>Cribbage</span>
+</a>
+<a class="game-link" href="/escoba/">
+<div class="icon" id="escoba-icon"></div>
+<span>Escoba</span>
+</a><a class="game-link" href="/euchre/">
+<div class="icon" id="euchre-icon"></div>
+<span>Euchre</span>
+</a>
+<a class="game-link" href="/farkle/">
+<div class="icon" id="farkle-icon"></div>
+<span>Farkle</span>
+</a>
+<a class="game-link" href="/freecell/">
+<div class="icon" id="freecell-icon"></div>
+<span>Freecell</span>
+</a>
+<a class="game-link" href="/ginrummy/">
+<div class="icon" id="ginrummy-icon"></div>
+<span>Gin Rummy</span>
+</a>
+<a class="game-link" href="/gofish/">
+<div class="icon" id="gofish-icon"></div>
+<span>Go Fish</span>
+</a>
+<a class="game-link" href="/golfsolitaire/">
+<div class="icon" id="golfsolitaire-icon"></div>
+<span>Golf</span>
+</a>
+<a class="game-link" href="/hearts/">
+<div class="icon" id="hearts-icon"></div>
+<span>Hearts</span>
+</a>
+<a class="game-link" href="/idiot/">
+<div class="icon" id="idiot-icon"></div>
+<span>Idiot</span>
+</a>
+<a class="game-link" href="/kingsinthecorners/">
+<div class="icon" id="kingsinthecorners-icon"></div>
+<span title="Kings in the Corners">Kings in...</span>
+</a>
+<a class="game-link" href="/lockup/">
+<div class="icon" id="lockup-icon"></div>
+<span>Lockup</span>
+</a>
+<a class="game-link" href="/mahjong/">
+<div class="icon" id="mahjong-icon"></div>
+<span>Mahjong</span>
+</a>
+<a class="game-link" href="/manni/">
+<div class="icon" id="manni-icon"></div>
+<span>Manni</span>
+</a>
+<a class="game-link" href="/minesweeper/">
+<div class="icon" id="minesweeper-icon"></div>
+<span>Minesweeper</span>
+</a>
+<a class="game-link" href="/ohhell/">
+<div class="icon" id="ohhell-icon"></div>
+<span>Oh Hell!</span>
+</a>
+<a class="game-link" href="/pinochle/">
+<div class="icon" id="pinochle-icon"></div>
+<span>Pinochle</span>
+</a>
+<a class="game-link" href="/pyramidsolitaire/">
+<div class="icon" id="pyramidsolitaire-icon"></div>
+<span>Pyramid</span>
+</a>
+<a class="game-link" href="/reversi/">
+<div class="icon" id="reversi-icon"></div>
+<span>Reversi</span>
+</a>
+<a class="game-link" href="/rummy/">
+<div class="icon" id="rummy-icon"></div>
+<span>Rummy</span>
+</a>
+<a class="game-link" href="/scorpionsolitaire/">
+<div class="icon" id="scorpionsolitaire-icon"></div>
+<span>Scorpion</span>
+</a>
+<a class="game-link" href="/skat/">
+<div class="icon" id="skat-icon"></div>
+<span>Skat</span>
+</a>
+<a class="game-link" href="/solitaire/">
+<div class="icon" id="solitaire-icon"></div>
+<span>Solitaire</span>
+</a>
+<a class="game-link" href="/seabattle/">
+<div class="icon" id="seabattle-icon"></div>
+<span>Sea Battle</span>
+</a>
+<a class="game-link" href="/spades/">
+<div class="icon" id="spades-icon"></div>
+<span>Spades</span>
+</a>
+<a class="game-link" href="/spidersolitaire/">
+<div class="icon" id="spidersolitaire-icon"></div>
+<span>Spider</span>
+</a>
+<a class="game-link" href="/spit/">
+<div class="icon" id="spit-icon"></div>
+<span>Spit</span>
+</a>
+<a class="game-link" href="/sudoku/">
+<div class="icon" id="sudoku-icon"></div>
+<span>Sudoku</span>
+</a>
+<a class="game-link" href="/switch/">
+<div class="icon" id="switch-icon"></div>
+<span>Switch</span>
+</a>
+<a class="game-link" href="/thirteen/">
+<div class="icon" id="thirteen-icon"></div>
+<span>Thirteen</span>
+</a>
+<a class="game-link" href="/triangles/">
+<div class="icon" id="triangles-icon"></div>
+<span>Triangles</span>
+</a>
+<a class="game-link" href="/tripeakssolitaire/">
+<div class="icon" id="tripeakssolitaire-icon"></div>
+<span>Tri Peaks</span>
+</a>
+<a class="game-link" href="/whist/">
+<div class="icon" id="whist-icon"></div>
+<span>Whist</span>
+</a>
+<a class="game-link" href="/yahtzee/">
+<div class="icon" id="yahtzee-icon"></div>
+<span>
+        
+        Yahtzee
+        
+        </span>
+</a>
+<a class="game-link" href="/yukonsolitaire/">
+<div class="icon" id="yukonsolitaire-icon"></div>
+<span>Yukon</span>
+</a>
+</div>
+<div class="dialog options-page" id="game-options-page">
+<h2>OPTIONS</h2>
+<div id="options-version">v0.1 (12345678)</div>
+<div id="options-pane-container">
+<div class="options-pane" id="game-options">
+<h3>CARDGAMES.IO</h3>
+</div>
+<div class="options-pane" id="site-options">
+<h3>All games</h3>
+<div class="option-row checkbox">
+<label title="Spread the cards in your hand wider, making it easier to hit the right card.">Spread cards<input name="spreadCards" type="checkbox"/><span></span></label>
+</div>
+<div class="option-row option-desktop checkbox appmode-remove">
+<label title="Only show ads inbetween rounds in the games, never show ad banners on the sides.">Interstitial ads<input name="alwaysUseInterstitialAds" type="checkbox"/><span></span></label>
+</div>
+<div class="option-row checkbox">
+<label title="Use a darker theme for the site, which can be easier on the eyes.">Use dark theme<input name="useDarkTheme" type="checkbox"/><span></span></label>
+</div>
+<div class="option-row checkbox">
+<label title="Special holiday themes are active around holidays, like Christmas, Halloween and Easter.">Holiday themes<input name="holidayThemes" type="checkbox"/><span></span></label>
+</div>
+<div class="option-row checkbox">
+<label title="Show confetti for special celebrations, like getting a perfect game in Hearts.">Confetti<input name="confetti" type="checkbox"/><span></span></label>
+</div>
+<div class="option-row checkbox">
+<label title="Hide Multiplayer button when game is active.">Hide Multiplayer button<input name="hideMultiplayerButton" type="checkbox"/><span></span></label>
+</div>
+<div class="option-row">
+<label title="Customize faces and names of opponents"><a href="/opponents/">Customize opponents...</a></label>
+</div>
+<div class="option-row hide-mobile">
+<label title="Block or unblock players from Multiplayer mode"><a href="/blocklist/">Blocked users...</a></label>
+</div>
+<div class="option-row hide-mobile">
+<label title="Manage your favorite players from Multiplayer mode"><a href="/favoritelist/">Favorite users...</a></label>
+</div>
+</div>
+<div style="clear:both;"></div>
+</div>
+<small class="appmode-hide">Certain changes only take effect after refreshing the page.</small>
+<button id="close-options">Close</button>
+</div>
+<!-- Win and lose screens -->
+<div class="dialog" id="result-box">
+<h3>Congratulations, you won!</h3>
+<p id="win-reason"></p>
+<div class="trophy"></div>
+<span class="winner-img face-large face-left-player" id="left-player-win"></span>
+<span class="winner-img face-large face-right-player" id="right-player-win"></span>
+<span class="winner-img face-large face-top-player" id="top-player-win"></span>
+<span class="winner-img face-large face-bottom-player" id="bottom-player-win"></span>
+<div class="trophy"></div>
+<div class="button-panel">
+<button id="suggest-rematch">Suggest rematch</button>
+<button id="start-new-game">Start a new game!</button>
+</div>
+</div>
+</div>
+<div id="beta-screen">
+<!-- Hi there. Are you looking for a way to bypass the beta? Congratulations, you're such a hacker! -->
+<p>Hi. This game is currently not ready for playing, it's in beta testing right now, we'll announce when it's ready.</p>
+<p>If you've been given a beta-testing code by CardGames.io please enter it below and click the Enter button.</p>
+<input id="beta-code" type="text"/>
+<button>Enter</button>
+</div>
+<div id="app-prompt">
+<h3>We have an app now!</h3>
+<a href="" id="app-icon"> </a>
+<p>
+                            We've created a new CardGames.io app for your <span id="app-prompt-tablet">tablet</span><span id="app-prompt-phone">phone</span>! All the games from the website, in fullscreen mode, with more characters! Would you like to get the app?
+                        </p>
+<div>
+<a href="" id="get-app">Yes, get the app!</a>
+<a href="#" id="no-thanks">No thanks</a>
+</div>
+</div>
+</div>
+<div class="appmode-remove" id="matrix">
+<p>Welcome to the Matrix.</p>
+<p>root@cardgames.io: <input id="matrix-log-filter" type="text"/></p>
+<textarea id="log-area"></textarea>
+</div>
+</div>
+<div class="don-draper appmode-remove adsense" id="draper-right">
+<label>Advertisement</label>
+<!-- CARDGAMES.IO Right Skyscraper -->
+<ins class="adsbygoogle adslot_2" data-ad-client="ca-pub-9002823967926225" data-ad-format="auto" data-ad-slot="8863702598" style="display:block"></ins>
+<script>
+                    adsbygoogle.push({});
+                    </script>
+</div>
+<div class="appmode-remove" style="clear:both"></div>
+</div>
+<!--end row 2 -->
+<!-- row 3, all text content -->
+<div class="appmode-hide" id="textcontent">
+<a name="about"></a>
+<div id="about">
+<h2>About Us</h2>
+<p>
+        CardGames.io is a game site focused on classic card and board games. Our goal is to make great versions of the games you already know and love in real life. We try very hard to make the games simple and easy to use, and hope you enjoy playing them as much as we enjoy making them ð.
+    </p>
+</div>
+<a name="faq"></a>
+<div id="faq">
+<h2>Frequently Asked Questions</h2>
+<p class="q">Q: Why won't you add rule-variations/replayable-games/any-other-feature? It would make the game much better.</p>
+<p>
+        A: We get a lot of requests from people that just want one tiny little feature added to a game. What they don't realize is that if we start implementing all the suggestions we get then the games will no longer be simple. The number one praise we get is that the interface is simple and uncluttered and it's easy to play. That's very much deliberate. There is no login, no loading screens, as few options as possible. We want to keep it as simple as possible, and that means each game only has one set of rules, you can't choose variations, we try to add as few controls as possible to the screen etc. So, don't feel bad if you make a suggestion and I deny it, we deny 99% of all suggestions.
+    </p>
+<p class="q">Q: Why can't I see my statistics on another computer?</p>
+<p>
+        A: This goes back to simplicity again. We don't want people to have to login to the site. We don't want to keep passwords in a database and be responsible for them. Your statistics are stored in your browser, we don't store them anywhere.That means that as soon as you switch browsers you won't see the same statistics.
+    </p>
+<p class="q">Q: Does this site use cookies and/or track people?</p>
+<p>
+       A: Yes, this site uses cookies. They are used for game purposes, like remembering your scores between rounds, but also to gather aggregate data on people's browsers, screen resolutions and more, which helps us figure out what we need to support. Finally they are also used for advertising purposes. A more detailed description of our cookie use can be found in our <a href="/privacy/">Privacy Policy</a>, and you can always reach out and contact us if you're concerned about it.
+    </p>
+<p class="q">Q: Do the computer players cheat? Are the games fixed?</p>
+<p>
+        A: No. In all the games the cards are dealt randomly at the start, and the computer players make their decisions based only on knowledge of their own hands, and knowledge of what has been played. Basically they use the same information as a human player would have available to them.
+    </p>
+<p class="q">Q: I saw an offensive ad. Can you remove it?</p>
+<p>
+        A: If you see an ad that is offensive to you then please contact us and we'll try our best to block it. Due to the way advertising works we can't always immediately find the ads to block them, but if you send a screenshot of it, or you remember any text on it or a url then there's a much higher chance that we can find it and block it.
+    </p>
+<p class="q">Q: I have an amazing business proposal for you!</p>
+<p>
+       A: Thank you for your interest. You're free to send it our way, but do note that we are a fairly insular company and aren't very receptive to unsolicited business offers. <a href="/questions/#b2b">Please read this answer on the longer FAQ page</a> before contacting us.
+    </p>
+<p class="q">Q: I have a question that wasn't covered in this FAQ!</p>
+<p>
+       A: That technically isn't a question, but that aside: these questions are the most commonly asked ones, but for a few more questions that commonly pop up in our support email you may find your answer <a href="https://cardgames.io/questions">on this page</a>, which covers things like what the green checkmarks mean, if we will add specific games or options, and so on and so forth.
+    </p>
+</div>
+<a name="contact"></a>
+<div id="contact">
+<h2>Contact</h2>
+<p>
+        You can always contact us with any questions, suggestions or issues.It's generally best to contact us by email at <a href="mailto:support@cardgames.io">support@cardgames.io</a>, but you can also find us on these sites:
+    </p>
+<div id="socialGrid">
+<div><a href="https://facebook.com/cardgames.io/">Facebook</a></div>
+<div><a href="https://twitter.com/cardgames_io"> X / Twitter</a></div>
+<div><a href="https://mastodon.social/@cardgames_io" rel="me">Mastodon</a></div>
+<div><a href="https://youtube.com/@cardgames_io">Youtube</a></div>
+<div><a href="https://instagram.com/cardgames_io">Instagram</a></div>
+<div><a href="https://bsky.app/profile/cardgames-io.bsky.social">Bluesky</a></div>
+</div>
+<p>
+    Need a group to play with or want to share a fun moment? Maybe just rant about Bill's excellent Spades skills? Facebook also hosts our official <a href="https://www.facebook.com/groups/cardgames.io.community">Cardgames.io community group.</a> pop in and say hello!
+</p>
+</div>
+<div class="footer-language appmode-remove">
+<label></label>
+<a class="lang-selector" data-lang="de" href="/de/">DEUTSCH</a>
+<a class="lang-selector" data-lang="en" href="/" style="font-weight:normal">ENGLISH</a>
+<a class="lang-selector" data-lang="es" href="/es/">ESPAÃOL</a>
+<a class="lang-selector" data-lang="fr" href="/fr/">FRANÃAIS</a>
+</div>
+<p class="appmode-remove" id="version-info">
+            This is version 1.56.1 of CardGames.io.
+            </p>
+<p class="appmode-remove" id="privacy">
+                This website uses cookies to store game data, your preferences, and for analytical and advertising purposes. Read more in our <a href="/privacy/">Privacy Policy</a>. <a class="ot-sdk-show-settings" id="ot-sdk-btn">Cookie Settings</a>.
+            </p>
+<p class="appmode-remove" id="ownership-info">Cardgames.io is owned and operated by RauÃ°Ã¡s Games ehf. All rights reserved.</p>
+</div>
+<!-- end row 3 -->
+<script src="local_resources\jquery-3.6.3.min_9e3f9adf44b193ce.js" type="text/javascript"></script>
+<script>
+            //Only load huge polyfill file for crap browsers...
+            if (typeof Symbol === 'undefined' || !Array.prototype.find || !Array.prototype.includes) {
+                //Must load this completely before the game code, hence the document.write...
+                document.write('<scr' + 'ipt src="/shared/lib/polyfill.min.js"></scri' + 'pt>');
+                window.polyfilled = true;
+            }
+
+            //Polyfill for .setPrototypeOf for IE10 and below, since socket.io uses this now...
+            if (!Object.setPrototypeOf) {
+                Object.setPrototypeOf = function (obj, proto) {
+                    for (var prop in proto) {
+                        if (!Object.prototype.hasOwnProperty.call(obj, prop)) {
+                            obj[prop] = proto[prop]
+                        }
+                    }
+                    return obj
+                }
+            }
+        </script>
+<script>
+            window.mainScriptLoaded = false;
+        </script>
+<script src="local_resources\frontpage.min_48d2e038a3a7d0dc.js"></script>
+<div class="dialog" id="main-scripts-fail">
+<h2>Game failed to load</h2>
+<div>
+<p>The primary script that runs our games seems to not have loaded, somehow.</p>
+<p>This is in despite of the fact other scripts seem to have loaded up just fine.</p>
+<p>This issue has been automatically reported and we're looking into it, but we'd be very grateful if you could
+                    send a report to <a href="mailto:support@cardgames.io">support@cardgames.io</a> with any further detail you can think of, including if you're running 
+                    any script-blocking extensions, ad-blockers, or if your browser is set to block specific types of scripts. 
+                </p>
+<img src="local_resources\face-2-sad_6837a4fa59f8ac6d.svg"/>
+</div>
+</div>
+<script>
+            setTimeout(() => {
+                if(!window.mainScriptLoaded){
+                    console.log("Main script didn't load, panic! PANIC!");
+                    console.log(`Javascript loaded, but not main script. Jquery ok: ${typeof($) == 'function'}`);
+
+                    const failed = () => {
+                        const div = document.querySelector('#main-scripts-fail');
+                        div.style.display = 'block';
+                        var data = {
+                        name: "MainScriptFail",
+                        slug: "frontpage",
+                        errorMessage: `Javascript loaded, but not main script. Jquery ok: ${typeof($) == 'function'}, version=${siteVersion}`,
+                        url: location.href,
+                        userAgent: navigator.userAgent,
+                        maxMailCount: 0
+                    };
+
+                    fetch("/api/errors", {
+                        method: "POST",
+                        headers: {
+                        "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify(data),
+                    });
+                    }
+                    //Ok, maybe this is just a versioning error. Test it?
+                    fetch(`/version.json?`).then(r => {
+                        if(r.status == 200){
+                            r.json().then(d => {
+                                if(d.version !== siteVersion){
+                                    console.log("Wrong version");
+                                    //We are on the wrong version. Stupid browser cache.
+                                    if($){
+                                        var s = document.createElement('script');
+                                        s.async = false;
+                                        s.src = location.href+d.version+"/"+slug+".min.js";
+                                        var other = document.getElementsByTagName('script')[0];
+                                        other.parentNode.insertBefore(s, other);
+                                        setTimeout(() => {
+                                            if(!window.mainScriptLoaded){
+                                                failed();
+                                            }
+                                            delete window.mainScriptLoaded;
+                                        }, 500);
+                                    }
+                                } else {
+                                    failed();
+                                    delete window.mainScriptLoaded;
+                                }
+                            })
+                        } else {
+                            failed()
+                            delete window.mainScriptLoaded;
+                        }
+                    })
+                    
+                }
+            }, 5000);
+        </script>
+<script defer="" src="local_resources\stat.min_2da0571a3e2efd4c.js"></script>
+<noscript>
+<div class="dialog" id="disabled-scripts">
+<h2>You have Javascript disabled!</h2>
+<div>
+<p>We detected that something blocked cardgames.io from running Javascript files on the page. Unfortunately, all the games are coded in Javascript, and so our site cannot function without executing scripts.</p>
+<p>Please either enable Javascript for Cardgames.io from your brower's security settings, or upgrade to a more modern browser.</p>
+<p>If you've found that your browser is executing scripts on other sites and cardgames.io isn't being blocked by any settings, extensions, or other add-ons you have running on your computer 
+                        send a detailed report to <a href="mailto:support@cardgames.io">support@cardgames.io</a>
+</p>
+<img src="local_resources\face-2-sad_6837a4fa59f8ac6d.svg"/>
+</div>
+</div>
+</noscript>
+</div>
+</body>
+</html>

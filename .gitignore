@@ -1,6 +1,10 @@
-﻿.venv/
+﻿.DS_Store
+Thumbs.db
+.venv/
+*.pth
+*.joblib
+Logo-2K+/
+downloaded_webpages_simple/
 __pycache__/
 *.pyc
-.DS_Store
-Thumbs.db
 .vscode/

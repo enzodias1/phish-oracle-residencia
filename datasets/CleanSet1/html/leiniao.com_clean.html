@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<title>FFALCON</title>
+<link href="local_resources\index_4668dd3878927fc3.css" rel="stylesheet"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="local_resources\js_1258a04088cff8d8"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-125031319-1');
+  </script>
+</head>
+<body>
+<script type="text/javascript">
+  	  mobile_device_detect("http://www.leiniao.com.s3-website-ap-southeast-1.amazonaws.com/#/mobile/index");
+  	  function mobile_device_detect(url) {
+        var thisOS = navigator.platform;
+        var os = new Array("iPhone", "iPod", "iPad", "android", "Nokia",
+                "SymbianOS", "Symbian", "Windows Phone", "Phone",
+                "Linux armv71", "MAUI", "UNTRUSTED/1.0", "Windows CE",
+                "BlackBerry", "IEMobile");
+        for ( var i = 0; i < os.length; i++) {
+            if (thisOS.match(os[i])) {
+                window.location = url;
+            }
+        }
+        // å ä¸ºç¸å½é¨åçææºç³»ç»ä¸ç¥éä¿¡æ¯,è¿éæ¯åä¸´æ¶æ§ç¹æ®è¾¨è®¤
+        if (navigator.platform.indexOf('iPad') != -1) {
+            window.location = url;
+        }
+        // åè¿ä¸é¨åæ¯å ä¸ºAndroidææºçåæ ¸ä¹æ¯Linux
+        // ä½æ¯navigator.platformæ¾ç¤ºä¿¡æ¯ä¸å°½ç¸åæåµç¹å¤,å æ­¤ä»æµè§å¨ä¸æï¼å³ç¨navigator.appVersionä¿¡æ¯åå¤æ­
+        var check = navigator.appVersion;
+        if (check.match(/linux/i)) {
+            // X11æ¯UCæµè§å¨çå¹³å° ï¼å¦ææå¶ä»ç¹æ®æµè§å¨ä¹å¯ä»¥éå ä¸æ¡ä»¶
+            if (check.match(/mobile/i) || check.match(/X11/i)) {
+                window.location = url;
+            }
+        }
+        // ç±»in_arrayå½æ°
+        Array.prototype.in_array = function(e) {
+            for (i = 0; i < this.length; i++) {
+                if (this[i] == e)
+                    return true;
+            }
+            return false;
+        }
+    }
+  </script>
+<div id="root"></div>
+<script src="local_resources\index_e3b4cd52366a5c2a.js"></script>
+</body>
+</html>

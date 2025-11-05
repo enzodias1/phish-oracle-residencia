@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<meta content="Hugo 0.148.2" name="generator"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<title>
+ Let's Encrypt
+</title>
+<meta content="Let's Encrypt is a free, automated, and open Certificate Authority brought to you by the nonprofit Internet Security Research Group (ISRG). Read all about our nonprofit work this year in our 2024 Annual Report. " name="description"/>
+<meta content="https://letsencrypt.org/images/LetsEncrypt-SocialShare.png" property="og:image"/>
+<meta content="website" property="og:type"/>
+<meta content="Let's Encrypt" property="og:title"/>
+<meta content="Let's Encrypt is a free, automated, and open Certificate Authority brought to you by the nonprofit Internet Security Research Group (ISRG). Read all about our nonprofit work this year in our 2024 Annual Report. " property="og:description"/>
+<meta content="https://letsencrypt.org/" property="og:url"/>
+<link href="local_resources\feed_c38eea0c546ae231.xml" rel="alternate" title="Let's Encrypt Blog" type="application/rss+xml"/>
+<link href="local_resources\le-2025-theme-output.min.787218bb171b0b6dc94b0de800976d318f9b3892fc957fe23b4590461157364a_55efade99670c939.css" integrity="sha256-eHIYuxcbC23JSw3oAJdtMY+bOJL8lX/iO0WQRhFXNko=" rel="stylesheet"/>
+<link href="local_resources\all.min_f0863a9821548c72.css" rel="stylesheet"/>
+<script crossorigin="anonymous" integrity="sha256-usoKN9QSOReZpOX21YlowSuUi0yRwFOjwCWrdY/7cLw=" src="local_resources\le-2025-theme.baca0a37d412391799a4e5f6d58968c12b948b4c91c053a3c025ab758ffb70bc_1b74a3defbe20aa3.js"></script>
+<script crossorigin="anonymous" integrity="sha256-RHg1Jcc8/u9WXluEQc1CqEjLYw2fNl3vc+3OSGfm9Mg=" src="local_resources\autoanchor.44783525c73cfeef565e5b8441cd42a848cb630d9f365def73edce4867e6f4c8_a692bb7971e419ad.js"></script>
+<script crossorigin="anonymous" integrity="sha256-E3wlECJS3IlBGlwtnrAKOD8SQly3hFyNisTGFcCvH44=" src="local_resources\number-animation.137c25102252dc89411a5c2d9eb00a383f12425cb7845c8d8ac4c615c0af1f8e_8924d8e78d2c834e.js"></script>
+</head>
+<body>
+<header class="relative bg-white shadow-sm">
+<div class="language-section">
+<div class="language-bar bg-gray-100 border-b border-gray-200">
+<div class="container mx-auto px-4">
+<div class="flex justify-end">
+<button aria-controls="language-section" aria-expanded="false" class="flex items-center space-x-2 py-1 text-xstext-gray-600 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500" id="language-toggle">
+<span class="text-xs">Languages</span>
+<img alt="" aria-hidden="true" class="w-3 h-3" src="local_resources\language-icon128px-black_721c0414a985eb00.png"/>
+</button>
+</div>
+</div>
+</div>
+<div aria-labelledby="language-toggle" class="hidden h-0 opacity-0 border-b border-gray-200 bg-white" id="language-section" role="region">
+<div class="container mx-auto px-4 py-4">
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1">
+<a aria-current="true" class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md bg-blue-50 text-blue-700" href="/" hreflang="" lang="">
+<svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+<span>English</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/ca/" hreflang="" lang="">
+<span>Català</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/cs/" hreflang="" lang="">
+<span>Čeština</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/da/" hreflang="" lang="">
+<span>Dansk</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/de/" hreflang="" lang="">
+<span>Deutsch</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/el/" hreflang="" lang="">
+<span>Greek</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/es/" hreflang="" lang="">
+<span>Español</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/fi/" hreflang="" lang="">
+<span>Suomi</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/fr/" hreflang="" lang="">
+<span>Français</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/he/" hreflang="" lang="">
+<span>עברית</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/hu/" hreflang="" lang="">
+<span>Hungarian</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/id/" hreflang="" lang="">
+<span>Bahasa Indonesia</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/it/" hreflang="" lang="">
+<span>Italiano</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/ja/" hreflang="" lang="">
+<span>日本語</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/ko/" hreflang="" lang="">
+<span>한국어</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/pl/" hreflang="" lang="">
+<span>Polish</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/pt-br/" hreflang="" lang="">
+<span>Português do Brasil</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/ru/" hreflang="" lang="">
+<span>Русский</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/si/" hreflang="" lang="">
+<span>සිංහල</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/sr/" hreflang="" lang="">
+<span>Srpski</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/sv/" hreflang="" lang="">
+<span>Svenska</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/ta/" hreflang="" lang="">
+<span>Tamil</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/th/" hreflang="" lang="">
+<span>Thai</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/tr/" hreflang="" lang="">
+<span>Türkçe</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/uk/" hreflang="" lang="">
+<span>Українська</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/vi/" hreflang="" lang="">
+<span>Tiếng Việt</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/zh-cn/" hreflang="" lang="">
+<span>简体中文</span>
+</a>
+<a class="flex items-start lg:items-center space-x-2 px-4 py-2 rounded-md text-gray-700 hover:bg-gray-50" href="/zh-tw/" hreflang="" lang="">
+<span>繁體中文</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="container mx-auto px-4 py-3 md:py-4" id="main-header">
+<a class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-white px-4 py-2 rounded-md shadow-md" href="#main-content" id="skiplink">
+      Skip navigation links
+    </a>
+<div class="flex items-center justify-between">
+<a class="site-logo flex-shrink-0" href="/">
+<img alt="Let's Encrypt" src="local_resources\letsencrypt-logo-horizontal_6973a00e27329b00.svg"/>
+</a>
+<button aria-controls="main-nav" aria-expanded="false" aria-label="Toggle menu" class="md:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500" id="mobile-menu-toggle">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<nav class="md:flex absolute md:!relative inset-x-0 top-full md:top-auto bg-white md:bg-transparent border-b md:border-b-0 border-gray-200 shadow-lg md:shadow-none md:flex-grow md:ml-8 z-50" id="main-nav">
+<div class="container mx-auto">
+<div class="md:p-0 flex justify-center">
+<ul class="site-main-nav flex flex-col md:flex-row md:justify-center md:gap-5 py-2 md:py-0 w-full" role="menubar">
+<li class="relative" role="none">
+<a class="nav-item" href="/docs/" role="menuitem">
+          Documentation
+        </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-item" href="https://community.letsencrypt.org/" role="menuitem">
+          Get Help
+        </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-item" href="/blog/" role="menuitem">
+          Blog
+        </a>
+</li>
+<li class="relative group" role="none">
+<div class="dropdown-container">
+<button aria-controls="dropdown-donate" aria-expanded="false" class="nav-item flex items-center justify-between w-full md:w-auto space-x-1" role="menuitem">
+<span>Donate</span>
+<svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<ul class="hidden static md:absolute left-0 w-full md:w-auto py-1 bg-white md:rounded-md md:shadow-lg md:border md:border-gray-200 z-[60] mt-1" id="dropdown-donate" role="menu">
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="https://www.abetterinternet.org/sponsor/" role="menuitem">
+                Become a Sponsor
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="https://www.abetterinternet.org/sponsors/" role="menuitem">
+                Current Sponsors &amp; Funders
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="/getinvolved/" role="menuitem">
+                Get Involved
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="/donate/" role="menuitem">
+                Donate
+              </a>
+</li>
+</ul>
+</div>
+</li>
+<li class="relative group" role="none">
+<div class="dropdown-container">
+<button aria-controls="dropdown-about" aria-expanded="false" class="nav-item flex items-center justify-between w-full md:w-auto space-x-1" role="menuitem">
+<span>About Us</span>
+<svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+<ul class="hidden static md:absolute left-0 w-full md:w-auto py-1 bg-white md:rounded-md md:shadow-lg md:border md:border-gray-200 z-[60] mt-1" id="dropdown-about" role="menu">
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="/about/" role="menuitem">
+                Let's Encrypt
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="/docs/faq/" role="menuitem">
+                Frequently Asked Questions (FAQ)
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="/repository/" role="menuitem">
+                Policy and Legal Repository
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="https://letsencrypt.status.io/" role="menuitem">
+                Service Status
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="/stats/" role="menuitem">
+                Statistics
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="/contact/" role="menuitem">
+                Contact
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="https://www.abetterinternet.org/careers/" role="menuitem">
+                Careers
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="https://www.abetterinternet.org/annual-reports/" role="menuitem">
+                Annual reports
+              </a>
+</li>
+<li class="relative" role="none">
+<a class="nav-dropdown-item" href="https://www.abetterinternet.org/about/" role="menuitem">
+                Internet Security Research Group (ISRG)
+              </a>
+</li>
+</ul>
+</div>
+</li>
+<li class="block md:hidden pt-2.5"><a class="btn btn-yellow btn-sm" href="/donate/">Donate Now</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<a class="btn btn-yellow hidden md:block flex-shrink-0" href="/donate/">Donate Now</a>
+</div>
+</div>
+</header>
+<div id="main-content"></div>
+<main>
+<div class="text-white section-padding-xl relative overflow-hidden">
+<div class="hero-bg bg-[position:top_left] md:bg-[position:top_center]"></div>
+<div class="relative z-10 pb-5">
+<div class="container mx-auto px-4">
+<div class="grid md:grid-cols-12 gap-8 items-center">
+<div class="md:col-span-8">
+<div class="text-left">
+<h1 class="text-4xl md:text-6xl font-bold mb-3 leading-[1.05] md:leading-[1.05]">
+              Encryption for<br/> Everybody
+            </h1>
+<h2 class="text-2xl md:text-3xl font-bold mb-6 text-balance">
+              A nonprofit providing free TLS certificates to more than <span class="relative inline-block"><span class="invisible text-4xl">700M</span><span class="text-4xl absolute left-0" id="certificate-count">700M</span></span> websites.
+            </h2>
+<hr class="w-20 border-le-yellow border-2 mb-7"/>
+<div class="flex flex-wrap gap-4">
+<a class="btn btn-primary" href="/getting-started">
+                Get Started
+              </a>
+<a class="btn btn-outline-white" href="/sponsor">
+                Sponsor
+              </a>
+</div>
+</div>
+</div>
+<div class="md:col-span-4">
+           
+        </div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div class="bg-gray-800 text-white py-5">
+<div class="container mx-auto">
+<div class="grid md:grid-cols-12 gap-8 items-center">
+<div class="md:col-span-8">
+<h2 class="text-base font-bold mb-2">Explore our work to improve security and privacy</h2>
+<p class="mb-0 text-sm">Our 2024 Annual Report highlights the progress we've made toward a better Internet.</p>
+</div>
+<div class="md:col-span-4 md:text-right">
+<a class="text-sm btn btn-primary" href="https://www.abetterinternet.org/documents/2024-ISRG-Annual-Report.pdf">
+            Read the Annual Report →
+          </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-le-blue py-10">
+<div class="container section-padding mx-auto">
+<h2 class="text-eyebrow text-white text-center mb-10">From our blog</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<a class="blog-grid-item group" href="/2025/10/07/ten-yrs-community-forum" hreflang="en">
+<time class="text-gray-500 text-sm">October 7, 2025</time>
+<h3 class="text-xl font-bold mt-2 mb-3 text-gray-900">Ten Years of Community Support</h3>
+<div class="text-gray-600">
+    
+      In its first decade, the Let’s Encrypt Community Forum has helped tens of thousands of users, kept Let’s Encrypt staff in touch with the community, and spurred new tools and projects.
+    
+  </div>
+<div class="absolute bottom-6 left-6">
+<span class="font-medium text-link group-hover:text-link-hover">Read more →</span>
+</div>
+</a>
+<a class="blog-grid-item group" href="/2025/09/16/ari-rfc" hreflang="en">
+<time class="text-gray-500 text-sm">September 16, 2025</time>
+<h3 class="text-xl font-bold mt-2 mb-3 text-gray-900">ACME Renewal Information (ARI) Published as RFC 9773</h3>
+<div class="text-gray-600">
+    
+      Our renewal advisory specification was published by the IETF.
+    
+  </div>
+<div class="absolute bottom-6 left-6">
+<span class="font-medium text-link group-hover:text-link-hover">Read more →</span>
+</div>
+</a>
+<a class="blog-grid-item group" href="/2025/09/11/native-acme-for-nginx" hreflang="en">
+<time class="text-gray-500 text-sm">September 11, 2025</time>
+<h3 class="text-xl font-bold mt-2 mb-3 text-gray-900">Native ACME Support Comes to NGINX</h3>
+<div class="text-gray-600">
+    
+      The most-used web server and reverse proxy gives users a new certificate option.
+    
+  </div>
+<div class="absolute bottom-6 left-6">
+<span class="font-medium text-link group-hover:text-link-hover">Read more →</span>
+</div>
+</a>
+</div>
+<div class="flex justify-center mt-10">
+<a class="btn btn-outline btn-outline-white" href="/blog">
+          See all our blog posts
+        </a>
+</div>
+</div>
+</div>
+<div class="bg-gray-50">
+<div class="container mx-auto section-padding-2xl px-4">
+<div class="grid gap-16 md:grid-cols-2">
+<div class="flex flex-col min-h-full">
+<div class="space-y-6">
+<div class="text-eyebrow text-black">Free, Automated TLS Certificates</div>
+<h1 class="text-4xl font-bold text-black">Getting started</h1>
+<p class="text-black text-lg leading-relaxed">
+            Let's Encrypt is a Certificate Authority that provides free TLS certificates, making it easy for websites to enable HTTPS encryption and create a more secure Internet for everyone. Let's Encrypt is a project of the nonprofit Internet Security Research Group.
+          </p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="w-full accordion-container">
+<div class="accordion-item rounded-lg bg-gray-200 overflow-hidden mb-4 is-open">
+<button class="accordion-button w-full px-6 py-4 flex items-center gap-3 hover:bg-gray-300 active" id="ready-accordion" type="button">
+<img alt="" class="w-5 h-5 transform -translate-y-0.5" src="local_resources\le-logo-lockonly_da6bcbf0c144d469.svg"/>
+<span class="text-left text-xl text-le-blue font-bold">Ready to begin?</span>
+<div class="ml-auto flex items-center">
+<span class="text-le-blue text-xl font-medium accordion-icon">+</span>
+</div>
+</button>
+<div class="accordion-content bg-white px-6 py-4" id="ready-content">
+<div class="space-y-4">
+<p class="text-le-blue mb-8">
+          Start securing your websites with free SSL/TLS certificates from Let's Encrypt. In order to get a certificate for your website's domain, you have to demonstrate control over the domain.
+        </p>
+<a class="text-link hover:text-link-hover active:text-link-active underline" href="/getting-started">
+          Let's Get Started →
+        </a>
+</div>
+</div>
+</div>
+<div class="accordion-item rounded-lg bg-gray-200 overflow-hidden mb-4">
+<button class="accordion-button w-full px-6 py-4 flex items-center gap-3 hover:bg-gray-300" id="docs-accordion" type="button">
+<img alt="" class="w-5 h-5 transform -translate-y-0.5" src="local_resources\le-logo-lockonly_da6bcbf0c144d469.svg"/>
+<span class="text-left text-xl text-le-blue font-bold">Documentation</span>
+<div class="ml-auto flex items-center">
+<span class="text-le-blue text-xl font-medium accordion-icon">+</span>
+</div>
+</button>
+<div class="accordion-content hidden bg-white px-6 py-4" id="docs-content">
+<div class="space-y-4">
+<p class="text-le-blue mb-8">
+          Learn about our certificate issuance process and best practices.
+        </p>
+<a class="text-link hover:text-link-hover active:text-link-active underline" href="/docs">
+          Read Documentation →
+        </a>
+</div>
+</div>
+</div>
+<div class="accordion-item rounded-lg bg-gray-200 overflow-hidden mb-4">
+<button class="accordion-button w-full px-6 py-4 flex items-center gap-3 hover:bg-gray-300" id="clients-accordion" type="button">
+<img alt="" class="w-5 h-5 transform -translate-y-0.5" src="local_resources\le-logo-lockonly_da6bcbf0c144d469.svg"/>
+<span class="text-left text-xl text-le-blue font-bold">ACME Clients</span>
+<div class="ml-auto flex items-center">
+<span class="text-le-blue text-xl font-medium accordion-icon">+</span>
+</div>
+</button>
+<div class="accordion-content hidden bg-white px-6 py-4" id="clients-content">
+<div class="space-y-4">
+<p class="text-le-blue mb-8">
+          Choose from our recommended ACME clients to automatically manage your certificates.
+        </p>
+<a class="text-link hover:text-link-hover active:text-link-active underline" href="/docs/client-options">
+          Browse ACME Clients →
+        </a>
+</div>
+</div>
+</div>
+<div class="accordion-item rounded-lg bg-gray-200 overflow-hidden">
+<button class="accordion-button w-full px-6 py-4 flex items-center gap-3 hover:bg-gray-300" id="help-accordion" type="button">
+<img alt="" class="w-5 h-5 transform -translate-y-0.5" src="local_resources\le-logo-lockonly_da6bcbf0c144d469.svg"/>
+<span class="text-left text-xl text-le-blue font-bold">Get help from the Let's Encrypt Community</span>
+<div class="ml-auto flex items-center">
+<span class="text-le-blue text-xl font-medium accordion-icon">+</span>
+</div>
+</button>
+<div class="accordion-content hidden bg-white px-6 py-4" id="help-content">
+<div class="space-y-4">
+<p class="text-le-blue mb-8">
+          Join our community forum for technical assistance and knowledge sharing with experts, volunteers, and ISRG staff.
+        </p>
+<a class="text-link hover:text-link-hover active:text-link-active underline" href="https://community.letsencrypt.org/">
+          Visit the Forum →
+        </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="support-section pt-16 section-padding relative">
+<div class="relative z-10">
+<div class="container mx-auto">
+<h2 class="text-left text-3xl md:text-4xl font-bold mb-8">
+        Global impact made possible by <span class="text-le-blue rotate-words" data-word1="generosity" data-word2="contributions" data-word3="sponsorship" data-word4="you">generosity</span>
+</h2>
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const rotator = document.querySelector('.rotate-words');
+          const words = [
+            rotator.dataset.word1,
+            rotator.dataset.word2,
+            rotator.dataset.word3,
+            rotator.dataset.word4
+          ];
+          let currentIndex = 0;
+
+          setInterval(() => {
+            currentIndex = (currentIndex + 1) % words.length;
+            rotator.style.opacity = 0;
+            setTimeout(() => {
+              rotator.textContent = words[currentIndex];
+              rotator.style.opacity = 1;
+            }, 200);
+          }, 3000);
+        });
+      </script>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="donate-column -ml-4">
+<section class="section-padding h-full bg-transparent">
+<div class="section-container">
+<div class="">
+<div class="max-w-3xl">
+<h3 class="text-hero-heading-md mb-6">Support Encryption for Everybody</h3>
+<p class="text-hero-body mb-8">Your donation helps keep Let's Encrypt free and accessible to millions of websites around the world. Join us in securing the Internet, one site at a time. Every contribution makes a difference, whether you're an individual or a company.</p>
+<div class="flex flex-wrap gap-4">
+<a class="btn btn-primary" href="/donate">
+              Donate Now
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="sponsorship-column -ml-4 md:ml-0 -mr-4">
+<section class="section-padding h-full">
+<div class="section-container">
+<div class="">
+<div class="max-w-3xl">
+<h3 class="text-hero-heading-md mb-6">Leading Through Sponsorship</h3>
+<p class="text-hero-body mb-8">Companies who rely on or value our work to encrypt the Web can financially support Let's Encrypt. Join companies big and small to make this work possible!</p>
+<div class="flex flex-wrap gap-4">
+<a class="btn btn-primary" href="/sponsor">
+              Learn about Sponsorship
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section-padding bg-white">
+<div class="container mx-auto px-4">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">
+        Let's Encrypt Growth
+      </h2>
+<div>
+<div class="w-full h-[400px]" id="activeUsage" title="Let's Encrypt Growth"></div>
+</div>
+<div class="text-center">
+<a class="btn btn-primary" href="/stats">
+          More stats
+        </a>
+</div>
+</div>
+</div>
+</section>
+<span data-active_count="Active Count" data-all_users="All users" data-certificates_active="Certificates Active" data-fully_qualified_domains_active="Fully-Qualified Domains Active" data-issued="Issued" data-issued_per_day="Issued Per Day" data-japan_users="Japan users" data-percent_https="Percent of Pageloads over HTTPS (14 day moving average)" data-registered_domains_active="Registered Domains Active" data-usa_users="USA users" id="plot-translations"></span>
+<script defer="" src="local_resources\plotly-min_5414a46aa7b3e72b.js"></script>
+<script defer="" src="local_resources\stats_77c89d884cbf7306.js"></script>
+<section class="section-padding bg-white">
+<div class="container mx-auto px-4">
+<div class="max-w-4xl mx-auto text-center mb-12">
+<h2 class="text-3xl md:text-4xl font-bold mb-6">
+        More ways we're improving security and privacy
+      </h2>
+<p class="text-lg text-gray-600">
+        Did you know Let's Encrypt has two sibling projects? Let's Encrypt and these two projects are operated by Internet Security Research Group (ISRG), a 501(c)(3) public benefit organization focused on making the Internet more secure and privacy respecting.
+      </p>
+</div>
+<div class="grid md:grid-cols-2 gap-8 mb-16">
+<a class="block no-underline rounded-lg border border-1 border-gray-100 shadow-lg p-8 flex flex-col items-center text-center bg-white text-black" href="https://memorysafety.org" rel="noopener noreferrer" target="_blank">
+<img alt="Prossimo logo" class="h-16 w-auto mb-6" src="local_resources\Prossimo%20Horizontal%20Full%20Color_9972297fae2a9074.svg"/>
+<p class="mb-6 text-black">Focused on memory safety in critical Internet infrastructure through the use of memory safe programming languages.</p>
+<span class="font-medium inline-flex items-center text-black">
+    Visit Prossimo
+  </span>
+</a>
+<a class="block no-underline rounded-lg border border-1 border-gray-100 shadow-lg p-8 flex flex-col items-center text-center bg-white text-black" href="https://divviup.org" rel="noopener noreferrer" target="_blank">
+<img alt="Divvi Up logo" class="h-16 w-auto mb-6" src="local_resources\Divvi-Up-Large-Full-Color-Logo_c1e80e25dfe9c0a1.png"/>
+<p class="mb-6 text-black">A privacy-respecting system for collecting and aggregating metrics, built on Multi-Party Computation.</p>
+<span class="font-medium inline-flex items-center text-black">
+    Visit Divvi Up
+  </span>
+</a>
+</div>
+</div>
+</section>
+<div class="bg-gray-50 section-padding-lg" id="sponsors">
+<div class="container mx-auto">
+<div class="mb-10">
+<h2 class="text-hero-heading mb-6">Major Sponsors and Funders</h2>
+</div>
+<div class="mb-12">
+<h3 class="text-eyebrow mb-6">Diamond Sponsors</h3>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-1">
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.google.com/chrome/" rel="nofollow">
+<img alt="Google Chrome" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\chrome-logo_8e13b25b35e158cc.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://aws.amazon.com/">
+<img alt="Amazon Web Services" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\aws-logo-2_47e716fd2dd85f49.png"/>
+</a>
+</div>
+</div>
+<div class="mb-12">
+<h3 class="text-eyebrow mb-6">Platinum Sponsors</h3>
+<div class="grid grid-cols-3 md:grid-cols-4 gap-1">
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.mozilla.org/">
+<img alt="Mozilla" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\mozilla-logo_4dbf042f341c87bc.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.eff.org/">
+<img alt="Electronic Frontier Foundation" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\eff-logo_fc692db8ab3fbe4f.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.ovh.com/">
+<img alt="OVH" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\ovh-logo_e0eebb9770e3286f.png"/>
+</a>
+</div>
+</div>
+<div class="mb-12">
+<h3 class="text-eyebrow mb-6">Gold Sponsors</h3>
+<div class="grid grid-cols-4 md:grid-cols-6 gap-1">
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.cisco.com/">
+<img alt="Cisco" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\cisco-logo_3332d0c7e5349e57.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.identrust.com/">
+<img alt="IdenTrust" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\identrust-logo_ffc9df7e29b735c0.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.fordfoundation.org/">
+<img alt="Ford Foundation" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\ford-foundation-logo_4203344b87e9e34d.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.shopify.com/">
+<img alt="Shopify" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\shopify-logo_28356e5a7711e49b.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.ibm.com/">
+<img alt="IBM" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\ibm-logo_0ebc98433c6f1316.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.heroku.com/">
+<img alt="Heroku" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\heroku-logo_44162eac9b7ac366.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.sap.com/">
+<img alt="SAP" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\sap-logo_23201aa58a814c26.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.squarespace.com/">
+<img alt="Squarespace" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\squarespace-logo_da4f20a544d7676b.png"/>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-eyebrow mb-6">Silver Sponsors</h3>
+<div class="grid grid-cols-4 md:grid-cols-6 gap-1">
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://automattic.com/">
+<img alt="Automattic" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\automattic-logo_7a16f7aef876df56.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.akamai.com/">
+<img alt="Akamai" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\akamai-logo_ae8d6b2eeba7c56a.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.cyon.ch/">
+<img alt="Cyon" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\cyon-logo_b1029e9d9b89bfbb.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.infomaniak.ch/">
+<img alt="Infomaniak" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\infomaniak-logo_63c03070199a23b7.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.hostpoint.ch/">
+<img alt="HostPoint" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\hostpoint-logo_bd9ca807159ed643.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.siteground.com/">
+<img alt="SiteGround" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\siteground-logo_5f45253aaebabb5c.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.vultr.com">
+<img alt="Vultr" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\vultr-logo_20c8e89dbfdf237b.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.planethoster.com/">
+<img alt="Hébergement web" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\planethoster-logo_6e4af963681c7164.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.fastly.com/">
+<img alt="Fastly" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\fastly-logo_aa7145319fbc41bf.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.3cx.com/">
+<img alt="3CX" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\3cx-logo_19c1566dc261bbe9.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.jimdo.com/">
+<img alt="Jimdo" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\jimdo-logo_6984e907fb3c6330.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.zendesk.com/">
+<img alt="Zendesk" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\zendesk-logo_9c4fea8b3eb553be.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.netlify.com/">
+<img alt="Netlify" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\netlify-logo_a104b5c4e23b3a48.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.hostpapa.com/lets-encrypt-hosting?utm_source=letsencrypt.org&amp;utm_medium=referral&amp;utm_campaign=us-seo&amp;utm_term=web-hosting&amp;utm_content=180x108-logo">
+<img alt="HostPapa" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\hostpapa-logo_413161cfbd729062.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://dnsimple.com/letsencrypt">
+<img alt="dnsimple" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\dnsimple-logo_318670975d57b295.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://shiguredo.jp/">
+<img alt="Shiguredo" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\shiguredo-v2-logo_a9ca356f536e9307.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.discourse.org/">
+<img alt="Discourse" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\discourse-logo_1e9bd359a15f6dde.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://driving-tests.org/">
+<img alt="driving-tests.org" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\driving-tests-logo_7668fa8d204d8530.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.duocircle.com/">
+<img alt="DuoCircle" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\duocircle-logo_251c13846f8d10d9.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://serverpilot.io/">
+<img alt="ServerPilot" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\serverpilot-logo_ebccf2e24ac30d38.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://domainname.shop/">
+<img alt="DomainName.Shop" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\domainnameshop-logo_54bfad4b1cf32246.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://github.com/">
+<img alt="GitHub" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\github-logo_c2dbc6c278b31c0d.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://unraid.net/">
+<img alt="Lime Technology (Unraid)" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\unraid-logo_a18aad20b72325a8.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://keenetic.com/">
+<img alt="Keenetic" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\keenetic-logo_e2a644a5ebc60459.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.mongodb.com/">
+<img alt="MongoDB" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\mongodb-logo_935429590bbb16ac.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.livesport.eu/">
+<img alt="Livesport" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\livesport-logo_40e556a7d3220987.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.clever-cloud.com/">
+<img alt="Clever Cloud" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\clevercloud-logo_ddfee79d31d83e76.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://ipinfo.io/">
+<img alt="IPInfo" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\ipinfo-logo_a5215a656dba6d54.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.greengeeks.com/">
+<img alt="GreenGeeks" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\greengeeks-logo_3254ff6c8e0ddd17.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.redhat.com/">
+<img alt="RedHat" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\redhat-logo_a6afd3effad3d0a8.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.nabucasa.com/">
+<img alt="Nabu Casa" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\nabu-casa-logo_78aa59f2c9568799.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.wix.com/">
+<img alt="Wix" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\wix-logo_bf79e53ff8280220.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.wpbeginner.com/">
+<img alt="WPBeginner" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\wpbeginner-logo_4614918d1fa808a8.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.hoststar.ch/">
+<img alt="Hoststar" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\hoststar-logo_ba047c8a5864a43c.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.one.com/">
+<img alt="one.com" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\one-com-logo_a27def9017115d1e.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://cargo.site/">
+<img alt="Cargo" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\cargo-logo_a35f199c08f8fc5c.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://rackspeed.de/">
+<img alt="RACK::SPEED" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\rack-speed-logo_daf63b82f1f39bf0.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.duda.co/">
+<img alt="Duda" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\duda-logo_af9156ce6dc466cb.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.ads.com/">
+<img alt="Ads.com" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\ads-com-logo_230942cd5b998018.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.cdmon.com/es/">
+<img alt="cdmon" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\cdmon-logo_f2853825834cd696.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://goteleport.com/">
+<img alt="Teleport" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\teleport-logo_662b8c715beb9265.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.nginx.com/">
+<img alt="NGINX" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\nginx-logo_af03abc9377b1a81.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://actonfamilygiving.org/">
+<img alt="Acton Family Giving" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\acton-family-giving-logo_dd35bdc4c5a68c18.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://tailscale.com/">
+<img alt="Tailscale" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\tailscale-logo_338c83bc3fe014e1.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://bitlaunch.io/">
+<img alt="BitLaunch" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\bitlaunch-logo_941eac67ea079252.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.iban.com/">
+<img alt="IBAN" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\iban-logo_76cd408c9824b9ec.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.4kdownload.com/-1uvr6/video-downloader">
+<img alt="Video Downloader" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\4kdownload-logo_5830104c8daaf643.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.entri.com/">
+<img alt="Entri" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\entri-logo_25562f7682f3aea6.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.confluent.io/">
+<img alt="Confluent" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\confluent-logo_869d67b0eac0aaa7.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://ngrok.com/">
+<img alt="Ngrok" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\ngrok-logo_7ffadb551e83e91a.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.securew2.com/">
+<img alt="SecureW2" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\securew2-logo_354332e0eb1e92c2.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.20i.com/">
+<img alt="20i" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\20i-logo_722734d9f46a4e6d.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://serpapi.com/">
+<img alt="SerpApi" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\SerpApi-black_a4ac630132eaf38a.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.icuk.net/">
+<img alt="ICUK" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\icuk-logo-red_d3a30443cedb0511.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.interserver.net/">
+<img alt="Interserver" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\interserver-logo_4f604977bc654a0a.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.digitalocean.com/">
+<img alt="DigitalOcean" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\DigitalOcean_logo_9407f270f0939add.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.cdn77.com/">
+<img alt="CDN77" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\cdn77-logo_4df3450211fc5bc3.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://snipeitapp.com/">
+<img alt="Snipe-IT" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\snipeit-logo_ab7ba3fbc42cf3cf.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://showit.com/">
+<img alt="Showit" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\showit-logo_df2296a261e4e9d5.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.cloudns.net/">
+<img alt="ClouDNS" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\cloudns-logo_e3b47e071dbe6532.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://www.smtp2go.com/">
+<img alt="SMTP2GO" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\smtp2go-logo_cccc3181f8f2abbc.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://gamma.app/">
+<img alt="Gamma" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\gamma-logo_48bd80972bd585b9.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://slide.tech/">
+<img alt="Slide" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\slide-logo_ada16253a17ea82a.svg"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://staffbase.com/">
+<img alt="Staffbase" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\staffbase-logo_229df3db193e3c87.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://get.tithe.ly/">
+<img alt="Tithely" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\tithely-logo_0c559ef73b6075ca.png"/>
+</a>
+<a class="border bg-white border-gray-200 rounded-lg p-2 flex items-center h-[70px] justify-center hover:border-gray-300 transition group overflow-hidden" href="https://duckduckgo.com/">
+<img alt="DuckDuckGo" class="w- max-w-[80%] max-h-[80%] transition-transform duration-200 ease-in-out group-hover:scale-105 max-h-full" loading="lazy" src="local_resources\duckduckgo-logo_1f8412ea0131cc9a.svg"/>
+</a>
+</div>
+</div>
+<div class="flex justify-center pt-10">
+<a class="btn btn-primary" href="/sponsor">
+        Learn about Sponsorship
+      </a>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-white text-gray-800 pt-10 pb-4">
+<div class="container">
+<div class="grid md:grid-cols-2 gap-12 lg:gap-24">
+<div>
+<img alt="Internet Security Research Group (ISRG)" class="h-12 w-auto mb-6" src="local_resources\ISRG-Logo-Blue_721906da77ad20bd.svg"/>
+<p class="mb-6">Let's Encrypt is a free, automated, and open Certificate Authority brought to you by the nonprofit <a href="https://www.abetterinternet.org/">Internet Security Research Group (ISRG)</a>. Read all about our nonprofit work this year in our <a href="https://www.abetterinternet.org/annual-reports/">2024 Annual Report</a>.
+</p>
+<div class="grid grid-cols-2 gap-6 mt-10">
+<div>
+<div class="text-eyebrow text-eyebrow-sm">Legal Address</div>
+<div itemscope="" itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">548 Market St, PMB 77519</span><br/>
+<span itemprop="addressLocality">San Francisco</span>,
+            <span itemprop="addressRegion">CA</span>
+<span itemprop="postalCode">94104-5401</span><br/>
+<span itemprop="addressCountry">USA</span>
+</div>
+</div>
+<div>
+<div class="text-eyebrow text-eyebrow-sm">Send all mail or inquiries to:</div>
+<div itemscope="" itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">PO Box 18666</span><br/>
+<span itemprop="addressLocality">Minneapolis</span>,
+              <span itemprop="addressRegion">MN</span>
+<span itemprop="postalCode">55418-0666</span><br/>
+<span itemprop="addressCountry">USA</span>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-0 md:pt-[70px]">
+<div class="border border-gray-300 rounded-lg pt-3 pb-0 px-2">
+<h4 class="text-eyebrow mb-5">Subscribe for email updates about Let's Encrypt and other ISRG projects</h4>
+<iframe id="newsletter-iframe" src="https://outreach.abetterinternet.org/l/1011011/2025-01-14/31v6r" style="width: 100%; border: 0; overflow: hidden;" title="newsletter"></iframe>
+<script>
+let hasResized = false;
+window.addEventListener('message', function(e) {
+    if (hasResized) return;
+    if (e.origin !== 'https://outreach.abetterinternet.org') return;
+    if (e.data && typeof e.data === 'object' && e.data.type === 'resize' && e.data.height) {
+        hasResized = true;
+        document.getElementById('newsletter-iframe').style.height = (e.data.height + 20) + 'px';
+    }
+});
+</script>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="footer-copyright-bar bg-le-blue text-white py-6">
+<div class="container">
+<div class="flex flex-col md:flex-row md:justify-between items-center justify-center">
+<div class="mb-4 text-center md:text-left md:mb-0">
+        © 2025 <a href="https://www.abetterinternet.org" rel="noopener noreferrer" target="_blank">Internet Security Research Group</a>
+</div>
+<ul class="flex flex-wrap gap-4 justify-center md:justify-end">
+<li>
+<a href="https://github.com/letsencrypt" rel="noopener noreferrer" target="_blank">
+<span>GitHub</span>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/company/lets-encrypt/" rel="noopener noreferrer" target="_blank">
+<span>LinkedIn</span>
+</a>
+</li>
+<li>
+<a href="https://www.abetterinternet.org/terms-of-service" rel="noopener noreferrer" target="_blank">
+<span>Terms</span>
+</a>
+</li>
+<li>
+<a href="/privacy/">
+<span>Privacy Policy</span>
+</a>
+</li>
+<li>
+<a href="https://www.abetterinternet.org/trademarks" rel="noopener noreferrer" target="_blank">
+<span>Trademark Policy</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<script integrity="sha512-pXK2FJX52P5OXsB1CC3f6F5aX/UBwVxJnT8qS+1xr7b+iehfMgKqj97rzal2RUFr/HVoPC00cUhbVmim1fmHQA==" src="local_resources\main.a572b61495f9d8fe4e5ec075082ddfe85e5a5ff501c15c499d3f2a4bed71afb6fe89e85f3202aa8fdeebcda97645416_0464e34b964b996c.js"></script>
+</body>
+</html>

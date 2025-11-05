@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html class="dark" lang="pt-BR">
+ <!-- Lichess is open source! See https://lichess.org/source -->
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+  <meta content="default-src 'self' lichess1.org; connect-src 'self' blob: data: lichess1.org wss://socket0.lichess.org wss://socket3.lichess.org wss://socket1.lichess.org wss://socket4.lichess.org wss://socket2.lichess.org wss://socket5.lichess.org wss://cf-socket0.lichess.org wss://cf-socket1.lichess.org wss://cf-socket2.lichess.org https://explorer.lichess.ovh https://tablebase.lichess.ovh; style-src 'self' 'unsafe-inline' lichess1.org; frame-src 'self' lichess1.org www.youtube.com player.twitch.tv player.vimeo.com; worker-src 'self' lichess1.org blob:; img-src 'self' blob: data: *; media-src 'self' blob: lichess1.org; script-src 'nonce-wmu9vWttTFnmBAKvYBVb2Tql' 'self' lichess1.org; font-src 'self' lichess1.org; base-uri 'none';" http-equiv="Content-Security-Policy"/>
+  <meta content="#2e2a24" name="theme-color"/>
+  <title>
+   lichess.org • Xadrez Online Gratuito
+  </title>
+  <link data-css-key="lib.theme.all" href="local_resources\lib.theme.all.e420609d_30175a9247275c59.css" rel="stylesheet"/>
+  <link data-css-key="site" href="local_resources\site.f885eabe_61e255769207bf18.css" rel="stylesheet"/>
+  <link data-css-key="lobby" href="local_resources\lobby.15c6a69a_a7ec1f48e30773e5.css" rel="stylesheet"/>
+  <meta content="Xadrez online gratuito. Jogue xadrez agora numa interface simples. Sem registro, sem anúncios, sem plugins. Jogue xadrez contra computador, amigos ou adversários aleatórios." name="description"/>
+  <link color="black" href="local_resources\lichess_7466efe28aafc9b1.svg" rel="mask-icon"/>
+  <link href="local_resources\lichess-favicon-512_efed76a8b2735caa.png" rel="icon" sizes="512x512" type="image/png"/>
+  <link href="local_resources\lichess-favicon-256_7564e98bf67960ae.png" rel="icon" sizes="256x256" type="image/png"/>
+  <link href="local_resources\lichess-favicon-192_ba944bbbf717b538.png" rel="icon" sizes="192x192" type="image/png"/>
+  <link href="local_resources\lichess-favicon-128_0aa04aa92e462b48.png" rel="icon" sizes="128x128" type="image/png"/>
+  <link href="local_resources\lichess-favicon-64_3c65e1a469063343.png" rel="icon" sizes="64x64" type="image/png"/>
+  <link href="local_resources\lichess-favicon-32_1cd66c5778f630a2.png" id="favicon" rel="icon" sizes="32x32" type="image/png"/>
+  <meta content="notranslate" name="google"/>
+  <meta content="The best free, adless Chess server" property="og:title"/>
+  <meta content="Xadrez online gratuito. Jogue xadrez agora numa interface simples. Sem registro, sem anúncios, sem plugins. Jogue xadrez contra computador, amigos ou adversários aleatórios." property="og:description"/>
+  <meta content="https://lichess.org" property="og:url"/>
+  <meta content="website" property="og:type"/>
+  <meta content="lichess.org" property="og:site_name"/>
+  <meta content="https://lichess1.org/assets/logo/lichess-tile-wide.png" property="og:image"/>
+  <link href="local_resources\feed_45db0036ae63039b.atom" rel="alternate" title="Lichess Updates Feed" type="application/atom+xml"/>
+  <link as="font" crossorigin="" href="local_resources\lichess.cd11aef7_975c7d560695fedb.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="" href="local_resources\noto-sans-latin.086bfcad_3612e1454ed6cada.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="" href="local_resources\lichess-chess.02d5eb8f_3855148ab2658995.woff2" rel="preload" type="font/woff2"/>
+  <link as="image" href="local_resources\brown.d4a5fe34_ae93b121e62bc55a.png" rel="preload"/>
+  <link href="local_resources\manifest_1004d76a2b904efc.json" rel="manifest"/>
+  <link href="local_resources\res_c6e60efa0458bc32" hreflang="x-default" rel="alternate"/>
+  <link href="local_resources\res_c6e60efa0458bc32" hreflang="en" rel="alternate"/>
+  <link href="local_resources\ru_6eac9f475ef21bb4" hreflang="ru" rel="alternate"/>
+  <link href="local_resources\es_dbbe821751ad56eb" hreflang="es" rel="alternate"/>
+  <link href="local_resources\tr_e2dedaa906095978" hreflang="tr" rel="alternate"/>
+  <link href="local_resources\fr_53c25b9d4d924cdb" hreflang="fr" rel="alternate"/>
+  <link href="local_resources\de_707c8c92060722d1" hreflang="de" rel="alternate"/>
+  <link href="local_resources\pt_8f4cc2441f29f6c0" hreflang="pt" rel="alternate"/>
+  <link href="local_resources\it_5683b9cfde1d9038" hreflang="it" rel="alternate"/>
+  <link href="local_resources\pl_f89e524e881aa868" hreflang="pl" rel="alternate"/>
+  <link href="local_resources\ar_c414a29c9f4f0ddc" hreflang="ar" rel="alternate"/>
+  <link href="local_resources\fa_69a89bc0d691da7f" hreflang="fa" rel="alternate"/>
+  <link href="local_resources\nl_fd70fb9e56e03298" hreflang="nl" rel="alternate"/>
+  <link href="local_resources\id_aa3097e649d6f499" hreflang="id" rel="alternate"/>
+  <link href="local_resources\nb_4c0e7c0d51eca7fe" hreflang="nb" rel="alternate"/>
+  <link href="local_resources\el_18467fb5d3573f03" hreflang="el" rel="alternate"/>
+  <link href="local_resources\sv_fb6ca7f4f1e92b95" hreflang="sv" rel="alternate"/>
+  <link href="local_resources\uk_11467d137ba3961c" hreflang="uk" rel="alternate"/>
+  <link href="local_resources\cs_e498c7547205b0d0" hreflang="cs" rel="alternate"/>
+  <link href="local_resources\vi_967ba1fb598b586c" hreflang="vi" rel="alternate"/>
+  <link href="local_resources\sr_5e0ebc3605b82641" hreflang="sr" rel="alternate"/>
+  <link href="local_resources\hr_d2fca37b6efb72f5" hreflang="hr" rel="alternate"/>
+  <script defer="defer" src="local_resources\cash.min.6f838d25_0f53a7aa076ecd79.js">
+  </script>
+  <script src="local_resources\manifest.761af8cc_d6fa487670c158ff.js" type="module">
+  </script>
+  <script src="local_resources\site.pt-BR.2868963ba092_a4db2dec6e3d9085.js" type="module">
+  </script>
+  <script src="local_resources\timeago.pt-BR.a28bc6fe21da_b8399eb568c203e4.js" type="module">
+  </script>
+  <script src="local_resources\preferences.pt-BR.2427f99c6ff2_e2bd803134c45c7c.js" type="module">
+  </script>
+  <script src="local_resources\nvui.pt-BR.5f6d8ad332bf_2785290d2ad88a35.js" type="module">
+  </script>
+  <script src="local_resources\site.QQQ55BZ4_de8330e7fa8d7fe7.js" type="module">
+  </script>
+  <script src="local_resources\lib.XUGOCYB3_7d428c730e51ed39.js" type="module">
+  </script>
+  <script src="local_resources\lib.S6LGMMJK_8f54d5462487cccd.js" type="module">
+  </script>
+  <script src="local_resources\lib.3ROHECR3_129933eaadc5a8c0.js" type="module">
+  </script>
+  <script src="local_resources\lib.VZKDU3XO_2f39b89a5c12a57e.js" type="module">
+  </script>
+  <script src="local_resources\lib.P2KHB2MX_68b09a07b6d9b5b0.js" type="module">
+  </script>
+  <script src="local_resources\lib.57CF32PE_9e5e6cce6305756c.js" type="module">
+  </script>
+  <script src="local_resources\lib.AXM5IFBS_bac50f8825776b06.js" type="module">
+  </script>
+  <script src="local_resources\lib.YUDTDMSU_d9d69787b7efe499.js" type="module">
+  </script>
+  <script src="local_resources\lib.YCI34V5G_30ce4c1b1606949f.js" type="module">
+  </script>
+  <script src="local_resources\lib.LUOEXED4_7bf391bd5caf68d3.js" type="module">
+  </script>
+  <script src="local_resources\lib.U7KQETEA_db72b49317ff06f4.js" type="module">
+  </script>
+  <script src="local_resources\lib.4N2BKIL3_cc7523ed5517344a.js" type="module">
+  </script>
+  <script src="local_resources\lib.O42V43KT_34949b3caea529ce.js" type="module">
+  </script>
+  <script src="local_resources\lib.LE4HQ5U6_ce13db832df617b8.js" type="module">
+  </script>
+  <script src="local_resources\lib.XSUY2QVX_b74764666d3bf663.js" type="module">
+  </script>
+  <script src="local_resources\lib.SFPXEOLA_393d2c23aab02fba.js" type="module">
+  </script>
+  <script src="local_resources\lib.LGTKMJXZ_8e04cefe4d37d6e1.js" type="module">
+  </script>
+  <script src="local_resources\lib.QP7OADPB_9064a07dba29ff3b.js" type="module">
+  </script>
+  <script src="local_resources\lib.OEBF7YV6_8520c268dd66b7e5.js" type="module">
+  </script>
+  <script src="local_resources\lib.XN2YPPXF_8abd18d4d0682975.js" type="module">
+  </script>
+  <script src="local_resources\lib.IRKO536G_4b6baaffaf6bc6dc.js" type="module">
+  </script>
+  <script src="local_resources\lib.67NW2GN4_cf3aeb8f950ec5d7.js" type="module">
+  </script>
+  <script src="local_resources\lib.IWF3XL7H_52c99234821e994e.js" type="module">
+  </script>
+  <script src="local_resources\lib.FM3PFR3C_bc71d87d7981ca8b.js" type="module">
+  </script>
+  <script src="local_resources\lib.YUYJMT4V_274acd184a4209e3.js" type="module">
+  </script>
+  <script src="local_resources\lib.7LZ4ANZB_00c0889de00f290e.js" type="module">
+  </script>
+  <script src="local_resources\lib.UDNGTSOD_34960f1f64560272.js" type="module">
+  </script>
+  <script src="local_resources\lib.JDGIJSRT_510bcef0d8e3ab6f.js" type="module">
+  </script>
+  <script src="local_resources\lib.VLCMJXS7_02240c2aeb271760.js" type="module">
+  </script>
+  <script src="local_resources\lib.K7BTCZAK_33a54ea35b40a885.js" type="module">
+  </script>
+  <script src="local_resources\lib.QUZI7FGT_2f5b6ff04b221d28.js" type="module">
+  </script>
+  <script src="local_resources\lib.7MXXVI7Z_028d158797e3edc9.js" type="module">
+  </script>
+  <script src="local_resources\lib.XNXLGS2X_8722c712290e6785.js" type="module">
+  </script>
+  <script src="local_resources\lobby.HXFYACGH_bde71554ba39d25d.js" type="module">
+  </script>
+  <script src="local_resources\lib.3RIWBMWS_251d85c2814f97da.js" type="module">
+  </script>
+  <script src="local_resources\lib.7JIBWCDZ_72fa173c1bf05ea1.js" type="module">
+  </script>
+  <script src="local_resources\lib.RVOBPHUI_0d43f356696e16f9.js" type="module">
+  </script>
+  <script src="local_resources\lib.67ACEBRY_bdbe414e3121fcc6.js" type="module">
+  </script>
+  <script src="local_resources\lib.3VCG2A7E_cea352f77b99b989.js" type="module">
+  </script>
+  <style>
+   @font-face {font-family: 'lichess';font-display: block;src: url('https://lichess1.org/assets/hashed/lichess.cd11aef7.woff2') format('woff2')}
+  </style>
+  <style>
+   :root{---white-king:url(https://lichess1.org/assets/hashed/wK.bc7274dd.svg);---white-queen:url(https://lichess1.org/assets/hashed/wQ.79c9227e.svg);---white-rook:url(https://lichess1.org/assets/hashed/wR.e9e95adc.svg);---white-bishop:url(https://lichess1.org/assets/hashed/wB.b7d1a118.svg);---white-knight:url(https://lichess1.org/assets/hashed/wN.68b788d7.svg);---white-pawn:url(https://lichess1.org/assets/hashed/wP.0596b7ce.svg);---black-king:url(https://lichess1.org/assets/hashed/bK.c5f22c23.svg);---black-queen:url(https://lichess1.org/assets/hashed/bQ.5abdb5aa.svg);---black-rook:url(https://lichess1.org/assets/hashed/bR.c33a3d54.svg);---black-bishop:url(https://lichess1.org/assets/hashed/bB.77e9debf.svg);---black-knight:url(https://lichess1.org/assets/hashed/bN.d0665564.svg);---black-pawn:url(https://lichess1.org/assets/hashed/bP.09539f32.svg);}
+  </style>
+  <link as="image" href="local_resources\wK.bc7274dd_6724f57ca38d4f79.svg" rel="preload"/>
+  <link as="image" href="local_resources\wQ.79c9227e_8f361a07515fd585.svg" rel="preload"/>
+  <link as="image" href="local_resources\wR.e9e95adc_db06c141202d5265.svg" rel="preload"/>
+  <link as="image" href="local_resources\wB.b7d1a118_af668332ae2838d2.svg" rel="preload"/>
+  <link as="image" href="local_resources\wN.68b788d7_9acf7049da921c0c.svg" rel="preload"/>
+  <link as="image" href="local_resources\wP.0596b7ce_1b29634a779e206a.svg" rel="preload"/>
+  <link as="image" href="local_resources\bK.c5f22c23_ec4aa4032c2a4736.svg" rel="preload"/>
+  <link as="image" href="local_resources\bQ.5abdb5aa_7461e89f7dd04bcd.svg" rel="preload"/>
+  <link as="image" href="local_resources\bR.c33a3d54_de979925479f6f14.svg" rel="preload"/>
+  <link as="image" href="local_resources\bB.77e9debf_f18dd1fbec4e2aa4.svg" rel="preload"/>
+  <link as="image" href="local_resources\bN.d0665564_5d400975631a2e52.svg" rel="preload"/>
+  <link as="image" href="local_resources\bP.09539f32_7548be871d3c6e1a.svg" rel="preload"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body class="dark coords-in simple-board" data-asset-url="https://lichess1.org" data-asset-version="L3LfKZ" data-board="brown" data-board3d="Woodi" data-nonce="wmu9vWttTFnmBAKvYBVb2Tql" data-piece-set="cburnett" data-piece-set3d="Basic" data-socket-domains="socket0.lichess.org,socket3.lichess.org,socket1.lichess.org,socket4.lichess.org,socket2.lichess.org,socket5.lichess.org" data-sound-set="standard" data-theme="dark" style="---board-opacity:100;---board-brightness:100;---board-hue:0;">
+  <form action="" id="blind-mode" method="POST">
+   <input name="enable" type="hidden" value="1"/>
+   <input name="redirect" type="hidden" value="/"/>
+   <button type="submit">
+    Acessibilidade - Habilitar modo às cegas
+   </button>
+   -
+   <a onclick="window.open('https://lichess.org/page/blind-mode-tutorial'); return false;" style="cursor:not-allowed; text-decoration:none;">
+    Blind mode tutorial
+   </a>
+  </form>
+  <header id="top">
+   <div class="site-title-nav">
+    <input aria-label="Navigation" autocomplete="off" class="topnav-toggle fullscreen-toggle" id="tn-tg" type="checkbox"/>
+    <label class="fullscreen-mask" for="tn-tg">
+    </label>
+    <label class="hbg" for="tn-tg">
+     <span class="hbg__in">
+     </span>
+    </label>
+    <a class="site-title" onclick="window.open('/pt'); return false;" style="cursor:not-allowed; text-decoration:none;">
+     <div class="site-icon" data-icon="">
+     </div>
+     <div class="site-name">
+      lichess
+      <span>
+       .org
+      </span>
+     </div>
+    </a>
+    <nav class="hover" id="topnav">
+     <section>
+      <a onclick="window.open('/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <span class="play">
+        Jogar
+       </span>
+       <span class="home">
+        lichess.org
+       </span>
+      </a>
+      <div role="group">
+       <a onclick="window.open('/pt?any#hook'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Criar partida na sala de espera
+       </a>
+       <a onclick="window.open('/pt/tournament'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Torneios de arena
+       </a>
+       <a onclick="window.open('/pt/swiss'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Torneios Suíços
+       </a>
+       <a onclick="window.open('/pt/simul'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Exibição simultânea
+       </a>
+       <a class="community-patron mobile-only" onclick="window.open('/patron'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Doação
+       </a>
+      </div>
+     </section>
+     <section>
+      <a onclick="window.open('/pt/training'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Quebra-cabeças
+      </a>
+      <div role="group">
+       <a onclick="window.open('/pt/training'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Quebra-cabeças
+       </a>
+       <a onclick="window.open('/pt/training/themes'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Temas de quebra-cabeça
+       </a>
+       <a onclick="window.open('/training/dashboard/30'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Painel do quebra-cabeças
+       </a>
+       <a onclick="window.open('/pt/streak'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Puzzle Streak
+       </a>
+       <a onclick="window.open('/pt/storm'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Puzzle Storm
+       </a>
+       <a onclick="window.open('/pt/racer'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Puzzle Racer
+       </a>
+      </div>
+     </section>
+     <section>
+      <a onclick="window.open('/learn'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Aprender
+      </a>
+      <div role="group">
+       <a onclick="window.open('/pt/learn'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Básicos do xadrez
+       </a>
+       <a onclick="window.open('/practice'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Praticar
+       </a>
+       <a onclick="window.open('/pt/training/coordinate'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Coordenadas
+       </a>
+       <a onclick="window.open('/pt/study'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Estudar
+       </a>
+       <a onclick="window.open('/pt/coach'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Treinadores
+       </a>
+      </div>
+     </section>
+     <section>
+      <a onclick="window.open('/pt/broadcast'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Assistir
+      </a>
+      <div role="group">
+       <a onclick="window.open('/broadcast'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Transmissões
+       </a>
+       <a onclick="window.open('/pt/tv'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Lichess TV
+       </a>
+       <a onclick="window.open('/games'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Partidas atuais
+       </a>
+       <a onclick="window.open('/streamer'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Streamers
+       </a>
+       <a onclick="window.open('/pt/video'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Vídeos
+       </a>
+      </div>
+     </section>
+     <section>
+      <a onclick="window.open('/player'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Comunidade
+      </a>
+      <div role="group">
+       <a onclick="window.open('/player'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Jogadores
+       </a>
+       <a onclick="window.open('/team'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Equipes
+       </a>
+       <a onclick="window.open('/forum'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Fórum
+       </a>
+       <a onclick="window.open('/pt/blog/community'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Blog
+       </a>
+      </div>
+     </section>
+     <section>
+      <a onclick="window.open('/analysis'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Ferramentas
+      </a>
+      <div role="group">
+       <a onclick="window.open('/analysis'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Análise
+       </a>
+       <a onclick="window.open('/opening'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Aberturas
+       </a>
+       <a onclick="window.open('/editor'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Editor de tabuleiro
+       </a>
+       <a onclick="window.open('/paste'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Importar partida
+       </a>
+       <a onclick="window.open('/games/search'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Busca avançada
+       </a>
+      </div>
+     </section>
+    </nav>
+    <a class="site-title-nav__donate" onclick="window.open('/patron'); return false;" style="cursor:not-allowed; text-decoration:none;">
+     Doação
+    </a>
+   </div>
+   <div class="site-buttons">
+    <div id="warn-no-autoplay">
+     <a data-icon="" onclick="window.open('/faq#autoplay'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+     </a>
+    </div>
+    <div id="clinput">
+     <a class="link" data-icon="">
+     </a>
+     <input aria-label="Buscar" autocomplete="false" enterkeyhint="search" placeholder="Buscar" spellcheck="false"/>
+    </div>
+    <a class="signin" onclick="window.open('/login?referrer=/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+     Entrar
+    </a>
+    <div class="dasher">
+     <button aria-label="Preferências" class="toggle anon link" data-icon="" title="Preferências">
+     </button>
+     <div class="dropdown" id="dasher_app">
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="is2d" id="main-wrap">
+   <main class="lobby">
+    <div class="lobby__table">
+     <div class="lobby__start">
+      <button class="button button-metal lobby__start__button lobby__start__button--hook">
+       Criar partida na sala de espera
+      </button>
+      <button class="button button-metal lobby__start__button lobby__start__button--friend">
+       Desafie um amigo
+      </button>
+      <button class="button button-metal lobby__start__button lobby__start__button--ai">
+       Jogar contra o computador
+      </button>
+     </div>
+    </div>
+    <div class="lobby__app">
+     <div class="tabs-horiz">
+      <span>
+      </span>
+     </div>
+     <div class="lobby__app__content lpools">
+     </div>
+    </div>
+    <div class="lobby__side">
+     <section class="lobby__streams">
+      <a class="stream highlight" onclick="window.open('/streamer/lefonghua/redirect'); return false;" rel="nofollow" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       <strong class="text" data-icon="">
+        FM Lefong Hua
+       </strong>
+       Match Recap: FM Lefong Hua vs FM James Chirilov at 6PM ET | !gameanalysis !plusprogram | lichess.org
+      </a>
+      <a class="stream highlight" onclick="window.open('/streamer/joaoguilhermematos/redirect'); return false;" rel="nofollow" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       <strong class="text" data-icon="">
+        João Guilherme Matos
+       </strong>
+       Playing Viewers at lichess.org Chill Chess !socials !classes
+      </a>
+      <a class="more" onclick="window.open('/streamer'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Streamers »
+      </a>
+     </section>
+     <div class="lobby__spotlights">
+      <a class="little tour-spotlight id_V6qAk70q Daily Blitz chess960" onclick="window.open('/tournament/V6qAk70q'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <i class="img" data-icon="">
+       </i>
+       <span class="content">
+        <span class="name">
+         Torneio Chess960 Diário
+        </span>
+        <span class="more">
+         129 jogadores conectados • Jogando agora
+        </span>
+       </span>
+      </a>
+      <a class="little tour-spotlight id_yzoTEAe5 Daily SuperBlitz kingOfTheHill" onclick="window.open('/tournament/yzoTEAe5'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <i class="img" data-icon="">
+       </i>
+       <span class="content">
+        <span class="name">
+         Torneio King of the Hill Diário
+        </span>
+        <span class="more">
+         6 jogadores conectados • Jogando agora
+        </span>
+       </span>
+      </a>
+      <a class="little tour-spotlight id_0O5DZdNa Hourly Blitz standard" onclick="window.open('/tournament/0O5DZdNa'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <i class="img" data-icon="">
+       </i>
+       <span class="content">
+        <span class="name">
+         Torneio Blitz por Hora
+        </span>
+        <span class="more">
+         137 jogadores conectados • Jogando agora
+        </span>
+       </span>
+      </a>
+     </div>
+     <div class="about-side">
+      Lichess é um servidor de xadrez gratuito (
+      <a class="blue" onclick="window.open('/features'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       realmente
+      </a>
+      ), livre, sem anúncios e código aberto.
+      <a onclick="window.open('/about'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Sobre o Lichess...
+      </a>
+     </div>
+    </div>
+    <div class="lobby__tv">
+     <a class="mini-game mini-game-e0svhijR mini-game--init standard is2d" data-live="e0svhijR" data-state="r3n1k1/1p3p2/2pp2p1/8/2P1P3/rP3PPN/3R4/3R2K1 w,white,a5a3" data-tc="60+0" onclick="window.open('/tv'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="mini-game__player">
+       <span class="mini-game__user">
+        <span class="utitle" title="FIDE Master">
+         FM
+        </span>
+        arnikka89
+        <span class="rating">
+         2680
+        </span>
+       </span>
+       <span class="mini-game__clock mini-game__clock--black" data-time="13">
+        0:13
+       </span>
+      </span>
+      <span class="cg-wrap">
+       <cg-container>
+        <cg-board>
+        </cg-board>
+       </cg-container>
+      </span>
+      <span class="mini-game__player">
+       <span class="mini-game__user">
+        <span class="utitle" title="International Master">
+         IM
+        </span>
+        DrGreateinstein
+        <span class="rating">
+         2731
+        </span>
+       </span>
+       <span class="mini-game__clock mini-game__clock--white" data-time="16">
+        0:16
+       </span>
+      </span>
+     </a>
+    </div>
+    <a class="lobby__puzzle" onclick="window.open('/training/daily'); return false;" style="cursor:not-allowed; text-decoration:none;" title="Clique para resolver">
+     <span class="text">
+      Quebra-cabeça do dia
+     </span>
+     <span class="mini-board mini-board--init cg-wrap is2d" data-state="r4k1r/p4ppp/bp1Np3/2PpP1P1/q2P3N/8/1P1K2P1/5R1R,white,d7a4">
+      <cg-container>
+       <cg-board>
+       </cg-board>
+      </cg-container>
+     </span>
+     <span class="text">
+      Brancas jogam
+     </span>
+    </a>
+    <div class="lobby__blog carousel">
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-thshupe" onclick="window.open('/@/thshupe/blog/the-power-of-otb-chess-in-disability-awareness-month/6WNtKpdp'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_292614eb3edbbbcb" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-15T20:12:47.6Z">
+        15 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/thshupe">
+        thshupe
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        The Power of OTB Chess in Disability Awareness Month
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-buendiachess" onclick="window.open('/@/BuendiaChess/blog/ucraine-european-champions/6Mz5T17P'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_59cfb0a72d4fb0a9" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-15T17:50:29.499Z">
+        15 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/BuendiaChess">
+        <span class="utitle" title="FIDE Master">
+         FM
+        </span>
+        BuendiaChess
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        UCRAINE EUROPEAN CHAMPIONS
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-doughnut42" onclick="window.open('/@/doughnut42/blog/how-to-combat-modern-defense/3VIiLBji'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_291919d24889ed5d" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-18T01:02:28.704Z">
+        18 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/doughnut42">
+        <span class="utitle" title="International Master">
+         IM
+        </span>
+        doughnut42
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        How to Combat Modern Defense
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-isemmelweis" onclick="window.open('/@/Isemmelweis/blog/chess-and-art/M5jTCKqu'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_bd7eb0c563a3e6c3" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-08T23:11:50.775Z">
+        8 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/Isemmelweis">
+        Isemmelweis
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        Chess and Art
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-kappablanc" onclick="window.open('/@/kappablanc/blog/using-the-lichess-api-and-lichess-embedded-games-to-create-something-great/hkYJB0qy'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img alt="GeoChessr.io" class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_83677e1f9db3b265" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-09T21:56:26.022Z">
+        9 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/kappablanc">
+        kappablanc
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        Using the lichess API and lichess embedded games to create something great
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-librechesschicken" onclick="window.open('/@/LibreChessChicken/blog/windows-10-is-dead-switch-to-linux/rKTBnlgf'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_3ecc8f8b1dc97318" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-13T08:08:20.247Z">
+        13 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/LibreChessChicken">
+        LibreChessChicken
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        Windows 10 is dead, switch to Linux!
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-neimar24" onclick="window.open('/@/Neimar24/blog/dynamic-play-on-display-lessons-from-the-us-championship/gsHb9ltB'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_529e971e37e6648d" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-15T16:04:23.666Z">
+        15 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/Neimar24">
+        <span class="utitle" title="International Master">
+         IM
+        </span>
+        Neimar24
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        Dynamic Play on Display: Lessons from the U.S. Championship
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-d4nc3bf4" onclick="window.open('/@/d4Nc3Bf4/blog/getting-started-with-the-jobava-london/2YThy3Nj'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_2ca416bb5b03a9e1" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-15T12:12:59.584Z">
+        15 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/d4Nc3Bf4">
+        d4Nc3Bf4
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        Getting Started with the Jobava London!
+       </h2>
+      </span>
+     </a>
+     <a class="ublog-post-card ublog-post-card--link ublog-post-card--by-kalashnikovexpert" onclick="window.open('/@/KalashnikovExpert/blog/right-openings-for-the-right-players/ZUhEZymx'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <span class="ublog-post-card__top">
+       <img class="ublog-post-image ublog-post-card__image" height="250" src="local_resources\display_35dbfb89d9d54fc4" width="400"/>
+       <time class="ublog-post-card__over-image" datetime="2025-10-12T14:11:38.994Z">
+        12 de out. de 2025
+       </time>
+       <span class="user-link ulpt ublog-post-card__over-image pos-bottom" data-href="/@/KalashnikovExpert">
+        KalashnikovExpert
+       </span>
+      </span>
+      <span class="ublog-post-card__content">
+       <h2 class="ublog-post-card__title">
+        Right openings for the Right Players
+       </h2>
+      </span>
+     </a>
+    </div>
+    <div class="lobby__tournaments-simuls">
+     <div class="lobby__tournaments lobby__box">
+      <a class="lobby__box__top" onclick="window.open('/tournament'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <h2 class="title text" data-icon="">
+        Torneios abertos
+       </h2>
+       <span class="more">
+        Mais »
+       </span>
+      </a>
+      <div class="lobby__box__content">
+       <table class="tournaments">
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/V6qAk70q'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           Chess960 Diário
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:30:40Z">
+           </time>
+           <span class="progress__bar" style="width:76%">
+           </span>
+          </span>
+         </td>
+         <td>
+          1h 30m
+         </td>
+         <td class="text" data-icon="">
+          129
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/yzoTEAe5'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           King of the Hill Diário
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T23:00:00Z">
+           </time>
+           <span class="progress__bar" style="width:15%">
+           </span>
+          </span>
+         </td>
+         <td>
+          1h
+         </td>
+         <td class="text" data-icon="">
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/obGtfgBn'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           ≤1300 Blitz
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:57:02.5Z">
+           </time>
+           <span class="progress__bar" style="width:16%">
+           </span>
+          </span>
+         </td>
+         <td>
+          57m
+         </td>
+         <td class="text" data-icon="">
+          54
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/ZH76tzzV'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           HyperBullet por Hora
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:27:05Z">
+           </time>
+           <span class="progress__bar" style="width:33%">
+           </span>
+          </span>
+         </td>
+         <td>
+          27m
+         </td>
+         <td class="text" data-icon="">
+          42
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/v2a6C4xV'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           Atomic por Hora
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:57:07.5Z">
+           </time>
+           <span class="progress__bar" style="width:16%">
+           </span>
+          </span>
+         </td>
+         <td>
+          57m
+         </td>
+         <td class="text" data-icon="">
+          20
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/LlzzqOal'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           ≤1700 Bullet
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:27:10Z">
+           </time>
+           <span class="progress__bar" style="width:33%">
+           </span>
+          </span>
+         </td>
+         <td>
+          27m
+         </td>
+         <td class="text" data-icon="">
+          59
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/HojYY4Yq'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           Horde por Hora
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:57:12.5Z">
+           </time>
+           <span class="progress__bar" style="width:16%">
+           </span>
+          </span>
+         </td>
+         <td>
+          57m
+         </td>
+         <td class="text" data-icon="">
+          10
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/XaOf96hS'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           Bullet por Hora
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:27:15Z">
+           </time>
+           <span class="progress__bar" style="width:33%">
+           </span>
+          </span>
+         </td>
+         <td>
+          27m
+         </td>
+         <td class="text" data-icon="">
+          187
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/S2IGWBLW'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           ≤2000 Rápida
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:57:20Z">
+           </time>
+           <span class="progress__bar" style="width:16%">
+           </span>
+          </span>
+         </td>
+         <td>
+          57m
+         </td>
+         <td class="text" data-icon="">
+          176
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/yNcNwpZY'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           SuperBlitz por Hora
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:57:25Z">
+           </time>
+           <span class="progress__bar" style="width:15%">
+           </span>
+          </span>
+         </td>
+         <td>
+          57m
+         </td>
+         <td class="text" data-icon="">
+          263
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/1SVJWmld'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           ≤1500 SuperBlitz
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:57:30Z">
+           </time>
+           <span class="progress__bar" style="width:15%">
+           </span>
+          </span>
+         </td>
+         <td>
+          57m
+         </td>
+         <td class="text" data-icon="">
+          62
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/0O5DZdNa'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           Blitz por Hora
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T22:57:35Z">
+           </time>
+           <span class="progress__bar" style="width:15%">
+           </span>
+          </span>
+         </td>
+         <td>
+          57m
+         </td>
+         <td class="text" data-icon="">
+          137
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <a class="text" data-icon="" onclick="window.open('/tournament/PRX2vobW'); return false;" style="cursor:not-allowed; text-decoration:none;">
+           Queen's Pawn Game Rápida
+          </a>
+         </td>
+         <td class="progress-td">
+          <span class="progress">
+           <time class="timeago remaining progress__text" datetime="2025-10-20T23:57:40Z">
+           </time>
+           <span class="progress__bar" style="width:8%">
+           </span>
+          </span>
+         </td>
+         <td>
+          1h 57m
+         </td>
+         <td class="text" data-icon="">
+          44
+         </td>
+        </tr>
+       </table>
+      </div>
+     </div>
+    </div>
+    <div class="lobby__feed">
+     <div class="daily-feed__updates">
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker nobg" src="local_resources\phish_activity.lichess_541defb04387c4df.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed#Xt3sgo'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <time class="timeago" datetime="2025-10-20T20:30:00Z">
+         </time>
+        </a>
+        <p>
+         We are deeply saddened to hear of the untimely passing of GM
+         <a onclick="window.open('https://en.wikipedia.org/wiki/Daniel_Naroditsky'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Daniel Naroditsky
+         </a>
+         . Danya had a deep passion for chess and a rare gift for inspiring that love of the game in others. Our thoughts are with his family, friends and his many fans at this time.
+        </p>
+       </div>
+      </div>
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker nobg" src="local_resources\phish_activity.chess_431e36809a6384ba.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed#HUTjQ0'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <time class="timeago" datetime="2025-10-19T14:00:00Z">
+         </time>
+        </a>
+        <p>
+         The
+         <a onclick="window.open('https://lichess.org/broadcast/european-chess-club-cup-2025/ocVXHiZ3'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          European Chess Club Cup 2025
+         </a>
+         in Rhodes, Greece has started! Top players like GMs
+         <a onclick="window.open('https://lichess.org/fide/35009192/Erigaisi_Arjun'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Arjun Erigaisi
+         </a>
+         ,
+         <a onclick="window.open('https://lichess.org/fide/8603405/Wei_Yi'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Wei Yi
+         </a>
+         and
+         <a onclick="window.open('https://lichess.org/fide/738590/Rapport_Richard'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Richard Rapport
+         </a>
+         in the
+         <a onclick="window.open('https://lichess.org/broadcast/european-chess-club-cup-2025--open-matches-1-16/8jXzp45R'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Open tournament
+         </a>
+         , and GMs
+         <a onclick="window.open('https://lichess.org/fide/35006916/Divya_Deshmukh'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Divya Deshmukh
+         </a>
+         ,
+         <a onclick="window.open('https://lichess.org/fide/13601903/Dzagnidze_Nana'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Nana Dzagnidze
+         </a>
+         and
+         <a onclick="window.open('https://lichess.org/fide/14114550/Muzychuk_Mariya'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Mariya Muzychuk
+         </a>
+         in the
+         <a onclick="window.open('https://lichess.org/broadcast/european-chess-club-cup-2025--women/Vyt9TSER'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Women's tournament
+         </a>
+         , will compete with their teams every day from 19 to 25 October. Watch all the games in our
+         <a onclick="window.open('https://lichess.org/broadcast/european-chess-club-cup-2025/ocVXHiZ3'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          broadcasts
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker nobg" src="local_resources\phish_activity.party-popper_2e756c1dd2e0181d.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed#41uwTp'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <time class="timeago" datetime="2025-10-17T13:15:00Z">
+         </time>
+        </a>
+        <p>
+         Congratulations to
+         <a onclick="window.open('https://lichess.org/team/k2n_chess'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          K2N_chess
+         </a>
+         for winning our
+         <a onclick="window.open('https://lichess.org/tournament/oct25str'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Streamer Arena October 2025
+         </a>
+         ! Congrats also to
+         <a onclick="window.open('https://lichess.org/team/im-yoseph-and-friends'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          IM YOSEPH AND FRIENDS
+         </a>
+         for taking 2nd place, to
+         <a onclick="window.open('https://lichess.org/team/zhigalko_sergei-fan-club'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Zhigalko_Sergei &amp; Friends
+         </a>
+         for 3rd place, and to
+         <a onclick="window.open('https://lichess.org/team/im-manitodeplomo-fan-club'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          IM Manitodeplomo Fan Club
+         </a>
+         for 4th place. Thanks to all participating
+         <a onclick="window.open('https://lichess.org/streamer'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          streamers
+         </a>
+         and 1,798 registered players!
+        </p>
+       </div>
+      </div>
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker nobg" src="local_resources\phish_objects.studio-microphone_7b6b5137d1dc0208.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed#nNlBWr'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <time class="timeago" datetime="2025-10-14T09:05:00Z">
+         </time>
+        </a>
+        <p>
+         The 9th ChessMood 20/20 Grand Prix Qualifier Arena - again featuring a $1,000 prize fund - will be held on
+         <a onclick="window.open('https://lichess.org/tournament/CMQ20Oct'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          20th October at 20:00 UTC
+         </a>
+         ! The event is open to all Lichess streamer teams. Read our
+         <a onclick="window.open('https://lichess.org/@/Lichess/blog/announcing-the-chessmood-2020-grand-prix/88JtiVlR'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          full announcement
+         </a>
+         and
+         <a onclick="window.open('https://lichess.org/@/Lichess/blog/announcing-the-chessmood-2020-grand-prix/88JtiVlR#registration'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          register
+         </a>
+         your team now.
+        </p>
+       </div>
+      </div>
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker nobg" src="local_resources\phish_objects.books_d1d90b804044a709.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed#MlRPHB'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <time class="timeago" datetime="2025-10-13T01:05:00Z">
+         </time>
+        </a>
+        <p>
+         Learn chess strategy from the ground up with the
+         <a onclick="window.open('https://lichess.org/study/LAV8k5kM'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Morphy Simulator
+         </a>
+         by
+         <a onclick="window.open('/@/NoseKnowsAll'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          @NoseKnowsAll
+         </a>
+         ! The study is aimed at beginner to intermediate players and covers opening principles, middlegame strategy, endgame fundamentals, and more - all through the games and moves of the legendary
+         <a onclick="window.open('https://en.wikipedia.org/wiki/Paul_Morphy'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Paul Morphy
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker nobg" src="local_resources\phish_activity.party-popper_2e756c1dd2e0181d.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed#x50Ma0'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <time class="timeago" datetime="2025-10-12T09:25:00Z">
+         </time>
+        </a>
+        <p>
+         Congratulations to IM
+         <a onclick="window.open('/@/doughnut42'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          @doughnut42
+         </a>
+         for winning our
+         <a onclick="window.open('https://lichess.org/tournament/oct25bta'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Blitz Titled Arena October 2025
+         </a>
+         , ahead of IM
+         <a onclick="window.open('https://lichess.org/@/tacticthunder'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Dimitris Alexakis
+         </a>
+         , GM
+         <a onclick="window.open('/@/chessmaster2006'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          @chessmaster2006
+         </a>
+         , GM
+         <a onclick="window.open('https://lichess.org/@/Bardiya___Daneshvar'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Bardiya Daneshvar
+         </a>
+         , and CM
+         <a onclick="window.open('https://lichess.org/@/RakitinD'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Daniil Rakitin
+         </a>
+         !
+        </p>
+       </div>
+      </div>
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker nobg" src="local_resources\phish_activity.lichess-blitz_08d40f5da75224c0.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed#qfYmEk'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <time class="timeago" datetime="2025-10-11T09:49:00Z">
+         </time>
+        </a>
+        <p>
+         Our October 3+0
+         <a onclick="window.open('https://lichess.org/tournament/oct25bua'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Warm-up Arena
+         </a>
+         starts at 18:00 UTC! Play against some of the titled players before they enter the
+         <a onclick="window.open('https://lichess.org/tournament/oct25bta'); return false;" rel="nofollow noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Blitz Titled Arena
+         </a>
+         .
+        </p>
+       </div>
+      </div>
+      <div class="daily-feed__update">
+       <img alt="" class="icon-flair daily-feed__update__marker" src="local_resources\phish_symbols.white-star_a51cd23023b67407.webp"/>
+       <div>
+        <a class="daily-feed__update__day" onclick="window.open('/feed'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         All updates »
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="lobby__support">
+     <a onclick="window.open('/patron'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <i data-icon="">
+      </i>
+      <span class="lobby__support__text">
+       <strong>
+        Doação
+       </strong>
+       <span>
+        Seja um Patrono Lichess
+       </span>
+      </span>
+     </a>
+     <a onclick="window.open('/swag'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      <i data-icon="">
+      </i>
+      <span class="lobby__support__text">
+       <strong>
+        Swag Store
+       </strong>
+       <span>
+        Jogue xadrez com estilo
+       </span>
+      </span>
+     </a>
+    </div>
+    <div class="lobby__about">
+     <a onclick="window.open('/about'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Sobre o Lichess
+     </a>
+     <a onclick="window.open('/faq'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Perguntas Frequentes
+     </a>
+     <a onclick="window.open('/contact'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Contato
+     </a>
+     <a onclick="window.open('/mobile'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Aplicativo Móvel
+     </a>
+     <a onclick="window.open('/terms-of-service'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Termos de serviço
+     </a>
+     <a onclick="window.open('/privacy'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Privacidade
+     </a>
+     <a onclick="window.open('/source'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Código-fonte
+     </a>
+     <a onclick="window.open('/ads'); return false;" style="cursor:not-allowed; text-decoration:none;">
+      Ads
+     </a>
+     <div class="connect-links">
+      <a onclick="window.open('/run/external-link/mastodon'); return false;" rel="nofollow me" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       Mastodon
+      </a>
+      <a onclick="window.open('/run/external-link/github'); return false;" rel="nofollow" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       GitHub
+      </a>
+      <a onclick="window.open('/run/external-link/discord'); return false;" rel="nofollow" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       Discord
+      </a>
+      <a onclick="window.open('/run/external-link/bluesky'); return false;" rel="nofollow" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       Bluesky
+      </a>
+      <a onclick="window.open('/run/external-link/youtube'); return false;" rel="nofollow" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       YouTube
+      </a>
+      <a onclick="window.open('/run/external-link/twitch'); return false;" rel="nofollow" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       Twitch
+      </a>
+     </div>
+    </div>
+   </main>
+  </div>
+  <a class="link text" data-icon="" id="network-status">
+  </a>
+  <svg height="0" width="0">
+   <mask id="mask">
+    <path d="M38.956.5c-3.53.418-6.452.902-9.286 2.984C5.534 1.786-.692 18.533.68 29.364 3.493 50.214 31.918 55.785 41.329 41.7c-7.444 7.696-19.276 8.752-28.323 3.084C3.959 39.116-.506 27.392 4.683 17.567 9.873 7.742 18.996 4.535 29.03 6.405c2.43-1.418 5.225-3.22 7.655-3.187l-1.694 4.86 12.752 21.37c-.439 5.654-5.459 6.112-5.459 6.112-.574-1.47-1.634-2.942-4.842-6.036-3.207-3.094-17.465-10.177-15.788-16.207-2.001 6.967 10.311 14.152 14.04 17.663 3.73 3.51 5.426 6.04 5.795 6.756 0 0 9.392-2.504 7.838-8.927L37.4 7.171z" fill="#fff" stroke="#fff" stroke-linejoin="round">
+    </path>
+   </mask>
+  </svg>
+  <script nonce="wmu9vWttTFnmBAKvYBVb2Tql">
+   (function(){window.site||(window.site={}),window.site.load||(window.site.load=new Promise(function(i){document.addEventListener("DOMContentLoaded",function(){i()})}));
+})();(function(){let cols=0;function layout(){var o,n;const e=document.querySelector("main.lobby");if(!e)return;const t=Number(window.getComputedStyle(e).getPropertyValue("---cols"));t!==cols&&(cols=t,(n=document.querySelector(cols>2?".lobby__side":".lobby"))==null||n.append((o=document.querySelector(".lobby__timeline"))!=null?o:""))}layout(),window.addEventListener("resize",layout);
+})()
+  </script>
+  <script nonce="wmu9vWttTFnmBAKvYBVb2Tql">
+   site.load.then(()=>{site.asset.loadEsmPage('lobby')})
+  </script>
+  <script id="page-init-data" type="application/json">
+   {"data":{"nowPlaying":[],"nbNowPlaying":0,"nbMyTurn":0,"counters":{"members":61090,"rounds":26851}},"showRatings":true,"hasUnreadLichessMessage":false}
+  </script>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

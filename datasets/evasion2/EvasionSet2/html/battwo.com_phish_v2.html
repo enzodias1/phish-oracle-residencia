@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" name="viewport"/>
+<link href="local_resources\favicon_967c23625de96929.ico" rel="shortcut icon"/>
+<link href="local_resources\favicon_40c94941ca33c701.gif" rel="icon" type="image/gif"/>
+<link href="local_resources\css-btoto-light_4d4369e77e3695a6.css" rel="stylesheet" type="text/css"/>
+<link crossorigin="anonymous" href="local_resources\all.min_04898241ba7a7498.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" referrerpolicy="no-referrer" rel="stylesheet" type="text/css"/>
+<link href="local_resources\base_cf5994a06a19c953.css" rel="stylesheet" type="text/css"/>
+<link href="local_resources\twtr_fe5fd2f410e8a5af.css" media="print" onload="this.media='all'" rel="stylesheet" type="text/css"/>
+<link href="local_resources\twtr_76bfd1c1d09081f4.css" media="print" onload="this.media='all'" rel="stylesheet" type="text/css"/>
+<title>BATOTO - Read Manga Online</title>
+<meta content="A manga reader for manga fans." name="description"/>
+<meta content="manga, scanlation, translation" name="keywords"/>
+</head>
+<body class="body body-home">
+<div class="wrapper wrapper-home" id="app">
+<header class="header" id="header">
+<div class="container-fluid container-max-width-xl">
+<div class="w-100 d-flex flex-column flex-md-row align-items-center">
+<div class="brand position-relative">
+<a href="/">
+<img alt="BATO.TO" height="40" src="local_resources/phish_logo-batoto_991a859ce1f7438c_25853ac7.png"/>
+</a>
+<a class="position-absolute" href="/v3x" style="top: -8px;left: 6px;width: 88px;height: 50px;">
+<img height="50" src="local_resources/phish_halloween-640x360_5cb93355f7bdee23_3cb3992b.png" style="width: 88px; height: 50px;" width="88"/>
+</a>
+<a class="position-absolute text-danger text-nowrap" href="/v3x" style="right: 0; bottom: -12px; font-weight: bold;">
+<small>v3x→</small>
+</a>
+</div>
+<nav class="mt-3 mt-md-0 ms-md-3 nav">
+<a class="nav-link active" href="/">Home</a>
+<a class="nav-link" href="/latest?langs=pt_br,pt,en">Latest</a>
+<a class="nav-link" href="/browse?langs=pt_br,pt,en">Browse</a>
+<a class="nav-link" href="/search">Search</a>
+</nav>
+<form action="/search" class="d-none d-lg-inline ms-auto me-3 form-inline search" method="GET">
+<input autocomplete="off" class="form-control" name="word" placeholder="Search" type="search"/>
+<a class="d-inline-flex align-content-center align-items-center icon-random" href="/random">
+<i class="fas fa-fw fa-random"></i>
+</a>
+<button class="btn btn-primary" type="submit">
+<i class="fas fa-fw fa-search"></i>
+</button>
+</form>
+<div class="mt-3 mt-md-0 ms-md-auto d-flex align-items-center user">
+<a class="ms-2" href="/my-history-by-device">
+<i class="fas fa-fw fa-lg fa-history"></i>
+</a>
+<a class="ms-2 d-lg-none" href="/random">
+<i class="fas fa-fw fa-lg fa-random"></i>
+</a>
+<a class="ms-2" href="/publish">
+<i class="fas fa-fw fa-lg fa-upload"></i>
+</a>
+<a class="ms-2" href="/discord">
+<i class="fab fa-fw fa-lg fa-discord"></i>
+</a>
+<a class="ms-2" href="/settings">
+<i class="fas fa-fw fa-lg fa-cog"></i>
+</a>
+<a class="ms-2 avatar guest" href="/signin">
+<i class="fas fa-fw fa-2x fa-user-circle"></i>
+</a>
+</div>
+</div>
+</div>
+</header> <div class="mainer" id="mainer">
+<div class="container-fluid container-max-width-xl">
+<div class="mt-4 pb-2 d-flex justify-content-between align-items-center line-b-f cursor-pointer" v-cloak="" v-if="localHistory_items.length">
+<h4 class="m-0">
+<span>My History</span>
+</h4>
+<div v-cloak="">
+<i class="far fa-lg fa-caret-square-up" v-if="localHistory_show"></i>
+<i class="far fa-lg fa-caret-square-down" v-if="!localHistory_show"></i>
+</div>
+</div>
+<div v-cloak="" v-if="localHistory_items.length &amp;&amp; localHistory_show">
+<div class="mt-0 row row-cols-1 row-cols-sm-2 row-cols-lg-3 home-my-history" id="my-history-list">
+<div :key="item.iid" class="mt-2 col" v-for="item of localHistory_items">
+<div>
+<a :href="`/series/${item.sid}`" class="fw-bold text-ellipsis-1">${item._text_sub}</a>
+</div>
+<div class="mt-1 small">
+<i class="fas fa-fw fa-history text-color-purple-500"></i>
+<a :href="`/chapter/${item.eid}`" class="ms-1 fw-bold">${item._text_epi}</a>
+<em class="ms-1 text-muted">${item._time_ago}</em>
+</div>
+<div class="mt-1 small" v-if="localHistory_lastEpis[item.sid] &amp;&amp; localHistory_lastEpis[item.sid].eid !== item.eid">
+<i class="fas fa-fw fa-file-upload text-color-green-500"></i>
+<a :href="localHistory_lastEpis[item.sid].upath" class="ms-1 fw-bold visited">${localHistory_lastEpis[item.sid].short}</a>
+<em class="ms-1 text-muted">${localHistory_lastEpis[item.sid].days_ago}</em>
+</div>
+</div>
+</div>
+<div class="mt-3 d-flex">
+<div>
+<a class="px-3 btn btn-sm btn-outline-primary" href="/my-history-by-device">
+<i class="fas fa-wrench text-color-purple-500"></i>
+</a>
+</div>
+<div class="ms-1 flex-grow-1 d-grid">
+<button class="btn btn-sm btn-outline-secondary" type="button" v-if="localHistory_loading == 0">Load More</button>
+<button class="btn btn-sm btn-outline-secondary disabled" type="button" v-if="localHistory_loading == 1">
+<i class="fas fa-circle-notch fa-spin"></i>
+</button>
+<button class="btn btn-sm btn-outline-secondary disabled" type="button" v-if="localHistory_loading == 2">No More</button>
+</div>
+</div>
+</div>
+<div class="mt-4 d-flex justify-content-between line-b-f">
+<h4>Popular Updates</h4>
+</div>
+<div class="mt-4 row row-cols-3 row-cols-md-4 row-cols-lg-8 g-0 home-popular">
+<div class="col item">
+<a class="item-cover" href="/series/175565/my-bias-gets-on-the-last-train-roliascan">
+<img src="local_resources/phish_f38faeecf4698022441d8e61a5b9ddd82db69d53_480_623_97528_94036ab90429a947_e13cad53.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/175565/my-bias-gets-on-the-last-train-roliascan">My Bias Gets On The Last Train (Roliascan)</a>
+<a class="item-volch" href="/chapter/3868812">Ch.51</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/124550/the-rogue-prince-is-secretly-an-omega-mature">
+<img src="local_resources/phish_1c81ad150b93a991f16592da1e96270ba5d04428_294_427_58604_fdbd5433671b3afb_739c4620.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/124550/the-rogue-prince-is-secretly-an-omega-mature">The Rogue Prince Is Secretly an Omega [Mature]</a>
+<a class="item-volch" href="/chapter/3868744">Season 3 Episode 22</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/157490/high-society-official">
+<img src="local_resources/phish_68a62ebe16b62576b2a08f6975265dcf4ed0fe41_600_1280_178618_c017492b480dafd1_50164328.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/157490/high-society-official">High Society [Official]</a>
+<a class="item-volch" href="/chapter/3868708">S2 Episode 73 (End of season)</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/206632/i-doted-on-the-demonic-cult-s-leader-paradise-scans">
+<img src="local_resources/phish_c96282857dd286ee76ee1b8f4cc2ab81a2e1df92_384_549_72304_ba63ca79c9cd73ad_eea594c7.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/206632/i-doted-on-the-demonic-cult-s-leader-paradise-scans">I Doted on the Demonic Cult's Leader ( PARADISE SCANS )</a>
+<a class="item-volch" href="/chapter/3868650">Chapter 35</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/186838/that-s-not-what-my-will-said-official">
+<img src="local_resources/phish_689292840fe524757f4024952bee85c7ae6124d3_294_427_50844_827b2f41e6cc9c25_ccd708bd.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/186838/that-s-not-what-my-will-said-official">That's Not What My Will Said [Official]</a>
+<a class="item-volch" href="/chapter/3868627">Ch.31</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/88714/dungeon-reset-official">
+<img src="local_resources/phish_94398035a8c44b595416a7bcc87894c9d10bbcc3_336_488_58996_29009afd3fd5d194_bd85172f.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/88714/dungeon-reset-official">Dungeon Reset (Official)</a>
+<a class="item-volch" href="/chapter/3868626">Ch.264</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/190634/f-my-ex-19v-luna-toons">
+<img src="local_resources/phish_e984c84319e7497162955f1b8f8c03bf14f24552_600_870_48368_0be4a83e47914877_14007ee5.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/190634/f-my-ex-19v-luna-toons">F My Ex [+19v] [Luna Toons]</a>
+<a class="item-volch" href="/chapter/3868620">Chapter 52 - S1</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/191005/emergency-youth-record-book">
+<img src="local_resources/phish_2e811c0424aae62a5e4820db6b555e438f401b85_600_796_770871_cbae615cfec9f797_c5655c12.png"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/191005/emergency-youth-record-book">Emergency! Youth Record Book</a>
+<a class="item-volch" href="/chapter/3868602">Ch.32</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/205006/amber-alert-kaizen-scan">
+<img src="local_resources/phish_b18905b7e070a09b43db82ffd2fad795675c0ba4_600_870_75402_4e2df09891271bae_e279a256.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/205006/amber-alert-kaizen-scan">Amber Alert [Kaizen Scan]</a>
+<a class="item-volch" href="/chapter/3868575">Chapter 25</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/207476/me-too-i-ll-be-an-incubus-paradise-scans">
+<img src="local_resources/phish_4f24a210e94ad175332b107b20a3afe537a855b0_600_800_103824_51d10d920b02f652_93c4c1eb.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/207476/me-too-i-ll-be-an-incubus-paradise-scans">Me Too! I'll Be an Incubus! ( PARADISE SCANS )</a>
+<a class="item-volch" href="/chapter/3868552">Ch.17</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/183101/job-change-log-valir-scans">
+<img src="local_resources/phish_d1d41dcbc0c56d972e2de77af879986ff37d7949_600_779_95124_0800c3b22f4ea3f9_d2db892d.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/183101/job-change-log-valir-scans">Job Change Log (Valir Scans)</a>
+<a class="item-volch" href="/chapter/3868533">Ch.33</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/207898/manhattan-depression">
+<img src="local_resources/phish_a12814c0cfd0d167a62b71a8b9dbb0de655d37ca_600_800_54736_a76517e203c138cb_e7a7fff.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/207898/manhattan-depression">Manhattan Depression</a>
+<a class="item-volch" href="/chapter/3868509">Ch.24</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/206949/noir-of-june-paradise-scans">
+<img src="local_resources/phish_5d1c325cf7bb2cf2cc2bc5e4f1ace6e3bc3036f8_240_343_25184_8c90cba37452926e_dae258aa.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/206949/noir-of-june-paradise-scans">Noir of June ( PARADISE SCANS )</a>
+<a class="item-volch" href="/chapter/3868496">Ch.18</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/169072/the-person-sitting-next-to-me-looking-at-me-with-perverted-eyes-english-ver">
+<img src="local_resources/phish_2bcb0eead2573f403f2321f7278dfc1fa001e190_600_850_132316_263e32760209f0cf_ae18369f.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/169072/the-person-sitting-next-to-me-looking-at-me-with-perverted-eyes-english-ver">The Person Sitting Next to Me Looking at Me With Perverted Eyes | English ver</a>
+<a class="item-volch" href="/chapter/3868406">Ch.75</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/105111/the-guy-she-was-interested-in-wasn-t-a-guy-at-all">
+<img src="local_resources/phish_bc43eab0a7a1ba15c75076dc57c81e0ed958633e_408_585_88679_551951426fcfc679_9594de78.jpeg"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/105111/the-guy-she-was-interested-in-wasn-t-a-guy-at-all">The Guy She Was Interested in Wasn't a Guy At All</a>
+<a class="item-volch" href="/chapter/3868299">Ch.145</a>
+</div>
+</div>
+</div>
+<div class="col item">
+<a class="item-cover" href="/series/178494/a-golden-pair-official">
+<img src="local_resources/phish_2697966887f33cbf96c1f6a795f3dfb1a6926c5c_600_800_43276_f6865f0e0600980c_85ad5819.webp"/>
+</a>
+<div class="item-text">
+<div class="item-text-inner">
+<a class="item-title" href="/series/178494/a-golden-pair-official">A Golden Pair [Official]</a>
+<a class="item-volch" href="/chapter/3868179">Ch.44</a>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-4 d-flex justify-content-between line-b-f">
+<h4>Latest Releases</h4>
+<a href="/rss/latest.xml">
+<i class="fas fa-fw fa-rss"></i>
+</a>
+</div>
+<div class="mt-0 row row-cols-1 row-cols-sm-2 row-cols-lg-3 series-list" id="series-list">
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/198555/surviving-in-a-school-of-ghost-stories-siren-scans">
+<img class="rounded" src="local_resources/phish_bf9fcb71476a782a77aee56a52cc25417afe01dd_600_684_77644_e795a3d3bf8740f1_b84637c3.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/198555/surviving-in-a-school-of-ghost-stories-siren-scans">Surviving in a School of Ghost Stories [Siren Scans]</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                                    , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Horror</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>Thriller</span>
+                  , 
+          <span>Tragedy</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868851">Chapter 32</a>
+<div>
+<a class="me-2" href="/user/1332598/julietio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_d562d7f55718960d1ba2f00be0d61e890bde0f35_300_300_215615_d6ed3db13d07c671_a7de2591.png"/>
+</a>
+<i>2 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/190534/i-will-buy-divine-power-with-money-siren-scans">
+<img class="rounded" src="local_resources/phish_b4ee3d41c69d047adb7630078d4662f847fe6079_600_847_93744_12bf3f24b9fe0ee6_32d9059e.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/190534/i-will-buy-divine-power-with-money-siren-scans">I will buy divine power with money [Siren Scans]</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                                    , 
+          <span>Comedy</span>
+                  , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Reincarnation</span>
+                  , 
+          <span>Reverse Harem</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868849">Ch.37</a>
+<div>
+<a class="me-2" href="/user/1332598/julietio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_d562d7f55718960d1ba2f00be0d61e890bde0f35_300_300_215615_d6ed3db13d07c671_b49ef2d6.png"/>
+</a>
+<i>5 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/166458/tsumi-to-batsu-no-spica">
+<img class="rounded" src="local_resources/phish_8997ec846feea05e265b6a8d68719b7900d1f2ff_1688_2400_799679_035e72a1068a8b27_74172d07.jpeg"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/166458/tsumi-to-batsu-no-spica">Tsumi to Batsu no Spica</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Seinen(M)</u>
+                        , 
+          <b>Gore</b>
+                  , 
+          <b>Mature</b>
+                        , 
+          <span>Crime</span>
+                  , 
+          <span>Drama</span>
+                  , 
+          <span>Mystery</span>
+                  , 
+          <span>Psychological</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>Supernatural</span>
+                  , 
+          <span>Survival</span>
+                  , 
+          <span>Thriller</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868848">Ch.35</a>
+<div>
+<a class="me-2" href="/user/1500971/angelday">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_0dcff6abb5a39c1d2cf5ebb1b64ba6c421f77b24_218_218_27311_074d5c30e31cf376_959fcfb1.jpeg"/>
+</a>
+<i>7 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b">
+<a class="item-cover" href="/series/209464/voce-quer-ser-indecente-comigo">
+<img class="rounded" src="local_resources/phish_51b24b1f4926b9cf5eeb1bdc5df633f81b2798e0_600_870_128834_650e34df36ee370e_419b542a.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/209464/voce-quer-ser-indecente-comigo">Você quer ser indecente comigo?</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Josei(W)</u>
+                        , 
+          <b>Adult</b>
+                  , 
+          <b>Mature</b>
+                  , 
+          <b>Smut</b>
+                        , 
+          <span>Comedy</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868847">Capítulo 11</a>
+<div>
+<a class="me-2" href="/user/2803186/tenebrisscan">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_a84324c5d63b1ba1b8ff6d36247bf8aca6fd022e_300_300_123871_e992ee75227ffa38_89fe76e3.png"/>
+</a>
+<i>7 mins ago</i>
+</div>
+</div>
+<em class="eflag flag-brazil s125 item-flag" data-lang="pt_br"></em>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/82019/second-life-ranker-official">
+<img class="rounded" src="local_resources/phish_869b27bab0ab23657c3f60a36b0e7099cfe973d6_400_600_87494_37ce754cd8245e99_ce10b1b0.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/82019/second-life-ranker-official">Second Life Ranker (Official)</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Seinen(M)</u>
+                              , 
+          <span>Action</span>
+                  , 
+          <span>Adventure</span>
+                  , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Isekai</span>
+                  , 
+          <span>Revenge</span>
+                  , 
+          <span>Tower Climbing</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868842">Ch.212</a>
+<div>
+<a class="me-2" href="/user/275627/flomio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_3a9e8049.jpg"/>
+</a>
+<i>15 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/189699/if-a-second-marriage-can-save-you-ezmanga">
+<img class="rounded" src="local_resources/phish_2717b3ba58f899515b5a168135a7253034f2784d_551_780_123488_5272d6b94f25f408_cd99c0da.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/189699/if-a-second-marriage-can-save-you-ezmanga">If a Second Marriage Can Save You [EZManga]</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Josei(W)</u>
+                              , 
+          <span>Drama</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Supernatural</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868841">Ch.35</a>
+<div>
+<a class="me-2" href="/user/2700530/u.2700530">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_056dfbcd5842465744192f678cac1d2bcbd33bc9_300_300_153206_d3645cbf48b02bcd_bd3ff6a8.png"/>
+</a>
+<i>15 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210979/synonym">
+<img class="rounded" src="local_resources/phish_9879f8824465ec30a53e205d14561643016526f4_600_853_94690_d6113864715d6c83_eb97a828.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210979/synonym">Synonym</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Seinen(M)</u>
+                        , 
+          <b>Adult</b>
+                  , 
+          <b>Ecchi</b>
+                  , 
+          <b>Mature</b>
+                        , 
+          <span>Comedy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868836">Ch.1</a>
+<div>
+<a class="me-2" href="/user/2108079/smashingpotatoes">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_e844c707aee43c9ca2102f6d71ad48153400f146_300_300_123505_fec924227991a830_784991ba.png"/>
+</a>
+<i>23 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/190896/the-villain-s-daughter-in-law-is-born-for-power-siren-scans">
+<img class="rounded" src="local_resources/phish_323764cdfb5e0467dea715ceb28b76894557cedb_600_858_148506_2de5d067fc7d299c_1797c89.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/190896/the-villain-s-daughter-in-law-is-born-for-power-siren-scans">The Villain's Daughter-in-Law Is Born for Power [Siren Scans]</a>
+<div class="item-genre">
+<span>Manhwa</span>
+                                    , 
+          <span>Fantasy</span>
+                  , 
+          <span>Reincarnation</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868834">Chapter 37</a>
+<div>
+<a class="me-2" href="/user/1332598/julietio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_d562d7f55718960d1ba2f00be0d61e890bde0f35_300_300_215615_d6ed3db13d07c671_7e700ea5.png"/>
+</a>
+<i>26 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/206769/my-dearest-crown-prince-i-will-protect-you-in-this-life-ezmanga">
+<img class="rounded" src="local_resources/phish_2ffa3a8a5c3ea2871e4c72e0fe8a4f7c245f6340_600_848_82790_76b6dd4b121b29e5_125e5176.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/206769/my-dearest-crown-prince-i-will-protect-you-in-this-life-ezmanga">My Dearest Crown Prince, I Will Protect You In This Life [EzManga]</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                  , 
+          <span>Manhwa</span>
+                        , 
+          <u>Shoujo(G)</u>
+                              , 
+          <span>Fantasy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868833">Ch.10</a>
+<div>
+<a class="me-2" href="/user/2892250/tomato_lvr">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_51593f2a314496422f66ee8454a11d405d32a3b9_187_187_7359_e706e7701a1d61db_7885ecce.jpeg"/>
+</a>
+<i>36 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b">
+<a class="item-cover" href="/series/203445/kimi-wa-ore-no-yasashikunai-haru">
+<img class="rounded" src="local_resources/phish_ab3a0f18415331b4f75c78699c00171e253c96e6_600_853_56046_b55355ca5318a0a7_2a96485.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/203445/kimi-wa-ore-no-yasashikunai-haru">Kimi wa Ore no Yasashikunai Haru</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Seinen(M)</u>
+                              , 
+          <span>Comedy</span>
+                  , 
+          <span>Drama</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>School Life</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868832">Capítulo 3</a>
+<div>
+<a class="me-2" href="/user/267570/user.267570">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_b91b398d5555060696469847e5921c1514be5ac9_300_300_156954_062e6bc382fe61a0_5118a3d1.png"/>
+</a>
+<i>38 mins ago</i>
+</div>
+</div>
+<em class="eflag flag-brazil s125 item-flag" data-lang="pt_br"></em>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/208362/in-mourning">
+<img class="rounded" src="local_resources/phish_4ddc158754b910b0fd2c732beb8bc5c448c61382_600_847_70668_e290381c7d5acdda_c8c8eff4.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/208362/in-mourning">In Mourning</a>
+<div class="item-genre">
+<span>English</span>
+              
+                      , 
+          <span>Comic</span>
+                        , 
+          <u>Shoujo(G)</u>
+                  , 
+          <u>Shounen(B)</u>
+                              , 
+          <span>Drama</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Psychological</span>
+                  , 
+          <span>Slice of Life</span>
+                  , 
+          <span>Tragedy</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868831">03. Anger</a>
+<div>
+<a class="me-2" href="/user/2112630/neko_sans">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_270572dc9b61b6e599b493b09933c660fb24736d_300_300_226629_0f37256def762484_c0ffb937.png"/>
+</a>
+<i>39 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/172024/heart-of-thorns">
+<img class="rounded" src="local_resources/phish_839f9adc4746398a93eee66b47371b8051085025_600_846_67868_5294a7056be0bb70_1fcd468.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/172024/heart-of-thorns">Heart Of Thorns</a>
+<div class="item-genre">
+<span>Chinese</span>
+              
+                      , 
+          <span>Manhua</span>
+                        , 
+          <u>Yuri(GL)</u>
+                              , 
+          <span>Fantasy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Girls</span>
+                  , 
+          <span>Magic</span>
+                  , 
+          <span>Monster Girls</span>
+                  , 
+          <span>Monsters</span>
+                  , 
+          <span>School Life</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868830">Ch.133</a>
+<div>
+<a class="me-2" href="/user/1877453/l1v1nl1f3">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_3d45e92a9348468af4530895dca985aa06518ee9_133_133_6898_5d8b2c5a06ca1d0e_e0ab11dd.jpeg"/>
+</a>
+<i>41 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/182370/hachinoko-risa-chan">
+<img class="rounded" src="local_resources/phish_068b5e211b2686d8ddc7286bd918064b9c25f3d1_600_883_34724_8e6eb2eb1cf7a649_a99ac59f.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/182370/hachinoko-risa-chan">Hachinoko Risa-chan</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                                    , 
+          <span>Childhood Friends</span>
+                  , 
+          <span>Comedy</span>
+                  , 
+          <span>Cooking</span>
+                  , 
+          <span>Girls</span>
+                  , 
+          <span>Kids</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>Slice of Life</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868828">Vol.1 Ch.24</a>
+<div>
+<a class="me-2" href="/user/1988696/whitechocoalate">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_52c57fd7a78e0b51d54297473877d1f9bb189876_300_300_129343_a81c690edd35e6c5_953b21a7.png"/>
+</a>
+<i>45 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/188337/indulging-a-crazy-beauty">
+<img class="rounded" src="local_resources/phish_3e5a35948056cd1930c3f41e0561e5a92cc4d19c_600_800_109300_4702f6e5fa20f2d4_682b6587.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/188337/indulging-a-crazy-beauty">Indulging A Crazy Beauty</a>
+<div class="item-genre">
+<span>Chinese</span>
+              
+                      , 
+          <span>Manhua</span>
+                        , 
+          <u>Yuri(GL)</u>
+                        , 
+          <b>Mature</b>
+                        , 
+          <span>Drama</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Girls</span>
+                  , 
+          <span>Historical</span>
+                  , 
+          <span>Reincarnation</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Royal family</span>
+                  , 
+          <span>Royalty</span>
+                  , 
+          <span>Time Travel</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868827">Ch.24.5</a>
+<div>
+<a class="me-2" href="/user/1877453/l1v1nl1f3">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_3d45e92a9348468af4530895dca985aa06518ee9_133_133_6898_5d8b2c5a06ca1d0e_879d5778.jpeg"/>
+</a>
+<i>45 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/209255/i-became-the-ghost-duke-s-daughter-official">
+<img class="rounded" src="local_resources/phish_4d39cd38c5439aa1cc3e5d8ff50417748d398b07_600_900_140060_043836b24c0ea121_68e46d6e.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/209255/i-became-the-ghost-duke-s-daughter-official">I Became the Ghost Duke's Daughter [Official]</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Shoujo(G)</u>
+                              , 
+          <span>Fantasy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Supernatural</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868826">Episode 36</a>
+<div>
+<a class="me-2" href="/user/275627/flomio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_34e32edb.jpg"/>
+</a>
+<i>46 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/175460/summoners-war-royal-blood-official">
+<img class="rounded" src="local_resources/phish_5d1560332278d8d7f42c9b27f323b048618b52a6_600_600_111533_ad5b5482cfddd156_902995d6.jpeg"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/175460/summoners-war-royal-blood-official">Summoners War: Royal Blood (Official)</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                        , 
+          <u>Shounen(B)</u>
+                              , 
+          <span>Action</span>
+                  , 
+          <span>Fantasy</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868824">Ch.48</a>
+<div>
+<a class="me-2" href="/user/275627/flomio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_61a1f38c.jpg"/>
+</a>
+<i>48 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/166142/your-grace-please-fail-for-once">
+<img class="rounded" src="local_resources/phish_1f9598d6a2a433c513a7ea43e16b7cbc9eed5a1c_400_600_86594_d0782eb160f5a3bb_b24832e4.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/166142/your-grace-please-fail-for-once">Your Grace, Please Fail for Once!</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Shoujo(G)</u>
+                              , 
+          <span>Adaptation</span>
+                  , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Historical</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Royalty</span>
+                  , 
+          <span>Time Travel</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868823">Chapter 70 (Main Story Finale)</a>
+<div>
+<a class="me-2" href="/user/275627/flomio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_45ea9d99.jpg"/>
+</a>
+<i>49 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/188390/is-it-normal-to-raise-a-yandere-heroine-as-a-villainess">
+<img class="rounded" src="local_resources/phish_bf649d53880adc3bae18cc2b78d4fcb935977ba5_600_800_105110_ea242bb313e79db1_25231883.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/188390/is-it-normal-to-raise-a-yandere-heroine-as-a-villainess">Is it Normal to Raise a Yandere Heroine as a Villainess ?!</a>
+<div class="item-genre">
+<span>Chinese</span>
+              
+                      , 
+          <span>Manhua</span>
+                        , 
+          <u>Yuri(GL)</u>
+                              , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Girls</span>
+                  , 
+          <span>Isekai</span>
+                  , 
+          <span>Magic</span>
+                  , 
+          <span>Reincarnation</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>Villainess</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868822">Ch.98</a>
+<div>
+<a class="me-2" href="/user/1877453/l1v1nl1f3">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_3d45e92a9348468af4530895dca985aa06518ee9_133_133_6898_5d8b2c5a06ca1d0e_311807b9.jpeg"/>
+</a>
+<i>51 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/203682/how-to-survive-downsizing-official">
+<img class="rounded" src="local_resources/phish_3f4d0f236c4c70593e881724148ad923624cb7a2_400_600_44180_8710b4f534e6c6bc_76bb89ea.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/203682/how-to-survive-downsizing-official">How To Survive Downsizing (Official)</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                        , 
+          <u>Shounen(B)</u>
+                              , 
+          <span>Action</span>
+                  , 
+          <span>Adventure</span>
+                  , 
+          <span>Fantasy</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868821">Ch.33</a>
+<div>
+<a class="me-2" href="/user/275627/flomio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_817fb04e.jpg"/>
+</a>
+<i>52 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/161543/the-life-of-a-returning-officer-official">
+<img class="rounded" src="local_resources/phish_6ee8319433e0df0610aaff008ab499fe403edacc_400_600_44406_c00befc1daf1e921_f03a7f31.jpeg"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/161543/the-life-of-a-returning-officer-official">The Life of a Returning Officer [Official]</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Shounen(B)</u>
+                              , 
+          <span>Action</span>
+                  , 
+          <span>Adaptation</span>
+                  , 
+          <span>Crime</span>
+                  , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Police</span>
+                  , 
+          <span>Regression</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>Time Travel</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868820">Ch.114</a>
+<div>
+<a class="me-2" href="/user/275627/flomio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_30364af1.jpg"/>
+</a>
+<i>52 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/202699/no-more-regrets-official">
+<img class="rounded" src="local_resources/phish_333fb3797c6d0a13f6268a001fefcf06d2ba42e1_600_871_125050_bfdd1d67c3dec31a_ac727a77.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/202699/no-more-regrets-official">No More Regrets [Official]</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                        , 
+          <u>Josei(W)</u>
+                              , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Historical</span>
+                  , 
+          <span>Regression</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868819">Ch.19</a>
+<div>
+<a class="me-2" href="/user/685353/secretamireds">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_660655a71edefc91da6bc488_22e9cdfaba4df42f_d03a4941.jpg"/>
+</a>
+<i>53 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210971/love-in-the-30s-official">
+<img class="rounded" src="local_resources/phish_a604daa8b205c4aa2d15491d5a0a924b5f9fcd9a_600_900_45046_68aedf5882ab76a7_350cedc2.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210971/love-in-the-30s-official">Love in the 30s (Official)</a>
+<div class="item-genre">
+<span>Thai</span>
+              
+                      , 
+          <span>Oneshot</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Yuri(GL)</u>
+                        , 
+          <b>Adult</b>
+                  , 
+          <b>Ecchi</b>
+                  , 
+          <b>Mature</b>
+                  , 
+          <b>Smut</b>
+                        , 
+          <span>Age Gap</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Office Workers</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Shoujo ai</span>
+                  , 
+          <span>Slice of Life</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868818">Oneshot</a>
+<div>
+<a class="me-2" href="/user/821067/byleth">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_861d7e756de04a2ea31167d51c8aef0b00379908_300_300_141369_40fd97919d7ec896_10b01fbf.png"/>
+</a>
+<i>54 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b">
+<a class="item-cover" href="/series/207322/tumulo-do-cisne">
+<img class="rounded" src="local_resources/phish_02ec5a2c36b3787328f024093ce0a1acfe78491f_600_746_85830_b18da2aa645a86f1_94a337d6.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/207322/tumulo-do-cisne">Túmulo do Cisne</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Comic</span>
+                  , 
+          <span>Manhwa</span>
+                        , 
+          <u>Josei(W)</u>
+                  , 
+          <u>Silver &amp; Golden</u>
+                        , 
+          <b>Adult</b>
+                  , 
+          <b>Mature</b>
+                  , 
+          <b>Smut</b>
+                  , 
+          <b>Violence</b>
+                        , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Historical</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Royalty</span>
+                  , 
+          <span>Time Travel</span>
+                  , 
+          <span>Tragedy</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868817">Vol.1 Ch.13</a>
+<div>
+<a class="me-2" href="/user/2299580/chloe_regullus">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_d1ae1728cd56633f5280e3a48cd6a6cf9e3d2fff_300_300_201734_9f6b179eb860e95a_d754349c.png"/>
+</a>
+<i>56 mins ago</i>
+</div>
+</div>
+<em class="eflag flag-brazil s125 item-flag" data-lang="pt_br"></em>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/203647/dangerous-heartbeat">
+<img class="rounded" src="local_resources/phish_dbadb05ed69bedabdf8559dc85240b38d2dd3bd5_300_400_34148_a22d3f10c8d58d77_5eb6c6ff.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/203647/dangerous-heartbeat">Dangerous Heartbeat</a>
+<div class="item-genre">
+<span>Chinese</span>
+              
+                      , 
+          <span>Manhua</span>
+                        , 
+          <u>Yuri(GL)</u>
+                        , 
+          <b>Adult</b>
+                        , 
+          <span>Drama</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Girls</span>
+                  , 
+          <span>Psychological</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>SM/BDSM/SUB-DOM</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868816">Ch.13</a>
+<div>
+<a class="me-2" href="/user/1877453/l1v1nl1f3">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_3d45e92a9348468af4530895dca985aa06518ee9_133_133_6898_5d8b2c5a06ca1d0e_43b4af10.jpeg"/>
+</a>
+<i>57 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/194132/the-beloved-new-daughter-in-law-of-the-wolf-mansion-ezmanga">
+<img class="rounded" src="local_resources/phish_553fed2c5c4c24bd4bb28b7b97db847de1a633aa_600_858_93478_b4a766a9f0311ba6_f0bd2518.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/194132/the-beloved-new-daughter-in-law-of-the-wolf-mansion-ezmanga">The Beloved New Daughter-in-law Of The Wolf Mansion [EZManga]</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                        , 
+          <u>Shoujo(G)</u>
+                              , 
+          <span>Drama</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868815">Ch.53</a>
+<div>
+<a class="me-2" href="/user/2700530/u.2700530">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_056dfbcd5842465744192f678cac1d2bcbd33bc9_300_300_153206_d3645cbf48b02bcd_5b034904.png"/>
+</a>
+<i>57 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/190608/paranormal-club-on-the-supernatural-phenomena-of-m-prefecture-s-y-city">
+<img class="rounded" src="local_resources/phish_9eedca2346415122dfe513c54b96d1daca317508_600_854_117208_c129ec40defa70ed_6bf397bd.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/190608/paranormal-club-on-the-supernatural-phenomena-of-m-prefecture-s-y-city">Paranormal Club ~On the Supernatural Phenomena of M Prefecture's Y City~</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Seinen(M)</u>
+                  , 
+          <u>Yuri(GL)</u>
+                        , 
+          <b>Gore</b>
+                        , 
+          <span>Demons</span>
+                  , 
+          <span>Ghosts</span>
+                  , 
+          <span>Girls</span>
+                  , 
+          <span>Horror</span>
+                  , 
+          <span>Mystery</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>Supernatural</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868814">Vol.2 Ch.12</a>
+<div>
+<a class="me-2" href="/user/2091674/scienceygirl">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_4172995d4f921179812f215f9e6c43262040fa5f_300_300_207548_0b1ddb0180d95d7a_9df33a8a.png"/>
+</a>
+<i>59 mins ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b is-hot no-flag">
+<a class="item-cover" href="/series/175565/my-bias-gets-on-the-last-train-roliascan">
+<img class="rounded" src="local_resources/phish_f38faeecf4698022441d8e61a5b9ddd82db69d53_480_623_97528_94036ab90429a947_e3a9c981.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/175565/my-bias-gets-on-the-last-train-roliascan">My Bias Gets On The Last Train (Roliascan)</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Seinen(M)</u>
+                              , 
+          <span>Comedy</span>
+                  , 
+          <span>Drama</span>
+                  , 
+          <span>Full Color</span>
+                  , 
+          <span>Music</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868812">Ch.51</a>
+<div>
+<a class="me-2" href="/user/1907109/_eminence_">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_109d777bee5f88fd09a77606242a017e6a8cc622_300_300_113509_9aae1315d3459946_281d9497.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210965/a-lesson-for-the-arrogant-younger-brother-paradise-scans">
+<img class="rounded" src="local_resources/phish_5b8949367094325245496cc4bd7425c174202175_600_870_63340_824f7b4ae292db24_b7967f12.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210965/a-lesson-for-the-arrogant-younger-brother-paradise-scans">A Lesson for the Arrogant Younger Brother || PARADISE SCANS ||</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                        , 
+          <u>Yaoi(BL)</u>
+                        , 
+          <b>Adult</b>
+                  , 
+          <b>Mature</b>
+                  , 
+          <b>Smut</b>
+                        , 
+          <span>Drama</span>
+                  , 
+          <span>Historical</span>
+                  , 
+          <span>Omegaverse</span>
+                  , 
+          <span>Psychological</span>
+                  , 
+          <span>SM/BDSM/SUB-DOM</span>
+                  , 
+          <span>Thriller</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868810">Chapter 1: 🔞🔞</a>
+<div>
+<a class="me-2" href="/user/2788654/paradisedevil">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c_ec0aed71.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210962/taming-the-cat-boyfriend-paradise-scans">
+<img class="rounded" src="local_resources/phish_10dc1682df7a915bb10ebce5d4e9604a671b48e5_259_400_24530_01c105a9b34d03f0_2733e286.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210962/taming-the-cat-boyfriend-paradise-scans">Taming the Cat-Boyfriend || PARADISE SCANS ||</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                        , 
+          <u>Yaoi(BL)</u>
+                        , 
+          <b>Adult</b>
+                  , 
+          <b>Mature</b>
+                  , 
+          <b>Smut</b>
+                        , 
+          <span>Comedy</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Supernatural</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868809">Chapter 1</a>
+<div>
+<a class="me-2" href="/user/2788654/paradisedevil">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c_a667e3e4.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/208716/enrolling-was-a-mistake-official">
+<img class="rounded" src="local_resources/phish_5c05dd2d0e958c17b284c7af45030f9df3e222de_400_600_68170_0a9111f68c5217a0_33c33b46.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/208716/enrolling-was-a-mistake-official">Enrolling Was a Mistake (Official)</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                  , 
+          <span>Webtoon</span>
+                        , 
+          <u>Shounen(B)</u>
+                              , 
+          <span>Action</span>
+                  , 
+          <span>Adventure</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Harem</span>
+                  , 
+          <span>Isekai</span>
+                  , 
+          <span>Magic</span>
+                  , 
+          <span>Tower Climbing</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868807">Ch.30</a>
+<div>
+<a class="me-2" href="/user/1082748/suppor2ing">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_62d6f6acac2c03d147da757b_dff0b3ca405f5e96_594fb2aa.jpg"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210970/virgin-ventures-the-hilarious-hijinks-of-erotic-amateurs-official">
+<img class="rounded" src="local_resources/phish_949bae257c619f6818039a652849ff7a2fc00a75_600_856_171988_1027b625c1bd3520_23c09a38.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210970/virgin-ventures-the-hilarious-hijinks-of-erotic-amateurs-official">Virgin Ventures: The Hilarious Hijinks of Erotic Amateurs [Official]</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Seinen(M)</u>
+                        , 
+          <b>Adult</b>
+                  , 
+          <b>Ecchi</b>
+                        , 
+          <span>Comedy</span>
+                  , 
+          <span>Romance</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868797">Vol.1 Ch.1</a>
+<div>
+<a class="me-2" href="/user/1677253/littlelo">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_e282f4b838ee70c86c090ea421c740269b5ca85b_300_300_205829_2709a80e381aeae5_ffe9f80c.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210969/a-ninja-and-an-assassin-under-one-roof-official">
+<img class="rounded" src="local_resources/phish_95a30aef8d4bc3bda16b89fa498e6b68a3541ddc_600_862_45400_d75f1cef15541789_e01f9974.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210969/a-ninja-and-an-assassin-under-one-roof-official">A Ninja and an Assassin Under One Roof [Official]</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Shounen(B)</u>
+                              , 
+          <span>Comedy</span>
+                  , 
+          <span>Ninja</span>
+                  , 
+          <span>Slice of Life</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868796">Vol.1 Ch.1</a>
+<div>
+<a class="me-2" href="/user/1677253/littlelo">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_e282f4b838ee70c86c090ea421c740269b5ca85b_300_300_205829_2709a80e381aeae5_37fb9ae1.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/173224/han-daesung-back-from-hell-official">
+<img class="rounded" src="local_resources/phish_256e5bf9376747239ca309f5067cb3b594cfd047_600_896_395874_d2b9948006c8abd5_bcb6329.jpeg"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/173224/han-daesung-back-from-hell-official">Han Daesung, Back From Hell (Official)</a>
+<div class="item-genre">
+<span>Korean</span>
+              
+                      , 
+          <span>Manhwa</span>
+                        , 
+          <u>Shounen(B)</u>
+                              , 
+          <span>Action</span>
+                  , 
+          <span>Adventure</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Supernatural</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868795">Ch.72</a>
+<div>
+<a class="me-2" href="/user/275627/flomio">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_a8a167f7.jpg"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210968/i-won-t-let-mistress-suck-my-blood-official">
+<img class="rounded" src="local_resources/phish_747d2e4e8d3db42599908a3016cf8b5a92a3d632_600_855_85536_0dbed26e83227824_89c7a998.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210968/i-won-t-let-mistress-suck-my-blood-official">I Won't Let Mistress Suck My Blood [Official]</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Yuri(GL)</u>
+                              , 
+          <span>Comedy</span>
+                  , 
+          <span>Fantasy</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Shoujo ai</span>
+                  , 
+          <span>Supernatural</span>
+                  , 
+          <span>Vampires</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868794">Vol.1 Ch.1</a>
+<div>
+<a class="me-2" href="/user/1677253/littlelo">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_e282f4b838ee70c86c090ea421c740269b5ca85b_300_300_205829_2709a80e381aeae5_7227dfc9.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210967/a-curtain-call-for-you-official">
+<img class="rounded" src="local_resources/phish_546026aa334d444335c226eeb202eca85e44621f_600_818_129750_3974053ef05aaf35_e49a70d9.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210967/a-curtain-call-for-you-official">A Curtain Call for You [Official]</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Yuri(GL)</u>
+                              , 
+          <span>Drama</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>School Life</span>
+                  , 
+          <span>Shoujo ai</span>
+                  , 
+          <span>Slice of Life</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868793">Vol.1 Ch.1</a>
+<div>
+<a class="me-2" href="/user/1677253/littlelo">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_e282f4b838ee70c86c090ea421c740269b5ca85b_300_300_205829_2709a80e381aeae5_5539ba16.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div>
+<div class="col item line-b no-flag">
+<a class="item-cover" href="/series/210966/omega-megaera-official">
+<img class="rounded" src="local_resources/phish_cb3c3bb61e0cc276f945d42c10cc048bff9bde69_600_855_125092_54e27b11ed28f883_76fea79b.webp"/>
+</a>
+<div class="item-text">
+<a class="item-title" href="/series/210966/omega-megaera-official">Omega Megaera [Official]</a>
+<div class="item-genre">
+<span>Japanese</span>
+              
+                      , 
+          <span>Manga</span>
+                        , 
+          <u>Josei(W)</u>
+                        , 
+          <b>Mature</b>
+                        , 
+          <span>Drama</span>
+                  , 
+          <span>Omegaverse</span>
+                  , 
+          <span>Psychological</span>
+                  , 
+          <span>Romance</span>
+                  , 
+          <span>Shounen ai</span>
+                  , 
+          <span>Slice of Life</span>
+</div>
+<div class="item-volch">
+<a class="visited" href="/chapter/3868792">Vol.1 Ch.1</a>
+<div>
+<a class="me-2" href="/user/1677253/littlelo">
+<img class="rounded-circle avatar-sm" src="local_resources/phish_e282f4b838ee70c86c090ea421c740269b5ca85b_300_300_205829_2709a80e381aeae5_8ccca33c.png"/>
+</a>
+<i>1 hour ago</i>
+</div>
+</div>
+</div>
+</div> </div>
+<div class="mt-3 d-flex justify-content-center load-more" v-cloak="">
+<button class="btn btn-lg btn-block btn-warning" type="button" v-if="loading == 0">Load More</button>
+<button class="btn btn-lg btn-block btn-warning disabled" type="button" v-if="loading == 1">
+<i class="fas fa-circle-notch fa-spin"></i>
+</button>
+<button class="btn btn-lg btn-block btn-secondary disabled" type="button" v-if="loading == 2">No More</button>
+</div>
+<div class="mt-4 d-flex justify-content-between align-items-baseline line-b-f">
+<h4>Latest Reviews</h4>
+</div>
+<div class="mt-4">
+<iframe frameborder="0" height="38" id="v3x-review-embed" scrolling="no" seamless="" src="/embeds/reviews?&amp;theme=light" style="background-color: transparent !important; width: 100%;"></iframe>
+</div>
+<div class="mt-4 d-flex justify-content-between align-items-baseline line-b-f">
+<h4>Top Uploaders</h4>
+<a href="/uploaders">more...</a>
+</div>
+<div class="mt-4 row row-cols-4 row-cols-md-6 row-cols-lg-8 row-cols-xl-12 g-0 home-top-uploaders">
+<a class="col item" href="/user/275627/flomio">
+<img src="local_resources/phish_61a0c11987cdd65651139a68_8b8396eadd856476_580c2950.jpg"/>
+<span class="text-ellipsis-1">FloMio</span>
+</a>
+<a class="col item" href="/user/713741/rishe">
+<img src="local_resources/phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999_4c4c7195.png"/>
+<span class="text-ellipsis-1">rishe</span>
+</a>
+<a class="col item" href="/user/1434200/mimo_jp">
+<img src="local_resources/phish_47576c2a8d13a9f48f1c9fc09d97f653f04e8985_300_300_143383_3395713d8b20d1c0_d729cd3c.png"/>
+<span class="text-ellipsis-1">mimo_JP</span>
+</a>
+<a class="col item" href="/user/340137/euclasa">
+<img src="local_resources/phish_65982cbdfc5509f34e2f4420_7ff11868758bf617_eadb6366.jpg"/>
+<span class="text-ellipsis-1">Euclasa</span>
+</a>
+<a class="col item" href="/user/309083/user.309083">
+<img src="local_resources/phish_5f2834c9be690a39a64a6bf8_ae6dc3f2df66e288_157bd348.jpg"/>
+<span class="text-ellipsis-1">Manga01</span>
+</a>
+<a class="col item" href="/user/1207170/bookstore">
+<img src="local_resources/phish_639240eef41f92fa7e768394_931cdf28dbb59667_f8ecf5c5.jpg"/>
+<span class="text-ellipsis-1">Bookstore</span>
+</a>
+<a class="col item" href="/user/584225/jujucat">
+<img src="local_resources/phish_e4b645f15ea1aa8f7a1bc8cb0b7eb9f6b0fc74d9_300_300_191515_451790c69589b8e9_989b4ba0.png"/>
+<span class="text-ellipsis-1">Jujucat</span>
+</a>
+<a class="col item" href="/user/468495/mei">
+<img src="local_resources/phish_606f6ee0fea3f90a097e584f_33bd5db4f54dc98f_c30b6ce1.jpg"/>
+<span class="text-ellipsis-1">mei</span>
+</a>
+<a class="col item" href="/user/1671496/rathma">
+<img src="local_resources/phish_4042c60c99220c032aa1c30198257f87d69c5f9e_300_300_194925_be86cf57b4817c9f_9338dea3.png"/>
+<span class="text-ellipsis-1">rathma</span>
+</a>
+<a class="col item" href="/user/1677253/littlelo">
+<img src="local_resources/phish_e282f4b838ee70c86c090ea421c740269b5ca85b_300_300_205829_2709a80e381aeae5_6e929032.png"/>
+<span class="text-ellipsis-1">littlelo</span>
+</a>
+<a class="col item" href="/user/821067/byleth">
+<img src="local_resources/phish_861d7e756de04a2ea31167d51c8aef0b00379908_300_300_141369_40fd97919d7ec896_640ac882.png"/>
+<span class="text-ellipsis-1">Byleth</span>
+</a>
+<a class="col item" href="/user/102062/snarkyoldman">
+<img src="local_resources/phish_5f7df4b89092d2c5a7cf4fa5_ffc71ec65cb739d6_6456b0f8.jpg"/>
+<span class="text-ellipsis-1">snarkyoldman</span>
+</a>
+<a class="col item" href="/user/1158818/angelvi">
+<img src="local_resources/phish_489d012413f793d28396f0bb5464d173a3e97f0c_300_300_115168_72ecba038a264e49_5675994d.png"/>
+<span class="text-ellipsis-1">AngelVi</span>
+</a>
+<a class="col item" href="/user/2729688/lua_comic">
+<img src="local_resources/phish_2feee2e5c370212160d69eb063ce5102e07c11da_300_300_182061_31423fe0f98d3f00_eb6323bc.png"/>
+<span class="text-ellipsis-1">Lua_Comic</span>
+</a>
+<a class="col item" href="/user/2994787/rizavalkyrie">
+<img src="local_resources/phish_13242f9d94445f1b7bb18be4156bb9e61c683b3c_300_300_171102_5349eb7376b76910_abfc449e.png"/>
+<span class="text-ellipsis-1">RizaValkyrie</span>
+</a>
+<a class="col item" href="/user/2281494/valir_scans">
+<img src="local_resources/phish_d3e6f99468ab133db7fa4fb70d740200db7cde74_300_300_157037_59ed420948e9b019_67b6eff8.png"/>
+<span class="text-ellipsis-1">Valir_Scans</span>
+</a>
+<a class="col item" href="/user/1315312/_nanachi_">
+<img src="local_resources/phish_456ab6e1998bd3f14b7b4aebc073efa6159d742a_300_300_173093_cf95cc35448a41fd_9be1c050.png"/>
+<span class="text-ellipsis-1">_Nanachi_</span>
+</a>
+<a class="col item" href="/user/1933954/i_ship_my_otakus_xme">
+<img src="local_resources/phish_21bb0013b514fdbbc09e39a7764934f8c426c522_300_300_164154_40936149275ca2b4_1ea9aa84.png"/>
+<span class="text-ellipsis-1">I_Ship_My_Otakus_xMe</span>
+</a>
+<a class="col item" href="/user/1693377/gladys">
+<img src="local_resources/phish_fad097b0ae6440e78f77be31abf74206fdd1792b_300_300_216937_42726d6cb150a222_cfb9f6f7.png"/>
+<span class="text-ellipsis-1">Gladys</span>
+</a>
+<a class="col item" href="/user/2451628/joybo10">
+<img src="local_resources/phish_83687f4acd0a129730e2de019d4cb7b1445accf3_300_300_74671_95a55f03db6199d6_d8209fab.png"/>
+<span class="text-ellipsis-1">JOYBO10</span>
+</a>
+<a class="col item" href="/user/1315774/yoruscanlator">
+<img src="local_resources/phish_63fc2a69071de6ae89d600e9_d5345d6030c28e3a_78cc5444.jpg"/>
+<span class="text-ellipsis-1">YoruScanlator</span>
+</a>
+<a class="col item" href="/user/933460/dindin_">
+<img src="local_resources/phish_58a74f9018e8581e2d3ad38c39246fa33497fe07_300_300_169335_65320effa2360184_941e830c.png"/>
+<span class="text-ellipsis-1">Dindin_</span>
+</a>
+<a class="col item" href="/user/2463824/lunatoons">
+<img src="local_resources/phish_3cf8281077856b8e0e6e88020ac4cfba8e101f30_300_300_17120_0420d52b4b21cc3e_14926d1.png"/>
+<span class="text-ellipsis-1">LunaToons</span>
+</a>
+<a class="col item" href="/user/2915366/bao_inc">
+<img src="local_resources/phish_fc1fb8173f6007c8cf4e28bf96c452e9c67568ca_300_300_170840_37b6e0ef716b61c4_2c65d594.png"/>
+<span class="text-ellipsis-1">Bao_Inc</span>
+</a>
+</div>
+<div class="mt-4 p-1 alert alert-info overflow-auto">
+<div>
+<span>Mirrors:</span>
+<a href="https://ato.to">ato.to</a>
+                  ,
+          <a href="https://dto.to">dto.to</a>
+                  ,
+          <a href="https://fto.to">fto.to</a>
+                  ,
+          <a href="https://hto.to">hto.to</a>
+                  ,
+          <a href="https://jto.to">jto.to</a>
+                  ,
+          <a href="https://lto.to">lto.to</a>
+                  ,
+          <a href="https://mto.to">mto.to</a>
+                  ,
+          <a href="https://nto.to">nto.to</a>
+                  ,
+          <a href="https://vto.to">vto.to</a>
+                  ,
+          <a href="https://wto.to">wto.to</a>
+                  ,
+          <a href="https://xto.to">xto.to</a>
+                  ,
+          <a href="https://yto.to">yto.to</a>
+                  ,
+          <a href="https://vba.to">vba.to</a>
+                  ,
+          <a href="https://wba.to">wba.to</a>
+                  ,
+          <a href="https://xba.to">xba.to</a>
+                  ,
+          <a href="https://yba.to">yba.to</a>
+                  ,
+          <a href="https://zba.to">zba.to</a>
+                  ,
+          <a href="https://bato.ac">bato.ac</a>
+                  ,
+          <a href="https://bato.bz">bato.bz</a>
+                  ,
+          <a href="https://bato.cc">bato.cc</a>
+                  ,
+          <a href="https://bato.cx">bato.cx</a>
+                  ,
+          <a href="https://bato.id">bato.id</a>
+                  ,
+          <a href="https://bato.pw">bato.pw</a>
+                  ,
+          <a href="https://bato.sh">bato.sh</a>
+                  ,
+          <a href="https://bato.to">bato.to</a>
+                  ,
+          <a href="https://bato.vc">bato.vc</a>
+                  ,
+          <a href="https://bato.day">bato.day</a>
+                  ,
+          <a href="https://bato.red">bato.red</a>
+                  ,
+          <a href="https://bato.run">bato.run</a>
+                  ,
+          <a href="https://batoto.in">batoto.in</a>
+                  ,
+          <a href="https://batoto.tv">batoto.tv</a>
+                  ,
+          <a href="https://batotoo.com">batotoo.com</a>
+                  ,
+          <a href="https://batotwo.com">batotwo.com</a>
+                  ,
+          <a href="https://batpub.com">batpub.com</a>
+                  ,
+          <a href="https://batread.com">batread.com</a>
+                  ,
+          <a href="https://battwo.com">battwo.com</a>
+                  ,
+          <a href="https://xbato.com">xbato.com</a>
+                  ,
+          <a href="https://xbato.net">xbato.net</a>
+                  ,
+          <a href="https://xbato.org">xbato.org</a>
+                  ,
+          <a href="https://zbato.com">zbato.com</a>
+                  ,
+          <a href="https://zbato.net">zbato.net</a>
+                  ,
+          <a href="https://zbato.org">zbato.org</a>
+                  ,
+          <a href="https://comiko.net">comiko.net</a>
+                  ,
+          <a href="https://comiko.org">comiko.org</a>
+                  ,
+          <a href="https://mangatoto.com">mangatoto.com</a>
+                  ,
+          <a href="https://mangatoto.net">mangatoto.net</a>
+                  ,
+          <a href="https://mangatoto.org">mangatoto.org</a>
+                  ,
+          <a href="https://batocomic.com">batocomic.com</a>
+                  ,
+          <a href="https://batocomic.net">batocomic.net</a>
+                  ,
+          <a href="https://batocomic.org">batocomic.org</a>
+                  ,
+          <a href="https://readtoto.com">readtoto.com</a>
+                  ,
+          <a href="https://readtoto.net">readtoto.net</a>
+                  ,
+          <a href="https://readtoto.org">readtoto.org</a>
+                  ,
+          <a href="https://kuku.to">kuku.to</a>
+                  ,
+          <a href="https://okok.to">okok.to</a>
+                  ,
+          <a href="https://ruru.to">ruru.to</a>
+                  ,
+          <a href="https://xdxd.to">xdxd.to</a>
+</div>
+<div>
+        Discord: <a href="/discord">https://dto.to/discord</a>
+</div>
+<div>
+        Mirror announcement: <a href="https://batotomirrors.pages.dev">https://batotomirrors.pages.dev</a>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="container-fluid container-max-width-xl">
+<div>
+<a class="text-nowrap" href="/">Home</a>
+    	| <a class="text-nowrap" href="/docs/rules">FAQ+Rules</a>
+            | <a class="text-nowrap" href="/privacy-policy">Privacy Policy</a>
+      | <a class="text-nowrap" href="/terms-of-service">Terms of Service</a>
+      | <a class="text-nowrap" href="/dmca">DMCA</a>
+          	| <a class="text-nowrap" href="/cdn-cgi/l/email-protection#9dfffce9f2b3e9f2ddf5f2e9f0fcf4f1b3fef2f0a2eee8fff7f8fee9a0c6dffce9f2e9f2c0bd" title="Contact US By Email">Contact US</a>
+</div>
+<span class="small-text">© 2018-2025
+      <a href="//bato.to">Bato.To</a>, all rights reserved.</span>
+</div>
+</footer> <div class="notification t" v-cloak="">
+<notification :key="idx" :msg="msg" v-for="(msg, idx) of notify_msg_t"></notification>
+</div>
+<div class="notification b" v-cloak="">
+<notification :key="idx" :msg="msg" v-for="(msg, idx) of notify_msg_b"></notification>
+</div> <back-to-top-bot></back-to-top-bot>
+</div>
+<script data-cfasync="false" src="local_resources\email-decode.min_2a7c421e38d8add2.js"></script><script>
+      
+      const _uid = 0;
+      const _cfg = {"cver":"22","name":"Batoto","host":"battwo.com","base":"battwo.com","imgVer":0,"cssVer":53,"jsgVer":7,"jsmVer":52,"static":"battwo.com/amsta"};
+      const _crs = {"_has_data":0,"_is_outdate":0,"settings_vers":0,"site_theme_mode":0,"site_adult_mode":0,"site_ad_format":0,"history_subject_login":0,"history_subject_local":0,"history_episode_login":0,"history_episode_local":0,"new_window_ajaxact_list":0,"new_window_subject_link":0,"new_window_episode_link":0,"analytic_system_google":0,"analytic_system_baidu":0,"topnav_hide_upload":0,"topnav_hide_discord":0,"topnav_hide_login":0,"topnav_hide_instruction":0,"home_page_my_updates_login":0,"home_page_my_updates_local":0,"home_page_my_history_login":0,"home_page_my_history_local":0,"home_page_popular":0,"home_page_disqus":0,"comic_page_chap_list_max_height":0,"comic_page_reviews":0,"comic_page_dicsuss":0,"comic_page_discuss_without_epi":0,"comic_page_disqus":0,"comic_page_btn_edit_title":0,"comic_page_btn_edit_middle":0,"comic_page_btn_edit_floating":0,"comic_page_btn_edit_bottom":0,"comic_page_btn_rss_title":0,"comic_page_btn_rss_floating":0,"comic_page_btn_follow_middle":0,"comic_page_btn_follow_floating":0,"comic_page_btn_watch_middle":0,"comic_page_btn_watch_floating":0,"comic_page_btn_mark_middle":0,"read_page_discuss":0,"block_genres_home_page_popular":["hentai"],"block_genres_home_page_release":["hentai"],"filter_langs_home_page_popular":["pt_br","pt","en"],"filter_langs_home_page_release":["pt_br","pt","en"],"v2_comment":"3","v2_review":"3"};
+          </script>
+<script crossorigin="anonymous" integrity="sha512-uzOpZ74myvXTYZ+mXUsPhDF+/iL/n32GDxdryI2SJronkEyKC8FBFRLiBQ7l7U/PTYebDbgTtbqTa6/vGtU23A==" referrerpolicy="no-referrer" src="local_resources\polyfill.min_e879c9aceeb778d2.js"></script>
+<script crossorigin="anonymous" integrity="sha512-uaZ0UXmB7NHxAxQawA8Ow2wWjdsedpRu7nJRSoI2mjnwtY8V5YiCWavoIpo1AhWPMLiW5iEeavmA3JJ2+1idUg==" referrerpolicy="no-referrer" src="local_resources\popper.min_012189bc8a052cda.js"></script>
+<script crossorigin="anonymous" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" referrerpolicy="no-referrer" src="local_resources\bootstrap.min_1d12f8deedfd7c79.js"></script>
+<script crossorigin="anonymous" integrity="sha512-BAMfk70VjqBkBIyo9UTRLl3TBJ3M0c6uyy2VMUrq370bWs7kchLNN9j1WiJQus9JAJVqcriIUX859JOm12LWtw==" referrerpolicy="no-referrer" src="local_resources\vue.min_bc9d792140d4af5c.js"></script>
+<script crossorigin="anonymous" integrity="sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ==" referrerpolicy="no-referrer" src="local_resources\axios.min_bcad98436add531b.js"></script>
+<script crossorigin="anonymous" integrity="sha512-Q1f3TS3vSt1jQ8AwP2OuenztnLU6LwxgyyYOG1jgMW/cbEMHps/3wjvnl1P3WTrF3chJUWEoxDUEjMxDV8pujg==" referrerpolicy="no-referrer" src="local_resources\moment.min_733493251f592bf1.js"></script>
+<script crossorigin="anonymous" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" referrerpolicy="no-referrer" src="local_resources\lodash.min_4dff002e280a05c0.js"></script>
+<script crossorigin="anonymous" integrity="sha512-wT7uPE7tOP6w4o28u1DN775jYjHQApdBnib5Pho4RB0Pgd9y7eSkAV1BTqQydupYDB9GBhTcQQzyNMPMV3cAew==" referrerpolicy="no-referrer" src="local_resources\js.cookie.min_0dc068a08fdfb915.js"></script>
+<script crossorigin="anonymous" integrity="sha512-3JC1BK1bUkuBNB04s7BR4VVQUNsNbBiwe5p6UqxNjR0FfhFoKT97gJ7lw953MMlKxy4UdIbFAol1Ap1Mt5+Qcw==" referrerpolicy="no-referrer" src="local_resources\dexie.min_722938b1e5f1fdaa.js"></script>
+<script src="local_resources\jss-btoto_v22_cad4b8cea1c83b6f.js"></script>
+<script>
+    const app = new Vue(VueModule_Home());
+  </script>
+<script async="" src="local_resources\js_afd88790fca87484"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RR3840ME7N');
+  </script>
+<script async="" src="local_resources\log_54cc496bc8f686fd.js" type="text/javascript"></script>
+</body>
+</html>

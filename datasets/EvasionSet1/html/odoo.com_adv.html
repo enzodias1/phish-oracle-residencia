@@ -1,0 +1,2209 @@
+<!DOCTYPE html>
+<html data-main-object="website.page(1,)" data-website-id="1" lang="pt-BR">
+ <!--
+        ___  ___   ___   ___           
+       / _ \|   \ / _ \ / _ \          
+      | (_) | |) | (_) | (_) |         
+       \___/|___/ \___/ \___/          
+   ___ _         _ _                   
+  / __| |_  __ _| | |___ _ _  __ _ ___ 
+ | (__| ' \/ _` | | / -_| ' \/ _` / -_)
+  \___|_||_\__,_|_|_\___|_||_\__, \___|
+                             |___/     
+                             
+  If you're the kind of person who reads source code, you should try our challenge:
+  https://www.odoo.com/jobs/challenge
+-->
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="yes" name="mobile-web-app-capable"/>
+  <meta content="Odoo" name="generator"/>
+  <meta content="pgjyH0qvN69B0m_HrTKV6h8TVnbRXp5etEHo19unPy4" name="google-site-verification"/>
+  <meta content="De ERP para CRM, eCommerce e CMS. Faça o download do Odoo ou use-o na nuvem. Cresça seu negócio." name="description"/>
+  <meta content="openerp, código aberto, odoo, negócios, aplicativos, saas, nuvem, insider, erp, software empresarial" name="keywords"/>
+  <meta content="website" property="og:type"/>
+  <meta content="ERP e CRM de código aberto | Odoo" property="og:title"/>
+  <meta content="Odoo" property="og:site_name"/>
+  <meta content="https://www.odoo.com/pt_BR" property="og:url"/>
+  <meta content="https://www.odoo.com/web/image/54404732-3d9bec26/SPI_homepage.png" property="og:image"/>
+  <meta content="De ERP para CRM, eCommerce e CMS. Faça o download do Odoo ou use-o na nuvem. Cresça seu negócio." property="og:description"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="ERP e CRM de código aberto | Odoo" name="twitter:title"/>
+  <meta content="https://www.odoo.com/web/image/54404732-3d9bec26/SPI_homepage.png" name="twitter:image"/>
+  <meta content="@odoo" name="twitter:site"/>
+  <meta content="De ERP para CRM, eCommerce e CMS. Faça o download do Odoo ou use-o na nuvem. Cresça seu negócio." name="twitter:description"/>
+  <link href="local_resources\ar_ad51f68c35150bd1" hreflang="ar" rel="alternate"/>
+  <link href="local_resources\ca_ES_7b0e93ba33d84b68" hreflang="ca" rel="alternate"/>
+  <link href="local_resources\zh_CN_ef9ab1bde1f1bd31" hreflang="zh" rel="alternate"/>
+  <link href="local_resources\zh_TW_ea2c22f3fc8576c6" hreflang="zh-tw" rel="alternate"/>
+  <link href="local_resources\cs_CZ_752e83bdcd48ae75" hreflang="cs" rel="alternate"/>
+  <link href="local_resources\da_DK_b4c88424a6123cd3" hreflang="da" rel="alternate"/>
+  <link href="local_resources\nl_NL_d536df53d8f80bd5" hreflang="nl" rel="alternate"/>
+  <link href="local_resources\res_349452c1ab7b62e9" hreflang="en" rel="alternate"/>
+  <link href="local_resources\fi_FI_4b6a9b728793dfd0" hreflang="fi" rel="alternate"/>
+  <link href="local_resources\fr_FR_d755e8375d037c76" hreflang="fr" rel="alternate"/>
+  <link href="local_resources\de_DE_f1e680d13e7144f7" hreflang="de" rel="alternate"/>
+  <link href="local_resources\hi_IN_caa4136f4928b62b" hreflang="hi" rel="alternate"/>
+  <link href="local_resources\id_ID_ac7a6396574e1214" hreflang="id" rel="alternate"/>
+  <link href="local_resources\it_IT_5f5753ced989d0b6" hreflang="it" rel="alternate"/>
+  <link href="local_resources\ja_JP_3fe3c3bfcfbaaf74" hreflang="ja" rel="alternate"/>
+  <link href="local_resources\ko_KR_cbc70352a36af2d2" hreflang="ko" rel="alternate"/>
+  <link href="local_resources\lt_LT_7b8a8644fde72722" hreflang="lt" rel="alternate"/>
+  <link href="local_resources\pl_PL_24dd24db5987d4af" hreflang="pl" rel="alternate"/>
+  <link href="local_resources\pt_BR_bbc0a84d3c1c4d83" hreflang="pt" rel="alternate"/>
+  <link href="local_resources\ro_RO_10af721c8a0a8f1d" hreflang="ro" rel="alternate"/>
+  <link href="local_resources\ru_RU_196863d94d5bb10f" hreflang="ru" rel="alternate"/>
+  <link href="local_resources\sk_SK_a98d106e25e5fa0c" hreflang="sk" rel="alternate"/>
+  <link href="local_resources\sl_SI_75a8ef6510292668" hreflang="sl" rel="alternate"/>
+  <link href="local_resources\es_c9d9749bc1f81597" hreflang="es" rel="alternate"/>
+  <link href="local_resources\es_ES_c9f31ed01a262cb8" hreflang="es-es" rel="alternate"/>
+  <link href="local_resources\th_TH_73aed1f9e55137ca" hreflang="th" rel="alternate"/>
+  <link href="local_resources\tr_TR_0cb6bbc9dda4685e" hreflang="tr" rel="alternate"/>
+  <link href="local_resources\uk_UA_262eab2ab429c7b3" hreflang="uk" rel="alternate"/>
+  <link href="local_resources\vi_VN_beeb5c3461d397a3" hreflang="vi" rel="alternate"/>
+  <link href="local_resources\res_349452c1ab7b62e9" hreflang="x-default" rel="alternate"/>
+  <link href="local_resources\pt_BR_bbc0a84d3c1c4d83" rel="canonical"/>
+  <link crossorigin="" href="local_resources\res_5735f5e26c590224" rel="preconnect"/>
+  <title>
+   ERP e CRM de código aberto | Odoo
+  </title>
+  <link href="local_resources\favicon_5f9c97833335416d" rel="shortcut icon" type="image/x-icon"/>
+  <link as="font" crossorigin="" href="local_resources\fontawesome-webfont_12b3fa9f646291c6.woff2" rel="preload"/>
+  <link href="local_resources\web.assets_frontend.min_8cf5d356b9fa78d3.css" rel="stylesheet" type="text/css"/>
+  <script id="web.layout.odooscript" type="text/javascript">
+   var odoo = {
+                csrf_token: "aa6367a43f7aa285a0442824ffe53f65677e6a6eo1792555193",
+                debug: "",
+            };
+  </script>
+  <script type="text/javascript">
+   odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_public": true, "is_internal_user": false, "is_website_user": true, "uid": null, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "currencies": {"137": {"symbol": "AED", "position": "after", "digits": [69, 2]}, "19": {"symbol": "ARS", "position": "after", "digits": [69, 2]}, "21": {"symbol": "AUD", "position": "after", "digits": [69, 2]}, "59": {"symbol": "\u09f3", "position": "after", "digits": [69, 2]}, "27": {"symbol": "\u043b\u0432", "position": "after", "digits": [69, 2]}, "6": {"symbol": "R$", "position": "before", "digits": [69, 2]}, "4": {"symbol": "CAD", "position": "after", "digits": [69, 2]}, "5": {"symbol": "CHF", "position": "after", "digits": [69, 2]}, "7": {"symbol": "CNY", "position": "after", "digits": [69, 2]}, "194": {"symbol": "K\u010d", "position": "after", "digits": [69, 2]}, "10": {"symbol": "kr", "position": "after", "digits": [69, 2]}, "80": {"symbol": "E\u00a3", "position": "after", "digits": [69, 2]}, "1": {"symbol": "\u20ac", "position": "after", "digits": [69, 2]}, "18": {"symbol": "GBP", "position": "after", "digits": [69, 2]}, "25": {"symbol": "HK$", "position": "after", "digits": [69, 2]}, "11": {"symbol": "HUF", "position": "after", "digits": [69, 2]}, "193": {"symbol": "Rp", "position": "before", "digits": [69, 2]}, "20": {"symbol": "Rs", "position": "after", "digits": [69, 2]}, "26": {"symbol": "\u00a5", "position": "after", "digits": [69, 2]}, "100": {"symbol": "KSh", "position": "after", "digits": [69, 2]}, "34": {"symbol": "\u20a9", "position": "after", "digits": [69, 2]}, "151": {"symbol": "Rs", "position": "after", "digits": [69, 2]}, "116": {"symbol": " \u062f.\u0645", "position": "after", "digits": [69, 2]}, "115": {"symbol": "\u20ae", "position": "after", "digits": [69, 2]}, "44": {"symbol": "Rs", "position": "after", "digits": [69, 2]}, "35": {"symbol": "Mex$", "position": "before", "digits": [69, 2]}, "36": {"symbol": "RM", "position": "after", "digits": [69, 2]}, "183": {"symbol": "kr", "position": "before", "digits": [69, 2]}, "37": {"symbol": "$", "position": "after", "digits": [69, 2]}, "38": {"symbol": "Php", "position": "after", "digits": [69, 2]}, "171": {"symbol": "Rs.", "position": "after", "digits": [69, 2]}, "16": {"symbol": "z\u0142", "position": "after", "digits": [69, 2]}, "166": {"symbol": "QR", "position": "after", "digits": [69, 2]}, "30": {"symbol": "kr", "position": "after", "digits": [69, 2]}, "158": {"symbol": "SR", "position": "after", "digits": [69, 2]}, "178": {"symbol": "kr", "position": "after", "digits": [69, 2]}, "39": {"symbol": "$", "position": "after", "digits": [69, 2]}, "40": {"symbol": "\u0e3f", "position": "after", "digits": [69, 2]}, "141": {"symbol": "DT", "position": "after", "digits": [69, 2]}, "146": {"symbol": "NT$", "position": "after", "digits": [69, 2]}, "2": {"symbol": "US$", "position": "before", "digits": [69, 2]}, "24": {"symbol": "\u20ab", "position": "after", "digits": [69, 2]}, "41": {"symbol": "R", "position": "after", "digits": [69, 2]}}, "quick_login": true, "bundle_params": {"lang": "pt_BR", "website_id": 1}, "test_mode": false, "websocket_worker_version": "saas-18.3-5", "translationURL": "/website/translations", "cache_hashes": {"translations": "220b5ab63f850c269a1c76b4ed067ba1c1e502f9"}, "geoip_country_code": "BR", "geoip_phone_code": 55, "lang_url_code": "pt_BR", "turnstile_site_key": "0x4AAAAAAADwqVOUIWCeR_H8", "add_to_cart_action": "stay"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+  </script>
+  <script defer="defer" onerror="__odooAssetError=1" src="local_resources\web.assets_frontend_minimal.min_2f2d61c46876da0b.js" type="text/javascript">
+  </script>
+  <script data-src="https://odoocdn.com/web/assets/1/b6929a3/web.assets_frontend_lazy.min.js" defer="defer" onerror="__odooAssetError=1" type="text/javascript">
+  </script>
+  <script type="application/ld+json">
+   {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Odoo S.A.",
+    "logo": "https://www.odoo.com/logo.png?company=1",
+    "url": "https://www.odoo.com"
+}
+  </script>
+  <script>
+   if (!window.odoo) {
+                    window.odoo = {};
+                }
+                odoo.__session_info__ = odoo.__session_info__ || {
+                    websocket_worker_version: "saas-18.3-5"
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__, {
+                    livechatData: {
+                        isAvailable: true,
+                        serverUrl: "https://www.odoo.com",
+                        can_load_livechat: true,
+                        options: {"header_background_color": "#714b67", "button_background_color": "#714b67", "title_color": "#FFFFFF", "button_text_color": "#FFFFFF", "button_text": "Chat with a human!", "input_placeholder": false, "default_message": "Welcome to Odoo. How can I help you today?", "channel_name": "Odoo Website ALL", "channel_id": 19, "default_username": "Visitante"},
+                    },
+                    test_mode: false,
+                });
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+  </script>
+  <noscript>
+   <style>
+    /* Prevent animated elements hiding */
+                    .o_animate_in_children > * {
+                        opacity: 1!important;
+                        -webkit-transform: scale(1)!important;
+                        -ms-transform: scale(1)!important;
+                        transform: scale(1)!important;
+                    }
+   </style>
+  </noscript>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <div class="o_openerp_website.homepage_template" id="wrapwrap">
+   <a class="o_skip_to_content btn btn-primary rounded-0 visually-hidden-focusable position-absolute start-0" href="#skip" onclick="">
+    Pular para o conteúdo
+   </a>
+   <header class="o_no_autohide_menu o_affix_enabled o_header_fixed o_header_fade_out o_main_header o_not_editable" data-anchor="true" data-extra-items-toggle-aria-label="Botão de itens extras" data-name="Header" id="top" style=" ">
+    <div class="o_main_header_main top_menu" id="top_menu">
+     <a class="float-start o_logo" href="Javascript:void(0)" onclick="">
+      <span class="visually-hidden sr-only">
+       Odoo
+      </span>
+     </a>
+     <a class="o_mobile_menu_toggle d-inline-block d-lg-none" href="#" onclick="" role="button">
+      <i class="fa fa-bars" focusable="false">
+      </i>
+      <span class="visually-hidden sr-only">
+       Menu
+      </span>
+     </a>
+     <ul class="o_header_buttons list-unstyled">
+      <li class="o_wsale_my_cart nav-item me-lg-0 d-none">
+       <a aria-label="Shopping Cart" class="nav-link px-1" href="#" onclick="">
+        <i class="fa fa-shopping-cart">
+        </i>
+        <sup class="my_cart_quantity rounded-pill bg-o-color-1 ms-1 py-1 px-2">
+        </sup>
+       </a>
+      </li>
+      <li class="nav-item o_no_autohide_item">
+       <a class="nav-link" href="#skip" onclick="">
+        Entrar
+       </a>
+      </li>
+      <li class="nav-item o_no_autohide_item">
+       <a class="btn btn-primary btn-sm text-nowrap trial_link" href="#skip" onclick="">
+        Experimente grátis
+       </a>
+      </li>
+     </ul>
+     <ul class="o_primary_nav">
+      <li class="dropdown">
+       <a aria-expanded="false" aria-label="Aplicativos: use o menu para alternar aplicativos" class="dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" href="Javascript:void(0)" onclick="">
+        Aplicativos
+       </a>
+       <div class="start-0 dropdown-menu o_secondary_nav" data-bs-parent="o_primary_nav">
+        <div class="container">
+         <div class="row">
+          <div class="col-lg-3 o_finance_apps">
+           <div class="o_nav_app_family">
+            Finanças
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Financeiro
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Faturamento
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Despesas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Planilhas (BI)
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Documentos
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Assinar Documentos
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_sale_apps">
+           <div class="o_nav_app_family">
+            Vendas
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              CRM
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Vendas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              PDV Loja
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              PDV Restaurantes
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Assinaturas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Locação
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_website_apps">
+           <div class="o_nav_app_family">
+            Websites
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Criador de Sites
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              e-Commerce
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Blog
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Fórum
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Chat ao Vivo
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              e-Learning
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_inventory_apps">
+           <div class="o_nav_app_family">
+            Cadeia de mantimentos
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Inventário
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Fabricação
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              PLM - Ciclo de Vida do Produto
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Compras
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Manutenção
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Qualidade
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="row">
+          <div class="col-lg-3 o_hr_apps">
+           <div class="o_nav_app_family">
+            Recursos Humanos
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Funcionários
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Recrutamento
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Folgas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Avaliações
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Indicações
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Frota
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_marketing_apps">
+           <div class="o_nav_app_family">
+            Marketing
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Redes Sociais
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Marketing por E-mail
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Marketing por SMS
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Eventos
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Automação de Marketing
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Pesquisas
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_services_apps">
+           <div class="o_nav_app_family">
+            Serviços
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Projeto
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Planilhas de Horas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Serviço de Campo
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Central de Ajuda
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Planejamento
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Compromissos
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_productivity_apps">
+           <div class="o_nav_app_family">
+            Produtividade
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Mensagens
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Aprovações
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Internet das Coisas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              VoIP
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Conhecimento
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              WhatsApp
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <span class="o_store_link d-md-flex justify-content-md-center">
+         <a class="mx-md-3 px-3 dropdown-item" href="#content" onclick="">
+          <i class="fa fa-cube fa-fw me-2">
+          </i>
+          Aplicativos de terceiros
+         </a>
+         <a class="mx-md-3 px-3 dropdown-item" href="#content" onclick="">
+          <i class="fa fa-pencil fa-fw me-2">
+          </i>
+          Odoo Studio
+         </a>
+         <a class="mx-md-3 px-3" href="#" onclick="">
+          <i class="fa fa-cloud fa-fw me-2">
+          </i>
+          Plataforma Odoo Cloud
+         </a>
+        </span>
+       </div>
+      </li>
+      <li class="dropdown">
+       <a aria-expanded="false" aria-label="Setores: use o menu suspenso para encontrar links para páginas relacionadas a setores" class="dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" href="Javascript:void(0)" onclick="">
+        Setores
+       </a>
+       <div class="start-0 dropdown-menu o_secondary_nav" data-bs-parent="o_primary_nav">
+        <div class="container pb-4">
+         <div class="row">
+          <div class="col-lg-3 o_retail_industries">
+           <div class="o_nav_app_family">
+            Varejo
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Loja de livros
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Loja de roupas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Loja de móveis
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Mercearia
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Loja de ferramentas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Loja de brinquedos
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_food_industries">
+           <div class="o_nav_app_family">
+            Food &amp; Hospitality
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Bar e Pub
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Restaurante
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Fast Food
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Guest House
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Distribuidor de bebidas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Hotel
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_real_estate_industries">
+           <div class="o_nav_app_family">
+            Real Estate
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Real Estate Agency
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Escritório de arquitetura
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Construção
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Administração de propriedades
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Jardinagem
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Associação de proprietários de imóveis
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_consulting_industries">
+           <div class="o_nav_app_family">
+            Consulting
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Escritório de Contabilidade
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Parceiro Odoo
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Agência de marketing
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Escritório de advocacia
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Aquisição de talentos
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Auditoria e Certificação
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="row">
+          <div class="col-lg-3 o_manufacturing_industries">
+           <div class="o_nav_app_family">
+            Fabricação
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Textile
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Metal
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Furnitures
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Food
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Cervejaria
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Presentes corporativos
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_health_industries">
+           <div class="o_nav_app_family">
+            Saúde e Boa forma
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Clube esportivo
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Loja de óculos
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Academia
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Profissionais de bem-estar
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Farmácia
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Salão de cabeleireiro
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_trades_industries">
+           <div class="o_nav_app_family">
+            Trades
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Handyman
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Hardware e suporte de TI
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Solar Energy Systems
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Sapataria
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Serviços de limpeza
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              HVAC Services
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_others_industries">
+           <div class="o_nav_app_family">
+            Others
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Nonprofit Organization
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Agência Ambiental
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Aluguel de outdoors
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Fotografia
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Aluguel de bicicletas
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Revendedor de software
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <span class="o_store_link d-md-flex justify-content-center text-center">
+         <a class="px-3 fs-6" href="#content" onclick="">
+          Navegar por todos os setores
+          <img alt="" class="d-inline ms-3" height="30px" loading="lazy" role="presentation" src="local_resources\phish_white_arrow_right_36483580e0c9e5d2.svg"/>
+         </a>
+        </span>
+       </div>
+      </li>
+      <li class="dropdown">
+       <a aria-expanded="false" aria-label="Comunidade: use o menu para encontrar links para páginas relacionadas à comunidade" class="dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" href="#" onclick="">
+        Comunidade
+       </a>
+       <div class="start-0 dropdown-menu o_secondary_nav pb-0" data-bs-parent="o_primary_nav">
+        <div class="container">
+         <div class="row">
+          <div class="col-lg-3 o_learn_com">
+           <div class="o_nav_com_family">
+            Aprenda
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Tutoriais
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Documentação
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Certificações
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Treinamento
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Blog
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="" target="_blank">
+              Podcast
+             </a>
+            </li>
+           </ul>
+           <div class="o_nav_com_family mt-lg-5">
+            Empodere a Educação
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Programa de educação
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Scale Up! Jogo de Negócios
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Visite a Odoo
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_software_com">
+           <div class="o_nav_com_family">
+            Obtenha o Software
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Baixar
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Comparar edições
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Releases
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_collab_com">
+           <div class="o_nav_com_family">
+            Colaborar
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Github
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Fórum
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#content" onclick="">
+              Eventos
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Traduções
+             </a>
+            </li>
+           </ul>
+           <ul class="pt-lg-3">
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Torne-se um parceiro
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Services for Partners
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Cadastre seu escritório contábil
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-lg-3 o_services_com">
+           <div class="o_nav_com_family">
+            Obtenha os serviços
+           </div>
+           <ul>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Encontre um parceiro
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Encontre um Contador
+             </a>
+            </li>
+           </ul>
+           <ul class="pt-lg-3">
+            <li>
+             <div class="o_schedule_demo">
+              <a class="dropdown-item text-start" href="Javascript:void(0)" onclick="" target="_blank">
+               Conheça um consultor
+              </a>
+             </div>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#" onclick="">
+              Serviços de Implementação
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#skip" onclick="">
+              Referências de Clientes
+             </a>
+            </li>
+           </ul>
+           <ul class="pt-lg-3">
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Suporte
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="Javascript:void(0)" onclick="">
+              Upgrades
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <span class="o_header_social">
+         <div class="social_icons">
+          <a class="d-inline dropdown-item" href="Javascript:void(0)" onclick="" target="_blank">
+           <i class="fa fa-fw fa-github" focusable="false">
+           </i>
+           <span class="visually-hidden sr-only">
+            Github
+           </span>
+          </a>
+          <a class="d-inline dropdown-item" href="#skip" onclick="" target="_blank">
+           <i class="fa fa-fw fa-youtube-play" focusable="false">
+           </i>
+           <span class="visually-hidden sr-only">
+            YouTube
+           </span>
+          </a>
+          <a class="d-inline dropdown-item" href="#" onclick="" target="_blank">
+           <i class="fa fa-fw fa-twitter" focusable="false">
+           </i>
+           <span class="visually-hidden sr-only">
+            Twitter
+           </span>
+          </a>
+          <a class="d-inline dropdown-item" href="#content" onclick="" target="_blank">
+           <i class="fa fa-fw fa-linkedin" focusable="false">
+           </i>
+           <span class="visually-hidden sr-only">
+            Linkedin
+           </span>
+          </a>
+          <a class="d-inline dropdown-item" href="Javascript:void(0)" onclick="" target="_blank">
+           <i class="fa fa-fw fa-instagram" focusable="false">
+           </i>
+           <span class="visually-hidden sr-only">
+            Instagram
+           </span>
+          </a>
+          <a class="d-inline dropdown-item" href="Javascript:void(0)" onclick="" target="_blank">
+           <i class="fa fa-fw fa-facebook" focusable="false">
+           </i>
+           <span class="visually-hidden sr-only">
+            Facebook
+           </span>
+          </a>
+          <a class="d-inline dropdown-item" href="#skip" onclick="" target="_blank">
+           <svg class="custom-tiktok" clip-rule="evenodd" fill="currentColor" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" style="width: 15px; margin-top: -3px;" text-rendering="geometricPrecision" viewbox="0 0 2859 3333" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2081 0c55 473 319 755 778 785v532c-266 26-499-61-770-225v995c0 1264-1378 1659-1932 753-356-583-138-1606 1004-1647v561c-87 14-180 36-265 65-254 86-398 247-358 531 77 544 1075 705 992-358V1h551z">
+            </path>
+           </svg>
+          </a>
+          <a class="d-inline dropdown-item" href="#" onclick="" target="_blank">
+           <i class="fa fa-fw fa-spotify" focusable="false">
+           </i>
+           <span class="visually-hidden sr-only">
+            Spotify
+           </span>
+          </a>
+         </div>
+         <div>
+          <a class="d-inline dropdown-item" href="#content" onclick="">
+           <i class="fa fa-phone text-muted me-1">
+           </i>
+           +32 2 290 34 90
+          </a>
+          <div class="o_schedule_demo w-auto">
+           <a class="dropdown-item d-inline text-start" href="Javascript:void(0)" onclick="" target="_blank">
+            <i class="fa fa-calendar text-muted">
+            </i>
+            Faça uma demonstração
+           </a>
+          </div>
+         </div>
+        </span>
+       </div>
+      </li>
+      <li>
+       <a href="#skip" onclick="">
+        Preços
+       </a>
+      </li>
+      <li>
+       <a href="#content" onclick="">
+        Ajuda
+       </a>
+      </li>
+     </ul>
+    </div>
+   </header>
+   <main>
+    <div class="x_wd" id="wrap">
+     <section class="pt-5 pb-6 text-center">
+      <div class="container">
+       <h1 class="display-1">
+        O seu negócio inteiro em
+        <span class="x_wd_yellow_highlight_bold_05">
+         uma plataforma.
+        </span>
+       </h1>
+       <h2 class="display-3 position-relative mb-5">
+        Simples, eficiente e
+        <span class="x_wd_blue_highlight_01 position-relative">
+         econômica!
+         <em class="x_wd_doodle position-absolute top-100 end-0 d-none d-lg-inline rotate-350 mt-n3 me-n10">
+          <img alt="" class="d-block o_rtl_flip mb-3" loading="lazy" src="local_resources\phish_arrow_doodle_1_5b8bb623869ae26a.svg"/>
+          <span data-oe-expression="pricing.get('yearly_standard_discounted', 25)" data-oe-type="monetary">
+           R$
+           <span class="oe_currency_value">
+            38,40
+           </span>
+          </span>
+          por mês
+          <br/>
+          por TODOS os apps
+         </em>
+        </span>
+       </h2>
+       <a class="btn btn-primary mb-2 me-3" href="#content" onclick="">
+        Comece agora
+        <span class="d-none d-md-inline">
+         – é grátis
+        </span>
+       </a>
+       <div class="o_schedule_demo">
+        <div class="dropdown">
+         <a class="dropdown-toggle btn btn-light mb-2" data-bs-toggle="dropdown" href="#content" onclick="">
+          Conheça um consultor
+         </a>
+         <ul class="dropdown-menu">
+          <li>
+           <a class="dropdown-item btn" href="Javascript:void(0)" onclick="" target="_blank">
+            Microempresa (1 a 5 funcionários)
+           </a>
+          </li>
+          <li>
+           <a class="dropdown-item btn" href="#" onclick="" target="_blank">
+            Pequena empresa (6 a 50 funcionários)
+           </a>
+          </li>
+          <li>
+           <a class="dropdown-item btn" href="#skip" onclick="" target="_blank">
+            Empresa com mais de 50 funcionários
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="bg-200 o_colored_level pt-4 pt-md-6 pb-7" data-oe-shape-data="{'shape':'illustration/doodle/03'}">
+      <div class="o_we_shape o_illustration_doodle_03">
+      </div>
+      <img alt="" class="x_wd_apps_switched position-absolute start-50 translate-middle zn-2" loading="lazy" src="local_resources\phish_apps_switched_e53d12f2146c34d5.svg"/>
+      <div class="container">
+       <div class="row justify-content-center">
+        <div class="col-xl-9 col-xxl-8 text-center">
+         <div class="x_wd_notification_box position-relative rounded rounded-pill-md">
+          <img alt="Brasil" class="rounded-pill ms-md-2 me-1 me-md-3" data-no-post-process="" height="16px" loading="lazy" src="local_resources\phish_br_35708c6d9f3899be.png"/>
+          <span class="align-middle fw-bold text-start">
+           Recursos Humanos - Curitiba
+          </span>
+          <div class="text-nowrap ms-md-3">
+           nov. 6, 2025
+          </div>
+          <a class="stretched-link text-nowrap mx-md-3 ms-lg-5" href="#" onclick="" target="_blank">
+           Registre-se ⟶
+          </a>
+         </div>
+         <div class="row mt-5 mt-md-6">
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Financeiro icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_58e864013ccb3ebb.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Financeiro
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="Javascript:void(0)" onclick="">
+           <figure>
+            <img alt="Odoo Conhecimento icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_886214c3a60b89d5.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Conhecimento
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Assinatura de Documentos icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_29b08a65f97ace12.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Assinatura de Documentos
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo CRM icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_49ce857fbb2ad10f.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             CRM
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Estúdio icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_2106f13fa8740732.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Estúdio
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Assinaturas icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_5fe2d87910273661.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Assinaturas
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Locação icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_f0bc8e7a697b26da.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Locação
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="Javascript:void(0)" onclick="">
+           <figure>
+            <img alt="Odoo Ponto de Venda icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_d161543b3a0f92de.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Ponto de Venda
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Mensagens icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_8b5a9467b9c7da45.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Mensagens
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Documentos icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_d683ec1185298c9a.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Documentos
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Projeto icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_bcf01b619d462fee.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Projeto
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Planilha de Horas icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_7ba10a97fcca16ef.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Planilhas de Horas
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Serviço de Campo icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_8935ea8ee50c88ce.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Serviço de Campo
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Planejamento icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_0ef72990a6ff5026.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Planejamento
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Central de Ajuda icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_cde448cfd63d25cd.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Central de Ajuda
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Site icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_5d1fefd8d8d26353.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Site
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Redes Sociais icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_f9d43e4c3eb596cd.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Redes Sociais
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Marketing de E-mail icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_78640299ef57931e.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Marketing de E-mail
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#content" onclick="">
+           <figure>
+            <img alt="Odoo Compras icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_10dbf043902fbf08.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Compras
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#skip" onclick="">
+           <figure>
+            <img alt="Odoo Inventário icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_a6bd9b2be128afc8.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Inventário
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Fabricação icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_f4b110d0fce6d2b1.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Fabricação
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#skip" onclick="">
+           <figure>
+            <img alt="Odoo Vendas icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_167bdfb2ab2ace05.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Vendas
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="#" onclick="">
+           <figure>
+            <img alt="Odoo Funcionários icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_7ae8798bb3ec91ce.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             RH
+            </figcaption>
+           </figure>
+          </a>
+          <a class="x_wd_app_entry text-center mb-3 col-4 col-sm-3 col-lg-2 p-0" href="Javascript:void(0)" onclick="">
+           <figure>
+            <img alt="Odoo Painel de Planilhas icon" class="img-thumbnail rounded-1 mb-3" loading="lazy" src="local_resources\phish_icon_03c80637be74498f.svg" width="80px"/>
+            <figcaption class="text-truncate small text-o-color-5">
+             Dashboard
+            </figcaption>
+           </figure>
+          </a>
+          <div class="col-lg-6 pt40 d-none d-lg-block">
+           <div class="form-check form-switch w-auto text-start ps-3 x_wd_corner_highlight_04">
+            <input class="form-check-input m-0" id="x_wd_apps_switcher" role="switch" style="width: 3rem; height: 1.5rem;" type="checkbox"/>
+            <label class="form-check-label fw-bold text-o-color-1 px-3" for="x_wd_apps_switcher">
+             Como seria sem o Odoo
+            </label>
+           </div>
+          </div>
+          <div class="col-lg-6 pt40 text-end">
+           <a href="#" onclick="">
+            Ver todos os apps
+            <img alt="" class="align-top o_rtl_flip ms-2 me-3" loading="lazy" src="local_resources\phish_secondary_arrow_sm_03_40d70b85b7a8b221.svg" width="40px"/>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="bg-200 o_colored_level pb-5 pb-lg-7 text-center">
+      <div class="container">
+       <p class="lead mb-5">
+        <strong>
+         Imagine uma biblioteca inteira de aplicativos empresariais ao seu dispor.
+        </strong>
+        <br class="d-none d-lg-block"/>
+        Precisa melhorar alguma coisa? Temos um aplicativo para isso.
+        <br class="d-none d-lg-block"/>
+        Sem complexidade, sem custo adicional, basta instalar em um clique.
+       </p>
+       <p class="lead">
+        Cada aplicativo simplifica um processo e aumenta o potencial de cada pessoa.
+        <br class="d-none d-lg-block"/>
+        Imagine o impacto quando todo mundo tiver a ferramenta certa para o trabalho, com total integração.
+       </p>
+      </div>
+     </section>
+     <section class="bg-200 o_colored_level zn-1 pt-6">
+      <div class="container">
+       <div class="s_wd_persona position-relative ms-auto mb-n4">
+        <img alt="" class="s_wd_persona_bg" loading="lazy" src="local_resources\phish_bg_yellow_a50ae69b486b38dc.svg"/>
+        <div class="position-relative bg-white rounded rounded-pill-md shadow p-3 px-md-5">
+         <i>
+          Se você simplificar tudo, você pode fazer qualquer coisa!
+         </i>
+         <br/>
+         <small class="text-muted">
+          – Bill McDermott, ex-CEO da SAP
+         </small>
+        </div>
+        <img alt="" class="s_wd_persona_icon" loading="lazy" src="local_resources\phish_bill_caaf9639430c5d0c.png"/>
+       </div>
+      </div>
+     </section>
+     <section class="bg-200 o_colored-level overflow-x-hidden pb-5 pb-lg-7">
+      <div class="container o_container">
+       <div class="row justify-content-center x_wd_shape x_wd_shape_white x_wd_shape_rs video_homepage_row">
+        <div class="col-lg-10 pt-8">
+         <h2 class="display-2 text-center mb-6">
+          <span class="x_wd_red_highlight_bold_05">
+           Leve
+          </span>
+          o seu trabalho a outro
+          <span class="x_wd_green_highlight_03">
+           patamar
+          </span>
+         </h2>
+         <div class="mb-n5">
+          <video class="img-thumbnail" id="video_homepage" loop="loop" muted="muted">
+           <source src="https://download.odoocdn.com/videos/odoo_com/video_homepage.webm" type="video/webm"/>
+           <source src="https://download.odoocdn.com/videos/odoo_com/video_homepage.mp4" type="video/mp4"/>
+          </video>
+          <div class="row justify-content-md-center d-none d-md-flex" style="align-items: center;">
+           <a accesskey="P" class="btn play col col-1 text-primary" href="#content" id="btnPlayPause" onclick="">
+            <i class="fa fa-play">
+            </i>
+           </a>
+           <input class="progressbar p-0 col col-6" id="progress-bar" max="100" min="0" type="range" value="0"/>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="bg-200 py-5 py-lg-7" data-oe-shape-data="{'shape':'illustration/doodle/02'}">
+      <div class="o_we_shape o_illustration_doodle_02" style="background-image: url('/pt_BR/web_editor/shape/illustration%2Fdoodle%2F02.svg?c5=%23F2BB62');">
+      </div>
+      <div class="container">
+       <h2 class="display-2 text-center mb-6">
+        Otimizado para
+        <span class="x_wd_yellow_highlight_03">
+         produtividade
+        </span>
+       </h2>
+       <div class="row o_grid_mode" data-row-count="16">
+        <div class="o_grid_item d-none d-lg-block g-height-12" style="grid-area: 3 / 3 / 15 / 11;">
+         <img alt="" class="img-thumbnail o_anim_fade_in o_animate" loading="lazy" src="local_resources\phish_speed_1_0529b40456377f17.webp"/>
+        </div>
+        <div class="o_grid_item d-none d-lg-block g-col-lg-6 g-height-6" style="grid-area: 11 / 1 / 17 / 7;">
+         <img alt="" class="img-thumbnail o_anim_fade_in o_animate" loading="lazy" src="local_resources\phish_ctrl-k-630_24d4100d03bef5d1.gif"/>
+        </div>
+        <div class="o_grid_item d-none d-lg-block g-height-9 g-col-lg-3" style="grid-area: 8 / 10 / 17 / 13;">
+         <img alt="" class="img-thumbnail o_anim_fade_in o_animate" loading="lazy" src="local_resources\phish_speed_3_91f5de563a676d86.webp"/>
+        </div>
+        <div class="o_grid_item d-none d-lg-block g-col-lg-3 g-height-8" style="grid-area: 1 / 1 / 9 / 4;">
+         <img alt="" class="img-thumbnail o_anim_fade_in o_animate" loading="lazy" src="local_resources\phish_speed_4_7c2bc7e2bad96e70.webp"/>
+        </div>
+        <div class="o_grid_item d-block d-lg-none">
+         <img alt="" class="w-100 o_anim_fade_in o_animate" loading="lazy" src="local_resources\phish_mobile_productivity_c06e87bf10f2151b.webp"/>
+        </div>
+       </div>
+       <div class="row justify-content-center">
+        <div class="co-lg-6 col-xl-5 pt-6 text-center">
+         <p class="lead mb-4">
+          <strong>
+           Experimente velocidade real,
+          </strong>
+          menos entrada de dados, IA inteligente e uma interface ágil. Todas as operações são feitas a menos de 90 ms – mais rápido que um piscar de olhos.
+         </p>
+         <img alt="" class="rotate-40 o_rtl_no_rotate mx-auto mb-4" loading="lazy" src="local_resources\phish_arrow_doodle_3_1879c175b7def01d.svg"/>
+         <div class="s_panel_video position-relative" data-video-id="5S-1uDGD4GA">
+          <a class="btn_video_play display-5 text-o-color-1 rotate-350 mx-auto" href="Javascript:void(0)" onclick="">
+           <img alt="" class="me-2" loading="lazy" src="local_resources\phish_youtube_9af16fcd44cc13f6.svg" width="45px"/>
+           Compare com a SAP
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="text-center pb-5 pt-7">
+      <div class="container">
+       <h2 class="display-2 mb-5 mb-lg-7">
+        <span class="x_wd_blue_highlight_bold_03">
+         Todas as tecnologias
+        </span>
+        em uma plataforma
+       </h2>
+       <div class="row justify-content-center">
+        <div class="col-6 col-lg-3 px-lg-5 pb-5">
+         <div class="bg-200 ratio ratio-1x1 rounded-circle">
+          <img alt="Dispositivo Inventário" class="w-100" loading="lazy" src="local_resources\phish_device_shopfloor_eb4d86bf2fba91dc.webp"/>
+         </div>
+         <h3 class="h5 mt-3">
+          Chão de Fábrica
+         </h3>
+        </div>
+        <div class="col-6 col-lg-3 px-lg-5 pb-5">
+         <div class="bg-200 ratio ratio-1x1 rounded-circle">
+          <img alt="Custos com dispositivos" class="w-100" loading="lazy" src="local_resources\phish_device_expenses_200540c595f05a3a.webp"/>
+         </div>
+         <h3 class="h5 mt-3">
+          Despesas
+         </h3>
+        </div>
+        <div class="col-6 col-lg-3 px-lg-5 pb-5">
+         <div class="bg-200 ratio ratio-1x1 rounded-circle">
+          <img alt="Dispositivo PDV" class="w-100" loading="lazy" src="local_resources\phish_device_pos_e67e031416712ef8.webp"/>
+         </div>
+         <h3 class="h5 mt-3">
+          Ponto de Venda
+         </h3>
+        </div>
+        <div class="col-6 col-lg-3 px-lg-5 pb-5">
+         <div class="bg-200 ratio ratio-1x1 rounded-circle">
+          <img alt="Dispositivo IoT" class="w-100" loading="lazy" src="local_resources\phish_device_iot_af6ba0a89908ad83.webp"/>
+         </div>
+         <h3 class="h5 mt-3">
+          Internet das Coisas
+         </h3>
+        </div>
+        <div class="col-6 col-lg-3 px-lg-5 pb-5">
+         <div class="bg-200 ratio ratio-1x1 rounded-circle">
+          <img alt="Dispositivo Recepção" class="w-100" loading="lazy" src="local_resources\phish_device_frontdesk_4c15fa482cb3984c.webp"/>
+         </div>
+         <h3 class="h5 mt-3">
+          Balcão de Atendimento
+         </h3>
+        </div>
+        <div class="col-6 col-lg-3 px-lg-5 pb-5">
+         <div class="bg-200 ratio ratio-1x1 rounded-circle">
+          <img alt="Dispositivo Inventário" class="w-100" loading="lazy" src="local_resources\phish_device_inventory_9d531a9048d30e0d.webp"/>
+         </div>
+         <h3 class="h5 mt-3">
+          Inventário
+         </h3>
+        </div>
+        <div class="col-6 col-lg-3 px-lg-5 pb-5">
+         <div class="bg-200 ratio ratio-1x1 rounded-circle">
+          <img alt="Dispositivo Quiosque" class="w-100" loading="lazy" src="local_resources\phish_device_kiosk_087f6322cf37b956.webp"/>
+         </div>
+         <h3 class="h5 mt-3">
+          Quiosque
+         </h3>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="s_wd_features py-5 py-lg-7 bg-200" data-name="Features" data-snippet="s_wd_features">
+      <div class="container">
+       <h2 class="display-2 mb-6">
+        Software
+        <span class="x_wd_display_circle">
+         empresarial
+        </span>
+        <br/>
+        do jeito
+        <span class="x_wd_display_underline">
+         certo
+        </span>
+        <span class="text-o-color-8">
+         .
+        </span>
+       </h2>
+       <div class="row">
+        <div class="col-lg-7">
+         <div class="s_wd_features_item">
+          <h4 class="s_wd_features_title">
+           Código aberto
+          </h4>
+          <p>
+           Por trás da tecnologia está uma comunidade de mais de 100 mil desenvolvedores que colaboram em todo o mundo. Estamos unidos pelo espírito do código aberto e por uma visão em comum: “transformar empresas, capacitar funcionários”.
+          </p>
+          <p class="mb-4">
+           O Odoo está disponível em duas edições:
+           <br/>
+           •
+           <strong>
+            Community
+           </strong>
+           : código aberto, 100% gratuito.
+           <br/>
+           •
+           <strong>
+            Enterprise
+           </strong>
+           : apps adicionais, infraestrutura e serviços profissionais.
+          </p>
+          <a class="btn btn-primary" href="#skip" onclick="">
+           Comparar edições
+          </a>
+         </div>
+         <div class="s_wd_features_item overflow-hidden">
+          <h4 class="s_wd_features_title">
+           Altamente personalizável
+          </h4>
+          <p class="mb-4">
+           Use o Estúdio do Odoo para automatizar ações, projetar telas personalizadas, relatórios personalizados ou webhooks.
+          </p>
+          <img alt="Valor sem igual" class="img-thumbnail pb-0 rounded-0 rounded-top mb-n5" loading="lazy" src="local_resources\phish_set_up_e12c1f7e6da2c829.webp"/>
+         </div>
+         <div class="s_wd_features_item">
+          <h4 class="s_wd_features_title">
+           Mais de 40.000 apps da comunidade
+          </h4>
+          <p class="mb-4">
+           Graças ao seu modelo de desenvolvimento de código aberto, o Odoo se tornou a maior loja de aplicativos de negócios do mundo. Imagine ter um aplicativo para cada necessidade da sua empresa.
+          </p>
+          <a class="btn btn-primary" href="#" onclick="" target="_blank">
+           Confira os apps da comunidade
+          </a>
+         </div>
+         <div class="s_wd_features_item">
+          <h4 class="s_wd_features_title">
+           Sem papo furado
+          </h4>
+          <p class="fst-italic mb-0">
+           “Com a maioria dos sistemas, você obtém 70% do que esperava. Com o Odoo, você obtém mais do que esperava. Vocês vão transformar o mercado.”
+           <small>
+            – Concorrente anônimo
+           </small>
+          </p>
+         </div>
+        </div>
+        <div class="col-lg-5">
+         <div class="s_wd_features_item">
+          <h4 class="s_wd_features_title">
+           Sem aprisionamento
+          </h4>
+          <p class="mb-4">
+           Nenhum formato de dados proprietário, apenas o PostgreSQL: você é o proprietário dos seus dados. E sem ficar preso ao software: você obtém o código-fonte, o acesso ao GitHub e a flexibilidade de hospedar em nossa infraestrutura ou no local.
+          </p>
+          <a class="btn btn-primary" href="#" onclick="" target="_blank">
+           Siga a gente no GitHub
+          </a>
+         </div>
+         <div class="s_wd_features_item">
+          <h4 class="s_wd_features_title">
+           Preço justo
+          </h4>
+          <p class="mb-4">
+           Sem preços baseados em uso, sem venda adicional de recursos, sem contratos de longo prazo, sem limites de hospedagem, sem surpresas... apenas um único preço por usuário – tudo incluso.
+          </p>
+          <a class="btn btn-primary" href="#skip" onclick="">
+           Ver preços
+          </a>
+         </div>
+         <div class="s_wd_features_item overflow-hidden">
+          <h4 class="s_wd_features_title mb-5">
+           Uma proposta de valor única
+          </h4>
+          <img alt="Valor sem igual" class="w-100" loading="lazy" src="local_resources\phish_unique-value-2024_158ce99142127afb.svg"/>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="d-none d-md-block">
+      <div class="container">
+       <img alt="" class="mt-n5 mb-4 rotate-340 o_rtl_flip" loading="lazy" src="local_resources\phish_arrow_doodle_4_b65afdc580150ac8.svg" width="120px"/>
+      </div>
+     </section>
+     <section class="s_wd_users">
+      <div class="container position-relative" style="min-height: 20rem;">
+       <div class="position-absolute top-0 bottom-0 end-0 start-0 d-flex align-items-center justify-content-center" style="z-index: 1;">
+        <div class="bg-white rounded-pill-md px-lg-8 p-6 text-center">
+         <h6 class="display-2 position-relative mb-2">
+          Junte-se a 15 milhões
+                            usuários
+         </h6>
+         <span class="fs-4">
+          que impulsionam seus negócios com o Odoo
+         </span>
+        </div>
+       </div>
+       <div class="d-flex flex-wrap justify-content-between" id="s_wd_users_mosaic">
+       </div>
+      </div>
+     </section>
+     <section class="s_wd_testimonial">
+      <div class="container">
+       <img alt="" class="d-none d-md-block rotate-350 mt-n5 me-6 mb-5 ms-auto" loading="lazy" src="local_resources\phish_grey_arrow_loop_02_750bc3387d43a38c.svg" width="150px"/>
+       <div class="row g-0 justify-content-between bg-200 rounded-2 p-4 p-md-6 position-relative">
+        <img alt="" class="position-absolute top-0 translate-middle d-none d-md-inline" height="50px" loading="lazy" src="local_resources\phish_quote_9406261332fcd11a.svg"/>
+        <div class="col-lg-8 pb-3 pb-lg-0">
+         <blockquote class="blockquote border-0 p-0 fst-normal">
+          <p class="fw-bold fs-4 mb-0">
+           O tempo de processamento de documentos contábeis foi reduzido significativamente, em alguns casos até de dois dias para apenas cinco horas. Como resultado, agora podemos nos concentrar no que importa: relatórios e consultoria ao cliente.
+          </p>
+         </blockquote>
+        </div>
+        <div class="col-lg-4 d-sm-flex flex-lg-column align-items-center align-items-lg-end">
+         <img alt="Harry Van Donink picture" class="d-none d-sm-block rounded-circle mt-lg-n7 mb-lg-3 me-3 me-lg-0" height="90px" loading="lazy" src="local_resources\phish_van_donink_4485a44949d669b6.webp"/>
+         <div class="flex-grow-1 text-lg-end">
+          <b>
+           Harry Van Donink
+          </b>
+          <br/>
+          <small>
+           CEO da KPMG – Bélgica
+          </small>
+         </div>
+         <img alt="" class="img-thumbnail rounded-1 mt-3 mt-sm-0 mt-lg-3" loading="lazy" src="local_resources\phish_kpmg_logo_650bd7ecf3fcbbdf.svg" width="100px"/>
+        </div>
+       </div>
+      </div>
+     </section>
+     <section class="s_wd_call_to_action overflow-hidden text-center pt-10 pb-7">
+      <div class="container">
+       <h3 class="display-1 mb-5">
+        <span class="x_wd_display_fireworks_01">
+         Descubra
+        </span>
+        <br/>
+        o seu
+        <span class="text-o-color-2">
+         potencial de crescimento
+        </span>
+       </h3>
+       <a class="btn btn-lg btn-primary mb-3" href="#content" onclick="">
+        Comece agora gratuitamente
+       </a>
+       <img alt="" class="d-block mx-auto mb-2" loading="lazy" role="presentation" src="local_resources\phish_secondary_arrow_sm_01_d3abcacc8e81c4dd.svg"/>
+       <small>
+        Não é necessário cartão de crédito
+        <br/>
+        Acesso instantâneo
+       </small>
+      </div>
+     </section>
+    </div>
+    <div class="oe_unremovable" id="o_shared_blocks">
+    </div>
+   </main>
+   <footer class="o_footer o_colored_level o_cc o_footer_slideout" data-anchor="true" data-name="Footer" id="bottom">
+    <div class="container o_not_editable" id="footer">
+     <span class="o_logo o_logo_inverse d-block mx-auto o_footer_logo my-5">
+     </span>
+     <div class="row">
+      <div class="col-12 col-lg-7 col-xl-6">
+       <div class="row">
+        <div class="col-12 col-md-4 mb-3 mb-md-0">
+         <div class="row">
+          <div class="col-6 col-md-12">
+           <span class="o_footer_title">
+            Comunidade
+           </span>
+           <ul class="o_footer_links list-unstyled">
+            <li>
+             <a href="#" onclick="">
+              Tutoriais
+             </a>
+            </li>
+            <li>
+             <a href="Javascript:void(0)" onclick="">
+              Documentação
+             </a>
+            </li>
+            <li>
+             <a href="#" onclick="">
+              Fórum
+             </a>
+            </li>
+           </ul>
+          </div>
+          <div class="col-6 col-md-12">
+           <span class="o_footer_title">
+            Open Source
+           </span>
+           <ul class="o_footer_links list-unstyled">
+            <li>
+             <a href="Javascript:void(0)" onclick="">
+              Baixar
+             </a>
+            </li>
+            <li class="divider">
+            </li>
+            <li>
+             <a href="#content" onclick="">
+              Github
+             </a>
+            </li>
+            <li>
+             <a href="Javascript:void(0)" onclick="">
+              Runbot
+             </a>
+            </li>
+            <li>
+             <a href="Javascript:void(0)" onclick="">
+              Traduções
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <div class="col-6 col-md-4">
+         <span class="o_footer_title">
+          Serviços
+         </span>
+         <ul class="o_footer_links list-unstyled">
+          <li>
+           <a href="#skip" onclick="">
+            Odoo.sh Hosting
+           </a>
+          </li>
+          <li class="divider">
+          </li>
+          <li>
+           <a href="#skip" onclick="">
+            Suporte
+           </a>
+          </li>
+          <li>
+           <a href="#content" onclick="">
+            Upgrade
+           </a>
+          </li>
+          <li>
+           <a href="#skip" onclick="">
+            Desenvolvimentos personalizados
+           </a>
+          </li>
+          <li>
+           <a href="Javascript:void(0)" onclick="">
+            Educação
+           </a>
+          </li>
+          <li class="divider">
+          </li>
+          <li>
+           <a href="#content" onclick="">
+            Encontre um Contador
+           </a>
+          </li>
+          <li class="divider">
+          </li>
+          <li>
+           <a href="#" onclick="">
+            Encontre um parceiro
+           </a>
+          </li>
+          <li>
+           <a href="#" onclick="">
+            Torne-se um parceiro
+           </a>
+          </li>
+         </ul>
+        </div>
+        <div class="col-6 col-md-4 mb-4">
+         <span class="o_footer_title">
+          Sobre nós
+         </span>
+         <ul class="o_footer_links list-unstyled">
+          <li>
+           <a href="#" onclick="">
+            Nossa empresa
+           </a>
+          </li>
+          <li>
+           <a href="Javascript:void(0)" onclick="">
+            Ativos da marca
+           </a>
+          </li>
+          <li>
+           <a href="Javascript:void(0)" onclick="">
+            Contato
+           </a>
+          </li>
+          <li>
+           <a href="#skip" onclick="">
+            Empregos
+           </a>
+          </li>
+          <li class="divider">
+          </li>
+          <li>
+           <a href="#" onclick="">
+            Eventos
+           </a>
+          </li>
+          <li>
+           <a href="Javascript:void(0)" onclick="">
+            Podcast
+           </a>
+          </li>
+          <li>
+           <a href="Javascript:void(0)" onclick="">
+            Blog
+           </a>
+          </li>
+          <li>
+           <a href="Javascript:void(0)" onclick="">
+            Clientes
+           </a>
+          </li>
+          <li class="divider">
+          </li>
+          <li>
+           <a href="#content" onclick="">
+            Legal
+           </a>
+           <span class="small text-muted">
+            •
+           </span>
+           <a href="#skip" onclick="">
+            Privacidade
+           </a>
+          </li>
+          <li>
+           <a href="#content" onclick="">
+            Segurança
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-lg-5 col-xl-5 offset-xl-1">
+       <div class="d-flex align-items-center justify-content-between">
+        <div class="js_language_selector o_language_selector dropdown d-print-none">
+         <button aria-expanded="true" aria-haspopup="true" class="border-0 dropdown-toggle btn btn-sm btn-outline-secondary" data-bs-toggle="dropdown" type="button">
+          <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_br_ef5b37da5dd121db.png"/>
+          <span class="">
+           Português (BR)
+          </span>
+         </button>
+         <div class="dropdown-menu" role="menu">
+          <a class="dropdown-item js_change_lang" data-url_code="ar" href="Javascript:void(0)" onclick="" role="menuitem" title=" الْعَرَبيّة">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\flag_image_c8797f5eb77396e5"/>
+           <span class="">
+            الْعَرَبيّة
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="ca_ES" href="#skip" onclick="" role="menuitem" title=" Català">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\flag_image_e4a5fbc3aeb4d205"/>
+           <span class="">
+            Català
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="zh_CN" href="#content" onclick="" role="menuitem" title=" 简体中文">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_cn_a7572d7958bcfafe.png"/>
+           <span class="">
+            简体中文
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="zh_TW" href="#content" onclick="" role="menuitem" title=" 繁體中文">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_tw_f84cba1ecee7e7ba.png"/>
+           <span class="">
+            繁體中文
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="cs_CZ" href="#content" onclick="" role="menuitem" title=" Čeština">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_cz_bb69d193e7f19bc4.png"/>
+           <span class="">
+            Čeština
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="da_DK" href="#content" onclick="" role="menuitem" title=" Dansk">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_dk_ac348f1506a772c8.png"/>
+           <span class="">
+            Dansk
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="nl_NL" href="#skip" onclick="" role="menuitem" title=" Nederlands">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_nl_48418e73dc490e78.png"/>
+           <span class="">
+            Nederlands
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="en_US" href="#skip" onclick="" role="menuitem" title="English">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_us_638ed25c9559c1af.png"/>
+           <span class="">
+            English
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="fi_FI" href="Javascript:void(0)" onclick="" role="menuitem" title=" Suomi">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_fi_64ac5960e8f2f4d3.png"/>
+           <span class="">
+            Suomi
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="fr_FR" href="#content" onclick="" role="menuitem" title=" Français">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_fr_fff555b6d8c91d9e.png"/>
+           <span class="">
+            Français
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="de_DE" href="#content" onclick="" role="menuitem" title=" Deutsch">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_de_b02a5462cd48335c.png"/>
+           <span class="">
+            Deutsch
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="hi_IN" href="#skip" onclick="" role="menuitem" title=" हिंदी">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_in_c622370b6bbfd21e.png"/>
+           <span class="">
+            हिंदी
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="id_ID" href="#" onclick="" role="menuitem" title=" Bahasa Indonesia">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_id_9b0893db002a26ce.png"/>
+           <span class="">
+            Bahasa Indonesia
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="it_IT" href="#" onclick="" role="menuitem" title=" Italiano">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_it_28a0aa8a388d1377.png"/>
+           <span class="">
+            Italiano
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="ja_JP" href="#" onclick="" role="menuitem" title=" 日本語">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_jp_3f8ebd39817e1b1e.png"/>
+           <span class="">
+            日本語
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="ko_KR" href="Javascript:void(0)" onclick="" role="menuitem" title=" 한국어 (KR)">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_kr_cd4d007847c7e3e7.png"/>
+           <span class="">
+            한국어 (KR)
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="lt_LT" href="#skip" onclick="" role="menuitem" title=" Lietuvių kalba">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_lt_67f40dd172369050.png"/>
+           <span class="">
+            Lietuvių kalba
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="pl_PL" href="Javascript:void(0)" onclick="" role="menuitem" title=" Język polski">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_pl_8a135d2dd12da66b.png"/>
+           <span class="">
+            Język polski
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang active" data-url_code="pt_BR" href="#" onclick="" role="menuitem" title=" Português (BR)">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_br_ef5b37da5dd121db.png"/>
+           <span class="">
+            Português (BR)
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="ro_RO" href="#skip" onclick="" role="menuitem" title=" română">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_ro_3eedb7d50f96c9ce.png"/>
+           <span class="">
+            română
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="ru_RU" href="#content" onclick="" role="menuitem" title=" русский язык">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_ru_38f649b510b2d0a1.png"/>
+           <span class="">
+            русский язык
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="sk_SK" href="Javascript:void(0)" onclick="" role="menuitem" title=" Slovenský jazyk">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_sk_49354e3867fcbd5f.png"/>
+           <span class="">
+            Slovenský jazyk
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="sl_SI" href="#content" onclick="" role="menuitem" title=" slovenščina">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_si_0300a332592d8527.png"/>
+           <span class="">
+            slovenščina
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="es" href="Javascript:void(0)" onclick="" role="menuitem" title=" Español (América Latina)">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_419_d4d28341ee61aae2.png"/>
+           <span class="">
+            Español (América Latina)
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="es_ES" href="#skip" onclick="" role="menuitem" title=" Español">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_es_9254526d0904c44f.png"/>
+           <span class="">
+            Español
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="th_TH" href="Javascript:void(0)" onclick="" role="menuitem" title=" ภาษาไทย">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_th_30338f870b19f36b.png"/>
+           <span class="">
+            ภาษาไทย
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="tr_TR" href="#" onclick="" role="menuitem" title=" Türkçe">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_tr_3cb3f7e9c3d539b0.png"/>
+           <span class="">
+            Türkçe
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="uk_UA" href="#content" onclick="" role="menuitem" title=" українська">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_ua_c28243ff8574536b.png"/>
+           <span class="">
+            українська
+           </span>
+          </a>
+          <a class="dropdown-item js_change_lang" data-url_code="vi_VN" href="#content" onclick="" role="menuitem" title=" Tiếng Việt">
+           <img alt="" class="o_lang_flag" loading="lazy" role="presentation" src="local_resources\phish_vn_58c65456448045e8.png"/>
+           <span class="">
+            Tiếng Việt
+           </span>
+          </a>
+         </div>
+        </div>
+       </div>
+       <hr class="mt-3 mb-4"/>
+       <p class="small text-muted">
+        Odoo é um conjunto de aplicativos de negócios em código aberto que cobre todas as necessidades de sua empresa: CRM, comércio eletrônico, contabilidade, estoque, ponto de venda, gerenciamento de projetos, etc.
+       </p>
+       <p class="small text-muted mb-4">
+        A proposta de valor exclusiva Odoo é ser, ao mesmo tempo, muito fácil de usar e totalmente integrado.
+       </p>
+       <div class="o_footer_social_media mb-4">
+        <a class="me-3" href="#" onclick="" target="_blank">
+         <i class="fa fa-fw fa-facebook">
+         </i>
+        </a>
+        <a class="me-3" href="Javascript:void(0)" onclick="" target="_blank">
+         <i class="fa fa-fw fa-twitter">
+         </i>
+        </a>
+        <a class="me-3" href="#skip" onclick="" target="_blank">
+         <i class="fa fa-fw fa-linkedin">
+         </i>
+        </a>
+        <a class="me-3" href="Javascript:void(0)" onclick="" target="_blank">
+         <i class="fa fa-fw fa-github">
+         </i>
+        </a>
+        <a class="me-3" href="#" onclick="" target="_blank">
+         <i class="fa fa-fw fa-instagram">
+         </i>
+        </a>
+        <a class="me-3" href="Javascript:void(0)" onclick="" target="_blank">
+         <i class="fa fa-fw fa-tiktok">
+         </i>
+        </a>
+        <a class="me-3" href="#skip" onclick="" target="_blank">
+         <i class="fa fa-fw fa-phone">
+         </i>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="o_footer_copyright o_not_editable">
+     <div class="container py-3 text-center">
+      <a class="small" href="#skip" onclick="">
+       Site feito com
+       <span class="o_logo o_logo_inverse o_logo_15">
+       </span>
+      </a>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <div class="modal fade" contenteditable="false" id="o_live_modal" role="dialog" tabindex="-1">
+   <div class="modal-dialog">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h3 class="mt-1">
+       <b>
+        Odoo Experience
+       </b>
+       on YouTube
+      </h3>
+      <button aria-label="Fechar" class="btn-close" data-bs-dismiss="modal" type="button">
+       <span class="fa fa-times" title="Close">
+       </span>
+      </button>
+      <p class="text-black">
+       <b>
+        1.
+       </b>
+       Use the live chat to ask your questions.
+       <br/>
+       <b>
+        2.
+       </b>
+       The operator answers within a few minutes.
+      </p>
+     </div>
+     <div class="modal-body bg-200">
+      <img alt="Live support on Youtube" class="img img-fluid" loading="lazy" src="local_resources\phish_info_050f5ed7bc6aaf7a.gif"/>
+     </div>
+     <div class="modal-footer">
+      <a class="btn btn-primary btn-lg" href="#skip" onclick="" target="_blank">
+       Watch now
+       <i class="fa fa-1x fa-long-arrow-right ml8">
+       </i>
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>

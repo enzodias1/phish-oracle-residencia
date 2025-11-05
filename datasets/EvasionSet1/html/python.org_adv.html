@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>   <html class="no-js ie6 lt-ie7 lt-ie8 lt-ie9">   <![endif]-->
+<!--[if IE 7]>      <html class="no-js ie7 lt-ie8 lt-ie9">          <![endif]-->
+<!--[if IE 8]>      <html class="no-js ie8 lt-ie9">                 <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" dir="ltr" lang="en">
+ <!--<![endif]-->
+ <head>
+  <script data-domain="python.org" defer="" src="local_resources\script.outbound-links_7ab39bd9957cb5a1.js">
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <link href="local_resources\jquery.min_3ad54c725771ab73.js" rel="prefetch"/>
+  <link href="local_resources\jquery-ui.min_8ef0c2d75ef27313.js" rel="prefetch"/>
+  <meta content="Python.org" name="application-name"/>
+  <meta content="The official home of the Python Programming Language" name="msapplication-tooltip"/>
+  <meta content="Python.org" name="apple-mobile-web-app-title"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="True" name="HandheldFriendly"/>
+  <meta content="telephone=no" name="format-detection"/>
+  <meta content="on" http-equiv="cleartype"/>
+  <meta content="false" http-equiv="imagetoolbar"/>
+  <script async="" crossorigin="anonymous" integrity="sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0= sha384-UcmsCqcNRSLW/dV3Lo1oCi2/VaurXbib6p4HyUEOeIa/4OpsrnucrugAefzVZJfI sha512-q4t1L4xEjGV2R4hzqCa41P8jrgFUS8xTb8rdNv4FGvw7FpydVj/kkxBJHOiaoxHa8olCcx1Slk9K+3sNbsM4ug==" src="local_resources\ethicalads.min_6deabdf1e01efe84.js">
+  </script>
+  <script src="local_resources\modernizr_8e4a59d471ae093a.js">
+  </script>
+  <link href="local_resources\style.08a078d0aa02_d62dfbe7693c8378.css" media="all" rel="stylesheet" title="default" type="text/css"/>
+  <link href="local_resources\mq.98d6092b2ada_0e1ce392469ff535.css" media="not print, braille, embossed, speech, tty" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\no-mq.bf0c425cdb73_9f58a1bfc046b3a8.css" media="screen" rel="stylesheet" type="text/css"/>
+  <!--[if (lte IE 8)&(!IEMobile)]>
+    <link href="/static/stylesheets/no-mq.bf0c425cdb73.css" rel="stylesheet" type="text/css" media="screen" />
+    
+    
+    <![endif]-->
+  <link href="local_resources\jquery-ui_b0112a89d4a10777.css" rel="stylesheet"/>
+  <link href="local_resources\favicon_bff1635937324b1e.ico" rel="icon" type="image/x-icon"/>
+  <link href="local_resources\apple-touch-icon-144x144-precomposed_a6787cde062882db.png" rel="apple-touch-icon-precomposed" sizes="144x144"/>
+  <link href="local_resources\apple-touch-icon-114x114-precomposed_0bf6d48209b3cb60.png" rel="apple-touch-icon-precomposed" sizes="114x114"/>
+  <link href="local_resources\apple-touch-icon-72x72-precomposed_68abdf1a4b696c16.png" rel="apple-touch-icon-precomposed" sizes="72x72"/>
+  <link href="local_resources\apple-touch-icon-precomposed_e368dcc83d8a475d.png" rel="apple-touch-icon-precomposed"/>
+  <link href="local_resources\apple-touch-icon-precomposed_e368dcc83d8a475d.png" rel="apple-touch-icon"/>
+  <meta content="/static/metro-icon-144x144.png" name="msapplication-TileImage"/>
+  <!-- white shape -->
+  <meta content="#3673a5" name="msapplication-TileColor"/>
+  <!-- python blue -->
+  <meta content="#3673a5" name="msapplication-navbutton-color"/>
+  <title>
+   Welcome to Python.org
+  </title>
+  <meta content="The official home of the Python Programming Language" name="description"/>
+  <meta content="Python programming language object oriented web free open source software license documentation download community" name="keywords"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Python.org" property="og:site_name"/>
+  <meta content="Welcome to Python.org" property="og:title"/>
+  <meta content="The official home of the Python Programming Language" property="og:description"/>
+  <meta content="https://www.python.org/static/opengraph-icon-200x200.png" property="og:image"/>
+  <meta content="https://www.python.org/static/opengraph-icon-200x200.png" property="og:image:secure_url"/>
+  <meta content="https://www.python.org/" property="og:url"/>
+  <link href="local_resources\humans_9059a474ff00806e.txt" rel="author"/>
+  <link href="local_resources\peps_a6623a775ec93ae0.rss" rel="alternate" title="Python Enhancement Proposals" type="application/rss+xml"/>
+  <link href="local_resources\res_82edfe41edf35825" rel="alternate" title="Python Job Opportunities" type="application/rss+xml"/>
+  <link href="local_resources\default_ca737a6130af6acc" rel="alternate" title="Python Software Foundation News" type="application/rss+xml"/>
+  <link href="local_resources\default_b1522bdb4a484e1e" rel="alternate" title="Python Insider" type="application/rss+xml"/>
+  <link href="local_resources\feed_88e9d061ca8383ff.rss" rel="alternate" title="Python Releases" type="application/rss+xml"/>
+  <script type="application/ld+json">
+   {
+       "@context": "https://schema.org",
+       "@type": "WebSite",
+       "url": "https://www.python.org/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "https://www.python.org/search/?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       }
+     }
+  </script>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39055973-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body class="python home" id="homepage">
+  <div id="touchnav-wrapper">
+   <div class="do-not-print" id="nojs">
+    <p>
+     <strong>
+      Notice:
+     </strong>
+     While JavaScript is not essential for this website, your interaction with the content will be limited. Please turn JavaScript on for the full experience.
+    </p>
+   </div>
+   <!--[if lte IE 8]>
+        <div id="oldie-warning" class="do-not-print">
+            <p>
+                <strong>Notice:</strong> Your browser is <em>ancient</em>. Please
+                <a href="http://browsehappy.com/">upgrade to a different browser</a> to experience a better web.
+            </p>
+        </div>
+        <![endif]-->
+   <!-- Sister Site Links -->
+   <div class="top-bar do-not-print" id="top">
+    <nav class="meta-navigation container" role="navigation">
+     <div class="skip-link screen-reader-text">
+      <a href="Javascript:void(0)" onclick="" title="Skip to content">
+       Skip to content
+      </a>
+     </div>
+     <a aria-hidden="true" class="jump-link" href="#" id="close-python-network" onclick="">
+      <span aria-hidden="true" class="icon-arrow-down">
+       <span>
+        ▼
+       </span>
+      </span>
+      Close
+     </a>
+     <ul class="menu" role="tree">
+      <li class="python-meta current_item selectedcurrent_branch selected">
+       <a class="current_item selectedcurrent_branch selected" href="Javascript:void(0)" onclick="" title="The Python Programming Language">
+        Python
+       </a>
+      </li>
+      <li class="psf-meta">
+       <a href="#skip" onclick="" title="The Python Software Foundation">
+        PSF
+       </a>
+      </li>
+      <li class="docs-meta">
+       <a href="#skip" onclick="" title="Python Documentation">
+        Docs
+       </a>
+      </li>
+      <li class="pypi-meta">
+       <a href="Javascript:void(0)" onclick="" title="Python Package Index">
+        PyPI
+       </a>
+      </li>
+      <li class="jobs-meta">
+       <a href="#content" onclick="" title="Python Job Board">
+        Jobs
+       </a>
+      </li>
+      <li class="shop-meta">
+       <a href="#" onclick="">
+        Community
+       </a>
+      </li>
+     </ul>
+     <a aria-hidden="true" class="jump-link" href="#" id="python-network" onclick="">
+      <span aria-hidden="true" class="icon-arrow-up">
+       <span>
+        ▲
+       </span>
+      </span>
+      The Python Network
+     </a>
+    </nav>
+   </div>
+   <!-- Header elements -->
+   <header class="main-header" role="banner">
+    <div class="container">
+     <h1 class="site-headline">
+      <a href="#content" onclick="">
+       <img alt="python™" class="python-logo" src="local_resources\phish_python-logo_9f8d0d795888602b.png"/>
+      </a>
+     </h1>
+     <div class="options-bar-container do-not-print">
+      <a class="donate-button" href="#skip" onclick="">
+       Donate
+      </a>
+      <div class="options-bar">
+       <a class="jump-to-menu" href="Javascript:void(0)" id="site-map-link" onclick="">
+        <span class="menu-icon">
+         ≡
+        </span>
+        Menu
+       </a>
+       <form action="" class="search-the-site" method="get">
+        <fieldset title="Search Python.org">
+         <span aria-hidden="true" class="icon-search">
+         </span>
+         <label class="screen-reader-text" for="id-search-field">
+          Search This Site
+         </label>
+         <input class="search-field" id="id-search-field" name="q" placeholder="Search" role="textbox" tabindex="1" type="search" value=""/>
+         <button class="search-button" id="submit" name="submit" tabindex="3" title="Submit this Search" type="submit">
+          GO
+         </button>
+         <!--[if IE]><input type="text" style="display: none;" disabled="disabled" size="1" tabindex="4"><![endif]-->
+        </fieldset>
+       </form>
+       <span class="breaker">
+       </span>
+       <div aria-hidden="true" class="adjust-font-size">
+        <ul aria-label="Adjust Text Size on Page" class="navigation menu">
+         <li aria-haspopup="true" class="tier-1 last">
+          <a class="action-trigger" href="#skip" onclick="">
+           <strong>
+            <small>
+             A
+            </small>
+            A
+           </strong>
+          </a>
+          <ul class="subnav menu">
+           <li class="tier-2 element-1" role="treeitem">
+            <a class="text-shrink" href="Javascript:void(0)" onclick="" title="Make Text Smaller">
+             Smaller
+            </a>
+           </li>
+           <li class="tier-2 element-2" role="treeitem">
+            <a class="text-grow" href="Javascript:void(0)" onclick="" title="Make Text Larger">
+             Larger
+            </a>
+           </li>
+           <li class="tier-2 element-3" role="treeitem">
+            <a class="text-reset" href="Javascript:void(0)" onclick="" title="Reset any font size changes I have made">
+             Reset
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <div class="winkwink-nudgenudge">
+        <ul aria-label="Social Media Navigation" class="navigation menu">
+         <li aria-haspopup="true" class="tier-1 last">
+          <a class="action-trigger" href="Javascript:void(0)" onclick="">
+           Socialize
+          </a>
+          <ul class="subnav menu">
+           <li class="tier-2 element-1" role="treeitem">
+            <a href="#" onclick="">
+             <i aria-hidden="true" class="fa fa-linkedin-square">
+             </i>
+             LinkedIn
+            </a>
+           </li>
+           <li class="tier-2 element-2" role="treeitem">
+            <a href="#" onclick="">
+             <span aria-hidden="true" class="icon-mastodon">
+             </span>
+             Mastodon
+            </a>
+           </li>
+           <li class="tier-2 element-3" role="treeitem">
+            <a href="#skip" onclick="">
+             <span aria-hidden="true" class="icon-freenode">
+             </span>
+             Chat on IRC
+            </a>
+           </li>
+           <li class="tier-2 element-4" role="treeitem">
+            <a href="#skip" onclick="">
+             <span aria-hidden="true" class="icon-twitter">
+             </span>
+             Twitter
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </div>
+       <span data-html-include="/authenticated">
+       </span>
+      </div>
+      <!-- end options-bar -->
+     </div>
+     <nav class="python-navigation main-navigation do-not-print" id="mainnav" role="navigation">
+      <ul aria-label="Main Navigation" class="navigation menu" role="menubar">
+       <li aria-haspopup="true" class="tier-1 element-1" id="about">
+        <a class="" href="#content" onclick="" title="">
+         About
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#" onclick="" title="">
+           Applications
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Quotes
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Getting Started
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Help
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Python Brochure
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-2" id="downloads">
+        <a class="" href="Javascript:void(0)" onclick="" title="">
+         Downloads
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           All releases
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Source code
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Windows
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#content" onclick="" title="">
+           macOS
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Android
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Other Platforms
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           License
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Alternative Implementations
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-3" id="documentation">
+        <a class="" href="#" onclick="" title="">
+         Documentation
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Docs
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Audio/Visual Talks
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Beginner's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Developer's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           FAQ
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Non-English Docs
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           PEP Index
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Books
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Essays
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-4" id="community">
+        <a class="" href="#content" onclick="" title="">
+         Community
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Diversity
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#" onclick="" title="">
+           Mailing Lists
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#content" onclick="" title="">
+           IRC
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Forums
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           PSF Annual Impact Report
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Conferences
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Special Interest Groups
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Logo
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a href="#" onclick="" title="">
+           Python Wiki
+          </a>
+         </li>
+         <li class="tier-2 element-10" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Code of Conduct
+          </a>
+         </li>
+         <li class="tier-2 element-11" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Community Awards
+          </a>
+         </li>
+         <li class="tier-2 element-12" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Get Involved
+          </a>
+         </li>
+         <li class="tier-2 element-13" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Shared Stories
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-5" id="success-stories">
+        <a class="" href="#" onclick="" title="success-stories">
+         Success Stories
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Arts
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Business
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#" onclick="" title="">
+           Education
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Engineering
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Government
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Scientific
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Software Development
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-6" id="news">
+        <a class="" href="#skip" onclick="" title="News from around the Python world">
+         News
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#" onclick="" title="Python Insider Blog Posts">
+           Python News
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#skip" onclick="" title="Python Software Foundation Newsletter">
+           PSF Newsletter
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#content" onclick="" title="PSF Blog">
+           PSF News
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#" onclick="" title="PyCon Blog">
+           PyCon US News
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#skip" onclick="" title="Planet Python">
+           News from the Community
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li aria-haspopup="true" class="tier-1 element-7" id="events">
+        <a class="" href="#" onclick="" title="">
+         Events
+        </a>
+        <ul aria-hidden="true" class="subnav menu" role="menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Events
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           User Group Events
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#content" onclick="" title="">
+           User Group Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Submit an Event
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </nav>
+     <div class="header-banner">
+      <!-- for optional "do-not-print" class -->
+      <div class="flex-slideshow slideshow" id="dive-into-python">
+       <ul class="launch-shell menu" id="launch-shell">
+        <li>
+         <a class="button prompt" data-shell-container="#dive-into-python" href="#skip" id="start-shell" onclick="">
+          &gt;_
+          <span class="message">
+           Launch Interactive Shell
+          </span>
+         </a>
+        </li>
+       </ul>
+       <ul class="slides menu">
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Python 3: Fibonacci series up to n</span>
+
+&gt;&gt;&gt; def fib(n):
+
+&gt;&gt;&gt;     a, b = 0, 1
+
+&gt;&gt;&gt;     while a &lt; n:
+
+&gt;&gt;&gt;         print(a, end=' ')
+
+&gt;&gt;&gt;         a, b = b, a+b
+
+&gt;&gt;&gt;     print()
+
+&gt;&gt;&gt; fib(1000)
+
+<span class="output">0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Functions Defined
+          </h1>
+          <p>
+           The core of extensible programming is defining functions. Python allows mandatory and optional arguments, keyword arguments, and even arbitrary argument lists.
+           <a href="#skip" onclick="">
+            More about defining functions in Python 3
+           </a>
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Python 3: List comprehensions</span>
+
+&gt;&gt;&gt; fruits = ['Banana', 'Apple', 'Lime']
+
+&gt;&gt;&gt; loud_fruits = [fruit.upper() for fruit in fruits]
+
+&gt;&gt;&gt; print(loud_fruits)
+
+<span class="output">['BANANA', 'APPLE', 'LIME']</span>
+
+
+
+<span class="comment"># List and the enumerate function</span>
+
+&gt;&gt;&gt; list(enumerate(fruits))
+
+<span class="output">[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Compound Data Types
+          </h1>
+          <p>
+           Lists (known as arrays in other languages) are one of the compound data types that Python understands. Lists can be indexed, sliced and manipulated with other built-in functions.
+           <a href="Javascript:void(0)" onclick="">
+            More about lists in Python 3
+           </a>
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Python 3: Simple arithmetic</span>
+
+&gt;&gt;&gt; 1 / 2
+
+<span class="output">0.5</span>
+
+&gt;&gt;&gt; 2 ** 3
+
+<span class="output">8</span>
+
+&gt;&gt;&gt; 17 / 3  <span class="comment"># classic division returns a float</span>
+
+<span class="output">5.666666666666667</span>
+
+&gt;&gt;&gt; 17 // 3  <span class="comment"># floor division</span>
+
+<span class="output">5</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Intuitive Interpretation
+          </h1>
+          <p>
+           Calculations are simple with Python, and expression syntax is straightforward: the operators
+           <code>
+            +
+           </code>
+           ,
+           <code>
+            -
+           </code>
+           ,
+           <code>
+            *
+           </code>
+           and
+           <code>
+            /
+           </code>
+           work as expected; parentheses
+           <code>
+            ()
+           </code>
+           can be used for grouping.
+           <a href="#" onclick="">
+            More about simple math functions in Python 3
+           </a>
+           .
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># For loop on a list</span>
+
+&gt;&gt;&gt; numbers = [2, 4, 6, 8]
+
+&gt;&gt;&gt; product = 1
+
+&gt;&gt;&gt; for number in numbers:
+
+...    product = product * number
+
+... 
+
+&gt;&gt;&gt; print('The product is:', product)
+
+<span class="output">The product is: 384</span></code></pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           All the Flow You’d Expect
+          </h1>
+          <p>
+           Python knows the usual control flow statements that other languages speak —
+           <code>
+            if
+           </code>
+           ,
+           <code>
+            for
+           </code>
+           ,
+           <code>
+            while
+           </code>
+           and
+           <code>
+            range
+           </code>
+           — with some of its own twists, of course.
+           <a href="Javascript:void(0)" onclick="">
+            More control flow tools in Python 3
+           </a>
+          </p>
+         </div>
+        </li>
+        <li>
+         <div class="slide-code">
+          <pre><code><span class="comment"># Simple output (with Unicode)</span>
+
+&gt;&gt;&gt; print("Hello, I'm Python!")
+
+<span class="output">Hello, I'm Python!</span>
+
+<span class="comment"># Input, assignment</span>
+
+&gt;&gt;&gt; name = input('What is your name?\n')
+
+<span class="output">What is your name?
+
+Python</span>
+
+&gt;&gt;&gt; print(f'Hi, {name}.')
+
+<span class="output">Hi, Python.</span></code>
+
+</pre>
+         </div>
+         <div class="slide-copy">
+          <h1>
+           Quick &amp; Easy to Learn
+          </h1>
+          <p>
+           Experienced programmers in any other language can pick up Python very quickly, and beginners find the clean syntax and indentation structure easy to learn.
+           <a href="#content" onclick="">
+            Whet your appetite
+           </a>
+           with our Python 3 overview.
+          </p>
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="introduction">
+      <p>
+       Python is a programming language that lets you work quickly
+       <span class="breaker">
+       </span>
+       and integrate systems more effectively.
+       <a class="readmore" href="#skip" onclick="">
+        Learn More
+       </a>
+      </p>
+     </div>
+    </div>
+    <!-- end .container -->
+   </header>
+   <div class="content-wrapper" id="content">
+    <!-- Main Content Column -->
+    <div class="container">
+     <section class="main-content" role="main">
+      <div class="row">
+       <div class="small-widget get-started-widget">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-get-started">
+         </span>
+         Get Started
+        </h2>
+        <p>
+         Whether you're new to programming or an experienced developer, it's easy to learn and use Python.
+        </p>
+        <p>
+         <a href="#skip" onclick="">
+          Start with our Beginner’s Guide
+         </a>
+        </p>
+       </div>
+       <div class="small-widget download-widget">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-download">
+         </span>
+         Download
+        </h2>
+        <p>
+         Python source code and installers are available for download for all versions!
+        </p>
+        <p>
+         Latest:
+         <a href="#" onclick="">
+          Python 3.14.0
+         </a>
+        </p>
+       </div>
+       <div class="small-widget documentation-widget">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-documentation">
+         </span>
+         Docs
+        </h2>
+        <p>
+         Documentation for Python's standard library, along with tutorials and guides, are available online.
+        </p>
+        <p>
+         <a href="#content" onclick="">
+          docs.python.org
+         </a>
+        </p>
+       </div>
+       <div class="small-widget jobs-widget last">
+        <h2 class="widget-title">
+         <span aria-hidden="true" class="icon-jobs">
+         </span>
+         Jobs
+        </h2>
+        <p>
+         Looking for work or have a Python related position that you're trying to hire for? Our
+         <strong>
+          relaunched community-run job board
+         </strong>
+         is the place to go.
+        </p>
+        <p>
+         <a href="#content" onclick="">
+          jobs.python.org
+         </a>
+        </p>
+       </div>
+      </div>
+      <div class="list-widgets row">
+       <div class="medium-widget blog-widget">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-news">
+          </span>
+          Latest News
+         </h2>
+         <p class="give-me-more">
+          <a href="Javascript:void(0)" onclick="" title="More News">
+           More
+          </a>
+         </p>
+         <ul class="menu">
+          <li>
+           <time datetime="2025-10-15T13:52:00.000002+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-15
+           </time>
+           <a href="Javascript:void(0)" onclick="">
+            Announcing PSF Community Service Award Recipients!
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-15T06:13:00.000002+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-15
+           </time>
+           <a href="Javascript:void(0)" onclick="">
+            Python 3.15.0 alpha 1
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-14T19:07:00.000001+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-14
+           </time>
+           <a href="#" onclick="">
+            Python 3.13.9 is now available!
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-09T21:00:00.000003+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-09
+           </time>
+           <a href="Javascript:void(0)" onclick="">
+            Python 3.12.12, 3.11.14, 3.10.19 and 3.9.24 are now available!
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-09T15:09:35.000003+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-09
+           </time>
+           <a href="#content" onclick="">
+            PSF News: "Open Infra is Not Free", PyPI Security, &amp; Grants Pause
+           </a>
+          </li>
+         </ul>
+        </div>
+        <!-- end .shrubbery -->
+       </div>
+       <div class="medium-widget event-widget last">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-calendar">
+          </span>
+          Upcoming Events
+         </h2>
+         <p class="give-me-more">
+          <a href="Javascript:void(0)" onclick="" title="More Events">
+           More
+          </a>
+         </p>
+         <ul class="menu">
+          <li>
+           <time datetime="2025-10-18T17:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-18
+           </time>
+           <a href="Javascript:void(0)" onclick="">
+            PyBay 2025
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-21T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-21
+           </time>
+           <a href="Javascript:void(0)" onclick="">
+            Python Brasil 2025
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-22T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-22
+           </time>
+           <a href="#content" onclick="">
+            PyTorch Conference 2025
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-23T16:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-23
+           </time>
+           <a href="#skip" onclick="">
+            PyLadies Amsterdam: Lightweight Analytics at Scale: Hands-On with DuckDB &amp; Smallpond in Python
+           </a>
+          </li>
+          <li>
+           <time datetime="2025-10-25T00:00:00+00:00">
+            <span class="say-no-more">
+             2025-
+            </span>
+            10-25
+           </time>
+           <a href="#skip" onclick="">
+            Taller de programación para mujeres — Django Girls Santa Marta 2025
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+       <div class="medium-widget success-stories-widget">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-success-stories">
+          </span>
+          Success Stories
+         </h2>
+         <p class="give-me-more">
+          <a href="#content" onclick="" title="More Success Stories">
+           More
+          </a>
+         </p>
+         <div class="success-story-item" id="success-story-929">
+          <blockquote>
+           <a href="Javascript:void(0)" onclick="">
+            Python's convenience has made it the most popular language for machine learning and artificial intelligence. Python's flexibility has allowed Anyscale to make ML/AI scalable from laptops to clusters.
+           </a>
+          </blockquote>
+          <table border="0" cellpadding="0" cellspacing="0" class="quote-from" width="100%">
+           <tbody>
+            <tr>
+             <td>
+              <p>
+               <a href="#skip" onclick="">
+                Python provides convenience and flexibility for scalable ML/AI
+               </a>
+               <em>
+                by Dean Wampler
+               </em>
+              </p>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+        </div>
+        <!-- end .shrubbery -->
+       </div>
+       <div class="medium-widget applications-widget last">
+        <div class="shrubbery">
+         <h2 class="widget-title">
+          <span aria-hidden="true" class="icon-python">
+          </span>
+          Use Python for…
+         </h2>
+         <p class="give-me-more">
+          <a href="#content" onclick="" title="More Applications">
+           More
+          </a>
+         </p>
+         <ul class="menu">
+          <li>
+           <b>
+            Web Development
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" href="Javascript:void(0)" onclick="">
+             Django
+            </a>
+            ,
+            <a class="tag" href="#" onclick="">
+             Pyramid
+            </a>
+            ,
+            <a class="tag" href="#" onclick="">
+             Bottle
+            </a>
+            ,
+            <a class="tag" href="#skip" onclick="">
+             Tornado
+            </a>
+            ,
+            <a class="tag" href="Javascript:void(0)" onclick="">
+             Flask
+            </a>
+            ,
+            <a class="tag" href="#skip" onclick="">
+             web2py
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            GUI Development
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" href="#skip" onclick="">
+             tkInter
+            </a>
+            ,
+            <a class="tag" href="#skip" onclick="">
+             PyGObject
+            </a>
+            ,
+            <a class="tag" href="#content" onclick="">
+             PyQt
+            </a>
+            ,
+            <a class="tag" href="#content" onclick="">
+             PySide
+            </a>
+            ,
+            <a class="tag" href="Javascript:void(0)" onclick="">
+             Kivy
+            </a>
+            ,
+            <a class="tag" href="#skip" onclick="">
+             wxPython
+            </a>
+            ,
+            <a class="tag" href="#content" onclick="">
+             DearPyGui
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            Scientific and Numeric
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" href="#content" onclick="">
+             SciPy
+            </a>
+            ,
+            <a class="tag" href="#skip" onclick="">
+             Pandas
+            </a>
+            ,
+            <a class="tag" href="#content" onclick="">
+             IPython
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            Software Development
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" href="#content" onclick="">
+             Buildbot
+            </a>
+            ,
+            <a class="tag" href="#" onclick="">
+             Trac
+            </a>
+            ,
+            <a class="tag" href="#skip" onclick="">
+             Roundup
+            </a>
+           </span>
+          </li>
+          <li>
+           <b>
+            System Administration
+           </b>
+           :
+           <span class="tag-wrapper">
+            <a class="tag" href="#skip" onclick="">
+             Ansible
+            </a>
+            ,
+            <a class="tag" href="Javascript:void(0)" onclick="">
+             Salt
+            </a>
+            ,
+            <a class="tag" href="#skip" onclick="">
+             OpenStack
+            </a>
+            ,
+            <a class="tag" href="Javascript:void(0)" onclick="">
+             xonsh
+            </a>
+           </span>
+          </li>
+         </ul>
+        </div>
+        <!-- end .shrubbery -->
+       </div>
+      </div>
+      <div class="psf-widget">
+       <div class="python-logo">
+       </div>
+       <h2 class="widget-title">
+        <span class="prompt">
+         &gt;&gt;&gt;
+        </span>
+        <a href="#" onclick="">
+         Python Software Foundation
+        </a>
+       </h2>
+       <p>
+        The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.
+        <a class="readmore" href="Javascript:void(0)" onclick="">
+         Learn more
+        </a>
+       </p>
+       <p class="click-these">
+        <a class="button" href="#" onclick="">
+         Become a Member
+        </a>
+        <a class="button" href="Javascript:void(0)" onclick="">
+         Donate to the PSF
+        </a>
+       </p>
+      </div>
+     </section>
+    </div>
+    <!-- end .container -->
+   </div>
+   <!-- end #content .content-wrapper -->
+   <!-- Footer and social media list -->
+   <footer class="main-footer" id="site-map" role="contentinfo">
+    <div class="main-footer-links">
+     <div class="container">
+      <a class="jump-link" href="Javascript:void(0)" id="back-to-top-1" onclick="">
+       <span aria-hidden="true" class="icon-arrow-up">
+        <span>
+         ▲
+        </span>
+       </span>
+       Back to Top
+      </a>
+      <ul class="sitemap navigation menu do-not-print" id="container" role="tree">
+       <li class="tier-1 element-1">
+        <a href="#content" onclick="">
+         About
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Applications
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Quotes
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Getting Started
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Help
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Python Brochure
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-2">
+        <a href="#skip" onclick="">
+         Downloads
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#" onclick="" title="">
+           All releases
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Source code
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#" onclick="" title="">
+           Windows
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#content" onclick="" title="">
+           macOS
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Android
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Other Platforms
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           License
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Alternative Implementations
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-3">
+        <a href="#skip" onclick="">
+         Documentation
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#" onclick="" title="">
+           Docs
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#" onclick="" title="">
+           Audio/Visual Talks
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Beginner's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Developer's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           FAQ
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Non-English Docs
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           PEP Index
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Python Books
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Python Essays
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-4">
+        <a href="#" onclick="">
+         Community
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Diversity
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#" onclick="" title="">
+           Mailing Lists
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           IRC
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#" onclick="" title="">
+           Forums
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#content" onclick="" title="">
+           PSF Annual Impact Report
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Python Conferences
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Special Interest Groups
+          </a>
+         </li>
+         <li class="tier-2 element-8" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Python Logo
+          </a>
+         </li>
+         <li class="tier-2 element-9" role="treeitem">
+          <a href="#" onclick="" title="">
+           Python Wiki
+          </a>
+         </li>
+         <li class="tier-2 element-10" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Code of Conduct
+          </a>
+         </li>
+         <li class="tier-2 element-11" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Community Awards
+          </a>
+         </li>
+         <li class="tier-2 element-12" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Get Involved
+          </a>
+         </li>
+         <li class="tier-2 element-13" role="treeitem">
+          <a href="#" onclick="" title="">
+           Shared Stories
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-5">
+        <a href="Javascript:void(0)" onclick="" title="success-stories">
+         Success Stories
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Arts
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Business
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Education
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#content" onclick="" title="">
+           Engineering
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#" onclick="" title="">
+           Government
+          </a>
+         </li>
+         <li class="tier-2 element-6" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Scientific
+          </a>
+         </li>
+         <li class="tier-2 element-7" role="treeitem">
+          <a href="#" onclick="" title="">
+           Software Development
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-6">
+        <a href="#skip" onclick="" title="News from around the Python world">
+         News
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="Python Insider Blog Posts">
+           Python News
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#" onclick="" title="Python Software Foundation Newsletter">
+           PSF Newsletter
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="PSF Blog">
+           PSF News
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="PyCon Blog">
+           PyCon US News
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#" onclick="" title="Planet Python">
+           News from the Community
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-7">
+        <a href="Javascript:void(0)" onclick="">
+         Events
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Events
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#content" onclick="" title="">
+           User Group Events
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Python Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="#content" onclick="" title="">
+           User Group Events Archive
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Submit an Event
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="tier-1 element-8">
+        <a href="Javascript:void(0)" onclick="">
+         Contributing
+        </a>
+        <ul class="subnav menu">
+         <li class="tier-2 element-1" role="treeitem">
+          <a href="#" onclick="" title="">
+           Developer's Guide
+          </a>
+         </li>
+         <li class="tier-2 element-2" role="treeitem">
+          <a href="#skip" onclick="" title="">
+           Issue Tracker
+          </a>
+         </li>
+         <li class="tier-2 element-3" role="treeitem">
+          <a href="#content" onclick="" title="">
+           python-dev list
+          </a>
+         </li>
+         <li class="tier-2 element-4" role="treeitem">
+          <a href="Javascript:void(0)" onclick="" title="">
+           Core Mentorship
+          </a>
+         </li>
+         <li class="tier-2 element-5" role="treeitem">
+          <a href="#" onclick="" title="">
+           Report a Security Issue
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+      <a class="jump-link" href="#content" id="back-to-top-2" onclick="">
+       <span aria-hidden="true" class="icon-arrow-up">
+        <span>
+         ▲
+        </span>
+       </span>
+       Back to Top
+      </a>
+     </div>
+     <!-- end .container -->
+    </div>
+    <!-- end .main-footer-links -->
+    <div class="site-base">
+     <div class="container">
+      <ul class="footer-links navigation menu do-not-print" role="tree">
+       <li class="tier-1 element-1">
+        <a href="Javascript:void(0)" onclick="">
+         Help &amp;
+         <span class="say-no-more">
+          General
+         </span>
+         Contact
+        </a>
+       </li>
+       <li class="tier-1 element-2">
+        <a href="#skip" onclick="">
+         Diversity
+         <span class="say-no-more">
+          Initiatives
+         </span>
+        </a>
+       </li>
+       <li class="tier-1 element-3">
+        <a href="Javascript:void(0)" onclick="">
+         Submit Website Bug
+        </a>
+       </li>
+       <li class="tier-1 element-4">
+        <a href="#" onclick="">
+         Status
+         <span class="python-status-indicator-default" id="python-status-indicator">
+         </span>
+        </a>
+       </li>
+      </ul>
+      <div class="copyright">
+       <p>
+        <small>
+         <span class="pre">
+          Copyright ©2001-2025.
+         </span>
+         <span class="pre">
+          <a href="#" onclick="">
+           Python Software Foundation
+          </a>
+         </span>
+         <span class="pre">
+          <a href="#skip" onclick="">
+           Legal Statements
+          </a>
+         </span>
+         <span class="pre">
+          <a href="#" onclick="">
+           Privacy Notice
+          </a>
+         </span>
+         <!--&nbsp;<span class="pre"><a href="/psf/community-infrastructure">Powered by PSF Community Infrastructure</a></span>-->
+        </small>
+       </p>
+      </div>
+     </div>
+     <!-- end .container -->
+    </div>
+    <!-- end .site-base -->
+   </footer>
+  </div>
+  <!-- end #touchnav-wrapper -->
+  <script src="local_resources\jquery.min_3ad54c725771ab73.js">
+  </script>
+  <script>
+   window.jQuery || document.write('<script src="/static/js/libs/jquery-1.8.2.min.js"><\/script>')
+  </script>
+  <script src="local_resources\jquery-ui.min_8ef0c2d75ef27313.js">
+  </script>
+  <script>
+   window.jQuery || document.write('<script src="/static/js/libs/jquery-ui-1.12.1.min.js"><\/script>')
+  </script>
+  <script src="local_resources\masonry.pkgd.min_5d4e446c7bfe71b8.js">
+  </script>
+  <script src="local_resources\html-includes_0dea612594da49f8.js">
+  </script>
+  <script charset="utf-8" src="local_resources\main-min.ef82c06437cf_a7802e146a0aa24a.js" type="text/javascript">
+  </script>
+  <!--[if lte IE 7]>
+    <script type="text/javascript" src="/static/js/plugins/IE8-min.8af6e26c7a3b.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+  <!--[if lte IE 8]>
+    <script type="text/javascript" src="/static/js/plugins/getComputedStyle-min.d41d8cd98f00.js" charset="utf-8"></script>
+    
+    
+    <![endif]-->
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

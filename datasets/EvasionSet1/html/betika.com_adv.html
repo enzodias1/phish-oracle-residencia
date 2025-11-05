@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+ <!--<![endif]-->
+ <head>
+  <title>
+   Betika | Best Online Sports Betting in Kenya, Ghana, Nigeria and DRC
+  </title>
+  <script>
+   window.prerenderReady = false;
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"/>
+  <meta content="betika" property="og:site_name"/>
+  <meta content="tGrx26pa7w6Pht4kgnDKInedosKSiomGnZkMRYqWmYk" name="google-site-verification"/>
+  <meta content="index, follow" id="meta-robots" name="robots"/>
+  <meta content="index, follow" id="meta-googlebot" name="googlebot"/>
+  <meta content="index, follow" http-equiv="X-Robots-Tag" id="meta-x-robots-tag"/>
+  <link href="local_resources\manifest_dbdbf1e5a6499cc7.json" rel="manifest"/>
+  <meta content="yes" name="mobile-web-app-capable"/>
+  <meta content="Betika" name="application-name"/>
+  <link href="local_resources\android-icon-192x192_c3b23fdbb42040e0.png" rel="icon" sizes="192x192"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="#23313d" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="Betika Mobile" name="apple-mobile-web-app-title"/>
+  <link href="local_resources\apple-icon-152x152_8c7b2b10912b5c46.png" rel="apple-touch-icon"/>
+  <link href="local_resources\apple-icon-152x152_8c7b2b10912b5c46.png" rel="apple-touch-icon" sizes="152x152"/>
+  <link href="local_resources\apple-icon-152x152_8c7b2b10912b5c46.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="local_resources\apple-icon-152x152_8c7b2b10912b5c46.png" rel="apple-touch-icon" sizes="167x167"/>
+  <meta content="app-id=1452270250, app-argument=https://betika.com/mobile/" name="apple-itunes-app"/>
+  <meta content="/en-ke/static/images/ms-icon-144x144.png" name="msapplication-TileImage"/>
+  <meta content="#23313d" name="msapplication-TileColor"/>
+  <meta content="#23313d" name="theme-color"/>
+  <link href="local_resources\favicon_7ca7d50eff12be98.ico" rel="icon" type="image/x-icon"/>
+  <link href="local_resources\variables_424758a1ab34203b.css" rel="stylesheet"/>
+  <link href="local_resources\app_b39f091d4731fa9e.css" rel="stylesheet"/>
+  <script src="local_resources\init_5d705d56e8babd27.js">
+  </script>
+  <script defer="defer" src="local_resources\socket.io_d326540f310f1558.js" type="text/javascript">
+  </script>
+  <script defer="defer" src="local_resources\hls_1d45f74ec85fb0c7.js" type="text/javascript">
+  </script>
+  <script>
+   // Run immediately for initial load
+		(function updateMetaTags() {
+			// Check if we're on a login or register page
+			if (window.location.pathname.includes('/login') || window.location.pathname.includes('/register')) {
+				// Set noindex, nofollow for login/register pages
+				var robotsMeta = document.getElementById('meta-robots');
+				var googlebotMeta = document.getElementById('meta-googlebot');
+				var xRobotsMeta = document.getElementById('meta-x-robots-tag');
+
+				if (robotsMeta) robotsMeta.setAttribute('content', 'noindex, nofollow');
+				if (googlebotMeta) googlebotMeta.setAttribute('content', 'noindex, nofollow');
+				if (xRobotsMeta) xRobotsMeta.setAttribute('content', 'noindex, nofollow');
+
+				console.log('Added noindex, nofollow meta tags for auth page');
+			}
+		})();
+
+		// Also run when DOM is loaded (in case the above runs too early)
+		document.addEventListener('DOMContentLoaded', function() {
+			// Check if we're on a login or register page
+			if (window.location.pathname.includes('/login') || window.location.pathname.includes('/register')) {
+				// Set noindex, nofollow for login/register pages
+				var robotsMeta = document.getElementById('meta-robots');
+				var googlebotMeta = document.getElementById('meta-googlebot');
+				var xRobotsMeta = document.getElementById('meta-x-robots-tag');
+
+				if (robotsMeta) robotsMeta.setAttribute('content', 'noindex, nofollow');
+				if (googlebotMeta) googlebotMeta.setAttribute('content', 'noindex, nofollow');
+				if (xRobotsMeta) xRobotsMeta.setAttribute('content', 'noindex, nofollow');
+
+				console.log('Added noindex, nofollow meta tags for auth page (DOMContentLoaded)');
+			}
+		});
+
+		// Monitor URL changes in the SPA
+		(function() {
+			// Save the original pushState and replaceState functions
+			var originalPushState = window.history.pushState;
+			var originalReplaceState = window.history.replaceState;
+
+			// Override pushState
+			window.history.pushState = function() {
+				originalPushState.apply(this, arguments);
+				// Run meta tag check after URL changes
+				setTimeout(function() {
+					if (window.location.pathname.includes('/login') || window.location.pathname.includes('/register')) {
+						var robotsMeta = document.getElementById('meta-robots');
+						var googlebotMeta = document.getElementById('meta-googlebot');
+						var xRobotsMeta = document.getElementById('meta-x-robots-tag');
+
+						if (robotsMeta) robotsMeta.setAttribute('content', 'noindex, nofollow');
+						if (googlebotMeta) googlebotMeta.setAttribute('content', 'noindex, nofollow');
+						if (xRobotsMeta) xRobotsMeta.setAttribute('content', 'noindex, nofollow');
+
+						console.log('Updated meta tags for auth page (pushState)');
+					} else {
+						var robotsMeta = document.getElementById('meta-robots');
+						var googlebotMeta = document.getElementById('meta-googlebot');
+						var xRobotsMeta = document.getElementById('meta-x-robots-tag');
+
+						if (robotsMeta) robotsMeta.setAttribute('content', 'index, follow');
+						if (googlebotMeta) googlebotMeta.setAttribute('content', 'index, follow');
+						if (xRobotsMeta) xRobotsMeta.setAttribute('content', 'index, follow');
+					}
+				}, 0);
+			};
+
+			// Override replaceState
+			window.history.replaceState = function() {
+				originalReplaceState.apply(this, arguments);
+				// Run meta tag check after URL changes
+				setTimeout(function() {
+					if (window.location.pathname.includes('/login') || window.location.pathname.includes('/register')) {
+						var robotsMeta = document.getElementById('meta-robots');
+						var googlebotMeta = document.getElementById('meta-googlebot');
+						var xRobotsMeta = document.getElementById('meta-x-robots-tag');
+
+						if (robotsMeta) robotsMeta.setAttribute('content', 'noindex, nofollow');
+						if (googlebotMeta) googlebotMeta.setAttribute('content', 'noindex, nofollow');
+						if (xRobotsMeta) xRobotsMeta.setAttribute('content', 'noindex, nofollow');
+
+						console.log('Updated meta tags for auth page (replaceState)');
+					} else {
+						var robotsMeta = document.getElementById('meta-robots');
+						var googlebotMeta = document.getElementById('meta-googlebot');
+						var xRobotsMeta = document.getElementById('meta-x-robots-tag');
+
+						if (robotsMeta) robotsMeta.setAttribute('content', 'index, follow');
+						if (googlebotMeta) googlebotMeta.setAttribute('content', 'index, follow');
+						if (xRobotsMeta) xRobotsMeta.setAttribute('content', 'index, follow');
+					}
+				}, 0);
+			};
+		})();
+  </script>
+  <script>
+   (function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', window.GTM_ID);
+  </script>
+  <script>
+   !(function (e, t, n, s, u, a) {
+			e.twq ||
+				((s = e.twq = function () {
+					s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+				}),
+					(s.version = "1.1"),
+					(s.queue = []),
+					(u = t.createElement(n)),
+					(u.async = !0),
+					(u.src = "https://static.ads-twitter.com/uwt.js"),
+					(a = t.getElementsByTagName(n)[0]),
+					a.parentNode.insertBefore(u, a));
+		})(window, document, "script");
+		twq("config", "odkpr");
+  </script>
+  <meta content="We have the fastest live, instant deposits and withdrawals and deposit cashback bonus. Sign up or log in to your account" data-vmid="description"/>
+  <meta content="Betika, Jackpot, Todays games, this week jackpot. bingwa, bet, multibet" data-vmid="keywords" name="keywords"/>
+  <meta content="Betika | Best Online Sports Betting in Kenya" data-vmid="og:title" property="og:title"/>
+  <meta content="We have the fastest live, instant deposits and withdrawals and deposit cashback bonus. Sign up or log in to your account" data-vmid="og:description" property="og:description"/>
+  <meta content="website" data-vmid="og:type" property="og:type"/>
+  <meta content="https://www.betika.com/en-ke/" data-vmid="og:url" property="og:url"/>
+  <meta content="https://cdn.betika.com/seo-content/ke/website_share_banner_KE.png" data-vmid="og:image" property="og:image"/>
+  <meta content="summary_large_image" data-vmid="twitter:card" name="twitter:card"/>
+  <meta content="Betika | Best Online Sports Betting in Kenya" data-vmid="twitter:title" name="twitter:title"/>
+  <meta content="We have the fastest live, instant deposits and withdrawals and deposit cashback bonus. Sign up or log in to your account" data-vmid="twitter:description" name="twitter:description"/>
+  <meta content="https://cdn.betika.com/seo-content/ke/website_share_banner_KE.png" data-vmid="twitter:image" name="twitter:image"/>
+  <script defer="defer" src="local_resources\3.592773b024b478b0a1bc_2d42a6b73feed3e4.js">
+  </script>
+  <script defer="defer" src="local_resources\10.938b092cb8616457b1cc_bf5c079962c06fd8.js">
+  </script>
+  <script defer="defer" src="local_resources\app.f3e45a0ed92160d28e4a_6ccfd95f6511ce20.js">
+  </script>
+  <script defer="defer" src="local_resources\11.50e82b845b36f57e5b54_dc21299fc8b53f8a.js">
+  </script>
+  <script defer="defer" src="local_resources\vendor.f3e45a0ed92160d28e4a_cc15e61eb64d22ea.js">
+  </script>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <div id="app">
+   <div class="app-loader">
+    <img src="local_resources\phish_logo-small_64badff34eb1c68d.png" width="100px"/>
+    <div class="app-loader-animation">
+    </div>
+   </div>
+  </div>
+  <div id="modal-root">
+  </div>
+  <div id="notifications-root">
+  </div>
+  <link href="local_resources\widgets_1c51b94f42240a82.css" rel="stylesheet"/>
+ </body>
+ <noscript>
+  <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KHL8C9KS" style="display:none;visibility:hidden" width="0">
+  </iframe>
+ </noscript>
+</html>

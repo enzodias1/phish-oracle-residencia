@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 from PIL import Image, ImageEnhance, ImageDraw, ImageFont, ImageFilter
 from io import BytesIO
 import xml.etree.ElementTree as ET
-import cairosvg
+# import cairosvg
 import numpy as np
 
 '''
@@ -1076,16 +1076,16 @@ def add_features_now(modified_html_file):
         # function_to_add = random.choice([function_1])
         applicable_functions.append(function_to_add)
         applicable_functions.append(function_4)
-    # if soup.find("p") or soup.find("h1") or soup.find("h2") or soup.find("h3") or soup.find("span"):
-    #     applicable_functions.append(function_6)
-    #     applicable_functions.append(function_14)
+    if soup.find("p") or soup.find("h1") or soup.find("h2") or soup.find("h3") or soup.find("span"):
+        applicable_functions.append(function_6)
+        applicable_functions.append(function_14)
     form_tag = soup.find("form")
     if form_tag:
         # function_forms_to_add = random.choice([function_7, function_9, function_10, function_11, function_12])
-        function_forms_to_add = random.choice([function_7])
+        function_forms_to_add = random.choice([function_7, function_9, function_10, function_11, function_12])
         applicable_functions.append(function_forms_to_add)
-    # if soup.find("body"):
-    #     applicable_functions.append(function_13)
+    if soup.find("body"):
+        applicable_functions.append(function_13)
     applicable_functions.append(function_2)
 
     # Randomly select K functions

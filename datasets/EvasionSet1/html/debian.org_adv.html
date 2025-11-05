@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Debian -- O Sistema Operacional Universal
+  </title>
+  <link href="mailto:webmaster@debian.org" rel="author"/>
+  <meta content="Debian Ã© um sistema operacional e uma distribuiÃ§Ã£o de Software Livre. Ã mantida e atualizada atravÃ©s do trabalho de muitos(as) usuÃ¡rios(as) que doam seu tempo e esforÃ§o voluntariamente." name="Description"/>
+  <meta content="WML 2.32.0" name="Generator"/>
+  <meta content="2025-09-15 23:45:07" name="Modified"/>
+  <meta content="width=device-width" name="viewport"/>
+  <meta content="300" name="mobileoptimized"/>
+  <meta content="true" name="HandheldFriendly"/>
+  <link href="local_resources\news_19e3939dfbd974de" rel="alternate" title="Debian News" type="application/rss+xml"/>
+  <link href="local_resources\dwn_8eb1c919c3468034" rel="alternate" title="Debian Project News" type="application/rss+xml"/>
+  <link href="local_resources\dsa_9e02a9c66cfcc607" rel="alternate" title="Debian Security Advisories (titles only)" type="application/rss+xml"/>
+  <link href="local_resources\dsa-long_f4a6e006f2ce7632" rel="alternate" title="Debian Security Advisories (summaries)" type="application/rss+xml"/>
+  <link href="local_resources\debhome_e62589773df26b8d.css" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\startpage_63b05dfabbc53820.css" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\5img-carousel-slider_29c55199487a11ce.css" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\debian-pt_b1b0c5513820bd5f.css" media="all" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\favicon_2616e10c69f4baeb.ico" rel="shortcut icon"/>
+  <meta content="debian, GNU, linux, unix, cÃ³digo aberto, livre, DFSG" name="Keywords"/>
+  <link href="local_resources\search.pt_d14203a2ebbe3985.xml" rel="search" title="Pesquisa do site web do Debian" type="application/opensearchdescription+xml"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <div id="header">
+   <div id="upperheader">
+    <div id="logo">
+     <a onclick="window.open('./'); return false;" title="PÃ¡gina principal do Debian">
+      <img alt="Debian" src="local_resources\phish_openlogo-50_3e8168b0f2f6cee9.png"/>
+     </a>
+    </div>
+    <!-- end logo -->
+    <div id="searchbox">
+     <form action="" method="get" name="p">
+      <p>
+       <input name="DB" type="hidden" value="pt"/>
+       <input name="P" size="14" value=""/>
+       <input type="submit" value="Busca"/>
+      </p>
+     </form>
+    </div>
+    <!-- end sitetools -->
+   </div>
+   <!-- end upperheader -->
+   <!--UdmComment-->
+   <div id="navbar">
+    <p class="hidecss">
+     <a onclick="window.open('#content'); return false;">
+      Pular "Quicknav"
+     </a>
+    </p>
+    <ul>
+     <!-- Link to Debian's own Social Media resources -->
+     <li>
+      <a onclick="window.open('https://bits.debian.org/'); return false;" title="Bits do Debian">
+       Blog
+      </a>
+     </li>
+     <li>
+      <a onclick="window.open('https://micronews.debian.org'); return false;" title="MicronotÃ­cias do Debian">
+       MicronotÃ­cias
+      </a>
+     </li>
+     <li>
+      <a onclick="window.open('https://planet.debian.org/'); return false;" title="O Planeta Debian">
+       Planeta
+      </a>
+     </li>
+     <li>
+      <a onclick="window.open('https://wiki.debian.org/'); return false;" title="The Debian Wiki">
+       Wiki
+      </a>
+     </li>
+    </ul>
+   </div>
+   <!-- end navbar -->
+   <p id="breadcrumbs">
+   </p>
+  </div>
+  <!-- end header -->
+  <!--/UdmComment-->
+  <section>
+   <div id="splash">
+    <h1>
+     Debian
+    </h1>
+   </div>
+   <!-- The first row of columns on the site. -->
+   <div class="row">
+    <div class="column column-left">
+     <div style="text-align: center">
+      <h1>
+       A comunidade
+      </h1>
+      <h2>
+       O Debian Ã© uma comunidade de pessoas!
+      </h2>
+      <!-- The following div is containing the static image carousel.
+     Currently made of five images. -->
+      <div class="wrapper">
+       <input checked="" id="slide1" name="slider" type="radio"/>
+       <input id="slide2" name="slider" type="radio"/>
+       <input id="slide3" name="slider" type="radio"/>
+       <input id="slide4" name="slider" type="radio"/>
+       <input id="slide5" name="slider" type="radio"/>
+       <input id="slide6" name="slider" type="radio"/>
+       <div class="slider-wrapper">
+        <div class="inner">
+         <article>
+          <div class="info top-left">
+           <h3>
+            DC25 Group Photo
+           </h3>
+          </div>
+          <img alt="DebConf25 Group Photo" src="local_resources\phish_debconf25_group_photo_745b35b42fdfcc0a.jpg"/>
+         </article>
+         <article>
+          <div class="info top-left">
+           <h3>
+            MiniDebConf Hamburg 2025
+           </h3>
+          </div>
+          <img alt="Group photo of the MiniDebConf Hamburg 2025" src="local_resources\phish_mini-dc25-hamburg_524ffb0dc5ffd81b.jpg"/>
+         </article>
+         <article>
+          <div class="info top-left">
+           <h3>
+            MiniDebConf MaceiÃ³ 2025
+           </h3>
+          </div>
+          <img alt="Group photo of the MiniDebConf MaceiÃ³ 2025" src="local_resources\phish_mini-dc25-maceio_4da2581c0802537f.jpg"/>
+         </article>
+         <article>
+          <div class="info top-left">
+           <h3>
+            Captura de tela do instalador Calamares
+           </h3>
+          </div>
+          <img alt="Captura de tela do instalador Calamares" src="local_resources\phish_calamares-installer_c90f43ccaba75128.png"/>
+         </article>
+         <article>
+          <div class="info top-left">
+           <h3>
+            Debian Ã© como um canivete suÃ­Ã§o
+           </h3>
+          </div>
+          <img alt="Debian Ã© como um canivete suÃ­Ã§o" src="local_resources\phish_debian-swiss-knife-hands-1024x576_ff772c8f2da2fc84.jpg"/>
+         </article>
+         <article>
+          <div class="info top-left">
+           <h3>
+            Pessoas se divertem com o Debian
+           </h3>
+          </div>
+          <img alt="Pessoal do Debian na Debconf18 em Hsinchu, se divertindo de verdade" src="local_resources\phish_debian-funny-people-1024x576_de22532fcd334407.jpg"/>
+         </article>
+        </div>
+        <!-- .inner -->
+       </div>
+       <!-- .slider-wrapper -->
+       <div class="slider-prev-next-control">
+        <label for="slide1">
+        </label>
+        <label for="slide2">
+        </label>
+        <label for="slide3">
+        </label>
+        <label for="slide4">
+        </label>
+        <label for="slide5">
+        </label>
+        <label for="slide6">
+        </label>
+       </div>
+       <!-- .slider-prev-next-control -->
+       <div class="slider-dot-control">
+        <label for="slide1">
+        </label>
+        <label for="slide2">
+        </label>
+        <label for="slide3">
+        </label>
+        <label for="slide4">
+        </label>
+        <label for="slide5">
+        </label>
+        <label for="slide6">
+        </label>
+       </div>
+       <!-- .slider-dot-control -->
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('intro/people'); return false;">
+        <img alt="" src="local_resources\phish_users_70397ea529bc8eb5.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('intro/people'); return false;">
+         As pessoas
+        </a>
+       </h2>
+       <p>
+        Quem somos e o que fazemos
+       </p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('intro/philosophy'); return false;">
+        <img alt="" src="local_resources\phish_heartbeat_2cec0ec744b2e84d.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('intro/philosophy'); return false;">
+         Nossa filosofia
+        </a>
+       </h2>
+       <p>
+        Por que fazemos e como fazemos
+       </p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('devel/join/'); return false;">
+        <img alt="" src="local_resources\phish_user-plus_14cc349a8f0694c0.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('devel/join/'); return false;">
+         Envolva-se e contribua
+        </a>
+       </h2>
+       <p>
+        Como vocÃª pode participar!
+       </p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('intro/index#community'); return false;">
+        <img alt="" src="local_resources\phish_list_141fe0eab09d21a6.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('intro/index#community'); return false;">
+         Mais...
+        </a>
+       </h2>
+       <p>
+        InformaÃ§Ãµes adicionais sobre a comunidade Debian
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="column column-right">
+     <div style="text-align: center">
+      <h1>
+       O sistema operacional
+      </h1>
+      <h2>
+       Debian Ã© um sistema operacional livre e completo!
+      </h2>
+      <div class="os-img-container">
+       <img alt="Debian" src="local_resources\phish_debian-logo-1024x576_f36203586fc46009.png"/>
+       <a class="os-dl-btn" onclick="window.open('https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.1.0-amd64-netinst.iso'); return false;">
+        Baixar
+       </a>
+       <a class="os-other-download" onclick="window.open('distrib'); return false;">
+        Outros downloads
+       </a>
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('intro/why_debian'); return false;">
+        <img alt="" src="local_resources\phish_trophy_0f047bf8575505f8.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('intro/why_debian'); return false;">
+         Por que Debian
+        </a>
+       </h2>
+       <p>
+        O que faz o Debian especial
+       </p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('support'); return false;">
+        <img alt="" src="local_resources\phish_life-ring_381d389585601935.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('support'); return false;">
+         Suporte ao(Ã ) usuÃ¡rio(a)
+        </a>
+       </h2>
+       <p>
+        Obter ajuda e documentaÃ§Ã£o
+       </p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('security/'); return false;">
+        <img alt="" src="local_resources\phish_security_a87aada9dffca95c.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('security/'); return false;">
+         AtualizaÃ§Ãµes de seguranÃ§a
+        </a>
+       </h2>
+       <p>
+        Avisos de seguranÃ§a do Debian (DSA)
+       </p>
+      </div>
+     </div>
+     <div class="row">
+      <div class="community column">
+       <a aria-hidden="true" onclick="window.open('intro/index#software'); return false;">
+        <img alt="" src="local_resources\phish_list_141fe0eab09d21a6.svg" width="512"/>
+       </a>
+      </div>
+      <div class="styled-href-blue column-4-parts">
+       <h2>
+        <a onclick="window.open('intro/index#software'); return false;">
+         Mais...
+        </a>
+       </h2>
+       <p>
+        Mais links para downloads e softwares
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <hr/>
+   <!-- An optional row highlighting events happening now, such as releases, point releases, debconf and minidebconfs, and elections (dpl, GRs...).
+ <div class="row">
+   <div class="column styled-href-blue column-left">
+    <div style="align-items: center; display: flex;justify-content: center">
+    <a href="https://debconf25.debconf.org/"><img src="Pics/debconf25.svg" width="300" alt=""></a>
+       &nbsp;&nbsp;&nbsp;
+    <div style="text-align: center">
+        <h2>JÃ¡ estÃ¡ rolando a <a href="https://debconf25.debconf.org/">DebConf25</a>!</h2>
+        <p>A ConferÃªncia Debian estÃ¡ acontecendo em Brest, FranÃ§a.</p>
+      </div>
+    </div>
+  </div>
+ </div>
+-->
+   <!-- The next row of columns on the site. -->
+   <!-- The News will be selected by the press team. -->
+   <div class="row">
+    <div class="column styled-href-blue column-left">
+     <div style="text-align: center">
+      <h1>
+       NotÃ­cias do Projeto
+      </h1>
+      <h2>
+       NotÃ­cias e anÃºncios sobre o Debian
+      </h2>
+     </div>
+     <div class="project-news">
+      <time class="date-as-calendar position-em size1_25x" datetime="2025-09-06">
+       <span class="day">
+        06
+       </span>
+       <span class="month">
+        Setembro
+       </span>
+       <span class="year">
+        2025
+       </span>
+      </time>
+      <div class="project-news-content">
+       <a onclick="window.open('News/2025/20250906'); return false;">
+        AtualizaÃ§Ã£o Debian 13: 13.1 lanÃ§ado
+       </a>
+      </div>
+     </div>
+     <div class="project-news">
+      <time class="date-as-calendar position-em size1_25x" datetime="2025-09-06">
+       <span class="day">
+        06
+       </span>
+       <span class="month">
+        Setembro
+       </span>
+       <span class="year">
+        2025
+       </span>
+      </time>
+      <div class="project-news-content">
+       <a onclick="window.open('News/2025/2025090602'); return false;">
+        AtualizaÃ§Ã£o Debian 12: 12.12 lanÃ§ado
+       </a>
+      </div>
+     </div>
+     <div class="project-news">
+      <time class="date-as-calendar position-em size1_25x" datetime="2025-08-09">
+       <span class="day">
+        09
+       </span>
+       <span class="month">
+        Agosto
+       </span>
+       <span class="year">
+        2025
+       </span>
+      </time>
+      <div class="project-news-content">
+       <a onclick="window.open('News/2025/20250809'); return false;">
+        Debian 13
+        <q>
+         trixie
+        </q>
+        lanÃ§ado
+       </a>
+      </div>
+     </div>
+     <div class="project-news">
+      <time class="date-as-calendar position-em size1_25x" datetime="2025-08-03">
+       <span class="day">
+        03
+       </span>
+       <span class="month">
+        Agosto
+       </span>
+       <span class="year">
+        2025
+       </span>
+      </time>
+      <div class="project-news-content">
+       <a onclick="window.open('News/2025/20250803'); return false;">
+        DebConf25 closes in Brest and DebConf26 announced
+       </a>
+      </div>
+     </div>
+     <div class="project-news">
+      <time class="date-as-calendar position-em size1_25x" datetime="2024-08-31">
+       <span class="day">
+        31
+       </span>
+       <span class="month">
+        Agosto
+       </span>
+       <span class="year">
+        2024
+       </span>
+      </time>
+      <div class="project-news-content">
+       <a onclick="window.open('News/2024/2024083102'); return false;">
+        AtualizaÃ§Ã£o Debian 11: 11.11 lanÃ§ado
+       </a>
+      </div>
+     </div>
+     <!-- No more News entries behind this line! -->
+     <div class="project-news">
+      <div class="end-of-list-arrow">
+      </div>
+      <div class="project-news-content project-news-content-end">
+       <a onclick="window.open('News'); return false;">
+        Todas as notÃ­cias
+       </a>
+       <a class="rss_logo" onclick="window.open('News/news'); return false;" style="float: none">
+        RSS
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="clr">
+   </div>
+  </section>
+  <!-- end content -->
+  <footer id="footer">
+   <hr class="hidecss"/>
+   <!--UdmComment-->
+   <div id="pageLang">
+    <div id="langSelector">
+     Esta pÃ¡gina tambÃ©m estÃ¡ disponÃ­vel nos seguintes idiomas:
+     <div id="langContainer">
+      <select onchange="location = this.value;">
+       <option disabled="" selected="" value="">
+        Select your language
+       </option>
+       <option lang="ca" title="CatalÃ£o" value="index.ca.html">
+        català
+       </option>
+       <option lang="da" title="DinamarquÃªs" value="index.da.html">
+        dansk
+       </option>
+       <option lang="de" title="AlemÃ£o" value="index.de.html">
+        Deutsch
+       </option>
+       <option lang="en" title="InglÃªs" value="index.en.html">
+        English
+       </option>
+       <option lang="es" title="Espanhol" value="index.es.html">
+        español
+       </option>
+       <option lang="fr" title="FrancÃªs" value="index.fr.html">
+        français
+       </option>
+       <option lang="gl" title="Galego" value="index.gl.html">
+        Galego
+       </option>
+       <option lang="id" title="IndonÃ©sio" value="index.id.html">
+        Indonesia
+       </option>
+       <option lang="it" title="Italiano" value="index.it.html">
+        Italiano
+       </option>
+       <option lang="hu" title="HÃºngaro" value="index.hu.html">
+        magyar
+       </option>
+       <option lang="nl" title="HolandÃªs" value="index.nl.html">
+        Nederlands
+       </option>
+       <option lang="nb" title="NorueguÃªs" value="index.nb.html">
+        norsk (bokmål)
+       </option>
+       <option lang="pl" title="PolonÃªs" value="index.pl.html">
+        polski
+       </option>
+       <option lang="fi" title="FinlandÃªs" value="index.fi.html">
+        suomi
+       </option>
+       <option lang="sv" title="Sueco" value="index.sv.html">
+        svenska
+       </option>
+       <option lang="vi" title="Vietnamita" value="index.vi.html">
+        Tiếng Việt
+       </option>
+       <option lang="bg" title="BÃºlgaro" value="index.bg.html">
+        Български (Bəlgarski)
+       </option>
+       <option lang="ru" title="Russo" value="index.ru.html">
+        Русский (Russkij)
+       </option>
+       <option lang="uk" title="Ucraniano" value="index.uk.html">
+        українська (ukrajins'ka)
+       </option>
+       <option lang="ar" title="Ãrabe" value="index.ar.html">
+        عربية (Arabiya)
+       </option>
+       <option lang="zh-CN" title="ChinÃªs (China)" value="index.zh-cn.html">
+        中文(简)
+       </option>
+       <option lang="zh-HK" title="ChinÃªs (Hong Kong)" value="index.zh-hk.html">
+        中文(HK)
+       </option>
+       <option lang="zh-TW" title="ChinÃªs (Taiwan)" value="index.zh-tw.html">
+        中文(繁)
+       </option>
+       <option lang="ko" title="Coreano" value="index.ko.html">
+        한국어 (Korean)
+       </option>
+       <option lang="el" title="Grego" value="index.el.html">
+        Ελληνικά (Ellinika)
+       </option>
+       <option lang="fa" title="Persa" value="index.fa.html">
+        فارسی (Farsi)
+       </option>
+      </select>
+     </div>
+     Como configurar
+     <a onclick="window.open('./intro/cn'); return false;">
+      o idioma padrÃ£o dos documentos
+     </a>
+    </div>
+   </div>
+   <!--/UdmComment-->
+   <hr/>
+   <!--UdmComment-->
+   <div id="fineprint">
+    <!--UdmComment-->
+    <p>
+     Veja nossa
+     <a onclick="window.open('./contact'); return false;">
+      pÃ¡gina de contato
+     </a>
+     para falar conosco. O cÃ³digo-fonte do site web estÃ¡
+     <a onclick="window.open('https://salsa.debian.org/webmaster-team/webwml'); return false;">
+      disponÃ­vel
+     </a>
+     .
+    </p>
+    <p>
+     Ãltima ModificaÃ§Ã£o: Ter, 22 de Jul de 2025, 23:24:13 UTC
+ 
+Ãltima compilaÃ§Ã£o: Seg, 15 de Set de 2025, 23:45:07 UTC
+     <br/>
+     Copyright © 1997-2025
+     <a onclick="window.open('https://www.spi-inc.org/'); return false;">
+      SPI
+     </a>
+     e outros; Veja os
+     <a onclick="window.open('./license'); return false;" rel="copyright">
+      termos de licenÃ§a
+     </a>
+     <br/>
+     Debian Ã© uma
+     <a onclick="window.open('./trademark'); return false;">
+      marca registrada
+     </a>
+     da Software in the Public Interest, Inc.
+    </p>
+    <!--/UdmComment-->
+   </div>
+   <!--/UdmComment-->
+  </footer>
+  <!-- end footer -->
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

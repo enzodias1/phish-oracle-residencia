@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="text/css" http-equiv="content-style-type"/>
+<meta content="text/javascript" http-equiv="content-script-type"/>
+<meta content="ja" http-equiv="content-language"/>
+<meta content="Odds Park Corp." name="author"/>
+<meta content="地方競馬,競輪,オートレース,馬券購入,予想" name="Keywords"/>
+<meta content="オッズパークでは、地方競馬・競輪・オートレースのライブ映像・AI予想・ネット投票が楽しめる。お得な新規入会キャンペーン実施中。PLAY!オッズパーク!クレジットカード・電子マネーでのチャージにも対応。スマホ・パソコン・ケータイからカンタン操作で馬券・車券の購入が可能。各レースの出走表、選手データ、オッズ、結果、専門紙記者による予想情報も満載！現金やレアグッズが当たるキャンペーンも随時開催中。" name="Description"/>
+<meta content="Copyright (C) Odds Park Corp. Co., Ltd. All Rights Reserved." lang="en" name="copyright" xml:lang="en"/>
+<link href="local_resources\res_3656019a1e3fb56b" media="only screen and (max-width: 640px)" rel="alternate"/>
+<link href="local_resources\res_8dedbd4db0ed402a" media="handheld" rel="alternate"/>
+<link href="local_resources\res_82ff766efe235656" rel="canonical"/>
+<title>競馬・競輪・オートレースのオッズパーク【Odds Park】</title>
+<link href="local_resources\main-info_19d8696e6ca11cce.css" media="screen,print" rel="stylesheet" type="text/css"/>
+<link href="local_resources\balancePopup_50f5f3d1f2f8a1c5.css" media="screen,print" rel="stylesheet" type="text/css"/>
+<link href="local_resources\lib_8549b393cd041235.css" media="screen,print" rel="stylesheet" type="text/css"/>
+<link href="local_resources\jquery.modal_ea5248304c04bb26.css" media="screen,print" rel="stylesheet" type="text/css"/>
+<link href="local_resources\webteam2016_c9d0e9d345023e73.css" media="screen,print" rel="stylesheet" type="text/css"/>
+<script src="local_resources\vote-const_bd517afc03138cac.js" type="text/javascript"></script>
+<script src="local_resources\jquery-3.6.0.min_548f9e3e0cc9469d.js" type="text/javascript"></script>
+<script src="local_resources\lib_aa784fea38c24d6e.js" type="text/javascript"></script>
+<script src="local_resources\jquery.easing.min_118346fae8f1446a.js" type="text/javascript"></script>
+<script src="local_resources\info-util_4f01a78044dd5d53.js" type="text/javascript"></script>
+<script src="local_resources\ui_b703d7b233906606.js" type="text/javascript"></script>
+<script src="local_resources\jquery.modal_b2efd8bdd0813339.js" type="text/javascript"></script>
+<script src="local_resources\cp_d94ad8d2018338fd.js" type="text/javascript"></script>
+<script src="local_resources\jquery.switcher_6efc39bbd82c7408.js" type="text/javascript"></script>
+<script defer="" src="local_resources\top_673de054bcb86037.js" type="text/javascript"></script>
+<script src="local_resources\balancePopup_ec2d368ce61ce2b4.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+$(function(){
+var UA=navigator.userAgent;
+if (UA.indexOf('iPhone')>-1||UA.indexOf('iPad')>-1||UA.indexOf('iPod')>-1||UA.indexOf('Android')>-1){
+$('div#wrap').prepend('<a href="https://sp.oddspark.com/" target="_blank"><img src="/top_images/to_sp_optop.gif?20220531141308" alt="スマートフォン OPTOPへ" width="100%"></a>');
+}
+})
+//-->
+</script>
+</head>
+<body class="Top" id="info">
+<div id="wrap">
+<div id="header">
+<div class="clearfix" id="headerInner">
+<a class="logo" href="/">Odds Park</a>
+ <h1>競馬・競輪・オートレースのオッズパーク【OddsPark】</h1>
+ <ul id="nav1">
+<li><a href="/OpTop.do?SSO_FORCE_LOGIN=1&amp;SSO_URL_RETURN=https://www.oddspark.com/">ログイン</a></li>
+<li><a href="/user/new/RegTop.do?src=51">新規会員登録(無料)</a></li>
+<li><a href="https://faq.oddspark.com/" target="_blank">よくあるご質問</a></li>
+<li><a href="/">総合TOP</a></li>
+</ul>
+<ul id="nav2">
+<li><a class="nv1" href="/keiba/">競馬</a></li>
+<li><a class="nv2" href="/keirin/">競輪</a></li>
+<li><a class="nv8" href="/autorace/">オートレース</a></li>
+<li><a class="nv3" href="/loto/">LOTO</a></li>
+<li><a class="nv4" href="/keiba/auth/VoteKeibaTop.do?gamenId=P001&amp;gamenKoumokuId=topVote" onclick="openFullWindow(this.href); return false;">投票する</a></li>
+<li><a class="nv5" href="/auth/NyukinMenu.do" onclick="openFullWindow(this.href); return false;">入金・精算</a></li>
+<li><a class="nv6" href="/auth/InqTop.do" onclick="openFullWindow(this.href); return false;">照会</a></li>
+<li><a class="nv7" href="/user/my/Index.do">マイページ</a></li>
+</ul>
+</div><!-- headerInner -->
+</div>
+<!-- //header -->
+<div id="content">
+<!-- 上部ログイン・キャンペーン表示 -->
+<div class="section">
+<div id="top1">
+<div id="camp"></div>
+<!-- //上部ログイン・キャンペーン表示 -->
+</div>
+<div id="top2">
+<div class="login topRight">
+<form action="https://www.oddspark.com/jsp/sso_filter/LoginPc.jsp" autocomplete="off" method="post" name="loginForm">
+<input name="SSO_PROCESS" type="hidden" value="LOGIN"/>
+<input name="SSO_URL_RETURN" type="hidden" value="https://www.oddspark.com/"/>
+<table>
+<tbody><tr>
+<th>ｵｯｽﾞﾊﾟｰｸID</th><td width="120">
+<input class="w100pr" maxlength="20" name="SSO_ACCOUNTID" tabindex="1" type="text"/>
+</td>
+<td></td>
+</tr>
+<tr>
+<th>パスワード</th><td width="120">
+<input class="w100pr" id="password" maxlength="64" name="SSO_PASSWORD" tabindex="2" type="password"/>
+</td>
+<td><div class="open-eye" id="password-masking"></div></td>
+</tr>
+<tr>
+<td class="autologin" colspan="3"><label>
+<input checked="checked" id="auto_login" name="SSO_AUTO_FLG" tabindex="3" type="checkbox" value="1"/>
+<span> 自動的にログインする</span></label>
+</td>
+</tr>
+</tbody></table>
+<a class="btn1" href="javascript:void(0)" id="btn_login" tabindex="4">ログイン</a>
+</form>
+</div>
+<div class="topRight entry">
+<!-- MtInclude:新規獲得コンテンツ -->
+<!-- MtInclude:新規獲得コンテンツエリア -->
+<!--
+<ul>
+<li><a href="/member/">&#9656;&nbsp;会員の種類と特徴</a></li>
+<li><a href="/about/">▸&nbsp;はじめての方へ</a></li>
+</ul>
+-->
+<a href="/user/new/RegTop.do?src=51"><img class="swap" src="local_resources\btn_entry_for_com_c2494be2f09ed9e9.png"/></a>
+<!-- MtInclude://新規獲得コンテンツエリア -->
+<!-- //MtInclude:新規獲得コンテンツ -->
+</div>
+</div>
+</div>
+<p class="clr mB10"></p>
+<div class="section4"><!-- ４競技表示部 -->
+<div id="box1">
+<ul>
+<li><!-- 競 馬 --><a href="/keiba/"><img alt="オッズパーク競馬はこちら" class="swap" src="local_resources\pc_keiba_04418d323dfefcd7.png"/></a></li>
+<li><!-- 競 輪 --><a href="/keirin/"><img alt="オッズパーク競輪はこちら" class="swap" src="local_resources\pc_keirin_d4fb4cf0470e3960.png"/></a></li>
+<li><!-- オート --><a href="/autorace/"><img alt="オッズパークオートレースはこちら" class="swap" src="local_resources\pc_autorace_581f89265d5f956f.png"/></a></li>
+<li><!-- ロ ト --><a href="/loto/"><img alt="オッズパークLOTOはこちら" class="swap" src="local_resources\pc_loto_f43216758638c661.png"/></a></li>
+</ul>
+</div><!-- end #box1 -->
+<div id="box2">
+<div class="keiba">
+<a class="prev dis_prev" href="javaScript:void(0);">prev</a>
+<div class="items wrap"><ul class="contents" style="width:204px;">
+<li class="btn-1-41">
+<a href="/keiba/OneDayRaceList.do?raceDy=20251021&amp;opTrackCd=41&amp;sponsorCd=18">
+<span class="race">3R</span><span class="time">12:58</span>
+</a>
+</li>
+<li class="btn-1-42">
+<a href="/keiba/OneDayRaceList.do?raceDy=20251021&amp;opTrackCd=42&amp;sponsorCd=20">
+<span class="race">4R</span><span class="time">13:08</span>
+</a>
+</li>
+<li class="btn-1-11">
+<a href="/keiba/OneDayRaceList.do?raceDy=20251021&amp;opTrackCd=11&amp;sponsorCd=06">
+<span class="race">4R</span><span class="time">13:23</span>
+</a>
+</li>
+</ul></div>
+<a class="next btn_next" href="javaScript:void(0);">next</a>
+<a class="btn_vote" href="/keiba/auth/VoteKeibaTop.do?gamenId=P001&amp;gamenKoumokuId=keibaVote" onclick="openFullWindow(this.href); return false;">投票する</a>
+</div>
+<div class="keirin">
+<a class="prev btn_prev" href="javaScript:void(0);">prev</a>
+<div class="items wrap"><ul class="contents" style="width:476px;">
+<li class="btn-2-73"><a href="/keirin/AllRaceList.do?joCode=73&amp;kaisaiBi=20251021">
+<span class="race">6R</span><span class="time">12:58</span>
+</a></li>
+<li class="btn-2-46"><a href="/keirin/AllRaceList.do?joCode=46&amp;kaisaiBi=20251021">
+<span class="race">6R</span><span class="time">13:13</span>
+</a></li>
+<li class="btn-2-21"><a href="/keirin/AllRaceList.do?joCode=21&amp;kaisaiBi=20251021">
+<span class="race">1R</span><span class="time">15:44</span>
+</a></li>
+<li class="btn-2-53"><a href="/keirin/AllRaceList.do?joCode=53&amp;kaisaiBi=20251021">
+<span class="race">1R</span><span class="time">15:56</span>
+</a></li>
+<li class="btn-2-43"><a href="/keirin/AllRaceList.do?joCode=43&amp;kaisaiBi=20251021">
+<span class="race">1R</span><span class="time">20:35</span>
+</a></li>
+<li class="btn-2-38"><a href="/keirin/AllRaceList.do?joCode=38&amp;kaisaiBi=20251021">
+<span class="race">1R</span><span class="time">20:45</span>
+</a></li>
+<li class="btn-2-63"><a href="/keirin/AllRaceList.do?joCode=63&amp;kaisaiBi=20251021">
+<span class="status">終了</span>
+</a></li>
+</ul></div>
+<a class="next btn_next" href="javaScript:void(0);">next</a>
+<a class="btn_vote" href="/keirin/auth/VoteKeirinTop.do?gamenId=P001&amp;gamenKoumokuId=keirinVote" onclick="openFullWindow(this.href); return false;">投票する</a>
+</div>
+<div class="auto">
+<a class="prev btn_prev" href="javaScript:void(0);">prev</a>
+<div class="items wrap"><ul class="contents" style="width:136px;">
+<li class="btn-3-06"><a href="/autorace/OneDayRaceList.do?raceDy=20251021&amp;placeCd=06">
+<span class="race">6R</span><span class="time">12:59</span>
+</a></li>
+<li class="btn-3-02"><a href="/autorace/OneDayRaceList.do?raceDy=20251021&amp;placeCd=02">
+<span class="race">1R</span><span class="time">18:48</span>
+</a></li>
+</ul></div>
+<a class="next btn_next" href="javaScript:void(0);">next</a>
+<a class="btn_vote" href="/autorace/auth/VoteAutoraceTop.do?gamenId=P001&amp;gamenKoumokuId=autoraceVote" onclick="openFullWindow(this.href); return false;">投票する</a>
+</div>
+<div class="loto">
+<a class="prev btn_prev" href="javaScript:void(0);">prev</a>
+<div class="items wrap"><ul class="contents" style="width:612px;">
+<li class="btn-2-D7"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="time">12:58</span>
+</a></li>
+<li class="btn-3-S5"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="time">14:01</span>
+</a></li>
+<li class="btn-1-S5"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="course">笠松</span>
+<span class="time">14:08</span>
+</a></li>
+<li class="btn-2-D4"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="time">14:29</span>
+</a></li>
+<li class="btn-3-R4"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="time">14:33</span>
+</a></li>
+<li class="btn-1-S5"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="course">盛岡</span>
+<span class="time">15:38</span>
+</a></li>
+<li class="btn-3-S7"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="time">19:14</span>
+</a></li>
+<li class="btn-2-R7"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="course">防府</span>
+<span class="status">結果</span>
+</a></li>
+<li class="btn-2-S7"><a href="/loto/JResultList.do?kaisaiBi=20251021">
+<span class="course">防府</span>
+<span class="status">結果</span>
+</a></li>
+</ul></div>
+<a class="next dis_next" href="javaScript:void(0);">next</a>
+<a class="btn_vote" href="/loto/auth/VoteLotoTop.do?gamenId=P001&amp;gamenKoumokuId=lotoVote" onclick="openFullWindow(this.href); return false;">投票する</a>
+</div>
+</div><!-- end #box2 -->
+</div><!-- //４競技表示部 -->
+<div class="section"><!-- お知らせ ニュース バナー -->
+<div class="w480px bl-left10">
+<!-- MtInclude:お知らせエリア -->
+<h3>お知らせ
+<div class="ls">▸
+
+<a href="./info/">一覧へ</a>
+</div>
+</h3>
+<ul>
+<li><span>2025/10/19</span> <a href="/info/2025/10/10221023.html">【開催情報】10月22日（水）から10月23日（木）のモトロト発売について</a></li>
+<li><span>2025/10/17</span> <a href="/info/2025/10/1017.html">【メンテナンス】重要なお知らせ（10月17日現在）</a></li>
+<li><span>2025/10/14</span> <a href="/info/2025/10/1010.html">【更新】【重要】オッズパークアプリについて（10月14日更新）</a></li>
+<li><span>2025/10/08</span> <a href="/info/2025/10/post-614.html">【重要】オッズパークアプリについて</a></li>
+<li><span>2025/10/08</span> <a href="/info/2025/10/post-612.html">【重要】オッズパークアプリでの入金・チャージについて</a></li>
+<li><span>2025/10/06</span> <a href="/info/2025/10/post-609.html">【更新】【サービス】オッズパークアプリ 強制アップデートのお知らせ（10月6日更新）</a></li>
+</ul>
+<!-- //MtInclude:お知らせエリア -->
+</div>
+<div class="w480px bl-left10">
+<h3>ピックアップ
+<!-- MtInclude:ピックアップエリア -->
+<div class="ls">▸
+
+<a href="./pickup/">一覧へ</a>
+</div>
+</h3>
+<ul class="news">
+<li><span>2025/10/09</span> <a href="/pickup/2025/10/20259starter-pack-.html">2025年9月の【競輪】Starter PACKの予想-的中結果</a></li>
+<li><span>2025/09/03</span> <a href="/pickup/2025/09/20258starter-pack-.html">2025年8月の【競輪】Starter PACKの予想-的中結果</a></li>
+<li><span>2025/08/06</span> <a href="/pickup/2025/08/20257starter-pack-.html">2025年7月の【競輪】Starter PACKの予想-的中結果</a></li>
+<li><span>2025/07/03</span> <a href="/pickup/2025/07/20256starter-pack-.html">★2025年6月の【競輪】Starter PACKの予想-的中結果</a></li>
+<li><span>2025/06/03</span> <a href="/pickup/2025/06/starter-pack20255.html">【競輪】Starter PACK　2025年5月結果</a></li>
+<li><span>2025/05/01</span> <a href="/pickup/2025/05/starter-pack20254.html">【競輪】Starter PACK　2025年4月結果</a></li>
+</ul>
+<!-- //MtInclude:ピックアップエリア -->
+</div>
+</div>
+<!-- 携帯・プライバシーマーク -->
+<div class="w100pr">
+<!-- MtInclude:パーツ1 -->
+<!-- MtInclude:パーツ1 -->
+<!-- MtInclude://パーツ1 -->
+<!-- //MtInclude:パーツ1 -->
+</div>
+<div class="w100pr">
+<!-- MtInclude:パーツ2 -->
+<!-- MtInclude:パーツ2 -->
+<div class="crm4" id="udcontent">
+<ul class="clearfix" id="linkbnr">
+<li id="stmar"></li>
+<!-- <li><a href="/service/cm/?fobe_top_cm"><img alt="オッズパークTVCM" src="/parts/cm_zakiyama2022.jpg?20230223083959" /></a></li> -->
+<li><a href="/service/youtube/?fobe_top_youtube"><img alt="Youtube オッズパーク公式チャンネル ライブ配信スケジュール" src="local_resources\bn_youtube_top_4c6772088fe81034.png"/></a></li>
+<li><a href="/service/oddspark/?fobe_top_op"><img alt="オッズパークからお客様へのメッセージ" src="local_resources\oyakudachi_01_6ec01e2bd419934a.gif"/></a></li>
+<li><a href="/campaign/?fobe_top_cp"><img alt="キャンペーン一覧ページ" src="local_resources\bn_campaign_fd5618c7893546a3.jpg"/></a></li>
+<li class="end" id="tweet"><img alt="X" src="local_resources\twitter_x_be57cc095f8876e4.jpg"/>
+<span>X（Twitter）</span><br/>
+<a href="https://twitter.com/oddspark_keiba/?fobe_top_tw" target="_blank">▸ 競馬 X</a>
+<a href="https://twitter.com/oddspark_keirin/?fobe_top_tw" target="_blank">▸ 競輪 X</a><br/>
+<a href="https://twitter.com/oddspark_auto/?fobe_top_tw" target="_blank">▸ オートレース X</a>
+</li>
+<!-- <li><a target="_blank" href="http://www.facebook.com/oddspark.official?fobe_top_fb"><img alt="オッズパークfacebookページ更新中！" src="/parts/facebook_299.gif?20230223073234" /></a></li> -->
+<li><a href="/service/line/?fobe_top_line"><img alt="LINEで質問 お得な情報配信中!!" src="local_resources\bn_line_2485bd47bc47bb5a.jpg"/></a></li>
+<li><a href="https://www.oddspark.com/member/beginner/?fobe_top_about"><img alt="はじめての方へ" src="local_resources\beginBtn_159658b445b14f90.gif"/></a></li>
+<li><a href="https://www.oddspark.com/member/app/release.html?fobe_top_app"><img alt="スマホアプリ" src="local_resources\bn_app_5cdcaa9207271ac4.gif"/></a></li>
+<li class="end"><a href="https://sp.oddspark.com?fobe_top_spsite"><img alt="スマートフォンはこちらから！" src="local_resources\smartfonQR_543ad8d807421098.gif"/></a></li>
+<li><a href="http://www.oddspark.com/member/voc/?fobe_top_voc"><img alt="お客様の声" src="local_resources\voc-299_b0066f6775d69912.gif"/></a></li>
+<li><a href="http://www.oddspark.com/about/mailto/mailbefore.html?fobe_top_mail"><img alt="お問い合わせ" src="local_resources\support_bt_752d2a0a11e6f6de.gif"/></a></li>
+<li><a href="https://www.tabirism.co.jp/?fobe_top_tabi" target="_blank"><img alt="たびりずむ 各種観戦ツアーはこちら" src="local_resources\tabirism_78802d5d63c4732e.gif"/></a></li>
+<!-- <li><a href="/club/?fobe_top_club"><img src="/top_images/bn_club.gif?20250917152101" alt="オッズパークCLUB"></a></li> -->
+<li class="end"><a href="/member/beginner/opcoin/charge.html?fobe_top_paypay"><img alt="PayPay使えます。" src="local_resources\bn_paypay_5152ed972a452b94.png"/></a></li>
+</ul>
+<div class="clearfix" id="related">
+<div class="clearfix" id="relattl">
+<h5 id="stoods">オッズパークの各サービス</h5>
+<a href="/">競馬・競輪・オートレースのオッズパーク【OddsPark】</a></div>
+<p>オッズパークでは、地方競馬・競輪・オートレースのライブ映像・予想・ネット投票が楽しめます。毎月お得な新規入会キャンペーン実施中。PLAY!オッズパーク!クレジットカード・電子マネーでのチャージにも対応し、スマホ・パソコン・ケータイからカンタン操作で馬券・車券の購入が可能です。各レースの出走表、選手データ、オッズ、結果、専門紙記者による予想情報も満載！現金やレアグッズが当たるキャンペーンも随時開催中です。</p>
+<div class="relatlink" id="relatkeiba">
+<h6><a href="/keiba/?fobe_top_keiba"><img alt="オッズパーク競馬" src="local_resources\logo_keiba_f40f0d551e24c912.gif"/>地方競馬なら<br/>
+オッズパーク競馬</a></h6>
+<ul class="clearfix">
+<li><a href="/keiba/service/?fobe_top_keibaservice">▸ オッズパーク競馬とは？</a></li>
+<li><a href="/keiba/guide/?fobe_top_keibaguide">▸ オッズパーク競馬利用ガイド</a></li>
+<li><a href="https://www.oddspark.com/club/keiba/beginner/keiba_bar_idx.html">▸ 競馬を知ろう</a></li>
+<li><a href="/keiba/KaisaiRaceList.do?fobe_top_keibarace">▸ 競馬レース情報</a></li>
+<li><a href="/keiba/yosou/?fobe_top_keibayosou">▸ 競馬予想情報</a></li>
+<li><a href="/keiba/racetrack/?fobe_top_keibaracetrack">▸ 地方競馬の競馬場案内</a></li>
+<li><a href="/keiba/glossary/?fobe_top_keibaglossary">▸ 競馬用語集</a></li>
+<!-- <li><a href="/club/keiba/?fobe_top_club_keiba">&#9656;&nbsp;地方競馬CLUB</a></li> -->
+</ul>
+</div>
+<div class="relatlink" id="relatkeirin">
+<h6><a href="/keirin/?fobe_top_keirin"><img alt="オッズパーク競輪" src="local_resources\logo_keirin_2ea2e19bde9a3b26.gif"/>競輪（KEIRIN）なら<br/>
+オッズパーク競輪</a></h6>
+<ul class="clearfix">
+<li><a href="/keirin/service/?fobe_top_keirinservice">▸ オッズパーク競輪とは？</a></li>
+<li><a href="/keirin/guide/?fobe_top_keiringuide">▸ オッズパーク競輪利用ガイド</a></li>
+<li><a href="https://www.oddspark.com/club/keirin/beginner/keirin_date_idx.html">▸ 競輪を知ろう</a></li>
+<li><a href="/keirin/RaceListInfo.do?fobe_top_keirinrace">▸ 競輪レース情報</a></li>
+<li><a href="/keirin/yosou/?fobe_top_keirinyosou">▸ 競輪予想情報</a></li>
+<li><a href="/keirin/racetrack/?fobe_top_keirinracetrack">▸ 全国の競輪場案内</a></li>
+<li><a href="/keirin/glossary/?fobe_top_keiringlossary">▸ 競輪用語集</a></li>
+<!-- <li><a href="/club/keirin/?fobe_top_club_keirin">&#9656;&nbsp;競輪CLUB</a></li> -->
+</ul>
+</div>
+<div class="relatlink" id="relatauto">
+<h6><a href="/autorace/?fobe_top_auto"><img alt="オッズパークオートレース" src="local_resources\logo_auto_37447b94296e2d97.gif"/>オートレースの車券購入なら<br/>
+オッズパークオートレース</a></h6>
+<ul class="clearfix">
+<li><a href="/autorace/service/?fobe_top_autoservice">▸ オッズパークオートレースとは？</a></li>
+<li><a href="/autorace/guide/?fobe_top_autoguide">▸ オッズパークオートレース利用ガイド</a></li>
+<li><a href="https://www.oddspark.com/club/autorace/beginner/auto_shop_idx.html">▸ オートレースを知ろう</a></li>
+<li><a href="/autorace/KaisaiRaceList.do?fobe_top_autorace">▸ オートレースレース情報</a></li>
+<li><a href="/autorace/yosou/?fobe_top_autoyosou">▸ オートレース予想情報</a></li>
+<li><a href="/autorace/racetrack/?fobe_top_autoracetrack">▸ 全国のオートレース場案内</a></li>
+<li><a href="/autorace/glossary/?fobe_top_autoglossary">▸ オートレース用語集</a></li>
+<!-- <li><a href="/club/autorace/?fobe_top_club_autorace">&#9656;&nbsp;オートレースCLUB</a></li> -->
+</ul>
+</div>
+<div class="relatlink" id="relatloto">
+<h6><a href="/loto/?fobe_top_loto"><img alt="オッズパークLOTO" src="local_resources\logo_loto_18914cffb9ddc641.gif"/>Dokanto!（ドカント）・モトロトなら<br/>
+オッズパークLOTO（ロト）</a></h6>
+<ul class="clearfix">
+<li><a href="/loto/service/?fobe_top_lotoservice">▸ オッズパークLOTOとは？</a></li>
+<li><a href="/loto/service/dokanto/?fobe_top_lotodokanto">▸ Dokanto!（ドカント）とは？</a></li>
+<li><a href="/loto/service/motoloto/?fobe_top_lotomotoloto">▸ モトロトとは？</a></li>
+<li><a href="/loto/guide/?fobe_top_lotoguide">▸ オッズパークLOTO利用ガイド</a></li>
+<li><a href="https://www.oddspark.com/club/keiba/beginner/keiba_bar_idx.html">▸ 競馬を知ろう</a></li>
+<li><a href="https://www.oddspark.com/club/keirin/beginner/keirin_date_idx.html">▸ 競輪を知ろう</a></li>
+<li><a href="https://www.oddspark.com/club/autorace/beginner/auto_shop_idx.html">▸ オートレースを知ろう</a></li>
+<li><a href="/loto/RaceTop.do?fobe_top_lotorace">▸ LOTOレース情報</a></li>
+<li><a href="/loto/yosou/?fobe_top_lotoyosou">▸ LOTO予想情報</a></li>
+</ul>
+</div>
+</div>
+<style>
+#udcontent #otherlink{font-size: 90%;}
+#udcontent #otherlink #privacy{width: 25%;}
+#udcontent #otherlink #privacy p{display: table-cell;vertical-align: middle;}
+</style>
+<div class="clearfix" id="otherlink">
+<ul class="clearfix">
+<li><a href="/member/beginner/">▸ はじめての方へ</a></li>
+<!--<li><a href="/member/">&#9656;&nbsp;新規会員登録のご案内</a></li>-->
+<li><a href="https://faq.oddspark.com/" target="_blank">▸ よくあるご質問</a></li>
+<!--li><a href="/about/info_time.html">&#9656;&nbsp;オッズパークのサービス時間</a></li-->
+<li style="clear:both;"><a href="/service/g_attention.html" onclick="window.open(this.href, '', 'width=631, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;">▸ 馬券・車券は20歳になってから　程よく楽しむ大人の遊び</a></li>
+<li><a href="/info/2019/06/post-362.html">▸ 公営競技の払戻金の支払を受けた方へ</a></li>
+</ul>
+<div class="clearfix" id="privacy"><a href="http://privacymark.jp/" target="_blank"><img alt="プライバシーマーク" src="local_resources\10760024_75_JP_cc43f12ce2674cc6.gif"/></a>
+<p>オッズ・パーク株式会社は「プライバシーマーク」使用許諾事業者として認定されています。</p>
+</div>
+</div>
+</div>
+<!-- MtInclude://パーツ2 -->
+<!-- //MtInclude:パーツ2 -->
+</div>
+<!-- /携帯・プライバシーマーク -->
+<div class="clr"> </div>
+</div>
+<!-- //content -->
+<div id="footer">
+<div id="footerInner">
+<p id="copy">Copyright (C) Odds Park Corp. All Rights Reserved.</p>
+<ul id="footerNav">
+<li><a href="/service/company.html" onclick="window.open(this.href, '', 'width=631, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;">会社案内</a></li>
+<li><a href="/service/toiawase.pdf" target="_blank">特定商取引法に基づく表示</a></li>
+<li><a href="/service/sitepolicy.html" onclick="window.open(this.href, '', 'width=631, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;">サイトポリシー</a></li>
+<li><a href="/service/privacy.html" onclick="window.open(this.href, '', 'width=631, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;">個人情報保護方針</a></li>
+<li><a href="/service/information-security.html" onclick="window.open(this.href, '', 'width=631, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;">情報セキュリティ方針</a></li>
+<li><a href="/service/customer-harassment.html" onclick="window.open(this.href, '', 'width=631, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;">カスタマーハラスメントに対する方針</a></li>
+<li><a href="/service/rule.html" onclick="window.open(this.href, '', 'width=631, height=500, menubar=no, toolbar=no, scrollbars=yes'); return false;">免責事項</a></li>
+<li><a href="/user/new/GoiInp.do" onclick="window.open(this.href, '', 'width=1020, height=740, menubar=no, toolbar=no, scrollbars=yes'); return false;">ご意見・ご要望</a></li>
+<li><a href="/service/link.html" onclick="window.open(this.href, '', 'width=1020, height=740, menubar=no, toolbar=no, scrollbars=yes'); return false;">リンク</a></li>
+</ul>
+</div>
+<!-- //footerInner -->
+</div>
+<!-- //footer -->
+<script src="local_resources\trace_96fdb0111b598a5b.js" type="text/javascript"></script>
+<!-- Google Tag Manager -->
+<noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-M5GLNZ" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M5GLNZ');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=mw1D83P";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+<iframe frameborder="0" height="1" marginheight="0" marginwidth="0" scrolling="no" src="//b.yjtag.jp/iframe?c=mw1D83P" width="1"></iframe>
+</noscript>
+</div>
+<!-- //wrap -->
+<div id="modalArea">
+<div id="wrapDeploy"></div>
+</div>
+<form action="./VoteError.do" id="VoteAjaxError" method="get" name="VoteAjaxError"></form>
+<script type="text/javaScript">
+$(function(){
+	function flip(){
+		var opt = {blockSize: 3,
+			callback: function(flp, init){
+				if(flp.controll.maxPage <= flp.controll.nowPage+1)
+					$(".next",flp.self).addClass("dis_next").removeClass("btn_next");
+				else $(".next",flp.self).addClass("btn_next").removeClass("dis_next");
+				if(flp.controll.nowPage <= 0)
+					$(".prev",flp.self).addClass("dis_prev").removeClass("btn_prev");
+				else $(".prev",flp.self).addClass("btn_prev").removeClass("dis_prev"); }}
+		var u = $('#box2 .keiba').flipper(opt);
+		var c = $('#box2 .keirin').flipper(opt);
+		var a = $('#box2 .auto').flipper(opt);
+		var l = $('#box2 .loto').flipper(opt);
+		var evt =  'click';
+		$(document).on(evt, '.keiba .btn_next', function(){u.flipper().nextPage()});
+		$(document).on(evt, '.keiba .btn_prev', function(){u.flipper().prevPage()});
+		$(document).on(evt, '.keirin .btn_next', function(){c.flipper().nextPage()});
+		$(document).on(evt, '.keirin .btn_prev', function(){c.flipper().prevPage()});
+		$(document).on(evt, '.auto .btn_next', function(){a.flipper().nextPage()});
+		$(document).on(evt, '.auto .btn_prev', function(){a.flipper().prevPage()});
+		$(document).on(evt, '.loto .btn_next', function(){l.flipper().nextPage()});
+		$(document).on(evt, '.loto .btn_prev', function(){l.flipper().prevPage()});
+	};
+	flip();
+
+	$("#tabNews li a").click(function(){
+		var o = $(this);
+		var t = o.attr("tp");
+		var l = o.attr("toList");
+
+		$("#tabNews li").removeClass("active");
+		o.closest("li").addClass("active");
+
+		if(l){
+			$("#lsNews_toList").show().attr("href", l);
+		}
+		else{
+			$("#lsNews_toList").hide();
+		}
+		$("#lsNews div").hide();
+		$("#lsNews ."+t ).show();
+	});
+
+	$("#btn_login").click(function(){
+		var o = $(this);
+		if(o.attr('submited')) return;
+		o.attr('submited',1).closest('form').submit();
+	});
+
+});
+</script>
+<script src="local_resources\gdjaQ4_40b71fb0fa043d79" type="text/javascript"></script></body>
+</html>

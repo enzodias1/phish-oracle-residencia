@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="background-color: #9195a3;"><head><link href="local_resources\link-logo_cd9b61c577039503.png" rel="icon" type="image/png"/><meta charset="utf-8"/><meta content="IE=edge" http-equiv="X-UA-Compatible"/><meta content="yes" name="apple-mobile-web-app-capable"/><meta content="black" name="apple-mobile-web-app-status-bar-style"/><meta content="98BET" name="apple-mobile-web-app-title"/><meta content="98BET" name="application-name"/><meta content="telephone=yes" name="format-detection"/><meta content="yes" name="mobile-web-app-capable"/><meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/><meta content="no-cache" http-equiv="Pragma"/><meta content="0" http-equiv="Expires"/><meta content="66Lottery" property="og:title"/><meta content="66Lottery-Fair and safe, fast withdrawal" property="og:description"/><meta content="website" property="og:type"/><meta content="/static/manifest/logo-192x192.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="66Lottery" name="twitter:title"/><meta content="66Lottery-Fair and safe, fast withdrawal" name="twitter:description"/><meta content="/static/manifest/logo-192x192.png" name="twitter:image"/><title>66Lottery</title><script src="local_resources\version_9a5b1b81926d37d1.js"></script><script>var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS
+				.supports('top: constant(a)'))
+			document.write(
+				'<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+				(coverSupport ? ', viewport-fit=cover' : '') + '" />')
+
+			document.addEventListener('DOMContentLoaded', function() {
+				var splashText = document.getElementById('splash-text');
+				splashText.innerText = 'Withdraw fast, safe and stable'; // è®¾ç½®ææ¬åå®¹
+				splashText.style.opacity = 1;
+				document.title = '66Lottery'
+                console.log(appFixBuildVersion)
+                // document.getElementById('version').textContent = appFixBuildVersion
+			});
+
+			if ('serviceWorker' in navigator) {
+				console.log("æ¯æserviceWorker")
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('./static/manifest/firebase-messaging-sw.js')
+						.then((registration) => {
+							console.log('Service Worker æ³¨åæå:', registration);
+						})
+						.catch((error) => {
+							console.log('Service Worker æ³¨åå¤±è´¥:', error);
+						});
+				});
+			} else {
+				console.log("ä¸æ¯æserviceWorker")
+			}
+
+			const storedObject = localStorage.getItem('errorUrls');
+			window.errorUrls = storedObject ? JSON.parse(storedObject) : {};;
+			console.log(window.errorUrls);
+
+
+			function sendToServiceWorker() {
+				if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+					navigator.serviceWorker.controller.postMessage({
+						action: 'errorUrls',
+						key: 'errorUrls',
+						value: window.errorUrls || {}
+					}, [ /* transfer list */ ]);
+				}
+			}
+
+			sendToServiceWorker();
+
+
+			function addErrorUrl(url) {
+				if (!window.errorUrls[url]) {
+					window.errorUrls[url] = 0;
+				}
+				fetch(url, {
+						cache: 'no-store'
+					})
+					.then(response => response.text())
+					.then(text => {
+						// å¤çææ¬
+					});
+				window.errorUrls[url] = window.errorUrls[url] + 1;
+				localStorage.setItem('errorUrls', JSON.stringify(window.errorUrls));
+
+				sendToServiceWorker();
+			}
+
+			function reloadScriptWithTimestamp(src) {
+				let script = document.createElement('script');
+				const time = new Date().getTime();
+				script.src = src + `?t=` + time;
+				script.onerror = function() {
+					console.log("Failed to load script with timestamp");
+				};
+				document.head.appendChild(script);
+			}
+
+			window.onerror = function(message, source, lineno, colno, error) {
+				if (source.endsWith('.js') && error instanceof SyntaxError) {
+					// reloadScriptWithTimestamp(source); // éæ°å è½½è§¦åéè¯¯çèæ¬
+					// æ£æ¥éè¯¯æ¥æºæ¯å¦åå«æå®è·¯å¾
+					if (source.includes('/static/js/chunk-vendors.') || source.includes('/static/js/index.')) {
+						console.log("Error in target script detected. Attempting to reload...");
+						reloadScriptWithTimestamp(source);
+					} else {
+						console.error("Error in load script detected.", source);
+						// å¨è¿éå¯ä»¥æ§è¡å¶ä»æä½
+						const loadingDiv = document.getElementById('splash');
+						if (loadingDiv) {
+							loadingDiv.classList.add('splash-hidden'); // ä½¿ç¨ç±»æ¥éèåç´ 
+						}
+						addErrorUrl(source)
+					}
+
+				}
+				return false; // åè®¸éè¯¯ç»§ç»­ä¼ æ­ï¼é¿åå¶ä»å¨å±éè¯¯å¤çå¨è¢«é»æ­¢
+			};</script><link href="local_resources\index.2da1efab_b367d1215d6176ed.css" rel="stylesheet"/><link href="local_resources\manifest_eccd365b4882257e.json" rel="manifest"/></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div class="start-page daman start-page-width" id="splash"><div><div class="dice daman"></div><p id="splash-text" style="color: #FFF; opacity: 0;">Withdraw fast, safe and stable</p><div class="logo daman"></div></div><a class="kfimg" href="https://live.cs66lottery.com/"></a></div><div id="app"></div><script src="local_resources\jschunk-vendors_5a25767894a4c3a5.js"></script><script src="local_resources\jsindex_d756ad0c7b824140.js"></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'991335825aef1b18',t:'MTc2MDkwNzY2OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body><style>#version {
+            position: fixed;
+            bottom: 30px;
+            left: 0;
+            right: 0;
+        }
+		.start-page {
+			position: fixed;
+			z-index: 9999;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(180deg, #ff8988 0%, #ffd0ba 100%);
+			bottom: 0;
+			display: flex;
+			flex-direction: column;
+			justify-content: center
+		}
+
+		.start-page-width {
+			max-width: 400px;
+		}
+
+		.start-page.daman {
+			background: linear-gradient(169deg, #E22F2F 1.56%, #FFD0BA 39.74%, #FF8988 39.75%, #FFF 80.92%, #E33333 99%)
+		}
+
+		.start-page div {
+		
+			display: flex;
+		
+			flex-direction: column;
+		
+			justify-content: center;
+		
+			align-items: center
+		}
+
+		.start-page div .dice {
+			width: 2.66667rem;
+			height: 2.66667rem;
+			/* background-image: url(/static/manifest/game_dice.png); */
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center
+		}
+
+		.splash-hidden {
+			display: none;
+		}
+
+		.start-page div .dice.daman {
+			width: 24rem;
+			height: 21rem;
+			/* background-size: cover; */
+			background-image: url(/static/manifest/game_66lottery.png)
+		}
+
+		.start-page .kfimg {
+			display: block;
+			position: absolute;
+			right: 15px;
+			bottom: 15px;
+			width: 64px;
+			height: 64px;
+			/* background-size: cover; */
+			background-image: url(/static/manifest/india_icon_sevice_new.png)
+		}
+
+		.start-page div .logo {
+			background-repeat: no-repeat;
+			background-size: contain;
+			margin-top: 2.13333rem;
+			max-width: 50%
+		}
+
+		.start-page div .logo.daman {
+			width: 13rem;
+			height: 7rem;
+			/* background-size: cover; */
+			background-image: url(/static/manifest/game_66lottery_logo.png)
+		}
+
+		.start-page div p {
+			font-weight: 700;
+			font-size: 1.3rem;
+			margin-top: .4rem;
+			margin-bottom: 5rem;
+			padding: 0 .13333rem;
+			text-align: center
+		}
+
+		@media screen and (max-width: 960px) {
+			.start-page-width {
+				max-width: 1080px;
+			}
+		}</style></html>

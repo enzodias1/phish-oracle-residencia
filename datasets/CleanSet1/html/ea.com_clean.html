@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="pt" wf-loading="">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="local_resources\favicon_227e8c677053238c.png" rel="shortcut icon" type="image/png"/>
+<script>
+        window.newrelicAttributes = {
+            accountId: "1796917",
+            trustKey: "1796917",
+            agentId: "149134891",
+            licenseKey: "f701a6c63c",
+            applicationId: "149134891"
+        };
+    </script>
+<script src="local_resources\newrelic_8ba7fadbf44a47e3.js"></script>
+<!-- Compliant Google Optimize -->
+<script>
+        (() => {
+            const getPrivacyCookie = () => {
+                const privacyCookie = document.cookie.match('(^|;)\\s*cmapi_cookie_privacy\\s*=\\s*([^;]+)');
+
+                return privacyCookie ? privacyCookie.pop() : null;
+            };
+
+            const getBehaviorCookie = () => {
+                const behaviorCookie = document.cookie.match('(^|;)\\s*notice_behavior\\s*=\\s*([^;]+)');
+
+                return behaviorCookie ? behaviorCookie.pop() : null;
+            };
+
+            const hasOptedIn = () => {
+                const behaviorCookie = getBehaviorCookie();
+                const privacyCookie = getPrivacyCookie();
+
+                return behaviorCookie && behaviorCookie.match(/^none$/) || privacyCookie && privacyCookie.match(/2|3/);
+            }
+
+            const appendOptimize = () => {
+                const head = document.getElementsByTagName('head')[0];
+
+                if (head) {
+                    const script = document.createElement('script');
+
+                    script.src = 'https://www.googleoptimize.com/optimize.js?id=GTM-M6BQF2W';
+                    script.id = "google-optimize"
+                    head.append(script);
+                }
+            };
+
+            const removeOptimize = () => {
+                const head = document.getElementsByTagName('head')[0];
+                const optimizeScript = document.getElementById('google-optimize');
+
+                if (head && optimizeScript) {
+                    head.removeChild(optimizeScript);
+                }
+            }
+
+            /**
+             * Append or remove Google Optimize script to head,
+             * depending on whether user's cookie preferences
+             * have opted in and Google Optimize script already
+             * exists in head.
+             */
+            const handleConsentDecision = () => {
+                const googleOptimizeScript = document.getElementById('google-optimize');
+                if (hasOptedIn() && !googleOptimizeScript) {
+                    appendOptimize();
+                } else if (!hasOptedIn() && googleOptimizeScript) {
+                    removeOptimize();
+                }
+            }
+
+            /**
+             * Callbacks will occur in the form of a PostMessage event. This code listens for the
+             * appropriately formatted PostMessage event, gets the new consent decision, and then sets
+             * the new cookie preferences.
+             */
+            const handlePreferencesUpdated = (e) => {
+                try {
+                    const { capabilities, action } = JSON.parse(e.data).PrivacyManagerAPI || {};
+                    if (capabilities && action === 'getConsentDecision') {
+                        handleConsentDecision();
+                    }
+                } catch (error) {
+                    console.error(error);
+                }
+            }
+
+            /**
+             * Registers with the TrustArc Content Manager (CM) API to receive callbacks when
+             * a preference update occurs, and initialized dispatched preferences array to
+             * the user's current preferences. You must wait for the CM API (PrivacyManagerAPI object)
+             * to exist on the page before registering.
+             */
+            const CMICallbackRegister = () => {
+                const interval = setInterval(() => {
+                    if (window.PrivacyManagerAPI && interval) {
+                        const apiObject = {
+                            PrivacyManagerAPI: {
+                                action: 'getConsentDecision',
+                                timestamp: new Date().getTime(),
+                                self: window.location.host
+                            }
+                        };
+                        window.top.postMessage(JSON.stringify(apiObject), '*');
+                        clearInterval(interval);
+                    }
+                }, 50);
+            }
+
+            /**
+             * Listener registers a message callback on the TrustArc Content Manager when
+             * user's cookie preferences are updated and adds an event listener
+             * on the message events that occur when said preference updates occur.
+             */
+            const trustArcScriptLoadListener = () => {
+                if (typeof window.truste === 'object') {
+                    CMICallbackRegister();
+                    window.addEventListener('message', handlePreferencesUpdated);
+                }
+            }
+
+            window.addEventListener('load', trustArcScriptLoadListener);
+            const behaviorCookie = getBehaviorCookie();
+
+            if (behaviorCookie === null) {
+                // wait for TrustArc script to load before checking cookies
+                let numIntervals = 0;
+                const scriptLoadInterval = setInterval( () => {
+                    if(getBehaviorCookie()) {
+                        handleConsentDecision();
+                        clearInterval(scriptLoadInterval);
+                    }
+                    // Stop running interval after 8 times (8x the documented 500ms it
+                    // should take to load the TrustArc script on the BE) to prevent running forever
+                    if (++numIntervals >= 10) {
+                        clearInterval(scriptLoadInterval);
+                    }
+                } , 500);
+            } else {
+                handleConsentDecision();
+            }
+        })();
+</script>
+<!-- End Compliant Google Optimize -->
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+
+        var f = d.getElementsByTagName(s)[0];
+        var j = d.createElement(s);
+        var dl = l !== 'dataLayer' ? '&l=' + l : '';
+
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-TG32RCX' + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer');
+</script>
+<!-- End Google Tag Manager -->
+<style>
+    [unresolved] {
+        visibility: hidden !important;
+    }
+</style>
+<noscript>
+<style>
+        [unresolved] {
+            visibility: visible !important;
+        }
+    </style>
+</noscript>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+</style>
+<script>
+    
+    if (!CSS.supports('width', 'calc((var(--test))')) {
+        window.ShadyCSS = {
+            shimcssproperties: true
+        };
+    }
+
+    document.addEventListener('nds.typeKit.active', function() {
+        document.querySelector('html').removeAttribute('wf-loading');
+    });
+</script>
+<script crossorigin="anonymous" integrity="sha384-3HK5hxQbkFqOIxMbpROlRmRtYl2LBZ52t+tqcjzsmr9NJuOWQxl8RgQSyFvq2lhy" src="local_resources\webcomponents-loader_56fd27cb499bd760.js"></script>
+<script crossorigin="anonymous" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" src="local_resources\masonry.pkgd.min_c3689c0f5671f7b3.js"></script>
+<script src="local_resources\api_07d843c439369ec4.js"></script>
+<script>
+    window.nds = window.nds || {};
+    window.nds.componentUrlPrefix = '//pl.ea.com/release/4.69.0/elements/ea-elements.min.js'.substring(0, '//pl.ea.com/release/4.69.0/elements/ea-elements.min.js'.lastIndexOf('/') + 1);
+    window.nds.contentfulUrl = 'https://contentful-proxy.juno.ea.com/graphql';
+    window.nds.salUrl = 'https://service-aggregation-layer.juno.ea.com/graphql';
+    window.nds.useApq = true;
+    window.nds.salClientId = 'eacom-fe';
+    window.nds.xGameDistMethod = 'eacom';
+    window.nds.lockboxGameId = 'eacom';
+    window.nds.lockboxInvoiceSource = 'EACOM-STORE-WEB-%countryCode%';
+    window.nds.lockboxExternalPaymentPath = '/lockbox-external-payment';
+</script>
+<script src="local_resources\ea-elements.min_e5221b1ccd7ab55d.js" type="module"></script>
+<script defer="" nomodule="" src="local_resources\ea-elements.min_e5221b1ccd7ab55d.js"></script>
+<style>
+    @font-face {
+    font-family: 'ElectronicArtsDisplay';
+    src: url(/assets/fonts/display/ElectronicArtsDisplay-Regular.woff2) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsDisplay';
+    src: url(/assets/fonts/display/ElectronicArtsDisplay-Bold.woff2) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(/assets/fonts/text/ElectronicArtsText-Light.woff2) format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(/assets/fonts/text/ElectronicArtsText-LightItalic.woff2) format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(/assets/fonts/text/ElectronicArtsText-Regular.woff2) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(/assets/fonts/text/ElectronicArtsText-Italic.woff2) format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(/assets/fonts/text/ElectronicArtsText-Bold.woff2) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ElectronicArtsText';
+    src: url(/assets/fonts/text/ElectronicArtsText-BoldItalic.woff2) format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+</style>
+<title>Página inicial da Electronic Arts - Site Oficial da EA</title>
+<meta content="article" property="og:type"/>
+<meta content="Página inicial da Electronic Arts - Site Oficial da EA" property="og:title"/>
+<meta content="A Electronic Arts é uma das principais distribuidoras de jogos para consoles, PC e dispositivos móveis." property="og:description"/>
+<meta content="https://www.ea.com/pt-br" property="og:url"/>
+<meta content="Electronic Arts Inc." property="og:site_name"/>
+<meta content="https://media.contentapi.ea.com/content/dam/eacom/images/2021/03/ea-featured-tile-generic-electronic-arts.png.adapt.crop191x100.1200w.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="628" property="og:image:height"/>
+<meta content="A Electronic Arts é uma das principais distribuidoras de jogos para consoles, PC e dispositivos móveis." name="description"/>
+<meta content="Electronic Arts" name="author"/>
+<meta content="2025-10-09T11:06:49Z" property="article:modified_time"/>
+<meta content="2016-10-19T21:20:38+01:00" property="article:published_time"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="@ea" name="twitter:site"/>
+<meta content="Página inicial da Electronic Arts - Site Oficial da EA" name="twitter:title"/>
+<meta content="A Electronic Arts é uma das principais distribuidoras de jogos para consoles, PC e dispositivos móveis." name="twitter:description"/>
+<meta content="https://media.contentapi.ea.com/content/dam/eacom/images/2021/03/ea-featured-tile-generic-electronic-arts.png.adapt.crop16x9.1023w.png" name="twitter:image"/>
+<meta content="@ea" name="twitter:creator"/>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+     
+"image": {
+    "@type": "ImageObject",
+    "url": "https://media.contentapi.ea.com/content/dam/eacom/images/2021/03/ea-featured-tile-generic-electronic-arts.png.adapt.crop191x100.1200w.png"
+},
+ 
+    "author": {
+      "@type": "Organization",
+      "name": "Electronic Arts",
+      "sameAs": "https://en.wikipedia.org/wiki/Electronic_Arts"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Electronic Arts",
+        "sameAs": "https://en.wikipedia.org/wiki/Electronic_Arts",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://media.contentapi.ea.com/content/dam/ea/EA_logo.png",
+            "width": 60,
+            "height": 60
+        }
+    },
+    "inLanguage": "pt",
+    "description": "A Electronic Arts é uma das principais distribuidoras de jogos para consoles, PC e dispositivos móveis.",
+    "datePublished": "2016-10-19T21:20:38+01:00",
+    "dateModified": "2025-10-09T11:06:49Z",
+    "headline": "Página inicial da Electronic Arts - Site Oficial da EA",
+    "url": "https://www.ea.com/pt-br"
+}
+</script>
+</head>
+<body unresolved="">
+<custom-style><style include="ea-shared-styles-base-common"></style></custom-style>
+<custom-style><style include="ea-shared-styles-base-headings"></style></custom-style>
+<custom-style><style include="ea-shared-styles-base-lists"></style></custom-style>
+<custom-style><style include="ea-shared-styles-base-links"></style></custom-style>
+<custom-style><style include="ea-shared-styles-base-images"></style></custom-style>
+<custom-style><style include="ea-shared-styles-typography-headings"></style></custom-style>
+<custom-style><style include="ea-shared-styles-typography-paragraphs"></style></custom-style>
+<custom-style><style include="ea-shared-styles-typography-labels"></style></custom-style>
+<custom-style>
+<style>
+                    html {
+                        
+                            --origin-brand-color: #FF4747;
+                        
+                            --eaCorporate-landingSection-spacerTop-XS: 32px;
+                        
+                            --eaCorporate-landingSection-spacerTop-SM: 32px;
+                        
+                            --eaCorporate-landingSection-spacerTop-MD: 80px;
+                        
+                            --eaCorporate-landingSection-spacerTop-LG: 104px;
+                        
+                            --eaCorporate-landingSection-spacerTop-XL: 128px;
+                        
+                            --eaCorporate-landingSection-spacerBottom-XS: 32px;
+                        
+                            --eaCorporate-landingSection-spacerBottom-SM: 32px;
+                        
+                            --eaCorporate-landingSection-spacerBottom-MD: 40px;
+                        
+                            --eaCorporate-landingSection-spacerBottom-LG: 48px;
+                        
+                            --eaCorporate-landingSection-spacerBottom-XL: 56px;
+                        
+                            --eaCorporate-standardSection-spacerTop-XS: 48px;
+                        
+                            --eaCorporate-standardSection-spacerTop-SM: 48px;
+                        
+                            --eaCorporate-standardSection-spacerTop-MD: 80px;
+                        
+                            --eaCorporate-standardSection-spacerTop-LG: 80px;
+                        
+                            --eaCorporate-standardSection-spacerTop-XL: 80px;
+                        
+                            --eaCorporate-standardSection-spacerBottom-XS: 48px;
+                        
+                            --eaCorporate-standardSection-spacerBottom-SM: 48px;
+                        
+                            --eaCorporate-standardSection-spacerBottom-MD: 80px;
+                        
+                            --eaCorporate-standardSection-spacerBottom-LG: 80px;
+                        
+                            --eaCorporate-standardSection-spacerBottom-XL: 80px;
+                        
+                            --ea-theme-stream-ui-paddle-default: #161616;
+                        
+                            --ea-theme-stream-ui-paddle-disabled: #BFBFBF;
+                        
+                            --ea-theme-stream-ui-progress-indicator-default: rgb(255,255,255);
+                        
+                            --ea-theme-stream-ui-progress-indicator-hover: rgb(255,255,255);
+                        
+                            --ea-theme-stream-ui-progress-bar-stroke-default: #ff8e8e;
+                        
+                            --ea-theme-stream-ui-progress-bar-stroke-hover: #ff8e8e;
+                        
+                            --ea-theme-stream-ui-progress-bar-fill-hover: #ff8e8e;
+                        
+                            --ea-theme-toaster-eyebrow-font-size-mobile: 16px;
+                        
+                            --ea-theme-toaster-eyebrow-font-size-tablet: 18px;
+                        
+                            --ea-theme-toaster-eyebrow-font-size-desktop: 20px;
+                        
+                            --ea-theme-toaster-copy-font-size-tablet: 16px;
+                        
+                            --ea-theme-toaster-copy-font-size-desktop: 18px;
+                        
+                            --ea-theme-tabs-background-color: #FFFFFF;
+                        
+                            --ea-theme-tabs-indicator-color: #FF4747;
+                        
+                            --ea-theme-tabs-interface-color: #FF4747;
+                        
+                            --ea-theme-tabs-unselected-type: #000000;
+                        
+                            --ea-theme-tabs-selected-type: #000000;
+                        
+                            --ea-theme-tabs-selected-state: #DEDEDE;
+                        
+                             --ea-theme-tabs-accent-elements: rgba(0, 0, 0, 0.08);
+                        
+                            --ea-theme-tabs-inactive-interface-color: rgba(255, 255, 255, 0.1);
+                        
+                            --ea-theme-tabs-tab-text-transform: capitalize;
+                        
+                            --ea-theme-h5-font-size-tablet-landscape: 22px;
+                        
+                            --ea-theme-color: #255AF6;
+                        
+                    }
+                </style>
+</custom-style>
+<ea-elements-loader elements="ea-network-nav, ea-player, ea-type-kit">
+</ea-elements-loader>
+<ea-network-nav content="//nds-network-nav.ea.com//pt-br/network-nav" hide-logo="" login-url="/login" logout-url="/logout" unresolved="" userdata="/user-data"></ea-network-nav>
+<ea-elements-loader elements="ea-local-nav-advanced, ea-link">
+</ea-elements-loader>
+<ea-local-nav-advanced close-drawer-text="Fechar" franchise-link-text="Todos os Jogos" franchise-link-url="/games" home-link="https://www.ea.com/pt-br/" home-text="Página inicial da Electronic Arts" home-tooltip="Página inicial da Electronic Arts" logo-image="https://media.contentapi.ea.com/content/dam/eacom/common/ea-wordmark-network-nav-coral.svg" logo-tooltip="Página inicial da Electronic Arts" mini="" open-drawer-text="Menu" shelf-type="band" show-breadcrumbs="" show-franchise-nav="" theme="dark" unresolved="">
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="franchise-game-box">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2021/04/ea-play-16x9.png.adapt.crop1x1.767w.png" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/images/2021/04/ea-play-mono-logo-svg.svg" main-link-title="EA Play" main-link-url="https://www.ea.com/pt-br/ea-play" sale-text="" show-back-alt="EA Play" show-front-alt="EA Play" slot="game-box" title="EA Play" type="simple" unresolved="">
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="https://www.ea.com/pt-br/ea-play" title="EA Play">EA Play</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="franchise-game-box">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2022/07/eas-fifa22-gen5-ue-keyart-horz-f23logo.jpg.adapt.crop1x1.767w.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/fifa23-logo-white-stacked.svg" main-link-title="FIFA 23" main-link-url="/pt-br/games/fifa/fifa-23" sale-text="" show-back-alt="FIFA 23" show-front-alt="FIFA 23" slot="game-box" title="FIFA 23" type="simple" unresolved="">
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/fifa/fifa-23" title="FIFA 23">FIFA 23</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="franchise-game-box">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2022/05/1-1-gamebox-f122-keyart-1.png.adapt.crop1x1.767w.png" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/f122-gamebox-logo.png" main-link-title="F1™ 22" main-link-url="/pt-br/games/f1/f1-22" sale-text="" show-back-alt="F1™ 22" show-front-alt="F1™ 22" slot="game-box" title="F1™ 22" type="simple" unresolved="">
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/f1/f1-22" title="F1™ 22">F1™ 22</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="franchise-game-box">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2022/05/madden-23-keyart.jpg.adapt.crop1x1.767w.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/m23-gamebox-logo.svg" main-link-title="Madden NFL 23" main-link-url="/pt-br/games/madden-nfl/madden-nfl-23" sale-text="" show-back-alt="Madden NFL 23" show-front-alt="Madden NFL 23" slot="game-box" title="Madden NFL 23" type="simple" unresolved="">
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/madden-nfl/madden-nfl-23" title="Madden NFL 23">Madden NFL 23</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="franchise-game-box">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2019/01/apex-legends-keyart.jpg.adapt.crop1x1.767w.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/apex-legends-mono-logo.svg" main-link-title="Apex Legends™" main-link-url="/pt-br/games/apex-legends" sale-text="" show-back-alt="Apex Legends™" show-front-alt="Apex Legends™" slot="game-box" title="Apex Legends™" type="simple" unresolved="">
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/apex-legends" title="Apex Legends™">Apex Legends™</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="franchise-game-box">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2021/06/battlefield-2042-key-art.jpg.adapt.crop1x1.767w.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/battlefield-2042-mono-logo-svg.svg" main-link-title="Battlefield™ 2042" main-link-url="https://www.ea.com/pt-br/games/battlefield/battlefield-2042" sale-text="" show-back-alt="Battlefield™ 2042" show-front-alt="Battlefield™ 2042" slot="game-box" title="Battlefield™ 2042" type="simple" unresolved="">
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="https://www.ea.com/pt-br/games/battlefield/battlefield-2042" title="Battlefield™ 2042">Battlefield™ 2042</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="franchise-game-box">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767w.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/the-sims-4-mono-logo.png" main-link-title="The Sims™ 4" main-link-url="https://www.ea.com/pt-br/games/the-sims/the-sims-4" sale-text="" show-back-alt="The Sims™ 4" show-front-alt="The Sims™ 4" slot="game-box" title="The Sims™ 4" type="simple" unresolved="">
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="https://www.ea.com/pt-br/games/the-sims/the-sims-4" title="The Sims™ 4">The Sims™ 4</a>
+</ea-game-box>
+</ea-container>
+<a href="https://www.ea.com/pt-br/" title="Página inicial da Electronic Arts">
+            Página inicial da Electronic Arts
+            
+                <img alt="Electronics Arts Home" src="local_resources\ea-wordmark-network-nav-coral_1c35b9c26e6d1efa.svg"/>
+</a>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav slot="local-nav-shelf-link" theme="dark" toggle-text="JOGOS" type="narrow" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section slot="sub-nav-section" title-text="PROCURE JOGOS" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games" link-target="_self" link-text="Últimos jogos" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games">Últimos jogos</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/coming-soon" link-target="_self" link-text="Em breve" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/coming-soon">Em breve</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/library/freetoplay" link-target="_self" link-text="Jogos grátis" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/freetoplay">Jogos grátis</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/sports" link-target="_self" link-text="EA SPORTS™" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/sports">EA SPORTS™</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/ea-originals" link-target="_self" link-text="EA Originals" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-originals">EA Originals</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/library" link-target="_self" link-text="Biblioteca de jogos" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library">Biblioteca de jogos</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/sales/deals" link-target="_self" link-text="Ofertas do EA app" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/sales/deals">Ofertas do EA app</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+</ea-local-nav-shelf-sub-nav-section>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section slot="sub-nav-section" title-text="PLATAFORMAS" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/library/pc-download" link-target="_self" link-text="PC" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/pc-download">PC</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/library/ps5" link-target="_self" link-text="PlayStation®" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/ps5">PlayStation®</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/library/xbox-series-x" link-target="_self" link-text="Xbox" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/xbox-series-x">Xbox</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/library/nintendo-switch" link-target="_self" link-text="Nintendo Switch™" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/nintendo-switch">Nintendo Switch™</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/games/library/mobile" link-target="_self" link-text="Dispositivos móveis" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/mobile">Dispositivos móveis</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/pogo" link-target="_self" link-text="Pogo" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/pogo">Pogo</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+</ea-local-nav-shelf-sub-nav-section>
+</ea-local-nav-shelf-sub-nav>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav slot="local-nav-shelf-link" theme="dark" toggle-text="EXPERIÊNCIAS" type="simple" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section slot="sub-nav-section" title-text=" " unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/ea-app" link-target="_self" link-text="EA app" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-app">EA app</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/ea-play" link-target="_self" link-text="EA Play" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-play">EA Play</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/playtesting" link-target="_self" link-text="Testes de jogos" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/playtesting">Testes de jogos</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+</ea-local-nav-shelf-sub-nav-section>
+</ea-local-nav-shelf-sub-nav>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav slot="local-nav-shelf-link" theme="dark" toggle-text="SOBRE" type="simple" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section slot="sub-nav-section" title-text="" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/about" link-target="_self" link-text="Empresa" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/about">Empresa</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/careers" link-target="_self" link-text="Carreiras" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/careers">Carreiras</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/news" link-target="_self" link-text="Notícias" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/news">Notícias</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/technology" link-target="_self" link-text="Tecnologia" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/technology">Tecnologia</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/studios" link-target="_self" link-text="Estúdios da EA" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/studios">Estúdios da EA</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/ea-partners" link-target="_self" link-text="EA Partners" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-partners">EA Partners</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+</ea-local-nav-shelf-sub-nav-section>
+</ea-local-nav-shelf-sub-nav>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav slot="local-nav-shelf-link" theme="dark" toggle-text="COMPROMISSOS" type="simple" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section slot="sub-nav-section" title-text="Compromissos" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/commitments" link-target="_self" link-text="Nossos compromissos" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments">Nossos compromissos</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/commitments/positive-play" link-target="_self" link-text="Jogo Positivo" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/positive-play">Jogo Positivo</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/commitments/people-and-culture" link-target="_self" link-text="Pessoas e cultura inclusiva" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/people-and-culture">Pessoas e cultura inclusiva</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/commitments/social-impact" link-target="_self" link-text="Impacto social" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/social-impact">Impacto social</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/commitments/environment" link-target="_self" link-text="Meio ambiente " slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/environment">Meio ambiente </a>
+</ea-local-nav-shelf-sub-nav-section-link>
+</ea-local-nav-shelf-sub-nav-section>
+</ea-local-nav-shelf-sub-nav>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav slot="local-nav-shelf-link" theme="dark" toggle-text="RECURSOS" type="simple" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section slot="sub-nav-section" title-text="" unresolved="">
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://help.ea.com/br/" link-target="_blank" link-text="Ajuda" slot="sub-nav-section-link" unresolved="">
+<a href="https://help.ea.com/br/">Ajuda</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://forums.ea.com/" link-target="_self" link-text="Fóruns da Comunidade EA" slot="sub-nav-section-link" unresolved="">
+<a href="https://forums.ea.com/">Fóruns da Comunidade EA</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/commitments/positive-play/player-and-parental-tools" link-target="_self" link-text="Ferramentas de jogo e parentais" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/positive-play/player-and-parental-tools">Ferramentas de jogo e parentais</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.ea.com/pt-br/able" link-target="_self" link-text="Acessibilidade " slot="sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/able">Acessibilidade </a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://www.eapressportal.com/" link-target="_self" link-text="Imprensa" slot="sub-nav-section-link" unresolved="">
+<a href="https://www.eapressportal.com/">Imprensa</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+<ea-elements-loader elements="ea-local-nav-shelf-sub-nav-section-link">
+</ea-elements-loader>
+<ea-local-nav-shelf-sub-nav-section-link link-href="https://ir.ea.com/" link-target="_self" link-text="Investimentos" slot="sub-nav-section-link" unresolved="">
+<a href="https://ir.ea.com/">Investimentos</a>
+</ea-local-nav-shelf-sub-nav-section-link>
+</ea-local-nav-shelf-sub-nav-section>
+</ea-local-nav-shelf-sub-nav>
+<ea-elements-loader elements="ea-local-nav-drawer-sub-nav-advanced">
+</ea-elements-loader>
+<ea-local-nav-drawer-sub-nav-advanced slot="local-nav-drawer-link" theme="dark" toggle-text="JOGOS" toggle-tooltip="" type="narrow" unresolved="">
+<ea-elements-loader elements="ea-local-nav-drawer-sub-nav-section, ea-link">
+</ea-elements-loader>
+<ea-local-nav-drawer-sub-nav-section slot="local-nav-drawer-sub-nav-section" title-text="PROCURE JOGOS" unresolved="">
+<ea-link link-href="https://www.ea.com/pt-br/games" link-text="Últimos jogos" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games">Últimos jogos</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/games/coming-soon" link-text="Em breve" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/coming-soon">Em breve</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/games/library/freetoplay" link-text="Jogos grátis" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/freetoplay">Jogos grátis</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/sports" link-text="EA SPORTS™" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/sports">EA SPORTS™</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/ea-originals" link-text="EA Originals" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-originals">EA Originals</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/games/library" link-text="Biblioteca de jogos" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library">Biblioteca de jogos</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/sales/deals" link-text="Ofertas do EA app" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/sales/deals">Ofertas do EA app</a>
+</ea-link>
+</ea-local-nav-drawer-sub-nav-section>
+<ea-elements-loader elements="ea-local-nav-drawer-sub-nav-section, ea-link">
+</ea-elements-loader>
+<ea-local-nav-drawer-sub-nav-section slot="local-nav-drawer-sub-nav-section" title-text="PLATAFORMAS" unresolved="">
+<ea-link link-href="https://www.ea.com/pt-br/games/library/pc-download" link-text="PC" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/pc-download">PC</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/games/library/ps5" link-text="PlayStation®" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/ps5">PlayStation®</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/games/library/xbox-series-x" link-text="Xbox" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/xbox-series-x">Xbox</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/games/library/nintendo-switch" link-text="Nintendo Switch™" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/nintendo-switch">Nintendo Switch™</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/games/library/mobile" link-text="Dispositivos móveis" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/games/library/mobile">Dispositivos móveis</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/pogo" link-text="Pogo" link-title="" slot="local-nav-drawer-sub-nav-section-link" unresolved="">
+<a href="https://www.ea.com/pt-br/pogo">Pogo</a>
+</ea-link>
+</ea-local-nav-drawer-sub-nav-section>
+</ea-local-nav-drawer-sub-nav-advanced>
+<ea-elements-loader elements="ea-local-nav-drawer-sub-nav-advanced">
+</ea-elements-loader>
+<ea-local-nav-drawer-sub-nav-advanced slot="local-nav-drawer-link" theme="dark" toggle-text="EXPERIÊNCIAS" toggle-tooltip="" type="simple" unresolved="">
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/ea-app" link-text="EA app" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-app">EA app</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/ea-play" link-text="EA Play" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-play">EA Play</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/playtesting" link-text="Testes de jogos" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/playtesting">Testes de jogos</a>
+</ea-link>
+</ea-local-nav-drawer-sub-nav-advanced>
+<ea-elements-loader elements="ea-local-nav-drawer-sub-nav-advanced">
+</ea-elements-loader>
+<ea-local-nav-drawer-sub-nav-advanced slot="local-nav-drawer-link" theme="dark" toggle-text="SOBRE" toggle-tooltip="" type="simple" unresolved="">
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/about" link-text="Empresa" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/about">Empresa</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/careers" link-text="Carreiras" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/careers">Carreiras</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/news" link-text="Notícias" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/news">Notícias</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/technology" link-text="Tecnologia" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/technology">Tecnologia</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/studios" link-text="Estúdios da EA" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/studios">Estúdios da EA</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/ea-partners" link-text="EA Partners" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/ea-partners">EA Partners</a>
+</ea-link>
+</ea-local-nav-drawer-sub-nav-advanced>
+<ea-elements-loader elements="ea-local-nav-drawer-sub-nav-advanced">
+</ea-elements-loader>
+<ea-local-nav-drawer-sub-nav-advanced slot="local-nav-drawer-link" theme="dark" toggle-text="COMPROMISSOS" toggle-tooltip="" type="simple" unresolved="">
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/commitments" link-text="Nossos compromissos" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments">Nossos compromissos</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/commitments/positive-play" link-text="Jogo Positivo" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/positive-play">Jogo Positivo</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/commitments/people-and-culture" link-text="Pessoas e cultura inclusiva" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/people-and-culture">Pessoas e cultura inclusiva</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/commitments/social-impact" link-text="Impacto social" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/social-impact">Impacto social</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/commitments/environment" link-text="Meio ambiente " link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/environment">Meio ambiente </a>
+</ea-link>
+</ea-local-nav-drawer-sub-nav-advanced>
+<ea-elements-loader elements="ea-local-nav-drawer-sub-nav-advanced">
+</ea-elements-loader>
+<ea-local-nav-drawer-sub-nav-advanced slot="local-nav-drawer-link" theme="dark" toggle-text="RECURSOS" toggle-tooltip="" type="simple" unresolved="">
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://help.ea.com/br/" link-text="Ajuda" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://help.ea.com/br/">Ajuda</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://forums.ea.com/" link-text="Fóruns da Comunidade EA" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://forums.ea.com/">Fóruns da Comunidade EA</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/commitments/positive-play/player-and-parental-tools" link-text="Ferramentas de jogo e parentais" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/commitments/positive-play/player-and-parental-tools">Ferramentas de jogo e parentais</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.ea.com/pt-br/able" link-text="Acessibilidade " link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.ea.com/pt-br/able">Acessibilidade </a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://www.eapressportal.com/" link-text="Imprensa" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://www.eapressportal.com/">Imprensa</a>
+</ea-link>
+<ea-elements-loader elements="ea-link">
+</ea-elements-loader>
+<ea-link class="eapl-local-nav__drawer-sub-link" link-href="https://ir.ea.com/" link-text="Investimentos" link-title="" slot="local-nav-drawer-sub-link" text-color="" unresolved="">
+<a href="https://ir.ea.com/">Investimentos</a>
+</ea-link>
+</ea-local-nav-drawer-sub-nav-advanced>
+</ea-local-nav-advanced>
+<main>
+<ea-elements-loader elements="ea-spacer">
+</ea-elements-loader>
+<ea-spacer large="96px" largest="100px" medium="96px" small="93px" smallest="93px" unresolved="">
+</ea-spacer>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section animations-on-mobile="" background-color="none" background-image-large="https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.1456w.jpg" background-image-largest="https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.1920w.jpg" background-image-medium="https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.1024w.jpg" background-image-small="https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.768w.jpg" background-image-smallest="https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.320w.jpg" background-overflow="hidden" image-tooltip="Soldados estão em um campo de batalha devastado pela guerra com fumaça e fogo ao fundo. Helicópteros e jatos voam nos céus, enquanto a cidade está visível à distância." layout="100" slot="section" spacing-bottom="none" spacing-top="none" type="railed" unresolved="">
+<img alt="Soldados estão em um campo de batalha devastado pela guerra com fumaça e fogo ao fundo. Helicópteros e jatos voam nos céus, enquanto a cidade está visível à distância." src="local_resources\bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.320w_6a4be716871cbd34.jpg" srcset="https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.320w.jpg 320w, https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.768w.jpg 768w, https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.1024w.jpg 1024w, https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.1456w.jpg 1320w, https://media.contentapi.ea.com/content/dam/battlefield/common/bf6-hype-trailer-hero-fallback-16x9.jpg.adapt.1920w.jpg 1456w"/>
+<ea-section-column indent-left="1" indent-right="1" mobile-order="0" slot="section-column" text-align="center">
+<ea-elements-loader elements="ea-spacer">
+</ea-elements-loader>
+<ea-spacer large="10vw" largest="12vw" medium="4vw" small="60vw" smallest="60vw" unresolved="">
+</ea-spacer>
+<div>
+<img alt="Battlefield 6 logo" src="local_resources\battlefield-6-logo_63a7a9d215332064.svg" style="max-width: 500px; width: 100%;"/>
+</div>
+<ea-elements-loader elements="ea-subheading">
+</ea-elements-loader>
+<ea-subheading layout="small" spacing-bottom="small" spacing-top="small" text-align="center" text-color="light" title-text="A espera acabou. Viva a guerra total hoje mesmo." type="ordered" unresolved="">
+<h3>A espera acabou. Viva a guerra total hoje mesmo.</h3>
+</ea-subheading>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta emphasis="primary" fill-color="brand" icon="none" intent="media" link-text="COMPRE JÁ" link-url="https://www.ea.com/pt-br/games/battlefield/battlefield-6/buy" slot="cta" stroke-color="none" target="_blank" text-color="light" type="standard" unresolved="">
+<a href="https://www.ea.com/pt-br/games/battlefield/battlefield-6/buy">
+        
+            COMPRE JÁ
+        
+    </a>
+</ea-cta>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta emphasis="primary" fill-color="none" icon="none" intent="media" link-text="ASSISTA AO TRAILER" link-title="Assista ao trailer" modal-id="trailer" slot="cta" stroke-color="light" target="_blank" text-color="light" type="standard" unresolved="">
+<a title="Assista ao trailer">
+        
+            ASSISTA AO TRAILER
+        
+    </a>
+</ea-cta>
+<ea-elements-loader elements="ea-spacer">
+</ea-elements-loader>
+<ea-spacer large="10vw" largest="12vw" medium="2vw" small="14vw" smallest="7vw" unresolved="">
+</ea-spacer>
+</ea-section-column>
+<ea-elements-loader elements="ea-html5-video">
+</ea-elements-loader>
+<ea-html5-video autoplay="" loop="" mp4-src="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-lg-md-3x2.mp4" mp4-src-largest="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-xl-16x9.mp4" mp4-src-medium="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-lg-md-3x2.mp4" mp4-src-small="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-stacked-sm-xs-1x1.mp4" mp4-src-smallest="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-stacked-sm-xs-1x1.mp4" muted="" slot="html5-video" unresolved="" webm-src="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-lg-md-3x2.webm" webm-src-largest="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-xl-16x9.webm" webm-src-medium="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-lg-md-3x2.webm" webm-src-small="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-stacked-sm-xs-1x1.webm" webm-src-smallest="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/bf6-hero-lg-homepage-stacked-sm-xs-1x1.webm">
+</ea-html5-video>
+</ea-section>
+<ea-elements-loader elements="ea-modal">
+</ea-elements-loader>
+<ea-modal id="trailer" modal="" restore-focus-on-close="" theme="dark" type="railed" unresolved="">
+<ea-elements-loader elements="ea-youtube">
+</ea-elements-loader>
+<ea-youtube age-gate-alignment="center-left" age-gate-message="Este vídeo possui restrição de idade e está disponível apenas no YouTube." annotations="3" autoplay="0" button-color="dark" controls="1" cover-image-large="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/hype-trailer-row/f681841f-d727-6aee-ec35-0504c6af43c2.youtube/subassets/poster.jpg.adapt.crop16x9.1455w.jpg" cover-image-largest="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/hype-trailer-row/f681841f-d727-6aee-ec35-0504c6af43c2.youtube/subassets/poster.jpg.adapt.crop16x9.1920w.jpg" cover-image-medium="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/hype-trailer-row/f681841f-d727-6aee-ec35-0504c6af43c2.youtube/subassets/poster.jpg.adapt.crop16x9.1023w.jpg" cover-image-small="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/hype-trailer-row/f681841f-d727-6aee-ec35-0504c6af43c2.youtube/subassets/poster.jpg.adapt.crop16x9.767w.jpg" cover-image-smallest="https://media.contentapi.ea.com/content/dam/battlefield/videos/2025/10/hype-trailer-row/f681841f-d727-6aee-ec35-0504c6af43c2.youtube/subassets/poster.jpg.adapt.crop16x9.320w.jpg" cover-image-tooltip="" default-age-gate="" hide-info="0" icon-theme="light" more-link-text="Saiba mais" more-link-url="https://support.google.com/youtube/answer/2802167?hl=pt-BR" playlist="" rel="0" slot="youtube" theme="light" unresolved="" video-id="ZnlfdGkqL78" watch-link-text="Assistir no YouTube">
+<div itemscope="" itemtype="http://schema.org/VideoObject">
+<link href="local_resources\watch_40d0680dbc56c09f" itemprop="url"/>
+<link href="local_resources\poster.jpg.adapt.crop16x9.1920w_c32afafaa6b7b70d.jpg" itemprop="thumbnailUrl"/>
+</div>
+</ea-youtube>
+</ea-modal>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section background-color="light" background-overflow="visible" layout="100" slot="section" spacing-bottom="none" spacing-top="none" type="railed" unresolved="">
+<ea-section-column mobile-order="0" slot="section-column" text-align="center">
+<ea-elements-loader elements="ea-subheading">
+</ea-elements-loader>
+<ea-subheading layout="large" spacing-bottom="medium" spacing-top="medium" text-align="left" text-color="dark" type="ordered" unresolved="">
+</ea-subheading>
+<ea-elements-loader elements="ea-subheading">
+</ea-elements-loader>
+<ea-subheading layout="small" spacing-bottom="small" spacing-top="medium" text-align="center" text-color="dark" title-text="Jogos em destaque " type="ordered" unresolved="">
+<h3>Jogos em destaque </h3>
+</ea-subheading>
+<ea-elements-loader elements="ea-box-set">
+</ea-elements-loader>
+<ea-box-set game-box-scrim-color="dark" game-box-scrim-opacity="medium" layout="3up" spacing-bottom="none" spacing-top="none" unresolved="">
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2025/08/bf6-box-art-1x1.jpg.adapt.crop1x1.767p.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/bf6-logo-white.svg" main-link-title="Battlefield 6" main-link-url="/pt-br/games/battlefield/battlefield-6" sale-text="" show-back-alt="Battlefield 6" show-front-alt="Battlefield 6" slot="game-box" title="Battlefield 6" unresolved="">
+<a class="eapl-link" href="/pt-br/games/battlefield/battlefield-6" slot="feature-link" target="">
+    Site oficial
+</a>
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/battlefield/battlefield-6" title="Battlefield 6">Battlefield 6</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2025/07/fc-26-key-art.jpg.adapt.crop1x1.767p.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/fc26-white-logo.png" main-link-title="FC 26" main-link-url="/pt-br/games/ea-sports-fc/fc-26" sale-text="" show-back-alt="FC 26" show-front-alt="FC 26" slot="game-box" title="FC 26" unresolved="">
+<a class="eapl-link" href="/pt-br/games/ea-sports-fc/fc-26" slot="feature-link" target="">
+    Site oficial
+</a>
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/ea-sports-fc/fc-26" title="FC 26">FC 26</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2025/09/skate-key-art.png.adapt.crop1x1.767p.png" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/skate-logo-whitetm.png" main-link-title="skate.™" main-link-url="/pt-br/games/skate/skate" sale-text="" show-back-alt="skate.™" show-front-alt="skate.™" slot="game-box" title="skate.™" unresolved="">
+<a class="eapl-link" href="/pt-br/games/skate/skate" slot="feature-link" target="">
+    Site oficial
+</a>
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/skate/skate" title="skate.™">skate.™</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2024/12/splitkeyart1x1.jpg.adapt.crop1x1.767p.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/split-fiction-logotype-stacked-frost-white-1080.png" main-link-title="Split Fiction" main-link-url="/pt-br/games/split-fiction" sale-text="" show-back-alt="Split Fiction" show-front-alt="Split Fiction" slot="game-box" title="Split Fiction" unresolved="">
+<a class="eapl-link" href="/pt-br/games/split-fiction" slot="feature-link" target="">
+    Site oficial
+</a>
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/split-fiction" title="Split Fiction">Split Fiction</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767p.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/the-sims-4-mono-logo.png" main-link-title="The Sims 4" main-link-url="/pt-br/games/the-sims/the-sims-4" sale-text="" show-back-alt="The Sims 4" show-front-alt="The Sims 4" slot="game-box" title="The Sims 4" unresolved="">
+<a class="eapl-link" href="/pt-br/games/the-sims/the-sims-4" slot="feature-link" target="">
+    Site oficial
+</a>
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/the-sims/the-sims-4" title="The Sims 4">The Sims 4</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-game-box">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-game-box background-image="https://media.contentapi.ea.com/content/dam/gin/images/2019/01/apex-legends-keyart.jpg.adapt.crop1x1.767p.jpg" background-image-alt-text="" logo-alt="" logo-url="https://media.contentapi.ea.com/content/dam/gin/common/logos/apex-legends-mono-logo.svg" main-link-title="Apex Legends" main-link-url="/pt-br/games/apex-legends" sale-text="" show-back-alt="Apex Legends" show-front-alt="Apex Legends" slot="game-box" title="Apex Legends" unresolved="">
+<a class="eapl-link" href="/pt-br/games/apex-legends" slot="feature-link" target="">
+    Site oficial
+</a>
+<!-- Output Main Link as an anchor tag for SEO -->
+<a href="/pt-br/games/apex-legends" title="Apex Legends">Apex Legends</a>
+</ea-game-box>
+</ea-container>
+<ea-elements-loader elements="ea-pagination">
+</ea-elements-loader>
+<ea-pagination current-page="1" next-text="Avançar" page-size="18" previous-text="Voltar" slot="pagination" theme="light" total-count="" unresolved=""></ea-pagination>
+</ea-box-set>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta fill-color="none" icon="none" intent="navigation" link-text="Últimos jogos" link-url="/pt-br/games" slot="cta" text-color="dark" type="standard" unresolved="">
+<a href="/pt-br/games">
+        
+            Últimos jogos
+        
+    </a>
+</ea-cta>
+<ea-elements-loader elements="ea-subheading">
+</ea-elements-loader>
+<ea-subheading layout="large" spacing-bottom="medium" spacing-top="medium" text-align="left" text-color="dark" type="ordered" unresolved="">
+</ea-subheading>
+</ea-section-column>
+</ea-section>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section background-color="light" background-overflow="visible" layout="100" slot="section" spacing-bottom="none" spacing-top="none" type="railed" unresolved="">
+<ea-section-column mobile-order="0" slot="section-column" text-align="left">
+<ea-elements-loader elements="ea-subheading">
+</ea-elements-loader>
+<ea-subheading layout="small" spacing-bottom="small" spacing-top="medium" text-align="center" text-color="dark" title-text="Atualizações mais recentes" type="ordered" unresolved="">
+<h3>Atualizações mais recentes</h3>
+</ea-subheading>
+<ea-elements-loader elements="ea-grid">
+</ea-elements-loader>
+<ea-grid ajax-url="/pagination/2-61esF6qQdV1ofRjK7gf3WaK79qcBnhAVbvLjsOw3tT3HvYBrjwy0nIlkmSjywFbcs%2BKkLCBQVSfWJL3G3QRvMk%2FiLnV%2FGGF%2BgFn%2FXt9jUDPB7%2FGssxfyklSlWgoIlLc%2BTZW6UwIZ80ur2g7g9%2FbRkHy1PvDxUU51nwcF%2BxCN36D578N7Q5Sk4nk%3D" animate-in-order="" animate-out-order="" background-color="none" cards="" hide-brand-stroke="" hide-byline="" hide-ctas="" layout="3up" spacing-bottom="none" spacing-top="medium" tile-align="left" tile-color="light" tile-media-shape="rectangle" tile-scrim-color="none" tile-scrim-opacity="medium" tile-text-align="left" tile-text-color="dark" tile-type="vertical" total-count="358" type="ordered" unresolved="">
+<ea-elements-loader elements="ea-tile">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-tile eyebrow-secondary-text="10/10/2025" eyebrow-text="Electronic Arts Inc." media="https://media.contentapi.ea.com/content/dam/bf6-screen-13.jpg.adapt.crop16x9.431p.jpg" slot="tile" style="--ea-animation-index:0" title-text="Battlefield Studios: Quatro equipes, um jogo inovador" tooltip="Battlefield Studios: Quatro equipes, um jogo inovador" unresolved="">
+<h3>Battlefield Studios: Quatro equipes, um jogo inovador</h3>
+<div>Electronic Arts Inc.</div>
+<div>10/10/2025</div>
+<ea-tile-copy slot="copy">
+        
+            Na EA, o compromisso com o Battlefield 6 é total. A formação do Battlefield Studios permitiu que especialistas de todo o mundo criassem o melhor Battlefield já feito.
+        
+        </ea-tile-copy>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta fill-color="none" icon="none" intent="news" link-text="Ler mais" link-url="https://www.ea.com/pt-br/news/battlefield-studios-all-in" slot="cta" text-color="dark" type="standard" unresolved="">
+<a href="https://www.ea.com/pt-br/news/battlefield-studios-all-in">
+        
+            Ler mais
+        
+    </a>
+</ea-cta>
+</ea-tile>
+</ea-container>
+<ea-elements-loader elements="ea-tile">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-tile eyebrow-secondary-text="03/10/2025" eyebrow-text="Electronic Arts Inc." media="https://media.contentapi.ea.com/content/dam/bf6-screen-6.jpg.adapt.crop16x9.431p.jpg" slot="tile" style="--ea-animation-index:1" title-text="Battlefield Labs está trazendo o melhor do Battlefield 6" tooltip="Battlefield Labs está trazendo o melhor do Battlefield 6" unresolved="">
+<h3>Battlefield Labs está trazendo o melhor do Battlefield 6</h3>
+<div>Electronic Arts Inc.</div>
+<div>03/10/2025</div>
+<ea-tile-copy slot="copy">
+        
+            Veja como o Battlefield Labs está transformando o desenvolvimento de jogos — aproveitando a contribuição real de quem joga para construir o capítulo mais explosivo e autêntico do Battlefield 6 até agora.
+        
+        </ea-tile-copy>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta fill-color="none" icon="none" intent="news" link-text="Ler mais" link-url="https://www.ea.com/pt-br/news/battlefield-labs-community" slot="cta" text-color="dark" type="standard" unresolved="">
+<a href="https://www.ea.com/pt-br/news/battlefield-labs-community">
+        
+            Ler mais
+        
+    </a>
+</ea-cta>
+</ea-tile>
+</ea-container>
+<ea-elements-loader elements="ea-tile">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-tile eyebrow-secondary-text="26/09/2025" eyebrow-text="Electronic Arts Inc." media="https://media.contentapi.ea.com/content/dam/news/www-ea/common/eacom-news-fc26-key-art-16x9.jpg.adapt.crop16x9.431p.jpg" slot="tile" style="--ea-animation-index:2" title-text="Jogue do seu jeito no EA SPORTS FC™ 26, já disponível mundialmente" tooltip="Jogue do seu jeito no EA SPORTS FC™ 26, já disponível mundialmente" unresolved="">
+<h3>Jogue do seu jeito no EA SPORTS FC™ 26, já disponível mundialmente</h3>
+<div>Electronic Arts Inc.</div>
+<div>26/09/2025</div>
+<ea-tile-copy slot="copy">
+        
+            EA SPORTS FC oferece as experiências de futebol mais voltadas para a comunidade já feitas com o lançamento do FC 26 e a atualização do EA SPORTS FC™ Mobile 26.
+        
+        </ea-tile-copy>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta fill-color="none" icon="none" intent="news" link-text="Ler mais" link-url="https://www.ea.com/pt-br/news/easports-fc26-now-available" slot="cta" text-color="dark" type="standard" unresolved="">
+<a href="https://www.ea.com/pt-br/news/easports-fc26-now-available">
+        
+            Ler mais
+        
+    </a>
+</ea-cta>
+</ea-tile>
+</ea-container>
+<ea-elements-loader elements="ea-tile">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-tile eyebrow-secondary-text="29/08/2025" eyebrow-text="Electronic Arts Inc." media="https://media.contentapi.ea.com/content/dam/cropped-fc-26-reveal.jpg.adapt.crop16x9.431p.jpg" slot="tile" style="--ea-animation-index:3" title-text="O EA SPORTS FC 26 é anunciado como o nosso jogo com maior participação da c…" tooltip="O EA SPORTS FC 26 é anunciado como o nosso jogo com maior participação da comunidade até o momento." unresolved="">
+<h3>O EA SPORTS FC 26 é anunciado como o nosso jogo com maior participação da c…</h3>
+<div>Electronic Arts Inc.</div>
+<div>29/08/2025</div>
+<ea-tile-copy slot="copy">
+        
+            O EA SPORTS FC 26 será lançado em 26 de setembro de 2025 e é nosso FC com maior participação da comunidade de todos os tempos, apresentando fundamentos de jogabilidade refinados, arquétipos e muito mais.
+        
+        </ea-tile-copy>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta fill-color="none" icon="none" intent="news" link-text="Ler mais" link-url="https://www.ea.com/pt-br/news/ea-sports-fc-26-community" slot="cta" text-color="dark" type="standard" unresolved="">
+<a href="https://www.ea.com/pt-br/news/ea-sports-fc-26-community">
+        
+            Ler mais
+        
+    </a>
+</ea-cta>
+</ea-tile>
+</ea-container>
+<ea-elements-loader elements="ea-tile">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-tile eyebrow-secondary-text="14/08/2025" eyebrow-text="Electronic Arts Inc." media="https://media.contentapi.ea.com/content/dam/news/www-ea/common/ea-news-madden-26-qa-featured-image.jpg.adapt.crop16x9.431p.jpg" slot="tile" style="--ea-animation-index:4" title-text="Perguntas e respostas sobre EA SPORTS™ Madden NFL 26: Revolucionando o jogo" tooltip="Perguntas e respostas sobre EA SPORTS™ Madden NFL 26: Revolucionando o jogo" unresolved="">
+<h3>Perguntas e respostas sobre EA SPORTS™ Madden NFL 26: Revolucionando o jogo</h3>
+<div>Electronic Arts Inc.</div>
+<div>14/08/2025</div>
+<ea-tile-copy slot="copy">
+        
+            EA SPORTS Madden NFL 26 está disponível a partir de hoje. Para comemorar, realizamos uma sessão exclusiva de perguntas e respostas com Josh Kline sobre a criação do jogo de futebol americano mais autêntico e imersivo até agor…
+        
+        </ea-tile-copy>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta fill-color="none" icon="none" intent="news" link-text="Ler mais" link-url="https://www.ea.com/pt-br/news/madden-26-qa" slot="cta" text-color="dark" type="standard" unresolved="">
+<a href="https://www.ea.com/pt-br/news/madden-26-qa">
+        
+            Ler mais
+        
+    </a>
+</ea-cta>
+</ea-tile>
+</ea-container>
+<ea-elements-loader elements="ea-tile">
+</ea-elements-loader>
+<ea-container filter-key="All" slot="container">
+<ea-tile eyebrow-secondary-text="31/07/2025" eyebrow-text="Electronic Arts Inc." media="https://media.contentapi.ea.com/content/dam/battlefield-6-reveal-trailer-thumbnail.jpg.adapt.crop16x9.431p.jpg" slot="tile" style="--ea-animation-index:5" title-text="Anúncio do Multiplayer e mais do Battlefield 6" tooltip="Anúncio do Multiplayer e mais do Battlefield 6" unresolved="">
+<h3>Anúncio do Multiplayer e mais do Battlefield 6</h3>
+<div>Electronic Arts Inc.</div>
+<div>31/07/2025</div>
+<ea-tile-copy slot="copy">
+        
+            Battlefield 6 será lançado em 10 de outubro, enquanto o maior Beta Aberto da história do Battlefield começa em agosto
+        
+        </ea-tile-copy>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta fill-color="none" icon="none" intent="news" link-text="Ler mais" link-url="https://www.ea.com/pt-br/news/battlefield-6-multiplayer-and-more-revealed" slot="cta" text-color="dark" type="standard" unresolved="">
+<a href="https://www.ea.com/pt-br/news/battlefield-6-multiplayer-and-more-revealed">
+        
+            Ler mais
+        
+    </a>
+</ea-cta>
+</ea-tile>
+</ea-container>
+</ea-grid>
+<ea-elements-loader elements="ea-subheading">
+</ea-elements-loader>
+<ea-subheading layout="small" spacing-bottom="medium" spacing-top="medium" text-align="left" text-color="dark" type="ordered" unresolved="">
+</ea-subheading>
+</ea-section-column>
+</ea-section>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section background-color="light" background-overflow="visible" layout="100" slot="section" spacing-bottom="none" spacing-top="none" type="railed" unresolved="">
+<ea-section-column mobile-order="0" slot="section-column" text-align="center">
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta emphasis="primary" fill-color="none" icon="none" intent="news" link-text="Ler mais" link-url="/pt-br/news" slot="cta" stroke-color="dark" text-color="dark" type="standard" unresolved="">
+<a href="/pt-br/news">
+        
+            Ler mais
+        
+    </a>
+</ea-cta>
+<ea-elements-loader elements="ea-subheading">
+</ea-elements-loader>
+<ea-subheading layout="small" spacing-bottom="medium" spacing-top="medium" text-align="left" text-color="dark" type="ordered" unresolved="">
+</ea-subheading>
+</ea-section-column>
+</ea-section>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section background-color="none" background-overflow="hidden" layout="100" slot="section" spacing-bottom="none" spacing-top="none" type="full-bleed" unresolved="">
+<ea-section-column indent-left="" indent-right="" mobile-order="0" slot="section-column" text-align="left">
+<ea-elements-loader elements="ea-hero">
+</ea-elements-loader>
+<ea-hero background-color="none" copy-text="Tenha acesso ilimitado a uma coleção dos principais títulos da EA, testes de novos jogos selecionados e muito mais." custom-styles="{}" image-large="https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop5x2.1455w.jpg" image-largest="https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop7x2.1920w.jpg" image-medium="https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop2x1.1023w.jpg" image-small="https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop3x5.767w.jpg" image-smallest="https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop3x5.320w.jpg" image-tooltip="" layout="medium" logo-alt="" logo-image="https://media.contentapi.ea.com/content/dam/eacom/subscription/ea-play/common/hero-logos/color/ea-play-logo-coral-hero-logo-small.svg" mg-large="https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop5x2.1455w.png" mg-largest="https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop7x2.1920w.png" mg-medium="https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop2x1.1023w.png" mg-small="https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop3x5.767w.png" mg-smallest="https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop3x5.320w.png" mg-tooltip="" scrim-color="none" scrim-opacity="medium" spacing-bottom="none" spacing-top="none" subtitle-text="Libere um universo de emoções" text-align="left" text-color="light" text-position="left" unresolved="">
+<h2>Libere um universo de emoções</h2>
+<p>Tenha acesso ilimitado a uma coleção dos principais títulos da EA, testes de novos jogos selecionados e muito mais.</p>
+<img alt="" src="local_resources\eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop3x5.320w_0b1bc077adee1612.jpg" srcset="https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop3x5.320w.jpg 320w, https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop3x5.767w.jpg 768w, https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop2x1.1023w.jpg 1024w, https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop5x2.1455w.jpg 1320w, https://media.contentapi.ea.com/content/dam/eacom/images/2024/10/eacom-ea-play-hero-md-grid-7x2-xl-pt-br.jpg.adapt.crop7x2.1920w.jpg 1456w"/>
+<img alt="" src="local_resources\ea-play-hero-gradient.png.adapt.crop3x5.320w_1b10cc76020c1bf7.png" srcset="https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop3x5.320w.png 320w, https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop3x5.767w.png 768w, https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop2x1.1023w.png 1024w, https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop5x2.1455w.png 1320w, https://media.contentapi.ea.com/content/dam/eacom/images/2023/09/ea-play-hero-gradient.png.adapt.crop7x2.1920w.png 1456w"/>
+<img alt="" src="local_resources\ea-play-logo-coral-hero-logo-small_a6abb199f62be612.svg"/>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta emphasis="primary" fill-color="none" icon="none" intent="navigation" link-text="Assine já" link-url="/pt-br/ea-play" slot="cta" stroke-color="light" target="_self" text-color="light" type="standard" unresolved="">
+<a href="/pt-br/ea-play">
+        
+            Assine já
+        
+    </a>
+</ea-cta>
+</ea-hero>
+</ea-section-column>
+</ea-section>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section background-color="none" background-image-large="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.1456w.jpg" background-image-largest="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.1920w.jpg" background-image-medium="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.1024w.jpg" background-image-small="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.768w.jpg" background-image-smallest="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.320w.jpg" background-overflow="hidden" image-tooltip="" layout="100" slot="section" spacing-bottom="none" spacing-top="none" type="full-bleed" unresolved="">
+<img alt="" src="local_resources\ea-section-bg-esrb-parents-blue-xl.jpg.adapt.320w_8556b3427d8b9551.jpg" srcset="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.320w.jpg 320w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.768w.jpg 768w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.1024w.jpg 1024w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.1456w.jpg 1320w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-esrb-parents-blue-xl.jpg.adapt.1920w.jpg 1456w"/>
+<ea-section-column indent-left="" indent-right="" mobile-order="0" slot="section-column" text-align="left">
+<ea-elements-loader elements="ea-product-conversion">
+</ea-elements-loader>
+<ea-product-conversion background-color="none" spacing-bottom="medium" spacing-top="medium" text-color="dark" title-text="Jogadores e jogadoras, pais e mães: o controle do videogame está nas suas mãos" unresolved="">
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta emphasis="primary" fill-color="none" icon="none" intent="navigation" link-text="Saiba mais" link-url="/pt-br/commitments/positive-play/player-and-parental-tools" slot="cta" stroke-color="dark" target="_self" text-color="dark" type="standard" unresolved="">
+<a href="/pt-br/commitments/positive-play/player-and-parental-tools">
+        
+            Saiba mais
+        
+    </a>
+</ea-cta>
+</ea-product-conversion>
+</ea-section-column>
+</ea-section>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section background-color="custom" background-overflow="hidden" class="asset-first" custom-background-value="#131357" layout="50:50" slot="section" spacing-bottom="none" spacing-top="none" type="full-bleed" unresolved="">
+<ea-section-column mobile-order="1" slot="section-column" text-align="left">
+<ea-elements-loader elements="ea-media">
+</ea-elements-loader>
+<ea-media slot="media" spacing-bottom="none" spacing-top="none" text-color="light" unresolved="">
+<ea-elements-loader elements="ea-image">
+</ea-elements-loader>
+<ea-image allow-renditions="" large="https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.1456w.png" largest="https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.1920w.png" medium="https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.1024w.png" slot="image" small="https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.768w.png" smallest="https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.320w.png" tooltip="A imagem mostra um atleta do Madden NFL, dois atletas do Football Club e um personagem do Sims, todos colocados dentro da iconografia azul de formas da EA. Texto diz: Electronic Arts, Relatório de Impacto de 2025" unresolved="">
+<img alt="A imagem mostra um atleta do Madden NFL, dois atletas do Football Club e um personagem do Sims, todos colocados dentro da iconografia azul de formas da EA. Texto diz: Electronic Arts, Relatório de Impacto de 2025" src="local_resources\ea-impact-report-2025-cover-16x9.png.adapt.320w_b93633c68ba66d35.png" srcset="https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.320w.png 320w, https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.768w.png 768w, https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.1024w.png 1024w, https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.1456w.png 1320w, https://media.contentapi.ea.com/content/dam/eacom/commitments/common/ea-impact-report-2025-cover-16x9.png.adapt.1920w.png 1456w"/>
+</ea-image>
+</ea-media>
+</ea-section-column>
+<ea-section-column animations-on-mobile="" indent-left="1" indent-right="1" mobile-order="1" slot="section-column" text-align="left">
+<ea-elements-loader elements="ea-text">
+</ea-elements-loader>
+<ea-text slot="text" text-color="light" unresolved="">
+<p>Como nossas equipes e criatividade estão moldando as histórias, conexões e comunidades que definem o futuro dos jogos.</p>
+</ea-text>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta emphasis="primary" fill-color="none" icon="none" intent="misc" link-text="Saiba mais" link-url="/pt-br/commitments" slot="cta" stroke-color="light" target="_self" text-color="light" type="standard" unresolved="">
+<a href="/pt-br/commitments">
+        
+            Saiba mais
+        
+    </a>
+</ea-cta>
+<ea-elements-loader elements="ea-cta">
+</ea-elements-loader>
+<ea-cta emphasis="primary" fill-color="none" icon="none" intent="misc" link-text="Leia o relatório" link-url="https://media.contentapi.ea.com/content/dam/eacom/common/ea-impact-report-2025.pdf" slot="cta" stroke-color="light" target="_self" text-color="light" type="standard" unresolved="">
+<a href="https://media.contentapi.ea.com/content/dam/eacom/common/ea-impact-report-2025.pdf">
+        
+            Leia o relatório
+        
+    </a>
+</ea-cta>
+</ea-section-column>
+</ea-section>
+<ea-elements-loader elements="ea-section">
+</ea-elements-loader>
+<ea-section background-color="none" background-image-large="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.1456w.png" background-image-largest="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.1920w.png" background-image-medium="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.1024w.png" background-image-small="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.768w.png" background-image-smallest="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.320w.png" background-overflow="hidden" image-tooltip="" layout="100" slot="section" spacing-bottom="none" spacing-top="none" type="full-bleed" unresolved="">
+<img alt="" src="local_resources\ea-section-bg-hex-eaeaea-xl.png.adapt.320w_c1c201afad867b5b.png" srcset="https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.320w.png 320w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.768w.png 768w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.1024w.png 1024w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.1456w.png 1320w, https://media.contentapi.ea.com/content/dam/eacom/common/ea-section-bg-hex-eaeaea-xl.png.adapt.1920w.png 1456w"/>
+<ea-section-column mobile-order="0" slot="section-column" text-align="left">
+<div>
+<style>
+  .eaTermsAndConditionsContainer {
+    margin: 32px 22px 0;
+  }
+  .eaTermsAndConditionsContainer .eaTermsAndConditions {
+    border-bottom: 1px solid #969696;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0 0 16px 0.65em;
+    text-indent: -0.65em;
+    line-height: 1.5;
+    max-width: 1120px;
+  }
+  @media only screen and (min-width: 768px) {
+    .eaTermsAndConditionsContainer {
+      margin: 48px 60px 0;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .eaTermsAndConditionsContainer {
+      margin: 48px 76px 0;
+    }
+  }
+</style>
+</div>
+<ea-elements-loader elements="ea-text">
+</ea-elements-loader>
+<ea-text slot="text" text-color="dark" unresolved="">
+<div class="eaTermsAndConditionsContainer"><p class="eaTermsAndConditions">*EXISTEM CONDIÇÕES, LIMITAÇÕES E EXCLUSÕES. CONSULTE OS <a href="/pt-br/legal/ea-play-terms">TERMOS DO EA PLAY</a> PARA MAIS DETALHES.</p>
+</div>
+</ea-text>
+</ea-section-column>
+</ea-section>
+<div>
+<style>
+.asset-first .eapl-section-column-50:nth-of-type(2),
+.copy-first .eapl-section-column-50:nth-of-type(1),
+.copy-copy .eapl-section-column-50 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+@media screen and (min-width: 768px) {
+    ea-section ea-section-column.eapl-section-column-50 {
+        align-self: center;
+        margin: 0;
+        width: 50%;
+        overflow: hidden;
+    }
+    .copy-copy ea-section ea-section-column.eapl-section-column-50 {
+        align-self: start;
+    }
+
+    .asset-first .eapl-section-column-50:nth-of-type(2),
+    .copy-first .eapl-section-column-50:nth-of-type(1),
+    .copy-copy .eapl-section-column-50  {
+        padding: 0 2rem;
+        margin: 0;
+        width: 50%;
+    }
+    .dx-video-asset ea-media ea-html5-video {
+        margin-bottom: -10px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .asset-first .eapl-section-column-50:nth-of-type(2),
+    .copy-first .eapl-section-column-50:nth-of-type(1),
+    .copy-copy .eapl-section-column-50  {
+        padding: 0 6rem;
+    }
+
+}
+</style>
+</div>
+<div>
+<style>
+ea-section-column.eapl-section-column-100 img,ea-section-column.eapl-section-column-50 img,ea-section-column.eapl-section-column-66 img {
+max-width: 100%;
+}
+</style>
+</div>
+<div>
+<style>
+.dx__anchor-nav {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dx__anchor-nav__link {
+    display: flex;
+    align-items: center;
+    font-family: var(--ea-theme-secondary-font-family);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 1.1;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 2rem;
+    margin: 0;
+    border-right: 1px solid var(--dx-anchor-nav-separator-color);
+    white-space: nowrap;
+}
+
+.dx__anchor-nav__link::before {
+    content: "";
+}
+
+.dx__anchor-nav__link:last-child {
+    border: none;
+}
+
+.dx__anchor-nav__link a {
+    text-decoration: none;
+    line-height: 1;
+    transition: linear all 0.25s;
+    webkit-transition: all .25s linear;
+    moz-transition: all .25s linear;
+    ms-transition: all .25s linear;
+    o-transition: all .25s linear;
+    color: var(--dx-anchor-nav-color);
+}
+
+.dx__anchor-nav__link a:hover {
+    transform: translatey(-2px);
+    color: var(--dx-anchor-nav-hover-color);
+}
+
+@media only screen and (max-width: 1158px) {
+    .dx__anchor-nav__link {
+        font-size: 1rem;
+        padding: 0 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .dx__anchor-nav__link {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 846px) {
+    .dx__anchor-nav__link {
+        font-size: 0.8rem;
+        padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .dx__anchor-nav {
+        flex-direction: column;
+    }
+
+    .dx__anchor-nav__link {
+        display: block;
+        text-transform: uppercase;
+        font-size: 1.125rem;
+        letter-spacing: 0.05rem;
+        text-align: center;
+        padding: 14px 0;
+        border: none;
+        border-bottom: 1px solid var(--dx-anchor-nav-separator-color);
+    }
+}
+    </style>
+</div>
+<div>
+<style>
+.ea-play-section {
+    background: rgb(13,16,66);
+background: linear-gradient(60deg, rgba(13,16,66,1) 0%, rgba(13,16,66,1) 50%, rgba(255,71,71,1) 100%);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3rem;
+    width: 98%;
+    margin: 3rem auto;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+</style>
+</div>
+<div style="display: none;"></div>
+</main>
+<footer role="contentinfo">
+<ea-elements-loader elements="ea-local-footer, ea-local-links, ea-local-link, ea-social-links, ea-social-link, ea-hybrid-regional-rating">
+</ea-elements-loader>
+<ea-local-footer rating-lang="en" sal-game-slug="" theme="dark" unresolved="">
+<ea-local-links slot="local-links" text-color="dark" title-text="" unresolved="">
+<ea-local-link link-text="Carreiras" link-title="Carreiras" link-url="/pt-br/careers" slot="local-link" text-color="dark" unresolved="">
+<a href="/pt-br/careers" title="Carreiras">Carreiras</a>
+</ea-local-link>
+<ea-local-link link-text="Equipe executiva" link-title="Equipe executiva" link-url="/pt-br/executives" slot="local-link" text-color="dark" unresolved="">
+<a href="/pt-br/executives" title="Equipe executiva">Equipe executiva</a>
+</ea-local-link>
+<ea-local-link link-text="Relatório de impacto" link-title="Relatório de impacto" link-url="https://media.contentapi.ea.com/content/dam/eacom/common/ea-impact-report-2025.pdf" slot="local-link" text-color="dark" unresolved="">
+<a href="https://media.contentapi.ea.com/content/dam/eacom/common/ea-impact-report-2025.pdf" title="Relatório de impacto">Relatório de impacto</a>
+</ea-local-link>
+<ea-local-link link-text="Nossos compromissos" link-title="Nossos compromissos" link-url="/pt-br/commitments" slot="local-link" text-color="dark" unresolved="">
+<a href="/pt-br/commitments" title="Nossos compromissos">Nossos compromissos</a>
+</ea-local-link>
+<ea-local-link link-text="Faça parceria conosco" link-title="Faça parceria conosco" link-url="/pt-br/brand-partnerships" slot="local-link" text-color="dark" unresolved="">
+<a href="/pt-br/brand-partnerships" title="Faça parceria conosco">Faça parceria conosco</a>
+</ea-local-link>
+</ea-local-links>
+<ea-social-links slot="social-links" text-color="dark" title-text="Participe da conversa" unresolved="">
+<ea-social-link link-target="_blank" link-title="Facebook" link-url="https://www.facebook.com/EA/" slot="social-link" social-network="facebook" text-color="dark" unresolved="">
+<a href="https://www.facebook.com/EA/" title="Facebook">facebook</a>
+</ea-social-link>
+<ea-social-link link-target="_blank" link-title="Twitter" link-url="https://www.twitter.com/ea" slot="social-link" social-network="twitter" text-color="dark" unresolved="">
+<a href="https://www.twitter.com/ea" title="Twitter">twitter</a>
+</ea-social-link>
+<ea-social-link link-target="_blank" link-title="YouTube" link-url="https://www.youtube.com/EA" slot="social-link" social-network="youtube" text-color="dark" unresolved="">
+<a href="https://www.youtube.com/EA" title="YouTube">youtube</a>
+</ea-social-link>
+<ea-social-link link-target="_blank" link-title="Instagram" link-url="https://www.instagram.com/ea" slot="social-link" social-network="instagram" text-color="dark" unresolved="">
+<a href="https://www.instagram.com/ea" title="Instagram">instagram</a>
+</ea-social-link>
+<ea-social-link link-target="_blank" link-title="Twitch" link-url="https://www.twitch.tv/ea" slot="social-link" social-network="twitch" text-color="dark" unresolved="">
+<a href="https://www.twitch.tv/ea" title="Twitch">twitch</a>
+</ea-social-link>
+<ea-social-link link-target="_blank" link-title="LinkedIn" link-url="https://www.linkedin.com/company/electronic-arts/" slot="social-link" social-network="linkedin" text-color="dark" unresolved="">
+<a href="https://www.linkedin.com/company/electronic-arts/" title="LinkedIn">linkedin</a>
+</ea-social-link>
+</ea-social-links>
+</ea-local-footer>
+<ea-elements-loader elements="ea-network-footer, ea-network-legal, ea-link, ea-content-loader">
+</ea-elements-loader>
+<ea-network-footer logo-image="https://media.contentapi.ea.com/content/dam/eacom/common/medallion-violet.png" logo-link-text="Página inicial da Electronic Arts" logo-link-tooltip="Página inicial da Electronic Arts" logo-link-url="https://www.ea.com/pt-br/" logo-tooltip="Página inicial da Electronics Arts" theme="dark" unresolved="">
+<img alt="" src="local_resources\medallion-violet_ed8a9dba2cc8c5d6.png"/>
+<ea-link link-href="/pt-br/games/library" link-text="Biblioteca de jogos" link-title="Biblioteca de jogos" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/games/library" title="Biblioteca de jogos">Biblioteca de jogos</a>
+</ea-link>
+<ea-link link-href="/pt-br/subscribe" link-text="Inscreva-se" link-title="Inscreva-se" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/subscribe" title="Inscreva-se">Inscreva-se</a>
+</ea-link>
+<ea-link link-href="/pt-br/redeem" link-text="Resgatar código" link-title="Resgatar código" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/redeem" title="Resgatar código">Resgatar código</a>
+</ea-link>
+<ea-link link-href="/pt-br/ea-app" link-text="EA app" link-title="EA app" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/ea-app" title="EA app">EA app</a>
+</ea-link>
+<ea-link link-href="/pt-br/about" link-text="Sobre" link-title="Sobre" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/about" title="Sobre">Sobre</a>
+</ea-link>
+<ea-link link-href="/pt-br/able" link-text="Acessibilidade" link-title="Acessibilidade" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/able" title="Acessibilidade">Acessibilidade</a>
+</ea-link>
+<ea-link link-href="https://help.ea.com/pt-br/" link-text="Ajuda" link-title="Ajuda" slot="link" text-color="dark" unresolved="">
+<a href="https://help.ea.com/pt-br/" title="Ajuda">Ajuda</a>
+</ea-link>
+<ea-link link-href="https://forums.ea.com" link-text="Fóruns" link-title="Fóruns" slot="link" text-color="dark" unresolved="">
+<a href="https://forums.ea.com" title="Fóruns">Fóruns</a>
+</ea-link>
+<ea-elements-loader elements="ea-regional-pricing-selector">
+</ea-elements-loader>
+<ea-regional-pricing-selector label-text="Preços regionais" slot="regional-pricing-selector" theme="dark" unresolved="">
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="AT">Austria</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="BE">Belgium</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="BG">Bulgaria</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="HR">Croatia</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="CY">Cyprus</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="CZ">Czech Republic</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="DK">Denmark</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="EE">Estonia</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="FI">Finland</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="FR">France</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="DE">Germany</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="GR">Greece</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="HU">Hungary</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="IS">Iceland</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="IE">Ireland</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="IT">Italy</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="LV">Latvia</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="LI">Liechtenstein</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="LT">Lithuania</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="LU">Luxembourg</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="MT">Malta</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="NL">Netherlands</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="NO">Norway</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="PL">Poland</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="PT">Portugal</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="RO">Romania</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="SK">Slovakia</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="SL">Slovenia</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="ES">Spain</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="SE">Sweden</ea-regional-pricing-selector-option>
+<ea-regional-pricing-selector-option slot="regional-pricing-selector-option" value="CH">Switzerland</ea-regional-pricing-selector-option>
+</ea-regional-pricing-selector>
+<ea-elements-loader elements="ea-locale-selector">
+</ea-elements-loader>
+<ea-locale-selector label-text="Language" slot="locale-selector" theme="dark" unresolved="" value="pt-br">
+<ea-locale-selector-option slot="locale-selector-option" value="en-us">United States</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="en-gb">United Kingdom</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="en-au">Australia</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="fr-fr">France</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="de-de">Deutschland</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="it-it">Italia</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="ja-jp">日本</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="pl-pl">Polska</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="pt-br">Brasil</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="ru-ru">Россия</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="es-es">España</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="cs-cz">Česká republika</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="en-ca">Canada (En)</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="fr-ca">Canada (Fr)</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="da-dk">Danmark</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="fi-fi">Suomi</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="es-mx">México</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="nl-nl">Nederland</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="nb-no">Norge</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="sv-se">Sverige</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="zh-cn">简体中文</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="ko-kr">대한민국</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="zh-tw">繁體中文</ea-locale-selector-option>
+<ea-locale-selector-option slot="locale-selector-option" value="tr-tr">Türkiye</ea-locale-selector-option>
+</ea-locale-selector>
+<ea-network-legal copyright-text="© 2025 Electronic Arts Inc. " slot="network-legal" text-color="dark" unresolved="">
+<ea-link link-href="http://www.ea.com/pt-br/legal" link-text="Informação Legal e de Privacidade" link-title="Informação Legal e de Privacidade" slot="link" text-color="dark" unresolved="">
+<a href="http://www.ea.com/pt-br/legal" title="Informação Legal e de Privacidade">Informação Legal e de Privacidade</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/terms-of-service" link-text="Contrato do Usuário" link-title="NOVO Contrato do Usuário" slot="link" text-color="dark" unresolved="">
+<a href="https://www.ea.com/pt-br/terms-of-service" title="NOVO Contrato do Usuário">Contrato do Usuário</a>
+</ea-link>
+<ea-link link-href="https://www.ea.com/pt-br/legal/privacy-and-cookie-policy" link-text="Política de Privacidade e Cookies" link-title="Política de Privacidade e Cookies" slot="link" text-color="dark" unresolved="">
+<a href="https://www.ea.com/pt-br/legal/privacy-and-cookie-policy" title="Política de Privacidade e Cookies">Política de Privacidade e Cookies</a>
+</ea-link>
+<ea-link link-href="/pt-br/service-updates" link-text="Atualizações do serviço online" link-title="Atualizações do serviço online" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/service-updates" title="Atualizações do serviço online">Atualizações do serviço online</a>
+</ea-link>
+<ea-link link-href="/pt-br/security" link-text="Segurança" link-title="Segurança" slot="link" text-color="dark" unresolved="">
+<a href="/pt-br/security" title="Segurança">Segurança</a>
+</ea-link>
+<ea-content-loader content-url="/about/reporting-concerns-romania/geotargeted-link" slot="link">
+</ea-content-loader>
+<ea-content-loader content-url="/about/reporting-concerns-ireland/geotargeted-link" slot="link">
+</ea-content-loader>
+</ea-network-legal>
+<ea-elements-loader elements="ea-truste">
+</ea-elements-loader>
+<script async="" data-domain="ea.com" id="ea-trustarc-script">
+        (() => {
+    function createElement(id, hidden) {
+        const element = document.createElement("div");
+
+        element.id = id;
+        element.hidden = hidden;
+
+        return element;
+    }
+
+    function createScriptTag() {
+        const domain = document.querySelector('#ea-trustarc-script').dataset.domain;
+        const script = document.createElement("script");
+        let src = `//consent.trustarc.com/notice?domain=${domain}&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1&pn=1`;
+
+        if (shouldAutoShowCookiePreferences()) {
+            src = src + "&behavior=expressed";
+        }
+
+        script.src = src;
+        script.setAttribute("crossorigin", "");
+
+        return script;
+    }
+
+    function shouldAutoShowCookiePreferences() {
+        const showCookiePreferencesParam = "show=cookiePreferences";
+        const urlSearchParams = window.location.search.slice(1).split("&");
+
+        return urlSearchParams.includes(showCookiePreferencesParam);
+    }
+
+    function isLocalNDS(componentUrlPrefix) {
+        return componentUrlPrefix && componentUrlPrefix.includes('local');
+    }
+
+    function isNDSBranch(componentUrlPrefix) {
+        return componentUrlPrefix && componentUrlPrefix.includes('branch');
+    }
+
+    function isNDSVersionGreaterOrEqual(componentUrlPrefix) {
+        let ndsVersion = componentUrlPrefix && componentUrlPrefix.match('/release\/([^\/]*)/')[1];
+        let isGreaterOrEqual = ndsVersion && ndsVersion.localeCompare("4.40.5", undefined, { numeric: true, sensitivity: 'base' });
+
+        return isGreaterOrEqual >= 0;
+    }
+
+    const componentUrlPrefix = window.nds.componentUrlPrefix;
+
+    /**
+     * Check for backwards compatibility with NDS version greater or equal to when TrustArc was integrated
+     */
+    if (
+        isLocalNDS(componentUrlPrefix) ||
+        isNDSBranch(componentUrlPrefix) ||
+        isNDSVersionGreaterOrEqual(componentUrlPrefix)
+    )
+    {
+        const trustArcScript = createScriptTag();
+        const elements = document.createDocumentFragment();
+
+        elements.appendChild(createElement("consent_blackbar", false));
+        elements.appendChild(createElement("teconsent", true));
+        elements.appendChild(trustArcScript);
+
+        document.body.appendChild(elements);
+    }
+})();
+
+    </script>
+<ea-truste domain="ea.com" multimedia-cookie-modal-accept-button-text="Aceitar e reproduzir vídeo" multimedia-cookie-modal-enabled="" multimedia-cookie-modal-title="Reprodutor de multimídia" multimedia-cookie-modal-watch-button-text="Assistir no YouTube" slot="truste" unresolved="">
+<div>
+<a href="//privacy.truste.com/privacy-seal/validation?rid=f1224642-d137-417f-8ab3-96f47ce12580&amp;lang=pt" target="_blank">
+<img alt="TRUSTe" src="local_resources\seal_5debc392db6544ab" style="border: none"/>
+</a>
+</div>
+<ea-text slot="multimedia-cookie-modal-text"><p>Cookies opcionais, incluindo os usados para o funcionamento do reprodutor de multimídia, estão desativados com base no definido em "Suas opções de privacidade". </p>
+<p>Escolha <b>Aceitar e reproduzir vídeo</b> para ativar o reprodutor de multimídia, incluindo seus cookies associados. Isto pode envolver a coleta e o compartilhamento das suas informações de visualização pelo YouTube para fins de análise e publicidade.</p>
+<p>Também é possível optar por assistir ao vídeo no YouTube.</p>
+</ea-text>
+</ea-truste>
+</ea-network-footer>
+</footer>
+<ea-player player-endpoint="/user-data"></ea-player>
+<ea-elements-loader elements="ea-modal">
+</ea-elements-loader>
+<ea-modal id="eacomagegate" modal="" restore-focus-on-close="" theme="dark" unresolved="">
+<ea-elements-loader elements="ea-age-gate">
+</ea-elements-loader>
+<ea-age-gate age="18" age-gate-id="eacomagegate" error="You are not eligible to view this content." message="Forneça sua data de nascimento. " slot="age-gate" unresolved="">
+<ea-elements-loader elements="ea-date-field">
+</ea-elements-loader>
+<ea-date-field day-placeholder="DD" label-text="Digite sua data de nascimento" month-placeholder="MM" slot="date-field" text-color="light" type="date" unresolved="" year-placeholder="AAAA">
+</ea-date-field>
+<ea-elements-loader elements="ea-submit">
+</ea-elements-loader>
+<ea-submit slot="submit" text-color="light" unresolved="" value-text="Submit"></ea-submit>
+</ea-age-gate>
+</ea-modal>
+<script src="local_resources\browser-support.min_c610314593f910f7.js"></script>
+<script>
+    eaBrowserSupport.requiredFeatures = 'picture';
+    eaBrowserSupport.requiredHeading = 'Desculpe, este navegador não é compatível';
+    eaBrowserSupport.requiredText = 'Faça o download de um navegador compatível para ver esta página da web.';
+    eaBrowserSupport.recommendedFeatures = 'cssgrid';
+    eaBrowserSupport.recommendedText = 'Este navegador não é recomendado e a página pode não ser exibida corretamente.';
+    eaBrowserSupport.ctas = [{"text":"Download Chrome","url":"https://www.google.com/chrome/"},{"text":"Download Firefox","url":"https://www.mozilla.org/firefox/new/"},{"text":"Download Edge","url":"https://www.microsoft.com/edge/"}];
+    eaBrowserSupport.dismissText = 'Dispensar';
+    eaBrowserSupport.svgLogo = '';
+    eaBrowserSupport.init();
+</script>
+<ea-type-kit kit-url="//use.typekit.net/txn1klh.js"></ea-type-kit>
+</body>
+</html>

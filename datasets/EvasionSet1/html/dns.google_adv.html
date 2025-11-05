@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Google Public DNS
+  </title>
+  <meta charset="utf-8"/>
+  <link href="local_resources\favicon_f364910f20a414b3.png" rel="shortcut icon" type="image/png"/>
+  <link href="local_resources\matter.min_c0b8ca21b3a719cb.css" rel="stylesheet"/>
+  <link href="local_resources\shared_338d1c02576b0424.css" rel="stylesheet"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="local_resources\root_84ef751e717f00ad.css" rel="stylesheet"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <span class="filler top">
+  </span>
+  <div class="logo" title="Google Public DNS">
+   <div class="logo-text">
+    <span>
+     Public DNS
+    </span>
+   </div>
+  </div>
+  <form action="" method="GET">
+   <div class="row">
+    <label class="matter-textfield-outlined">
+     <input name="name" placeholder=" " type="text"/>
+     <span>
+      DNS Name
+     </span>
+     <p class="help">
+      Enter a domain (like example.com) or IP address (like 8.8.8.8 or 2001:4860:4860::8844) here.
+     </p>
+    </label>
+    <button class="matter-button-contained matter-primary" type="submit">
+     Resolve
+    </button>
+   </div>
+  </form>
+  <span class="filler bottom">
+  </span>
+  <footer class="row">
+   <a onclick="window.open('https://developers.google.com/speed/public-dns'); return false;">
+    Help
+   </a>
+   <a onclick="window.open('/cache'); return false;">
+    Cache Flush
+   </a>
+   <span class="filler">
+   </span>
+   <a onclick="return false;" style="pointer-events: none; cursor: default;">
+    Get Started with Google Public DNS
+   </a>
+  </footer>
+  <script nonce="Y5rP9-yoGTseXC8XI2EUFA">
+   document.forms[0].name.focus();
+  </script>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

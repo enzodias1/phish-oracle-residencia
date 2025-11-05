@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="https://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="Apple Inc." name="Author"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <link href="local_resources\favicon_792f5a1758da9c21.ico" rel="shortcut icon"/>
+  <link href="local_resources\favicon_792f5a1758da9c21.ico" rel="icon"/>
+  <link color="#333333" href="local_resources\apple-logo_df58d9efdacd4e71.svg" rel="mask-icon"/>
+  <link href="local_resources\global.dist_9d25836a96509670.css" rel="stylesheet" type="text/css"/>
+  <link data-color-scheme="dark" href="local_resources\dark-mode_4fb8d78bc403125b.css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\localization_46f06ad5e09614dc.css" rel="stylesheet" type="text/css"/>
+  <script src="local_resources\jquery-3.6.0.min_e2433866dc017ce2.js">
+  </script>
+  <script src="local_resources\settings_d3d9839ca2ce9128.js">
+  </script>
+  <script src="local_resources\language-locales_7b751ed2e5061314.js">
+  </script>
+  <script src="local_resources\DeveloperBreadcrumbs_311cb497d0a486f1.js">
+  </script>
+  <script src="local_resources\analytics-module_a1c8ecd941e309aa.js">
+  </script>
+  <script async="" src="local_resources\retinate_c0f6a24ca70d6ff0.js">
+  </script>
+  <script src="local_resources\global-logout_9d6d588c0c4b918f.js">
+  </script>
+  <script async="" crossorigin="" src="local_resources\sf-symbol_7e8d3b8ad7909ee7.js">
+  </script>
+  <link href="local_resources\fonts_861a2ff04d8a1c86" rel="stylesheet"/>
+  <link href="local_resources\fonts_5b09edfe31ac42b2" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\fonts_91c9ddbe951517a0" rel="stylesheet" type="text/css"/>
+  <title>
+   iCloud - Apple Developer
+  </title>
+  <meta content="iCloud - (English)" name="omni_page"/>
+  <meta content="Securely store your app’s data and documents in iCloud — and keep them up to date across macOS, iOS, watchOS, tvOS, and the web. With iCloud, your users can access the information they want, wherever they want it." name="Description"/>
+  <meta content="/assets/elements/icons/icloud/icloud-96x96_2x.png" name="search_icon"/>
+  <meta content="en_US" property="og:locale"/>
+  <meta content="Apple Developer" property="og:site_name"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://developer.apple.com/news/images/og/icloud-og.jpg" property="og:image"/>
+  <meta content="iCloud - Apple Developer" property="og:title"/>
+  <meta content="Securely store your app’s data and documents in iCloud — and keep them up to date across macOS, iOS, watchOS, tvOS, and the web. With iCloud, your users can access the information they want, wherever they want it." property="og:description"/>
+  <meta content="https://developer.apple.com/icloud/" property="og:url"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://developer.apple.com/news/images/og/icloud-og-twitter.jpg" name="twitter:image"/>
+  <meta content="iCloud - Apple Developer" name="twitter:title"/>
+  <meta content="Securely store your app’s data and documents in iCloud — and keep them up to date across macOS, iOS, watchOS, tvOS, and the web. With iCloud, your users can access the information they want, wherever they want it." name="twitter:description"/>
+  <meta content="https://developer.apple.com/icloud/" name="twitter:url"/>
+  <link href="local_resources\res_8f6973268fb5a5dd" hreflang="zh-CN" rel="alternate"/>
+  <link href="local_resources\res_d684e8b86459bcd8" hreflang="ja-JP" rel="alternate"/>
+  <link href="local_resources\res_8927aa1488fd5180" hreflang="ko-KR" rel="alternate"/>
+  <link href="local_resources\res_5e97d530a22f079a" hreflang="en" rel="alternate"/>
+  <link href="local_resources\res_5e97d530a22f079a" rel="canonical"/>
+  <link href="local_resources\icloud-common_7cb3a3891caf1834.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body id="icloud-overview">
+  <script>
+   // Execute immediately to avoid UI flash
+	(function () {
+		const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+		const body = document.body;
+
+		// If theme-dark or theme-light is already applied, do nothing and lock it
+		if (body.classList.contains("theme-dark") || body.classList.contains("theme-light")) {
+
+			// Set the data-color-scheme attribute based on the existing theme
+			body.setAttribute('data-color-scheme', body.classList.contains("theme-dark") ? "dark" : "light");
+
+			// Prevent future modifications
+			window.__disableColorScheme = true;
+
+			// Hide the color picker immediately
+			const style = document.createElement('style');
+			style.textContent = '.color-scheme-toggle { display: none !important; }';
+			document.head.appendChild(style);
+
+			return;
+		}
+
+		// Otherwise, set theme normally based on user settings or system preference
+		if (window.Settings && window.Settings.preferredColorScheme) {
+			const colorTheme = (window.Settings.preferredColorScheme === 'auto') && !prefersDark ? 'light'
+				: (window.Settings.preferredColorScheme === 'light') ? 'light' : 'dark';
+			body.setAttribute('data-color-scheme', colorTheme);
+			colorTheme === "dark" ? body.classList.add("theme-dark") : body.classList.add("theme-light");
+		} else {
+			const colorTheme = prefersDark ? 'dark' : 'light';
+			body.setAttribute('data-color-scheme', colorTheme);
+			prefersDark ? body.classList.add("theme-dark") : body.classList.add("theme-light");
+		}
+	})();
+  </script>
+  <link href="local_resources\globalnav_fc6097d12d37cae1.css" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\suggest-lang_1ce136db465b9db2.css" rel="stylesheet" type="text/css"/>
+  <div class="ribbon hide" id="suggest-lang" lang="en">
+   <div class="ribbon-content-wrapper">
+    <div class="ribbon-content row">
+     <div class="column large-12 large-centered">
+      <p>
+       <a class="ribbon-link more" id="suggest-link" onclick="window.open('#'); return false;">
+        View in English
+       </a>
+      </p>
+      <button aria-label="Dismiss language suggestion" class="icon icon-after icon-reset" id="suggest-closer" tabindex="0">
+      </button>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="local_resources\suggest-lang_aae7172040999311.js">
+  </script>
+  <aside class="ac-gn-segmentbar" dir="ltr" id="ac-gn-segmentbar" lang="en-US">
+  </aside>
+  <input class="ac-gn-menustate" id="ac-gn-menustate" type="checkbox"/>
+  <nav aria-label="Global" class="no-js" data-analytics-region="global nav" data-hires="false" data-search-defaultlinks-api="/search-services/suggestions/defaultlinks/" data-search-locale="en_US" data-search-suggestions-api="/search-services/suggestions/" data-search-suggestions-enabled="false" data-store-api="/[storefront]/shop/bag/status" data-store-locale="us" data-store-root-path="/us" data-www-domain="www.apple.com" dir="ltr" id="ac-globalnav" lang="en-US" role="navigation">
+   <div class="ac-gn-content">
+    <ul class="ac-gn-header">
+     <li class="ac-gn-item ac-gn-menuicon">
+      <label aria-hidden="true" class="ac-gn-menuicon-label" for="ac-gn-menustate">
+       <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-top">
+        <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-top">
+        </span>
+       </span>
+       <span class="ac-gn-menuicon-bread ac-gn-menuicon-bread-bottom">
+        <span class="ac-gn-menuicon-bread-crust ac-gn-menuicon-bread-crust-bottom">
+        </span>
+       </span>
+      </label>
+      <a class="ac-gn-menuanchor ac-gn-menuanchor-open" id="ac-gn-menuanchor-open" onclick="window.open('#ac-gn-menustate'); return false;" role="button">
+       <span class="ac-gn-menuanchor-label">
+        Global Nav Open Menu
+       </span>
+      </a>
+      <a class="ac-gn-menuanchor ac-gn-menuanchor-close" id="ac-gn-menuanchor-close" onclick="window.open('#'); return false;" role="button">
+       <span class="ac-gn-menuanchor-label">
+        Global Nav Close Menu
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-apple">
+      <a class="ac-gn-link ac-gn-link-apple-developer" data-analytics-title="appledeveloper home" id="ac-gn-firstfocus-small" onclick="window.open('/'); return false;">
+       <span class="ac-gn-link-text">
+        Apple Developer
+       </span>
+      </a>
+     </li>
+    </ul>
+    <div class="ac-gn-search-placeholder-container" role="search">
+     <div class="ac-gn-search ac-gn-search-small">
+      <a aria-label="Search" class="ac-gn-link" data-analytics-click="search" data-analytics-intrapage-link="" data-analytics-title="search" id="ac-gn-link-search-small" onclick="window.open('/search/'); return false;">
+       <div class="ac-gn-search-placeholder-bar">
+        <div class="ac-gn-search-placeholder-input">
+         <div aria-hidden="true" class="ac-gn-search-placeholder-input-text">
+          <div class="ac-gn-link-search ac-gn-search-placeholder-input-icon">
+          </div>
+          <span class="ac-gn-search-placeholder">
+           Search
+          </span>
+         </div>
+        </div>
+        <div class="ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close">
+         <span aria-hidden="true" class="ac-gn-searchview-close-cancel">
+          Cancel
+         </span>
+        </div>
+       </div>
+      </a>
+     </div>
+    </div>
+    <ul class="ac-gn-list">
+     <li class="ac-gn-item ac-gn-apple">
+      <a class="ac-gn-link ac-gn-link-apple-developer" data-analytics-title="appledeveloper home" id="ac-gn-firstfocus" onclick="window.open('/'); return false;">
+       <span class="ac-gn-link-text">
+        Apple Developer
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-news">
+      <a class="ac-gn-link ac-gn-link-news" data-analytics-title="news" onclick="window.open('/news/'); return false;">
+       <span class="ac-gn-link-text">
+        News
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-discover">
+      <a class="ac-gn-link ac-gn-link-discover" data-analytics-title="discover" onclick="window.open('/discover/'); return false;">
+       <span class="ac-gn-link-text">
+        Discover
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-design">
+      <a class="ac-gn-link ac-gn-link-design" data-analytics-title="design" onclick="window.open('/design/'); return false;">
+       <span class="ac-gn-link-text">
+        Design
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-develop">
+      <a class="ac-gn-link ac-gn-link-develop" data-analytics-title="develop" onclick="window.open('/develop/'); return false;">
+       <span class="ac-gn-link-text">
+        Develop
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-distribute">
+      <a class="ac-gn-link ac-gn-link-distribute" data-analytics-title="distribute" onclick="window.open('/distribute/'); return false;">
+       <span class="ac-gn-link-text">
+        Distribute
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-dsupport">
+      <a class="ac-gn-link ac-gn-link-dsupport" data-analytics-title="dsupport" onclick="window.open('/support/'); return false;">
+       <span class="ac-gn-link-text">
+        Support
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-account">
+      <a class="ac-gn-link ac-gn-link-account" data-analytics-title="account" onclick="window.open('/account/'); return false;">
+       <span class="ac-gn-link-text">
+        Account
+       </span>
+      </a>
+     </li>
+     <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
+      <a aria-label="Search" class="ac-gn-link ac-gn-link-search" data-analytics-click="search" data-analytics-intrapage-link="" data-analytics-title="search" id="ac-gn-link-search" onclick="window.open('/search/'); return false;">
+      </a>
+     </li>
+    </ul>
+    <aside class="ac-gn-searchview" data-analytics-region="search" id="ac-gn-searchview" role="search">
+     <div class="ac-gn-searchview-content">
+      <div class="ac-gn-searchview-bar">
+       <div class="ac-gn-searchview-bar-wrapper">
+        <form action="" class="ac-gn-searchform" id="ac-gn-searchform" method="get">
+         <div class="ac-gn-searchform-wrapper">
+          <input aria-autocomplete="list" aria-expanded="true" aria-label="Search" aria-owns="quicklinks suggestions" autocapitalize="off" autocomplete="off" autocorrect="off" class="ac-gn-searchform-input" id="ac-gn-searchform-input" name="q" placeholder="Search" role="combobox" spellcheck="false" type="text"/>
+          <button aria-label="Submit Search" class="ac-gn-searchform-submit" disabled="" id="ac-gn-searchform-submit" type="submit">
+          </button>
+          <button aria-label="Clear Search" class="ac-gn-searchform-reset" disabled="" id="ac-gn-searchform-reset" type="reset">
+           <span class="ac-gn-searchform-reset-background">
+           </span>
+          </button>
+         </div>
+        </form>
+        <button aria-label="Cancel Search" class="ac-gn-searchview-close ac-gn-searchview-close-small" id="ac-gn-searchview-close-small">
+         <span aria-hidden="true" class="ac-gn-searchview-close-cancel">
+          Cancel
+         </span>
+        </button>
+       </div>
+      </div>
+      <aside class="ac-gn-searchresults hidden" data-string-noresults="" data-string-quicklinks="Quick Links" data-string-suggestions="Suggested Searches" id="ac-gn-searchresults">
+       <section class="ac-gn-searchresults-section ac-gn-searchresults-section-defaultlinks">
+        <div class="ac-gn-searchresults-section-wrapper">
+         <div class="search-group-checkbox hidden">
+          <input checked="" id="group-input" name="group-filter" type="checkbox"/>
+          Only search within “
+          <span id="group-search-label">
+          </span>
+          ”
+         </div>
+         <h3 class="ac-gn-searchresults-header ac-gn-searchresults-animated">
+          Quick Links
+         </h3>
+         <ul class="ac-gn-searchresults-list" id="defaultlinks" role="listbox">
+         </ul>
+         <span aria-live="polite" class="ac-gn-searchresults-count" role="status">
+          5 Quick Links
+         </span>
+        </div>
+       </section>
+      </aside>
+     </div>
+     <button aria-label="Cancel Search" class="ac-gn-searchview-close" id="ac-gn-searchview-close">
+      <span class="ac-gn-searchview-close-wrapper">
+       <span class="ac-gn-searchview-close-left">
+       </span>
+       <span class="ac-gn-searchview-close-right">
+       </span>
+      </span>
+     </button>
+    </aside>
+   </div>
+  </nav>
+  <div class="ac-gn-blur">
+  </div>
+  <div class="ac-gn-curtain" id="ac-gn-curtain">
+  </div>
+  <div class="ac-nav-placeholder" id="ac-gn-placeholder">
+  </div>
+  <script src="local_resources\ac-globalnav.built_9bbf14789699ce20.js">
+  </script>
+  <link href="local_resources\search_66386a47e37c4995.css" rel="stylesheet"/>
+  <script src="local_resources\search_4d14ddf773c3ebd3.js">
+  </script>
+  <!-- metrics -->
+  <script>
+   /* RSID: */
+    var s_account="awdappledeveloper"
+  </script>
+  <script src="local_resources\analytics_d482d94800d3dffa.js">
+  </script>
+  <script>
+   s.pageName= AC && AC.Tracking && AC.Tracking.pageName();
+    s.channel="www.en.developer"
+    s.channel="www.en.developer";
+
+    
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code=s.t();if(s_code)document.write(s_code)
+  </script>
+  <!-- /metrics -->
+  <link href="local_resources\localnav_e929a109ccf1e28b.css" property="stylesheet" rel="stylesheet" type="text/css"/>
+  <input class="localnav-menustate" id="localnav-menustate" type="checkbox"/>
+  <nav class="localnav localnav-scrim" data-sticky="" id="localnav" role="navigation">
+   <div class="localnav-wrapper">
+    <div class="localnav-background">
+    </div>
+    <div class="localnav-content">
+     <h2 class="localnav-title">
+      <a onclick="window.open('/icloud/'); return false;">
+       iCloud
+      </a>
+     </h2>
+     <div class="localnav-menu">
+      <a class="localnav-menucta-anchor localnav-menucta-anchor-open" id="localnav-menustate-open" onclick="window.open('#localnav-menustate'); return false;">
+       <span class="localnav-menucta-anchor-label">
+        Open Menu
+       </span>
+      </a>
+      <a class="localnav-menucta-anchor localnav-menucta-anchor-close" id="localnav-menustate-close" onclick="window.open('#'); return false;">
+       <span class="localnav-menucta-anchor-label">
+        Close Menu
+       </span>
+      </a>
+      <div class="localnav-menu-tray">
+       <ul class="localnav-menu-items">
+        <li class="localnav-menu-item">
+         <a class="localnav-menu-link" onclick="window.open('/icloud/'); return false;">
+          Overview
+         </a>
+        </li>
+        <li class="localnav-menu-item">
+         <a class="localnav-menu-link" onclick="window.open('/icloud/cloudkit/'); return false;">
+          CloudKit
+         </a>
+        </li>
+        <li class="localnav-menu-item">
+         <a class="localnav-menu-link" onclick="window.open('/icloud/telemetry/'); return false;">
+          Telemetry
+         </a>
+        </li>
+        <li class="localnav-menu-item">
+         <a class="localnav-menu-link" onclick="window.open('/icloud/logs/'); return false;">
+          Logs
+         </a>
+        </li>
+        <li class="localnav-menu-item">
+         <a class="localnav-menu-link" onclick="window.open('/icloud/dashboards/'); return false;">
+          Dashboards
+         </a>
+        </li>
+        <li class="localnav-menu-item">
+         <a class="localnav-menu-link" onclick="window.open('/icloud/resources/'); return false;">
+          Resources
+         </a>
+        </li>
+       </ul>
+      </div>
+      <div class="localnav-actions localnav-actions-center">
+       <div aria-hidden="true" class="localnav-action localnav-action-menucta">
+        <label class="localnav-menucta" for="localnav-menustate">
+         <span class="localnav-menucta-chevron">
+         </span>
+        </label>
+       </div>
+       <div class="localnav-action localnav-action-button">
+        <a class="localnav-button button button-compact button-pill" onclick="window.open('https://icloud.developer.apple.com/'); return false;">
+         View CloudKit Console
+         <span class="loc-en-only">
+         </span>
+         <span class="localnav-action-product">
+          CloudKit Console
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </nav>
+  <label for="localnav-menustate" id="localnav-curtain">
+  </label>
+  <script src="local_resources\ac-localnav.built_7d506c39e47def78.js">
+  </script>
+  <script src="local_resources\localnav_65c79c76611126c0.js" type="text/javascript">
+  </script>
+  <main class="main" id="main" role="main">
+   <div class="ribbon ribbon-blue-to-default ribbon-animate-color" id="icloud-s-ribbon">
+    <div class="ribbon-content-wrapper">
+     <div class="ribbon-content row">
+      <div class="column large-8 large-centered">
+       <p>
+        <a class="ribbon-link" onclick="window.open('/videos/all-videos/?q=%22iCloud%22%20%22CloudKit%22'); return false;">
+         Watch the latest videos about iCloud and
+         <span class="nowrap icon icon-after icon-playcircle">
+          CloudKit
+         </span>
+        </a>
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <section class="section section-hero">
+    <div class="section-content">
+     <div class="row">
+      <div class="column large-centered large-9 medium-10 small-12 text-center">
+       <img alt="" height="96" src="local_resources\phish_icloud-96x96_2x_ec721e0c5c634b79.png"/>
+       <h1 class="typography-headline">
+        iCloud for developers
+       </h1>
+       <p class="typography-intro">
+        iCloud securely stores your users’ data and seamlessly keeps it up to date across their devices, so they’ll have a great experience no matter which device they use. And with powerful and intuitive tools, such as CloudKit Console, you can focus on delivering great apps while iCloud handles the details of scaling, consistency, and security.
+       </p>
+      </div>
+     </div>
+    </div>
+    <figure class="margin-top-small device-macbook-pro-5th-gen-16-silver center">
+     <picture class="device-screen">
+      <source media="(max-width: 734px)" srcset="/icloud/images/screen-hero-small_2x.png?1"/>
+      <source media="(max-width:1068px)" srcset="/icloud/images/screen-hero-medium_2x.png?1"/>
+      <img alt="" aria-label="" src="local_resources\phish_screen-hero-large_2x_6eca07d48ff0185f.png" width="100%"/>
+     </picture>
+    </figure>
+   </section>
+   <section class="section section-topics bg-light">
+    <div class="section-content">
+     <div class="row">
+      <div class="column large-centered large-10 medium-12">
+       <div class="row margin-bottom">
+        <div class="column large-2 small-12 sv-text-left text-center">
+         <sf-symbol class="topic-symbol" mode="hierarchical" name="widget.large.badge.plus" scale="small" weight="light">
+         </sf-symbol>
+        </div>
+        <div class="column large-10 small-12">
+         <h3>
+          Display curated data with Dashboards
+         </h3>
+         <p>
+          Surface trends from Telemetry and usage data with Dashboards. Use customizable widgets to display only the most relevant data to help you identify and resolve issues within your CloudKit containers and push notification-enabled apps.
+         </p>
+         <p>
+          <a class="more" onclick="window.open('/icloud/dashboards/'); return false;">
+           Learn about Dashboards
+           <span class="loc-en-only">
+           </span>
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="row margin-bottom">
+        <div class="column large-2 small-12 sv-text-left text-center">
+         <sf-symbol class="topic-symbol" mode="hierarchical" name="icloud" scale="small" weight="light">
+         </sf-symbol>
+        </div>
+        <div class="column large-10 small-12">
+         <h3>
+          Build apps using CloudKit
+         </h3>
+         <p>
+          Develop apps with world-class authentication, privacy, security, and syncing using the same technologies used by Apple in its most popular cloud offerings. CloudKit provides a robust framework and a comprehensive set of tools that make it easy for you to develop powerful apps that seamlessly sync across iOS, iPadOS, macOS, tvOS, watchOS, visionOS and the web.
+         </p>
+         <p>
+          <a class="more" onclick="window.open('/icloud/cloudkit/'); return false;">
+           Learn about CloudKit
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="row margin-bottom">
+        <div class="column large-2 small-12 sv-text-left text-center">
+         <sf-symbol class="topic-symbol" mode="hierarchical" name="chart.bar.xaxis" scale="small" weight="light">
+         </sf-symbol>
+        </div>
+        <div class="column large-10 small-12">
+         <h3>
+          Gain insights with Telemetry
+         </h3>
+         <p>
+          Tailor your apps for responsiveness and relevance to your users by measuring user activity, CloudKit database usage, and trends over time. With Telemetry’s monitoring and analytics features, you can visualize aggregate behavior across all of your users’ devices for all of the data coming into your container.
+         </p>
+         <p>
+          <a class="more" onclick="window.open('/icloud/telemetry/'); return false;">
+           Learn about Telemetry
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="row margin-bottom">
+        <div class="column large-2 small-12 sv-text-left text-center">
+         <sf-symbol class="topic-symbol" mode="hierarchical" name="list.clipboard" scale="small" weight="light">
+         </sf-symbol>
+        </div>
+        <div class="column large-10 small-12">
+         <h3>
+          Access logs that respect user privacy
+         </h3>
+         <p>
+          Easily collect, process, and analyze data while keeping your users’ data private. CloudKit’s detailed logs of server activity don’t contain any personal or private data, so you’ll have everything you need to debug and analyze your app while ensuring sensitive user data stays safe and secure.
+         </p>
+         <p>
+          <a class="more" onclick="window.open('/icloud/logs/'); return false;">
+           Learn about logs
+          </a>
+         </p>
+        </div>
+       </div>
+       <div class="row">
+        <div class="column large-2 small-12 sv-text-left text-center">
+         <sf-symbol class="topic-symbol" mode="hierarchical" name="bell.badge" scale="small" weight="light">
+         </sf-symbol>
+        </div>
+        <div class="column large-10 small-12">
+         <h3>
+          Send, validate, and monitor push notifications
+         </h3>
+         <p>
+          Use the interactive web interface to send test push notifications to Apple devices through the Apple Push Notifications service (APNs). Review and manage the channels you use for broadcast push notifications. Access logs that provide insights into the delivery process and leverage tools to generate and validate tokens. Aggregated metrics give you insights into various statistics for device push notifications, including a detailed breakdown based on push type and priority.
+         </p>
+         <p>
+          <a onclick="window.open('/notifications/'); return false;">
+           Learn about
+           <span class="more nowrap">
+            Push Notifications
+            <span class="loc-en-only">
+            </span>
+           </span>
+          </a>
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="row">
+      <div class="column large-centered large-10 small-12">
+       <div class="grid grid-gutterless margin-top">
+        <div class="grid-item large-span-12">
+         <a class="block-link" onclick="window.open('/icloud/resources/'); return false;">
+          <div class="tile tile-rounded">
+           <div class="tile-content text-center">
+            <img alt="" class="large-centered" src="local_resources\phish_xcode-s-96x96_2x_3d965642330d4436.png" width="96"/>
+            <h2>
+             Resources
+            </h2>
+            <p>
+             Find the tools and documentation you need to build apps that use CloudKit.
+            </p>
+            <p class="link more">
+             View resources
+            </p>
+           </div>
+          </div>
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <link href="local_resources\footer.dist_8e798fddea660c9b.css" rel="stylesheet"/>
+  <footer aria-labelledby="footer-label" class="footer" id="footer" role="contentinfo">
+   <div class="footer-content">
+    <h2 class="footer-label" id="footer-label">
+     Developer Footer
+    </h2>
+    <developer-breadcrumbs>
+     <li>
+      iCloud
+     </li>
+    </developer-breadcrumbs>
+    <nav aria-label="Apple Developer Directory" class="footer-directory" role="navigation">
+     <!--googleoff: all-->
+     <div class="footer-directory-column">
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-platform" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-platform">
+        <h3 class="footer-directory-column-section-title">
+         Platforms
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-platform'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/ios/'); return false;">
+          iOS
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/ipados/'); return false;">
+          iPadOS
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/macos/'); return false;">
+          macOS
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/tvos/'); return false;">
+          tvOS
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/visionos/'); return false;">
+          visionOS
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/watchos/'); return false;">
+          watchOS
+         </a>
+        </li>
+       </ul>
+      </div>
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-tools" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-tools">
+        <h3 class="footer-directory-column-section-title">
+         Tools
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-tools'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/swift/'); return false;">
+          Swift
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/swiftui/'); return false;">
+          SwiftUI
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/swift-playground/'); return false;">
+          Swift Playground
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/testflight/'); return false;">
+          TestFlight
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/xcode/'); return false;">
+          Xcode
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/xcode-cloud/'); return false;">
+          Xcode Cloud
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/icon-composer/'); return false;">
+          Icon Composer
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/sf-symbols/'); return false;">
+          SF Symbols
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="footer-directory-column">
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-topics" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-topics">
+        <h3 class="footer-directory-column-section-title">
+         Topics &amp; Technologies
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-topics'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/accessibility/'); return false;">
+          Accessibility
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/accessories/'); return false;">
+          Accessories
+         </a>
+        </li>
+        <!-- <li class="footer-directory-column-section-item"><a class="footer-directory-column-section-link" href="/apple-intelligence/">Apple Intelligence</a></li> -->
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/app-store/'); return false;">
+          App Store
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/audio/'); return false;">
+          Audio &amp; Video
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/augmented-reality/'); return false;">
+          Augmented Reality
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/business/'); return false;">
+          Business
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/design/'); return false;">
+          Design
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/distribute/'); return false;">
+          Distribution
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/education/'); return false;">
+          Education
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/fonts/'); return false;">
+          Fonts
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/games/'); return false;">
+          Games
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/health-fitness/'); return false;">
+          Health &amp; Fitness
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/in-app-purchase/'); return false;">
+          In-App Purchase
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/localization/'); return false;">
+          Localization
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/maps/'); return false;">
+          Maps &amp; Location
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/machine-learning/'); return false;">
+          Machine Learning &amp; AI
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('https://opensource.apple.com'); return false;">
+          Open Source
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/security/'); return false;">
+          Security
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/safari/'); return false;">
+          Safari &amp; Web
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="footer-directory-column">
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-resources" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-resources">
+        <h3 class="footer-directory-column-section-title">
+         Resources
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-resources'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/documentation/'); return false;">
+          Documentation
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/documentation/samplecode'); return false;">
+          Sample Code
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/learn/'); return false;">
+          Tutorials
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/download/'); return false;">
+          Downloads
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/forums/'); return false;">
+          Forums
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/videos/'); return false;">
+          Videos
+         </a>
+        </li>
+       </ul>
+      </div>
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-support" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-support">
+        <h3 class="footer-directory-column-section-title">
+         Support
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-support'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/support/articles/'); return false;">
+          Support Articles
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/contact/'); return false;">
+          Contact Us
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/bug-reporting/'); return false;">
+          Bug Reporting
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/system-status/'); return false;">
+          System Status
+         </a>
+        </li>
+       </ul>
+      </div>
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-account" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-account">
+        <h3 class="footer-directory-column-section-title">
+         Account
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-account'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/account/'); return false;">
+          Apple Developer
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('https://appstoreconnect.apple.com/'); return false;">
+          App Store Connect
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/account/ios/certificate/'); return false;">
+          Certificates, IDs, &amp; Profiles
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('https://feedbackassistant.apple.com/'); return false;">
+          Feedback Assistant
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="footer-directory-column">
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-programs" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-programs">
+        <h3 class="footer-directory-column-section-title">
+         Programs
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-programs'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/programs/'); return false;">
+          Apple Developer Program
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/programs/enterprise/'); return false;">
+          Apple Developer Enterprise Program
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/app-store/small-business-program/'); return false;">
+          App Store Small Business Program
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('https://mfi.apple.com/'); return false;">
+          MFi Program
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/programs/news-partner/'); return false;">
+          News Partner Program
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/programs/video-partner/'); return false;">
+          Video Partner Program
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/security-bounty/'); return false;">
+          Security Bounty Program
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/programs/security-research-device/'); return false;">
+          Security Research Device Program
+         </a>
+        </li>
+       </ul>
+      </div>
+      <input class="footer-directory-column-section-state" id="footer-directory-column-section-state-events" type="checkbox"/>
+      <div class="footer-directory-column-section">
+       <label class="footer-directory-column-section-label" for="footer-directory-column-section-state-events">
+        <h3 class="footer-directory-column-section-title">
+         Events
+        </h3>
+       </label>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-open" onclick="window.open('#footer-directory-column-section-state-events'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Open Menu
+        </span>
+       </a>
+       <a class="footer-directory-column-section-anchor footer-directory-column-section-anchor-close" onclick="window.open('#'); return false;">
+        <span class="footer-directory-column-section-anchor-label">
+         Close Menu
+        </span>
+       </a>
+       <ul class="footer-directory-column-section-list">
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/events/'); return false;">
+          Meet with Apple
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/events/developer-centers/'); return false;">
+          Apple Developer Centers
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/app-store/app-store-awards/'); return false;">
+          App Store Awards
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/design/awards/'); return false;">
+          Apple Design Awards
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/academies/'); return false;">
+          Apple Developer Academies
+         </a>
+        </li>
+        <li class="footer-directory-column-section-item">
+         <a class="footer-directory-column-section-link" onclick="window.open('/wwdc/'); return false;">
+          WWDC
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <!--googleon: all-->
+    </nav>
+    <section class="footer-mini" typeof="Organization" vocab="http://schema.org/">
+     <div class="footer-mini-news">
+      <div class="copy">
+       Get the
+       <a onclick="window.open('https://apps.apple.com/us/app/apple-developer/id640199958'); return false;">
+        Apple Developer app
+       </a>
+       .
+      </div>
+      <div class="content">
+       <div aria-label="Select a color scheme preference" class="color-scheme-toggle" role="radiogroup" tabindex="0">
+        <label data-color-scheme-option="light">
+         <input autocomplete="off" onchange="window.setPreferredColorScheme(event.target.value)" type="radio" value="light"/>
+         <div class="text">
+          Light
+         </div>
+        </label>
+        <label data-color-scheme-option="dark">
+         <input autocomplete="off" onchange="window.setPreferredColorScheme(event.target.value)" type="radio" value="dark"/>
+         <div class="text">
+          Dark
+         </div>
+        </label>
+        <label data-color-scheme-option="auto">
+         <input autocomplete="off" onchange="window.setPreferredColorScheme(event.target.value)" type="radio" value="auto"/>
+         <div class="text">
+          Auto
+         </div>
+        </label>
+       </div>
+       <script async="" src="local_resources\color-scheme-toggle_0d74e8bbf0089b00.js">
+       </script>
+      </div>
+     </div>
+     <link href="local_resources\language-dropdown_436a06bc8aba06b2.css" rel="stylesheet"/>
+     <div class="language-dropdown dropdown-container legacy-form hidden">
+      <select aria-label="Language Dropdown" class="dropdown">
+      </select>
+      <span aria-hidden="true" class="dropdown-icon icon icon-chevrondown">
+      </span>
+     </div>
+     <script src="local_resources\language-dropdown_9cf91ab5745e1c72.js">
+     </script>
+     <div class="footer-mini-legal">
+      <div class="footer-mini-legal-copyright">
+       Copyright ©  2025
+       <a onclick="window.open('https://www.apple.com'); return false;">
+        Apple Inc.
+       </a>
+       All rights reserved.
+      </div>
+      <div class="footer-mini-legal-links">
+       <a class="footer-mini-legal-link" onclick="window.open('https://www.apple.com/legal/internet-services/terms/site.html'); return false;">
+        Terms of Use
+       </a>
+       <a class="footer-mini-legal-link" onclick="window.open('https://www.apple.com/legal/privacy/'); return false;">
+        Privacy Policy
+       </a>
+       <a class="footer-mini-legal-link" onclick="window.open('/support/terms/'); return false;">
+        Agreements and Guidelines
+       </a>
+      </div>
+     </div>
+    </section>
+   </div>
+  </footer>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

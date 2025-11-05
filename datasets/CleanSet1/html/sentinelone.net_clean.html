@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<title>SentinelOne - Management Console</title>
+<script>
+      // Update the <base /> tag dynamically when console is served from a path and not root (ie: when iframed through shell)
+      const paths = ['/mgmt'];
+      const basePath = paths.find((path) => location.href.includes(`${location.host}${path}`)) ?? '';
+      const baseElem = document.createElement('base');
+      baseElem.href = `${basePath}/`;
+      document.querySelector('head').appendChild(baseElem);
+    </script>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=device-width, initial-scale=1, maximum-scale=5.0" name="viewport"/>
+<meta content="#7e4aac" name="theme-color"/>
+<meta content="noindex" name="robots"/>
+<link href="local_resources\favicon_fd6abfc221dfd2d0.ico" rel="icon" type="image/x-icon"/>
+<link href="local_resources\styles.d8baf4654bfb6ebf_5e0fb182f75951af.css" rel="stylesheet"/></head>
+<body>
+<mgmt-root></mgmt-root>
+<noscript>SentinelOne Management Console requires Javascript to be enabled.</noscript>
+<script src="local_resources\polyfills.afd656dac2a94db1_264e53ea34390b47.js" type="module"></script><script src="local_resources\main.949c68a774150c78_607477cc65e35246.js" type="module"></script>
+<script>
+    window.__SERVER_CONTEXT__ = {
+  "cdnBaseUrl": "https://cdn.sentinelone.net",
+  "consoleEnv": "prod",
+  "consoleHostname": "usea1-cs1.sentinelone.net",
+  "consoleId": "52091",
+  "consoleIsGov": false,
+  "consoleRegion": "us-east-1",
+  "consoleUrl": "https://usea1-cs1.sentinelone.net/",
+  "consoleVersionBuild": "S-25.3.2#36",
+  "consoleVersionRelease": "s_25_3_2",
+  "consoleVersionTag": "s_25_3_2_036",
+  "i18nEnabled": true,
+  "language": "",
+  "metricsApiKey": "a63f0a2c3d554e7bb511bfdd9bc8afe1",
+  "metricsClientId": "a63f0a2c3d554e7bb511bfdd9bc8afe1",
+  "metricsEndpoint": "https://metrics-proxy-use1.na1.sentinelone.net/metrics"
+};
+  </script></body></html>

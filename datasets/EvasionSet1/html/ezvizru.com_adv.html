@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Ezviz
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="“萤石云”是海康威视针对家庭和企业用户推出的视频服务类门户。通过“萤石云”的视频服务，您可以轻松查看您公寓、别墅、商铺、厂区、办公室等场所的实时视频、历史录像；通过“萤石云”的报警服务，您可以即时接收您所关注场所的异常信息，第一时间采取安全防护措施。无论身在何处，家和企业就在身边。" name="description"/>
+  <meta content="萤石云" name="keywords"/>
+  <meta content="no-cache" http-equiv="pragma"/>
+  <meta content="no-cache, no-store" http-equiv="Cache-Control"/>
+  <meta content="0" http-equiv="expires"/>
+  <script src="local_resources\jquery_5a7d3f20a6f45344.js" type="text/javascript">
+  </script>
+  <script src="local_resources\jquery.cookie_35546f03233e336c.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body page="0">
+  <script type="text/javascript">
+   if (!!$.cookie("DDNSCOOKIE")) {
+
+			window.location.href = './check_plugin.jsp';
+
+		} else {
+
+			//如果是微门户的站点，根据域名跳转到制定的登录页面，目前这块逻辑扩展性有问题，而且比较难维护，好在目前微门户大的运营商只有三个，后期看怎么优化一下比较好
+
+			if (window.location.host.indexOf("unicom") > -1) {
+
+				window.location.href = './auth?host=' + window.location.host
+
+						+ '&returnUrl=plugin&r=' + Math.random()
+
+						+ '&from=u990a1f63c7a498ea94e';
+
+			} else if (window.location.host.indexOf("mobile") > -1) {
+
+				window.location.href = './auth?host=' + window.location.host
+
+						+ '&returnUrl=plugin&r=' + Math.random()
+
+						+ '&from=cdaa9985044044a89545';
+
+			} else if (window.location.host.indexOf("telecom") > -1) {
+
+				window.location.href = './auth?host=' + window.location.host
+
+						+ '&returnUrl=plugin&r=' + Math.random()
+
+						+ '&from=t9a9824e005b41bba412';
+
+			} else {
+
+				window.location.href = './auth?host=' + window.location.host
+
+						+ '&returnUrl=plugin&r=' + Math.random();
+
+			}
+
+		}
+  </script>
+ </body>
+</html>

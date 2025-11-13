@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head id="Head1">
+  <title>
+   Home Page - Scorecard Research
+  </title>
+  <meta content="index,follow" name="robots"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <meta content="scorecardresearch.com" name="Author"/>
+  <meta content="Online market research community enabling members to earn cash and prizes for participating in surveys." name="Description"/>
+  <meta content="surveys, sweepstakes, earn cash, opinions, earn prizes, paid surveys, free sweepstakes, market research community, research panel" name="Keywords"/>
+  <meta content="C#" name="CODE_LANGUAGE"/>
+  <meta content="JavaScript" name="vs_defaultClientScript"/>
+  <link href="local_resources\SR_Styles_50d053ad57191f20.css" rel="stylesheet" type="text/css"/>
+  <script src="local_resources\sitecommon_28fbc22b3d1b193d.js" type="text/javascript">
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-NSNGHZX');
+  </script>
+  <!-- End Google Tag Manager -->
+  <script type="text/javascript">
+   function init()
+
+        { }
+
+
+
+        function setId() {
+
+            var bodytag = document.getElementsByTagName("body")[0];
+
+            var pagename_ext = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
+
+            var pagename = pagename_ext.split('.')[0].toLowerCase();
+
+            //alert(pagename);
+
+            if (pagename == "home")
+
+                bodytag.setAttribute("id", "home");
+
+            else if (pagename == "about")
+
+                bodytag.setAttribute("id", "about");
+
+            else if (pagename == "preferences")
+
+                bodytag.setAttribute("id", "preferences");
+
+            else if (pagename == "supportform")
+
+                bodytag.setAttribute("id", "support");
+
+            else if (pagename == "privacy")
+
+                bodytag.setAttribute("id", "privacy");
+
+            else if (pagename == "principle")
+
+                bodytag.setAttribute("id", "Principles");
+
+            else if (pagename == "termsofservice")
+
+                bodytag.setAttribute("id", "TermsOfService");
+
+        }
+
+        function changecolor(obj) {
+
+            obj.style.backgroundColor = "#868575";
+
+        }
+
+
+
+        //$(document).ready(function () {
+
+        //    $(".link-white").click(function (event) {
+
+        //        event.target.style.backgroundColor = "#868575";
+
+        //    });
+
+        //});
+  </script>
+  <script>
+   function slideDown(element, duration, height, finalTop, callback) {
+
+        var s = element.style;
+
+        s.top = '-' + height + 'px';
+
+
+
+        var y = height * -1;
+
+        var framerate = 10;
+
+        var one_second = 1000;
+
+        var interval = one_second * duration / framerate;
+
+        var totalframes = one_second * duration / interval;
+
+        var heightincrement = height / totalframes;
+
+        
+
+        var tween = function () {
+
+            y += heightincrement;
+
+            s.top = y + 'px';
+
+            if (y < finalTop) {
+
+                setTimeout(tween, interval);
+
+            }
+
+        }
+
+        tween();
+
+    }
+
+
+
+    function slideUp(element, duration, height, finalTop, callback) {
+
+        var s = element.style;
+
+        s.top = '0px';
+
+
+
+        var y = 0;
+
+        var framerate = 10;
+
+        var one_second = 1000;
+
+        var interval = one_second * duration / framerate;
+
+        var totalframes = one_second * duration / interval;
+
+        var heightincrement = (height / totalframes) * -1;
+
+
+
+        var tween = function () {
+
+            y += heightincrement;
+
+            s.top = y + 'px';
+
+            if (y < finalTop) {
+
+                setTimeout(tween, interval);
+
+            }
+
+        }
+
+        tween();
+
+    }
+
+
+
+    function closePop() {
+
+        // HIDE THE INFOR BANNER AND UPDATE COOKIE VALUE TO 99 TO NOT SHOW ON NEXT EVENT
+
+        slideUp(document.getElementById('info_banner'), 1, 120, 0);
+
+        createCookie(100);
+
+
+
+    }
+
+
+
+    function loadPopCheck() {
+
+        
+
+    }
+
+    function createCookie(value) {
+
+        var date = new Date();
+
+        date.setTime(date.getTime() + (24 * 60 * 60 * 1000));
+
+        var expires = "; expires=" + date.toGMTString();
+
+        document.cookie = "cookie_consent_js=" + value + expires + "; path=/";
+
+    }
+
+
+
+    function showed_count() {
+
+        var nameEQ = "cookie_consent_js=";
+
+        var ca = document.cookie.split(';');
+
+        for (var i = 0; i < ca.length; i++) {
+
+            var c = ca[i];
+
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+
+        }
+
+        return null;
+
+    }
+  </script>
+  <meta content="width=device-width" name="viewport"/>
+  <script src="local_resources\jquery-3.6.0.min_3a66d0e5895233dd.js" type="text/javascript">
+  </script>
+  <script src="local_resources\jquery-ui.min_66dd8cca77ffc82e.js" type="text/javascript">
+  </script>
+  <link href="local_resources\jquery-ui_2550ee7a11590a65.css" rel="stylesheet"/>
+  <script type="text/javascript">
+   $(function () {
+
+          if ('False' == 'True') {
+
+              $("#dialog").dialog({
+
+                  autoOpen: false,
+
+                  show: {
+
+                      effect: "blind",
+
+                      duration: 500
+
+                  },
+
+                  hide: {
+
+                      effect: "blind",
+
+                      duration: 500
+
+                  },
+
+                  position: {
+
+                      my: "center",
+
+                      at: "top",
+
+                  },
+
+              });
+
+
+
+              $("#dialog").dialog("option", "width", "80%");
+
+              $("#dialog").dialog("option", "height", "auto");
+
+              $("#dialog").dialog("open");
+
+          }
+
+  });
+  </script>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body class="Normal" lang="EN-US" leftmargin="0" marginheight="0" marginwidth="0" onload="setId();" topmargin="0">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-NSNGHZX" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div class="container">
+   <form action="" id="Form1" method="post">
+    <div class="aspNetHidden">
+    </div>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+     <tbody>
+      <tr>
+       <td colspan="3">
+        <div class="header">
+         <table cellpadding="0" cellspacing="0" valign="top" width="100%">
+          <tbody>
+           <tr>
+            <td align="left" style="padding-left: 148px; padding-right: 20px;" width="300px">
+             <a onclick="window.open('dèfault.aspx'); return false;">
+              <img src="local_resources\phish_ScorecardResearch_01_Small_f663a46da8cb38d0.jpg"/>
+             </a>
+            </td>
+            <td align="left" style="font-size: 11px" width="900px">
+             <div id="LanguageDiv">
+              <a class="link-white" id="Tag1" onclick="window.open('javascript:ProċessHomePage(1)'); return false;" style="background-color:#868575;">
+               English
+              </a>
+              |
+              <a class="link-white" id="Tag14" onclick="window.open('javascript:ProċessHomePage(14)'); return false;">
+               Español
+              </a>
+              |
+              <a class="link-white" id="Tag18" onclick="window.open('jāvascript:ProcessHomePage(18)'); return false;">
+               Nederlands
+              </a>
+              |
+              <a class="link-white" id="Tag23" onclick="window.open('javascript:PröcessHomePage(23)'); return false;">
+               Svenska
+              </a>
+              |
+              <a class="link-white" id="Tag5" onclick="window.open('javascript:PrócessHomePage(5)'); return false;">
+               Português do Brasil
+              </a>
+              <br/>
+              <br/>
+              <a class="link-white" id="Tag22" onclick="window.open('javascript:ProćessHomePage(22)'); return false;">
+               Norsk
+              </a>
+              |
+              <a class="link-white" id="Tag20" onclick="window.open('javascript:ProcessHomePagê(20)'); return false;">
+               中文
+              </a>
+              |
+              <a class="link-white" id="Tag9" onclick="window.open('javascript:ProcessHomėPage(9)'); return false;">
+               日本語
+              </a>
+              |
+              <a class="link-white" id="Tag7" onclick="window.open('javascript:Proc̓essHomePage(7)'); return false;">
+               Italiano
+              </a>
+              |
+              <a class="link-white" id="Tag3" onclick="window.open('javascript:Pro̍cessHomePage(3)'); return false;">
+               Deutsch
+              </a>
+              |
+              <a class="link-white" id="Tag2" onclick="window.open('javẚscript:ProcessHomePage(2)'); return false;">
+               Français
+              </a>
+              |
+              <a class="link-white" id="Tag21" onclick="window.open('javascri̎pt:ProcessHomePage(21)'); return false;">
+               Suomi
+              </a>
+              |
+             </div>
+            </td>
+           </tr>
+          </tbody>
+         </table>
+         <div class="header-content">
+          <div class="nav">
+           <div class="nav-position">
+            <div class="nav-align home">
+             <a class="home" id="HomeMenuItem" onclick="window.open('home.āspx'); return false;">
+              Home
+             </a>
+            </div>
+            <div class="nav-align about">
+             <a class="about" id="AboutMenuItem" onclick="window.open('ab̀out.aspx'); return false;">
+              About
+             </a>
+            </div>
+            <div class="nav-align preferences">
+             <a class="preferences" id="PreferencesMenuItem" onclick="window.open('prèferences.aspx'); return false;">
+              Preferences
+             </a>
+            </div>
+            <div class="nav-align contact">
+             <a class="contact" id="ContactUsMenuItem" onclick="window.open('c̓ontact.aspx'); return false;">
+              Contact Us
+             </a>
+            </div>
+            <div class="nav-align privacy">
+             <a class="privacy" id="PrivacyPolicyMenuItem" onclick="window.open('privẚcy.aspx'); return false;">
+              Privacy Policy
+             </a>
+            </div>
+            <div class="nav-align TermsOfService">
+             <a class="TermsOfService" id="TermsOfServiceMenuItem" onclick="window.open('TermsOfServi̎ce.aspx'); return false;">
+              Terms of Service
+             </a>
+            </div>
+            <div class="nav-align Principles">
+             <a class="Principles" id="PrinciplesMenuItem" onclick="window.open('Principle.äspx'); return false;">
+              Principles
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="color">
+          </div>
+         </div>
+        </div>
+       </td>
+      </tr>
+      <tr valign="top">
+       <td>
+        <div id="leftContent">
+        </div>
+       </td>
+       <td align="center">
+        <table align="center" bgcolor="white" cellpadding="0" cellspacing="0" width="745">
+         <tbody>
+          <tr>
+           <td height="200" valign="top" width="751">
+            <div id="body">
+             <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr>
+               <td align="center">
+                <span id="MainContent_LayoutPlusContentLabel">
+                 <table align="center" bgcolor="white" cellpadding="0" cellspacing="0" width="745">
+                  <tr>
+                   <td height="200" valign="top" width="751">
+                    <table align="center" border="0" cellpadding="10" cellspacing="0" valign="top" width="80%">
+                     <tr>
+                      <td valign="top">
+                       <br/>
+                       <br/>
+                       <div class="body">
+                        <div class="">
+                         <h1 class="title-home">
+                          Welcome
+                         </h1>
+                        </div>
+                        <div class="">
+                         <p>
+                          ScorecardResearch, a service of
+                          <a onclick="window.open('http://www.fullcirclëstudies.com'); return false;">
+                           Full Circle Studies, Inc.
+                          </a>
+                          , is part of the Comscore, Inc. market research community, a leading global market research effort that studies and reports on Internet trends and behavior. ScorecardResearch conducts research by collecting Internet web browsing data and then uses that data to help show how people use the Internet, what they like about it, and what they don’t.
+                          <br/>
+                          <br/>
+                          ScorecardResearch collects data through from two main sources: surveys and web tagging. For our surveys, we invite people on the Internet to provide us with anonymous demographic and Internet usage information that we can use to refine our reporting. These surveys are always voluntary, and are never used to collect personal information. For web tagging, participating websites agree to deploy a special code throughout their sites. Again, no personally identifiable information is ever transmitted by, or linked to, the web tags.
+                          <br/>
+                          <br/>
+                         </p>
+                         <div id="dialog" style="display:none;">
+                          IMPORTANT NOTICE: Full Circle Studies, Inc. has updated our privacy policy and terms of service for our online websites, panels, and applications. In our privacy policy, we have updated how we collect, use and share data with our affiliates and unaffiliated third parties, and added information such as our participation in the EU-US Privacy Shield. In our terms of service, among other changes, we have updated the governing law and arbitration provisions. Please take time to read the full privacy policy and terms of service before proceeding. By continuing to use and participate in the Full Circle Studies, Inc. websites and panels, you agree to the updated privacy policy and terms of service.
+                         </div>
+                         <br/>
+                         <p>
+                          <a onclick="window.open('Abóut.aspx'); return false;">
+                           Learn more about ScorecardResearch and our market research programs.
+                          </a>
+                         </p>
+                         <br/>
+                        </div>
+                       </div>
+                      </td>
+                     </tr>
+                    </table>
+                   </td>
+                  </tr>
+                 </table>
+                </span>
+               </td>
+              </tr>
+             </table>
+            </div>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </td>
+       <td>
+        <div id="rightContent">
+        </div>
+       </td>
+      </tr>
+      <tr>
+       <td>
+       </td>
+       <td class="footer">
+        <div class="copyright">
+         <div id="FooterLinkDiv" style="margin-top:-5px">
+          <a id="FooterLink" onclick="window.open('https://www.c̃omscore.com/About/Privacy/Data-Subject-Rights'); return false;" style="font-weight:bold" target="_blank">
+           Your Privacy Choices
+           <img src="local_resources\phish_privacyoptions_8a3b0929a56906cc.png" style="width:auto; height: 1em; vertical-align: text-top; padding-left: 3px;"/>
+          </a>
+         </div>
+         <span id="CopyRightLabel">
+          © 2025 ScorecardResearch, All Rights Reserved
+         </span>
+        </div>
+       </td>
+       <td>
+       </td>
+      </tr>
+      <!-- Begin comScore Tag -->
+      <script type="text/javascript">
+       if ('' != '') {
+
+                            document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b")
+
+                                + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+
+                        }
+      </script>
+      <script type="text/javascript">
+       function ProcessHomePage(languageid) {
+
+                            window.location = location.pathname + '?newLanguage=' + languageid;
+
+                            //var ele = document.getElementById(languageid);
+
+                            //ele.style.backgroundColor = "#868575";
+
+                            //return false;
+
+                        }
+      </script>
+      <script type="text/javascript">
+       if ('' != '') {
+
+                            COMSCORE.beacon({
+
+                                c1: 2,
+
+                                c2: "1000001",
+
+                                c3: "",
+
+                                c4: "",
+
+                                c5: "Market Research",
+
+                                c6: "",
+
+                                c15: ""
+
+                            });
+
+                        }
+      </script>
+      <noscript>
+       <img alt="" height="0" src="local_resources\b_79d5935e17dbd1ad" style="display:none" width="0"/>
+      </noscript>
+      <!-- End comScore Tag -->
+     </tbody>
+    </table>
+    <div class="aspNetHidden">
+    </div>
+    <script type="text/javascript">
+     document.getElementById('FooterLink').style.display = 'none';
+    </script>
+   </form>
+  </div>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+ <script type="text/javascript">
+  loadPopCheck();
+
+
+
+    function removeURLParameter(url, parameter) {
+
+        //prefer to use l.search if you have a location/link object
+
+        var urlparts = url.split('?');
+
+        if (urlparts.length >= 2) {
+
+
+
+            var prefix = encodeURIComponent(parameter) + '=';
+
+            var pars = urlparts[1].split(/[&;]/g);
+
+
+
+            //reverse iteration as may be destructive
+
+            for (var i = pars.length; i-- > 0;) {
+
+                //idiom for string.startsWith
+
+                if (pars[i].lastIndexOf(prefix, 0) !== -1) {
+
+                    pars.splice(i, 1);
+
+                }
+
+            }
+
+
+
+            url = urlparts[0] + '?' + pars.join('&');
+
+            return url;
+
+        } else {
+
+            return url;
+
+        }
+
+    }
+
+
+
+
+
+    var querystring = "newlanguage=" + "1";
+
+
+
+	var links = document.getElementsByTagName('a');
+
+
+
+	for (var l in links) {
+
+	    var currentHref = links[l].href;
+
+
+
+	    if (currentHref !== undefined && currentHref.indexOf('javascript') == -1 && currentHref.toLowerCase().indexOf('scorecardresearch') > -1 && currentHref.indexOf('#') == -1) {
+
+	        currentHref = removeURLParameter(currentHref, 'newlanguage');
+
+	        var newHref = currentHref + (currentHref.match(/\?/) ? '&' : '?') + querystring; //+ "#section1";
+
+
+
+	        links[l].href = newHref;
+
+	    }
+
+	}
+ </script>
+</html>

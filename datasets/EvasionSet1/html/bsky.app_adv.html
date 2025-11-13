@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover" name="viewport"/>
+  <meta content="origin-when-cross-origin" name="referrer"/>
+  <!--
+    Preconnect to essential domains
+  -->
+  <link href="local_resources\res_68f779e2510f8043" rel="preconnect"/>
+  <link href="local_resources\res_c0e840c9ddccbb40" rel="preconnect"/>
+  <title>
+   Bluesky
+  </title>
+  <!-- Hello Humans! API docs at https://atproto.com -->
+  <link as="font" crossorigin="" href="local_resources\InterVariable.c504db5c06caaf7cdfba_f9b7bdef25f2d588.woff2" rel="preload" type="font/woff2"/>
+  <style>
+   /**
+     * Minimum styles required to render splash.
+     *
+     * ALL OTHER STYLES BELONG IN `src/style.css`
+     *
+     * THIS NEEDS TO BE DUPLICATED IN `bskyweb/templates/base.html`
+     */
+    @font-face {
+      font-family: 'InterVariable';
+      src: url("https://web-cdn.bsky.app/static/media/InterVariable.c504db5c06caaf7cdfba.woff2") format('woff2');
+      font-weight: 300 1000;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'InterVariableItalic';
+      src: url("https://web-cdn.bsky.app/static/media/InterVariable-Italic.01dcbad1bac635f9c9cd.woff2") format('woff2');
+      font-weight: 300 1000;
+      font-style: italic;
+      font-display: swap;
+    }
+    html {
+      background-color: white;
+    }
+    @media (prefers-color-scheme: dark) {
+      html {
+        background-color: black;
+      }
+    }
+    html,
+    body {
+      margin: 0px;
+      padding: 0px;
+      font-family: InterVariable, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Liberation Sans', Helvetica, Arial, sans-serif;
+      text-rendering: optimizeLegibility;
+      /* Platform-specific reset */
+      -webkit-overflow-scrolling: touch;
+      -webkit-text-size-adjust: 100%;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -ms-overflow-style: scrollbar;
+      font-synthesis-weight: none;
+    }
+    html,
+    body,
+    #root {
+      display: flex;
+      flex: 1 0 auto;
+      min-height: 100%;
+      width: 100%;
+    }
+    #splash {
+      position: fixed;
+      width: 100px;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%) translateY(-50px);
+    }
+    /**
+     * We need these styles to prevent shifting due to scrollbar show/hide on
+     * OSs that have them enabled by default. This also handles cases where the
+     * screen wouldn't otherwise scroll, and therefore hide the scrollbar and
+     * shift the content, by forcing the page to show a scrollbar.
+     */
+    body {
+      width: 100%;
+      overflow-y: scroll;
+    }
+  </style>
+  <script defer="defer" src="local_resources\479.96f1fda1_e27ec95ec4f7a195.js">
+  </script>
+  <link href="local_resources\main.0821fd62_3fd4325cde4c65b1.css" rel="stylesheet"/>
+  <script defer="defer" src="local_resources\main.c061b09e_46ebeea71695fc69.js">
+  </script>
+  <link href="local_resources\apple-touch-icon_cc10bc8bfb3cb8aa.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="local_resources\favicon-32x32_7f32725bad12bc42.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="local_resources\favicon-16x16_f5cb732e1eaa12c4.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link color="#1185fe" href="local_resources\safari-pinned-tab_897a0c1b86f0aefe.svg" rel="mask-icon"/>
+  <meta name="theme-color"/>
+  <meta content="Bluesky" name="application-name"/>
+  <meta content="bskyweb" name="generator"/>
+  <meta content="Bluesky Social" property="og:site_name"/>
+  <meta content="https://web-cdn.bsky.app/static/favicon.png" property="og:logo"/>
+  <meta content="@bluesky" name="twitter:site"/>
+  <link href="" type="application/activity+json"/>
+  <meta content="Bluesky" property="og:title"/>
+  <meta content="Bluesky" name="twitter:title"/>
+  <meta content="Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again." name="description"/>
+  <meta content="Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again." name="og:description"/>
+  <meta content="Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again." name="twitter:description"/>
+  <meta content="https://bsky.app" property="og:url"/>
+  <meta content="https://bsky.app" name="twitter:url"/>
+  <link href="local_resources\res_435044d617ddf8e9" rel="canonical"/>
+  <meta content="https://bsky.app/static/social-card-default-gradient.png" property="og:image"/>
+  <meta content="https://bsky.app/static/social-card-default-gradient.png" property="twitter:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <div id="root">
+   <div id="splash">
+    <!-- Bluesky SVG -->
+    <svg viewbox="0 0 360 320" xmlns="http://www.w3.org/2000/svg">
+     <path d="M180 142c-16.3-31.7-60.7-90.8-102-120C38.5-5.9 23.4-1 13.5 3.4 2.1 8.6 0 26.2 0 36.5c0 10.4 5.7 84.8 9.4 97.2 12.2 41 55.7 55 95.7 50.5-58.7 8.6-110.8 30-42.4 106.1 75.1 77.9 103-16.7 117.3-64.6 14.3 48 30.8 139 116 64.6 64-64.6 17.6-97.5-41.1-106.1 40 4.4 83.5-9.5 95.7-50.5 3.7-12.4 9.4-86.8 9.4-97.2 0-10.3-2-27.9-13.5-33C336.5-1 321.5-6 282 22c-41.3 29.2-85.7 88.3-102 120Z" fill="#0085ff">
+     </path>
+    </svg>
+   </div>
+  </div>
+  <noscript>
+   <h1 lang="en">
+    JavaScript Required
+   </h1>
+   <p lang="en">
+    This is a heavily interactive web application, and JavaScript is required. Simple HTML interfaces are possible, but that is not what this is.
+   </p>
+   <p lang="en">
+    Learn more about Bluesky at
+    <a onclick="window.open('https://bsky.social'); return false;">
+     bsky.social
+    </a>
+    and
+    <a onclick="window.open('https://atproto.com'); return false;">
+     atproto.com
+    </a>
+    .
+   </p>
+   <p>
+    This is the home page.
+   </p>
+  </noscript>
+ </body>
+</html>

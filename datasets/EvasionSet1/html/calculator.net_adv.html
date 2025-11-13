@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science
+  </title>
+  <meta content="Online calculator for quick calculations, along with a large collection of calculators on math, finance, fitness, and more, each with in-depth information." name="description"/>
+  <link href="local_resources\style_c866067b2840e898.css" rel="stylesheet"/>
+  <script async="" src="local_resources\common_7c274e95ef8d5401.js">
+  </script>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="local_resources\apple-touch-icon_3f73e6f298288b31.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="local_resources\icon-32x32_e79c97151e651729.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="local_resources\icon-16x16_7575df00ca5ae73c.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="local_resources\manifest_42d592241f88bb71.json" rel="manifest"/>
+  <link href="local_resources\sci_410687b475d8ce35.css" rel="stylesheet"/>
+  <script async="" src="local_resources\scientific3_218f0e8c78bbd7b7.js">
+  </script>
+  <meta content="04Uv2RwlTLFxQszjq7hb0XQxTEZsl2lLmI5e1-TbcbA" name="google-site-verification"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <div id="headerout">
+   <div id="header">
+    <div id="logo">
+     <a onclick="window.open('/'); return false;">
+      <img alt="Calculator.net" height="22" src="local_resources\phish_calculator-white_855f1bff654afc77.svg" width="208"/>
+     </a>
+    </div>
+    <div id="login">
+     <a onclick="window.open('/my-account/sign-in.php'); return false;">
+      sign in
+     </a>
+    </div>
+   </div>
+  </div>
+  <div id="clear">
+  </div>
+  <div id="homecaldiv">
+   <style>
+    #sciout{padding:5px;border-top:1px solid #fff;border-left:1px solid #fff;border-right:1px outset #fff;border-bottom:1px outset #fff;background: #fff;}
+
+@media (max-width:720px){#homefunbtn{display:none;}}
+
+@media (max-width:650px){#homesch{display:none;}}
+   </style>
+   <div id="contentout">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+     <tr>
+      <td>
+       <table align="center" cellpadding="0" cellspacing="2" id="sciout">
+        <tr>
+         <td colspan="2">
+          <div>
+           <div id="sciInPut">
+           </div>
+           <div id="sciOutPut">
+            0
+           </div>
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <div id="homefunbtn" style="padding-top:3px;width:100%;">
+           <div>
+            <span class="scifunc" onclick="r('sin')">
+             sin
+            </span>
+            <span class="scifunc" onclick="r('cos')">
+             cos
+            </span>
+            <span class="scifunc" onclick="r('tan')">
+             tan
+            </span>
+            <span class="scird">
+             <label for="scirdsettingd">
+              <input checked="" id="scirdsettingd" name="scirdsetting" onclick="cnDegreeRadians='degree';" type="radio" value="deg"/>
+              Deg
+             </label>
+             <label for="scirdsettingr">
+              <input id="scirdsettingr" name="scirdsetting" onclick="cnDegreeRadians='radians';" type="radio" value="rad"/>
+              Rad
+             </label>
+            </span>
+           </div>
+           <div>
+            <span class="scifunc" onclick="r('asin')">
+             sin
+             <sup>
+              -1
+             </sup>
+            </span>
+            <span class="scifunc" onclick="r('acos')">
+             cos
+             <sup>
+              -1
+             </sup>
+            </span>
+            <span class="scifunc" onclick="r('atan')">
+             tan
+             <sup>
+              -1
+             </sup>
+            </span>
+            <span class="scifunc" onclick="r('pi')">
+             π
+            </span>
+            <span class="scifunc" onclick="r('e')">
+             e
+            </span>
+           </div>
+           <div>
+            <span class="scifunc" onclick="r('pow')">
+             x
+             <sup>
+              y
+             </sup>
+            </span>
+            <span class="scifunc" onclick="r('x3')">
+             x
+             <sup>
+              3
+             </sup>
+            </span>
+            <span class="scifunc" onclick="r('x2')">
+             x
+             <sup>
+              2
+             </sup>
+            </span>
+            <span class="scifunc" onclick="r('ex')">
+             e
+             <sup>
+              x
+             </sup>
+            </span>
+            <span class="scifunc" onclick="r('10x')">
+             10
+             <sup>
+              x
+             </sup>
+            </span>
+           </div>
+           <div>
+            <span class="scifunc" onclick="r('apow')">
+             <sup>
+              y
+             </sup>
+             √x
+            </span>
+            <span class="scifunc" onclick="r('3x')">
+             <sup>
+              3
+             </sup>
+             √x
+            </span>
+            <span class="scifunc" onclick="r('sqrt')">
+             √x
+            </span>
+            <span class="scifunc" onclick="r('ln')">
+             ln
+            </span>
+            <span class="scifunc" onclick="r('log')">
+             log
+            </span>
+           </div>
+           <div>
+            <span class="scifunc" onclick="r('(')">
+             (
+            </span>
+            <span class="scifunc" onclick="r(')')">
+             )
+            </span>
+            <span class="scifunc" onclick="r('1/x')">
+             1/x
+            </span>
+            <span class="scifunc" onclick="r('pc')">
+             %
+            </span>
+            <span class="scifunc" onclick="r('n!')">
+             n!
+            </span>
+           </div>
+          </div>
+         </td>
+         <td>
+          <div style="padding-top:3px;">
+           <div>
+            <span class="scinm" onclick="r(7)">
+             7
+            </span>
+            <span class="scinm" onclick="r(8)">
+             8
+            </span>
+            <span class="scinm" onclick="r(9)">
+             9
+            </span>
+            <span class="sciop" onclick="r('+')">
+             +
+            </span>
+            <span class="sciop" onclick="r('bk')">
+             Back
+            </span>
+           </div>
+           <div>
+            <span class="scinm" onclick="r(4)">
+             4
+            </span>
+            <span class="scinm" onclick="r(5)">
+             5
+            </span>
+            <span class="scinm" onclick="r(6)">
+             6
+            </span>
+            <span class="sciop" onclick="r('-')">
+             –
+            </span>
+            <span class="sciop" onclick="r('ans')">
+             Ans
+            </span>
+           </div>
+           <div>
+            <span class="scinm" onclick="r(1)">
+             1
+            </span>
+            <span class="scinm" onclick="r(2)">
+             2
+            </span>
+            <span class="scinm" onclick="r(3)">
+             3
+            </span>
+            <span class="sciop" onclick="r('*')">
+             ×
+            </span>
+            <span class="sciop" onclick="r('M+')">
+             M+
+            </span>
+           </div>
+           <div>
+            <span class="scinm" onclick="r(0)">
+             0
+            </span>
+            <span class="scinm" onclick="r('.')">
+             .
+            </span>
+            <span class="sciop" onclick="r('EXP')">
+             EXP
+            </span>
+            <span class="sciop" onclick="r('/')">
+             /
+            </span>
+            <span class="sciop" onclick="r('M-')">
+             M-
+            </span>
+           </div>
+           <div>
+            <span class="sciop" onclick="r('+/-')">
+             ±
+            </span>
+            <span class="sciop" onclick="r('RND')">
+             RND
+            </span>
+            <span class="scieq" onclick="r('C')">
+             AC
+            </span>
+            <span class="scieq" onclick="r('=')">
+             =
+            </span>
+            <span class="sciop" id="scimrc" onclick="r('MR')">
+             MR
+            </span>
+           </div>
+          </div>
+         </td>
+        </tr>
+        <tr>
+         <td colspan="2">
+          <div id="scihistory">
+          </div>
+         </td>
+        </tr>
+       </table>
+      </td>
+      <td id="homesch" valign="top">
+       <h1>
+        Free Online Calculators
+       </h1>
+       <style>
+        #calcSearchOut div{padding: 0px;}
+       </style>
+       <form action="" autocomplete="off" name="calcSearchForm" onsubmit="calcSearch(); return false;">
+        <table>
+         <tr>
+          <td>
+           <input class="inlongest" id="calcSearchTerm" name="calcSearchTerm" onfocus="document.onkeydown=null;" onkeyup="return calcSearch();" type="text"/>
+          </td>
+          <td>
+           <span id="bluebtn" onclick="return calcSearch();">
+            Search
+           </span>
+          </td>
+         </tr>
+         <tr>
+          <td colspan="2">
+           <div id="calcSearchOut">
+           </div>
+          </td>
+         </tr>
+        </table>
+       </form>
+      </td>
+     </tr>
+    </table>
+   </div>
+  </div>
+  <div id="homelistdiv">
+   <div id="contentout">
+    <div id="homelistwrap">
+     <div class="homelisttile">
+      <div class="hicon">
+       <a onclick="window.open('/financial-calculator.html'); return false;">
+        <img alt="Financial Calculators" height="135" src="local_resources\phish_financial-calculator_d49bdb7523a5feab.jpg" width="135"/>
+       </a>
+      </div>
+      <div class="hh">
+       <a onclick="window.open('/financial-calculator.html'); return false;">
+        Financial Calculators
+       </a>
+      </div>
+      <ul class="hl" id="hl1">
+       <li>
+        <a onclick="window.open('/mortgage-calculator.html'); return false;">
+         Mortgage Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/loan-calculator.html'); return false;">
+         Loan Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/auto-loan-calculator.html'); return false;">
+         Auto Loan Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/interest-calculator.html'); return false;">
+         Interest Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/payment-calculator.html'); return false;">
+         Payment Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/retirement-calculator.html'); return false;">
+         Retirement Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/amortization-calculator.html'); return false;">
+         Amortization Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/investment-calculator.html'); return false;">
+         Investment Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/inflation-calculator.html'); return false;">
+         Inflation Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/finance-calculator.html'); return false;">
+         Finance Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/tax-calculator.html'); return false;">
+         Income Tax Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/compound-interest-calculator.html'); return false;">
+         Compound Interest Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/salary-calculator.html'); return false;">
+         Salary Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/interest-rate-calculator.html'); return false;">
+         Interest Rate Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/sales-tax-calculator.html'); return false;">
+         Sales Tax Calculator
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="homelisttile">
+      <div class="hicon">
+       <a onclick="window.open('/fitness-and-health-calculator.html'); return false;">
+        <img alt="Fitness &amp; Health Calculators" height="135" src="local_resources\phish_fitness-calculator_e2f67cbae6f9d5d7.jpg" width="135"/>
+       </a>
+      </div>
+      <div class="hh">
+       <a onclick="window.open('/fitness-and-health-calculator.html'); return false;">
+        Fitness &amp; Health Calculators
+       </a>
+      </div>
+      <ul class="hl" id="hl2">
+       <li>
+        <a onclick="window.open('/bmi-calculator.html'); return false;">
+         BMI Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/calorie-calculator.html'); return false;">
+         Calorie Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/body-fat-calculator.html'); return false;">
+         Body Fat Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/bmr-calculator.html'); return false;">
+         BMR Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/ideal-weight-calculator.html'); return false;">
+         Ideal Weight Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/pace-calculator.html'); return false;">
+         Pace Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/pregnancy-calculator.html'); return false;">
+         Pregnancy Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/pregnancy-conception-calculator.html'); return false;">
+         Pregnancy Conception Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/due-date-calculator.html'); return false;">
+         Due Date Calculator
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="homelisttile">
+      <div class="hicon">
+       <a onclick="window.open('/math-calculator.html'); return false;">
+        <img alt="Math Calculators" height="135" src="local_resources\phish_math-calculator_8742b384d1706ab9.jpg" width="135"/>
+       </a>
+      </div>
+      <div class="hh">
+       <a onclick="window.open('/math-calculator.html'); return false;">
+        Math Calculators
+       </a>
+      </div>
+      <ul class="hl" id="hl3">
+       <li>
+        <a onclick="window.open('/scientific-calculator.html'); return false;">
+         Scientific Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/fraction-calculator.html'); return false;">
+         Fraction Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/percent-calculator.html'); return false;">
+         Percentage Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/random-number-generator.html'); return false;">
+         Random Number Generator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/triangle-calculator.html'); return false;">
+         Triangle Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/standard-deviation-calculator.html'); return false;">
+         Standard Deviation Calculator
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="homelisttile">
+      <div class="hicon">
+       <a onclick="window.open('/other-calculator.html'); return false;">
+        <img alt="Other Calculators" height="135" src="local_resources\phish_other-calculator_56daba3624665393.jpg" width="135"/>
+       </a>
+      </div>
+      <div class="hh">
+       <a onclick="window.open('/other-calculator.html'); return false;">
+        Other Calculators
+       </a>
+      </div>
+      <ul class="hl" id="hl5">
+       <li>
+        <a onclick="window.open('/age-calculator.html'); return false;">
+         Age Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/date-calculator.html'); return false;">
+         Date Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/time-calculator.html'); return false;">
+         Time Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/hours-calculator.html'); return false;">
+         Hours Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/gpa-calculator.html'); return false;">
+         GPA Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/grade-calculator.html'); return false;">
+         Grade Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/concrete-calculator.html'); return false;">
+         Concrete Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/ip-subnet-calculator.html'); return false;">
+         Subnet Calculator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/password-generator.html'); return false;">
+         Password Generator
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('/conversion-calculator.html'); return false;">
+         Conversion Calculator
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div style="text-align:center;padding-top:30px;">
+     <a onclick="window.open('/sitemap.html'); return false;">
+      <img alt="All Calculators" height="45" src="local_resources\phish_all-calculators_4ff9732ad9052aee.svg" width="248"/>
+     </a>
+    </div>
+    <br/>
+   </div>
+  </div>
+  <div id="footer">
+   <div id="footerin">
+    Calculator.net's sole focus is to provide fast, comprehensive, convenient, free online calculators in a plethora of areas. Currently, we have around 200 calculators to help you "do the math" quickly in areas such as finance, fitness, health, math, and others, and we are still developing more. Our goal is to become the one-stop, go-to site for people who need to make quick calculations. Additionally, we believe the internet should be a source of free information. Therefore, all of our tools and services are completely free, with no registration required.
+    <br/>
+    <br/>
+    We coded and developed each calculator individually and put each one through strict, comprehensive testing. However, please inform us if you notice even the slightest error – your input is extremely valuable to us. While most calculators on Calculator.net are designed to be universally applicable for worldwide usage, some are for specific countries only. For example, the
+    <i>
+     Income Tax Calculator
+    </i>
+    is for United States residents only.
+    <br/>
+    <br/>
+    <div id="footernav">
+     <a onclick="window.open('/about-us.html'); return false;">
+      about us
+     </a>
+     |
+     <a onclick="window.open('/sitemap.html'); return false;">
+      sitemap
+     </a>
+     |
+     <a onclick="window.open('/about-us.html#terms'); return false;">
+      terms of use
+     </a>
+     |
+     <a onclick="window.open('/about-us.html#privacy'); return false;">
+      privacy policy
+     </a>
+     © 2008 - 2025
+     <a onclick="window.open('//www.calculator.net'); return false;">
+      calculator.net
+     </a>
+    </div>
+   </div>
+  </div>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>.com.se</title>
+<link href="local_resources\bootstrap.min_77b0d0b00525c7e5.css" rel="stylesheet"/>
+<link href="local_resources\all.min_f243c854395a0f2d.css" rel="stylesheet"/>
+<link href="local_resources\style_651dd3be60bb12e8.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="app" v-cloak="">
+<navigationmenu></navigationmenu>
+<div class="h-50 hero d-flex align-items-center">
+<div class="container">
+<h2 class="fw-bold text-default text-center">HITTA DOMÄNEN DU ALLTID VELAT REGISTRERA!</h2>
+<div class="input-group mb-3 border searchbox rounded">
+<input class="form-control form-control-lg border-0 pe-0 fw-normal rounded-0 rounded-start" style="text-align: right" type="text" v-model="searchstring" v-on:keyup.enter="dosearch"/>
+<span class="input-group-text bg-white border-0 ps-0 rounded-0 fw-normal text-muted" style="font-size: 1.25rem !important;">.com.se</span>
+<button class="btn btn-lg btn-searchbox rounded-0 rounded-end border-0" type="button" v-on:click="dosearch">
+<i class="fas fa-search"></i>
+</button>
+</div>
+<div class="position-relative w-100">
+<div class="bg-white p-2 shadown rounded" style="position: absolute; top: 0; left: 0; right: 0;" v-if="status != null">
+<div class="row" v-if="status == 'error'">
+<div class="col d-flex align-items-center">
+<p class="mb-0"><i class="fa-solid fa-triangle-exclamation"></i> Ett fel uppstod. Försök igen om en liten stund.</p>
+</div>
+</div>
+<div class="row" v-if="status == 'available'">
+<div class="col d-flex align-items-center">
+<p class="mb-0"><i class="fa-solid fa-check"></i> <span class="fw-bold">{{domain}}</span> är ledig.</p>
+</div>
+<div class="col d-flex align-items-center justify-content-end">
+<a class="btn btn-default" href="https://centralnicregistry.com/support/information/registrars">Välj en registrar</a>
+</div>
+</div>
+<div class="row" v-if="status == 'unavailable'">
+<div class="col d-flex align-items-center">
+<p class="mb-0"><i class="fa-solid fa-times"></i> <span class="fw-bold">{{domain}}</span> är upptagen.</p>
+</div>
+<div class="col d-flex align-items-center justify-content-end">
+<button class="btn btn-light" data-bs-target="#whoisModal" data-bs-toggle="modal" type="button"><i class="fa-solid fa-eye"></i> WHOIS</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container mt-3 mb-5">
+<div class="row row-cols-1 row-cols-sm-3 mb-5">
+<div class="col d-flex flex-column align-items-center">
+<img class="w-50" src="local_resources\image1_c5951e03885a9ad3.png"/>
+<h5 class="main-title text-center mb-3 text-uppercase">Registrarer</h5>
+<p class="text-center">På den här sidan hittar ni en lista med aktuella ackrediterade registrarer.</p>
+</div>
+<div class="col d-flex flex-column align-items-center">
+<img class="w-50" src="local_resources\image2_5f957707c63e5c8c.png"/>
+<h5 class="main-title text-center mb-3">KORTA FAKTA OM COM.SE</h5>
+<p class="text-center">
+                    Teknisk information samt en guide till hur ni ansöker om att bli ackrediterad registrar.
+                </p>
+</div>
+<div class="col d-flex flex-column align-items-center">
+<img class="w-50" src="local_resources\image3_aaea86ec15e3c454.png"/>
+<h5 class="main-title text-center mb-3 text-uppercase">
+                    KONTAKTA OSS
+                </h5>
+<p class="text-center">
+                    Frågor? Vill ni ha hjälp – eller bara ge oss lite feedback? Välkommen att kontakta oss idag.
+                </p>
+</div>
+</div>
+</div>
+<footercomponent></footercomponent>
+<!-- Modal -->
+<div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="whoisModal" tabindex="-1">
+<div class="modal-dialog modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">WHOIS - {{domain}}</h5>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<template v-for="val in whoisdata">
+<p class="small mb-0" v-html="val"></p>
+</template>
+</div>
+<div class="modal-footer">
+<button class="btn btn-default" data-bs-dismiss="modal" type="button">Stäng</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="local_resources\popper.min_43694804101983bf.js"></script>
+<script src="local_resources\bootstrap.min_d0d7137c9c749886.js"></script>
+<script type="module">
+    import { createApp } from './js/vue.esm-browser.prod.js'
+    import footercomponent from './components/footer.js'
+    import navigationmenu from './components/navigationmenu.js'
+    createApp({
+        components: {
+            footercomponent,
+            navigationmenu
+        },
+        data() {
+            return {
+                domain: '',
+                whoisdata: [],
+                status: null,
+                searchstring: '',
+            }
+        },
+        methods: {
+            async dosearch() {
+                try {
+                    var whoisdata = [];
+                    this.status = null;
+                    var domain = this.searchstring;
+                    if (domain.length > 2) {
+                        if (domain.includes(".") && domain.endsWith(".com.se") == false) {
+                            return false;
+                        }
+                        if (domain.endsWith(".com.se") == false) {
+                            domain = `${domain}.com.se`
+                        }
+                        this.domain = domain;
+                        var url = `https://rdap.centralnic.com/com.se/domain/${domain}`
+                        var whois_request = await fetch(url)
+                        if (whois_request.ok) {
+                            whois_request = await whois_request.json()
+                            if (typeof whois_request.notices != "undefined") {
+                                for (var notice of whois_request.notices) {
+                                    for (var description of notice.description) {
+                                        whoisdata.push(description)
+                                    }
+                                }
+                                whoisdata.push("<br>")
+                            }
+                            if (typeof whois_request.ldhName != "undefined") {
+                                whoisdata.push(`domain: ${whois_request.ldhName}`)
+                            }
+                            if (typeof whois_request.entities != "undefined") {
+                                for (var entity of whois_request.entities) {
+                                    var role = entity.roles.pop()
+                                    if (role == "registrar" && typeof entity.vcardArray != "undefined") {
+                                        var length_one = entity.vcardArray.length
+                                        var length_two = entity.vcardArray[length_one - 1].length;
+                                        var length_three = entity.vcardArray[length_one - 1][length_two - 1].length;
+                                        var title = entity.vcardArray[length_one - 1][length_two - 1][length_three - 1]
+                                        whoisdata.push(`${role}: ${title}`)
+                                    }
+                                    else {
+                                        if (typeof entity.remarks['1'] != "undefined" && entity.remarks['1'].title.startsWith("REDACTED")) {
+                                            whoisdata.push(`${role}: ${entity.remarks['1'].title}`)
+                                        }
+                                    }
+                                }
+                            }
+                            if (typeof whois_request.events != "undefined") {
+                                for (var event of whois_request.events) {
+                                    whoisdata.push(`${event.eventAction}: ${event.eventDate}`)
+                                }
+                            }
+                            if (typeof whois_request.nameservers != "undefined") {
+                                for (var item of whois_request.nameservers) {
+                                    whoisdata.push(`${item.objectClassName}: ${item.ldhName}`)
+                                }
+                            }
+                            if (typeof whois_request.secureDNS.delegationSigned != "undefined") {
+                                if (whois_request.secureDNS.delegationSigned == false) {
+                                    whoisdata.push(`dnssec: unsigned delegation`)
+                                }
+                                else {
+                                    whoisdata.push(`dnssec: ${whois_request.secureDNS.delegationSigned}`)
+                                }
+                            }
+                            if (typeof whois_request.status != "undefined") {
+                                whoisdata.push("status: " + whois_request.status.join(", "))
+                            }
+                            this.whoisdata = whoisdata;
+                            this.status = "unavailable";
+                        }
+                        else {
+                            this.status = "available";
+                        }
+                    }
+                }
+                catch (e) {
+
+                }
+            }
+        },
+        async mounted() {
+            var redirected = sessionStorage.getItem("redirected")
+            if (redirected == null) {
+                var lang = Intl.DateTimeFormat().resolvedOptions().locale;
+                if (lang) {
+                    lang = lang.toUpperCase();
+                }
+                else {
+                    lang = "EN";
+                }
+                sessionStorage.setItem("redirected", true);
+                var res = await fetch("/api?action=getcountry")
+                if (res.ok) {
+                    res = await res.json();
+                    if (res.country != "SE" && lang != "SV") {
+                        window.location.href = '/en'
+                    }
+                }
+            }
+        }
+    }).mount('#app')
+</script>
+</body>
+</html>

@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <title>
+   jQuery
+  </title>
+  <meta content="OpenJS Foundation - openjsf.org" name="author"/>
+  <meta content="jQuery: The Write Less, Do More, JavaScript Library" name="description"/>
+  <meta content="width=device-width" name="viewport"/>
+  <link href="local_resources\favicon_29d0ce919102e077.ico" rel="shortcut icon"/>
+  <link href="local_resources\typesense-minibar_8ee01c9f377f3bac.css" rel="stylesheet"/>
+  <link href="local_resources\base_0d4b03364581161c.css" rel="stylesheet"/>
+  <link href="local_resources\style_b7381aceccf77e55.css" rel="stylesheet"/>
+  <script src="local_resources\jquery-3.7.1.min_7ddc2ef1a4b22d29.js">
+  </script>
+  <script src="local_resources\main_4effc0194f557208.js">
+  </script>
+  <script defer="" src="local_resources\typesense-minibar_f51acfc4777c6d24.js" type="module">
+  </script>
+  <meta content="max-image-preview:large" name="robots"/>
+  <link href="local_resources\res_cf37ee38891e75ba" rel="https://api.w.org/"/>
+  <link href="local_resources\8_edaf388a32ad78d5" rel="alternate" title="JSON" type="application/json"/>
+  <meta content="WordPress 6.8.3" name="generator"/>
+  <link href="local_resources\res_8827f24e9a6dc61a" rel="canonical"/>
+  <link href="local_resources\embed_2c138b55e4981c47" rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"/>
+  <link href="local_resources\embed_e91835a04bba08ab" rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"/>
+  <link href="local_resources\@jquery_101edf7402f9a8d4" rel="me"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body class="jquery home wp-singular page-template page-template-page-fullwidth page-template-page-fullwidth-php page page-id-8 wp-theme-jquery wp-child-theme-jquerycom page-slug-index single-author singular">
+  <div id="banner">
+   jQuery 4.0 is coming soon! Prepare by
+   <a onclick="window.open('https://jquery.com/download/'); return false;">
+    upgrading
+   </a>
+   to the latest jQuery 3.x release. Learn more about our
+   <a onclick="window.open('https://jquery.com/support/'); return false;">
+    version support
+   </a>
+   .
+  </div>
+  <header>
+   <section id="global-nav">
+    <nav>
+     <div class="constrain">
+      <ul class="projects">
+       <li class="project jquery">
+        <a onclick="window.open('https://jquery.com/'); return false;" title="jQuery">
+         jQuery
+        </a>
+       </li>
+       <li class="project jquery-ui">
+        <a onclick="window.open('https://jqueryui.com/'); return false;" title="jQuery UI">
+         jQuery UI
+        </a>
+       </li>
+       <li class="project jquery-mobile">
+        <a onclick="window.open('https://jquerymobile.com/'); return false;" title="jQuery Mobile">
+         jQuery Mobile
+        </a>
+       </li>
+       <li class="project sizzlejs">
+        <a onclick="window.open('https://sizzlejs.com/'); return false;" title="Sizzle">
+         Sizzle
+        </a>
+       </li>
+       <li class="project qunitjs">
+        <a onclick="window.open('https://qunitjs.com/'); return false;" title="QUnit">
+         QUnit
+        </a>
+       </li>
+      </ul>
+      <ul class="links">
+       <li>
+        <a onclick="window.open('https://plugins.jquery.com/'); return false;">
+         Plugins
+        </a>
+       </li>
+       <li class="dropdown">
+        <a onclick="window.open('https://contribute.jquery.org/'); return false;">
+         Contribute
+        </a>
+        <ul>
+         <li>
+          <a onclick="window.open('https://cla.openjsf.org/'); return false;">
+           CLA
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://contribute.jquery.org/style-guide/'); return false;">
+           Style Guides
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://contribute.jquery.org/triage/'); return false;">
+           Bug Triage
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://contribute.jquery.org/code/'); return false;">
+           Code
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://contribute.jquery.org/documentation/'); return false;">
+           Documentation
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://contribute.jquery.org/web-sites/'); return false;">
+           Web Sites
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="dropdown">
+        <a onclick="window.open('https://events.jquery.org/'); return false;">
+         Events
+        </a>
+        <ul class="wide">
+        </ul>
+       </li>
+       <li class="dropdown">
+        <a onclick="window.open('https://jquery.com/support/'); return false;">
+         Support
+        </a>
+        <ul>
+         <li>
+          <a onclick="window.open('https://learn.jquery.com/'); return false;">
+           Learning Center
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://jquery.com/support/'); return false;">
+           Chat
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://stackoverflow.com/tags/jquery/info'); return false;">
+           Stack Overflow
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://contribute.jquery.org/bug-reports/'); return false;">
+           Report a bug
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="dropdown">
+        <a onclick="window.open('https://openjsf.org/'); return false;">
+         OpenJS Foundation
+        </a>
+        <ul>
+         <li>
+          <a onclick="window.open('https://openjsf.org/join'); return false;">
+           Join
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://openjsf.org/members'); return false;">
+           Members
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://jquery.com/team'); return false;">
+           jQuery Team
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://openjsf.org/governance'); return false;">
+           Governance
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://code-of-conduct.openjsf.org/'); return false;">
+           Conduct
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://openjsf.org/projects'); return false;">
+           Projects
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </div>
+    </nav>
+   </section>
+  </header>
+  <div id="container">
+   <div class="constrain clearfix" id="logo-events">
+    <h2 class="logo">
+     <a onclick="window.open('/'); return false;" title="jQuery">
+      jQuery
+     </a>
+    </h2>
+    <aside id="broadcast">
+    </aside>
+   </div>
+   <nav class="constrain clearfix" id="main">
+    <div class="menu-top-container">
+     <button aria-expanded="false" aria-haspopup="menu" class="button menu-trigger" hidden="" id="menu-trigger">
+      Navigation
+     </button>
+     <ul aria-labelledby="menu-trigger" class="menu" id="menu-top" role="menu">
+      <li class="menu-item">
+       <a onclick="window.open('https://jquery.com/download/'); return false;">
+        Download
+       </a>
+      </li>
+      <li class="menu-item">
+       <a onclick="window.open('https://api.jquery.com/'); return false;">
+        API Documentation
+       </a>
+      </li>
+      <li class="menu-item">
+       <a onclick="window.open('https://blog.jquery.com/'); return false;">
+        Blog
+       </a>
+      </li>
+      <li class="menu-item">
+       <a onclick="window.open('https://plugins.jquery.com/'); return false;">
+        Plugins
+       </a>
+      </li>
+      <li class="menu-item">
+       <a onclick="window.open('https://jquery.com/browser-support/'); return false;">
+        Browser Support
+       </a>
+      </li>
+      <li class="menu-item">
+       <a onclick="window.open('https://jquery.com/support/'); return false;">
+        Version Support
+       </a>
+      </li>
+     </ul>
+    </div>
+    <typesense-minibar data-collection="jquery_com" data-foot="true" data-group="true" data-key="Zh8mMgohXECel9wjPwqT7lekLSG3OCgz" data-origin="https://typesense.jquery.com">
+     <form action="" class="searchform" method="get" role="search">
+      <input aria-label="Search jQuery" autocomplete="off" name="s" placeholder="Search" type="search" value=""/>
+      <button class="visuallyhidden" type="submit">
+      </button>
+     </form>
+    </typesense-minibar>
+   </nav>
+   <div class="clearfix row" id="content-wrapper">
+    <div class="content-full full-width twelve columns">
+     <div id="content">
+      <div class="row" id="banner-secondary">
+       <div class="download four columns push-eight">
+        <a class="button large" onclick="window.open('/download/'); return false;">
+         <span class="download-button-content">
+          <span class="download-icon">
+          </span>
+          <span class="download-message">
+           <span>
+            Download jQuery
+           </span>
+           <span class="download-version">
+            v3.7.1
+           </span>
+          </span>
+         </span>
+        </a>
+        <div class="download-options">
+         <div class="support-notice">
+          Only the latest version of jQuery is supported.
+         </div>
+         <a onclick="window.open('/support'); return false;">
+          Discover Support Options
+         </a>
+         <a onclick="return false;" style="pointer-events: none; cursor: default;">
+          View Source on GitHub →
+         </a>
+         <a onclick="window.open('https://learn.jquery.com/about-jquery/how-jquery-works/'); return false;">
+          How jQuery Works →
+         </a>
+        </div>
+       </div>
+       <div class="features-box row eight columns pull-four">
+        <div class="feature-box lightweight-footprint four columns center-txt">
+         <div class="feature-box-image">
+         </div>
+         <h3>
+          Lightweight Footprint
+         </h3>
+         <p>
+          Only 30kB minified and gzipped. Can also be included as an AMD module
+         </p>
+        </div>
+        <div class="feature-box css3-compliant four columns center-txt">
+         <div class="feature-box-image">
+         </div>
+         <h3>
+          CSS3 Compliant
+         </h3>
+         <p>
+          Supports CSS3 selectors to find elements as well as in style property manipulation
+         </p>
+        </div>
+        <div class="feature-box cross-browser four columns center-txt">
+         <div class="feature-box-image">
+         </div>
+         <h3>
+          Cross-Browser
+         </h3>
+         <p>
+          <a onclick="window.open('/browser-support/'); return false;">
+           Chrome, Edge, Firefox, IE, Safari, Android, iOS, and more
+          </a>
+         </p>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix row" id="home-content">
+       <section class="eight columns">
+        <h2 class="block">
+         What is jQuery?
+        </h2>
+        <p>
+         jQuery is a fast, small, and feature-rich JavaScript library. It makes
+		things like HTML document traversal and manipulation, event handling,
+		animation, and Ajax much simpler with an easy-to-use API that works across
+		a multitude of browsers. With a combination of versatility and
+		extensibility, jQuery has changed the way that millions of people write
+		JavaScript.
+        </p>
+       </section>
+       <aside class="four columns">
+        <h2 class="block">
+         Resources
+        </h2>
+        <ul>
+         <li>
+          <a onclick="window.open('https://api.jquery.com'); return false;">
+           jQuery Core API Documentation
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://learn.jquery.com'); return false;">
+           jQuery Learning Center
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://blog.jquery.com'); return false;">
+           jQuery Blog
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://contribute.jquery.com'); return false;">
+           Contribute to jQuery
+          </a>
+         </li>
+         <li>
+          <a onclick="window.open('https://github.com/jquery/jquery/issues'); return false;">
+           Browse or Submit jQuery Bugs
+          </a>
+         </li>
+        </ul>
+       </aside>
+      </div>
+      <section>
+       <h2 class="block">
+        A Brief Look
+       </h2>
+       <h3>
+        DOM Traversal and Manipulation
+       </h3>
+       <p>
+        Get the
+        <code>
+         &lt;button&gt;
+        </code>
+        element with the class 'continue' and change its HTML to 'Next Step...'
+       </p>
+       <div class="syntaxhighlighter javascript">
+        <table>
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line n1">
+             1
+            </div>
+           </td>
+           <td class="code">
+            <pre><div class="container"><div class="line"><code>$( <span class="hljs-string">"button.continue"</span> ).html( <span class="hljs-string">"Next Step..."</span> )</code></div></div></pre>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <h3>
+        Event Handling
+       </h3>
+       <p>
+        Show the
+        <code>
+         #banner-message
+        </code>
+        element that is hidden with
+        <code>
+         display:none
+        </code>
+        in its CSS when any button in
+        <code>
+         #button-container
+        </code>
+        is
+		clicked.
+       </p>
+       <div class="syntaxhighlighter javascript">
+        <table>
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line n1">
+             1
+            </div>
+            <div class="line n2">
+             2
+            </div>
+            <div class="line n3">
+             3
+            </div>
+            <div class="line n4">
+             4
+            </div>
+           </td>
+           <td class="code">
+            <pre><div class="container"><div class="line"><code><span class="hljs-keyword">var</span> hiddenBox = $( <span class="hljs-string">"#banner-message"</span> );</code></div></div><div class="container"><div class="line"><code>$( <span class="hljs-string">"#button-container button"</span> ).on( <span class="hljs-string">"click"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"> event </span>) </span>{</code></div></div><div class="container"><div class="line"><code>  hiddenBox.show();</code></div></div><div class="container"><div class="line"><code>});</code></div></div></pre>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+       <h3>
+        Ajax
+       </h3>
+       <p>
+        Call a local script on the server
+        <code>
+         /api/getWeather
+        </code>
+        with the query parameter
+        <code>
+         zipcode=97201
+        </code>
+        and replace the element
+        <code>
+         #weather-temp
+        </code>
+        's html with the returned text.
+       </p>
+       <div class="syntaxhighlighter javascript">
+        <table>
+         <tbody>
+          <tr>
+           <td class="gutter">
+            <div class="line n1">
+             1
+            </div>
+            <div class="line n2">
+             2
+            </div>
+            <div class="line n3">
+             3
+            </div>
+            <div class="line n4">
+             4
+            </div>
+            <div class="line n5">
+             5
+            </div>
+            <div class="line n6">
+             6
+            </div>
+            <div class="line n7">
+             7
+            </div>
+            <div class="line n8">
+             8
+            </div>
+            <div class="line n9">
+             9
+            </div>
+           </td>
+           <td class="code">
+            <pre><div class="container"><div class="line"><code>$.ajax({</code></div></div><div class="container"><div class="line"><code>  <span class="hljs-attr">url</span>: <span class="hljs-string">"/api/getWeather"</span>,</code></div></div><div class="container"><div class="line"><code>  <span class="hljs-attr">data</span>: {</code></div></div><div class="container"><div class="line"><code>    <span class="hljs-attr">zipcode</span>: <span class="hljs-number">97201</span></code></div></div><div class="container"><div class="line"><code>  },</code></div></div><div class="container"><div class="line"><code>  <span class="hljs-attr">success</span>: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"> result </span>) </span>{</code></div></div><div class="container"><div class="line"><code>    $( <span class="hljs-string">"#weather-temp"</span> ).html( <span class="hljs-string">"&lt;strong&gt;"</span> + result + <span class="hljs-string">"&lt;/strong&gt; degrees"</span> );</code></div></div><div class="container"><div class="line"><code>  }</code></div></div><div class="container"><div class="line"><code>});</code></div></div></pre>
+           </td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </section>
+      <section>
+       <h2 class="block">
+        Related Projects
+       </h2>
+       <h3>
+        <a onclick="window.open('https://jqueryui.com/'); return false;">
+         jQuery UI
+        </a>
+       </h3>
+       <p>
+        This project is in maintenance-only mode.
+        <a onclick="window.open('https://blog.jquery.com/2021/10/07/jquery-maintainers-update-and-transition-jquery-ui-as-part-of-overall-modernization-efforts/'); return false;">
+         Learn more
+        </a>
+        .
+       </p>
+       <h3>
+        <a onclick="window.open('https://jquerymobile.com/'); return false;">
+         jQuery Mobile
+        </a>
+       </h3>
+       <p>
+        This project is deprecated.
+        <a onclick="window.open('https://blog.jqueryui.com/2021/10/jquery-maintainers-continue-modernization-initiative-with-deprecation-of-jquery-mobile/'); return false;">
+         Learn more
+        </a>
+        .
+       </p>
+      </section>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="clearfix simple">
+   <div class="constrain">
+    <div class="row">
+     <div class="six columns centered">
+      <h3>
+       <span>
+        Books
+       </span>
+      </h3>
+      <ul class="books">
+       <li>
+        <a onclick="window.open('https://www.packtpub.com/en-us/product/learning-jquery-fourth-edition-9781782163152'); return false;">
+         <img alt="Learning jQuery 4th Edition by Karl Swedberg and Jonathan Chaffer" height="114" loading="lazy" src="local_resources\phish_learning-jquery-4th-ed_a0005a1b835f4069.jpg" width="92"/>
+         Learning jQuery Fourth Edition
+         <cite>
+          Karl Swedberg and Jonathan Chaffer
+         </cite>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://www.manning.com/books/jquery-in-action-third-edition'); return false;">
+         <img alt="jQuery in Action by Bear Bibeault, Yehuda Katz, and Aurelio De Rosa" height="114" loading="lazy" src="local_resources\phish_jquery-in-action_cfee8442b57e2d49.jpg" width="92"/>
+         jQuery in Action
+         <cite>
+          Bear Bibeault, Yehuda Katz, and Aurelio De Rosa
+         </cite>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://www.syncfusion.com/ebooks/jquery'); return false;">
+         <img alt="jQuery Succinctly by Cody Lindley" height="114" loading="lazy" src="local_resources\phish_jquery-succinctly_4d82022f51843537.jpg" width="92"/>
+         jQuery Succinctly
+         <cite>
+          Cody Lindley
+         </cite>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="legal" id="legal">
+     <ul class="footer-site-links">
+      <li>
+       <a class="icon-pencil" onclick="window.open('https://learn.jquery.com/'); return false;">
+        Learning Center
+       </a>
+      </li>
+      <li>
+       <a class="icon-comments" onclick="window.open('https://jquery.com/support/'); return false;">
+        Chat
+       </a>
+      </li>
+      <li>
+       <a class="icon-twitter" onclick="return false;" style="pointer-events: none; cursor: default;">
+        Twitter
+       </a>
+      </li>
+      <li>
+       <a class="icon-github" onclick="return false;" style="pointer-events: none; cursor: default;">
+        GitHub
+       </a>
+      </li>
+     </ul>
+     <p class="copyright">
+      Copyright 2025
+      <a onclick="window.open('https://openjsf.org/'); return false;">
+       OpenJS Foundation
+      </a>
+      and jQuery contributors. All rights reserved. See
+      <a onclick="window.open('https://jquery.com/license/'); return false;">
+       jQuery License
+      </a>
+      for more information. The
+      <a onclick="window.open('https://openjsf.org/'); return false;">
+       OpenJS Foundation
+      </a>
+      has registered trademarks and uses trademarks. For a list of trademarks of the
+      <a onclick="window.open('https://openjsf.org/'); return false;">
+       OpenJS Foundation
+      </a>
+      , please see our
+      <a onclick="window.open('https://trademark-policy.openjsf.org/'); return false;">
+       Trademark Policy
+      </a>
+      and
+      <a onclick="window.open('https://trademark-list.openjsf.org/'); return false;">
+       Trademark List
+      </a>
+      . Trademarks and logos not indicated on the
+      <a onclick="window.open('https://trademark-list.openjsf.org/'); return false;">
+       list of OpenJS Foundation trademarks
+      </a>
+      are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them. OpenJS Foundation
+      <a onclick="window.open('https://terms-of-use.openjsf.org/'); return false;">
+       Terms of Use
+      </a>
+      ,
+      <a onclick="window.open('https://privacy-policy.openjsf.org/'); return false;">
+       Privacy
+      </a>
+      , and
+      <a onclick="window.open('https://www.linuxfoundation.org/cookies'); return false;">
+       Cookie
+      </a>
+      Policies also apply.
+     </p>
+     <p>
+      <a class="do-link" onclick="window.open('https://www.digitalocean.com'); return false;">
+       Web hosting by Digital Ocean
+      </a>
+      |
+      <a onclick="window.open('https://www.fastly.com/'); return false;">
+       CDN by Fastly
+      </a>
+      |
+      <a class="wp-link" onclick="window.open('https://wordpress.org/'); return false;">
+       Powered by WordPress
+      </a>
+     </p>
+    </div>
+   </div>
+  </footer>
+  <script type="speculationrules">
+   {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/jquery.com\/*","\/wp-content\/themes\/jquery\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+  </script>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

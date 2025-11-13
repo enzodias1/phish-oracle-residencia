@@ -1,0 +1,3351 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" name="viewport"/>
+  <link href="local_resources\favicon_183366cf1d98b122.ico" rel="shortcut icon"/>
+  <link href="local_resources\favicon_32012d92fa562593.gif" rel="icon" type="image/gif"/>
+  <link href="local_resources\css-btoto-light_34ccbbcd4f51142b.css" rel="stylesheet" type="text/css"/>
+  <link crossorigin="anonymous" href="local_resources\all.min_04898241ba7a7498.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" referrerpolicy="no-referrer" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\base_cf5994a06a19c953.css" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\twtr_fe5fd2f410e8a5af.css" media="print" onload="this.media='all'" rel="stylesheet" type="text/css"/>
+  <link href="local_resources\twtr_76bfd1c1d09081f4.css" media="print" onload="this.media='all'" rel="stylesheet" type="text/css"/>
+  <title>
+   BATOTO - Read Manga Online
+  </title>
+  <meta content="A manga reader for manga fans." name="description"/>
+  <meta content="manga, scanlation, translation" name="keywords"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body class="body body-home">
+  <div class="wrapper wrapper-home" id="app">
+   <header class="header" id="header">
+    <div class="container-fluid container-max-width-xl">
+     <div class="w-100 d-flex flex-column flex-md-row align-items-center">
+      <div class="brand position-relative">
+       <a href="#skip" onclick="">
+        <img alt="BATO.TO" height="40" src="local_resources\phish_logo-batoto_92f10027ab937f0c.png"/>
+       </a>
+       <a class="position-absolute" href="#content" onclick="" style="top: -8px;left: 6px;width: 88px;height: 50px;">
+        <img height="50" src="local_resources\phish_halloween-640x360_bb255a792611859e.png" style="width: 88px; height: 50px;" width="88"/>
+       </a>
+       <a class="position-absolute text-danger text-nowrap" href="Javascript:void(0)" onclick="" style="right: 0; bottom: -12px; font-weight: bold;">
+        <small>
+         v3x→
+        </small>
+       </a>
+      </div>
+      <nav class="mt-3 mt-md-0 ms-md-3 nav">
+       <a class="nav-link active" href="Javascript:void(0)" onclick="">
+        Home
+       </a>
+       <a class="nav-link" href="Javascript:void(0)" onclick="">
+        Latest
+       </a>
+       <a class="nav-link" href="#skip" onclick="">
+        Browse
+       </a>
+       <a class="nav-link" href="#" onclick="">
+        Search
+       </a>
+      </nav>
+      <form action="" class="d-none d-lg-inline ms-auto me-3 form-inline search" method="GET">
+       <input autocomplete="off" class="form-control" name="word" placeholder="Search" type="search"/>
+       <a class="d-inline-flex align-content-center align-items-center icon-random" href="Javascript:void(0)" onclick="">
+        <i class="fas fa-fw fa-random">
+        </i>
+       </a>
+       <button class="btn btn-primary" type="submit">
+        <i class="fas fa-fw fa-search">
+        </i>
+       </button>
+      </form>
+      <div class="mt-3 mt-md-0 ms-md-auto d-flex align-items-center user">
+       <a class="ms-2" href="#" onclick="">
+        <i class="fas fa-fw fa-lg fa-history">
+        </i>
+       </a>
+       <a class="ms-2 d-lg-none" href="#content" onclick="">
+        <i class="fas fa-fw fa-lg fa-random">
+        </i>
+       </a>
+       <a class="ms-2" href="#" onclick="">
+        <i class="fas fa-fw fa-lg fa-upload">
+        </i>
+       </a>
+       <a class="ms-2" href="Javascript:void(0)" onclick="">
+        <i class="fab fa-fw fa-lg fa-discord">
+        </i>
+       </a>
+       <a class="ms-2" href="Javascript:void(0)" onclick="">
+        <i class="fas fa-fw fa-lg fa-cog">
+        </i>
+       </a>
+       <a class="ms-2 avatar guest" href="Javascript:void(0)" onclick="">
+        <i class="fas fa-fw fa-2x fa-user-circle">
+        </i>
+       </a>
+      </div>
+     </div>
+    </div>
+   </header>
+   <div class="mainer" id="mainer">
+    <div class="container-fluid container-max-width-xl">
+     <div class="mt-4 pb-2 d-flex justify-content-between align-items-center line-b-f cursor-pointer" v-cloak="" v-if="localHistory_items.length">
+      <h4 class="m-0">
+       <span>
+        My History
+       </span>
+      </h4>
+      <div v-cloak="">
+       <i class="far fa-lg fa-caret-square-up" v-if="localHistory_show">
+       </i>
+       <i class="far fa-lg fa-caret-square-down" v-if="!localHistory_show">
+       </i>
+      </div>
+     </div>
+     <div v-cloak="" v-if="localHistory_items.length &amp;&amp; localHistory_show">
+      <div class="mt-0 row row-cols-1 row-cols-sm-2 row-cols-lg-3 home-my-history" id="my-history-list">
+       <div :key="item.iid" class="mt-2 col" v-for="item of localHistory_items">
+        <div>
+         <a :href="`/series/${item.sid}`" class="fw-bold text-ellipsis-1" href="#content" onclick="">
+          ${item._text_sub}
+         </a>
+        </div>
+        <div class="mt-1 small">
+         <i class="fas fa-fw fa-history text-color-purple-500">
+         </i>
+         <a :href="`/chapter/${item.eid}`" class="ms-1 fw-bold" href="#content" onclick="">
+          ${item._text_epi}
+         </a>
+         <em class="ms-1 text-muted">
+          ${item._time_ago}
+         </em>
+        </div>
+        <div class="mt-1 small" v-if="localHistory_lastEpis[item.sid] &amp;&amp; localHistory_lastEpis[item.sid].eid !== item.eid">
+         <i class="fas fa-fw fa-file-upload text-color-green-500">
+         </i>
+         <a :href="localHistory_lastEpis[item.sid].upath" class="ms-1 fw-bold visited" href="#" onclick="">
+          ${localHistory_lastEpis[item.sid].short}
+         </a>
+         <em class="ms-1 text-muted">
+          ${localHistory_lastEpis[item.sid].days_ago}
+         </em>
+        </div>
+       </div>
+      </div>
+      <div class="mt-3 d-flex">
+       <div>
+        <a class="px-3 btn btn-sm btn-outline-primary" href="#content" onclick="">
+         <i class="fas fa-wrench text-color-purple-500">
+         </i>
+        </a>
+       </div>
+       <div class="ms-1 flex-grow-1 d-grid">
+        <button class="btn btn-sm btn-outline-secondary" type="button" v-if="localHistory_loading == 0">
+         Load More
+        </button>
+        <button class="btn btn-sm btn-outline-secondary disabled" type="button" v-if="localHistory_loading == 1">
+         <i class="fas fa-circle-notch fa-spin">
+         </i>
+        </button>
+        <button class="btn btn-sm btn-outline-secondary disabled" type="button" v-if="localHistory_loading == 2">
+         No More
+        </button>
+       </div>
+      </div>
+     </div>
+     <div class="mt-4 d-flex justify-content-between line-b-f">
+      <h4>
+       Popular Updates
+      </h4>
+     </div>
+     <div class="mt-4 row row-cols-3 row-cols-md-4 row-cols-lg-8 g-0 home-popular">
+      <div class="col item">
+       <a class="item-cover" href="#content" onclick="">
+        <img src="local_resources\phish_4f24a210e94ad175332b107b20a3afe537a855b0_600_800_103824_51d10d920b02f652.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="Javascript:void(0)" onclick="">
+          Me Too! I'll Be an Incubus! ( PARADISE SCANS )
+         </a>
+         <a class="item-volch" href="#content" onclick="">
+          Chapter 18: 🔞🔞
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#" onclick="">
+        <img src="local_resources\phish_dbcc136efa8503f99d1f0197d13710d9dc96d06f_600_863_102570_6251d0128e02b775.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#content" onclick="">
+          The Redemption of Earl Nottingham
+         </a>
+         <a class="item-volch" href="#content" onclick="">
+          Ch.71
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#skip" onclick="">
+        <img src="local_resources\phish_f4162ed680fb0dae8978193c4d657f3bcda12866_600_800_28126_ddcef8cab5daa144.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#skip" onclick="">
+          Love Me, Revive Me [Official][Uncensored]
+         </a>
+         <a class="item-volch" href="#content" onclick="">
+          Ch.10
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img src="local_resources\phish_c4341a30923ceef3977f0f595dbb2c10474085ae_600_800_61606_ffbd71c5f6d79ecc.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="Javascript:void(0)" onclick="">
+          Kiss Me If You Can [Official][Uncensored]
+         </a>
+         <a class="item-volch" href="#content" onclick="">
+          Ch.24
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#skip" onclick="">
+        <img src="local_resources\phish_f752dc0b101a8f3808a8053cd218a1db9c7c800c_600_855_116654_ba9c5653cf06ce28.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#skip" onclick="">
+          Kiraide Isasete (Official)
+         </a>
+         <a class="item-volch" href="#" onclick="">
+          Vol.5 Ch.6.5
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#content" onclick="">
+        <img src="local_resources\phish_8bc160150596096377fb45ba0818d1c69456e6fe_294_427_33902_e44d9b6d53a86605.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#skip" onclick="">
+          PASSION 〘Official〙
+         </a>
+         <a class="item-volch" href="#skip" onclick="">
+          Ch.124
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#skip" onclick="">
+        <img src="local_resources\phish_54cf5bbbea303be54b4b1a83c0e3ba00518e4c26_588_852_441696_dd802cf68ea77169.jpeg"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="Javascript:void(0)" onclick="">
+          The Foul
+         </a>
+         <a class="item-volch" href="#" onclick="">
+          Ch.117
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#" onclick="">
+        <img src="local_resources\phish_9ab860364e8391fc180226e5eff8d423900d8b08_600_800_63482_642022fb71015389.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#content" onclick="">
+          Eternal Covenant
+         </a>
+         <a class="item-volch" href="Javascript:void(0)" onclick="">
+          Ch.126
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img src="local_resources\phish_25bd76918faf6043f9f982c2cef1c4d3bea1cf69_600_800_43466_91ee7a66d5c63df1.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="Javascript:void(0)" onclick="">
+          Dive (Official)
+         </a>
+         <a class="item-volch" href="#" onclick="">
+          Ch.43
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img src="local_resources\phish_c968ae31a07451d29749782a834aad72cc13e9d8_600_800_43418_1f618e4f4c243283.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#content" onclick="">
+          If You Want Me [Official]
+         </a>
+         <a class="item-volch" href="#" onclick="">
+          Ch.56
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#content" onclick="">
+        <img src="local_resources\phish_4ede7daeb355d120f96ceea9a10d7bdf8a280606_294_427_93246_4b0aacaff24e311b.jpeg"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#" onclick="">
+          Sweetie, Sweetie, Sweetie
+         </a>
+         <a class="item-volch" href="#skip" onclick="">
+          Ch.97
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#skip" onclick="">
+        <img src="local_resources\phish_9d532b4ec4824e8b28c147536a0a5287d5e9f10a_600_800_49812_c6a487f722722c10.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#" onclick="">
+          The Young Wife [Official][Uncensored]
+         </a>
+         <a class="item-volch" href="#skip" onclick="">
+          Ch.39
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#skip" onclick="">
+        <img src="local_resources\phish_82017f921f7e1c003008e1df196466156db6437d_600_800_57630_439f8f92b17bbc74.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="Javascript:void(0)" onclick="">
+          Dear Stranger
+         </a>
+         <a class="item-volch" href="#content" onclick="">
+          Ch.60
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img src="local_resources\phish_8b787d372e4b222cffd39d7aee0ab3ee8d505b1d_600_870_129190_2c30f164817c755f.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#" onclick="">
+          Sleeping every night with my slave princess [+19] [Luna Toons]
+         </a>
+         <a class="item-volch" href="#skip" onclick="">
+          Chapter 08 - S1
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#" onclick="">
+        <img src="local_resources\phish_a12814c0cfd0d167a62b71a8b9dbb0de655d37ca_600_800_54736_a76517e203c138cb.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="#" onclick="">
+          Manhattan Depression
+         </a>
+         <a class="item-volch" href="#content" onclick="">
+          Ch.25
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="col item">
+       <a class="item-cover" href="#content" onclick="">
+        <img src="local_resources\phish_f8b04c1fc1378b8730f8c19a996218c53dc7d3db_600_800_87352_deedec470ca5ca5c.webp"/>
+       </a>
+       <div class="item-text">
+        <div class="item-text-inner">
+         <a class="item-title" href="Javascript:void(0)" onclick="">
+          Circumstances of a eunuch [+19] [Luna Toons]
+         </a>
+         <a class="item-volch" href="#" onclick="">
+          Chapter 29 - S1
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="mt-4 d-flex justify-content-between line-b-f">
+      <h4>
+       Latest Releases
+      </h4>
+      <a href="#" onclick="">
+       <i class="fas fa-fw fa-rss">
+       </i>
+      </a>
+     </div>
+     <div class="mt-0 row row-cols-1 row-cols-sm-2 row-cols-lg-3 series-list" id="series-list">
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_e46b55d1997dd6e6b14216526d9841bc7b6f69aa_600_849_60606_4bdc11ad04cf5342.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#" onclick="">
+         CANDY CONTRACT ( PARADISE SCANS )
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Comedy
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Chapter 9: 🔞🔞
+         </a>
+         <div>
+          <a class="me-2" href="Javascript:void(0)" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           2 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_9922f202ae928d08f7101b78bbd748d70dc314e8_600_861_77244_ecbf3124d9f2a783.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#" onclick="">
+         Record of Ragnarok (Official)
+        </a>
+        <div class="item-genre">
+         <span>
+          Japanese
+         </span>
+         ,
+         <span>
+          Manga
+         </span>
+         ,
+         <u>
+          Seinen(M)
+         </u>
+         ,
+         <span>
+          Action
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Historical
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Vol.16 Ch.65
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           3 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_af73fab42cb697fe2f86b9b3224b6d2c6a303737_600_800_36696_6d5042519d4f59e6.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#" onclick="">
+         chichi ( PARADISE SCANS )
+        </a>
+        <div class="item-genre">
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Comedy
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Chapter 7
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           6 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_e9cbc6572c33331e7c5193efc34036918ef8a802_160_213_13680_4e76c7e9862e1f6c.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="Javascript:void(0)" onclick="">
+         Evil Baby (LILITH)
+        </a>
+        <div class="item-genre">
+         <span>
+          Chinese
+         </span>
+         ,
+         <span>
+          Manhua
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Bloody
+         </b>
+         ,
+         <span>
+          Action
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Horror
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Shounen ai
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Chapter 28
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_0d8af9e0fd0d8948d34979b765774b442539338c_300_300_138509_9a85c516caf10d5b.png"/>
+          </a>
+          <i>
+           6 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_8a9e06f3ab5f4b7f0a7035d39b472d5dc8e47b46_600_800_89798_71abc7fbd216cfd2.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         VESPER ( paradise scans )
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Historical
+         </span>
+         ,
+         <span>
+          Omegaverse
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Royalty
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Chapter 12
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           10 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_489075d600e8eb9047c4d505992ccb2b9b75a9cf_600_858_120990_f8f4a87b97b3d900.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         The Deposed Empress' Scandal [EZManga]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.50
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_51593f2a314496422f66ee8454a11d405d32a3b9_187_187_7359_e706e7701a1d61db.jpeg"/>
+          </a>
+          <i>
+           16 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#skip" onclick="">
+        <img class="rounded" src="local_resources\phish_9b4e458a611a769f960bc8de400b064dbd00f7bf_600_800_55330_7653749f5114f991.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         The Moon's Nightbreak ( PARADISE SCANS )
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Historical
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Shounen ai
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#skip" onclick="">
+          Chapter 5
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           19 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_6ad6e84585b02ab576ec2dc12d9c07b88e52713e_336_488_57744_f3a82ec92220511e.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         My Husband and I Cannot Live in the Same World
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Childhood Friends
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Ch.46
+         </a>
+         <div>
+          <a class="me-2" href="Javascript:void(0)" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           21 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#" onclick="">
+        <img class="rounded" src="local_resources\phish_c4beb017714883d19d21bdb630a1cdfbd2252357_336_488_39564_75ad1f971da59930.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         The Villainess is Everyone's Favorite
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Game
+         </span>
+         ,
+         <span>
+          Isekai
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Transmigration
+         </span>
+         ,
+         <span>
+          Villainess
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.22
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           22 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_ac1a72ccabb2f259150b6229d5f1a51c3f1ea972_600_800_38708_f372306aa839a5d1.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         PIT-A-PAT ( PARADISE SCANS )
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Non-human
+         </u>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Fetish
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Chapter 7: 🔞
+         </a>
+         <div>
+          <a class="me-2" href="Javascript:void(0)" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           23 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_a7df2952dddd7269a629ea595f7131cdd9447fe7_600_863_78478_caf402159775256c.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="Javascript:void(0)" onclick="">
+         While The Stars Slept [Mature Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          College life
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Sports
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.15
+         </a>
+         <div>
+          <a class="me-2" href="Javascript:void(0)" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           28 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_81ef9d26c0863fa199ee9d8c200baa48a3aa9ae9_600_870_58198_ce126e66df1fc80c.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         NOT BAD (paradise scans)
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Chapter 12
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           30 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_55401103e184b9cbf35de6039d4a2849871d002d_200_306_15032_022e33a70e3ca6d0.jpg"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         Love Never Fails
+        </a>
+        <div class="item-genre">
+         <span>
+          Chinese
+         </span>
+         ,
+         <span>
+          Manhua
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Comedy
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          School Life
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Ch.35
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_607ca03a4ba2dff5a3009aa1_a4d9deae57b00be2.jpg"/>
+          </a>
+          <i>
+           30 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_9b21f13b0d1ae139fbea7b3e37a15c7f6048d628_600_863_97510_311f1f6739c1643a.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         Sweets in Suit [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Office Workers
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#content" onclick="">
+          Ch.17
+         </a>
+         <div>
+          <a class="me-2" href="Javascript:void(0)" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           31 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_7e621ecd18721aa1a890c0a973728b066cd911af_720_1035_189264_ec8f7db58b618de0.jpeg"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         The White Tiger's Daughter
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Comedy
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Reincarnation
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#skip" onclick="">
+          Ch.84
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           31 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#skip" onclick="">
+        <img class="rounded" src="local_resources\phish_9d894cb544655e40726fdf0f2dbf6970c76d7d11_480_690_99764_7f6177179c0130d8.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         The Duke Needs His Coffee [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Isekai
+         </span>
+         ,
+         <span>
+          Reincarnation
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Ch.19
+         </a>
+         <div>
+          <a class="me-2" href="Javascript:void(0)" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           34 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_20df191c4f407c846a254cd4dc4806bf32d5157f_480_690_68460_79ed6d98974684ad.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         C.C [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          College life
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#content" onclick="">
+          Ch.18
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           34 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#skip" onclick="">
+        <img class="rounded" src="local_resources\phish_0ad43a31fa0090d20c07521a8a87bfe08a369830_600_863_109212_74d5faac20c543bf.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         Guide Override [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#content" onclick="">
+          Ch.25
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           34 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_5728b5d96a742214f52dfee9bb172790f881afa8_600_863_111522_3d1baa02b79f9c14.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="Javascript:void(0)" onclick="">
+         World of Ten Billion
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Action
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Sci-Fi
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.29
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           34 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#skip" onclick="">
+        <img class="rounded" src="local_resources\phish_c37a658b9b25a68cd7e9249df394ba61a5501f07_600_863_97444_bf9cac20cb8a512e.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="Javascript:void(0)" onclick="">
+         The Hidden Muse
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Historical
+         </span>
+         ,
+         <span>
+          Psychological
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Royalty
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#skip" onclick="">
+          Ch.45
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           35 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_d486ec24e695f95d4b1930620e99fe2f41cd056f_600_858_380657_2adec39dc01db54c.jpeg"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#" onclick="">
+         Sistervention
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Historical
+         </span>
+         ,
+         <span>
+          Isekai
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Royalty
+         </span>
+         ,
+         <span>
+          Survival
+         </span>
+         ,
+         <span>
+          Tragedy
+         </span>
+         ,
+         <span>
+          Transmigration
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.102
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           35 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_03843f76274f649f060fb4ae3438940639d84cb5_600_800_50188_bb5770d4c1eefaa0.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="Javascript:void(0)" onclick="">
+         It's over, I've Laid Snake Eggs After Being marked (english)
+        </a>
+        <div class="item-genre">
+         <span>
+          Chinese
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <span>
+          Animals
+         </span>
+         ,
+         <span>
+          Beasts
+         </span>
+         ,
+         <span>
+          Fetish
+         </span>
+         ,
+         <span>
+          Monsters
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Sci-Fi
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#content" onclick="">
+          chapter 2
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_9206fc177d7c318548176cbd9c3de30758d5da12_300_300_108919_6e3e8bcc18ca6817.png"/>
+          </a>
+          <i>
+           36 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b is-hot no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_4f24a210e94ad175332b107b20a3afe537a855b0_600_800_103824_51d10d920b02f652.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="Javascript:void(0)" onclick="">
+         Me Too! I'll Be an Incubus! ( PARADISE SCANS )
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Comedy
+         </span>
+         ,
+         <span>
+          Demons
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Chapter 18: 🔞🔞
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           36 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#" onclick="">
+        <img class="rounded" src="local_resources\phish_c0b44c14e5b8d4fb4c429ddf4e3ab8bdbba74a40_600_863_112698_0acbf0f1a6061034.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         Team Zero
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <span>
+          Action
+         </span>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Monsters
+         </span>
+         ,
+         <span>
+          Mystery
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Sci-Fi
+         </span>
+         ,
+         <span>
+          Super Power
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.41
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           41 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_4efcce38d0b2058dd869ce9f554ca4ffaf177678_600_863_172158_09e5d34416da246c.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#" onclick="">
+         Property of the King
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Revenge
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Royalty
+         </span>
+         ,
+         <span>
+          Sci-Fi
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.32
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           41 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#skip" onclick="">
+        <img class="rounded" src="local_resources\phish_f8b886fc8d248124936652f8783d97c532546cb0_600_863_100150_5b1a8ac9e24fad20.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#" onclick="">
+         Most Wanted Wife [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Magic
+         </span>
+         ,
+         <span>
+          Regression
+         </span>
+         ,
+         <span>
+          Revenge
+         </span>
+         ,
+         <span>
+          Royalty
+         </span>
+         ,
+         <span>
+          Survival
+         </span>
+         ,
+         <span>
+          Time Travel
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#content" onclick="">
+          Ch.40
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           41 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#" onclick="">
+        <img class="rounded" src="local_resources\phish_c727fca4d1a365241a14f31436c173d484ccaa76_720_1035_143660_66fe9de76a27ec0c.jpeg"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         Till Divorce Do Us Part!
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <span>
+          Age Gap
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#skip" onclick="">
+          Ch.103
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           41 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#skip" onclick="">
+        <img class="rounded" src="local_resources\phish_642297722e9bc43ba49c942ad8685539ef8c6b60_600_800_99500_fc026128c35f6ce5.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         Die in My Arms || PARADISE SCANS ||
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <span>
+          Action
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#skip" onclick="">
+          Chapter 1: 🔞🔞
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_f49b05f9cbb021c060972da9d621ed233132d1f3_300_300_201890_e56587374e70dc6c.png"/>
+          </a>
+          <i>
+           44 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_08be3b239d47593c637a3bb7c9c056e16affb86a_284_400_35096_97de99da529239f0.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         Story Time: A Ghost Confessed to Me (LILITH)
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <u>
+          Yaoi(BL)
+         </u>
+         ,
+         <b>
+          Adult
+         </b>
+         ,
+         <b>
+          Mature
+         </b>
+         ,
+         <b>
+          Smut
+         </b>
+         ,
+         <span>
+          Comedy
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Ghosts
+         </span>
+         ,
+         <span>
+          Horror
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Chapter 7
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_0d8af9e0fd0d8948d34979b765774b442539338c_300_300_138509_9a85c516caf10d5b.png"/>
+          </a>
+          <i>
+           44 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b">
+       <a class="item-cover" href="#skip" onclick="">
+        <img class="rounded" src="local_resources\phish_f53ea5cfc3aa2f03a7757bd7b735ebd5c6a34011_512_691_151283_40ebbd99829d2edf.jpeg"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="Javascript:void(0)" onclick="">
+         Swordmaster’s Youngest Son
+        </a>
+        <div class="item-genre">
+         <span>
+          Portuguese (BR)
+         </span>
+         ,
+         <span>
+          Action
+         </span>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Adventure
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Magic
+         </span>
+         ,
+         <span>
+          Monsters
+         </span>
+         ,
+         <span>
+          Reincarnation
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+         ,
+         <span>
+          Time Travel
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Ch.181
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_639240eef41f92fa7e768394_931cdf28dbb59667.jpg"/>
+          </a>
+          <i>
+           47 mins ago
+          </i>
+         </div>
+        </div>
+        <em class="eflag flag-brazil s125 item-flag" data-lang="pt_br">
+        </em>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#" onclick="">
+        <img class="rounded" src="local_resources\phish_73dba4209f85dc0cf594ff554c7cedbdeb97ec9c_600_863_93646_4fefaaebab6b5b11.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         The House of Blind Sheep [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Horror
+         </span>
+         ,
+         <span>
+          Mystery
+         </span>
+         ,
+         <span>
+          Slice of Life
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+         ,
+         <span>
+          Thriller
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.13
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           48 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#" onclick="">
+        <img class="rounded" src="local_resources\phish_0e4723465a08498281c570c6f02d8a48c7fd4832_600_863_161630_75cd81d2fa000db4.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         Trash Will Always Be Trash [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Josei(W)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Cheating/Infidelity
+         </span>
+         ,
+         <span>
+          Childhood Friends
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Ch.110
+         </a>
+         <div>
+          <a class="me-2" href="Javascript:void(0)" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           49 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="Javascript:void(0)" onclick="">
+        <img class="rounded" src="local_resources\phish_c9d6183d2ee9e6a528a1fb9e65ac4ae9515654b5_600_863_137080_4de6a97199e82298.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#content" onclick="">
+         My Childhood Friend Is a BL Novel Protagonist [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Isekai
+         </span>
+         ,
+         <span>
+          Reincarnation
+         </span>
+         ,
+         <span>
+          Reverse Harem
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+         ,
+         <span>
+          Transmigration
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#skip" onclick="">
+          Ch.16
+         </a>
+         <div>
+          <a class="me-2" href="#content" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           52 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#" onclick="">
+        <img class="rounded" src="local_resources\phish_21abfa95e0fbb9bfce51cc0e6eeab81be274611f_600_863_157614_0f5b03977153160d.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#" onclick="">
+         The Bastard’s Revenge in the House of Magic [Official]
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Magic
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#content" onclick="">
+          Ch.21
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           52 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#content" onclick="">
+        <img class="rounded" src="local_resources\phish_18347e604737919cd7c5a1433d6188be642ecf06_600_863_140120_465502c167b04903.webp"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         For My Own Good
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shounen(B)
+         </u>
+         ,
+         <span>
+          Action
+         </span>
+         ,
+         <span>
+          Adaptation
+         </span>
+         ,
+         <span>
+          Adventure
+         </span>
+         ,
+         <span>
+          Drama
+         </span>
+         ,
+         <span>
+          Dungeons
+         </span>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Magic
+         </span>
+         ,
+         <span>
+          Martial Arts
+         </span>
+         ,
+         <span>
+          Regression
+         </span>
+         ,
+         <span>
+          Supernatural
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="#" onclick="">
+          Ch.44
+         </a>
+         <div>
+          <a class="me-2" href="#" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           52 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col item line-b no-flag">
+       <a class="item-cover" href="#" onclick="">
+        <img class="rounded" src="local_resources\phish_ed2ca356e34ed90fa48b44fb2b9bad03358082e7_720_1035_169523_b00296aab506de83.jpeg"/>
+       </a>
+       <div class="item-text">
+        <a class="item-title" href="#skip" onclick="">
+         Dragondaily
+        </a>
+        <div class="item-genre">
+         <span>
+          Korean
+         </span>
+         ,
+         <span>
+          Manhwa
+         </span>
+         ,
+         <span>
+          Webtoon
+         </span>
+         ,
+         <u>
+          Shoujo(G)
+         </u>
+         ,
+         <span>
+          Fantasy
+         </span>
+         ,
+         <span>
+          Full Color
+         </span>
+         ,
+         <span>
+          Romance
+         </span>
+        </div>
+        <div class="item-volch">
+         <a class="visited" href="Javascript:void(0)" onclick="">
+          Ch.64
+         </a>
+         <div>
+          <a class="me-2" href="#skip" onclick="">
+           <img class="rounded-circle avatar-sm" src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+          </a>
+          <i>
+           52 mins ago
+          </i>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="mt-3 d-flex justify-content-center load-more" v-cloak="">
+      <button class="btn btn-lg btn-block btn-warning" type="button" v-if="loading == 0">
+       Load More
+      </button>
+      <button class="btn btn-lg btn-block btn-warning disabled" type="button" v-if="loading == 1">
+       <i class="fas fa-circle-notch fa-spin">
+       </i>
+      </button>
+      <button class="btn btn-lg btn-block btn-secondary disabled" type="button" v-if="loading == 2">
+       No More
+      </button>
+     </div>
+     <div class="mt-4 d-flex justify-content-between align-items-baseline line-b-f">
+      <h4>
+       Latest Reviews
+      </h4>
+     </div>
+     <div class="mt-4">
+      <iframe frameborder="0" height="38" id="v3x-review-embed" scrolling="no" seamless="" src="/embeds/reviews?&amp;theme=light" style="background-color: transparent !important; width: 100%;">
+      </iframe>
+     </div>
+     <div class="mt-4 d-flex justify-content-between align-items-baseline line-b-f">
+      <h4>
+       Top Uploaders
+      </h4>
+      <a href="#skip" onclick="">
+       more...
+      </a>
+     </div>
+     <div class="mt-4 row row-cols-4 row-cols-md-6 row-cols-lg-8 row-cols-xl-12 g-0 home-top-uploaders">
+      <a class="col item" href="#content" onclick="">
+       <img src="local_resources\phish_61a0c11987cdd65651139a68_8b8396eadd856476.jpg"/>
+       <span class="text-ellipsis-1">
+        FloMio
+       </span>
+      </a>
+      <a class="col item" href="#content" onclick="">
+       <img src="local_resources\phish_38ebcd5c1b71d852becab7de351666a698536191_300_300_232736_abf3d3f9f8d4e999.png"/>
+       <span class="text-ellipsis-1">
+        rishe
+       </span>
+      </a>
+      <a class="col item" href="#skip" onclick="">
+       <img src="local_resources\phish_47576c2a8d13a9f48f1c9fc09d97f653f04e8985_300_300_143383_3395713d8b20d1c0.png"/>
+       <span class="text-ellipsis-1">
+        mimo_JP
+       </span>
+      </a>
+      <a class="col item" href="#skip" onclick="">
+       <img src="local_resources\phish_65982cbdfc5509f34e2f4420_7ff11868758bf617.jpg"/>
+       <span class="text-ellipsis-1">
+        Euclasa
+       </span>
+      </a>
+      <a class="col item" href="#skip" onclick="">
+       <img src="local_resources\phish_5f2834c9be690a39a64a6bf8_ae6dc3f2df66e288.jpg"/>
+       <span class="text-ellipsis-1">
+        Manga01
+       </span>
+      </a>
+      <a class="col item" href="Javascript:void(0)" onclick="">
+       <img src="local_resources\phish_639240eef41f92fa7e768394_931cdf28dbb59667.jpg"/>
+       <span class="text-ellipsis-1">
+        Bookstore
+       </span>
+      </a>
+      <a class="col item" href="#" onclick="">
+       <img src="local_resources\phish_e4b645f15ea1aa8f7a1bc8cb0b7eb9f6b0fc74d9_300_300_191515_451790c69589b8e9.png"/>
+       <span class="text-ellipsis-1">
+        Jujucat
+       </span>
+      </a>
+      <a class="col item" href="Javascript:void(0)" onclick="">
+       <img src="local_resources\phish_606f6ee0fea3f90a097e584f_33bd5db4f54dc98f.jpg"/>
+       <span class="text-ellipsis-1">
+        mei
+       </span>
+      </a>
+      <a class="col item" href="#content" onclick="">
+       <img src="local_resources\phish_dbfdbc6e4c1ecc46fa430ad4f385c33690bd6efa_300_300_172954_fb861c7310cbefd2.png"/>
+       <span class="text-ellipsis-1">
+        rathma
+       </span>
+      </a>
+      <a class="col item" href="Javascript:void(0)" onclick="">
+       <img src="local_resources\phish_e282f4b838ee70c86c090ea421c740269b5ca85b_300_300_205829_2709a80e381aeae5.png"/>
+       <span class="text-ellipsis-1">
+        littlelo
+       </span>
+      </a>
+      <a class="col item" href="#skip" onclick="">
+       <img src="local_resources\phish_861d7e756de04a2ea31167d51c8aef0b00379908_300_300_141369_40fd97919d7ec896.png"/>
+       <span class="text-ellipsis-1">
+        Byleth
+       </span>
+      </a>
+      <a class="col item" href="#" onclick="">
+       <img src="local_resources\phish_5f7df4b89092d2c5a7cf4fa5_ffc71ec65cb739d6.jpg"/>
+       <span class="text-ellipsis-1">
+        snarkyoldman
+       </span>
+      </a>
+      <a class="col item" href="Javascript:void(0)" onclick="">
+       <img src="local_resources\phish_489d012413f793d28396f0bb5464d173a3e97f0c_300_300_115168_72ecba038a264e49.png"/>
+       <span class="text-ellipsis-1">
+        AngelVi
+       </span>
+      </a>
+      <a class="col item" href="#skip" onclick="">
+       <img src="local_resources\phish_2feee2e5c370212160d69eb063ce5102e07c11da_300_300_182061_31423fe0f98d3f00.png"/>
+       <span class="text-ellipsis-1">
+        Lua_Comic
+       </span>
+      </a>
+      <a class="col item" href="Javascript:void(0)" onclick="">
+       <img src="local_resources\phish_13242f9d94445f1b7bb18be4156bb9e61c683b3c_300_300_171102_5349eb7376b76910.png"/>
+       <span class="text-ellipsis-1">
+        RizaValkyrie
+       </span>
+      </a>
+      <a class="col item" href="#" onclick="">
+       <img src="local_resources\phish_d3e6f99468ab133db7fa4fb70d740200db7cde74_300_300_157037_59ed420948e9b019.png"/>
+       <span class="text-ellipsis-1">
+        Valir_Scans
+       </span>
+      </a>
+      <a class="col item" href="#" onclick="">
+       <img src="local_resources\phish_456ab6e1998bd3f14b7b4aebc073efa6159d742a_300_300_173093_cf95cc35448a41fd.png"/>
+       <span class="text-ellipsis-1">
+        _Nanachi_
+       </span>
+      </a>
+      <a class="col item" href="#content" onclick="">
+       <img src="local_resources\phish_62ba6eae164ef794dfff2356_bb7243efb74a9b5a.jpg"/>
+       <span class="text-ellipsis-1">
+        nekobasu
+       </span>
+      </a>
+      <a class="col item" href="#content" onclick="">
+       <img src="local_resources\phish_21bb0013b514fdbbc09e39a7764934f8c426c522_300_300_164154_40936149275ca2b4.png"/>
+       <span class="text-ellipsis-1">
+        I_Ship_My_Otakus_xMe
+       </span>
+      </a>
+      <a class="col item" href="Javascript:void(0)" onclick="">
+       <img src="local_resources\phish_fad097b0ae6440e78f77be31abf74206fdd1792b_300_300_216937_42726d6cb150a222.png"/>
+       <span class="text-ellipsis-1">
+        Gladys
+       </span>
+      </a>
+      <a class="col item" href="Javascript:void(0)" onclick="">
+       <img src="local_resources\phish_83687f4acd0a129730e2de019d4cb7b1445accf3_300_300_74671_95a55f03db6199d6.png"/>
+       <span class="text-ellipsis-1">
+        JOYBO10
+       </span>
+      </a>
+      <a class="col item" href="#" onclick="">
+       <img src="local_resources\phish_63fc2a69071de6ae89d600e9_d5345d6030c28e3a.jpg"/>
+       <span class="text-ellipsis-1">
+        YoruScanlator
+       </span>
+      </a>
+      <a class="col item" href="#content" onclick="">
+       <img src="local_resources\phish_3cf8281077856b8e0e6e88020ac4cfba8e101f30_300_300_17120_0420d52b4b21cc3e.png"/>
+       <span class="text-ellipsis-1">
+        LunaToons
+       </span>
+      </a>
+      <a class="col item" href="#" onclick="">
+       <img src="local_resources\phish_58a74f9018e8581e2d3ad38c39246fa33497fe07_300_300_169335_65320effa2360184.png"/>
+       <span class="text-ellipsis-1">
+        Dindin_
+       </span>
+      </a>
+     </div>
+     <div class="mt-4 p-1 alert alert-info overflow-auto">
+      <div>
+       <span>
+        Mirrors:
+       </span>
+       <a href="#skip" onclick="">
+        ato.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        dto.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        fto.to
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        hto.to
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        jto.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        lto.to
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        mto.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        nto.to
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        vto.to
+       </a>
+       ,
+       <a href="#content" onclick="">
+        wto.to
+       </a>
+       ,
+       <a href="#content" onclick="">
+        xto.to
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        yto.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        vba.to
+       </a>
+       ,
+       <a href="#content" onclick="">
+        wba.to
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        xba.to
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        yba.to
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        zba.to
+       </a>
+       ,
+       <a href="#content" onclick="">
+        bato.ac
+       </a>
+       ,
+       <a href="#content" onclick="">
+        bato.bz
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        bato.cc
+       </a>
+       ,
+       <a href="#content" onclick="">
+        bato.cx
+       </a>
+       ,
+       <a href="#" onclick="">
+        bato.id
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        bato.pw
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        bato.sh
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        bato.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        bato.vc
+       </a>
+       ,
+       <a href="#content" onclick="">
+        bato.day
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        bato.red
+       </a>
+       ,
+       <a href="#content" onclick="">
+        bato.run
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        batoto.in
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        batoto.tv
+       </a>
+       ,
+       <a href="#content" onclick="">
+        batotoo.com
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        batotwo.com
+       </a>
+       ,
+       <a href="#" onclick="">
+        batpub.com
+       </a>
+       ,
+       <a href="#" onclick="">
+        batread.com
+       </a>
+       ,
+       <a href="#content" onclick="">
+        battwo.com
+       </a>
+       ,
+       <a href="#content" onclick="">
+        xbato.com
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        xbato.net
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        xbato.org
+       </a>
+       ,
+       <a href="#" onclick="">
+        zbato.com
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        zbato.net
+       </a>
+       ,
+       <a href="#" onclick="">
+        zbato.org
+       </a>
+       ,
+       <a href="#content" onclick="">
+        comiko.net
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        comiko.org
+       </a>
+       ,
+       <a href="#content" onclick="">
+        mangatoto.com
+       </a>
+       ,
+       <a href="#" onclick="">
+        mangatoto.net
+       </a>
+       ,
+       <a href="#" onclick="">
+        mangatoto.org
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        batocomic.com
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        batocomic.net
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        batocomic.org
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        readtoto.com
+       </a>
+       ,
+       <a href="#" onclick="">
+        readtoto.net
+       </a>
+       ,
+       <a href="#content" onclick="">
+        readtoto.org
+       </a>
+       ,
+       <a href="Javascript:void(0)" onclick="">
+        kuku.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        okok.to
+       </a>
+       ,
+       <a href="#skip" onclick="">
+        ruru.to
+       </a>
+       ,
+       <a href="#" onclick="">
+        xdxd.to
+       </a>
+      </div>
+      <div>
+       Discord:
+       <a href="#" onclick="">
+        https://dto.to/discord
+       </a>
+      </div>
+      <div>
+       Mirror announcement:
+       <a href="#skip" onclick="">
+        https://batotomirrors.pages.dev
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer class="footer">
+    <div class="container-fluid container-max-width-xl">
+     <div>
+      <a class="text-nowrap" href="#" onclick="">
+       Home
+      </a>
+      |
+      <a class="text-nowrap" href="#" onclick="">
+       FAQ+Rules
+      </a>
+      |
+      <a class="text-nowrap" href="#skip" onclick="">
+       Privacy Policy
+      </a>
+      |
+      <a class="text-nowrap" href="Javascript:void(0)" onclick="">
+       Terms of Service
+      </a>
+      |
+      <a class="text-nowrap" href="#skip" onclick="">
+       DMCA
+      </a>
+      |
+      <a class="text-nowrap" href="#skip" onclick="" title="Contact US By Email">
+       Contact US
+      </a>
+     </div>
+     <span class="small-text">
+      © 2018-2025
+      <a href="#skip" onclick="">
+       Bato.To
+      </a>
+      , all rights reserved.
+     </span>
+    </div>
+   </footer>
+   <div class="notification t" v-cloak="">
+    <notification :key="idx" :msg="msg" v-for="(msg, idx) of notify_msg_t">
+    </notification>
+   </div>
+   <div class="notification b" v-cloak="">
+    <notification :key="idx" :msg="msg" v-for="(msg, idx) of notify_msg_b">
+    </notification>
+   </div>
+   <back-to-top-bot>
+   </back-to-top-bot>
+  </div>
+  <script data-cfasync="false" src="local_resources\email-decode.min_fe4d362183056755.js">
+  </script>
+  <script>
+   const _uid = 0;
+      const _cfg = {"cver":"22","name":"Batoto","host":"mto.to","base":"mto.to","imgVer":0,"cssVer":53,"jsgVer":7,"jsmVer":52,"static":"mto.to/amsta"};
+      const _crs = {"_has_data":0,"_is_outdate":0,"settings_vers":0,"site_theme_mode":0,"site_adult_mode":0,"site_ad_format":0,"history_subject_login":0,"history_subject_local":0,"history_episode_login":0,"history_episode_local":0,"new_window_ajaxact_list":0,"new_window_subject_link":0,"new_window_episode_link":0,"analytic_system_google":0,"analytic_system_baidu":0,"topnav_hide_upload":0,"topnav_hide_discord":0,"topnav_hide_login":0,"topnav_hide_instruction":0,"home_page_my_updates_login":0,"home_page_my_updates_local":0,"home_page_my_history_login":0,"home_page_my_history_local":0,"home_page_popular":0,"home_page_disqus":0,"comic_page_chap_list_max_height":0,"comic_page_reviews":0,"comic_page_dicsuss":0,"comic_page_discuss_without_epi":0,"comic_page_disqus":0,"comic_page_btn_edit_title":0,"comic_page_btn_edit_middle":0,"comic_page_btn_edit_floating":0,"comic_page_btn_edit_bottom":0,"comic_page_btn_rss_title":0,"comic_page_btn_rss_floating":0,"comic_page_btn_follow_middle":0,"comic_page_btn_follow_floating":0,"comic_page_btn_watch_middle":0,"comic_page_btn_watch_floating":0,"comic_page_btn_mark_middle":0,"read_page_discuss":0,"block_genres_home_page_popular":["hentai"],"block_genres_home_page_release":["hentai"],"filter_langs_home_page_popular":["pt_br","pt","en"],"filter_langs_home_page_release":["pt_br","pt","en"],"v2_comment":"3","v2_review":"3"};
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-uzOpZ74myvXTYZ+mXUsPhDF+/iL/n32GDxdryI2SJronkEyKC8FBFRLiBQ7l7U/PTYebDbgTtbqTa6/vGtU23A==" referrerpolicy="no-referrer" src="local_resources\polyfill.min_e879c9aceeb778d2.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-uaZ0UXmB7NHxAxQawA8Ow2wWjdsedpRu7nJRSoI2mjnwtY8V5YiCWavoIpo1AhWPMLiW5iEeavmA3JJ2+1idUg==" referrerpolicy="no-referrer" src="local_resources\popper.min_012189bc8a052cda.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" referrerpolicy="no-referrer" src="local_resources\bootstrap.min_1d12f8deedfd7c79.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-BAMfk70VjqBkBIyo9UTRLl3TBJ3M0c6uyy2VMUrq370bWs7kchLNN9j1WiJQus9JAJVqcriIUX859JOm12LWtw==" referrerpolicy="no-referrer" src="local_resources\vue.min_bc9d792140d4af5c.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-nnNHpffPSgINrsR8ZAIgFUIMexORL5tPwsfktOTxVYSv+AUAILuFYWES8IHl+hhIhpFGlKvWFiz9ZEusrPcSBQ==" referrerpolicy="no-referrer" src="local_resources\axios.min_bcad98436add531b.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-Q1f3TS3vSt1jQ8AwP2OuenztnLU6LwxgyyYOG1jgMW/cbEMHps/3wjvnl1P3WTrF3chJUWEoxDUEjMxDV8pujg==" referrerpolicy="no-referrer" src="local_resources\moment.min_733493251f592bf1.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" referrerpolicy="no-referrer" src="local_resources\lodash.min_4dff002e280a05c0.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-wT7uPE7tOP6w4o28u1DN775jYjHQApdBnib5Pho4RB0Pgd9y7eSkAV1BTqQydupYDB9GBhTcQQzyNMPMV3cAew==" referrerpolicy="no-referrer" src="local_resources\js.cookie.min_0dc068a08fdfb915.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha512-3JC1BK1bUkuBNB04s7BR4VVQUNsNbBiwe5p6UqxNjR0FfhFoKT97gJ7lw953MMlKxy4UdIbFAol1Ap1Mt5+Qcw==" referrerpolicy="no-referrer" src="local_resources\dexie.min_722938b1e5f1fdaa.js">
+  </script>
+  <script src="local_resources\jss-btoto_v22_e45044acad14d64a.js">
+  </script>
+  <script>
+   const app = new Vue(VueModule_Home());
+  </script>
+  <script async="" src="local_resources\js_afd88790fca87484">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-RR3840ME7N');
+  </script>
+  <script async="" src="local_resources\log_54cc496bc8f686fd.js" type="text/javascript">
+  </script>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1" name="viewport"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<script src="local_resources\jquery.min_2e75b64787c24dc7.js"></script>
+<script src="local_resources\slick.min_61364aaabb0770f8.js" type="text/javascript"></script>
+<link href="local_resources\res_e8052bdc5a70e825" rel="dns-prefetch"/>
+<link crossorigin="" href="local_resources\res_e8052bdc5a70e825" rel="preconnect"/>
+<script>
+    window.viewLensOption = {
+        disabled: true,
+    }
+</script>
+<script src="local_resources\bundle.min_bfc6dc4af74b007d.js"></script>
+<!-- piano -->
+<script>
+    // 定数の定義
+    const COOKIE_NAME = 'cx_optOut';
+
+    // クッキーの読み込み関数
+    function getCookie(key) {
+        var regex = new RegExp(
+            `(?:^(?:^|.*;\\s*)${key}\\s*\\=\\s*([^;]*).*$)|^.*$`
+        );
+
+        return document.cookie.replace(regex, "$1");
+    }
+
+    // オプトアウト状態を取得する関数
+    function getOptOutStatus(cookieName) {
+        const status = getCookie(cookieName);
+        return status === 'true';
+    }
+
+    // @see https://tinypass.atlassian.net/wiki/spaces/CXPLATPUBLIC/pages/3406594059/Google+Ad+Manager
+    var cX = window.cX = window.cX || {
+        options: {
+            consent: getOptOutStatus(COOKIE_NAME),
+            campaignReporting: "viewability"
+        }
+    };
+    cX.callQueue = cX.callQueue || [];
+    cX.CCE = cX.CCE || {};
+    cX.CCE.callQueue = cX.CCE.callQueue || [];
+    cX.callQueue.push(['setSiteId', '1136319632297278415']);
+
+    // pidの設定
+    if (typeof localStorage === "object" && typeof localStorage.getItem === "function") {
+        var pId = getPianoId();
+        cX.callQueue.push(['addExternalId', {
+            'id': pId,
+            'type': 'its'
+        }]);
+    }
+
+    cX.CCE.callQueue.push(['sendPageViewEvent']);
+
+    (function(d, s, e, t) {
+        e = d.createElement(s);
+        e.type = 'text/java' + s;
+        e.async = 'async';
+        e.src = 'https://cdn.cxense.com/cx.cce.js';
+        t = d.getElementsByTagName(s)[0];
+        t.parentNode.insertBefore(e, t);
+    })(document, 'script');
+</script>
+<!-- End piano -->
+<script type="text/javascript">
+    (function(c, l, a, r, i, t, y) {
+        c[a] = c[a] || function() {
+            (c[a].q = c[a].q || []).push(arguments)
+        };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "gxisfofgjt");
+</script>
+<!-- Tagsmith, v1.0.1 -->
+<script>
+    (function(b, c) {
+        var e = [
+                ["test1", .05, .1],
+                ["test2", .15, .2],
+                ["test3", .25, .3],
+                ["test4", .35, .4],
+                ["test5", .45, .5],
+                ["test6", .533, .566, .599],
+                ["test7", .632, .665, .698],
+                ["test8", .732, .766, .8],
+                ["test9", .825, .85, .875, .9],
+                ["test10", .925, .95, .975, 1]
+            ],
+            g = function() {
+                var d = parseFloat(localStorage.getItem("__tagsmith_ab_factor"));
+                if (isNaN(d) || 0 > d || 1 <= d) d = Math.random(), localStorage.setItem("__tagsmith_ab_factor", d
+                    .toString());
+                for (var a = 0; a < e.length; a++)
+                    for (var k = e[a][0], f = 1; f < e[a].length; f++)
+                        if (d < e[a][f]) return k + "_" +
+                            (1 === f ? "con" : "exp" + (f - 1));
+                return null
+            }(),
+            h = {};
+        b[c] = b[c] || {};
+        b[c].userVariant = function() {
+            return g
+        };
+        b[c].enable = function(d, a) {
+            if ("all" === a) return !0;
+            if (a.lastIndexOf("_con") + 4 === a.length || h[a]) return !1;
+            h[a] = d;
+            return g === a
+        };
+        b[c].getLogger = function(d, a) {
+            return !1
+        };
+        b[c].__debug = function() {
+            return {
+                AB_CONF: e
+            }
+        };
+        g && (b.googletag = b.googletag || {
+            cmd: []
+        }, c = function() {
+            b.googletag.pubads().setTargeting("tagsmith_ab_variant", g)
+        }, b.googletag.cmd instanceof Array ? b.googletag.cmd.unshift(c) : b.googletag.cmd.push(c))
+    })(window,
+        "__tagsmith");
+</script>
+<!-- End Tagsmith -->
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WW62L6CG');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google tag (gtag.js) -->
+<script async="" src="local_resources\js_783a4e54a246c242"></script>
+<script>
+    const generatePageViewId = () => {
+        const length = 32;
+        return btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(length)))).substring(0, length);
+    };
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    const globalSettings = {
+        page_view_id: generatePageViewId(),
+    }
+    const selfTopUserValue = getServiceValue('self');
+
+    const topConfigArguments = {};
+    if (selfTopUserValue) {
+        topConfigArguments.user_id = selfTopUserValue.hash;
+    }
+    gtag('config', 'G-Y9NPPFL6QZ', topConfigArguments);
+
+    const topUserProperties = {};
+    topUserProperties.is_login = '0';
+    gtag("set", "user_properties", topUserProperties);
+</script>
+<script async="" src="local_resources\js_a2403a02e55f6e04"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+
+    const selfCrossingUserValue = getServiceValue('self');
+
+    const crossingConfigArguments = {};
+
+    if (selfCrossingUserValue) {
+        crossingConfigArguments.user_id = selfCrossingUserValue.hash;
+    }
+    gtag('config', 'G-CSVSM5K04R', crossingConfigArguments);
+</script>
+<script async="" defer="" src="local_resources\launchpad-liveramp_f74662fccea40d84.js">
+</script>
+<script type="text/javascript">
+    const liveRampServiceValue = window.getServiceValue("live-ramp");
+
+    if (!!liveRampServiceValue) {
+        window.addEventListener("envelopeModuleReady", function() {
+            console.log('ats ready');
+            ats.setAdditionalData({
+                'type': 'emailHashes',
+                'id': liveRampServiceValue.hash
+            });
+        });
+    }
+</script>
+<link as="style" href="local_resources\style-8884b446_2d2592d1447a8c0f.css" rel="preload"/><link href="local_resources\style-8884b446_2d2592d1447a8c0f.css" rel="stylesheet"/> <link href="local_resources\css_12289ab8baddc815" rel="stylesheet"/>
+<link as="style" href="local_resources\slick-theme-0affe8e8_72839710e792003d.css" rel="preload"/><link as="style" href="local_resources\slick-7a50cbc4_060b1b1817f9a43a.css" rel="preload"/><link href="local_resources\slick-theme-0affe8e8_72839710e792003d.css" rel="stylesheet"/><link href="local_resources\slick-7a50cbc4_060b1b1817f9a43a.css" rel="stylesheet"/>
+<title>ママスタ | ママのための情報プラットフォーム</title>
+<meta content="ママスタは、ママの今に最適な情報を発信し、必要なコミュニケーションの場を提供する「ママのための情報プラットフォーム」です。子育て・生活関連ニュース、コミュニティなど、様々なサービスを通じてママにとって役立つ情報を提供しています。" name="description"/>
+<meta content="ママ, セレクト, コミュニティ, コラム, 保活, まなび, レビュー, ママ向け, 子育て, 育児, 出産, BBS, 掲示板, クチコミ, 日記, 悩み, 相談" name="keywords"/>
+<meta content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1" name="viewport"/>
+<link href="local_resources\res_5460cc57f438d3c6" rel="canonical"/>
+<meta content="index,follow" name="robots"/>
+<meta content="ママスタ|ママのための情報プラットフォーム" property="og:title"/>
+<meta content="ママスタは、ママの今に最適な情報を発信し、必要なコミュニケーションの場を提供する「ママのための情報プラットフォーム」です。子育て・生活関連ニュース、コミュニティなど、様々なサービスを通じてママにとって役立つ情報を提供しています。" property="og:description"/>
+<meta content="https://mamastar.jp" property="og:url"/>
+<meta content="website" property="og:type"/>
+<meta content="mamasta | ママスタ" property="og:site_name"/>
+<meta content="https://mamastar.jp/build/assets/ogimage-577abe69.png" property="og:image"/>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-WW62L6CG" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- ヘッダー/ -->
+<header>
+<p class="headerCopy">
+        子育てに関する情報満載！ママの情報プラットフォーム ママスタ
+    </p>
+<div class="headerInner">
+<h1 class="header__logo">
+<a href="/">
+<img alt="ママスタロゴ" src="local_resources\logo_mamasta-70972f87_4dec05fd67198627.svg"/>
+</a>
+</h1>
+<div class="sp-version">
+<p class="header__button viewNotLogin">
+<a class="buttonRegister" href="https://members.mamastar.jp/auth/signup" rel="nofollow">新規会員登録</a>
+</p>
+<div class="drawer">
+<input class="drawer__checkbox" id="drawerCheckbox" type="checkbox"/>
+<label class="drawer__icon" dusk="drawer-button" for="drawerCheckbox">
+<span class="drawer__icon-parts"></span>
+</label>
+<label class="drawer__overlay" for="drawerCheckbox"></label>
+<nav class="drawer__menu">
+<br/>
+<div class="drawer__button viewNotLogin">
+<a class="buttonRedMinSP buttonRegister" href="https://members.mamastar.jp/auth/signup?ref=https%3A%2F%2Fmamastar.jp" rel="nofollow">新規会員登録</a>
+</div>
+<div class="drawer__button viewNotLogin"><a class="buttonMinSP buttonLogin" href="https://members.mamastar.jp/auth/signin?ref=https%3A%2F%2Fmamastar.jp" rel="nofollow">ログイン</a>
+</div>
+<div class="drawer__wrap">
+<div class="drawer__subTitle">ママスタのサービス</div>
+<ul class="drawer__items">
+<a dusk="select-mamastar-button" href="https://select.mamastar.jp/">
+<li class="drawer__item drawer__underline drawer__topline">
+<img alt="ママスタセレクト" src="local_resources\menu_select-27657c07_2bf59dca330efd8a.svg"/>
+</li>
+</a>
+<li class="drawer__item drawer__underline">
+<a href="https://mamastar.jp/bbs">
+<img alt="ママスタコミュニティ" src="local_resources\menu_community-9fb3548f_93103132c5d5c04d.svg"/>
+</a>
+<ul class="drawer__community">
+<li>
+<a href="https://mamastar.jp/bbs/info/help/rule">コミュニティをご利用のみなさまへ</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/2">なんでも</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/4">ニュース全般</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/5">美容・ファッション</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/7">趣味・遊び</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/8">旦那・家族</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/10">妊娠・出産</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/13">乳児・幼児</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/14">小学生</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/23">ＴＶ・エンタメ</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/24">芸能人・有名人</a>
+</li>
+</ul>
+</li>
+<a href="https://column.mamastar.jp/">
+<li class="drawer__item drawer__underline">
+<img alt="ママスタコラム" src="local_resources\menu_column-40ed0e66_3684ae191b51457f.svg"/>
+</li>
+</a>
+<a href="/polls">
+<li class="drawer__item drawer__underline drawer__boldtxt">
+                                    mamasta アンケートβ
+                                </li>
+</a>
+<a href="https://jukushiru.com/article/" target="_blank">
+<li class="drawer__item drawer__underline drawer__boldtxt">
+                                    塾探し（塾シル）
+                                </li>
+</a>
+</ul>
+<div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<ul class="pc-version header__items">
+<li class="viewNotLogin"><a class="buttonRedMin buttonRegister" href="https://members.mamastar.jp/auth/signup" rel="nofollow">新規会員登録</a></li>
+<li class="viewNotLogin">
+<a class="buttonMin buttonLogin" href="https://members.mamastar.jp/auth/signin?ref=https%3A%2F%2Fmamastar.jp" rel="nofollow">ログイン
+                    </a>
+</li>
+</ul>
+</div>
+</header>
+<!-- /ヘッダー -->
+<!-- グローバルナビ/ -->
+<nav id="globalNavi">
+<div class="globalNavi__wrap">
+<ul class="globalNavi__items pc-version">
+<li><a dusk="global-navi-mamastar-select-button" href="https://select.mamastar.jp/">セレクト</a>
+</li>
+<li><a href="https://mamastar.jp/bbs">コミュニティ</a></li>
+<li><a href="https://column.mamastar.jp/">コラム</a></li>
+<li><a href="https://jukushiru.com/article/" target="_blank">塾探し</a></li>
+<li><a href="https://mamastar.jp/polls">アンケートβ</a></li>
+</ul>
+</div>
+</nav>
+<!-- /グローバルナビ -->
+<!-- トップスライド/ -->
+<div id="slide">
+<ul class="topSlider">
+<li>
+<a href="https://select.mamastar.jp/1419105">
+<img alt="【東京都港区 清家 愛区長インタビュー】ママたちの声には、社会を変えていく力がある" src="local_resources\c-3id6-n8p2_thumbnail_972f9016be5a73e0.png"/>
+<div class="slide__content">
+<div class="slide__catch">【東京都港区 清家 愛区長インタビュー】ママたちの声には、社会を変えていく力がある</div>
+<div class="slide__service">ママスタセレクト</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://select.mamastar.jp/sumai?utm_source=mamasta&amp;utm_medium=mamasta_bannertop">
+<img alt="家のあれこれ、笑えるトラブルも！まんがで読む住まい特集" src="local_resources\xs62e0aguyl_thumbnail_cde2330fc5b9bcdc.png"/>
+<div class="slide__content">
+<div class="slide__catch">家のあれこれ、笑えるトラブルも！まんがで読む住まい特集</div>
+<div class="slide__service">ママスタセレクト</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://select.mamastar.jp/1399727">
+<img alt="【菊地亜美さん・第1回】予定をパズルのように組み立てる多忙な毎日。そんな状況で支えになったのは？" src="local_resources\lfz1pcwnv_thumbnail_a455efb54436ad47.png"/>
+<div class="slide__content">
+<div class="slide__catch">【菊地亜美さん・第1回】予定をパズルのように組み立てる多忙な毎日。そんな状況で支えになったのは？</div>
+<div class="slide__service">ママスタセレクト</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://mamastar.jp/info/memberbenefits">
+<img alt="ママスタ会員になると何ができるの？" src="local_resources\78n1ggjngk7_thumbnail_2a1609428d065acb.png"/>
+<div class="slide__content">
+<div class="slide__catch">ママスタ会員になると何ができるの？</div>
+<div class="slide__service">ママスタ</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://select.mamastar.jp/ikinuki">
+<img alt="話題作をイッキ読み！ママスタ連載まんが" src="local_resources\dcevrevgs_thumbnail_a2d3ec17a24d3351.png"/>
+<div class="slide__content">
+<div class="slide__catch">話題作をイッキ読み！ママスタ連載まんが</div>
+<div class="slide__service">ママスタセレクト</div>
+</div>
+</a>
+</li>
+<li>
+<a href="https://members.mamastar.jp/lucky-challenge/top">
+<img alt="【会員限定】毎日ラッキーチャレンジ開催中🎯" src="local_resources\nd-o6ayw26_thumbnail_9652f9aa73758fee.png"/>
+<div class="slide__content">
+<div class="slide__catch">【会員限定】毎日ラッキーチャレンジ開催中🎯</div>
+<div class="slide__service">ママスタ</div>
+</div>
+</a>
+</li>
+<li>
+<a href="http://column.mamastar.jp/">
+<img alt="有名人が子育て体験や家族を語るロングインタビュー「ママスタコラム」" src="local_resources\ypn956ovvwt_thumbnail_9c8eabe51a9a0d62.png"/>
+<div class="slide__content">
+<div class="slide__catch">有名人が子育て体験や子ども時代を語るインタビュー「ママスタコラム」</div>
+<div class="slide__service">ママスタコラム</div>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<!-- /トップスライド -->
+<main>
+<!-- お知らせ/ -->
+<section id="info">
+<dl class="info__items">
+<dt class="info__itemtitle">お知らせ</dt>
+<dd class="info__item">
+<ul>
+<li>
+<a href="https://members.mamastar.jp/lucky-challenge/top" rel="nofollow">
+                                                5000円分！ラキチャレ開催中🎯
+                                            </a>
+</li>
+</ul>
+</dd>
+</dl>
+</section>
+<!-- /お知らせ -->
+<!-- セレクト/ -->
+<section id="select">
+<div class="wrap wrap_margin">
+<div class="headingTitle">
+<h2>
+<a href="https://select.mamastar.jp/">
+<img alt="ママスタセレクト" src="local_resources\logo_select-65192518_8fd4943de95a3e99.svg"/>
+</a>
+</h2>
+<p class="headingTitle__lead">ママに関するニュースやマンガ、専門家コラムなどを配信</p>
+</div>
+<ul class="select__items">
+<li class="select__item">
+<a href="https://select.mamastar.jp/1420019">
+<div class="select__img">
+<img alt="＜占いにハマって80万！？＞お金欲しがる母が怪しい…「明細見せて！」妹が迫ると？【第1話まんが】" src="local_resources\1757993119-f682dcfbfc8b17a8afa13056e3a3768c-e1760752895899_ac0fee1f2d4cb7ed.jpg"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__title">＜占いにハマって80万！？＞お金欲しがる母が怪しい…「明細見せて！」妹が迫ると？【第1話まんが】</h2>
+<p class="select__txtBottom">
+<span class="select__category">まんが</span><span class="select__day">2025/10/21</span>
+</p>
+</div>
+</a>
+</li>
+<li class="select__item">
+<a href="https://select.mamastar.jp/1373826">
+<div class="select__img">
+<img alt="＜バチギレ夫・なぜ結婚したの？問題＞「情緒不安定すぎ」仲間と悩み共有！スッキリ～【第4話まんが】" src="local_resources\1751345727-a7dd2aec75b093d52064e9cf7a10594d-e1751595732321_0541a7a99dae6a4b.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__title">＜バチギレ夫・なぜ結婚したの？問題＞「情緒不安定すぎ」仲間と悩み共有！スッキリ～【第4話まんが】</h2>
+<p class="select__txtBottom">
+<span class="select__category">まんが</span><span class="select__day">2025/10/21</span>
+</p>
+</div>
+</a>
+</li>
+<li class="select__item">
+<a href="https://select.mamastar.jp/1412689">
+<div class="select__img">
+<img alt="＜離婚案件？＞義両親が勝手に家を建てて「早く引っ越してきて」と言われた。旦那よ、初耳なんだけど！" src="local_resources\1756272146-7ecf2710628ec5ab7d652aade8278834_58bd1528f0c60cf8.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__title">＜離婚案件？＞義両親が勝手に家を建てて「早く引っ越してきて」と言われた。旦那よ、初耳なんだけど！</h2>
+<p class="select__txtBottom">
+<span class="select__category">家族</span><span class="select__day">2025/10/20</span>
+</p>
+</div>
+</a>
+</li>
+<li class="select__item">
+<a href="https://select.mamastar.jp/692174">
+<div class="select__img">
+<img alt="＜夫の無職は、妻のセイ？＞同居の義両親が怖い「妊娠中も働け」「嫁の役割だろうが」【第1話まんが】" src="local_resources\1661382160-94f14d3418d3226ad47282c0e197e788-e1662624785775-430x290_fee88e3f1743666d.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__title">＜夫の無職は、妻のセイ？＞同居の義両親が怖い「妊娠中も働け」「嫁の役割だろうが」【第1話まんが】</h2>
+<p class="select__txtBottom">
+<span class="select__category">まんが</span><span class="select__day">2025/10/20</span>
+</p>
+</div>
+</a>
+</li>
+<li class="select__item">
+<a href="https://select.mamastar.jp/1406788">
+<div class="select__img">
+<img alt="＜優柔不断＞旦那が服選びに3時間もかけちゃう！みんなは待てる？帰る？合理的な解決策は…" src="local_resources\1755932079-b7c7c29cbf9e3ea434a9f56fcf9212e0_f46f57720552d343.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__title">＜優柔不断＞旦那が服選びに3時間もかけちゃう！みんなは待てる？帰る？合理的な解決策は…</h2>
+<p class="select__txtBottom">
+<span class="select__category">家族</span><span class="select__day">2025/10/20</span>
+</p>
+</div>
+</a>
+</li>
+<a class="button" href="https://select.mamastar.jp/page/1">記事をもっとみる</a>
+</ul>
+<div class="select__features">
+<p>特集</p>
+<ul class="slider">
+<li>
+<ul>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/tag/t_sukkiri">
+<img alt="もやもやスッキリ" class="select__topicBn" src="local_resources\select_refresh-c6f85915_591dde6c8b43a06e.png"/>
+</a>
+</li>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/1443186">
+<div class="select__imgSm">
+<img alt="＜季節外れの花火でトラブル！？＞近所の公園で手持ち花火解禁！さっそく行ってみたら…【前編まんが】" src="local_resources\1759798873-3d510a1014415dec817cde24effe54cc-e1760517884342_2e123c4751d119f9.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜季節外れの花火でトラブル！？＞近所の公園で手持ち花火解禁！さっそく行ってみたら…【前編まんが】</h2>
+<span class="select__daySm">2025/10/20</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/1441563">
+<div class="select__imgSm">
+<img alt="＜非常識！ドタキャン義姉＞「え～またリスケ？」何回誘っても断られるし！怪しすぎ…【第1話まんが】" src="local_resources\1759574010-973f6def3e8bc3808c2100257e0bff21-e1760332525395_f1822291370c1f89.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜非常識！ドタキャン義姉＞「え～またリスケ？」何回誘っても断られるし！怪しすぎ…【第1話まんが】</h2>
+<span class="select__daySm">2025/10/16</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/1430703">
+<div class="select__imgSm">
+<img alt="＜配慮は必要？＞「イベントは中止！」子どもが可哀想？納得するしかない流れにモヤモヤ【前編まんが】" src="local_resources\1758687419-26667ea3f72ad9b13f995b93bd83a8ca-e1759127688296_b5fed169976320c7.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜配慮は必要？＞「イベントは中止！」子どもが可哀想？納得するしかない流れにモヤモヤ【前編まんが】</h2>
+<span class="select__daySm">2025/10/15</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/1422285">
+<div class="select__imgSm">
+<img alt="＜貸さない＝意地悪？＞几帳面で優しい娘。忘れ物した隣の席の子にナフキン貸したら…【第1話まんが】" src="local_resources\1757407577-9b8e0f24cedec62d53c891965f072501_fb475665aa912abf.jpg"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜貸さない＝意地悪？＞几帳面で優しい娘。忘れ物した隣の席の子にナフキン貸したら…【第1話まんが】</h2>
+<span class="select__daySm">2025/10/13</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/608369">
+<div class="select__imgSm">
+<img alt="＜下校トラブル＞小1娘が帰って来ない！？「寄り道ダメ」約束を破って友達の家に……【第1話まんが】" src="local_resources\1644898202-14e08c47f694a64f64d8dff921a7e389-e1645235699370-430x290_8855a03bac0bc770.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜下校トラブル＞小1娘が帰って来ない！？「寄り道ダメ」約束を破って友達の家に……【第1話まんが】</h2>
+<span class="select__daySm">2025/09/30</span>
+</div>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/tag/t_naku">
+<img alt="今日だけ泣かせて" class="select__topicBn" src="local_resources\select_cry-a60a3435_f16541fe344fdc8d.png"/>
+</a>
+</li>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/678295">
+<div class="select__imgSm">
+<img alt="＜敷地内同居の解消へ＞旦那の給料が大幅カット！？同居後、義母から召使い扱いされる私【前編まんが】" src="local_resources\1721273434-c430bd32aa9c29fa967344b301c4217e_9f3db33a59fb58f3.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜敷地内同居の解消へ＞旦那の給料が大幅カット！？同居後、義母から召使い扱いされる私【前編まんが】</h2>
+<span class="select__daySm">2025/10/13</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/1440598">
+<div class="select__imgSm">
+<img alt="＜実家が空き家になりました＞「払えないッ！」築80年の実家⇒固定資産税が6倍！？【第1話まんが】" src="local_resources\1759442552-9cea93232eebd057c557c7d99acfc9ee-e1759974369104_b289759042964ec5.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜実家が空き家になりました＞「払えないッ！」築80年の実家⇒固定資産税が6倍！？【第1話まんが】</h2>
+<span class="select__daySm">2025/10/13</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/1428983">
+<div class="select__imgSm">
+<img alt="＜言わずにいられない…＞子どもたちが心配！干渉しすぎかなと思うけど…モヤモヤする！【前編まんが】" src="local_resources\1758431579-49f9455550f593426800557904b59e5d-e1758692446837_8ef35cf4da657f4d.jpg"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜言わずにいられない…＞子どもたちが心配！干渉しすぎかなと思うけど…モヤモヤする！【前編まんが】</h2>
+<span class="select__daySm">2025/10/12</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/673665">
+<div class="select__imgSm">
+<img alt="＜無職の兄を溺愛する高齢の母＞子ども部屋おじさんの兄と、財布にされる私。いつまで【第1話まんが】" src="local_resources\1657848420-08b4a981da2c77034afd0e8c26898e77-e1658157622800-430x290_6885a397fb776622.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜無職の兄を溺愛する高齢の母＞子ども部屋おじさんの兄と、財布にされる私。いつまで【第1話まんが】</h2>
+<span class="select__daySm">2025/10/11</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/1419461">
+<div class="select__imgSm">
+<img alt="＜80代の親、キレる理由＞老後の話をしたら「うるさいッ」父が激怒！心配したらダメ？【前編まんが】" src="local_resources\1756979306-10751387da94e4ff03882cd1abe68c2c-e1757563092649_989fc64f417e6dc0.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜80代の親、キレる理由＞老後の話をしたら「うるさいッ」父が激怒！心配したらダメ？【前編まんが】</h2>
+<span class="select__daySm">2025/10/06</span>
+</div>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/tag/t_crazy">
+<img alt="こんな人いるの？" class="select__topicBn" src="local_resources\select_suprise-185813c0_3bbed8b261be873d.png"/>
+</a>
+</li>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/692174">
+<div class="select__imgSm">
+<img alt="＜夫の無職は、妻のセイ？＞同居の義両親が怖い「妊娠中も働け」「嫁の役割だろうが」【第1話まんが】" src="local_resources\1661382160-94f14d3418d3226ad47282c0e197e788-e1662624785775-430x290_fee88e3f1743666d.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜夫の無職は、妻のセイ？＞同居の義両親が怖い「妊娠中も働け」「嫁の役割だろうが」【第1話まんが】</h2>
+<span class="select__daySm">2025/10/20</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/691271">
+<div class="select__imgSm">
+<img alt="＜嫁はデリケート＞1歳の孫に、一度も会わせてもらえない？「なぜ……」【第1話まんが：妹の気持ち】" src="local_resources\1760868008-36a555c2c8b9bfe8e992c0b65c0ea4d7_cfff4fe7d5250820.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜嫁はデリケート＞1歳の孫に、一度も会わせてもらえない？「なぜ……」【第1話まんが：妹の気持ち】</h2>
+<span class="select__daySm">2025/10/19</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/1431064">
+<div class="select__imgSm">
+<img alt="＜子の安全より2万円！？＞また？「入れて～」断ってるのに友だちの妹が勝手に来る！【第1話まんが】" src="local_resources\1758713689-aae0e4bbf80b94a8f30c41e292a40133-e1758714122330_786d417e8b4e57f9.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜子の安全より2万円！？＞また？「入れて～」断ってるのに友だちの妹が勝手に来る！【第1話まんが】</h2>
+<span class="select__daySm">2025/10/19</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/1364894">
+<div class="select__imgSm">
+<img alt="＜パパの育児放棄、改善の道は？＞自分本位すぎウンザリ…「いつもやってるでしょ？」【第1話まんが】" src="local_resources\1750728994-1686bacfdabb79df6eb7acfd81706c3d-e1751503080589_194ad5a21fac86d2.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜パパの育児放棄、改善の道は？＞自分本位すぎウンザリ…「いつもやってるでしょ？」【第1話まんが】</h2>
+<span class="select__daySm">2025/10/19</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/1440717">
+<div class="select__imgSm">
+<img alt="＜許せない！スライム事件＞初めてママ友宅へ！こだわりが強い女の子と仲良く遊べる！？【前編まんが】" src="local_resources\1759468533-37a03eb76f69454eba916d85486d1b41-e1760508440826_52764634de0b797e.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜許せない！スライム事件＞初めてママ友宅へ！こだわりが強い女の子と仲良く遊べる！？【前編まんが】</h2>
+<span class="select__daySm">2025/10/18</span>
+</div>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<ul>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/tag/t_warau">
+<img alt="とにかく笑う" class="select__topicBn" src="local_resources\select_laugh-1ed562b5_09eaecccdd02c7fe.png"/>
+</a>
+</li>
+<li class="select__topic">
+<a href="https://select.mamastar.jp/1416164">
+<div class="select__imgSm">
+<img alt="＜結局アナログか〜い！＞学校の紙プリント量に困惑…連絡がアプリ切り替え「やった！」【前編まんが】" src="local_resources\1756875374-f9c29a7c0bd3dab6be1ff76e47479faa_cc8526e998d38a23.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜結局アナログか〜い！＞学校の紙プリント量に困惑…連絡がアプリ切り替え「やった！」【前編まんが】</h2>
+<span class="select__daySm">2025/09/17</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/642737">
+<div class="select__imgSm">
+<img alt="＜丁寧じゃない暮らし＞ズボラ？意識低め？「一緒だね〜！！」映えない私たちの暴露大会【前編まんが】" src="local_resources\1651718571-f5e41b4992f2c2773ea8b01cb93337e4-430x290_b60e259055964663.jpg"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜丁寧じゃない暮らし＞ズボラ？意識低め？「一緒だね〜！！」映えない私たちの暴露大会【前編まんが】</h2>
+<span class="select__daySm">2025/09/05</span>
+</div>
+</a>
+</li>
+<li class="select__topic sp-version sp-none">
+<a href="https://select.mamastar.jp/397417">
+<div class="select__imgSm">
+<img alt="【本当にあった面白い話】「変質者だとーっ！！」お父さん、落ち着いて！【第1話まんが】" src="local_resources\1588067764-d0baeecf679c99234d9f0cb613fc0439-430x290_a5246bb2eea215e0.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                【本当にあった面白い話】「変質者だとーっ！！」お父さん、落ち着いて！【第1話まんが】</h2>
+<span class="select__daySm">2025/09/02</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/886790">
+<div class="select__imgSm">
+<img alt="＜ママのご褒美が……ナイ！＞楽しみにしていたアイス「子どもたちに全部食べられた～」【前編まんが】" src="local_resources\1695298685-6b064f7b0c12748675db35927e6dd038-e1695298780907-430x290_df94019eb5675b3a.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜ママのご褒美が……ナイ！＞楽しみにしていたアイス「子どもたちに全部食べられた～」【前編まんが】</h2>
+<span class="select__daySm">2025/07/24</span>
+</div>
+</a>
+</li>
+<li class="select__topic pc-version">
+<a href="https://select.mamastar.jp/565775">
+<div class="select__imgSm">
+<img alt="＜ダイエット宣言＞きっかけは……「大盛りライス！」ぽっちゃりママの大逆襲【前編まんが】" src="local_resources\1688709643-64db8b5660bd49d9eeb867d18d570641-430x290_8de7a1002ca16f34.png"/>
+</div>
+<div class="select__txtArea">
+<h2 class="select__titleSm text_limitSm">
+                                                                ＜ダイエット宣言＞きっかけは……「大盛りライス！」ぽっちゃりママの大逆襲【前編まんが】</h2>
+<span class="select__daySm">2025/06/22</span>
+</div>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<!-- /セレクト -->
+<!-- コミュニティ/ -->
+<section dusk="community-section" id="community">
+<div class="wrap">
+<div class="headingTitle">
+<h2>
+<a href="https://mamastar.jp/bbs">
+<img alt="ママスタコミュニティ" src="local_resources\logo_community-2ce9647d_60ed8e641327289f.svg"/>
+</a>
+</h2>
+<p class="headingTitle__lead">ママの本音があふれる掲示板コミュニティ</p>
+</div>
+<div class="select__features">
+<p>注目ランキング</p>
+<ol class="community__items">
+<div class="community__ranking">
+<a href="https://mamastar.jp/bbs/topic/3009840">
+<li class="community__item">
+<span class="community__ribbon community__ribbonGold">1
+                                    </span>
+<span class="community__title">
+                                        大嫌いな人へ
+                                    </span>
+<span class="community__day">
+                                        18/03/09 21:28:52
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        34581
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/3966246">
+<li class="community__item">
+<span class="community__ribbon community__ribbonSilver">2
+                                    </span>
+<span class="community__title">
+                                        ママスタセレクト総合トピ
+                                    </span>
+<span class="community__day">
+                                        21/10/28 12:20:27
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        522470
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/4589150">
+<li class="community__item">
+<span class="community__ribbon community__ribbonBronze">3
+                                    </span>
+<span class="community__title">
+                                        ごめんだけど、仕事優先するわって夫に言われた
+                                    </span>
+<span class="community__day">
+                                        25/10/20 22:34:32
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        29
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/4589144">
+<li class="community__item">
+<span class="community__ribbon">4
+                                    </span>
+<span class="community__title">
+                                        結婚しない人が増えて、自由で良い！とか絶賛されているけど
+                                    </span>
+<span class="community__day">
+                                        25/10/20 22:14:56
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        53
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/4589178">
+<li class="community__item">
+<span class="community__ribbon">5
+                                    </span>
+<span class="community__title">
+                                        ママスタって否定から入る人ばかりじゃない？
+                                    </span>
+<span class="community__day">
+                                        25/10/21 07:23:48
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        15
+                                    </span>
+</li>
+</a>
+</div>
+<div class="community__ranking pc-version">
+<a href="https://mamastar.jp/bbs/topic/4589142">
+<li class="community__item">
+<span class="community__ribbon">6
+                                    </span>
+<span class="community__title">
+                                        お正月12/29から、お節料理のために義実家に泊まらされて
+                                    </span>
+<span class="community__day">
+                                        25/10/20 22:06:34
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        25
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/4589176">
+<li class="community__item">
+<span class="community__ribbon">7
+                                    </span>
+<span class="community__title">
+                                        AIとケンカしたことある？
+                                    </span>
+<span class="community__day">
+                                        25/10/21 07:20:57
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        10
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/4588895">
+<li class="community__item">
+<span class="community__ribbon">8
+                                    </span>
+<span class="community__title">
+                                        ストーカーみたいで気持ち悪いと言われた
+                                    </span>
+<span class="community__day">
+                                        25/10/19 14:58:17
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        96
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/4239801">
+<li class="community__item">
+<span class="community__ribbon">9
+                                    </span>
+<span class="community__title">
+                                        なんかどうでもいいこと聞かせてくれない？
+                                    </span>
+<span class="community__day">
+                                        23/04/12 11:14:04
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        222444
+                                    </span>
+</li>
+</a>
+<a href="https://mamastar.jp/bbs/topic/4589171">
+<li class="community__item">
+<span class="community__ribbon">10
+                                    </span>
+<span class="community__title">
+                                        今日とうとう40歳になった
+                                    </span>
+<span class="community__day">
+                                        25/10/21 05:28:59
+                                    </span>
+<span class="community__comment">
+<img src="local_resources\icon_comment-c366814b_9967707888fa157b.svg"/>
+                                        19
+                                    </span>
+</li>
+</a>
+</div>
+</ol>
+</div>
+<div class="community__button">
+<a class="button" dusk="ranking-community-button" href="https://mamastar.jp/bbs">ランキングをもっとみる</a>
+</div>
+<div class="community__wrap">
+<div class="community__anchor">
+<a class="buttonWhite" href="https://mamastar.jp/bbs/newlist">新着トピック一覧</a>
+</div>
+<div class="community__anchor pc_none">
+<a class="buttonWhite" href="https://mamastar.jp/bbs/latestlist">更新トピック一覧</a>
+</div>
+<div class="community__anchor sp_none">
+<a class="buttonWhite" href="https://mamastar.jp/bbs/latestlist">更新トピック一覧</a>
+</div>
+</div>
+</div>
+</section>
+<!-- /コミュニティ -->
+<!-- コラム/ -->
+<section id="column">
+<div class="wrap wrap_margin">
+<div class="headingTitle">
+<h2>
+<a href="https://column.mamastar.jp/">
+<img alt="ママスタコラム" src="local_resources\logo_column-17973d1b_1972cb012433dafa.svg"/>
+</a>
+</h2>
+<p class="headingTitle__lead">芸能人が語る家族や子育て体験インタビュー</p>
+</div>
+<div class="column__wrap">
+<div class="column__img">
+<a href="https://column.mamastar.jp/">
+<img src="local_resources\column_bn-be7e6ede_3cb21d19136e186c.png"/>
+</a>
+</div>
+<div class="column__items">
+<ul class="column__photo">
+<li>
+<a href="https://column.mamastar.jp/kikuchiami">
+<img src="local_resources\top_column78-8dcdf25a_5e7af19fa8a3fdff.png"/>
+<p>菊地 亜美</p>
+</a>
+</li>
+<li>
+<a href="https://column.mamastar.jp/yoshio_tetsuya">
+<img src="local_resources\top_column76-d7f72f64_25f8c9f1d6769599.png"/>
+<p>小島よしお×EXILE TETSUYA</p>
+</a>
+</li>
+<li>
+<a href="http://column.mamastar.jp/masato">
+<img src="local_resources\top_column74-3c2c600d_de8ccdb4867e5892.png"/>
+<p>魔裟斗</p>
+</a>
+</li>
+</ul>
+<div class="pc-version">
+<ul class="column__photo">
+<li>
+<a href="http://column.mamastar.jp/exile-papa">
+<img src="local_resources\top_column73-c33f0dc0_67ad65c418b81e49.png"/>
+<p>ÜSA×松本×MAKIDAI</p>
+</a>
+</li>
+<li>
+<a href="http://column.mamastar.jp/exile-makidai">
+<img src="local_resources\top_column72-654309bf_ae0117b4fa3aca06.png"/>
+<p>EXILE MAKIDAI</p>
+</a>
+</li>
+<li>
+<a href="http://column.mamastar.jp/tosakajunichi">
+<img src="local_resources\top_column71-71a85bd7_2b0929f445062665.png"/>
+<p>登坂 淳一</p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a class="button" href="https://column.mamastar.jp/">ママスタコラム TOPへ</a>
+</div>
+</section>
+<!-- /コラム -->
+</main>
+<aside id="member">
+<div class="wrap wrap_margin">
+<!-- 会員登録促進 非ログイン時のみ表示 / -->
+<div class="member__items viewNotLogin">
+<p class="member__head">ママスタ会員に登録しよう</p>
+<p class="member__txt">会員専用メルマガやお得なキャンペーンの参加など特典がいっぱい！</p>
+<div class="member__wrap">
+<div class="member__button"><a class="buttonRed buttonRegister" href="https://members.mamastar.jp/auth/signup" rel="nofollow">会員登録する</a></div>
+</div>
+</div>
+<!-- /会員登録促進 -->
+<div class="member__items">
+<p class="member__detail">ママスタは、ママの今に最適な情報を発信し、必要なコミュニケーションの場を提供する「ママのための情報プラットフォーム」です。<br/>
+                子育て・生活関連ニュース、コミュニティなど、様々なサービスを通じてママにとって役立つ情報を提供しています。</p>
+</div>
+</div>
+</aside>
+<link href="local_resources\index-d5db400f_f631457983eacd29.js" rel="modulepreload"/><link href="local_resources\personalInfo-8dca1ffb_0f7ca84af262703e.js" rel="modulepreload"/><script src="local_resources\index-d5db400f_f631457983eacd29.js" type="module"></script><script src="local_resources\personalInfo-8dca1ffb_0f7ca84af262703e.js" type="module"></script>
+<!-- フッター /-->
+<nav id="navigation">
+<div class="navigation__items">
+<div class="navigation__wrap">
+<div class="navigation__item">
+<ul class="navigation__shareItems">
+<li class="navigation__shareItem navigation__shareLine">
+<a href="https://line.me/R/ti/p/@oa-mamasta?from=page" target="_blank"></a>
+</li>
+<li class="navigation__shareItem navigation__shareFacebook">
+<a href="https://www.facebook.com/mamastar.select" target="_blank"></a>
+</li>
+<li class="navigation__shareItem navigation__shareX">
+<a href="https://twitter.com/mamastar_select" target="_blank"></a>
+</li>
+<li class="navigation__shareItem navigation__shareInstagram">
+<a href="https://www.instagram.com/mamastar_select/" target="_blank"></a>
+</li>
+</ul>
+<p class="navigation__category">人気のコミュニティカテゴリ</p>
+<ul class="navigation__txt">
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/2">なんでも</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/4">ニュース全般</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/8">旦那・家族</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/10">妊娠・出産</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/23">ＴＶ・エンタメ</a>
+</li>
+<li>
+<a href="https://mamastar.jp/bbs/topic/category/24">芸能人・有名人</a>
+</li>
+</ul>
+<p class="navigation__category">ママスタについて</p>
+<p class="navigation__txt">
+<a href="https://mamastar.jp/info/memberbenefits">会員特典のご紹介</a><br/>
+<a href="https://mamastar.jp/info/qa">Q&amp;A</a><br/>
+<a href="https://select.mamastar.jp//ads">広告出稿について</a>
+</p>
+</div>
+<div class="navigation__item">
+<p class="navigation__category">おすすめ</p>
+<p class="navigation__txt">
+<a href="https://mamastar.jp/special/mamarisa/">ママスタの実態調査</a><br/>
+<a href="https://yogajournal.jp/" target="_blank">ヨガジャーナルオンライン</a><br/>
+<a href="https://saita-puls.com/" target="_blank">saita(サイタ)</a><br/>
+<a href="https://4meee.com/" target="_blank">4MEEE(フォーミー)</a><br/>
+<a href="https://4yuuu.com/" target="_blank">4yuuu(フォーユー)</a><br/>
+<a href="https://4meee.com/4moon" target="_blank">4MOON(フォームーン)</a><br/>
+<a href="https://jukushiru.com/" target="_blank">塾シル</a><br/>
+<a href="https://hakensearch.net/" target="_blank">転職派遣サーチ</a><br/>
+<a href="https://www.interspace.ne.jp/media/" target="_blank">プロリア</a><br/>
+<a href="https://www.interspace.ne.jp/media/programming/" target="_blank">プロリア プログラミング</a><br/>
+<a href="https://www.interspace.ne.jp/media/english/" target="_blank">プロリア 英会話</a><br/>
+<a href="https://newscast.jp/b/mamasta" target="_blank">ママスタ プレスリリース</a><br/>
+<a href="https://www.accesstrade.ne.jp" target="_blank">アクセストレード</a><br/>
+</p>
+</div>
+<div class="navigation__item navigation__inquiry">
+<!-- ご意見箱/ -->
+<dl class="navigation__goiken">
+<dt class="navigation__goikenTitle">ママスタお問い合わせ</dt>
+<!-- 送信前/ -->
+<dd class="navigation__goikenForm">
+<p><a href="https://members.mamastar.jp/inquiry">お問い合わせはこちら</a></p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</nav>
+<!-- /フッター -->
+<!-- サービス共通フッター/ -->
+<footer>
+<div class="footer__inner">
+<div class="footer__logo">
+<p>ママにより添い、笑顔をふやす。</p>
+<a href="/"><img alt="ママスタロゴ" src="local_resources\logo_mamasta-70972f87_4dec05fd67198627.svg"/></a>
+</div>
+<div class="globalNav">
+<nav>
+<ul>
+<li><a href="https://select.mamastar.jp/">ママに役立つ情報を日々配信<span>ママスタセレクト</span></a>
+</li>
+<li><a href="https://mamastar.jp/bbs">全国のママが集まる掲示板<span>ママスタコミュニティ</span></a></li>
+<li>
+<a href="https://jukushiru.com/article/" target="_blank">初めての習い事・塾探しを応援<span>塾探し（塾シル）</span></a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="pageTop__wrap">
+<a href="#" id="pageTop">
+<img alt="pageTop" src="local_resources\icon_arrowTop-a16a5804_f2479dd17341fb62.svg"/>
+<span>page top</span>
+</a>
+</div>
+<div class="footerNav">
+<nav>
+<ul>
+<li><a href="https://mamastar.jp/info/rule">利用規約</a></li>
+<li><a href="https://mamastar.jp/info/privacy">プライバシーポリシー</a></li>
+<li><a href="https://mamastar.jp/info/cookie">クッキーポリシー</a></li>
+<li><a href="https://mamastar.jp/info/law">特定商取引法に基づく表記</a></li>
+<li><a href="https://mamastar.jp/info/company">運営会社</a></li>
+<li><a href="https://members.mamastar.jp/inquiry">お問い合わせ</a></li>
+</ul>
+</nav>
+</div>
+<p class="footer__end">© 2024 mamasta</p>
+</div>
+</footer>
+<!-- /サービス共通フッター -->
+<!-- 個人情報取得 -->
+<div class="personalInfo__area" id="personalInfo" style="display:none;">
+<span class="personalInfo__squareBtn" dusk="close-cookie-button"></span>
+<div class="personalInfo__inner">
+<span class="personalInfo__break">当サイトでは、利用状況の把握や広告配信のため、Cookieを使用しています。これ以降ページを遷移した場合、当サイトのポリシーに同意したことになります。プライバシーポリシーに関しては<a class="personalInfo__anchor" href="https://mamastar.jp/info/cookie">詳細</a>をご確認ください。
+        </span>
+</div>
+</div>
+<!-- /個人情報取得 -->
+<script>
+    (function(w, d, j) {
+        var t = 'microAdUniverseTracker';
+        w[t] = w[t] || {};
+        w[t].track = w[t].track || function() {
+            (w[t].queue = w[t].queue || []).push(arguments)
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = j;
+        var fs = d.getElementsByTagName('script')[0];
+        fs.parentNode.insertBefore(s, fs)
+    })
+    (window, document, 'https://cdn.microad.jp/js/track.js');
+
+    isMamastarLoggedIn().then(async (isLoggedIn) => {
+        if (isLoggedIn) {
+            const mdUserSegment = await getMDUserSegments();
+            microAdUniverseTracker.track({
+                "service_id": 10833
+            }, JSON.stringify(mdUserSegment));
+        } else {
+            microAdUniverseTracker.track({
+                "service_id": 10833
+            });
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html class="context-client-unknown no-mobile no-js" id="html" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=1024" name="viewport"/>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta content="Letterboxd is a social platform for sharing your taste in film. Use it as a diary to record your opinion about films as you watch them, or just to keep track of films you’ve seen in the past. Rate, review and tag films as you add them. Find and follow your friends to see what they’re enjoying. Keep a watchlist of films you’d like to see, and create lists/collections on any topic." name="description"/>
+<meta content="https://letterboxd.com/" property="og:url"/>
+<meta content="Letterboxd • Your life in film" property="og:title"/>
+<meta content="https://s.ltrbxd.com/static/img/default-share-7md9L34t.png" property="og:image"/>
+<meta content="173683136069040" property="fb:app_id"/>
+<meta content="Letterboxd" name="application-name"/>
+<meta content="#14181C" name="theme-color"/>
+<meta content="#445566" name="msapplication-TileColor"/>
+<meta content="app-id=1054271011, affiliate-data=11l5KW" name="apple-itunes-app"/>
+<meta content="yes" name="mobile-web-app-capable"/>
+<title>Letterboxd • Social film discovery.</title>
+<script>
+		
+		((r, n) => {
+			r.dataset.useragent = n.userAgent
+			r.dataset.platform = n.platform
+		})(document.documentElement, navigator)
+
+		var isMobile = false,
+			isMobileOptimised = true,
+			renderMobile = false,
+			useStaticFonts = false,
+			disableFrameProtection = false,
+			baseURL = '',
+			staticAssetBaseURL = 'https://s.ltrbxd.com/'.slice(0, -1),
+			successMessages = [],
+			errorMessages = [],
+			stickyMessages = [],
+			globals = {
+			autoAddFilm: false
+				, spinners: {
+					ajax_242d35: 'https://s.ltrbxd.com/static/img/spinner-dark-2x-BA9SNVrD.gif',
+					spinner_12_2C3641: 'https://s.ltrbxd.com/static/img/spinner-dark-2x-BA9SNVrD.gif',
+					spinner_14_20272f: 'https://s.ltrbxd.com/static/img/spinner-dark-2x-BA9SNVrD.gif',
+					spinner_16_161B21: 'https://s.ltrbxd.com/static/img/spinner-dark-2x-BA9SNVrD.gif'
+				}
+			},
+			supermodelCSRF = "",
+			gRecaptchaKey = '6Le3mMIUAAAAAEXbwZ7M1R5jEv0V5xbvj7bgXq2g',
+			geolocation = {
+				country: ""
+			},
+			person = {
+				username: ""
+				, loggedIn: false
+				
+				, showAds: true
+				, role: "guest"
+				, hasExtendedServiceFilters: false
+				, canBulkAddToLists: false
+				, canFilterOwned: false
+				, hasHqRole: false
+				, canHaveHqDashboard: false
+				, hasMemberStatistics: false
+				, blockedMembers: []
+				, showAdultContent: false
+				, validated: null
+				, trusted: false
+				, hasBlocked : function(member) { for (var i = 0; i !== person.blockedMembers.length; i++) {if (person.blockedMembers[i] === member) return true;} return false; }
+				, viewingTags: []
+				, hasMoreTags: true
+				, getCustomPoster : function(uid) { return null; }
+				, getCustomBackdrop : function(uid) { return null; }
+			},
+			disableAds = false,
+			analytic_params = {};
+		
+		
+supermodelCSRF = 'b40d7900f3b7798acf8e'; geolocation.country = 'BR'; analytic_params['user_type'] = 'Visitor';
+
+	</script>
+<script>
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () {
+			dataLayer.push(arguments);
+		};
+		function ga() {}
+	</script>
+<script async="" src="local_resources\js_7c599bb4d9323b1c"></script>
+<script>
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () {
+			dataLayer.push(arguments);
+		};
+		gtag('js', new Date());
+	
+		analytic_params['template'] = '/object/homepage';
+		
+		
+
+		if (analytic_params.member_type) {
+			gtag('set', 'user_properties', { 
+				member_type: analytic_params.member_type,
+			});
+			delete analytic_params.member_type;
+		}
+		var config = {
+			...analytic_params,
+			'cookie_domain': 'letterboxd.com', 
+			'optimize_id': 'GTM-TB8HSDN', 
+		};
+		gtag('config', 'G-D3ECBB4D7L', config);
+	</script>
+<script>
+function ASAP(callback) {
+	if (window.__ASAPPED) {
+		callback()
+		return
+	}
+	if (!window.__ASAP) {
+		window.__ASAP = []
+	}
+	window.__ASAP.push(callback)
+}
+</script>
+<script>
+		
+
+		
+			
+		
+
+		
+
+		
+		
+			
+			  function setUseMobileSiteCookie(useMobile) {
+					const value = useMobile ? 'yes' : 'no'
+					const date = new Date()
+					const maxAge = 365 * 24 * 60 * 60
+					date.setTime(date.getTime() + maxAge * 1000)
+					const expires = '; expires=' + date.toUTCString()
+					const cookieValuePair = 'useMobileSite=' + value
+					document.cookie = cookieValuePair + expires + '; path=/; maxAge=' + maxAge
+
+					if (document.cookie.includes(cookieValuePair)) {
+						window.location.reload(true)
+					} else {
+						console.error('Failed to set useMobileSite cookie.')
+					}
+				}
+
+				/*
+				 * If ?fromApp=true, it's possible for user is already in the correct mode, so only try
+				 * reloading if that's the case. In fact, trying to reload the page regardless causes an 
+				 * infinite loop as the ?fromApp=true parameter is always present.
+				 */
+				const isMobileWidth = screen.width < 768
+				if (isMobileWidth && !document.cookie.includes('useMobileSite=yes')) {
+					setUseMobileSiteCookie(true)
+				} else if (!isMobileWidth && !document.cookie.includes('useMobileSite=no')) {
+					setUseMobileSiteCookie(false)
+				}
+			
+		
+	</script>
+<script>
+		window.ramp = window.ramp || {};
+		window.ramp.que = window.ramp.que || [];
+		window.ramp.passiveMode = false; 
+		window.ramp.forcePath = '';
+		window.ramp.custom_tags = [
+			'', 
+			'', 
+			'', 
+			'homepage', 
+			'', 
+			''
+		];
+	</script>
+<script src="local_resources\ramp_config_af2a25bb25db7285.js"></script>
+<script>
+		window._pwGA4PageviewId = ''.concat(Date.now());
+		window.dataLayer = window.dataLayer || [];
+		window.gtag = window.gtag || function () { 
+			dataLayer.push(arguments);
+		};
+		gtag('js', new Date());
+		gtag('config', 'G-L0W7RDZXX3', { 'send_page_view': false });
+		gtag(
+			'event',
+			'ramp_js',
+			{
+				'send_to': 'G-L0W7RDZXX3',
+				'pageview_id': window._pwGA4PageviewId
+			}
+		);
+		
+		(function() {
+			const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+			window.isAndroid = new RegExp("android", "i").test(userAgent);
+			window.isIOS = new RegExp("iPad|iPhone|iPod", "i").test(userAgent) && !window.MSStream;
+			window.adsLocation = 'BR';
+		})();
+	</script>
+<link href="local_resources\manifest_6ed31879bf0b1240.json" rel="manifest"/>
+<link href="local_resources\humans_cbaaf48e2bd7d272.txt" rel="author" type="text/plain"/>
+<link color="#445566" href="local_resources\letterboxd-decal-l-16px-DorUFlWn_9535b176eb73bb05.svg" rel="mask-icon"/>
+<link href="local_resources\touch-icon-192x192-lO1g3Ot4_11cface83c0c793a.png" rel="shortcut icon" sizes="196x196"/>
+<link href="local_resources\apple-touch-icon_f0558ec58917bdeb.png" rel="apple-touch-icon"/>
+<link href="local_resources\favicon_ea5d92f2f5cbdd47.ico" rel="shortcut icon"/>
+<link href="local_resources\opensearch_79d5560bc9f4f8bb.xml" rel="search" title="Letterboxd" type="application/opensearchdescription+xml"/>
+<script crossorigin="" src="local_resources\app-detection-B6-GztkV_3bb408d58e7be937.js" type="module"></script>
+<link crossorigin="" href="local_resources\B5Qt9EMX_e125ac05b40e3313.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Duz0x7wZ_5d889b735803f54e.js" rel="modulepreload"/>
+<script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+<script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+<script crossorigin="" src="local_resources\main-ClAr4sEX_6b4fb3725031bb36.js" type="module"></script>
+<link crossorigin="" href="local_resources\B5Qt9EMX_e125ac05b40e3313.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BCTBTwm7_3c4749da82295365.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D6-XlEtG_f0223ddd01f81182.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\B7pRgGH2_467c473754f92231.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\msN89aGx_15e38667b3c4a899.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\03U_i1H8_3cea85ce08142dcd.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BxsrusUO_ce6349fb623d491b.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DZEHBdoo_d4ccfb3ce31fdaf5.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CqkxH0ZD_6605ed6185dc084f.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Duz0x7wZ_5d889b735803f54e.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DOonzyH0_c7bbf6cae9aae494.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\bKpgursT_08650e0fad25e449.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BGVqBqED_85f9f91aa5f51b29.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D4Yk99Ne_009fc01f93bd5f35.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\hzgQj22F_8b8623ec953948e8.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\C3e4t58V_2bb18802e9032dfa.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BnYMSV_K_39478e61c0643faf.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CVweeg0j_88bed4456ddd11c8.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CswyOWBu_ea7b077a5da40561.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\GVR8ng7U_4258aba64b81cc35.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\C9L24ogp_7dd2ff10c0e47093.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CF74jhiq_c9274ee66de55a83.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D2nGpDRe_d8672cb1ef6247e3.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\vCWiOUpe_69ac1e8c4493a014.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\C-GAFnFO_05e655330151afbb.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Dw1UnyvJ_01c3c6c59e508837.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\KO-RZGdQ_3d8f612bfcf04e68.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CCyj3UBH_f14b022505fdb168.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Dp7EpKt6_2856497091d87e42.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BLpqPwTf_65ce706db90abedb.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\C3Ay1Ke8_7b39a0af34c1b923.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CkhgB9_0_1b646d146092389d.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\qt9y7WI1_580b8e0bf0b8d472.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BeurgYGG_8469218648e6c8c7.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CUcMfv5U_9a4ef691fe07c6a0.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CbXmRM-a_dfad8e5735c7c36a.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Dxj-PiPC_59f15cab3260075a.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CdChsGGx_16fd8652462a96e2.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Dtdj54rt_88abc76a11d5fa03.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BmmD0vNh_a9bb6be3db44aa5a.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DbkyL-rk_e0cfaf31f2c7c20a.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CCPv9W2X_ea8e52cc29884eef.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DOHxIiFh_f31cef993e6579d9.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DPeCBLXW_de7d326911726042.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CMMPhZm8_242e1261892879c2.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Bbh8MmKk_1f93d62f6e86c702.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\RochNgE_41c232ce49bcd216.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DcZ-q2nA_7afe2c1d8c05df80.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\098WYjJc_27acaca2a243d2b5.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DxtJGFC4_cd279f051e8a5ea3.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\AxRaG6ks_f07f562cb000ffd7.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\JpiB-byr_06c10315ec4f727a.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\B7heWqLv_03a4a57363393eb9.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CjDr9vYv_6f14638e228182b7.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DKEljbTo_8da51178df686245.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DjY_e70e_3b13c1dbd789df79.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D2hgF3Cb_d5348f24238c2558.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DHOGRMit_879cede6e6385dcd.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\SOgt3rgE_5a596786bd972dbe.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BWxOVFMq_44ead779e0c10709.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D5fFs6qn_bf9e0d492bd0b6c5.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\C-y2kFTJ_699b4e46eaf27f4f.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CnLYH8eu_4290a88dc5717852.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CQluAL2z_e4a9ee2ff913e4d6.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BCi0_APx_daf7f464378f73fc.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DZPCvrkM_9ff48eb5040fa7b4.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BWai7PvB_8d742d5a27ba7b05.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Dl5TzkaQ_1e45871a8a354295.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\B9fb8Bne_869546f0396dbdbe.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\C0D7dfi8_bfb23d0939890baa.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\B4SrOr3T_6292aad0df5f378c.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BhibFcxs_1083152ceb4a844d.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\nLlZB3ED_d1730ed3f699531c.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\RTvrqW77_9e1f5d25399418bd.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D1ihp8YN_741093c35b5baba4.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\2G1blkfO_0f50df0db21ac26e.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CvJE0MMo_b02caf2fb70bd659.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\B2HUz_SD_d1c9ab4c5401d3c2.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\iZ9T2sDc_b176d777d9d20693.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BmHO4yel_f2fae2d3260ca93d.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\b_BAay_E_f6cd05d76c812ceb.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Dy-E0KiV_f096d77b52cf7d55.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D3y6LkFj_3d354d243de2158e.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DgOCuysG_7f2208806b69f783.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\KcgUnDK2_1ebf90c871ff384c.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CM2pfjEd_20c32aee57532f5c.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\D0CRiLCf_638514a145a9727a.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\BnElP6sD_3ac993bc683e3054.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Ak46aDlv_9a0e9908ae8b45c6.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\O9HB_fC_3f7fe89ce37b594d.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\aczQZ_An_297c6ff5c87fb8a7.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\qjl1DJEE_052eefc2c4ae467f.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\iq6l9D7b_ff4abb21da671e52.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\DxLaXd06_c22f6f19a6a4bd3b.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CUIucRvz_2d21bf3addab8050.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\CkEEJX_R_c7d442dfc966b62b.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\base-modal-D7ZjC2a__5b6b95ad1bfc990b.css" rel="stylesheet"/>
+<link crossorigin="" href="local_resources\production-masthead-DypvYxnf_2b623000761d1dc0.css" rel="stylesheet"/>
+<link crossorigin="" href="local_resources\private-note-modal-g8bSgXPR_78bbc2305e2bf63b.css" rel="stylesheet"/>
+<link crossorigin="" href="local_resources\main-nJbh96kw_1333eb5ee59b5336.css" rel="stylesheet"/>
+<script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+<script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+<script async="" crossorigin="" src="local_resources\desktop-yYozq2ud_6c21aef6ae35d657.js" type="module"></script>
+<link crossorigin="" href="local_resources\desktop-Ba33312l_542b78e87458517d.css" rel="stylesheet"/>
+<script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+<script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+<script>
+	ASAP(function() {
+		if ( $.cookie("letterboxd.admin.signed.in") === person.username ) {
+			successMessages.push("You are signed in as " + person.username);
+			$(function(){$("#header, #content, body").css("background","#543");});
+		}
+	})
+	</script>
+</head>
+<body class="person-home person-home backdropped">
+<div class="backdrop-container"> <div class="backdrop-wrapper backdrop-fade-in" data-backdrop="https://a.ltrbxd.com/resized/alternative-backdrop/9/5/1/2/7/7/tmdb/ev06XwWLSoTG2DkLlsllAhlWGsk-1200-1200-675-675-crop-000000.jpg?v=cf6bcc5601" data-backdrop-mobile="https://a.ltrbxd.com/resized/alternative-backdrop/9/5/1/2/7/7/tmdb/ev06XwWLSoTG2DkLlsllAhlWGsk-960-960-540-540-crop-000000.jpg?v=cf6bcc5601" data-backdrop2x="https://a.ltrbxd.com/resized/alternative-backdrop/9/5/1/2/7/7/tmdb/ev06XwWLSoTG2DkLlsllAhlWGsk-1920-1920-1080-1080-crop-000000.jpg?v=cf6bcc5601" data-custom-backdrop-template-url="/ajax/backdrop/film/one-battle-after-another/:backdropId/?v=2" data-offset="70" data-production-uid="film:951277" data-support-custom="true" id="backdrop"> <div class="backdropimage js-backdrop-image"></div> <div class="backdropmask js-backdrop-fade"></div> </div> </div>
+<script>
+var mainMenu = [];
+
+	mainMenu.push({
+		"id": 1,
+		"url": "/sign-in/", 
+		"name": "Sign in",
+		"cssClassCode": "sign-in-menu",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": true,
+		"tooltip": "",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 2,
+		"url": "/create-account/", 
+		"name": "Create account",
+		"cssClassCode": "create-account-menu",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 3,
+		"url": "/", 
+		"name": "Home",
+		"cssClassCode": "person-home",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": true,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 4,
+		"url": "/activity/", 
+		"name": "Activity",
+		"cssClassCode": "main-nav-activity",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": true,
+		"showInMainNavForMobile": false,
+		"tooltip": "Activity",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 5,
+		"url": "/films/", 
+		"name": "Films",
+		"cssClassCode": "films-page main-nav-films",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 6,
+		"url": "/lists/", 
+		"name": "Lists",
+		"cssClassCode": "lists-page main-nav-lists",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 7,
+		"url": "/members/", 
+		"name": "Members",
+		"cssClassCode": "main-nav-people",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 8,
+		"url": "/journal/", 
+		"name": "Journal",
+		"cssClassCode": "main-nav-journal",
+		"hideWhenSignedIn": false,
+		"hideWhenNotSignedIn": false,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+	mainMenu.push({
+		"id": 9,
+		"url": "/search/", 
+		"name": "Search results",
+		"cssClassCode": "",
+		"hideWhenSignedIn": true,
+		"hideWhenNotSignedIn": true,
+		"showInMainNavForMobile": false,
+		"tooltip": "",
+		"selected": false
+	});
+
+</script>
+<header class="site-header js-hide-in-app" id="header">
+<div class="site-header-bg"></div>
+<section>
+<h1 class="site-logo"><a class="logo replace" href="/">Letterboxd — Your life in film</a></h1>
+<div class="react-component" data-component-class="NavComponent"></div>
+<form action="#" autocapitalize="off" autocorrect="off" class="signin signin-form js-header-signin-form js-signin" data-recaptcha-action="signin" data-url="/user/login.do" id="signin" method="post" novalidate="novalidate">
+<input name="__csrf" type="hidden" value="placeholder"/>
+<input name="authenticationCode" type="hidden" value=""/>
+<fieldset class="fieldset">
+<div class="fields">
+<div class="col">
+<label for="username">Username</label>
+<input autocomplete="email" class="field signin-field" data-focus-control="signingIn" id="username" inputmode="email" name="username" tabindex="1" type="email" value=""/>
+</div>
+<div class="col">
+<label for="password">Password</label>
+<input autocomplete="current-password" class="field signin-field" id="password" name="password" tabindex="2" type="password" value=""/>
+</div>
+<div class="signin-actions">
+<label class="option-label -checkbox -small" for="remember">
+<input class="checkbox" id="remember" name="remember" tabindex="3" type="checkbox" value="true"/><i class="substitute"></i>
+<span class="focus">Remember<span class="mob-hide"> me</span></span>
+</label>
+<p class="reset" tabindex="5"><a class="reset-password-link" href="/user/request-password-reset" target="_top">Forgotten<span class="elongated"> username or password</span>?</a></p>
+</div>
+<div class="col buttons">
+<div class="button-container"><input class="button -action button-green" tabindex="4" type="submit" value="Sign in"/><i></i></div>
+<div class="close js-close-signin">×</div>
+</div>
+</div>
+</fieldset>
+<div class="errormessage" id="signin-message"></div>
+</form>
+<p class="show-when-logged-in">
+<a class="button -action button-action button-add" data-bs-target="#diary-entry-form-modal" data-bs-toggle="modal" data-diary-entry-form-options='{"mode": "search", "showViewingableSuggestion": true}' href="" id="add-new-button">Log</a>
+</p>
+<div class="add-menu-wrapper show-when-logged-in">
+<a class="button -action button-action button-add-menu" href="#" id="add-menu-button">
+<span class="toggle"></span>
+<em>More...</em>
+</a>
+<ul id="add-menu">
+<li><a href="/list/new/">Start a new list…</a></li>
+<li><a class="js-add-all-films-on-page-to-list" href="#">Add all films to a list…</a></li>
+<li><a class="js-add-all-films-on-page-to-watchlist" data-action="/watchlist/add-films/" href="#">Add all films to watchlist</a></li>
+</ul>
+</div>
+<div aria-hidden="true" aria-labelledby="diary-entry-form-modal-title" attributestext="" class="modal fade diary-entry-form-modal" data-bs-backdrop="static" id="diary-entry-form-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-fullscreen-sm-down modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="diary-entry-form-modal-title">
+<span data-js-label-for="search">Add to your films…</span>
+<span data-js-label-for="compose" hidden="">I watched…</span>
+<span data-js-label-for="edit" hidden="">Edit diary entry</span>
+</h5>
+<button aria-controls="diary-entry-form-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" aria-label="Return to search" class="diary-entry-form-wizard-backtrigger" data-js-trigger="wizardback" disabled="" hidden="" type="button">
+<span class="label">Back</span>
+</button>
+<button aria-label="Close" class="modal-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<form action="/s/save-diary-entry" aria-live="polite" class="diary-entry-form js-diary-entry-form" data-diary-entry-form-options='{"id": "ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05"}' data-js-target="diary-entry-form" id="diary-entry-form-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" method="post" novalidate="novalidate">
+<input name="__csrf" type="hidden" value="placeholder"/>
+<input id="frm-viewing-id" name="viewingId" type="hidden" value=""/>
+<input id="frm-viewingable-uid" name="viewingableUid" type="hidden" value=""/>
+<section aria-label="1 of 2" aria-roledescription="step" class="diary-entry-form-wizard-step -search" data-js-wizard-step="search" role="group">
+<div class="body">
+<div class="formrow">
+<label class="_sr-only">Name of Film</label>
+<input class="field-large field -reversed -large js-viewingable-type-input" data-url="/s/autocompletefilm" placeholder="Search for film…" type="text"/>
+<div class="viewingablesuggestion js-viewingablesuggestion" hidden="">
+<span class="label">Or add</span>
+<button class="trigger welltrigger" data-js-trigger="suggestion" type="button"><span class="label js-label viewingablelabel"></span></button>
+</div>
+</div>
+</div>
+</section>
+<section aria-label="2 of 2" aria-roledescription="step" class="diary-entry-form-wizard-step -compose fields-reversed" data-js-wizard-step="compose" hidden="" role="group">
+<div class="header js-header">
+</div>
+<aside class="figure">
+<figure class="poster-list -p150 no-hover js-poster-preview">
+<div class="poster no-poster">
+<span class="frame"></span>
+</div>
+</figure>
+</aside>
+<div class="body">
+<div class="formrow datefields">
+<div class="fieldgroup -specifieddate">
+<label class="option-label -checkbox -default -reversed js-specifiy-date" for="frm-specify-date">
+<input class="checkbox" id="frm-specify-date" name="specifiedDate" type="checkbox" value="true"/><i class="substitute"></i>
+<span class="label js-specify-date-label" id="frm-specify-date-label">Add to your diary?</span>
+</label>
+<div class="specifydatecta js-specify-date-cta" hidden="">Watched on <button class="trigger welltrigger" data-js-trigger="datepicker" type="button"><span class="label"></span></button></div>
+</div>
+<div class="fieldgroup -rewatch js-fieldgroup-rewatch">
+<label class="option-label -checkbox -default" for="frm-rewatch" id="frm-rewatch-label">
+<input class="checkbox" id="frm-rewatch" name="rewatch" type="checkbox" value="true"/><i class="substitute"></i> 
+										I’ve watched this before
+									</label>
+</div>
+<input id="frm-viewing-date-string" name="viewingDateStr" type="hidden" value=""/>
+</div>
+<div class="formrow reviewfields js-reviewfields -is-not-spoilersvisible">
+<div class="inner">
+<textarea class="field reviewfield" id="frm-review" name="review" placeholder="Add a review…"></textarea>
+<div class="spoilers">
+<label class="spoilercheckbox option-label -checkbox -default" for="frm-spoilers">
+<input class="checkbox" id="frm-spoilers" name="containsSpoilers" type="checkbox" value="true"/><i class="substitute"></i>  
+											Contains spoilers
+										</label>
+<div class="moderatornote form-note js-spoilers-locked-note" hidden="">
+<p>A moderator has locked spoilers for this review</p>
+</div>
+</div>
+</div>
+</div>
+<div class="formrow tagslikeratingfields">
+<div class="fieldgroup -tags -has-topnote add-tags">
+<label for="frm-tags">Tags</label>
+<p class="form-note note -topnote">Press <kbd>Tab</kbd> to complete, <kbd>Enter</kbd> to create</p>
+<div class="autocomplete-tags">
+<div id="tag-container">
+<input class="tag-input-field field" data-url="/s/autocompletetags" id="frm-tags" name="tags" placeholder="eg. netflix" type="text"/>
+</div>
+<div class="js-autocomplete-current-tags" id="current-tags">
+</div>
+</div>
+</div>
+<div class="fieldgroup -rating -has-topnote">
+<label>Rating</label>
+<p class="form-note note rating-text"></p>
+<input id="frm-rating" max="10" min="0" name="rating" step="1" type="range" value="0"/>
+<div class="rateit js-rateit" data-rateit-backingfld="#frm-rating" data-rateit-resetable="true" data-rateit-starheight="26" data-rateit-starwidth="13"></div>
+</div>
+<div class="fieldgroup -like">
+<label class="option-label -like">
+<input class="ajax-working like-checkbox" name="liked" type="checkbox" value="true"/><i class="substitute"></i> 
+										Like
+									</label>
+</div>
+</div>
+</div>
+</section>
+</form>
+</div>
+<div class="modal-footer js-modal-footer" hidden="">
+<div class="diary-entry-form-controls" data-diary-entry-form-controls-for="diary-entry-form-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" hidden="">
+<div class="modal-action-group privacygroup show-for-pv">
+<div aria-hidden="true" class="privacycontrols js-privacycontrols">
+<label class="label" for="frm-privacy-policy"> 
+								Privacy mode
+								<span class="s icon-14 icon-tip" data-js-trigger="tooltip" target="_blank" title="Control who sees the rating, review, tags and like for this entry"><span class="icon"></span>(Help)</span>
+</label>
+<select class="select" form="diary-entry-form-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" hidden="" id="frm-privacy-policy" name="privacyPolicyStr">
+<option value="">Default</option>
+<option value="Anyone">Anyone (public)</option>
+<option value="Friends">Close Friends (selected by you)</option>
+<option value="You">You (private)</option>
+</select>
+<div class="privacy-policy-menu dropdown-wrapper js-privacy-policy-menu -pending">
+<button aria-controls="privacy-policy-menu-b624bd8b-c428-4928-ad97-04cde85c46ca-dropdown" aria-expanded="false" aria-haspopup="listbox" aria-label="Select privacy policy" class="privacy-policy-menu-trigger -default dropdown-trigger" id="privacy-policy-menu-trigger-b624bd8b-c428-4928-ad97-04cde85c46ca" type="button">
+<span class="label js-label">…</span>
+</button>
+<div aria-labelledby="privacy-policy-menu-trigger-b624bd8b-c428-4928-ad97-04cde85c46ca" class="dropdown-menu -legacy dropdown-listbox privacy-policy-menu-dropdown" id="privacy-policy-menu-b624bd8b-c428-4928-ad97-04cde85c46ca-dropdown" role="listbox">
+<div class="header">
+<h3 class="title js-menutitle"></h3>
+</div>
+<div class="dropdown-menulist">
+<div class="menuitem -trigger -has-icon js-dropdown-child" role="none">
+<button data-dismiss="dropdown" data-value="Anyone" role="option" type="button">
+<svg class="glyph" height="16" role="presentation" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 .5a7.5 7.5 0 1 1 0 15 7.5 7.5 0 0 1 0-15Zm1.73 8.25H6.27c.07 1.53.36 2.93.8 3.96.4.9.8 1.29.93 1.29s.53-.38.92-1.3c.45-1.02.74-2.42.81-3.95Zm-4.96 0H2.05a6 6 0 0 0 3.79 4.85 12.7 12.7 0 0 1-1.07-4.85Zm9.18 0h-2.72a12.7 12.7 0 0 1-1.07 4.85 6 6 0 0 0 3.8-4.85ZM5.84 2.4l-.18.07a6 6 0 0 0-3.61 4.78h2.72A12.7 12.7 0 0 1 5.84 2.4ZM8 2c-.13 0-.53.38-.92 1.3a11.66 11.66 0 0 0-.81 3.95h3.46a11.66 11.66 0 0 0-.8-3.96c-.38-.85-.74-1.24-.9-1.28L8 2Zm2.16.4.01.02c.59 1.22.98 2.92 1.06 4.83h2.72a6 6 0 0 0-3.79-4.85Z"></path></svg>
+<span class="label js-label">Anyone (public)</span>
+</button>
+</div>
+<div class="menuitem -trigger -has-icon js-dropdown-child" role="none">
+<button data-dismiss="dropdown" data-value="Friends" role="option" type="button">
+<svg class="glyph" height="16" role="presentation" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 .5a7.5 7.5 0 1 1 0 15 7.5 7.5 0 0 1 0-15ZM8 2a6 6 0 0 0-4.8 2.4 1.04 1.04 0 0 1 1.28.16l.63.63.64-.63a1.04 1.04 0 0 1 1.47 0c.4.4.4 1.06 0 1.47L5.34 7.9a.32.32 0 0 1-.45 0L3.01 6.03a1.04 1.04 0 0 1-.3-.87A5.98 5.98 0 0 0 8 14a6 6 0 0 0 5.29-8.84c.04.3-.06.63-.3.87L11.11 7.9a.32.32 0 0 1-.45 0L8.78 6.03a1.04 1.04 0 1 1 1.47-1.47l.64.63.63-.63a1.03 1.03 0 0 1 1.29-.15A6 6 0 0 0 8 2ZM5.7 9.92a3 3 0 0 0 4.52.1.75.75 0 0 1 1.1 1 4.49 4.49 0 0 1-6.78-.14.75.75 0 0 1 1.16-.96Z"></path></svg>
+<span class="label js-label">Close Friends (selected by you)</span>
+</button>
+</div>
+<div class="menuitem -trigger -has-icon js-dropdown-child" role="none">
+<button data-dismiss="dropdown" data-value="You" role="option" type="button">
+<svg class="glyph" height="16" role="presentation" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M7.95 1.25c2.35 0 4.25 1.9 4.25 4.25V6h.3a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-9a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h.2v-.5c0-2.35 1.9-4.25 4.25-4.25ZM12.5 7.5h-9A.5.5 0 0 0 3 8v6c0 .28.22.5.5.5h9a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5ZM8 9.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Zm-.05-7A2.75 2.75 0 0 0 5.2 5.5V6h5.5v-.5a2.75 2.75 0 0 0-2.75-2.75Z"></path></svg>
+<span class="label js-label">You (private)</span>
+</button>
+</div>
+<div class="menuitem -divider" role="none">
+<hr/>
+</div>
+<div class="menuitem -trigger -has-icon -has-policy-icon js-dropdown-child" role="none">
+<button data-default="true" data-dismiss="dropdown" data-value="" role="option" type="button">
+<svg class="glyph" height="16" role="presentation" viewbox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M11.79 7a.7.7 0 0 1 .64.44l.3.77 1 .58.82-.12a.7.7 0 0 1 .7.34l.27.48a.7.7 0 0 1-.05.78l-.5.65v1.16l.51.65a.7.7 0 0 1 .06.78l-.28.48a.7.7 0 0 1-.7.34l-.8-.12-1.02.58-.3.77a.7.7 0 0 1-.64.44h-.58a.7.7 0 0 1-.65-.44l-.3-.77-1-.58-.82.12a.7.7 0 0 1-.7-.34l-.27-.48a.7.7 0 0 1 .05-.78l.51-.65v-1.16l-.52-.65a.7.7 0 0 1-.05-.78l.27-.48a.7.7 0 0 1 .7-.34l.81.12 1.03-.58.3-.77a.7.7 0 0 1 .64-.44h.57ZM6.55 8.9h.1L6.6 9c-.17.28-.25.62-.23.96l.02.17.03.14.04.13h-.3c-1.4.04-2.71.28-3.68.64-.4.14-.7.3-.9.44l-.08.07v.95h5.02A1.7 1.7 0 0 0 6.6 14H0v-2.67C0 10.05 3.02 8.9 6.55 8.9Zm4.95.22a2.37 2.37 0 1 0 0 4.75 2.37 2.37 0 0 0 0-4.74Zm0 1.5a.87.87 0 1 1 0 1.75.87.87 0 0 1 0-1.74ZM6.38 0c1.5 0 2.88 1.53 2.88 3.4 0 1.87-.79 4.1-2.8 4.1-1.9 0-2.81-2.29-2.81-4.15C3.65 1.48 4.87 0 6.38 0Zm0 1.5c-.61 0-1.23.76-1.23 1.85 0 1.5.66 2.65 1.3 2.65.73 0 1.3-1.03 1.3-2.6 0-1.05-.73-1.9-1.37-1.9Z" fill-rule="evenodd"></path></svg>
+<span class="label js-label">Use account default<span class="labelsupplement js-labelsupplement" hidden=""></span></span>
+</button>
+</div>
+</div>
+<div class="dropdown-bodytext -note">
+<p>
+					Your diary date (if set) and watched status for this film remain publicly visible.
+					Ratings on <em>Close Friends</em> and <em>You</em> entries don’t contribute to stats. 
+					Add members to your Close Friends from their profile.
+					Set your account default for Privacy mode in <a href="/settings/">Settings</a>.
+				</p>
+</div>
+</div>
+</div>
+</div>
+<label class="option-label -checkbox -default -reversed drafttoggle" for="privacy-policy-draft-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05">
+<input class="checkbox" form="diary-entry-form-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" id="privacy-policy-draft-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" name="privacyPolicyDraft" role="switch" type="checkbox" value="true"/><i class="substitute"></i>
+<span class="label">Draft</span>
+</label>
+<div aria-hidden="true" class="draftnote js-privacydraftnote">Draft entries don’t appear in your watched films or diary for others, and don’t contribute to your stats.</div>
+</div>
+<div class="modal-action-group formactions">
+<button class="button button-delete -destructive" data-confirm="Are you sure you want to delete this entry? It will disappear from your profile, but remain in your account export bundle for 30 days, in a folder of deleted items." data-js-trigger="delete" disabled="" form="diary-entry-form-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" id="diary-entry-delete-button" type="button"><span class="label">Delete</span></button>
+<button class="button -action button-action" data-js-trigger="submit" disabled="" form="diary-entry-form-ed1b0e3f-1846-417f-aec1-ac1c3aa4fe05" type="submit"><span class="label">Save</span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="display:none">
+<div id="add-to-a-list"></div>
+<div data-data-url="/s/load-lists" id="add-to-a-list-modal">
+<form action="/s/add-film-to-list" class="not-expanded modal-container -mini" method="post">
+<input name="__csrf" type="hidden" value="placeholder"/>
+<input class="film-id" name="filmId" type="hidden"/>
+<div class="header">
+<h1 class="title-2">Add <span class="film-name"></span> to lists</h1>
+<div class="text" id="js-modal-warning" style="display: none;"></div>
+<div class="segmented-control js-list-type-toggle -stretched">
+<div class="options">
+<button class="option -selected" data-list-type="public">Public</button>
+<button class="option" data-list-type="private">Private</button>
+</div>
+</div>
+</div>
+<div class="body js-add-to-list-body">
+<div class="list-selection -selected js-list-selection" data-list-type="public">
+<div class="actions">
+<a class="new js-new-list" data-private-list="false" href=""><span class="plus"></span>New list…</a>
+<div class="filter">
+<input autocomplete="off" class="input js-list-filter" id="list-filter-public" placeholder="Type to search" type="text"/><label class="trigger" for="list-filter-public"></label>
+<button class="clear js-list-filter-clear">Clear</button>
+</div>
+</div>
+</div>
+<div class="list-selection js-list-selection" data-list-type="private">
+<div class="actions">
+<a class="new js-new-list" data-private-list="true" href=""><span class="plus"></span>New list…</a>
+<div class="filter">
+<input autocomplete="off" class="input js-list-filter" id="list-filter-private" placeholder="Type to search" type="text"/><label class="trigger" for="list-filter-private"></label>
+<button class="clear js-list-filter-clear">Clear</button>
+</div>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="status">
+<p class="js-selected-lists-state"></p>
+</div>
+<div class="actions">
+<input class="button -action button-action js-add-to-list-submit" disabled="" type="submit" value="Add"/>
+</div>
+</div>
+</form>
+</div>
+</div>
+<template id="privacy-policy-icon-anyone"><span class="policy-icon -privacy -anyone -default -is-not-default" data-policy-code="anyone" data-policy-type="privacy"><span class="frame tooltip" data-js-trigger="tooltip" data-original-title="Reactions visible to anyone"> <svg class="glyph" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M7 .5a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13ZM7 2a5 5 0 1 0 0 10A5 5 0 0 0 7 2Z"></path><path d="M7 .75C8.45.75 9.63 3.55 9.63 7S8.45 13.25 7 13.25 4.37 10.45 4.37 7 5.55.75 7 .75Zm0 1.6-.03.03c-.14.17-.3.43-.44.78-.41.97-.66 2.35-.66 3.84 0 1.5.25 2.87.66 3.84.17.4.35.7.51.86L7 11.65l.03-.03c.12-.14.25-.35.37-.61l.07-.17c.41-.97.66-2.35.66-3.84 0-1.5-.25-2.87-.66-3.84-.14-.35-.3-.61-.44-.78L7 2.35Z"></path><path d="M1.15 7.75h11.7v-1.5H1.15z"></path></svg> </span> <span class="label _sr-only">Reactions visible to anyone</span> </span></template> <template id="privacy-policy-icon-friends"><span class="policy-icon -privacy -friends -default -is-not-default" data-policy-code="friends" data-policy-type="privacy"><span class="frame tooltip" data-js-trigger="tooltip" data-original-title="Reactions visible to owner’s Close Friends"> <svg class="glyph" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M7 .5a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13ZM5 9.07a.65.65 0 0 0-1 .83 3.9 3.9 0 0 0 5.89.13.65.65 0 0 0-.97-.87A2.6 2.6 0 0 1 5 9.07ZM5.78 4c-.26 0-.51.1-.7.28l-.58.6-.59-.6a.97.97 0 0 0-1.37 0 .97.97 0 0 0 0 1.38L4.29 7.4a.3.3 0 0 0 .42 0l1.75-1.75A.97.97 0 0 0 5.78 4Zm5 0c-.26 0-.51.1-.7.28l-.58.6-.59-.6a.97.97 0 0 0-1.37 0 .97.97 0 0 0 0 1.38L9.29 7.4a.3.3 0 0 0 .42 0l1.75-1.75A.97.97 0 0 0 10.78 4Z"></path></svg> </span> <span class="label _sr-only">Reactions visible to owner’s Close Friends</span> </span></template> <template id="privacy-policy-icon-you"><span class="policy-icon -privacy -you -default -is-not-default" data-policy-code="you" data-policy-type="privacy"><span class="frame tooltip" data-js-trigger="tooltip" data-original-title="Reactions only visible to you"> <svg class="glyph" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M7 1a3.5 3.5 0 0 1 3.5 3.5V5A1.5 1.5 0 0 1 12 6.5v5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 2 11.5v-5A1.5 1.5 0 0 1 3.5 5v-.5A3.5 3.5 0 0 1 7 1zm0 7a1 1 0 1 0 0 2 1 1 0 1 0 0-2zm0-5.5a2 2 0 0 0-2 2V5h4v-.5a2 2 0 0 0-1.851-1.995L7 2.5z" fill-rule="evenodd"></path></svg> </span> <span class="label _sr-only">Reactions only visible to you</span> </span></template> <template id="privacy-policy-icon-draft"><span class="policy-icon -privacy -draft -default -is-not-default" data-policy-code="draft" data-policy-type="privacy"><span class="frame tooltip" data-js-trigger="tooltip" data-original-title="Draft entry"> <svg class="glyph" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M11.787.486s-.109-.322-.229-.387-.324-.129-.453-.084c-.409.052-.814.131-1.213.236L9.536.36 8.304 3.584 7.073 2.051c-.128-.118-.309-.156-.472-.098a5.71 5.71 0 0 0-1.126 1.072 6.27 6.27 0 0 0-.452.58l-.135.206-.279.452-.164.295C3.29 6.711 3.146 9.051 3.868 10.24l-1.761 2.664c-.197.329-.113.757.192.983.321.207.744.12.962-.197l.712-1.062 1.068-1.612c.122.01.244.01.366 0 1.665 0 4.061-1.524 5.438-4.041C11.591 5.672 11.989 4.19 12 2.68c-.012-.608-.09-1.598-.213-2.194z"></path></svg> </span> <span class="label _sr-only">Draft entry</span> </span></template> <template id="share-policy-icon-anyone"><span class="policy-icon -share -anyone -circle" data-policy-code="anyone" data-policy-type="share"><span class="frame tooltip" data-js-trigger="tooltip" data-original-title="Visible to anyone (with link)"> <svg class="glyph" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M4.385 5.061c.977-.976 2.559-.976 3.536 0l.985 1.041L7.849 7.16l-.018-.007-1.002-1.052c-.375-.372-.98-.372-1.355-.001l-.437.436c-.106.084-.201.18-.286.285L2.824 8.755a.94.94 0 0 0-.28.692.95.95 0 0 0 .282.687l.401.401a.99.99 0 0 0 1.359.006l.836-.847a3.52 3.52 0 0 0 1.385.816L5.68 11.651a2.5 2.5 0 0 1-1.771.737c-.665 0-1.302-.265-1.771-.736l-.407-.407c-.976-.977-.976-2.559 0-3.537zm5.706-3.451c.665 0 1.302.265 1.771.736l.407.407c.976.977.976 2.559 0 3.537L9.615 8.938c-.977.976-2.559.976-3.537-.001l-1.033-.995.415-.416.133-.15.15-.134.403-.405 1.024 1.059c.347.343.889.37 1.264.08l.09-.079 2.651-2.655c.153-.15.248-.347.274-.562l.007-.131a.95.95 0 0 0-.282-.687l-.401-.401a.99.99 0 0 0-1.359-.006l-.842.841c-.408-.39-.888-.663-1.395-.818L8.32 2.347a2.5 2.5 0 0 1 1.771-.737z"></path></svg> </span> <span class="label _sr-only">Visible to anyone (with link)</span> </span></template> <template id="share-policy-icon-friends"><span class="policy-icon -share -friends -circle" data-policy-code="friends" data-policy-type="share"><span class="frame tooltip" data-js-trigger="tooltip" data-original-title="Visible to the member’s friends (with link)"> <svg class="glyph" fill-rule="evenodd" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M10.201 8.732l-.26-.004c1.167 0 1.885.199 2.624.493.431.172.773.378 1.009.595.289.267.426.556.426.834V12l-3.148-.001.001-1.685c0-.515-.188-1.066-.652-1.582zM9.941 3.2c.58 0 1.119.214 1.503.611.342.353.565.853.565 1.489 0 .689-.169 1.45-.545 1.992a1.78 1.78 0 0 1-1.522.815c-.645 0-1.15-.332-1.502-.845-.376-.55-.566-1.312-.566-1.992 0-.635.223-1.128.563-1.473.384-.389.923-.596 1.504-.596zM4.853 7.911c1.458 0 2.136.249 3.06.616.539.215.966.472 1.261.744.362.334.533.696.533 1.043V12H0v-1.686c0-.347.171-.709.533-1.043.294-.272.721-.529 1.261-.744.924-.368 1.601-.616 3.06-.616zm0-6.911c.724 0 1.398.268 1.878.763.427.441.706 1.066.706 1.861 0 .861-.212 1.812-.681 2.49-.426.615-1.052 1.019-1.903 1.019-.806 0-1.438-.414-1.877-1.057-.47-.688-.707-1.64-.707-2.49 0-.794.278-1.41.704-1.841C3.452 1.259 4.126 1 4.853 1z"></path></svg> </span> <span class="label _sr-only">Visible to the member’s friends (with link)</span> </span></template> <template id="share-policy-icon-you"><span class="policy-icon -share -you -circle" data-policy-code="you" data-policy-type="share"><span class="frame tooltip" data-js-trigger="tooltip" data-original-title="Only visible to you"> <svg class="glyph" height="14" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M7 1a3.5 3.5 0 0 1 3.5 3.5V5A1.5 1.5 0 0 1 12 6.5v5a1.5 1.5 0 0 1-1.5 1.5h-7A1.5 1.5 0 0 1 2 11.5v-5A1.5 1.5 0 0 1 3.5 5v-.5A3.5 3.5 0 0 1 7 1zm0 7a1 1 0 1 0 0 2 1 1 0 1 0 0-2zm0-5.5a2 2 0 0 0-2 2V5h4v-.5a2 2 0 0 0-1.851-1.995L7 2.5z" fill-rule="evenodd"></path></svg> </span> <span class="label _sr-only">Only visible to you</span> </span></template>
+<form action="/search/" autocorrect="off" class="js-search-form search-form" id="search" method="get">
+<input autocomplete="false" name="hidden" style="display:none;" type="text"/>
+<fieldset>
+<label class="hidden" for="search-q">Search:</label>
+<input class="field -borderless" data-lpignore="true" id="search-q" inputmode="search" name="q" type="text" value=""/>
+<input class="action" type="submit" value="Search"/>
+</fieldset>
+</form>
+</section>
+</header>
+<div class="site-body -backdrop" id="content">
+<script id="script-45fb72fe-004e-4c3a-a5a5-fda359ca4b97"> ((tag, target) => { let adsScript = null; let adsPlatforms = null; let adsLocations = null; let adsMode = ''; if (person.loggedIn && !disableAds && person.showAds) { let adUnit = document.createElement('div'); let kicker = [ '<div class="upgrade-kicker -leaderboard js-hide-in-app">', '<button type="button" class="modaltrigger" data-bs-toggle="modal" data-bs-target="#remove-ads-modal">', 'Remove Ads', '<svg aria-hidden="true" width="7" height="7" xmlns="http://www.w3.org/2000/svg"><path d="m.5.5 6 6M6.5.5l-6 6" fill-rule="evenodd" stroke="#000"/></svg>', '</button>', '</div>' ].join(''); if ( adsScript && adsScript === 'bandsintown' && adsPlatforms && ((window.isIOS && adsPlatforms.indexOf("iOS") >= 0) || (window.isAndroid && adsPlatforms.indexOf("Android") >= 0)) && adsLocations && adsMode && ( (adsMode === 'include' && adsLocations.indexOf(window.adsLocation) >= 0) || (adsMode === 'exclude' && adsLocations.indexOf(window.adsLocation) == -1) ) ) { var opts = { artist: "", song: "", adunit_id: 100005950, div_id: "cf_async_45fb72fe-004e-4c3a-a5a5-fda359ca4b97" }; adUnit.id = opts.div_id; if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } var c=function(){cf.showAsyncAd(opts)};if(typeof window.cf !== 'undefined')c();else{cf_async=!0;var r=document.createElement("script"),s=document.getElementsByTagName("script")[0];r.async=!0;r.src="//srv.tunefindforfans.com/fruits/apricots.js";r.readyState?r.onreadystatechange=function(){if("loaded"==r.readyState||"complete"==r.readyState)r.onreadystatechange=null,c()}:r.onload=c;s.parentNode.insertBefore(r,s)}; } else { adUnit.id = 'pw-45fb72fe-004e-4c3a-a5a5-fda359ca4b97'; adUnit.className = 'pw-div -bottommargin'; adUnit.setAttribute('data-pw-' + (renderMobile ? 'mobi' : 'desk'), 'leaderboard_atf'); if (target) { target.insertAdjacentElement('beforeend', adUnit); } else { tag.insertAdjacentElement('afterend', adUnit); } adUnit.insertAdjacentHTML('afterend', kicker); window.ramp.que.push(function () { window.ramp.addTag('pw-45fb72fe-004e-4c3a-a5a5-fda359ca4b97'); }); } } tag.remove(); })(document.getElementById('script-45fb72fe-004e-4c3a-a5a5-fda359ca4b97')); </script>
+<div class="content-wrap">
+<!-- BEGIN /esi/homepage/ -->
+<script async="" crossorigin="" src="local_resources\no-user-homepage-DxjvjEwX_b6e43f8ebfa6e19f.js" type="module"></script>
+<link crossorigin="" href="local_resources\no-user-homepage-CSXpuuTx_2755294340e43113.css" rel="stylesheet"/>
+<script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+<script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+<script nomodule="">!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+<script crossorigin="" id="vite-legacy-polyfill" nomodule="" src="local_resources\polyfills-legacy-C9152DdJ_e1ed9b3291e915c4.js"></script>
+<script crossorigin="" data-src="https://s.ltrbxd.com/static/js/system/css/screens/no-user-homepage-legacy-CbLF9Gj6.js" id="vite-legacy-entry" nomodule="">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+<p class="backdrop-metadata"><a href="/film/one-battle-after-another/">One Battle After Another (2025)</a></p>
+<script>ASAP(function() { $("body").addClass("home").removeClass("person-home"); })</script>
+<div class="homepage-welcome body-text -hero -centered">
+<h2 class="headline-1">Track films you’ve watched.<br/>Save those you want to see.<br/>Tell your friends what’s good.</h2>
+<a class="create-account-link button-secondary -action -large" href="/create-account/">Get started — it‘s free!</a>
+<p class="platforms">
+<strong>The social network for film lovers.</strong>
+		Also available on <a class="icons" href="/apps/"><span class="platform -ios" href="apps">iOS, Apple TV</span><span class="_hidetext"> and </span><span class="platform -android">Android</span></a>
+</p>
+</div>
+<section class="section -films" id="featured">
+<ul class="poster-list -p150 -horizontal featured-list">
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/one-battle-after-another/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-150-DtnLDE3k.png" data-film-id="951277" data-image-height="225" data-image-width="150" data-is-linked="true" data-item-full-display-name="One Battle After Another (2025)" data-item-link="/film/one-battle-after-another/" data-item-name="One Battle After Another (2025)" data-item-slug="one-battle-after-another" data-likeable="true" data-num-likes="461871" data-num-watches="1098213" data-poster-url="/film/one-battle-after-another/image-150/" data-postered-identifier='{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"},"posteredBaseLink":"/film/one-battle-after-another/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"5d698a2e"}' data-target-link="/film/one-battle-after-another/" data-watchable="true"> <div class="poster film-poster"> <img alt="One Battle After Another" class="image" height="225" src="local_resources\empty-poster-150-DtnLDE3k_b5d5657dd8d16473.png" width="150"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-smashing-machine-2025/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-150-DtnLDE3k.png" data-film-id="680739" data-image-height="225" data-image-width="150" data-is-linked="true" data-item-full-display-name="The Smashing Machine (2025)" data-item-link="/film/the-smashing-machine-2025/" data-item-name="The Smashing Machine (2025)" data-item-slug="the-smashing-machine-2025" data-likeable="true" data-num-likes="40934" data-num-watches="156257" data-poster-url="/film/the-smashing-machine-2025/image-150/" data-postered-identifier='{"lid":"syUC","uid":"film:680739","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"syUC","uid":"film:680739","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-smashing-machine-2025/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"65d50e53"}' data-target-link="/film/the-smashing-machine-2025/" data-watchable="true"> <div class="poster film-poster"> <img alt="The Smashing Machine" class="image" height="225" src="local_resources\empty-poster-150-DtnLDE3k_b5d5657dd8d16473.png" width="150"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-long-walk-2025/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-150-DtnLDE3k.png" data-film-id="531316" data-image-height="225" data-image-width="150" data-is-linked="true" data-item-full-display-name="The Long Walk (2025)" data-item-link="/film/the-long-walk-2025/" data-item-name="The Long Walk (2025)" data-item-slug="the-long-walk-2025" data-likeable="true" data-num-likes="132912" data-num-watches="385677" data-poster-url="/film/the-long-walk-2025/image-150/" data-postered-identifier='{"lid":"mic8","uid":"film:531316","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"mic8","uid":"film:531316","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-long-walk-2025/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"58ee2f23"}' data-target-link="/film/the-long-walk-2025/" data-watchable="true"> <div class="poster film-poster"> <img alt="The Long Walk" class="image" height="225" src="local_resources\empty-poster-150-DtnLDE3k_b5d5657dd8d16473.png" width="150"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/anemone-2025/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-150-DtnLDE3k.png" data-film-id="1252346" data-image-height="225" data-image-width="150" data-is-linked="true" data-item-full-display-name="Anemone (2025)" data-item-link="/film/anemone-2025/" data-item-name="Anemone (2025)" data-item-slug="anemone-2025" data-likeable="true" data-num-likes="2635" data-num-watches="15022" data-poster-url="/film/anemone-2025/image-150/" data-postered-identifier='{"lid":"QxVi","uid":"film:1252346","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"QxVi","uid":"film:1252346","type":"film","typeName":"film"},"posteredBaseLink":"/film/anemone-2025/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"efb6961b"}' data-target-link="/film/anemone-2025/" data-watchable="true"> <div class="poster film-poster"> <img alt="Anemone" class="image" height="225" src="local_resources\empty-poster-150-DtnLDE3k_b5d5657dd8d16473.png" width="150"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-history-of-sound/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-150-DtnLDE3k.png" data-film-id="802615" data-image-height="225" data-image-width="150" data-is-linked="true" data-item-full-display-name="The History of Sound (2025)" data-item-link="/film/the-history-of-sound/" data-item-name="The History of Sound (2025)" data-item-slug="the-history-of-sound" data-likeable="true" data-num-likes="5896" data-num-watches="23459" data-poster-url="/film/the-history-of-sound/image-150/" data-postered-identifier='{"lid":"xFY2","uid":"film:802615","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"xFY2","uid":"film:802615","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-history-of-sound/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"74d67f4f"}' data-target-link="/film/the-history-of-sound/" data-watchable="true"> <div class="poster film-poster"> <img alt="The History of Sound" class="image" height="225" src="local_resources\empty-poster-150-DtnLDE3k_b5d5657dd8d16473.png" width="150"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/plainclothes/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-150-DtnLDE3k.png" data-film-id="1139776" data-image-height="225" data-image-width="150" data-is-linked="true" data-item-full-display-name="Plainclothes (2025)" data-item-link="/film/plainclothes/" data-item-name="Plainclothes (2025)" data-item-slug="plainclothes" data-likeable="true" data-num-likes="4586" data-num-watches="12572" data-poster-url="/film/plainclothes/image-150/" data-postered-identifier='{"lid":"LP4Q","uid":"film:1139776","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"LP4Q","uid":"film:1139776","type":"film","typeName":"film"},"posteredBaseLink":"/film/plainclothes/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"fc1d88ca"}' data-target-link="/film/plainclothes/" data-watchable="true"> <div class="poster film-poster"> <img alt="Plainclothes" class="image" height="225" src="local_resources\empty-poster-150-DtnLDE3k_b5d5657dd8d16473.png" width="150"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+</ul>
+</section>
+<section class="section feature-list" id="highlights">
+<h2 class="tagline">Letterboxd lets you…</h2>
+<div class="highlights">
+<a class="panel promopanel has-icon big-icon -watch -hover-green" href="/welcome/#mark-watched"><p>Keep track of every film you’ve ever watched (or just start from the day you join)</p></a>
+<a class="panel promopanel has-icon big-icon -like -hover-orange" href="/welcome/#mark-watched"><p>Show some love for your favorite films, lists and reviews with a “like”</p></a>
+<a class="panel promopanel has-icon big-icon -review -hover-blue" href="/welcome/#logging-films"><p>Write and share reviews, and follow friends and other members to read theirs</p></a>
+<a class="panel promopanel has-icon big-icon -rate -hover-green" href="/welcome/#mark-watched"><p>Rate each film on a five-star scale (with halves) to record and share your reaction</p></a>
+<a class="panel promopanel has-icon big-icon -log -hover-orange" href="/pro/"><p>Keep a diary of your film watching (and upgrade to <strong>Pro</strong> for comprehensive stats)</p></a>
+<a class="panel promopanel has-icon big-icon -list -hover-blue" href="/welcome/#lists"><p>Compile and share lists of films on any topic and keep a watchlist of films to see</p></a>
+</div>
+</section>
+<!--  Alt Ad? -->
+<section class="section section-discovery-stream">
+<h2 class="section-heading">Queer Film is an Act of Rebellion</h2>
+<div class="poster-grid">
+<ul class="grid -p70 -autofit">
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/blue-moon-2025/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1181463" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="Blue Moon (2025)" data-item-link="/film/blue-moon-2025/" data-item-name="Blue Moon (2025)" data-item-slug="blue-moon-2025" data-likeable="true" data-poster-url="/film/blue-moon-2025/image-150/" data-postered-identifier='{"lid":"Nzwy","uid":"film:1181463","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"Nzwy","uid":"film:1181463","type":"film","typeName":"film"},"posteredBaseLink":"/film/blue-moon-2025/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"af80efb8"}' data-show-menu="true" data-target-link="/film/blue-moon-2025/" data-watchable="true"> <div class="poster film-poster"> <img alt="Blue Moon" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/fucktoys/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1301542" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="Fucktoys (2025)" data-item-link="/film/fucktoys/" data-item-name="Fucktoys (2025)" data-item-slug="fucktoys" data-likeable="true" data-poster-url="/film/fucktoys/image-150/" data-postered-identifier='{"lid":"SBU8","uid":"film:1301542","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"SBU8","uid":"film:1301542","type":"film","typeName":"film"},"posteredBaseLink":"/film/fucktoys/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"eb785cbe"}' data-show-menu="true" data-target-link="/film/fucktoys/" data-watchable="true"> <div class="poster film-poster"> <img alt="Fucktoys" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-chronology-of-water/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="454134" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="The Chronology of Water (2025)" data-item-link="/film/the-chronology-of-water/" data-item-name="The Chronology of Water (2025)" data-item-slug="the-chronology-of-water" data-likeable="true" data-poster-url="/film/the-chronology-of-water/image-150/" data-postered-identifier='{"lid":"j3pq","uid":"film:454134","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"j3pq","uid":"film:454134","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-chronology-of-water/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"77c6fb4d"}' data-show-menu="true" data-target-link="/film/the-chronology-of-water/" data-watchable="true"> <div class="poster film-poster"> <img alt="The Chronology of Water" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/a-deeper-love-the-story-of-miss-peppermint/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1357716" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="A Deeper Love: The Story of Miss Peppermint (2025)" data-item-link="/film/a-deeper-love-the-story-of-miss-peppermint/" data-item-name="A Deeper Love: The Story of Miss Peppermint (2025)" data-item-slug="a-deeper-love-the-story-of-miss-peppermint" data-likeable="true" data-poster-url="/film/a-deeper-love-the-story-of-miss-peppermint/image-150/" data-postered-identifier='{"lid":"UY2s","uid":"film:1357716","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"UY2s","uid":"film:1357716","type":"film","typeName":"film"},"posteredBaseLink":"/film/a-deeper-love-the-story-of-miss-peppermint/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"0ba7d5b9"}' data-show-menu="true" data-target-link="/film/a-deeper-love-the-story-of-miss-peppermint/" data-watchable="true"> <div class="poster film-poster"> <img alt="A Deeper Love: The Story of Miss Peppermint" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/come-see-me-in-the-good-light/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1284154" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="Come See Me in the Good Light (2025)" data-item-link="/film/come-see-me-in-the-good-light/" data-item-name="Come See Me in the Good Light (2025)" data-item-slug="come-see-me-in-the-good-light" data-likeable="true" data-poster-url="/film/come-see-me-in-the-good-light/image-150/" data-postered-identifier='{"lid":"RSFC","uid":"film:1284154","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"RSFC","uid":"film:1284154","type":"film","typeName":"film"},"posteredBaseLink":"/film/come-see-me-in-the-good-light/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"c31f4935"}' data-show-menu="true" data-target-link="/film/come-see-me-in-the-good-light/" data-watchable="true"> <div class="poster film-poster"> <img alt="Come See Me in the Good Light" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/night-stage/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1286940" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="Night Stage (2025)" data-item-link="/film/night-stage/" data-item-name="Night Stage (2025)" data-item-slug="night-stage" data-likeable="true" data-poster-url="/film/night-stage/image-150/" data-postered-identifier='{"lid":"RZUY","uid":"film:1286940","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"RZUY","uid":"film:1286940","type":"film","typeName":"film"},"posteredBaseLink":"/film/night-stage/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"20527fc4"}' data-show-menu="true" data-target-link="/film/night-stage/" data-watchable="true"> <div class="poster film-poster"> <img alt="Night Stage" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/in-transit-2025/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1103487" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="In Transit (2025)" data-item-link="/film/in-transit-2025/" data-item-name="In Transit (2025)" data-item-slug="in-transit-2025" data-likeable="true" data-poster-url="/film/in-transit-2025/image-150/" data-postered-identifier='{"lid":"KiFM","uid":"film:1103487","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"KiFM","uid":"film:1103487","type":"film","typeName":"film"},"posteredBaseLink":"/film/in-transit-2025/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"d942cafe"}' data-show-menu="true" data-target-link="/film/in-transit-2025/" data-watchable="true"> <div class="poster film-poster"> <img alt="In Transit" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/shes-the-he/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1301599" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="She's the He (2025)" data-item-link="/film/shes-the-he/" data-item-name="She's the He (2025)" data-item-slug="shes-the-he" data-likeable="true" data-poster-url="/film/shes-the-he/image-150/" data-postered-identifier='{"lid":"SC3k","uid":"film:1301599","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"SC3k","uid":"film:1301599","type":"film","typeName":"film"},"posteredBaseLink":"/film/shes-the-he/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"146db5df"}' data-show-menu="true" data-target-link="/film/shes-the-he/" data-watchable="true"> <div class="poster film-poster"> <img alt="She's the He" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/kids-2025/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1324146" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="Kids (2025)" data-item-link="/film/kids-2025/" data-item-name="Kids (2025)" data-item-slug="kids-2025" data-likeable="true" data-poster-url="/film/kids-2025/image-150/" data-postered-identifier='{"lid":"TyHW","uid":"film:1324146","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"TyHW","uid":"film:1324146","type":"film","typeName":"film"},"posteredBaseLink":"/film/kids-2025/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"a7681253"}' data-show-menu="true" data-target-link="/film/kids-2025/" data-watchable="true"> <div class="poster film-poster"> <img alt="Kids" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/second-nature-2024/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1176274" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="Second Nature (2024)" data-item-link="/film/second-nature-2024/" data-item-name="Second Nature (2024)" data-item-slug="second-nature-2024" data-likeable="true" data-poster-url="/film/second-nature-2024/image-150/" data-postered-identifier='{"lid":"Nm1C","uid":"film:1176274","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"Nm1C","uid":"film:1176274","type":"film","typeName":"film"},"posteredBaseLink":"/film/second-nature-2024/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"844132ae"}' data-show-menu="true" data-target-link="/film/second-nature-2024/" data-watchable="true"> <div class="poster film-poster"> <img alt="Second Nature" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/lesbian-space-princess/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="1221940" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="Lesbian Space Princess (2025)" data-item-link="/film/lesbian-space-princess/" data-item-name="Lesbian Space Princess (2025)" data-item-slug="lesbian-space-princess" data-likeable="true" data-poster-url="/film/lesbian-space-princess/image-150/" data-postered-identifier='{"lid":"PgP6","uid":"film:1221940","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"PgP6","uid":"film:1221940","type":"film","typeName":"film"},"posteredBaseLink":"/film/lesbian-space-princess/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"1f23d578"}' data-show-menu="true" data-target-link="/film/lesbian-space-princess/" data-watchable="true"> <div class="poster film-poster"> <img alt="Lesbian Space Princess" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/i-wish-you-all-the-best/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-125-AiuBHVCI.png" data-film-id="921986" data-image-height="187" data-image-width="125" data-is-linked="true" data-item-full-display-name="I Wish You All the Best (2024)" data-item-link="/film/i-wish-you-all-the-best/" data-item-name="I Wish You All the Best (2024)" data-item-slug="i-wish-you-all-the-best" data-likeable="true" data-poster-url="/film/i-wish-you-all-the-best/image-150/" data-postered-identifier='{"lid":"CGvq","uid":"film:921986","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"CGvq","uid":"film:921986","type":"film","typeName":"film"},"posteredBaseLink":"/film/i-wish-you-all-the-best/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"87ced0c2"}' data-show-menu="true" data-target-link="/film/i-wish-you-all-the-best/" data-watchable="true"> <div class="poster film-poster"> <img alt="I Wish You All the Best" class="image" height="187" src="local_resources\empty-poster-125-AiuBHVCI_a626d7a658965652.png" width="125"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+<li class="griditem">
+<div aria-hidden="true" class="poster -placeholder" role="presentation"></div>
+</li>
+</ul>
+</div>
+<div class="body-text -caption">
+<p>The 37th Annual <a href="https://newfest.org/festival-2025/" rel="external noopener noreferrer" target="_blank">New York LGBTQ+ Film Festival</a> is in-person and streaming October 9-21, 2025. See the <a href="https://boxd.it/Ok0Fk">full lineup</a> and follow the <a href="https://letterboxd.com/newfest/">HQ</a>.</p>
+</div>
+</section>
+<section class="section" id="live-feed">
+<h2 class="section-heading">Just Reviewed…</h2>
+<p class="status"><span id="live-count">2,993,846,983</span> films watched</p>
+<div class="live-feed-container has-fade">
+<ul class="poster-list -p70 -grid">
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/bridget-jones-mad-about-the-boy/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="1155565" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Bridget Jones: Mad About the Boy (2025)" data-item-link="/film/bridget-jones-mad-about-the-boy/" data-item-name="Bridget Jones: Mad About the Boy (2025)" data-item-slug="bridget-jones-mad-about-the-boy" data-likeable="true" data-poster-url="/film/bridget-jones-mad-about-the-boy/image-150/" data-postered-identifier='{"lid":"Mu9s","uid":"film:1155565","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"Mu9s","uid":"film:1155565","type":"film","typeName":"film"},"posteredBaseLink":"/film/bridget-jones-mad-about-the-boy/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"5e7d68e0"}' data-show-menu="true" data-target-link="/joinedajazzband/film/bridget-jones-mad-about-the-boy/" data-watchable="true"> <div class="poster film-poster"> <img alt="Bridget Jones: Mad About the Boy" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-flatshare/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="967488" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="The Flatshare (2022)" data-item-link="/film/the-flatshare/" data-item-name="The Flatshare (2022)" data-item-slug="the-flatshare" data-likeable="true" data-poster-url="/film/the-flatshare/image-150/" data-postered-identifier='{"lid":"EASs","uid":"film:967488","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"EASs","uid":"film:967488","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-flatshare/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"d118be96"}' data-show-menu="true" data-target-link="/malubearman/film/the-flatshare/" data-watchable="true"> <div class="poster film-poster"> <img alt="The Flatshare" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-perfect-neighbour/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="1284157" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="The Perfect Neighbor (2025)" data-item-link="/film/the-perfect-neighbour/" data-item-name="The Perfect Neighbor (2025)" data-item-slug="the-perfect-neighbour" data-likeable="true" data-poster-url="/film/the-perfect-neighbour/image-150/" data-postered-identifier='{"lid":"RSG6","uid":"film:1284157","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"RSG6","uid":"film:1284157","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-perfect-neighbour/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"1c9ce71c"}' data-show-menu="true" data-target-link="/moon_milk/film/the-perfect-neighbour/" data-watchable="true"> <div class="poster film-poster"> <img alt="The Perfect Neighbor" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/bring-her-back/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="1037627" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Bring Her Back (2025)" data-item-link="/film/bring-her-back/" data-item-name="Bring Her Back (2025)" data-item-slug="bring-her-back" data-likeable="true" data-poster-url="/film/bring-her-back/image-150/" data-postered-identifier='{"lid":"Hxlc","uid":"film:1037627","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"Hxlc","uid":"film:1037627","type":"film","typeName":"film"},"posteredBaseLink":"/film/bring-her-back/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"70ee7792"}' data-show-menu="true" data-target-link="/benkinneyh/film/bring-her-back/" data-watchable="true"> <div class="poster film-poster"> <img alt="Bring Her Back" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/from-up-on-poppy-hill/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="69813" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="From Up on Poppy Hill (2011)" data-item-link="/film/from-up-on-poppy-hill/" data-item-name="From Up on Poppy Hill (2011)" data-item-slug="from-up-on-poppy-hill" data-likeable="true" data-poster-url="/film/from-up-on-poppy-hill/image-150/" data-postered-identifier='{"lid":"2VCa","uid":"film:69813","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"2VCa","uid":"film:69813","type":"film","typeName":"film"},"posteredBaseLink":"/film/from-up-on-poppy-hill/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"08bbb63d"}' data-show-menu="true" data-target-link="/4lban3/film/from-up-on-poppy-hill/" data-watchable="true"> <div class="poster film-poster"> <img alt="From Up on Poppy Hill" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/dawn-of-the-dead/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51230" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Dawn of the Dead (1978)" data-item-link="/film/dawn-of-the-dead/" data-item-name="Dawn of the Dead (1978)" data-item-slug="dawn-of-the-dead" data-likeable="true" data-poster-url="/film/dawn-of-the-dead/image-150/" data-postered-identifier='{"lid":"29gU","uid":"film:51230","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"29gU","uid":"film:51230","type":"film","typeName":"film"},"posteredBaseLink":"/film/dawn-of-the-dead/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"a49dfe1d"}' data-show-menu="true" data-target-link="/mariomn20/film/dawn-of-the-dead/" data-watchable="true"> <div class="poster film-poster"> <img alt="Dawn of the Dead" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-da-vinci-code/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51530" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="The Da Vinci Code (2006)" data-item-link="/film/the-da-vinci-code/" data-item-name="The Da Vinci Code (2006)" data-item-slug="the-da-vinci-code" data-likeable="true" data-poster-url="/film/the-da-vinci-code/image-150/" data-postered-identifier='{"lid":"2a3i","uid":"film:51530","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"2a3i","uid":"film:51530","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-da-vinci-code/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"ed2926c0"}' data-show-menu="true" data-target-link="/pamelalanzoni/film/the-da-vinci-code/" data-watchable="true"> <div class="poster film-poster"> <img alt="The Da Vinci Code" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/one-battle-after-another/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="951277" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="One Battle After Another (2025)" data-item-link="/film/one-battle-after-another/" data-item-name="One Battle After Another (2025)" data-item-slug="one-battle-after-another" data-likeable="true" data-poster-url="/film/one-battle-after-another/image-150/" data-postered-identifier='{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"},"posteredBaseLink":"/film/one-battle-after-another/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"5d698a2e"}' data-show-menu="true" data-target-link="/chloe2502/film/one-battle-after-another/" data-watchable="true"> <div class="poster film-poster"> <img alt="One Battle After Another" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/panic-at-the-disco-live-in-denver/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="379192" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Panic! at the Disco: Live in Denver (2006)" data-item-link="/film/panic-at-the-disco-live-in-denver/" data-item-name="Panic! at the Disco: Live in Denver (2006)" data-item-slug="panic-at-the-disco-live-in-denver" data-likeable="true" data-poster-url="/film/panic-at-the-disco-live-in-denver/image-150/" data-postered-identifier='{"lid":"fUs0","uid":"film:379192","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"fUs0","uid":"film:379192","type":"film","typeName":"film"},"posteredBaseLink":"/film/panic-at-the-disco-live-in-denver/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"c6f5f5c0"}' data-show-menu="true" data-target-link="/s0ursw1chbl4d3/film/panic-at-the-disco-live-in-denver/8/" data-watchable="true"> <div class="poster film-poster"> <img alt="Panic! at the Disco: Live in Denver" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/the-usual-suspects/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51495" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="The Usual Suspects (1995)" data-item-link="/film/the-usual-suspects/" data-item-name="The Usual Suspects (1995)" data-item-slug="the-usual-suspects" data-likeable="true" data-poster-url="/film/the-usual-suspects/image-150/" data-postered-identifier='{"lid":"29XE","uid":"film:51495","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"29XE","uid":"film:51495","type":"film","typeName":"film"},"posteredBaseLink":"/film/the-usual-suspects/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"28d8b145"}' data-show-menu="true" data-target-link="/lylou_thl/film/the-usual-suspects/" data-watchable="true"> <div class="poster film-poster"> <img alt="The Usual Suspects" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/puppet-master-ii/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="34907" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Puppet Master II (1990)" data-item-link="/film/puppet-master-ii/" data-item-name="Puppet Master II (1990)" data-item-slug="puppet-master-ii" data-likeable="true" data-poster-url="/film/puppet-master-ii/image-150/" data-postered-identifier='{"lid":"1sOa","uid":"film:34907","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"119545","postered":{"lid":"1sOa","uid":"film:34907","type":"film","typeName":"film"},"posteredBaseLink":"/film/puppet-master-ii/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"06315fa5"}' data-show-menu="true" data-target-link="/jack_1983/film/puppet-master-ii/" data-watchable="true"> <div class="poster film-poster"> <img alt="Puppet Master II" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/v-h-s/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="70737" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="V/H/S (2012)" data-item-link="/film/v-h-s/" data-item-name="V/H/S (2012)" data-item-slug="v-h-s" data-likeable="true" data-poster-url="/film/v-h-s/image-150/" data-postered-identifier='{"lid":"2Y1c","uid":"film:70737","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"2Y1c","uid":"film:70737","type":"film","typeName":"film"},"posteredBaseLink":"/film/v-h-s/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"c9b0fcc7"}' data-show-menu="true" data-target-link="/banhxeo24_/film/v-h-s/1/" data-watchable="true"> <div class="poster film-poster"> <img alt="V/H/S" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+</ul>
+</div>
+</section>
+<h1 class="title-hero home-mid-title">Write and share reviews. Compile your own lists. Share your life in film.</h1>
+<p class="popular-content body-text">Below are some popular reviews and lists from this week. <a class="create-account-link" href="/create-account/">Sign up</a> to create your own.</p>
+<div class="cols-2">
+<div class="col-16">
+<section class="section" id="popular-reviews">
+<h2 class="section-heading -spaced"><a href="/reviews/popular/this/week/">Popular reviews this week</a></h2>
+<a class="all-link" href="/reviews/popular/this/week/">More</a>
+<div class="viewing-list -marginblockstart">
+<div class="listitem js-listitem"> <article class="production-viewing -viewing viewing-poster-container js-production-viewing" data-object-id="viewing:1043035359" data-object-name="review" data-owner="itscharlibb"> <div class="react-component figure" data-component-class="LazyPoster" data-details-endpoint="/film/marty-supreme/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="1197499" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Marty Supreme (2025)" data-item-link="/film/marty-supreme/" data-item-name="Marty Supreme (2025)" data-item-slug="marty-supreme" data-likeable="true" data-poster-url="/film/marty-supreme/image-150/" data-postered-identifier='{"lid":"Off0","uid":"film:1197499","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"Off0","uid":"film:1197499","type":"film","typeName":"film"},"posteredBaseLink":"/film/marty-supreme/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"567555c6"}' data-show-menu="true" data-target-link="/film/marty-supreme/" data-watchable="true"> <div class="poster film-poster"> <img alt="Marty Supreme" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div> <div class="body"> <header class="inline-production-masthead -film -guttered"> <span> <h2 class="name -primary prettify"><a href="/itscharlibb/film/marty-supreme/">Marty Supreme</a></h2><span class="releasedate"> <a href="/films/year/2025/">2025</a> </span> </span> </header> <div class="attribution-block -large"> <a class="avatar -a24" href="/itscharlibb/"> <img alt="itscharlibb" height="24" src="local_resources\avatar48-DSi8lXxI_56c684214684a63c.png" width="24"/> </a> <div class="body"> <span class="attribution-detail"> <a class="owner" href="/itscharlibb/"><strong class="displayname">itscharlibb</strong></a> </span> <span class="content-reactions-strip -viewing"> <span class="rating -green rated-10"> ★★★★★ </span> <span class="inlineicon icon-16 -ignoreactionpseudo icon-liked -hidelabel"><span class="icon" role="presentation"></span><span class="label">Liked</span></span> </span> </div> </div> <div class="js-review"> <div class="body-text -prose -reset js-review-body js-collapsible-text" data-full-text-url="/s/full-text/viewing:1043035359/" data-is-translatable="true" lang="en"> <div class="collapsed-text"> <p>NO FUCKING NOTES. I arrived knowing this would be great but i left completely and utterly dazzled. Josh got the juice but he obviously fucking knows coz there’s no way you pull this off without knowing you’re THE fucking shit. Heartfelt, explosive, raw and sweaty with pace and desperation and humor in abundance, from the sperm credits at the beginning to the tears at the end. I felt it all. Timothée was inspired: performance of a lifetime type vibes but obviously…</p> </div> </div> <div class="viewing-actions"> <div class="review-actions"> <p class="like-link-target react-component" data-component-class="LikeComponent" data-count="6443" data-element-type="p" data-format="count" data-likeable="true" data-likeable-identifier='{"lid":"bnSHrx","uid":"viewing:1043035359","type":"viewing","typeName":"review"}' data-likes-page="/itscharlibb/film/marty-supreme/likes/" data-owner="itscharlibb"> <span class="has-icon icon-16 icon-like"></span> </p> <button class="translation-button button -text" data-translation-control-for="bnSHrx" hidden=""> <span class="label js-label">Translate</span> </button> <div class="translation-disclaimer js-translation-disclaimer" hidden=""> Translated from <span class="js-language-name"></span> by <span class="js-translated-by"></span> </div> </div> </div> </div> </div> </article> </div>
+<div class="listitem js-listitem"> <article class="production-viewing -viewing viewing-poster-container js-production-viewing" data-object-id="viewing:1024312365" data-object-name="review" data-owner="eddyburback"> <div class="react-component figure" data-component-class="LazyPoster" data-details-endpoint="/film/one-battle-after-another/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="951277" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="One Battle After Another (2025)" data-item-link="/film/one-battle-after-another/" data-item-name="One Battle After Another (2025)" data-item-slug="one-battle-after-another" data-likeable="true" data-poster-url="/film/one-battle-after-another/image-150/" data-postered-identifier='{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"},"posteredBaseLink":"/film/one-battle-after-another/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"5d698a2e"}' data-show-menu="true" data-target-link="/film/one-battle-after-another/" data-watchable="true"> <div class="poster film-poster"> <img alt="One Battle After Another" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div> <div class="body"> <header class="inline-production-masthead -film -guttered"> <span> <h2 class="name -primary prettify"><a href="/eddyburback/film/one-battle-after-another/">One Battle After Another</a></h2><span class="releasedate"> <a href="/films/year/2025/">2025</a> </span> </span> </header> <div class="attribution-block -large"> <a class="avatar -a24" href="/eddyburback/"> <img alt="eddyburback" height="24" src="local_resources\avtr-0-48-0-48-crop_9b076154e571d10b.jpg" width="24"/> </a> <div class="body"> <span class="attribution-detail"> <a class="owner" href="/eddyburback/"><strong class="displayname">eddyburback</strong></a> </span> <span class="content-reactions-strip -viewing"> <span class="rating -green rated-10"> ★★★★★ </span> <span class="inlineicon icon-16 -ignoreactionpseudo icon-liked -hidelabel"><span class="icon" role="presentation"></span><span class="label">Liked</span></span> </span> </div> </div> <div class="js-review"> <div class="body-text -prose -reset js-review-body js-collapsible-text" data-full-text-url="/s/full-text/viewing:1024312365/" data-is-translatable="true" lang="en"> <p>Sean Penn delivers one of the weirdest walks of all time. An oscar worthy weird guy walk.</p> </div> <div class="viewing-actions"> <div class="review-actions"> <p class="like-link-target react-component" data-component-class="LikeComponent" data-count="39852" data-element-type="p" data-format="count" data-likeable="true" data-likeable-identifier='{"lid":"bbd6nN","uid":"viewing:1024312365","type":"viewing","typeName":"review"}' data-likes-page="/eddyburback/film/one-battle-after-another/likes/" data-owner="eddyburback"> <span class="has-icon icon-16 icon-like"></span> </p> <button class="translation-button button -text" data-translation-control-for="bbd6nN" hidden=""> <span class="label js-label">Translate</span> </button> <div class="translation-disclaimer js-translation-disclaimer" hidden=""> Translated from <span class="js-language-name"></span> by <span class="js-translated-by"></span> </div> </div> </div> </div> </div> </article> </div>
+<div class="listitem js-listitem"> <article class="production-viewing -viewing viewing-poster-container js-production-viewing" data-object-id="viewing:1024155427" data-object-name="review" data-owner="mikkocito"> <div class="react-component figure" data-component-class="LazyPoster" data-details-endpoint="/film/one-battle-after-another/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="951277" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="One Battle After Another (2025)" data-item-link="/film/one-battle-after-another/" data-item-name="One Battle After Another (2025)" data-item-slug="one-battle-after-another" data-likeable="true" data-poster-url="/film/one-battle-after-another/image-150/" data-postered-identifier='{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"1067372","postered":{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"},"posteredBaseLink":"/film/one-battle-after-another/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"5d698a2e"}' data-show-menu="true" data-target-link="/film/one-battle-after-another/" data-watchable="true"> <div class="poster film-poster"> <img alt="One Battle After Another" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div> <div class="body"> <header class="inline-production-masthead -film -guttered"> <span> <h2 class="name -primary prettify"><a href="/mikkocito/film/one-battle-after-another/">One Battle After Another</a></h2><span class="releasedate"> <a href="/films/year/2025/">2025</a> </span> </span> </header> <div class="attribution-block -large"> <a class="avatar -a24" href="/mikkocito/"> <img alt="mikko" height="24" src="local_resources\avtr-0-48-0-48-crop_e80754761f5ae89f.jpg" width="24"/> </a> <div class="body"> <span class="attribution-detail"> <a class="owner" href="/mikkocito/"><strong class="displayname">mikko</strong></a> </span> <span class="content-reactions-strip -viewing"> <span class="rating -green rated-9"> ★★★★½ </span> <span class="inlineicon icon-16 -ignoreactionpseudo icon-liked -hidelabel"><span class="icon" role="presentation"></span><span class="label">Liked</span></span> </span> </div> </div> <div class="js-review"> <div class="body-text -prose -reset js-review-body js-collapsible-text" data-full-text-url="/s/full-text/viewing:1024155427/" data-is-translatable="true" lang="en"> <p>it’s like finding nemo if the dad was a stoner, alcoholic, and woke</p> </div> <div class="viewing-actions"> <div class="review-actions"> <p class="like-link-target react-component" data-component-class="LikeComponent" data-count="21468" data-element-type="p" data-format="count" data-likeable="true" data-likeable-identifier='{"lid":"bb6w7d","uid":"viewing:1024155427","type":"viewing","typeName":"review"}' data-likes-page="/mikkocito/film/one-battle-after-another/likes/" data-owner="mikkocito"> <span class="has-icon icon-16 icon-like"></span> </p> <button class="translation-button button -text" data-translation-control-for="bb6w7d" hidden=""> <span class="label js-label">Translate</span> </button> <div class="translation-disclaimer js-translation-disclaimer" hidden=""> Translated from <span class="js-language-name"></span> by <span class="js-translated-by"></span> </div> </div> </div> </div> </div> </article> </div>
+<div class="listitem js-listitem"> <article class="production-viewing -viewing viewing-poster-container js-production-viewing" data-object-id="viewing:1042490515" data-object-name="review" data-owner="thenotoriousjac"> <div class="react-component figure" data-component-class="LazyPoster" data-details-endpoint="/film/black-phone-2/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="1082160" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Black Phone 2 (2025)" data-item-link="/film/black-phone-2/" data-item-name="Black Phone 2 (2025)" data-item-slug="black-phone-2" data-likeable="true" data-poster-url="/film/black-phone-2/image-150/" data-postered-identifier='{"lid":"JpbW","uid":"film:1082160","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"JpbW","uid":"film:1082160","type":"film","typeName":"film"},"posteredBaseLink":"/film/black-phone-2/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"5ad35343"}' data-show-menu="true" data-target-link="/film/black-phone-2/" data-watchable="true"> <div class="poster film-poster"> <img alt="Black Phone 2" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div> <div class="body"> <header class="inline-production-masthead -film -guttered"> <span> <h2 class="name -primary prettify"><a href="/thenotoriousjac/film/black-phone-2/">Black Phone 2</a></h2><span class="releasedate"> <a href="/films/year/2025/">2025</a> </span> </span> </header> <div class="attribution-block -large"> <a class="avatar -a24" href="/thenotoriousjac/"> <img alt="thenotoriousjac" height="24" src="local_resources\avtr-0-48-0-48-crop_7aeed3559f8996d7.jpg" width="24"/> </a> <div class="body"> <span class="attribution-detail"> <a class="owner" href="/thenotoriousjac/"><strong class="displayname">thenotoriousjac</strong></a> </span> <span class="content-reactions-strip -viewing"> <span class="rating -green rated-8"> ★★★★ </span> <span class="inlineicon icon-16 -ignoreactionpseudo icon-liked -hidelabel"><span class="icon" role="presentation"></span><span class="label">Liked</span></span> </span> </div> </div> <div class="js-review"> <div class="body-text -prose -reset js-review-body js-collapsible-text" data-full-text-url="/s/full-text/viewing:1042490515/" data-is-translatable="true" lang="en"> <p>the phone put more emotion into ringing than Gal Gadot ever did into acting</p> </div> <div class="viewing-actions"> <div class="review-actions"> <p class="like-link-target react-component" data-component-class="LikeComponent" data-count="3250" data-element-type="p" data-format="count" data-likeable="true" data-likeable-identifier='{"lid":"bnvQ3t","uid":"viewing:1042490515","type":"viewing","typeName":"review"}' data-likes-page="/thenotoriousjac/film/black-phone-2/likes/" data-owner="thenotoriousjac"> <span class="has-icon icon-16 icon-like"></span> </p> <button class="translation-button button -text" data-translation-control-for="bnvQ3t" hidden=""> <span class="label js-label">Translate</span> </button> <div class="translation-disclaimer js-translation-disclaimer" hidden=""> Translated from <span class="js-language-name"></span> by <span class="js-translated-by"></span> </div> </div> </div> </div> </div> </article> </div>
+<div class="listitem js-listitem"> <article class="production-viewing -viewing viewing-poster-container js-production-viewing" data-object-id="viewing:1023460680" data-object-name="review" data-owner="ConnorEatsPants"> <div class="react-component figure" data-component-class="LazyPoster" data-details-endpoint="/film/one-battle-after-another/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="951277" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="One Battle After Another (2025)" data-item-link="/film/one-battle-after-another/" data-item-name="One Battle After Another (2025)" data-item-slug="one-battle-after-another" data-likeable="true" data-poster-url="/film/one-battle-after-another/image-150/" data-postered-identifier='{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"DUHM","uid":"film:951277","type":"film","typeName":"film"},"posteredBaseLink":"/film/one-battle-after-another/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"5d698a2e"}' data-show-menu="true" data-target-link="/film/one-battle-after-another/" data-watchable="true"> <div class="poster film-poster"> <img alt="One Battle After Another" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div> <div class="body"> <header class="inline-production-masthead -film -guttered"> <span> <h2 class="name -primary prettify"><a href="/connoreatspants/film/one-battle-after-another/">One Battle After Another</a></h2><span class="releasedate"> <a href="/films/year/2025/">2025</a> </span> </span> </header> <div class="attribution-block -large"> <a class="avatar -a24" href="/connoreatspants/"> <img alt="ConnorEatsPants" height="24" src="local_resources\avtr-0-48-0-48-crop_0305d592761b4059.jpg" width="24"/> </a> <div class="body"> <span class="attribution-detail"> <a class="owner" href="/connoreatspants/"><strong class="displayname">ConnorEatsPants</strong></a> </span> <span class="content-reactions-strip -viewing"> <span class="rating -green rated-10"> ★★★★★ </span> <span class="inlineicon icon-16 -ignoreactionpseudo icon-liked -hidelabel"><span class="icon" role="presentation"></span><span class="label">Liked</span></span> </span> </div> </div> <div class="js-review"> <div class="body-text -prose -reset js-review-body js-collapsible-text" data-full-text-url="/s/full-text/viewing:1023460680/" data-is-translatable="true" lang="en"> <p>if the president sees this he will either ban movies or kill himself</p> </div> <div class="viewing-actions"> <div class="review-actions"> <p class="like-link-target react-component" data-component-class="LikeComponent" data-count="39460" data-element-type="p" data-format="count" data-likeable="true" data-likeable-identifier='{"lid":"baDmLf","uid":"viewing:1023460680","type":"viewing","typeName":"review"}' data-likes-page="/connoreatspants/film/one-battle-after-another/likes/" data-owner="ConnorEatsPants"> <span class="has-icon icon-16 icon-like"></span> </p> <button class="translation-button button -text" data-translation-control-for="baDmLf" hidden=""> <span class="label js-label">Translate</span> </button> <div class="translation-disclaimer js-translation-disclaimer" hidden=""> Translated from <span class="js-language-name"></span> by <span class="js-translated-by"></span> </div> </div> </div> </div> </div> </article> </div>
+<div class="listitem js-listitem"> <article class="production-viewing -viewing viewing-poster-container js-production-viewing" data-object-id="viewing:1043775758" data-object-name="review" data-owner="Schaffrillas"> <div class="react-component figure" data-component-class="LazyPoster" data-details-endpoint="/film/wake-up-dead-man/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="729113" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-is-linked="true" data-item-full-display-name="Wake Up Dead Man (2025)" data-item-link="/film/wake-up-dead-man/" data-item-name="Wake Up Dead Man (2025)" data-item-slug="wake-up-dead-man" data-likeable="true" data-poster-url="/film/wake-up-dead-man/image-150/" data-postered-identifier='{"lid":"uAKS","uid":"film:729113","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"uAKS","uid":"film:729113","type":"film","typeName":"film"},"posteredBaseLink":"/film/wake-up-dead-man/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"9664ca62"}' data-show-menu="true" data-target-link="/film/wake-up-dead-man/" data-watchable="true"> <div class="poster film-poster"> <img alt="Wake Up Dead Man" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div> <div class="body"> <header class="inline-production-masthead -film -guttered"> <span> <h2 class="name -primary prettify"><a href="/schaffrillas/film/wake-up-dead-man/">Wake Up Dead Man</a></h2><span class="releasedate"> <a href="/films/year/2025/">2025</a> </span> </span> </header> <div class="attribution-block -large"> <a class="avatar -a24" href="/schaffrillas/"> <img alt="James (Schaffrillas)" height="24" src="local_resources\avtr-0-48-0-48-crop_e64fb08bc980de2c.jpg" width="24"/> </a> <div class="body"> <span class="attribution-detail"> <a class="owner" href="/schaffrillas/"><strong class="displayname">James (Schaffrillas)</strong></a> </span> <span class="content-reactions-strip -viewing"> <span class="rating -green rated-8"> ★★★★ </span> </span> </div> </div> <div class="js-review"> <div class="body-text -prose -reset js-review-body js-collapsible-text" data-full-text-url="/s/full-text/viewing:1043775758/" data-is-translatable="true" lang="en"> <p>After the screening there was a Q&amp;A where Rian Johnson was asked if casting Jeremy Renner was an intentional nod to the hot sauce joke in Glass Onion. Nope, apparently Rian just really wanted to work with Jeremy Renner, then realized he already did the hot sauce gag, and said "Ah fuck it" and cast him anyway. You KNOW this mf was on the Jeremy Renner app 24/7</p> </div> <div class="viewing-actions"> <div class="review-actions"> <p class="like-link-target react-component" data-component-class="LikeComponent" data-count="2219" data-element-type="p" data-format="count" data-likeable="true" data-likeable-identifier='{"lid":"bonLyJ","uid":"viewing:1043775758","type":"viewing","typeName":"review"}' data-likes-page="/schaffrillas/film/wake-up-dead-man/likes/" data-owner="Schaffrillas"> <span class="has-icon icon-16 icon-like"></span> </p> <button class="translation-button button -text" data-translation-control-for="bonLyJ" hidden=""> <span class="label js-label">Translate</span> </button> <div class="translation-disclaimer js-translation-disclaimer" hidden=""> Translated from <span class="js-language-name"></span> by <span class="js-translated-by"></span> </div> </div> </div> </div> </div> </article> </div>
+</div>
+</section>
+</div>
+<aside class="sidebar">
+<section class="section list-stacked-narrow">
+<h2 class="section-heading"><a href="/lists/popular/this/week/">Popular lists</a></h2>
+<a class="all-link" href="/lists/popular/this/week/">More</a>
+<ul class="poster-list -p70 featured-list">
+<section class="list js-list -overlapped -stacked" data-film-list-id="75269969" data-person="skywalkerlikeme">
+<div class="poster-list-overlapped -p70" style="--poster-count: 5;">
+<a class="poster-list-link" href="/skywalkerlikeme/list/people-say-greatest-movie-ever-then-it-lives/">
+<ul class="posterlist">
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/heat-1995/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51994" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Heat (1995)" data-item-link="/film/heat-1995/" data-item-name="Heat (1995)" data-item-slug="heat-1995" data-likeable="true" data-poster-url="/film/heat-1995/image-150/" data-postered-identifier='{"lid":"2bg8","uid":"film:51994","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"81227","postered":{"lid":"2bg8","uid":"film:51994","type":"film","typeName":"film"},"posteredBaseLink":"/film/heat-1995/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"4d4488ae"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Heat" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/mulholland-drive/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51171" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Mulholland Drive (2001)" data-item-link="/film/mulholland-drive/" data-item-name="Mulholland Drive (2001)" data-item-slug="mulholland-drive" data-likeable="true" data-poster-url="/film/mulholland-drive/image-150/" data-postered-identifier='{"lid":"297o","uid":"film:51171","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"2246","postered":{"lid":"297o","uid":"film:51171","type":"film","typeName":"film"},"posteredBaseLink":"/film/mulholland-drive/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"b18d340e"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Mulholland Drive" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/there-will-be-blood/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="48044" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="There Will Be Blood (2007)" data-item-link="/film/there-will-be-blood/" data-item-name="There Will Be Blood (2007)" data-item-slug="there-will-be-blood" data-likeable="true" data-poster-url="/film/there-will-be-blood/image-150/" data-postered-identifier='{"lid":"20Z2","uid":"film:48044","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"769675","postered":{"lid":"20Z2","uid":"film:48044","type":"film","typeName":"film"},"posteredBaseLink":"/film/there-will-be-blood/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"c4882f07"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="There Will Be Blood" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/harakiri/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="43015" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Harakiri (1962)" data-item-link="/film/harakiri/" data-item-name="Harakiri (1962)" data-item-slug="harakiri" data-likeable="true" data-poster-url="/film/harakiri/image-150/" data-postered-identifier='{"lid":"1NTU","uid":"film:43015","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"1NTU","uid":"film:43015","type":"film","typeName":"film"},"posteredBaseLink":"/film/harakiri/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"fa62dd92"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Harakiri" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/sunset-boulevard/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51522" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Sunset Boulevard (1950)" data-item-link="/film/sunset-boulevard/" data-item-name="Sunset Boulevard (1950)" data-item-slug="sunset-boulevard" data-likeable="true" data-poster-url="/film/sunset-boulevard/image-150/" data-postered-identifier='{"lid":"2a20","uid":"film:51522","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"80375","postered":{"lid":"2a20","uid":"film:51522","type":"film","typeName":"film"},"posteredBaseLink":"/film/sunset-boulevard/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"4d8b4a51"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Sunset Boulevard" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+</ul>
+</a>
+</div>
+<h3 class="title-3 prettify"> <a href="/skywalkerlikeme/list/people-say-greatest-movie-ever-then-it-lives/">people say “greatest movie ever” then it lives up to the hype</a> </h3>
+<div class="attribution-block">
+<a class="avatar -a16" href="/skywalkerlikeme/"> <img alt="Abdullah" height="16" src="local_resources\avtr-0-32-0-32-crop_b8816e881ceea368.jpg" width="16"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/skywalkerlikeme/"><strong class="displayname">Abdullah</strong></a> </span>
+<span class="content-reactions-strip -filmlist"> <span class="value">188 films</span> <a class="inlineicon icon-16 -ignoreactionpseudo icon-like" href="/skywalkerlikeme/list/people-say-greatest-movie-ever-then-it-lives/likes/"><span class="icon" role="presentation"></span><span class="label">11K</span></a> <a class="inlineicon icon-16 -ignoreactionpseudo icon-comment" href="/skywalkerlikeme/list/people-say-greatest-movie-ever-then-it-lives/#comments"><span class="icon" role="presentation"></span><span class="label">95</span></a> </span>
+</div>
+</div>
+</section>
+<section class="list js-list -overlapped -stacked" data-film-list-id="75952161" data-person="horrorville">
+<div class="poster-list-overlapped -p70" style="--poster-count: 5;">
+<a class="poster-list-link" href="/horrorville/list/japanese-horror-intermediate-starter-pack/">
+<ul class="posterlist">
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/a-page-of-madness/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="78433" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="A Page of Madness (1926)" data-item-link="/film/a-page-of-madness/" data-item-name="A Page of Madness (1926)" data-item-slug="a-page-of-madness" data-likeable="true" data-poster-url="/film/a-page-of-madness/image-150/" data-postered-identifier='{"lid":"3i2u","uid":"film:78433","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"3i2u","uid":"film:78433","type":"film","typeName":"film"},"posteredBaseLink":"/film/a-page-of-madness/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"95f3ab47"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="A Page of Madness" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/jigoku/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="15475" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Jigoku (1960)" data-item-link="/film/jigoku/" data-item-name="Jigoku (1960)" data-item-slug="jigoku" data-likeable="true" data-poster-url="/film/jigoku/image-150/" data-postered-identifier='{"lid":"EfY","uid":"film:15475","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"EfY","uid":"film:15475","type":"film","typeName":"film"},"posteredBaseLink":"/film/jigoku/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"279f2574"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Jigoku" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/yokai-monsters-spook-warfare/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="104548" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Yokai Monsters: Spook Warfare (1968)" data-item-link="/film/yokai-monsters-spook-warfare/" data-item-name="Yokai Monsters: Spook Warfare (1968)" data-item-slug="yokai-monsters-spook-warfare" data-likeable="true" data-poster-url="/film/yokai-monsters-spook-warfare/image-150/" data-postered-identifier='{"lid":"4nYA","uid":"film:104548","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"4nYA","uid":"film:104548","type":"film","typeName":"film"},"posteredBaseLink":"/film/yokai-monsters-spook-warfare/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"c1e39034"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Yokai Monsters: Spook Warfare" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/blind-womans-curse/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="59040" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Blind Woman's Curse (1970)" data-item-link="/film/blind-womans-curse/" data-item-name="Blind Woman's Curse (1970)" data-item-slug="blind-womans-curse" data-likeable="true" data-poster-url="/film/blind-womans-curse/image-150/" data-postered-identifier='{"lid":"2tAA","uid":"film:59040","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"2tAA","uid":"film:59040","type":"film","typeName":"film"},"posteredBaseLink":"/film/blind-womans-curse/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"fa013075"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Blind Woman's Curse" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/demons-1971/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="84683" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Demons (1971)" data-item-link="/film/demons-1971/" data-item-name="Demons (1971)" data-item-slug="demons-1971" data-likeable="true" data-poster-url="/film/demons-1971/image-150/" data-postered-identifier='{"lid":"3yiy","uid":"film:84683","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"postered":{"lid":"3yiy","uid":"film:84683","type":"film","typeName":"film"},"posteredBaseLink":"/film/demons-1971/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"874b398e"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Demons" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+</ul>
+</a>
+</div>
+<h3 class="title-3 prettify"> <a href="/horrorville/list/japanese-horror-intermediate-starter-pack/">Japanese Horror Intermediate Starter Pack</a> </h3>
+<div class="attribution-block">
+<a class="avatar -a16" href="/horrorville/"> <img alt="Horrorville" height="16" src="local_resources\avtr-0-32-0-32-crop_3cf8b9758afc2f65.jpg" width="16"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/horrorville/"><strong class="displayname">Horrorville</strong></a> </span>
+<span class="content-reactions-strip -filmlist"> <span class="value">20 films</span> <a class="inlineicon icon-16 -ignoreactionpseudo icon-like" href="/horrorville/list/japanese-horror-intermediate-starter-pack/likes/"><span class="icon" role="presentation"></span><span class="label">4.7K</span></a> <a class="inlineicon icon-16 -ignoreactionpseudo icon-comment" href="/horrorville/list/japanese-horror-intermediate-starter-pack/#comments"><span class="icon" role="presentation"></span><span class="label">13</span></a> </span>
+</div>
+</div>
+</section>
+<section class="list js-list -overlapped -stacked" data-film-list-id="37878903" data-person="fcbarcelona">
+<div class="poster-list-overlapped -p70" style="--poster-count: 5;">
+<a class="poster-list-link" href="/fcbarcelona/list/movies-everyone-should-watch-at-least-once/">
+<ul class="posterlist">
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/psycho/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51578" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Psycho (1960)" data-item-link="/film/psycho/" data-item-name="Psycho (1960)" data-item-slug="psycho" data-likeable="true" data-poster-url="/film/psycho/image-150/" data-postered-identifier='{"lid":"2ab2","uid":"film:51578","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"4173","postered":{"lid":"2ab2","uid":"film:51578","type":"film","typeName":"film"},"posteredBaseLink":"/film/psycho/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"d66d518b"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Psycho" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/2001-a-space-odyssey/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51987" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="2001: A Space Odyssey (1968)" data-item-link="/film/2001-a-space-odyssey/" data-item-name="2001: A Space Odyssey (1968)" data-item-slug="2001-a-space-odyssey" data-likeable="true" data-poster-url="/film/2001-a-space-odyssey/image-150/" data-postered-identifier='{"lid":"2bf0","uid":"film:51987","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"75","postered":{"lid":"2bf0","uid":"film:51987","type":"film","typeName":"film"},"posteredBaseLink":"/film/2001-a-space-odyssey/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"f238437d"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="2001: A Space Odyssey" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/schindlers-list/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51671" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Schindler's List (1993)" data-item-link="/film/schindlers-list/" data-item-name="Schindler's List (1993)" data-item-slug="schindlers-list" data-likeable="true" data-poster-url="/film/schindlers-list/image-150/" data-postered-identifier='{"lid":"2aq2","uid":"film:51671","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"6962","postered":{"lid":"2aq2","uid":"film:51671","type":"film","typeName":"film"},"posteredBaseLink":"/film/schindlers-list/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"2c356411"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Schindler's List" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/goodfellas/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51383" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="GoodFellas (1990)" data-item-link="/film/goodfellas/" data-item-name="GoodFellas (1990)" data-item-slug="goodfellas" data-likeable="true" data-poster-url="/film/goodfellas/image-150/" data-postered-identifier='{"lid":"29FA","uid":"film:51383","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"62198","postered":{"lid":"29FA","uid":"film:51383","type":"film","typeName":"film"},"posteredBaseLink":"/film/goodfellas/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"2e93e920"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="GoodFellas" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+<li class="posteritem">
+<div class="react-component" data-component-class="LazyPoster" data-details-endpoint="/film/back-to-the-future/json/" data-empty-poster-src="https://s.ltrbxd.com/static/img/empty-poster-70-BSf-Pjrh.png" data-film-id="51945" data-hide-tooltip="true" data-image-height="105" data-image-width="70" data-item-full-display-name="Back to the Future (1985)" data-item-link="/film/back-to-the-future/" data-item-name="Back to the Future (1985)" data-item-slug="back-to-the-future" data-likeable="true" data-poster-url="/film/back-to-the-future/image-150/" data-postered-identifier='{"lid":"2b8e","uid":"film:51945","type":"film","typeName":"film"}' data-rateable="true" data-request-poster-metadata="true" data-resolvable-poster-path='{"preferredAlternativePosterId":"6128","postered":{"lid":"2b8e","uid":"film:51945","type":"film","typeName":"film"},"posteredBaseLink":"/film/back-to-the-future/","isAdultThemed":false,"hasDefaultPoster":true,"cacheBustingKey":"446268a1"}' data-target-link="/" data-watchable="true"> <div class="poster film-poster"> <img alt="Back to the Future" class="image" height="105" src="local_resources\empty-poster-70-BSf-Pjrh_9c3e6589fba3ec3f.png" width="70"/> <span class="frame"><span class="frame-title"></span></span> </div> </div>
+</li>
+</ul>
+</a>
+</div>
+<h3 class="title-3 prettify"> <a href="/fcbarcelona/list/movies-everyone-should-watch-at-least-once/">Movies everyone should watch at least once during their lifetime</a> </h3>
+<div class="attribution-block">
+<a class="avatar -a16" href="/fcbarcelona/"> <img alt="fcbarcelona" height="16" src="local_resources\avtr-0-32-0-32-crop_5a66439ae9fc117d.jpg" width="16"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/fcbarcelona/"><strong class="displayname">fcbarcelona</strong></a> </span>
+<span class="content-reactions-strip -filmlist"> <span class="value">800 films</span> <a class="inlineicon icon-16 -ignoreactionpseudo icon-like" href="/fcbarcelona/list/movies-everyone-should-watch-at-least-once/likes/"><span class="icon" role="presentation"></span><span class="label">302K</span></a> <a class="inlineicon icon-16 -ignoreactionpseudo icon-comment" href="/fcbarcelona/list/movies-everyone-should-watch-at-least-once/#comments"><span class="icon" role="presentation"></span><span class="label">1.2K</span></a> </span>
+</div>
+</div>
+</section>
+</ul>
+<section class="section">
+<h2 class="section-heading"><a href="/reviewers/popular/this/week/">Popular Reviewers</a></h2>
+<a class="all-link" href="/reviewers/popular/this/week/">More</a>
+<ul class="people-shortlist">
+<li> <div class="person-summary"> <a class="avatar -a40" href="/kurstboy/"> <img alt="Karsten" height="40" src="local_resources\http___pbs.twimg.com_profile_images_1001935353740177414_9ZQ0Noe4-0-80-0-80-crop_5903e39863085eb5.jpg" width="40"/> </a> <h3 class="title-3"><a class="name" href="/kurstboy/">Karsten</a></h3> <small class="metadata"> <a href="/kurstboy/films/">2,369 films</a>, <a href="/kurstboy/reviews/">1,600 reviews</a> </small> </div> <div class="follow-button-wrapper js-follow-button-wrapper" data-profile="false" data-username="Kurstboy"> <a class="ajax-click-action button -compact -following js-button-following tooltip" data-action="/kurstboy/unfollow/" hidden="" href="#" title="Unfollow Karsten"><span class="icon"></span><span class="button-text">Following Karsten</span></a> <a class="ajax-click-action button -compact -follow js-button-follow tooltip" data-action="/kurstboy/follow/" data-recaptcha-action="follow" href="#" title="Follow Karsten"><span class="icon"></span><span class="button-text">Follow Karsten</span></a> </div> </li><li> <div class="person-summary"> <a class="avatar -a40" href="/schaffrillas/"> <img alt="James (Schaffrillas)" height="40" src="local_resources\avtr-0-80-0-80-crop_2660715bc1ce4dd1.jpg" width="40"/> </a> <h3 class="title-3"><a class="name" href="/schaffrillas/">James (Schaffrillas)</a></h3> <small class="metadata"> <a href="/schaffrillas/films/">1,328 films</a>, <a href="/schaffrillas/reviews/">1,225 reviews</a> </small> </div> <div class="follow-button-wrapper js-follow-button-wrapper" data-profile="false" data-username="Schaffrillas"> <a class="ajax-click-action button -compact -following js-button-following tooltip" data-action="/schaffrillas/unfollow/" hidden="" href="#" title="Unfollow James"><span class="icon"></span><span class="button-text">Following James</span></a> <a class="ajax-click-action button -compact -follow js-button-follow tooltip" data-action="/schaffrillas/follow/" data-recaptcha-action="follow" href="#" title="Follow James"><span class="icon"></span><span class="button-text">Follow James</span></a> </div> </li><li> <div class="person-summary"> <a class="avatar -a40" href="/jay/"> <img alt="Jay" height="40" src="local_resources\avtr-0-80-0-80-crop_f3a1d4e0d9db860d.jpg" width="40"/> </a> <h3 class="title-3"><a class="name" href="/jay/">Jay</a></h3> <small class="metadata"> <a href="/jay/films/">1,687 films</a>, <a href="/jay/reviews/">1,608 reviews</a> </small> </div> <div class="follow-button-wrapper js-follow-button-wrapper" data-profile="false" data-username="jay"> <a class="ajax-click-action button -compact -following js-button-following tooltip" data-action="/jay/unfollow/" hidden="" href="#" title="Unfollow Jay"><span class="icon"></span><span class="button-text">Following Jay</span></a> <a class="ajax-click-action button -compact -follow js-button-follow tooltip" data-action="/jay/follow/" data-recaptcha-action="follow" href="#" title="Follow Jay"><span class="icon"></span><span class="button-text">Follow Jay</span></a> </div> </li><li> <div class="person-summary"> <a class="avatar -a40" href="/zoerosebryant/"> <img alt="zoë rose bryant" height="40" src="local_resources\avtr-0-80-0-80-crop_a7088d63351de8e4.jpg" width="40"/> </a> <h3 class="title-3"><a class="name" href="/zoerosebryant/">zoë rose bryant</a></h3> <small class="metadata"> <a href="/zoerosebryant/films/">5,009 films</a>, <a href="/zoerosebryant/reviews/">2,410 reviews</a> </small> </div> <div class="follow-button-wrapper js-follow-button-wrapper" data-profile="false" data-username="ZoeRoseBryant"> <a class="ajax-click-action button -compact -following js-button-following tooltip" data-action="/zoerosebryant/unfollow/" hidden="" href="#" title="Unfollow zoë rose bryant"><span class="icon"></span><span class="button-text">Following zoë rose bryant</span></a> <a class="ajax-click-action button -compact -follow js-button-follow tooltip" data-action="/zoerosebryant/follow/" data-recaptcha-action="follow" href="#" title="Follow zoë rose bryant"><span class="icon"></span><span class="button-text">Follow zoë rose bryant</span></a> </div> </li><li> <div class="person-summary"> <a class="avatar -a40" href="/aarnwlsn/"> <img alt="aaron" height="40" src="local_resources\avtr-0-80-0-80-crop_305f2f6fe398d961.jpg" width="40"/> </a> <h3 class="title-3"><a class="name" href="/aarnwlsn/">aaron</a></h3> <small class="metadata"> <a href="/aarnwlsn/films/">1,572 films</a>, <a href="/aarnwlsn/reviews/">1,537 reviews</a> </small> </div> <div class="follow-button-wrapper js-follow-button-wrapper" data-profile="false" data-username="aarnwlsn"> <a class="ajax-click-action button -compact -following js-button-following tooltip" data-action="/aarnwlsn/unfollow/" hidden="" href="#" title="Unfollow aaron"><span class="icon"></span><span class="button-text">Following aaron</span></a> <a class="ajax-click-action button -compact -follow js-button-follow tooltip" data-action="/aarnwlsn/follow/" data-recaptcha-action="follow" href="#" title="Follow aaron"><span class="icon"></span><span class="button-text">Follow aaron</span></a> </div> </li>
+</ul>
+</section>
+</section>
+</aside>
+</div>
+<section class="section stories-section">
+<h2 class="section-heading -spaced">Recent Stories</h2>
+<a class="all-link" href="/members/hq/">All HQs</a>
+<div class="section-body">
+<div class="story-list js-story-list">
+<div class="card-summary-list js-card-summary-list">
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -image">
+<a class="canvas" href="/highonfilms/story/8-movies-to-watch-if-you-like-past-lives/">
+<img alt="" height="198" src="local_resources\image-eurfokxj-352-352-0-0-fill_cf3ced98e6cb1e77.jpg" srcset="https://a.ltrbxd.com/resized/story/image/2/3/7/6/6/9/shard/50126/image-eurfokxj-352-352-0-0-fill.jpg?k=e3193d165a 352w, https://a.ltrbxd.com/resized/story/image/2/3/7/6/6/9/shard/50126/image-eurfokxj-704-704-0-0-fill.jpg?k=8153a35313 703w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/highonfilms/"> <img alt="High On Films" height="24" src="local_resources\http___pbs.twimg.com_profile_images_1164765400623538176_BSfKiCy6-0-48-0-48-crop_8b9e44bba5a58557.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/highonfilms/"><strong class="displayname">High On Films</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/highonfilms/story/8-movies-to-watch-if-you-like-past-lives/"><span class="clamp">8 Movies to Watch if you like ‘Past Lives’</span></a>
+</h3>
+<div class="description body-text -small">
+<p>A24’s Sundance and Berlin hit “Past Lives” marks the directional debut of Celine Song. It is one of 2023’s most loved and well-received movies, eventually creating a huge buzz in the award season. Celine Song’s sucker-punch tells the tale of Nora and Hae Sung— two deeply connected childhood friends drawn to each other as classmates, rivals, and friends. But this doesn’t last long, as they had to wrest apart after Nora’s family emigrated from South Korea. Twenty years later, they…</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/highonfilms/story/8-movies-to-watch-if-you-like-past-lives/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -image">
+<a class="canvas" href="/leighfilm/story/recap-wigan-leigh-short-film-festival-september/">
+<img alt="" height="198" src="local_resources\image-vcikefgd-352-352-0-0-fill_146d2f0b3e1ab994.jpg" srcset="https://a.ltrbxd.com/resized/story/image/2/3/7/8/1/2/8/6/shard/50162/image-vcikefgd-352-352-0-0-fill.jpg?k=8ad887aa0f 352w, https://a.ltrbxd.com/resized/story/image/2/3/7/8/1/2/8/6/shard/50162/image-vcikefgd-704-704-0-0-fill.jpg?k=4f25b4f051 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/leighfilm/"> <img alt="LeighFilm" height="24" src="local_resources\avtr-0-48-0-48-crop_5af5ad86388c1eb5.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/leighfilm/"><strong class="displayname">LeighFilm</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/leighfilm/story/recap-wigan-leigh-short-film-festival-september/"><span class="clamp">Recap: Wigan &amp; Leigh Short Film Festival September 2025</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Wigan &amp; Leigh Short Film Festival September 2025</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/leighfilm/story/recap-wigan-leigh-short-film-festival-september/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -image">
+<a class="canvas" href="/hydeparkph/story/hpphs-top-ghosts-on-film/">
+<img alt="" height="198" src="local_resources\image-jeocotum-352-352-0-0-fill_4df217803443ff3f.jpg" srcset="https://a.ltrbxd.com/resized/story/image/5/5/7/0/1/0/3/shard/50155/image-jeocotum-352-352-0-0-fill.jpg?k=56bc64509f 352w, https://a.ltrbxd.com/resized/story/image/5/5/7/0/1/0/3/shard/50155/image-jeocotum-704-704-0-0-fill.jpg?k=d55a98c6df 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/hydeparkph/"> <img alt="Hyde Park Picture House" height="24" src="local_resources\avtr-0-48-0-48-crop_7b235f328282f972.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/hydeparkph/"><strong class="displayname">Hyde Park Picture House</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/hydeparkph/story/hpphs-top-ghosts-on-film/"><span class="clamp">HPPH's top ghosts on film</span></a>
+</h3>
+<div class="description body-text -small">
+<p>This spooky season, at HPPH, we're reflecting on our favourite ghosts on film. Read on for favourites from our staff and volunteers. You can also catch Casper with us this weekend and Ghost Stories For Christmas in December - another ghoulish season.</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/hydeparkph/story/hpphs-top-ghosts-on-film/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -video">
+<a class="canvas js-video-zoom" href="//www.youtube.com/embed/QPhUANzQ5bg?rel=0&amp;wmode=transparent">
+<svg class="playbutton" height="48" width="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="oval" d="M24 48C4.745 48 0 43.255 0 24S4.745 0 24 0s24 4.745 24 24-4.745 24-24 24z" fill="#000"></path><path class="arrow" d="M20.019 13.03l14.74 8.672a2.667 2.667 0 010 4.596L20.02 34.97A2.667 2.667 0 0116 32.671V15.329a2.667 2.667 0 014.019-2.298z" fill="#FFF"></path></g></svg>
+<img alt="" height="198" src="local_resources\image-wssvysph-352-352-0-0-fill_69ad8747803b237d.jpg" srcset="https://a.ltrbxd.com/resized/story/image/2/9/7/3/4/2/5/shard/50148/image-wssvysph-352-352-0-0-fill.jpg?k=dd050ea02b 352w, https://a.ltrbxd.com/resized/story/image/2/9/7/3/4/2/5/shard/50148/image-wssvysph-704-704-0-0-fill.jpg?k=92c80997dd 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/horrorville/"> <img alt="Horrorville" height="24" src="local_resources\avtr-0-48-0-48-crop_de31c33b630eb38b.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/horrorville/"><strong class="displayname">Horrorville</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/horrorville/story/zach-cregger-reads-your-weapons-letterboxd/"><span class="clamp">Zach Cregger Reads Your Weapons Letterboxd Reviews</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Zach Cregger reads and reacts to some Letterboxd reviews of Weapons.</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/horrorville/story/zach-cregger-reads-your-weapons-letterboxd/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -image">
+<a class="canvas" href="/super_channel/story/tootoo-a-powerful-new-documentary-about-inuk/">
+<img alt="" height="198" src="local_resources\image-escgzoqe-352-352-0-0-fill_8d5dddac2643c1e7.jpg" srcset="https://a.ltrbxd.com/resized/story/image/2/2/0/7/7/6/0/5/shard/50143/image-escgzoqe-352-352-0-0-fill.jpg?k=527644991c 352w, https://a.ltrbxd.com/resized/story/image/2/2/0/7/7/6/0/5/shard/50143/image-escgzoqe-704-704-0-0-fill.jpg?k=754eb4e852 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/super_channel/"> <img alt="Super Channel" height="24" src="local_resources\avtr-0-48-0-48-crop_92ff1bdc3ec820c0.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/super_channel/"><strong class="displayname">Super Channel</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/super_channel/story/tootoo-a-powerful-new-documentary-about-inuk/"><span class="clamp">TOOTOO, a Powerful New Documentary About Inuk NHL Star Jordin Tootoo Premieres October 24 on Super Channel Fuse</span></a>
+</h3>
+<div class="description body-text -small">
+<p>“I hope my story will inspire others to speak up and seek the help they need to live their best lives, free of the generational trauma that has plagued my people.” - Jordin Tootoo</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/super_channel/story/tootoo-a-powerful-new-documentary-about-inuk/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -video">
+<a class="canvas js-video-zoom" href="//www.youtube.com/embed/AZj_9NiKUac?rel=0&amp;wmode=transparent">
+<svg class="playbutton" height="48" width="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="oval" d="M24 48C4.745 48 0 43.255 0 24S4.745 0 24 0s24 4.745 24 24-4.745 24-24 24z" fill="#000"></path><path class="arrow" d="M20.019 13.03l14.74 8.672a2.667 2.667 0 010 4.596L20.02 34.97A2.667 2.667 0 0116 32.671V15.329a2.667 2.667 0 014.019-2.298z" fill="#FFF"></path></g></svg>
+<img alt="" height="198" src="local_resources\image-rvalcgfu-352-352-0-0-fill_e7d0cb61515576c1.jpg" srcset="https://a.ltrbxd.com/resized/story/image/7/5/4/4/9/4/6/shard/50123/image-rvalcgfu-352-352-0-0-fill.jpg?k=3534b934c0 352w, https://a.ltrbxd.com/resized/story/image/7/5/4/4/9/4/6/shard/50123/image-rvalcgfu-704-704-0-0-fill.jpg?k=e0c0751cfd 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/bafta/"> <img alt="BAFTA" height="24" src="local_resources\avtr-0-48-0-48-crop_16703a52f0696647.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/bafta/"><strong class="displayname">BAFTA</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/bafta/story/the-ingredients-of-the-iris-affair-include/"><span class="clamp"> The Ingredients Of The Iris Affair Include North By North West And The Talented Mr Ripley | BAFTA</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Stars of The Iris Affair Niamh Algar &amp; Tom Hollander, and series creator Neil Cross (Luther) chat through the inspiration behind the sun drenched Italian mystery, what the character Iris shares with Steve McQueen and how actors can have different methods of getting into character.</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/bafta/story/the-ingredients-of-the-iris-affair-include/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -video">
+<a class="canvas js-video-zoom" href="//www.youtube.com/embed/A17GnLP3DHA?rel=0&amp;wmode=transparent">
+<svg class="playbutton" height="48" width="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="oval" d="M24 48C4.745 48 0 43.255 0 24S4.745 0 24 0s24 4.745 24 24-4.745 24-24 24z" fill="#000"></path><path class="arrow" d="M20.019 13.03l14.74 8.672a2.667 2.667 0 010 4.596L20.02 34.97A2.667 2.667 0 0116 32.671V15.329a2.667 2.667 0 014.019-2.298z" fill="#FFF"></path></g></svg>
+<img alt="" height="198" src="local_resources\image-fxxwuius-352-352-0-0-fill_5d5ad3b874341a92.jpg" srcset="https://a.ltrbxd.com/resized/story/image/1/2/2/9/0/5/1/7/shard/50139/image-fxxwuius-352-352-0-0-fill.jpg?k=91722420cc 352w, https://a.ltrbxd.com/resized/story/image/1/2/2/9/0/5/1/7/shard/50139/image-fxxwuius-704-704-0-0-fill.jpg?k=1ca848c70b 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/firehousecinema/"> <img alt="Firehouse: DCTV’s Cinema for Documentary Film" height="24" src="local_resources\avtr-0-48-0-48-crop_520bae143c2db99b.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/firehousecinema/"><strong class="displayname">Firehouse: DCTV’s Cinema for Documentary Film</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/firehousecinema/story/river-of-grass-opens-oct-24/"><span class="clamp">RIVER OF GRASS Opens Oct 24</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Sasha's Wortzel's RIVER OF GRASS is an ode to the Florida Everglades, told through the prescient writings of Marjory Stoneman Douglas, and those who today call the region home. Join us for the NY Theatrical Premiere Fri Oct 24 – Thu Oct 30 featuring Q&amp;As at many showtimes with special guests. https://firehousecinema.dctvny.org/riverofgrass</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/firehousecinema/story/river-of-grass-opens-oct-24/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -video">
+<a class="canvas js-video-zoom" href="//www.youtube.com/embed/nj-O474sus0?rel=0&amp;wmode=transparent">
+<svg class="playbutton" height="48" width="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="oval" d="M24 48C4.745 48 0 43.255 0 24S4.745 0 24 0s24 4.745 24 24-4.745 24-24 24z" fill="#000"></path><path class="arrow" d="M20.019 13.03l14.74 8.672a2.667 2.667 0 010 4.596L20.02 34.97A2.667 2.667 0 0116 32.671V15.329a2.667 2.667 0 014.019-2.298z" fill="#FFF"></path></g></svg>
+<img alt="" height="198" src="local_resources\image-okozczas-352-352-0-0-fill_91bcae200510a289.jpg" srcset="https://a.ltrbxd.com/resized/story/image/4/6/7/2/3/9/9/shard/50134/image-okozczas-352-352-0-0-fill.jpg?k=858985d69d 352w, https://a.ltrbxd.com/resized/story/image/4/6/7/2/3/9/9/shard/50134/image-okozczas-704-704-0-0-fill.jpg?k=fe38328ace 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/mubi/"> <img alt="MUBI" height="24" src="local_resources\avtr-0-48-0-48-crop_1bcb5a36198b8ab9.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/mubi/"><strong class="displayname">MUBI</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/mubi/story/hal-harper-in-conversation-with-cooper-raiff/"><span class="clamp">HAL &amp; HARPER | In Conversation with Cooper Raiff, Lili Reinhart, &amp; Mark Ruffalo</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Cooper Raiff, Lili Reinhart, and Mark Ruffalo discuss the making of HAL &amp; HARPER — a heartfelt and humorous new series about family, codependence, and the bonds that define us.</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/mubi/story/hal-harper-in-conversation-with-cooper-raiff/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -image">
+<a class="canvas" href="/shudder/story/favorite-frights-on-shudder-with-ryan-kruger/">
+<img alt="" height="198" src="local_resources\image-fpzphpym-352-352-0-0-fill_c2b7a21824133e1a.jpg" srcset="https://a.ltrbxd.com/resized/story/image/3/0/9/2/7/6/8/shard/35089/image-fpzphpym-352-352-0-0-fill.jpg?k=8b17f4aaee 352w, https://a.ltrbxd.com/resized/story/image/3/0/9/2/7/6/8/shard/35089/image-fpzphpym-704-704-0-0-fill.jpg?k=691c4632fc 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/shudder/"> <img alt="Shudder" height="24" src="local_resources\avtr-0-48-0-48-crop_8cdef071c1aef84d.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/shudder/"><strong class="displayname">Shudder</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/shudder/story/favorite-frights-on-shudder-with-ryan-kruger/"><span class="clamp">Favorite Frights on Shudder with Ryan Kruger, director of Fried Barry and Street Trash</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Welcome to Favorite Frights, where actors, directors, and writers share their favorite film titles on Shudder. </p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/shudder/story/favorite-frights-on-shudder-with-ryan-kruger/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -video">
+<a class="canvas js-video-zoom" href="//www.youtube.com/embed/S5WNYr57c2k?rel=0&amp;wmode=transparent">
+<svg class="playbutton" height="48" width="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path class="oval" d="M24 48C4.745 48 0 43.255 0 24S4.745 0 24 0s24 4.745 24 24-4.745 24-24 24z" fill="#000"></path><path class="arrow" d="M20.019 13.03l14.74 8.672a2.667 2.667 0 010 4.596L20.02 34.97A2.667 2.667 0 0116 32.671V15.329a2.667 2.667 0 014.019-2.298z" fill="#FFF"></path></g></svg>
+<img alt="" height="198" src="local_resources\image-lnofdmrg-352-352-0-0-fill_4ec34d4ad58debaa.jpg" srcset="https://a.ltrbxd.com/resized/story/image/2/0/1/3/5/0/9/9/shard/50132/image-lnofdmrg-352-352-0-0-fill.jpg?k=836922258a 352w, https://a.ltrbxd.com/resized/story/image/2/0/1/3/5/0/9/9/shard/50132/image-lnofdmrg-704-704-0-0-fill.jpg?k=c15c2fe067 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/centralimbb/"> <img alt="Central im Bürgerbräu" height="24" src="local_resources\avtr-0-48-0-48-crop_fb7765eb96782cba.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/centralimbb/"><strong class="displayname">Central im Bürgerbräu</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/centralimbb/story/central-neustarts-ab-23102025/"><span class="clamp">Central-Neustarts (ab 23.10.2025)</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Unser Neustart der Woche ist SPRINGSTEEN: DELIVER ME FROM NOWHERE von Scott Cooper. Der US-Regisseur drehte u.a. das Filmdrama CRAZY HEART von 2009, das bereits Jeff Bridges zu seinem Hauptrollen-Oscar verholfen hat. Vielleicht gelingt es mit diesem Musikfilm diesmal auch Jeremy Allen White (Serien "The Bear" und "Shameless") als Bruce "The Boss" Springsteen?</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/centralimbb/story/central-neustarts-ab-23102025/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -image">
+<a class="canvas" href="/cinemastlouis/story/sliff-2025-qfest-lgbtq-spotlight/">
+<img alt="" height="198" src="local_resources\image-nokstfgi-352-352-0-0-fill_12dd26d6f7fd8d04.jpg" srcset="https://a.ltrbxd.com/resized/story/image/4/2/9/2/2/8/5/shard/48194/image-nokstfgi-352-352-0-0-fill.jpg?k=48e8c7c2c5 352w, https://a.ltrbxd.com/resized/story/image/4/2/9/2/2/8/5/shard/48194/image-nokstfgi-704-704-0-0-fill.jpg?k=b3c62a3e0b 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/cinemastlouis/"> <img alt="Cinema St. Louis" height="24" src="local_resources\avtr-0-48-0-48-crop_0776dce0f85d9a15.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/cinemastlouis/"><strong class="displayname">Cinema St. Louis</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/cinemastlouis/story/sliff-2025-qfest-lgbtq-spotlight/"><span class="clamp">SLIFF 2025: QFest LGBTQ Spotlight</span></a>
+</h3>
+<div class="description body-text -small">
+<p>The St. Louis International Film Festival Presents 2025's QFest LGBTQ Spotlight</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/cinemastlouis/story/sliff-2025-qfest-lgbtq-spotlight/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+<article class="card-summary js-card-summary">
+<div class="inner">
+<figure class="media -image">
+<a class="canvas" href="/de_cinema/story/de-cinema-autumn-break-2025/">
+<img alt="" height="198" src="local_resources\image-woszvctq-352-352-0-0-fill_0f3addf66e3b4090.jpg" srcset="https://a.ltrbxd.com/resized/story/image/1/5/4/3/7/9/5/4/shard/48437/image-woszvctq-352-352-0-0-fill.jpg?k=7959004771 352w, https://a.ltrbxd.com/resized/story/image/1/5/4/3/7/9/5/4/shard/48437/image-woszvctq-704-704-0-0-fill.jpg?k=a7b3c93760 704w" width="352"/>
+</a>
+</figure>
+<div class="detail">
+<div class="attribution-block -large -constrain">
+<a class="avatar -a24" href="/de_cinema/"> <img alt="De Cinema" height="24" src="local_resources\avtr-0-48-0-48-crop_32aa1e73f2234602.jpg" width="24"/> </a>
+<div class="body">
+<span class="attribution-detail"> <a class="owner" href="/de_cinema/"><strong class="displayname">De Cinema</strong></a> </span>
+</div>
+</div>
+<h3 class="title headline-2 prettify"><a href="/de_cinema/story/de-cinema-autumn-break-2025/"><span class="clamp">DE CINEMA | AUTUMN BREAK 2025</span></a>
+</h3>
+<div class="description body-text -small">
+<p>Full programme &amp; tickets</p>
+</div>
+<div class="kicker">
+<a class="sourcecta" href="/de_cinema/story/de-cinema-autumn-break-2025/">Read Story</a>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<section class="section">
+<h2 class="section-heading -spaced"><a href="/showdown/">Recent Showdowns</a></h2>
+<a class="all-link" href="/showdown/">More</a>
+<div class="teaser-grid -singlerow">
+<section class="content-teaser -stacked">
+<div class="teaser-media">
+<a class="image" href="/showdown/dead-again/">
+<img alt="" height="174" src="local_resources\scream-2-310-310-174-174-crop-fill_44927e6517eadacc.jpg" srcset="https://a.ltrbxd.com/resized/sm/upload/n0/22/c0/fy/scream-2-310-310-174-174-crop-fill.jpg?k=043dec007c 310w, https://a.ltrbxd.com/resized/sm/upload/n0/22/c0/fy/scream-2-620-620-348-348-crop-fill.jpg?k=7efb41c72e 620w" width="310"/>
+<span class="badge">In progress</span>
+</a>
+</div>
+<div class="body-text">
+<h3 class="title-2"><a href="/showdown/dead-again/">Dead Again</a></h3>
+<h4 class="body-text">Best horror sequels</h4>
+</div>
+</section>
+<section class="content-teaser -stacked">
+<div class="teaser-media">
+<a class="image" href="/showdown/talking-heads/">
+<img alt="" height="174" src="local_resources\gangs-of-new-york-310-310-174-174-crop-fill_93678381b27db9c4.jpg" srcset="https://a.ltrbxd.com/resized/sm/upload/pk/0s/ks/b0/gangs-of-new-york-310-310-174-174-crop-fill.jpg?k=0ae570a73c 309w, https://a.ltrbxd.com/resized/sm/upload/pk/0s/ks/b0/gangs-of-new-york-620-620-348-348-crop-fill.jpg?k=e94c23cf89 620w" width="309"/>
+</a>
+</div>
+<div class="body-text">
+<h3 class="title-2"><a href="/showdown/talking-heads/">Talking Heads</a></h3>
+<h4 class="body-text">Best movie monologues 2.0</h4>
+</div>
+</section>
+<section class="content-teaser -stacked">
+<div class="teaser-media">
+<a class="image" href="/showdown/nine-to-five/">
+<img alt="" height="174" src="local_resources\ICbJ0sTebbjKXVzc3kOiJdicxx-310-310-174-174-crop-fill_57d8597a3422c424.jpg" srcset="https://a.ltrbxd.com/resized/sm/upload/9n/u3/nt/2p/ICbJ0sTebbjKXVzc3kOiJdicxx-310-310-174-174-crop-fill.jpg?k=c4a9f18bcf 309w, https://a.ltrbxd.com/resized/sm/upload/9n/u3/nt/2p/ICbJ0sTebbjKXVzc3kOiJdicxx-620-620-348-348-crop-fill.jpg?k=0a7a4aa995 620w" width="309"/>
+</a>
+</div>
+<div class="body-text">
+<h3 class="title-2"><a href="/showdown/nine-to-five/">Nine to Five</a></h3>
+<h4 class="body-text">Best films with job-title titles</h4>
+</div>
+</section>
+</div>
+</section>
+<section class="section" id="latest-news">
+<h2 class="section-heading -spaced"><a href="/journal/">Recent News</a></h2>
+<a class="all-link" href="/journal/">More</a>
+<div class="teaser-grid -singlerow">
+<section class="content-teaser -stacked">
+<div class="teaser-media">
+<a class="image" href="/journal/diane-keaton-performances-retrospective/">
+<img alt="" height="174" src="local_resources\Journal%20header%205-310-310-174-174-crop-fill_dfd5bb27bf9877f6.jpg" srcset="https://a.ltrbxd.com/resized/sm/upload/0j/0x/xi/qk/Journal%20header%205-310-310-174-174-crop-fill.jpg?k=034d1973f4 309w, https://a.ltrbxd.com/resized/sm/upload/0j/0x/xi/qk/Journal%20header%205-620-620-348-348-crop-fill.jpg?k=cc679140b1 620w" width="309"/>
+</a>
+</div>
+<div class="body-text -prose">
+<h3 class="title-2"><a href="/journal/diane-keaton-performances-retrospective/">Divine Diane</a></h3>
+<p>Ten memorable performances from the late Diane Keaton.</p>
+</div>
+</section>
+<section class="content-teaser -stacked">
+<div class="teaser-media">
+<a class="image" href="/journal/ethan-hawke-blue-moon-interview/">
+<img alt="" height="174" src="local_resources\blue%20moon-310-310-174-174-crop-fill_e2e91f7573cf3369.jpg" srcset="https://a.ltrbxd.com/resized/sm/upload/o2/xx/6r/c0/blue%20moon-310-310-174-174-crop-fill.jpg?k=6eb243878b 309w, https://a.ltrbxd.com/resized/sm/upload/o2/xx/6r/c0/blue%20moon-620-620-348-348-crop-fill.jpg?k=f5cc1eb63d 620w" width="309"/>
+</a>
+</div>
+<div class="body-text -prose">
+<h3 class="title-2"><a href="/journal/ethan-hawke-blue-moon-interview/">Unplanned Obsolescence</a></h3>
+<p>Ethan Hawke on going to those dark places—while keeping it funny—in Richard Linklater’s<em>Blue Moon</em>.</p>
+</div>
+</section>
+<section class="content-teaser -stacked">
+<div class="teaser-media">
+<a class="image" href="/journal/horror-movies-for-tweens-teens-adolescents/">
+<img alt="" height="174" src="local_resources\PG-13%20Horror%20Starter%20Pack-310-310-174-174-crop-fill_4e7b27ca92b07e32.jpg" srcset="https://a.ltrbxd.com/resized/sm/upload/df/r5/he/f3/PG-13%20Horror%20Starter%20Pack-310-310-174-174-crop-fill.jpg?k=d8bd55b78e 309w, https://a.ltrbxd.com/resized/sm/upload/df/r5/he/f3/PG-13%20Horror%20Starter%20Pack-620-620-348-348-crop-fill.jpg?k=d048999a5e 620w" width="309"/>
+</a>
+</div>
+<div class="body-text -prose">
+<h3 class="title-2"><a href="/journal/horror-movies-for-tweens-teens-adolescents/">Terror for Tweens</a></h3>
+<p>A starter pack of twenty PG-13 horror gateway movies.</p>
+</div>
+</section>
+</div>
+</section>
+<!-- END /esi/homepage/ -->
+</div>
+</div>
+<footer class="page-footer js-page-footer js-hide-in-app" id="page-footer">
+<div class="content-wrap">
+<nav class="footer-nav js-footer-nav">
+<ul>
+<li><a href="/about/">About</a></li>
+<li class="js-hide-in-app"><a href="/pro/">Pro</a></li>
+<li><a href="/journal/">News</a></li>
+<li><a href="/apps/">Apps</a></li>
+<li><a href="/year-in-review/">Year in Review</a></li>
+<li><a href="/gift-guide/">Gifts</a></li>
+<li><a href="/welcome/">Help</a></li>
+<li><a href="/legal/terms-of-use/">Terms</a></li>
+<li><a href="/api-beta/">API</a></li>
+<li><a href="/contact/">Contact</a></li>
+</ul>
+</nav>
+<div class="socials">
+<nav class="social-service-list -inline">
+<div class="listitem -icononly">
+<a class="trigger tooltip" href="https://www.instagram.com/letterboxd" rel="noopener noreferrer" target="_blank" title="Letterboxd on Instagram">
+<svg aria-hidden="true" class="glyph" height="20" role="presentation" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M14.12.06c1.07.05 1.8.22 2.43.46.66.26 1.21.6 1.77 1.16.56.55.9 1.11 1.15 1.77.25.63.42 1.36.47 2.43.04.94.06 1.32.06 3.3v1.37c0 1.54 0 2.19-.03 2.77v.22l-.03.58a7.34 7.34 0 0 1-.47 2.43 4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.16c-.64.24-1.36.41-2.43.46l-.61.03h-.23c-.5.02-1.06.03-2.21.03H9.2c-2 0-2.37-.02-3.32-.06a7.34 7.34 0 0 1-2.43-.46 4.9 4.9 0 0 1-1.77-1.16 4.9 4.9 0 0 1-1.16-1.77 7.34 7.34 0 0 1-.46-2.43l-.03-.61v-.2A60.9 60.9 0 0 1 0 11.5V8.75C0 7.7.01 7.17.03 6.7v-.2l.03-.61C.1 4.8.28 4.08.52 3.45a4.9 4.9 0 0 1 1.16-1.77A4.9 4.9 0 0 1 3.45.52 7.34 7.34 0 0 1 5.88.06l.61-.03h.2C7.12 0 7.6 0 8.5 0h2.74c1.62 0 2 .02 2.88.06ZM11.02 2H8.97c-1.7 0-2.05.02-2.92.06a5.4 5.4 0 0 0-1.82.33c-.45.18-.78.39-1.12.73-.34.34-.55.67-.73 1.12-.13.35-.3.86-.33 1.82C2.02 6.93 2 7.29 2 8.98v2.04c0 1.7.02 2.05.06 2.92.04.95.2 1.47.33 1.81.18.46.39.78.73 1.13.34.34.67.55 1.12.73.35.13.86.29 1.82.33.83.04 1.2.05 2.7.06h2.47c1.51 0 1.87-.02 2.71-.06a5.4 5.4 0 0 0 1.81-.33c.46-.18.78-.4 1.12-.73.35-.35.56-.67.73-1.13.14-.34.3-.86.34-1.8a49 49 0 0 0 .06-2.72V8.77a49 49 0 0 0-.06-2.71 5.4 5.4 0 0 0-.34-1.82 3.02 3.02 0 0 0-.73-1.12 3.02 3.02 0 0 0-1.12-.73 5.4 5.4 0 0 0-1.81-.33c-.88-.04-1.23-.06-2.93-.06ZM10 4.86a5.14 5.14 0 1 1 0 10.28 5.14 5.14 0 0 1 0-10.28ZM10 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-3.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"></path></svg>
+<span class="label">Instagram</span>
+</a>
+</div>
+<div class="listitem -icononly">
+<a class="trigger tooltip" href="https://www.threads.net/@letterboxd" rel="noopener noreferrer" target="_blank" title="Letterboxd on Threads">
+<svg aria-hidden="true" class="glyph" height="18" role="presentation" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.1 0c2.8 0 4.9.9 6.3 2.6.7.9 1.3 1.9 1.6 3v.1l-1.6.4c-.3-1-.7-1.8-1.3-2.4-1.1-1.3-2.8-2-5-2-2.1 0-3.8.7-4.9 2-1 1.2-1.5 3-1.5 5.3s.5 4 1.5 5.3c1.1 1.3 2.8 2 5 2 1.9 0 3.2-.4 4.3-1.5 1-1 1.3-2.4.8-3.5-.2-.5-.6-1-1.1-1.2-.2 1-.5 1.7-1 2.3-.7.8-1.6 1.3-2.8 1.3-1 .1-1.8-.1-2.5-.6A2.8 2.8 0 0 1 4.5 11C4.5 9 6 7.8 8.2 7.6l2.3.1c-.1-.5-.3-.9-.6-1.2-.4-.4-1-.6-1.7-.7-.9 0-1.6.3-2 1H6L4.7 6a4 4 0 0 1 3.5-1.7c2.3 0 3.8 1.4 4 3.8v.2h.2v.1c1.2.5 2 1.3 2.4 2.3.8 1.7.5 3.8-1.1 5.4A7.4 7.4 0 0 1 8 18c-2.7 0-4.8-1-6.2-2.6A10 10 0 0 1 0 9c0-2.7.7-4.8 2-6.4C3.2 1 5.3 0 8 0ZM9 9.3h-.6c-1.4 0-2.1.7-2 1.5 0 .8.9 1.3 2 1.3.6 0 1-.2 1.4-.5.4-.4.7-1 .8-2v-.2A8 8 0 0 0 9 9.3h-.1Z" fill-rule="nonzero"></path></svg>
+<span class="label">Threads</span>
+</a>
+</div>
+<div class="listitem -icononly">
+<a class="trigger tooltip" href="https://x.com/letterboxd" rel="noopener noreferrer" target="_blank" title="Letterboxd on X">
+<svg aria-hidden="true" class="glyph" height="17" role="presentation" width="17" xmlns="http://www.w3.org/2000/svg"><path d="m5.4 0 4 6 5-6h2.1l-.3.4-5.9 6.8 6.5 9.5.2.3h-5.3l-4.3-6.3L2 16.9 2 17H0l.3-.4 6.2-7.2L.3.4 0 0h5.3Zm-1 1.5H2.9l4.9 7 .6.9 4.3 6.1h1.6l-5-7.3-.7-.9-4-5.8Z" fill-rule="nonzero"></path></svg>
+<span class="label">X</span>
+</a>
+</div>
+<div class="listitem -icononly">
+<a class="trigger tooltip" href="https://bsky.app/profile/letterboxd.social" rel="noopener noreferrer" target="_blank" title="Letterboxd on Bluesky">
+<svg aria-hidden="true" class="glyph" height="17" role="presentation" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M4.15 1.14C6.34 2.81 8.7 6.18 9.56 7.98c.87-1.8 3.23-5.17 5.42-6.84 1.58-1.2 4.14-2.12 4.14.83 0 .59-.33 4.95-.53 5.66-.68 2.46-3.17 3.1-5.38 2.71 3.87.67 4.85 2.87 2.73 5.07-4.04 4.18-5.8-1.05-6.26-2.39-.08-.25-.12-.36-.12-.26 0-.1-.04.01-.12.26-.45 1.34-2.22 6.57-6.25 2.39-2.13-2.2-1.14-4.4 2.72-5.07-2.2.38-4.7-.25-5.38-2.7C.33 6.91 0 2.55 0 1.96 0-.98 2.56-.05 4.15 1.14Z" fill="#000" fill-rule="nonzero"></path></svg>
+<span class="label">Bluesky</span>
+</a>
+</div>
+<div class="listitem -icononly">
+<a class="trigger tooltip" href="https://www.facebook.com/letterboxd" rel="noopener noreferrer" target="_blank" title="Letterboxd on Facebook">
+<svg aria-hidden="true" class="glyph" height="19" role="presentation" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 0a9.5 9.5 0 0 0-1.48 18.89V12H5.6V9.25h2.42V7.41c0-2.38 1.41-3.7 3.58-3.7 1.04 0 2.13.19 2.13.19v2.33h-1.2c-1.18 0-1.54.74-1.54 1.49v1.53h2.63L13.2 12h-2.21v6.89A9.5 9.5 0 0 0 9.5 0Z"></path></svg>
+<span class="label">Facebook</span>
+</a>
+</div>
+<div class="listitem -icononly">
+<a class="trigger tooltip" href="https://www.tiktok.com/@letterboxd" rel="noopener noreferrer" target="_blank" title="Letterboxd on TikTok">
+<svg aria-hidden="true" class="glyph" height="18" role="presentation" width="17" xmlns="http://www.w3.org/2000/svg"><path d="M16.48 4.32a4.62 4.62 0 0 1-3.92-2.66A4.04 4.04 0 0 1 12.23 0H9.07v11.85c0 1.93-1.19 3.07-2.65 3.07a2.71 2.71 0 0 1-2.04-.9 2.57 2.57 0 0 1-.6-2.1 2.55 2.55 0 0 1 1.26-1.81 2.7 2.7 0 0 1 2.24-.21V6.77a5.92 5.92 0 0 0-4.08.86 5.7 5.7 0 0 0-2.15 2.55 5.53 5.53 0 0 0 1.26 6.16 5.86 5.86 0 0 0 6.33 1.23 5.78 5.78 0 0 0 2.6-2.08c.64-.94.98-2.03.98-3.15V5.96a7.74 7.74 0 0 0 4.25 1.25V4.32Z"></path></svg>
+<span class="label">TikTok</span>
+</a>
+</div>
+<div class="listitem -icononly">
+<a class="trigger tooltip" href="https://www.youtube.com/letterboxdhq" rel="noopener noreferrer" target="_blank" title="Letterboxd on YouTube">
+<svg aria-hidden="true" class="glyph" height="16" role="presentation" width="23" xmlns="http://www.w3.org/2000/svg"><path d="M11.74 0c.61 0 2.33.02 4.11.08l.54.02c1.7.06 3.35.18 4.1.38a2.87 2.87 0 0 1 2.03 2.02c.45 1.67.48 5.04.48 5.46v.08c0 .42-.03 3.8-.48 5.46a2.87 2.87 0 0 1-2.03 2.02c-.75.2-2.4.32-4.1.38l-.54.02c-1.78.07-3.5.08-4.11.08H11.26c-.62 0-2.33-.01-4.11-.08l-.54-.02c-1.7-.06-3.36-.18-4.1-.38A2.87 2.87 0 0 1 .48 13.5C.04 11.9 0 8.68 0 8.1v-.2c0-.58.04-3.79.48-5.4A2.87 2.87 0 0 1 2.5.48c.74-.2 2.4-.32 4.1-.38l.54-.02C8.93.02 10.65 0 11.26 0ZM9 4.57v6.86L15 8 9 4.57Z"></path></svg>
+<span class="label">YouTube</span>
+</a>
+</div>
+</nav>
+</div>
+<p class="copyright">
+				© Letterboxd Limited. Made by <a class="mute" href="/crew/">fans</a> in Aotearoa New Zealand.
+				<span class="nobr"><a class="mute" href="https://letterboxd.com/about/film-data/">Film data</a> from <a class="mute" href="https://www.themoviedb.org">TMDB</a>. 
+				
+						<a class="mute mobile-site-switch" data-use-mobile-site="yes" href="#">Mobile site</a>.
+					
+	</span>
+<span class="recap" style="display:none"><br/>This site is protected by reCAPTCHA and the Google <a class="mute" href="https://policies.google.com/privacy" rel="noopener noreferrer" target="_blank">privacy policy</a> and <a class="mute" href="https://policies.google.com/terms" rel="noopener noreferrer" target="_blank">terms of service</a> apply.</span>
+</p>
+</div>
+</footer>
+<div aria-hidden="true" aria-labelledby="poster-picker-modal-title" class="modal fade content-media-picker-modal poster-picker-modal" data-bs-backdrop="static" id="poster-picker-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="poster-picker-modal-title">Select your preferred <span class="js-image-type">poster</span></h5>
+<button aria-label="Close" class="modal-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<form action="" data-js-target="poster-picker" data-poster-picker-options='{"id": "799d5674-975c-484f-b844-d047311548fe"}' id="poster-picker-799d5674-975c-484f-b844-d047311548fe" method="post" novalidate="novalidate"></form>
+</div>
+<div class="modal-footer">
+<div class="content-media-picker-note" hidden=""></div>
+<div class="content-media-picker-controls poster-picker-controls" data-poster-picker-controls-for="poster-picker-799d5674-975c-484f-b844-d047311548fe"> <div class="modal-action-group -center"> <button class="button -destructive" data-js-trigger="reset" disabled="" form="poster-picker-799d5674-975c-484f-b844-d047311548fe" type="button"> <span class="label" data-js-label-for="film">Reset <span class="js-image-type">poster</span></span> <span class="label" data-js-label-for="object" hidden="">Reset for <span class="js-object-name">item</span></span> </button> <button class="button -action" data-js-trigger="submit" disabled="" form="poster-picker-799d5674-975c-484f-b844-d047311548fe" type="submit"> <span class="label" data-js-label-for="film">Save<span class="mob-hide"> changes</span></span> <span class="label" data-js-label-for="object" hidden="">Save<span class="mob-hide"> for <span class="js-object-name">item</span></span></span> </button> </div> <div aria-hidden="true" class="objectonly js-objectonly" hidden=""> <label class="option-label -checkbox -medium -reversed" for="poster-picker-frm-object-only"> <input class="checkbox" data-js-trigger="object-only" disabled="" id="poster-picker-frm-object-only" type="checkbox" value="true"/><i class="substitute"></i>This <span class="js-object-name">item</span> only </label> </div> </div>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" aria-labelledby="backdrop-picker-modal-title" class="modal fade content-media-picker-modal backdrop-picker-modal" data-bs-backdrop="static" id="backdrop-picker-modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg modal-fullscreen-sm-down modal-dialog-centered modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="backdrop-picker-modal-title">Select your preferred backdrop</h5>
+<button aria-label="Close" class="modal-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<form action="" data-backdrop-picker-options='{"id": "3a29c906-1a3e-481c-9693-204c84fcff50"}' data-js-target="backdrop-picker" id="backdrop-picker-3a29c906-1a3e-481c-9693-204c84fcff50" method="post" novalidate="novalidate"></form>
+</div>
+<div class="modal-footer">
+<div class="content-media-picker-note" hidden=""></div>
+<div class="content-media-picker-controls backdrop-picker-controls" data-backdrop-picker-controls-for="backdrop-picker-3a29c906-1a3e-481c-9693-204c84fcff50"> <div class="modal-action-group -center"> <button class="button -destructive" data-js-trigger="reset" disabled="" form="backdrop-picker-3a29c906-1a3e-481c-9693-204c84fcff50" type="button"> <span class="label" data-js-label-for="film">Reset <span class="js-image-type">poster</span></span> <span class="label" data-js-label-for="object" hidden="">Reset for <span class="js-object-name">item</span></span> </button> <button class="button -action" data-js-trigger="submit" disabled="" form="backdrop-picker-3a29c906-1a3e-481c-9693-204c84fcff50" type="submit"> <span class="label" data-js-label-for="film">Save<span class="mob-hide"> changes</span></span> <span class="label" data-js-label-for="object" hidden="">Save<span class="mob-hide"> for <span class="js-object-name">item</span></span></span> </button> </div> <div aria-hidden="true" class="objectonly js-objectonly" hidden=""> <label class="option-label -checkbox -medium -reversed" for="backdrop-picker-frm-object-only"> <input class="checkbox" data-js-trigger="object-only" disabled="" id="backdrop-picker-frm-object-only" type="checkbox" value="true"/><i class="substitute"></i>This <span class="js-object-name">item</span> only </label> </div> </div>
+</div>
+</div>
+</div>
+</div>
+<div aria-hidden="true" aria-labelledby="remove-ads-modal-title" class="modal fade modal-upgrade-message" id="remove-ads-modal" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="remove-ads-modal-title">Upgrade to remove ads</h5>
+<button aria-label="Close" class="modal-close modal-close-white" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<div class="body-text -hero">
+<p>Letterboxd is an independent service created by a small team, and we rely mostly on the support of our members to maintain our site and apps. Please consider upgrading to a <a href="/pro/">Pro account</a>—for less than a couple bucks a month, you’ll get cool additional features like all-time and annual stats pages (<a href="https://letterboxd.com/jack/stats/">example</a>), the ability to select (and filter by) your favorite streaming services, and no ads!</p>
+</div>
+</div>
+<div class="modal-footer">
+<a class="button -action button-action" href="/pro/">Learn more about Pro</a>
+</div>
+</div>
+</div>
+</div>
+<script crossorigin="" src="local_resources\partner-publishers-6V5fFKa__53c127455b8fc719.js" type="module"></script>
+<link crossorigin="" href="local_resources\B5Qt9EMX_e125ac05b40e3313.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Duz0x7wZ_5d889b735803f54e.js" rel="modulepreload"/>
+<link crossorigin="" href="local_resources\Bbh8MmKk_1f93d62f6e86c702.js" rel="modulepreload"/>
+<script type="module">import.meta.url;import("_").catch(()=>1);(async function*(){})().next();if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
+<script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
+<script nomodule="">!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
+<script crossorigin="" id="vite-legacy-polyfill" nomodule="" src="local_resources\polyfills-legacy-C9152DdJ_e1ed9b3291e915c4.js"></script>
+<script crossorigin="" data-src="https://s.ltrbxd.com/static/js/system/partner-publishers-legacy-D4ViuE22.js" id="vite-legacy-entry" nomodule="">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
+</body>
+</html>

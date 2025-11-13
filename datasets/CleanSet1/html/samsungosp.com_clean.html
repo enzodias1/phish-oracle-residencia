@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>www.samsungosp.com</title>
+<!-- link rel="icon" type="image/x-icon" href="favicon.ico" / -->
+<meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport"/>
+<style>
+/********************/
+/* Default Settings */
+/********************/
+* {margin:0; padding:0; font-family:inherit; font-size:inherit; line-height:inherit; color:inherit;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+html, body {width:100%; height:100%;}
+html {-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}
+body {font-family:Arial, Roboto, "Helvetica Neue", "Apple Gothic", sans-serif;  color:#252525; font-size:16px; line-height:1.25;}
+[lang=zh] body {font-family:'Microsoft Yahei', Arial, Roboto, "Helvetica Neue", "Apple Gothic", sans-serif;}
+header, main, nav, footer {display:block;}
+li {list-style:none;}
+img{border-style:none}
+/* motion */
+.iam-main-inner, .iam-contents {transition:0.12s}
+
+body {background:#f2f2f2;}
+.iam-wrapper {display:flex;flex-direction: column;height:100%}
+/* mobile header flex ì ê²¹ì¹¨íì ë°©ì§ */
+header, main, footer, menu-header, common-footer, two-step-verification-guide-header{flex:none;}
+header{position:relative;}
+main {width:100%;}
+.mbr-subUI .iam-main{margin-top:56px;}
+footer{margin-top:auto;padding:54px 0 25px;}
+@media (max-width:899px) {
+    .iam-wrapper {max-width:600px;margin:0 auto;}
+    .mbr-subUI .top-logo{display:none}
+    .mbr-subUI .top-menu{position:fixed;top:0;}
+    footer {padding-top:70px;}
+}
+@media (min-width:900px) {
+    body {background:#f7f7f7;}
+    .mbr-subUI .iam-main{margin-top:0;} 
+    .iam-main-inner {padding:125px 0 0;}   
+    .footer {height:84px;}
+    .mbr-footer-inner {width:820px;margin:0 auto;}
+}
+@media (min-width:1420px) {
+    .mbr-footer-inner {width:1232px;}
+}
+/* header */
+header{position:relative;}
+.iam-header-in {display:flex;flex-wrap:wrap;position:relative;}
+.iam-header-inner {position:relative;width:100%;height:51px;}
+.iam-header-inner.top-logo{order:1;height:70px;line-height:70px}
+.top-logo h1 a{padding:0; margin:0;}
+.top-logo h1 a img{height:12px;vertical-align:middle;}
+@media (max-width:899px) {
+    .iam-header-inner{flex:none;}
+    .iam-header-inner.top-logo{padding:0 24px;}     
+}
+@media (min-width:901px) {
+    header:after {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 91px;
+        border-bottom: 1px solid #d6d6d6;
+        background-color: #fff;
+    }
+}
+@media (min-width:900px) {
+    header:after{z-index:-1;content:'';position:absolute;top:0;left:0;width:100%;height:91px;border-bottom:1px solid #d6d6d6;background-color:#fff;}
+    .iam-header-in{width:820px;margin:0 auto;}
+    .iam-header-inner.top-logo {width:50%;height:91px;line-height:90px}
+    .iam-header-inner.top-logo {padding:0 33px;}
+    .iam-inner {position:relative;margin:0 auto;line-height:90px}
+    .top-logo h1{position:relative;z-index:99}
+    .top-logo h1 a img {height:18px;}
+    .iam-header-inner.top-logo{order:1;}  
+}
+@media (min-width:1420px) {
+    .iam-header-in{width:1232px;}
+}
+/* footer */
+footer {position:relative;width:100%;}
+.mbr-footer-inner {display:flex;flex-wrap:wrap;justify-content: space-between;padding:0 31px; margin:0 auto;}
+.mbr-footer-inner .mbr-footer-row:first-child{width: 100%;flex:none;}
+.mbr-footer-inner .mbr-footer-row:first-child img{width:144px;height:auto}
+.mbr-footer-address {margin-top:2px;font-size:0.75em;color:#252525;font-weight:300;font-style: normal;opacity:0.6;line-height:22px}
+.mbr-footer-inner .mbr-footer-row {width:100%;text-align:center;}
+@media (max-width:899px) {
+  .mbr-footer-inner {padding: 0 5px;} 
+  .mbr-footer-inner .mbr-footer-row {width: 100%;text-align:center;}
+  .mbr-footer-inner .mbr-footer-row:nth-child(1){order:2;margin-top:16px;}  
+  .mbr-footer-inner .mbr-footer-row:nth-child(2){order:3;margin-top:2px;} 
+  .mbr-footer-inner .mbr-footer-row:nth-child(3){order:1;} 
+  .mbr-footer-row.foo-cont {display:block;margin:0;}
+  .mbr-footer-row.foo-cont  div {display:block;}  
+}
+@media (min-width:900px) and (max-width:1419px){
+   .mbr-footer-inner .mbr-footer-row{width:100%;text-align:center;}
+   .mbr-footer-inner .mbr-footer-row:nth-child(1){order:2;margin-top:30px;}  
+   .mbr-footer-inner .mbr-footer-row:nth-child(2){order:3;margin-top:2px;} 
+   .mbr-footer-inner .mbr-footer-row:nth-child(3){order:1;} 
+} 
+/* body */
+/* intro */
+.mbr_introContent { margin:23px auto 0 auto; max-width:500px;  text-align: center; ; }
+.mbr_introContent .cibg img { width:100%; max-width:500px;  }
+.slider { max-width:556px;  min-height:178px; margin:59px auto 0 auto; position: relative; }
+.slider>div { font-size:36px; font-weight: 600; line-height: 1.11; word-wrap: break-word; word-break: keep-all; display: block; position: absolute; width: 100%; height: 100%; top: 0; opacity: 0; 
+	-webkit-animation:topFadeOut 24s infinite; 
+	-moz-animation:topFadeOut 24s infinite; 
+	-o-animation:topFadeOut 24s infinite; 
+	animation:topFadeOut 24s infinite; } 
+.slider>div:nth-child(1) { animation-delay:0s; }
+.slider>div:nth-child(2) { animation-delay:6s; }
+.slider>div:nth-child(3) { animation-delay:12s; }
+.slider>div:nth-child(4) { animation-delay:18s; }
+.slider>div span { font-size: 18px; font-weight: normal; line-height: normal; display: block; margin-top:24px; }
+@-webkit-keyframes topFadeOut {
+    0% {opacity:0; position: absolute; top:10%; }
+    3% {opacity:1; position: absolute; top:0; }
+    15% {opacity:1; }
+    20% {opacity:1; } 
+    21% {opacity:0; } 
+    100% {opacity:0; }
+}
+@-moz-keyframes topFadeOut {
+   0% {opacity:0; position: absolute; top:10%; }
+    3% {opacity:1; position: absolute; top:0; }
+    15% {opacity:1; }
+    20% {opacity:1; } 
+    21% {opacity:0; } 
+    100% {opacity:0; }
+}
+@-o-keyframes topFadeOut {
+    0% {opacity:0; position: absolute; top:10%; }
+    3% {opacity:1; position: absolute; top:0; }
+    15% {opacity:1; }
+    20% {opacity:1; } 
+    21% {opacity:0; } 
+    100% {opacity:0; }
+}
+@keyframes topFadeOut {
+  0% {opacity:0; position: absolute; top:10%; }
+  3% {opacity:1; position: absolute; top:0; }
+  15% {opacity:1; }
+  20% {opacity:1; } 
+  21% {opacity:0; } 
+  100% {opacity:0; }
+}
+.mbr_introContent .iam-btn-container { padding: 0; }
+.mbr_introContent .iam-button { display: block; margin:0 auto 9px auto; min-width: 240px; border-color:#008cff; color: #575757; }
+.mbr_introContent .iam-button.iam-primary { color: #fff; }
+@media(max-width:899px) { 
+	.mbr-subUI .iam-header.mbr_intro .top-logo { display: block; }
+	.slider>div { font-size:36px; line-height: 1.11; }
+	.slider>div span { font-size:18px; line-height:inherit; }
+    .slider { min-height:130px;}
+    .mbr-subUI .mbr_introContent .iam-button {width:100%;max-width:240px; min-height:40px; min-width:inherit; }    
+}
+@media(max-width:399px) {
+	.mbr_introContent { margin-top:-19px; max-width:312px; }
+	.mbr_introContent .cibg img { max-width:312px; }
+	.slider { margin-top:49px; min-height:105px; }
+	.slider>div { font-size:26px; line-height: 1.15; padding: 0 24px; }
+	.slider>div span { font-size:14px; line-height: 1.29; margin-top:15px; }
+	.mbr_introContent .iam-btn-container { padding:0 24px;}
+	.mbr_introContent .iam-button { margin-bottom:13px; }
+	.mbr-subUI .mbr_introContent .iam-button { max-width:270px; min-height:36px; min-width:inherit; font-size:15px; }
+}
+
+</style>
+</head>
+<body aria-label="ë¬¸ìë´ì©ë¤ì´ê°ëê³³">
+<!-- iam-wrapper -->
+<div class="menu-dimmed" style="display:none"></div>
+<div class="iam-wrapper mbr-subUI">
+<!-- HEADER -->
+<header class="iam-header mbr_intro">
+<div class="iam-header-in">
+<div class="iam-header-inner top-logo">
+<div class="iam-inner">
+<h1><a href="https://account.samsung.cn" target="_blank"><img alt="Samsung account" src="local_resources\txt_logo_cn_032a4686b6a701b6.png"/></a></h1>
+</div>
+</div>
+</div>
+</header>
+<!-- //HEADER -->
+<!-- MAIN -->
+<main class="iam-main">
+<!-- iam-main-inner -->
+<div class="iam-main-inner">
+<!-- contents -->
+<section class="mbr_introContent">
+<div class="cibg"><img alt="intro picture" src="local_resources\intro_mbr_3bd42fd4a6940d29.png"/></div>
+<div class="slider" role="textbox">
+<div>è¿å¥ä¸æä¸ççé¨æ·<span>æ¢ç´¢ä½¿ç¨ä¸æå¸æ·å¯å®ç°åªäºåè½</span></div>
+<div>ä»ä»»ä½å°æ¹å¾å°æ¯æ<span>ä»éè½»æ¾ç¹æï¼å³å¯å®ç°24/7å¨å¤©åè®¿é®å®¢æ·æå¡</span></div>
+<div>ä¿æ¤æ¨çè®¾å¤åä¿¡æ¯å®å¨<span>ä»æ°æ®å°é¶è¡ä½é¢ï¼ä¿æ¤æ¨çéè¦èµæ</span></div>
+<div>è®©æ¨çææºç¬ä¸æ äº<span>è®¾è®¡å®æ¥åæ æ¨çä¸ªäººåå³ãåå¥½ï¼çè³æ¨çç¡ç ä¹ æ¯</span></div>
+</div>
+</section>
+<!-- //contents -->
+</div>
+<!-- //iam-main-inner -->
+</main>
+<!-- //MAIN -->
+<!-- FOOTER -->
+<footer class="mbr-footer" role="contentinfo">
+<div class="mbr-footer-inner">
+<div class="mbr-footer-row"> <img alt="Samsung account" src="local_resources\txt_foo_logo_cn_c6bb446530d3ff70.png"/> </div>
+<div class="mbr-footer-row">
+<address class="mbr-footer-address">
+                    CopyrightÂ© Samsung Electronics Co., Ltd. All rights reserved.
+                </address>
+<address class="mbr-footer-address">
+<p id="result"></p>
+<script>
+                        // è·åå½åå¹´ä»½
+                        const currentYear = new Date().getFullYear();
+                        
+                        // å®ä¹è¦æ¼æ¥çå­ç¬¦ä¸²
+                        const baseString1 = "Â© 1995-";
+		                const baseString2 = " ä¸æï¼ä¸­å½ï¼æèµæéå¬å¸ çæææ"
+                        
+                        // æ¼æ¥å­ç¬¦ä¸²åå½åå¹´ä»½
+                        const resultString = baseString1 + currentYear + baseString2;
+                        
+                        // è·åHTMLåç´ å¹¶è®¾ç½®å¶åå®¹
+                        document.getElementById("result").textContent = resultString;
+                    </script>
+    æ­¤ç½é¡µæå¥½ä½¿ç¨IE9 æµè§å¨ãè°·æ­æµè§å¨ãè¹ææµè§å¨åå¶ä»æ°å¼æµè§å¨è¿è¡æµè§ã<br/>
+<a href="http://beian.miit.gov.cn/" target="_blank">äº¬ICPå¤05068163å·</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502040099" target="_blank"> <img alt="å¬å®" src="local_resources\gonganlogo_bc8dce76a8e285b8.png" style="position: relative;width: auto;top: 4px;"/> ç²¤å¬ç½å®å¤44011202001754å·</a>
+</address>
+</div>
+</div>
+</footer>
+<!-- //FOOTER -->
+</div>
+<!-- //iam-wrapper -->
+</body>
+</html>

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Launchpad
+  </title>
+  <link href="local_resources\apple-touch-icon_455553dfcf489985.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="local_resources\favicon-32x32_e21564a1659d2053.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="local_resources\favicon-16x16_b2541c7cb43e64e7.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link href="local_resources\site_69b0571ed595cfa7.webmanifest" rel="manifest"/>
+  <link color="#e9531f" href="local_resources\safari-pinned-tab_520f75313f4bb488.svg" rel="mask-icon"/>
+  <link href="local_resources\favicon_42ea7cfc692d2fca.ico" rel="shortcut icon"/>
+  <meta content="#da532c" name="msapplication-TileColor"/>
+  <meta content="/@@/browserconfig.xml?v=2022" name="msapplication-config"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <link href="local_resources\announcements_5c3934be294b5fc1.atom" rel="alternate" title="All Announcements" type="application/atom+xml"/>
+  <link href="local_resources\combo_4a87472fc26cc93f.css" media="screen, print" rel="stylesheet" type="text/css"/>
+  <meta content="Launchpad" property="og:title"/>
+  <meta content="website" property="og:type"/>
+  <meta content="/@@/launchpad-og-image.png" property="og:image"/>
+  <meta content="https://launchpad.net/index.html" property="og:url"/>
+  <meta content="Launchpad" property="og:site_name"/>
+  <script type="text/javascript">
+   var LP = {
+        cache: {},
+        links: {}
+    };
+  </script>
+  <script type="text/javascript">
+   var cookie_scope = '; Path=/; Secure; Domain=.launchpad.net';
+  </script>
+  <script src="local_resources\res_191e0f9807662b37" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   var raw = null;
+        if (LP.devmode) {
+           raw = 'raw';
+        }
+        YUI.GlobalConfig = {
+            combine: true,
+            comboBase: '/+combo/rev8374ba0e76ad9488a08d933f85538312577b8437/?',
+            root: 'yui/',
+            filter: raw,
+            debug: false,
+            fetchCSS: false,
+            maxURLLength: 2000,
+            groups: {
+                lp: {
+                    combine: true,
+                    base: '/+combo/rev8374ba0e76ad9488a08d933f85538312577b8437/?lp/',
+                    comboBase: '/+combo/rev8374ba0e76ad9488a08d933f85538312577b8437/?',
+                    root: 'lp/',
+                    // comes from including lp/meta.js
+                    modules: LP_MODULES,
+                    fetchCSS: false
+                }
+            }
+        }
+  </script>
+  <script type="text/javascript">
+   // we need this to create a single YUI instance all events and code
+      // talks across. All instances of YUI().use should be based off of
+      // LPJS instead.
+      var LPJS = new YUI();
+  </script>
+  <script id="base-layout-load-scripts" type="text/javascript">
+   //<![CDATA[
+        LPJS.use('base', 'node', 'console', 'event',
+            'oop', 'lp', 'lp.app.foldables','lp.app.sorttable',
+            'lp.app.inlinehelp', 'lp.app.links',
+            'lp.bugs.bugtask_index', 'lp.bugs.subscribers',
+            'lp.app.ellipsis', 'lp.code.branchmergeproposal.diff',
+            'lp.views.global',
+             function(Y) {
+
+            Y.on("domready", function () {
+                var global_view = new Y.lp.views.Global();
+                global_view.render();
+
+                Y.lp.app.sorttable.SortTable.init();
+                Y.lp.app.inlinehelp.init_help();
+                Y.lp.activate_collapsibles();
+                Y.lp.app.foldables.activate();
+                Y.lp.app.links.check_valid_lp_links();
+            });
+
+            Y.on('lp:context:web_link:changed', function(e) {
+                  window.location = e.new_value;
+            });
+        });
+        //]]>
+  </script>
+  <script id="base-helper-functions" type="text/javascript">
+   //<![CDATA[
+        // This code is pulled from lp.js that needs to be available on every
+        // request. Pulling here to get it outside the scope of the YUI block.
+        function setFocusByName(name) {
+            // Focus the first element matching the given name which can be focused.
+            var nodes = document.getElementsByName(name);
+            var i, node;
+            for (i = 0; i < nodes.length; i++) {
+                node = nodes[i];
+                if (node.focus) {
+                    try {
+                        // Trying to focus a hidden element throws an error in IE8.
+                        if (node.offsetHeight !== 0) {
+                            node.focus();
+                        }
+                    } catch (e) {
+                        LPJS.use('console', function(Y) {
+                            Y.log('In setFocusByName(<' +
+                                node.tagName + ' type=' + node.type + '>): ' + e);
+                        });
+                    }
+                    break;
+                }
+            }
+        }
+
+        function selectWidget(widget_name, event) {
+          if (event && (event.keyCode === 9 || event.keyCode === 13)) {
+              // Avoid firing if user is tabbing through or simply pressing
+              // enter to submit the form.
+              return;
+          }
+          document.getElementById(widget_name).checked = true;
+        }
+        //]]>
+  </script>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="local_resources\vanilla-framework-version-4.7.0.min_ff3af0120007cbc8.css" rel="stylesheet"/>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body class="tab-unknown main_only public yui3-skin-sam" id="document" itemscope="" itemtype="http://schema.org/WebPage">
+  <div class="yui-d0">
+   <div class="login-logout" id="locationbar">
+    <div id="logincontrol">
+     <a onclick="window.open('https://launchpầd.net/+login'); return false;">
+      Log in / Register
+     </a>
+    </div>
+   </div>
+   <!--id="locationbar"-->
+   <div class="yui-main" id="maincontent">
+    <div class="yui-b" dir="ltr">
+     <div class="context-publication">
+      <div class="registering" id="registration">
+      </div>
+     </div>
+     <div id="request-notifications">
+     </div>
+     <div>
+      <!-- Is your project registered yet? -->
+      <div class="homepage" id="homepage">
+       <div class="top-portlet">
+        <img alt="Launchpad logo and name" class="homepage__logo" id="launchpad-logo-and-name" src="local_resources\phish_launchpad-logo-and-name_fa74d2e0ecedd59f.svg"/>
+       </div>
+       <hr/>
+       <section class="p-strip is-shallow">
+        <div class="u-fixed-width">
+         <form accept-charset="UTF-8" action="" class="p-form p-form--inline" dir="ltr" id="homepage-searchform" lang="en" method="get" xml:lang="en">
+          <div class="p-form__group p-form--search">
+           <label class="u-off-screen" for="search-input">
+            Search
+           </label>
+           <div class="p-form__control u-clearfix">
+            <input autofocus="" id="search-input" name="field.text" type="search" value=""/>
+           </div>
+          </div>
+          <button class="p-button--positive" id="search" type="submit" value="Search Launchpad">
+           Search
+          </button>
+         </form>
+         <script type="text/javascript">
+          LPJS.use('lp', function () {
+                    setFocusByName('field.text');
+                });
+         </script>
+         <div class="u-text--muted" id="homepage-stats">
+          <strong>
+           47,933
+          </strong>
+          projects,
+          <strong>
+           2,074,374
+          </strong>
+          bugs,
+          <strong>
+           1,009,441
+          </strong>
+          branches,
+          <strong>
+           100,639
+          </strong>
+          Git repositories,
+          <strong>
+           3,168,620
+          </strong>
+          translations,
+          <strong>
+           820,205
+          </strong>
+          answers,
+          <strong>
+           76,258
+          </strong>
+          blueprints,
+              and counting...
+         </div>
+        </div>
+       </section>
+       <section class="p-strip is-shallow">
+        <div class="homepage-whatslaunchpad">
+         <div class="u-fixed-width u-clearfix">
+          <h2>
+           Launchpad
+          </h2>
+          <h4>
+           A software collaboration platform that provides
+          </h4>
+         </div>
+         <div class="u-fixed-width u-clearfix">
+          <div class="row p-divider">
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://bugs.launchpad.nêt/'); return false;">
+              Bug tracking
+             </a>
+            </h4>
+            <p>
+             One place to track bugs across project boundaries and tools
+            </p>
+           </div>
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://code.launchpad.nėt/'); return false;">
+              Code hosting
+             </a>
+             using
+             <a onclick="window.open('https://git-scm.c̓om/'); return false;">
+              Git
+             </a>
+            </h4>
+            <p>
+             Easy for anyone to get your project's code using Git
+            </p>
+           </div>
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://hēlp.launchpad.net/Code/Review'); return false;">
+              Code reviews
+             </a>
+            </h4>
+            <p>
+             Full control of who can land code in your project remains with you
+            </p>
+           </div>
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://launchpad̊.net/ubuntu'); return false;">
+              Ubuntu package building and hosting
+             </a>
+            </h4>
+            <p>
+             Publishing your software is simple with Personal Package Archives
+            </p>
+           </div>
+          </div>
+          <div class="row p-divider">
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://translations.launchpad.nėt/'); return false;">
+              Crowd source translations
+             </a>
+            </h4>
+            <p>
+             Build an open community to translate your software into almost any language
+            </p>
+           </div>
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://help.launchpad.nēt/Teams/MailingLists'); return false;">
+              Mailing lists
+             </a>
+            </h4>
+            <p>
+             Find and work with the right people by building a social network of individuals and teams around projects
+            </p>
+           </div>
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://answers.launchpad.nèt/'); return false;">
+              Answer tracking and FAQs
+             </a>
+            </h4>
+            <p>
+             Free software thrives on people helping each other when the unexpected happens
+            </p>
+           </div>
+           <div class="col-3 p-divider__block">
+            <h4>
+             <a onclick="window.open('https://blueprints.launchpaď.net/'); return false;">
+              Specification tracking
+             </a>
+            </h4>
+            <p>
+             Track ideas and chunks of work as “blueprints”
+            </p>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+       <section class="p-strip is-shallow">
+        <div id="homepage-getstarted">
+         <div class="u-fixed-width u-clearfix">
+          <h2 class="u-float-left">
+           Get started
+          </h2>
+         </div>
+         <div class="u-fixed-width u-clearfix">
+          <span>
+           Learn more about Launchpad in the
+           <a onclick="window.open('https://help.launchpad́.net/'); return false;">
+            user guide
+           </a>
+           .
+          </span>
+          If you're ready, you can:
+          <ul class="p-matrix">
+           <li class="p-matrix__item">
+            <img alt="add" class="p-matrix__img" src="local_resources\phish_add-homepage_c62f4b9fa97598a7.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/+login'); return false;">
+               Create an account
+              </a>
+             </h4>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="tour" class="p-matrix__img" src="local_resources\phish_tour-homepage_1704cccafdb212b6.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/+tour'); return false;">
+               Take the tour
+              </a>
+             </h4>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="question" class="p-matrix__img" src="local_resources\phish_question-homepage_90922ded7b61c99a.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('https://answers.läunchpad.net/'); return false;">
+               Find answers
+              </a>
+             </h4>
+            </div>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </section>
+       <section class="p-strip is-shallow">
+        <div id="homepage-featured">
+         <div class="u-fixed-width u-clearfix">
+          <h2 class="u-float-left">
+           Featured projects
+          </h2>
+         </div>
+         <div class="u-fixed-width u-clearfix">
+          <ul class="p-matrix featured-projects-list">
+           <li class="p-matrix__item">
+            <img alt="Beautiful Soup" class="p-matrix__img" src="local_resources\product-logo_3740ef43a2594cb2"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/beautifulsoup'); return false;">
+               Beautiful Soup
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               A program designed for screen-scraping HTML. The discussion group is at: http://groups.google.com...
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="Inkscape" class="p-matrix__img" src="local_resources\phish_ink-lp-logo_4b9a8976fea3f966.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/inkscape'); return false;">
+               Inkscape
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               Inkscape is an SVG-based graphics editor featuring alpha  
+blending, node editing, SVG to PNG exp...
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="Launchpad itself" class="p-matrix__img" src="local_resources\phish_Canonical_Launchpad_icon_64px_b04315ea0ca09e8f.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/launchpad'); return false;">
+               Launchpad itself
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               Launchpad is a set of Web services to help software developers collaborate.
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="launchpadlib " class="p-matrix__img" src="local_resources\product-logo_3740ef43a2594cb2"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/launchpadlib'); return false;">
+               launchpadlib
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               Python client library for Launchpad's web service
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="OpenMW" class="p-matrix__img" src="local_resources\product-logo_3740ef43a2594cb2"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/openmw'); return false;">
+               OpenMW
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               OpenMW is an attempt to reimplement the popular role playing game Morrowind. It aims to be a full...
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="OpenShot Video Editor" class="p-matrix__img" src="local_resources\phish_OpenShot-2-Logo_e78e0040b8a04cfd.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/openshot'); return false;">
+               OpenShot Video Editor
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               OpenShot Video Editor is a free, open-source, non-linear video editor. It can create and edit vid...
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="OpenStack" class="p-matrix__img" src="local_resources\phish_os64_d72dec17511508a5.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/openstack'); return false;">
+               OpenStack
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               The OpenStack Open Source Cloud Mission: to produce the ubiquitous Open Source Cloud Computing pl...
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="txpkgupload" class="p-matrix__img" src="local_resources\product-logo_3740ef43a2594cb2"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/txpkgupload'); return false;">
+               txpkgupload
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               Package upload server used by Launchpad.
+              </p>
+             </div>
+            </div>
+           </li>
+           <li class="p-matrix__item">
+            <img alt="Ubuntu" class="p-matrix__img" src="local_resources\phish_CoF%2064px_f2a87dcc0221d02d.png"/>
+            <div class="p-matrix__content">
+             <h4 class="p-matrix__title">
+              <a class="p-matrix__link" onclick="window.open('/ubuntu'); return false;">
+               Ubuntu
+              </a>
+             </h4>
+             <div class="p-matrix__desc">
+              <p>
+               Ubuntu is a complete Linux-based operating system, freely available with both community and profe...
+              </p>
+             </div>
+            </div>
+           </li>
+          </ul>
+          <ul class="horizontal">
+           <li>
+            <strong>
+             <a onclick="window.open('/projects'); return false;">
+              Browse all
+                    47933
+                    projects
+             </a>
+             !
+            </strong>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </section>
+       <section class="p-strip is-shallow">
+        <div id="homepage-blogposts">
+         <div class="u-fixed-width u-clearfix">
+          <h2 class="u-float-left">
+           Recent Launchpad blog posts
+          </h2>
+          <a class="p-button u-float-right u-hide--small" onclick="window.open('http://blog.launchpad̥.net'); return false;">
+           Read the blog
+          </a>
+         </div>
+         <div class="u-fixed-width u-clearfix">
+          <ul>
+           <li class="news">
+            <a onclick="window.open('https://blog.launc̈hpad.net/general/phasing-out-bazaar-code-hosting'); return false;">
+             Phasing out Bazaar code hosting
+            </a>
+            <span class="registered">
+             – 06 Jun 2025
+            </span>
+            <br/>
+            What is Bazaar code hosting? Bazaar is a distributed revision control system, originally developed by Canonical. It provides similar functionality compared to the now dominant Git. Bazaar code hosting is an offering from Launchpad to both provide a Bazaar backend for hosting code, but also a web frontend for browsing the code. The frontend is […]
+           </li>
+           <li class="news">
+            <a onclick="window.open('https://blog.launchpad̊.net/general/introducing-launchpad-bug-templates'); return false;">
+             Introducing Launchpad Bug Templates
+            </a>
+            <span class="registered">
+             – 03 Dec 2024
+            </span>
+            <br/>
+            The new feature bug templates in Launchpad aims to streamline the bug reporting process, making it more efficient for both users and project maintainers. In the past, Launchpad provided only a basic description field for filling bug reports. This often led to incomplete or vague submissions, as users may not include essential details or steps […]
+           </li>
+           <li class="news">
+            <a onclick="window.open('https://blog.láunchpad.net/general/launchpads-new-homepage'); return false;">
+             Launchpad’s new homepage
+            </a>
+            <span class="registered">
+             – 01 Mar 2024
+            </span>
+            <br/>
+            Launchpad’s new homepage Launchpad has been around for a while, and its frontpage has remained untouched for a few years now. If you go into launchpad.net, you’ll notice it looks quite different from what it has looked like for the past 10 years – it has been updated! The goal was to modernize it while […]
+           </li>
+           <li class="news">
+            <a onclick="window.open('https://blòg.launchpad.net/general/launchpad-verified-federated-matrix-accounts'); return false;">
+             Launchpad-linked federated Matrix accounts
+            </a>
+            <span class="registered">
+             – 22 Jan 2024
+            </span>
+            <br/>
+            Users can now add their Matrix accounts to their profile in Launchpad, as requested by Canonical’s Community team. We also took the chance to slightly rework the frontend and how we display social accounts in the user profiles. Instead of having different sections in the profile for each social account , all social accounts are […]
+           </li>
+           <li class="news">
+            <a onclick="window.open('https://blog.launc̃hpad.net/ppa/self-service-riscv64-builds'); return false;">
+             Self-service riscv64 builds
+            </a>
+            <span class="registered">
+             – 22 Nov 2023
+            </span>
+            <br/>
+            Launchpad has supported building for riscv64 for a while, since it was a requirement to get Ubuntu’s riscv64 port going. We don’t actually have riscv64 hardware in our datacentre, since we’d need server-class hardware with the hypervisor extension and that’s still in its infancy; instead, we do full-system emulation of riscv64 on beefy amd64 hardware […]
+           </li>
+           <li class="news">
+            <a onclick="window.open('https://blog.launchpād.net/general/introducing-project-scoped-access-tokens'); return false;">
+             Introducing Project-Scoped Access Tokens
+            </a>
+            <span class="registered">
+             – 20 Nov 2023
+            </span>
+            <br/>
+            Access tokens can be used to access repositories on behalf of someone. They have scope limitations, optional expiry dates, and can be revoked at any time. They are a stricter and safer alternative to using real user authentication when needing to automate pushing and/or pulling from your git repositories. This is a concept that has […]
+           </li>
+          </ul>
+         </div>
+        </div>
+       </section>
+      </div>
+      <!-- homepage -->
+     </div>
+    </div>
+    <!-- yui-b -->
+   </div>
+   <!-- yui-main -->
+   <!-- yui-b side -->
+   <!-- yui-t4 -->
+   <div class="footer" id="footer">
+    <div class="colophon">
+     © 2004
+     <a onclick="window.open('http://canonical.ċom/'); return false;">
+      Canonical Ltd.
+     </a>
+     •
+     <a onclick="window.open('https://ubuntu.ćom/legal/launchpad-terms-of-service'); return false;">
+      Terms of use
+     </a>
+     •
+     <a onclick="window.open('https://www.ubuntu.ćom/legal/dataprivacy'); return false;">
+      Data privacy
+     </a>
+     •
+     <a onclick="window.open('/feedback'); return false;">
+      Contact Launchpad Support
+     </a>
+     •
+     <a onclick="window.open('http://blog.launchpad́.net/'); return false;">
+      Blog
+     </a>
+     •
+     <a onclick="window.open('https://canonicāl.com/careers'); return false;">
+      Careers
+     </a>
+     •
+     <a onclick="window.open('https://ubuntu.soc̃ial/@launchpadstatus'); return false;">
+      System status
+     </a>
+     <span id="lp-version">
+      • 
+        8374ba0
+        
+        
+        (
+      <a onclick="window.open('https://dócumentation.ubuntu.com/launchpad/'); return false;">
+       Get the code!
+      </a>
+      )
+     </span>
+    </div>
+   </div>
+  </div>
+  <!-- yui-d0-->
+  <script id="json-cache-script">
+   LP.cache = {"related_features": {}};
+  </script>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+ <!--
+    Facet name: unknown
+    Page type: main_only
+    Has global search: True
+    Has application tabs: True
+    Has side portlets: False
+
+    At least 24 queries/external actions issued in 0.30 seconds
+
+    Features: {'profiling.enabled': None, 'hard_timeout': '5000', 'js.yui_version': None, 'app.maintenance_message': None, 'app.mainsite_only.canonical_url': None, 'app.root_blog.enabled': 'true', 'memcache': None, 'baselayout.careers_link.disabled': None, 'visible_render_time': None}
+
+    r8374ba0
+
+    -->
+</html>

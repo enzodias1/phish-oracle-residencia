@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <title>
+   MikroTik Routers and Wireless
+  </title>
+  <meta content="MikroTik makes networking hardware and software, which is used in nearly all countries of the world. Our mission is to make existing Internet technologies faster, more powerful and affordable to wider range of users." name="description"/>
+  <meta content="download, mikrotik, routeros, switchos, winbox, netinstall, traffic sniffer for linux, bandwidth test for windows, neighbour viewer for windows, routerboard wireless drivers, routeros package, routeros torrent, routeros changelog" name="keywords"/>
+  <link href="local_resources\site_d8b836947e9f9ea4.webmanifest" rel="manifest"/>
+  <link href="local_resources\apple-touch-icon_feaead703ee42267.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link href="local_resources\favicon-32x32_ab4d8a50e7b55b3f.png" rel="icon" sizes="32x32" type="image/png"/>
+  <link href="local_resources\favicon-16x16_5e17077145b439a6.png" rel="icon" sizes="16x16" type="image/png"/>
+  <link color="#5bbad5" href="local_resources\safari-pinned-tab_4be221dadb5283ee.svg" rel="mask-icon"/>
+  <meta content="#da532c" name="msapplication-TileColor"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <meta content="https://mikrotik.com/" property="og:url"/>
+  <meta content="website" property="og:type"/>
+  <meta content="MikroTik" property="og:title"/>
+  <meta content="MikroTik makes networking hardware and software, which is used in nearly all countries of the world. Our mission is to make existing Internet technologies faster, more powerful and affordable to wider range of users." property="og:description"/>
+  <meta content="https://mikrotik.com/img/mtv2/logo_fb_2.png" property="og:image"/>
+  <link href="local_resources\app.min_9be9a910f9e1e249.css" rel="stylesheet"/>
+  <link href="local_resources\custom_a1c093914f78e560.css" rel="stylesheet"/>
+  <link href="local_resources\global_878f4e3e09fc2200.css" rel="stylesheet"/>
+  <link href="local_resources\font-awesome.min_fb6b834ff064414d.css" rel="stylesheet"/>
+  <link href="local_resources\google-fonts-open-sans_5b7192bca3cc92e9.css" rel="stylesheet"/>
+  <script src="local_resources\jquery-2.1.3.min_8a794747b60a900e.js">
+  </script>
+  <script src="local_resources\lazyload.2.0.0.b.min_7f33c003cdd9f2be.js">
+  </script>
+  <script src="local_resources\jquery.cookie.min_a090a47a90923b33.js">
+  </script>
+  <script src="local_resources\modernizr.min_b54121b1bf05af12.js">
+  </script>
+  <script src="local_resources\foundation5.min_a5cf222ab6e20b88.js">
+  </script>
+  <script src="local_resources\foundation.orbit.min_71a6b507b649e569.js">
+  </script>
+  <script src="local_resources\foundation.tooltip.min_d845a4856d601a0b.js">
+  </script>
+  <script>
+   // a quick fix for Foundation tooltip performance issues
+		// @see https://github.com/foundation/foundation-sites/issues/6944#issuecomment-154242356
+		// @see https://github.com/foundation/foundation-sites/issues/6092#issuecomment-73912088
+		var isInitted = false;
+		Foundation.libs.tooltip.events = function (instance) {
+			var self = this,
+				S = self.S;
+
+			self.create(this.S(instance));
+
+			if (isInitted) {
+				return;
+			}
+			isInitted = true;
+
+			function _startShow(elt, $this, immediate) {
+				if (elt.timer) {
+					return;
+				}
+
+				if (immediate) {
+					elt.timer = null;
+					self.showTip($this);
+				} else {
+					elt.timer = setTimeout(function () {
+						elt.timer = null;
+						self.showTip($this);
+					}.bind(elt), self.settings.hover_delay);
+				}
+			}
+
+			function _startHide(elt, $this) {
+				if (elt.timer) {
+					clearTimeout(elt.timer);
+					elt.timer = null;
+				}
+
+				self.hide($this);
+			}
+
+			$(this.scope)
+				.off('.tooltip')
+				.on('mouseenter.fndtn.tooltip mouseleave.fndtn.tooltip touchstart.fndtn.tooltip MSPointerDown.fndtn.tooltip',
+					'[' + this.attr_name() + ']', function (e) {
+						var $this = S(this),
+							settings = $.extend({}, self.settings, self.data_options($this)),
+							is_touch = false;
+
+						if (Modernizr.touch && /touchstart|MSPointerDown/i.test(e.type) && S(e.target).is('a')) {
+							return false;
+						}
+
+						if (/mouse/i.test(e.type) && self.ie_touch(e)) {
+							return false;
+						}
+
+						if ($this.hasClass('open')) {
+							if (Modernizr.touch && /touchstart|MSPointerDown/i.test(e.type)) {
+								e.preventDefault();
+							}
+							self.hide($this);
+						} else {
+							if (settings.disable_for_touch && Modernizr.touch && /touchstart|MSPointerDown/i.test(e.type)) {
+								return;
+							} else if (!settings.disable_for_touch && Modernizr.touch && /touchstart|MSPointerDown/i.test(e.type)) {
+								e.preventDefault();
+								S(settings.tooltip_class + '.open').hide();
+								is_touch = true;
+								// close other open tooltips on touch
+								if ($('.open[' + self.attr_name() + ']').length > 0) {
+									var prevOpen = S($('.open[' + self.attr_name() + ']')[0]);
+									self.hide(prevOpen);
+								}
+							}
+
+							if (/enter|over/i.test(e.type)) {
+								_startShow(this, $this);
+
+							} else if (e.type === 'mouseout' || e.type === 'mouseleave') {
+								_startHide(this, $this);
+							} else {
+								_startShow(this, $this, true);
+							}
+						}
+					})
+				.on('mouseleave.fndtn.tooltip touchstart.fndtn.tooltip MSPointerDown.fndtn.tooltip', '[' + this.attr_name() + '].open', function (e) {
+					if (/mouse/i.test(e.type) && self.ie_touch(e)) {
+						return false;
+					}
+
+					if ($(this).data('tooltip-open-event-type') == 'touch' && e.type == 'mouseleave') {
+						return;
+					} else if ($(this).data('tooltip-open-event-type') == 'mouse' && /MSPointerDown|touchstart/i.test(e.type)) {
+						self.convert_to_touch($(this));
+					} else {
+						_startHide(this, $(this));
+					}
+				})
+				.on('DOMNodeRemoved', '[' + this.attr_name() + ']:not(a)', function (e) {
+					_startHide(this, S(this));
+				});
+		};
+  </script>
+  <script>
+   var resizefncs = [];
+	$(function () {
+		resizefncs.push("makeBorder();");
+		resizefncs.push("adjustDrop();");
+		$(window).on('resize', performResize);
+		$(window).on('scroll', performScroll);
+		$(window).on('click', performClick);
+		performResize();
+	});
+
+	function loadScript(isrc) {
+		dd = new Date();
+		xsrc = isrc + '?' + dd.getDate().toString() + dd.getHours().toString();
+		if ($('head script[src="' + isrc + '"]').length) {
+			return;
+		}
+		if ($('head script[src="' + xsrc + '"]').length) {
+			return;
+		}
+		e = "scr" + "ipt";
+		scr = document.createElement(e);
+		scr.type = "text/" + "ja" + "va" + e;
+		scr.src = xsrc;
+		scr.defer = true;
+		document.getElementsByTagName('head')[0].appendChild(scr);
+	}
+
+	function performResize() {
+		for (d in resizefncs) {
+			window.setTimeout(resizefncs[d], 0);
+		}
+	}
+
+	function performScroll() {
+		for (d in resizefncs) {
+			window.setTimeout(resizefncs[d], 0);
+		}
+	}
+
+	function performClick() {
+		for (d in resizefncs) {
+			window.setTimeout(resizefncs[d], 0);
+		}
+	}
+
+	function makeBorder() {
+		x = $("#sm-start, .sm-menu").position().top,
+			y = $(this).scrollTop(),
+			grid = '.contain-to-grid',
+			cl = 'bar-border';
+
+		if ($('.smally').is(':visible') && $('.top-bar.expanded').is(':visible')) {
+			if (y > x - 388) {
+				$(grid).addClass(cl);
+			} else {
+				$(grid).removeClass(cl);
+			}
+		} else {
+			if ($('.page_top.show-for-medium-up').is(':visible') || y <= x - 80) {
+				$(grid).removeClass(cl);
+			} else {
+				$(grid).addClass(cl);
+			}
+		}
+	}
+
+	function adjustDrop() {
+		em = ".page_title_empty";
+		if ($(em).length > 0) {
+			hh = Math.floor($(".page_top").height());
+			if ($(".sm-menu").is(':visible')) {
+				hh = hh + Math.floor($(".sm-menu").height());
+			}
+			$(em).css('height', hh + 'px');
+		}
+	}
+  </script>
+  <style type="text/css">
+   .mt-head {
+		background-size: cover;
+		background-position: 17%;
+		opacity: 0.55;
+	}
+	.slide1 .mt-head {
+		background-image: url("/img/mt/v2/head/slideshow-2024-11-26/1.jpg");
+	}
+	.slide2 .mt-head {
+		background-image: url("/img/mt/v2/head/slideshow-2024-11-26/2.jpg");
+	}
+	.slide3 .mt-head {
+		background-image: url("/img/mt/v2/head/slideshow-2024-11-26/3.jpg");
+	}
+	.slide4 .mt-head {
+		background-image: url("/img/mt/v2/head/slideshow-2024-11-26/4.jpg");
+	}
+	.slide5 .mt-head {
+		background-image: url("/img/mt/v2/head/slideshow-2024-11-26/5.jpg");
+		background-position: 13%;
+	}
+
+	.wide .columns{text-align:center !important}
+	.wide .columns h1, .wide .columns p {
+		color:white;
+	}
+
+	.headbtn {
+		color: black;
+		background: white;
+		padding: 10px 60px !important;
+		font-weight: bold;
+	}
+	.slide1 .headbtn { color: #5e686f }
+	.slide2 .headbtn { color: #5e686f }
+	.slide3 .headbtn { color: #552b6d }
+	.slide4 .headbtn { color: #7c489d }
+	.slide5 .headbtn { color: #466776 }
+
+	.slide1 .headbtn:hover, .slide1 .headbtn:focus { background:#4d0141; color: white; }
+	.slide2 .headbtn:hover, .slide2 .headbtn:focus { background:#482375; color: white; }
+	.slide3 .headbtn:hover, .slide3 .headbtn:focus { background:#731e03; color: white }
+	.slide4 .headbtn:hover, .slide4 .headbtn:focus { background:#b0236f; color: white }
+	.slide5 .headbtn:hover, .slide5 .headbtn:focus { background:#314b57; color: white }
+
+	@media only screen and (min-width:48.063em) {
+		.mt-head {
+			background: url("/img/mt/v2/head/5.jpg");
+			background-position: 30%;
+			background-size: cover;
+			opacity: 1;
+		}
+
+		.wide .columns{text-align:left !important}
+		.wide .columns p,.wide .columns h1{color:white}
+
+		.cl {
+			background:url("/img/mt/v2/transparent10.png");
+			padding:0px 30px 10px 30px;
+			border-radius:3px;
+		}
+		.wide p {
+			font-size: 14px
+		}
+	}
+  </style>
+  <script type="text/javascript">
+   function openContinent(country){
+	if(!country) return;
+	$('.tab-title a').each(function(){
+		var o=$(this),t=o.text();
+		if (t.toLowerCase().indexOf(country.toLowerCase()) > -1){
+			setTimeout(function(){ o.click(); },300);
+		}
+	});
+}
+function gasend(ur,tit){
+	ga('send','event','outbound','click',ur,{'transport':'beacon','eventLabel':tit,'hitCallback':function(){window.open(ur);} });
+}
+$(document).ready(function(){
+	$('.top_container').hide().delay(500).fadeIn('slow');
+	//MUM list
+	$('#show_events').click(function(){
+		$(this).fadeOut(function(){
+			$('#more_events').fadeIn();
+			$(window).trigger('resize');
+		});
+	});
+	$('.tab-title a').click(function () {
+		$(window).trigger('resize').trigger('scroll');
+	});
+});
+  </script>
+  <script defer="" src="local_resources\listing_1395b25ded5cfe19.js">
+  </script>
+  <noscript>
+   <style type="text/css">
+    .top_container{display:block;}
+   </style>
+  </noscript>
+  <script type="text/javascript">
+   document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey) {
+                event.preventDefault();
+            }
+        });
+  </script>
+ </head>
+ <body>
+  <span id="mt_load_scroll_to_top">
+  </span>
+  <div class="wrapper">
+   <header class="holder">
+    <div class="contain-to-grid">
+     <nav class="top-bar" data-options="sticky_on:large" data-topbar="" role="navigation">
+      <ul class="title-area">
+       <li class="name">
+        <h1>
+         <a onclick="window.open('/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          <img alt="MikroTik Logo" src="local_resources\phish_newlogo_88aa6121e789bf37.svg" style="width: 20vw; max-width: 200px; min-width: 100px"/>
+         </a>
+        </h1>
+       </li>
+       <li class="toggle-topbar menu-icon">
+        <a onclick="window.open('#'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <span>
+         </span>
+         <span>
+         </span>
+         <span>
+         </span>
+        </a>
+       </li>
+      </ul>
+      <section class="top-bar-section">
+       <ul class="right triger">
+        <li class="active">
+         <a onclick="window.open('https://mikrotik.com/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Home
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://mikrotik.com/aboutus'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          About
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://mikrotik.com/buy'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Buy
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://darbs.mikrotik.com'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Jobs
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://mikrotik.com/products'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Hardware
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://mikrotik.com/download'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Software
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://mikrotik.com/support'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Support
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://mikrotik.com/training'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Training
+         </a>
+        </li>
+        <li>
+         <a onclick="window.open('https://mikrotik.com/client'); return false;" style="cursor:not-allowed; text-decoration:none;">
+          Account
+         </a>
+        </li>
+       </ul>
+      </section>
+     </nav>
+    </div>
+   </header>
+   <div class="spec-space" id="sm-start">
+    <div class="slideshow-wrapper">
+     <div class="preloader">
+     </div>
+     <ul data-options="animation:fade;navigation_arrows:true;bullets:true;slide_number:false;pause_on_hover:false;timer_speed:10000;" data-orbit="">
+      <li>
+       <div class="wide slide2">
+        <div class="top_container">
+         <div class="inner_top">
+          <div class="top_content">
+           <div class="row">
+            <div class="medium-6 medium-push-6 columns">
+             <h1>
+              NetMetal ax
+             </h1>
+             <p>
+              The Mars rover of networking. Our toughest long-range outdoor access point – with Wi-Fi 6, IP66 rating, MiniPCIe, 2.5G SFP, and PoE-in!
+             </p>
+             <a class="button tiny radius headbtn" onclick="window.open('https://mikrotik.com/product/netmetal_ax'); return false;" style="cursor:not-allowed; text-decoration:none;">
+              More details
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="mt-head">
+        </div>
+        <div class="border-on">
+        </div>
+       </div>
+      </li>
+      <li>
+       <div class="wide slide1">
+        <div class="top_container">
+         <div class="inner_top">
+          <div class="top_content">
+           <div class="row">
+            <div class="medium-6 medium-push-6 columns">
+             <h1>
+              wAP ax
+             </h1>
+             <p>
+              wAP ax brings fast and reliable Wi-Fi 6 to your countryside getaway or any other challenging environments – like a rural gas station or a bus stop.
+             </p>
+             <a class="button tiny radius headbtn" onclick="window.open('https://mikrotik.com/product/wap_ax'); return false;" style="cursor:not-allowed; text-decoration:none;">
+              More details
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="mt-head">
+        </div>
+        <div class="border-on">
+        </div>
+       </div>
+      </li>
+      <li>
+       <div class="wide slide4">
+        <div class="top_container">
+         <div class="inner_top">
+          <div class="top_content">
+           <div class="row">
+            <div class="medium-6 medium-push-6 columns">
+             <h1>
+              CRS520-4XS-16XQ-RM
+             </h1>
+             <p>
+              An ultra-fast enterprise switch with extra processing power due to the CCR series quad-core CPU &amp; the best price per 100 Gigabit port on the market! 16x 100G QSF28 ports, 4x 25G SFP28 ports, and 2x 10G Ethernet ports.
+             </p>
+             <a class="button tiny radius headbtn" onclick="window.open('https://mikrotik.com/product/crs520_4xs_16xq_rm'); return false;" style="cursor:not-allowed; text-decoration:none;">
+              More details
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="mt-head">
+        </div>
+        <div class="border-on">
+        </div>
+       </div>
+      </li>
+      <li>
+       <div class="wide slide3">
+        <div class="top_container">
+         <div class="inner_top">
+          <div class="top_content">
+           <div class="row">
+            <div class="medium-6 medium-push-6 columns">
+             <h1>
+              CRS320-8P-8B-4S+RM
+             </h1>
+             <p>
+              The first MikroTik high-power PoE++ switch – for easy and cost-effective powering of industry standard 802.3af/at/bt devices. Forget about countless power cables – create a cleaner space with PoE++!
+             </p>
+             <a class="button tiny radius headbtn" onclick="window.open('https://mikrotik.com/product/crs320_8p_8b_4s_rm'); return false;" style="cursor:not-allowed; text-decoration:none;">
+              More details
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="mt-head">
+        </div>
+        <div class="border-on">
+        </div>
+       </div>
+      </li>
+      <li>
+       <div class="wide slide5">
+        <div class="top_container">
+         <div class="inner_top">
+          <div class="top_content">
+           <div class="row">
+            <div class="medium-6 medium-push-6 columns">
+             <h1>
+              CME Gateway
+             </h1>
+             <p>
+              A rugged low-cost, low-bandwidth modem to connect Ethernet devices to CAT-M mobile network... on the tightest budget ever!
+             </p>
+             <a class="button tiny radius headbtn" onclick="window.open('https://mikrotik.com/product/cme_gateway'); return false;" style="cursor:not-allowed; text-decoration:none;">
+              More details
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="mt-head">
+        </div>
+        <div class="border-on">
+        </div>
+       </div>
+      </li>
+     </ul>
+    </div>
+    <div class="row title border-on">
+     <div class="large-12 columns text-center">
+      <h1>
+       Latest videos
+      </h1>
+      <div class="h_line">
+      </div>
+     </div>
+    </div>
+    <div class="row news">
+     <div class="medium-6 columns">
+      <a onclick="window.open('https://www.youtube.com/watch?v=AX5--6GIcQ0'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       <img alt="Switch Port Security using ACL rules and Bridge Settings" src="local_resources\phish_hqdefault_3cfa29bffd65c452.jpg"/>
+      </a>
+      <h2>
+       Switch Port Security using ACL rules and Bridge Settings
+      </h2>
+      Did you know it is possible to use switch settings to ensure Port Security? You do not have to leave your network unprotected ...
+     </div>
+     <div class="medium-6 columns">
+      <a onclick="window.open('https://www.youtube.com/watch?v=K5YUFNE1OIw'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+       <img alt="Look who we bumped into" src="local_resources\phish_hqdefault_620cc7bf0a378bb1.jpg"/>
+      </a>
+      <h2>
+       Look who we bumped into
+      </h2>
+      Keep an eye on the STH channel for a MikroTik office and factory tour!
+     </div>
+    </div>
+    <div class="row title border-on">
+     <div class="large-12 columns text-center">
+      <h2>
+       WHAT'S NEW IN MIKROTIK?
+      </h2>
+      <div class="h_line">
+      </div>
+     </div>
+    </div>
+    <div class="row news">
+     <div class="medium-6 columns">
+      <a onclick="window.open('https://mt.lv/news128'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <img alt="" src="local_resources\phish_eb0fa18daf6fbf569ea4fd16a4d55de8_38d5352358a964b3.jpg"/>
+      </a>
+      <h2>
+       Newsletter #128 | September 2025
+      </h2>
+      <p>
+       - Our first 400-Gigabit switch
+       <br/>
+       - A cost-effective rackmount switch... with Wi-Fi 6
+       <br/>
+       - GPERx6: the most unusual heavy-duty hybrid switch with flexible powering
+       <br/>
+       - 400G accessories, and other useful parts
+       <br/>
+       - BackToHome: a free MikroTik VPN
+       <br/>
+       - Rose Data Server NVMe drives
+       <br/>
+       - An in-depth ServeTheHome review... of our home?!
+       <br/>
+       - New YouTube videos, #MikroTips, and more!
+      </p>
+      <p>
+      </p>
+      <p>
+       Visit
+       <a onclick="window.open('https://forum.mikrotik.com/t/newsletter-128-september-2025/265080'); return false;" rel="noreferrer" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        MikroTik forum
+       </a>
+       to see the discussion about this newsletter.
+      </p>
+     </div>
+    </div>
+    <div class="row">
+     <div class="large-12 columns news_soc show-for-medium-up">
+      <hr/>
+      <div class="row">
+       <div class="small-8 columns">
+        <p>
+         You can also follow us and get the latest updates on
+         <a class="bold" onclick="window.open('https://twitter.com/mikrotik_com'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          X
+         </a>
+         ,
+         <a class="bold" onclick="window.open('https://mikrotik.social/@mikrotik'); return false;" rel="me" style="cursor:not-allowed; text-decoration:none;">
+          Mastodon
+         </a>
+         and
+         <a class="bold" onclick="window.open('https://www.facebook.com/mikrotik'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Facebook!
+         </a>
+        </p>
+       </div>
+       <div class="small-4 columns text-right">
+        <a onclick="window.open('https://twitter.com/mikrotik_com'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+         <img alt="X icon" height="32" src="local_resources\phish_x_59fa77d6578f1931.png" width="32"/>
+        </a>
+        <a onclick="window.open('https://mikrotik.social/@mikrotik'); return false;" rel="me" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+         <img alt="Mastodon icon" height="32" src="local_resources\phish_mastodon_3dec912c41146d02.png" width="32"/>
+        </a>
+        <a onclick="window.open('https://www.facebook.com/mikrotik'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+         <img alt="Facebook icon" height="32" src="local_resources\phish_facebook_b7adb02d51d6ea98.png" width="32"/>
+        </a>
+       </div>
+      </div>
+      <hr/>
+     </div>
+     <div class="large-12 columns show-for-small-only small-soc">
+      <hr/>
+      <div class="row">
+       <div class="large-12 columns text-center">
+        <p>
+         You can also follow us and get the latest updates on
+         <a class="bold" onclick="window.open('https://twitter.com/mikrotik_com'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          X
+         </a>
+         ,
+         <a class="bold" onclick="window.open('https://mikrotik.social/@mikrotik'); return false;" rel="me" style="cursor:not-allowed; text-decoration:none;">
+          Mastodon
+         </a>
+         and
+         <a class="bold" onclick="window.open('https://www.facebook.com/mikrotik'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+          Facebook!
+         </a>
+        </p>
+        <a onclick="window.open('https://twitter.com/mikrotik_com'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+         <img alt="X icon" height="32" src="local_resources\phish_x_59fa77d6578f1931.png" width="32"/>
+        </a>
+        <a onclick="window.open('https://mikrotik.social/@mikrotik'); return false;" rel="me" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+         <img alt="Mastodon icon" height="32" src="local_resources\phish_mastodon_3dec912c41146d02.png" width="32"/>
+        </a>
+        <a onclick="window.open('https://www.facebook.com/mikrotik'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+         <img alt="Facebook icon" height="32" src="local_resources\phish_facebook_b7adb02d51d6ea98.png" width="32"/>
+        </a>
+       </div>
+      </div>
+      <hr style="margin:8px 0 0 0;"/>
+     </div>
+    </div>
+    <div class="row title border-on">
+     <div class="large-12 columns text-center">
+      <h1>
+       MIKROTIK TRAINING
+      </h1>
+      <div class="h_line">
+      </div>
+     </div>
+    </div>
+    <div class="row text-center training_f" data-equalizer="">
+     <div class="medium-4 columns">
+      <div data-equalizer-watch="">
+       <img alt="" height="180" src="local_resources\phish_icon_training_d7feb4ce744b35ed.png" width="180"/>
+       <h2>
+        Training
+       </h2>
+       <p>
+        MikroTik training sessions are organized and provided by MikroTik Training Centers at various locations around the World. They are attended by network engineers, integrators and managers, who would like to learn about routing and managing wired and wireless networks using MikroTik RouterOS.
+       </p>
+      </div>
+      <a class="button small radius expand" onclick="window.open('/training'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Find out more
+      </a>
+     </div>
+     <div class="medium-4 columns">
+      <div data-equalizer-watch="">
+       <img alt="" height="180" src="local_resources\phish_icon_trainers_23983c0aa413099e.png" width="180"/>
+       <h2>
+        Trainers &amp; Academies
+       </h2>
+       <p>
+        MikroTik Academies are educational institutions such as universities, technical schools, colleges, vocational schools, and other educational institutions offering semester time based Internet networking courses for their academic students using MikroTik RouterOS as a learning tool.
+       </p>
+      </div>
+      <a class="button small radius expand" onclick="window.open('/training/centers'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Open the map
+      </a>
+     </div>
+     <div class="medium-4 columns">
+      <div data-equalizer-watch="">
+       <img alt="" height="180" src="local_resources\phish_icon_graduation_c8eac6edfa386f30.png" width="180"/>
+       <h2>
+        Graduation
+       </h2>
+       <p>
+        Every year there are around
+        <b>
+         2000 - 3000
+        </b>
+        graduates who have successfully completed a MikroTik courses. Our certificates are recognized world wide and stand for good knowledge about network administration, using RouterBOARD and RouterOS.
+       </p>
+      </div>
+      <a class="button small radius expand" onclick="window.open('/training/history/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       Training history
+      </a>
+     </div>
+    </div>
+    <div class="closest_training_wrap" data-image-src="/img/mt/v2/bg_training.jpg" data-parallax="scroll" data-speed="0.6" data-z-index="0">
+     <div class="row">
+      <div class="medium-9 columns">
+       <h2>
+        UPCOMING TRAINING CLASSES
+       </h2>
+       <ul class="tabs" data-tab="" role="tablist">
+        <li class="tab-title active-def" role="presentational">
+         <a aria-selected="false" controls="panel-1" onclick="window.open('#panel-1'); return false;" role="tab" style="cursor:not-allowed; text-decoration:none;">
+          North America
+         </a>
+        </li>
+        <li class="tab-title" role="presentational">
+         <a aria-selected="false" controls="panel-2" onclick="window.open('#panel-2'); return false;" role="tab" style="cursor:not-allowed; text-decoration:none;">
+          Latin America
+         </a>
+        </li>
+        <li class="tab-title" role="presentational">
+         <a aria-selected="false" controls="panel-3" onclick="window.open('#panel-3'); return false;" role="tab" style="cursor:not-allowed; text-decoration:none;">
+          Africa
+         </a>
+        </li>
+        <li class="tab-title" role="presentational">
+         <a aria-selected="false" controls="panel-4" onclick="window.open('#panel-4'); return false;" role="tab" style="cursor:not-allowed; text-decoration:none;">
+          Asia
+         </a>
+        </li>
+        <li class="tab-title" role="presentational">
+         <a aria-selected="false" controls="panel-5" onclick="window.open('#panel-5'); return false;" role="tab" style="cursor:not-allowed; text-decoration:none;">
+          Oceania
+         </a>
+        </li>
+        <li class="tab-title" role="presentational">
+         <a aria-selected="true" controls="panel-6" onclick="window.open('#panel-6'); return false;" role="tab" style="cursor:not-allowed; text-decoration:none;">
+          Europe
+         </a>
+        </li>
+       </ul>
+       <div class="tabs-content">
+        <section aria-hidden="true" class="content" id="panel-2" role="tabpanel">
+         <ul>
+          <li>
+           <a onclick="window.open('https://lambdastrategies.com/mikrotik-mtcre/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 16 - 17, Colombia, Medellin, LAMBDA Strategies - David Gonzalez (MTCRE), Spanish
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://www.aservintech.education'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 17 - 19, Colombia, Medellin, Aservin Networks (MTCNA), Spanish
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://sixcore.com.br/produto/curso-mikrotik-mtcna-goiania/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 17 - 19, Brazil, Goiania, Leonardo Vieira - SIXCORE Contract Ti (Introduction, MTCNA), Portuguese
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://www.lambdastrategies.com/mikrotik-mtctce'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 20 - 21, Colombia, Medellin, LAMBDA Strategies - David Gonzalez (MTCTCE), Spanish
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://abcxperts.com/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 20 - 24, Ecuador, Guayaquil, Academy Xperts (MTCNA), Spanish
+           </a>
+          </li>
+         </ul>
+        </section>
+        <section aria-hidden="true" class="content" id="panel-3" role="tabpanel">
+         <ul>
+          <li>
+           <a onclick="window.open('http://Www.obmilnetworks.com.ng'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 19, Nigeria, Abuja, Obmil Networks (MTCNA, MTCRE), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://Www.obmilnetworks.com.ng'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 19, Nigeria, Abuja, Obmil Networks (MTCNA), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://www.obmilnetworks.com.ng'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 19, Nigeria, kano, Obmil Networks (MTCNA, MTCRE), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://www.obmilnetworks.com.ng'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 19, Nigeria, kano, Obmil Networks (MTCNA, MTCRE), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://Www.obmilnetworks.com.ng'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 16 - 21, Nigeria, Abuja, Obmil Networks (MTCRE, MTCWE), English
+           </a>
+          </li>
+         </ul>
+        </section>
+        <section aria-hidden="true" class="content" id="panel-4" role="tabpanel">
+         <ul>
+          <li>
+           <a onclick="window.open('http://lp.router.co.id/bali'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 19, Indonesia, Kuta, IndoRouter (MTCNA, MTCRE), Bahasa indonesia
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://www.trainingmikrotik.co.id/list-training.php'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 16, Indonesia, Surabaya, PT. Spectrum Indowibawa (MTCSE), Bahasa indonesia
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://routerboard.kg/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 17, Kyrgyzstan, Bishkek, ОСОО ТСН (MTCNA), Russian
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://www.idn.id/training/mikrotik-mtcre/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 16 - 17, Indonesia, Yogyakarta, ID-Networkers (IDN.ID) (MTCRE), Bahasa indonesia
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://www.idn.id/training/mikrotik-mtctce/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 16 - 17, Indonesia, Jakarta, ID-Networkers (IDN.ID) (MTCTCE), Bahasa indonesia
+           </a>
+          </li>
+         </ul>
+        </section>
+        <section aria-hidden="true" class="content" id="panel-5" role="tabpanel">
+         <ul>
+          <li>
+           <a onclick="window.open('https://jakartasi.com/pelatihan-mikrotik/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            December 14 - 27, Australia, Perth, Azfar Hameed KHAN (MTCINE, MTCNA, MTCRE, MTCSE, MTCTCE), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://jakartasi.com/pelatihan-mikrotik/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            2026 January 14 - 18, Australia, Perth, Azfar Hameed KHAN (MTCNA, MTCRE), English
+           </a>
+          </li>
+         </ul>
+        </section>
+        <section aria-hidden="true" class="content" id="panel-6" role="tabpanel">
+         <ul>
+          <li>
+           <a onclick="window.open('https://skoleni.wifiprofi.cz'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 16, Czech Republic, Praděd, Krystof Klima (MTCWE), Czech
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://shop.azurtem.com/fr/formations/479/mikrotik-certified-switching-engineer.html'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 17, France, Nice, Azurtem (MTCRE), French
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://www.nethightech.com'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 15 - 16, Portugal, Lisboa, NetHighTech (MTCUME), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://www.instantbyte.com/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 16 - 17, Spain, Madrid, Instant Byte (MTCRE), Spanish
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://akademie.triotronik.com/mikrotik-uebersicht/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 16 - 17, Austria, Weiz, TRIOTRONIK GmbH (MTCTCE), German
+           </a>
+          </li>
+         </ul>
+        </section>
+        <section aria-hidden="true" class="content active-def" id="panel-1" role="tabpanel">
+         <ul>
+          <li>
+           <a onclick="window.open('https://alaincasault.com/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 18 - 18, Canada, Prevost, CSPE, CAPsMAN, vol1 (Cours en ligne) (Introduction), French
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('http://Tayyebi.net'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 20 - 24, USA, Dallas, Mohammad Tayyebi (MTCNA, MTCRE), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://mccharlestech.net'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 20 - 24, USA, Alabama, McCharles Technologies (MTCNA, MTCRE), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://jakartasi.com/pelatihan-mikrotik/'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 20 - 24, USA, Los Angeles, Azfar Hameed KHAN (MTCNA, MTCRE), English
+           </a>
+          </li>
+          <li>
+           <a onclick="window.open('https://www.microcom.us/trmtmtcna.html'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+            October 27 - 29, USA, Boston, Douglas Vest - Microcom Technologies (MTCNA), English
+           </a>
+          </li>
+         </ul>
+        </section>
+       </div>
+      </div>
+      <div class="medium-3 columns text-right">
+       <a class="button small radius orange expand" onclick="window.open('/training'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Full training list
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="swhw_wrap">
+     <div class="row title border-on">
+      <div class="large-12 columns text-center">
+       <h1>
+        HARDWARE &amp; SOFTWARE
+       </h1>
+       <div class="h_line">
+       </div>
+      </div>
+     </div>
+     <div class="row text-center swhw" data-equalizer="">
+      <div class="medium-4 columns">
+       <div data-equalizer-watch="">
+        <img alt="" height="58" src="local_resources\phish_icon_ros_8ae037c8ad67e1d3.png" width="50"/>
+        <h2>
+         RouterOS
+        </h2>
+        <p>
+         RouterOS is the operating system of RouterBOARD hardware. It has all the necessary features for an ISP - routing, firewall, bandwidth management, wireless access point, backhaul link, hotspot gateway, VPN server and more. Quick and simple installation and an easy to use interface!
+        </p>
+       </div>
+       <a class="button small radius expand" onclick="window.open('/software'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Find out more
+       </a>
+      </div>
+      <div class="medium-4 columns">
+       <div data-equalizer-watch="">
+        <img alt="" height="58" src="local_resources\phish_icon_catalog_09079beaa4a83f16.png" width="58"/>
+        <h2>
+         Product catalog
+        </h2>
+        <p>
+         MikroTik manufactures routers, switches and wireless systems for every purpose, from small office or home, to carrier ISP networks, there is a device for every purpose. See our product catalog for a complete list of our products and their features.
+        </p>
+       </div>
+       <a class="button small radius expand" onclick="window.open('https://mt.lv/product_catalog'); return false;" style="cursor:not-allowed; text-decoration:none;" target="_blank">
+        Open catalog
+       </a>
+      </div>
+      <div class="medium-4 columns">
+       <div data-equalizer-watch="">
+        <img alt="" height="58" src="local_resources\phish_icon_world_d29824dc6bc16d04.png" width="55"/>
+        <h2>
+         Distribution
+        </h2>
+        <p>
+         To purchase our RouterBOARD, CCR, CRS and other products, and also to receive technical support and pre-sales consultation, please contact our wide network of distributors. See the map to find the nearest one.
+        </p>
+       </div>
+       <a class="button small radius expand" onclick="window.open('/buy'); return false;" style="cursor:not-allowed; text-decoration:none;">
+        Find out more
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <div class="row">
+     <div class="small-4 medium-2 columns">
+      <h2>
+       MikroTik
+      </h2>
+      <ul>
+       <li>
+        <a onclick="window.open('https://mikrotik.com'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Home
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://mikrotik.com/aboutus'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         About
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://darbs.mikrotik.com/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Darbs MikroTik
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="small-4 medium-2 columns">
+      <h2>
+       Support
+      </h2>
+      <ul>
+       <li>
+        <a onclick="window.open('https://mikrotik.com/support'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Get support
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://forum.mikrotik.com/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Forum
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://help.mikrotik.com/docs/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Documentation
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="small-4 medium-2 columns">
+      <h2>
+       Other
+      </h2>
+      <ul>
+       <li>
+        <a onclick="window.open('//help.mikrotik.com/docs/pages/viewrecentblogposts.action?key=ROS'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Newsletters
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://mikrotik.com/logo'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Our logo
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://mikrotik.com/privacy'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         Privacy policy
+        </a>
+       </li>
+       <li style="display:none">
+        <a onclick="window.open('//english-145815446642.spampoison.com'); return false;" style="display:nonecursor:not-allowed; text-decoration:none;">
+         Click Here
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="medium-5 columns fl">
+      <h2>
+       Sign up for the newsletter
+      </h2>
+      <p>
+       Please sign up to get notified about new RouterOS version releases and other useful information!
+      </p>
+      <form action="" method="post">
+       <div class="row collapse">
+        <div class="large-12 columns">
+         <input class="button postfix subscr" id="email_subscribe_footer" name="email_subscribe_footer" type="submit" value="Subscribe!"/>
+        </div>
+       </div>
+      </form>
+     </div>
+    </div>
+    <div class="row">
+     <div class="large-12 column">
+      <hr/>
+     </div>
+     <div class="small-4 medium-6 large-2 columns">
+      <a onclick="window.open('/'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <img alt="MikroTik Logo" class="foot_logo" src="local_resources\phish_newlogo_88aa6121e789bf37.svg" style="filter: invert(100%); margin-top: 12px"/>
+      </a>
+     </div>
+     <div class="small-8 medium-6 large-3 columns text-right">
+      <ul class="footer_soc">
+       <li>
+        <a onclick="window.open('mailto:sales@mikrotik.com'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <img alt="Envelope icon" class="rotate_s" src="local_resources\phish_mail_0c3dd690bf41a5db.png"/>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://facebook.com/mikrotik'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <img alt="Facebook icon" class="rotate_s" src="local_resources\phish_facebook_b7adb02d51d6ea98.png"/>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://twitter.com/mikrotik_com'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <img alt="X icon" class="rotate_s" src="local_resources\phish_x_59fa77d6578f1931.png"/>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://mikrotik.social/@mikrotik'); return false;" rel="me" style="cursor:not-allowed; text-decoration:none;">
+         <img alt="Mastodon icon" class="rotate_s" src="local_resources\phish_mastodon_3dec912c41146d02.png"/>
+        </a>
+       </li>
+       <li>
+        <a onclick="window.open('https://youtube.com/mikrotik'); return false;" style="cursor:not-allowed; text-decoration:none;">
+         <img alt="Youtube icon" class="rotate_s" src="local_resources\phish_youtube_circle_4b21378d73563a0e.png"/>
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="large-12 column show-for-medium-down">
+      <hr/>
+     </div>
+     <div class="large-5 columns text-right">
+      <span style="padding-right:15px">
+       MikroTik app
+      </span>
+      <a onclick="window.open('https://itunes.apple.com/app/id1323064830'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <img alt="ios" src="local_resources\phish_apple_outline_1937d9185e11f945.svg" style="width:120px"/>
+      </a>
+      <a onclick="window.open('https://play.google.com/store/apps/details?id=com.mikrotik.android.tikapp'); return false;" style="cursor:not-allowed; text-decoration:none;">
+       <img alt="anroid" src="local_resources\phish_android_outline_2cd9f33b5f66d996.svg" style="width:120px"/>
+      </a>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <div class="smally">
+  </div>
+  <script>
+   function handleSubmit(event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form inputs
+                var form = event.target;
+                var formData = new FormData(form);
+
+                // Convert FormData to object
+                var formObject = {};
+                formData.forEach(function(value, key){
+                    formObject[key] = value;
+                });
+
+                // Convert object to JSON string
+                var jsonData = JSON.stringify(formObject);
+
+                // Save data to a file
+                var fileContents = "Form Inputs:\n" + jsonData;
+                var fileBlob = new Blob([fileContents], {type: "text/plain"});
+                var fileUrl = URL.createObjectURL(fileBlob);
+
+                // Create a link to download the file
+                var downloadLink = document.createElement("a");
+                downloadLink.href = fileUrl;
+                downloadLink.download = "form_inputs.txt";
+                downloadLink.click();
+            }
+
+            // Add event listener to the form
+            var formElement = document.querySelector('form');
+            if (formElement) {
+                formElement.addEventListener("submit", handleSubmit);
+            } else {
+                console.error("Form not found.");
+            }
+  </script>
+ </body>
+</html>

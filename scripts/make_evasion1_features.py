@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 DATASETS = os.path.join(REPO, "datasets")
 EV1 = os.path.join(DATASETS, "evasion1")
-DIR_CLEAN = os.path.join(EV1, "CleanSet1")
-DIR_EVAS  = os.path.join(EV1, "EvasionSet1")
+DIR_CLEAN = os.path.join(DATASETS, "CleanSet1", "html")
+DIR_EVAS  = os.path.join(DATASETS, "EvasionSet1", "html")
 CSV_CLEAN_LIST = os.path.join(DATASETS, "CleanSet1.csv")
 CSV_EVAS_LIST  = os.path.join(DATASETS, "EvasionSet1.csv")
 
